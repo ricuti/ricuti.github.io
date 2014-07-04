@@ -1,0 +1,136 @@
+<html>
+<head>
+<title>MECANICA DE FLUIDOS, HE08, fisica online, ejercicios resueltos</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="keywords" content="problemas resueltos, ejercicios resueltos, cbc, fisica, biofisica, fluidos, liquidos, gases, bernoulli, poiseuille, viscosidad, ideales, viscosos, humedad, difusion, osmosis, nomesalen, no me salen, ricardo cabrera" />
+<meta name="description" content="Ejercicios y problemas resueltos, y apuntes teóricos de Fluidos, mecanismos de transporte de fluidos" />
+<link rel="stylesheet" href="../FLUIDOS/win_ie.css">
+<style type="text/css">
+<!--
+.style1 {
+	color: #3F6386;
+	font-weight: bold;
+}
+.Estilo3 {color: #3F6386}
+.Estilo16 {font-size: 16px}
+.Estilo39 {color: #FF0000}
+-->
+</style>
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000" alink="#000000" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<table align=center width="600" border="0" cellspacing="0" cellpadding="0"> 
+  <tr bgcolor="#000000" align="right"> 
+<td><img src="img_flu/nombre5.gif" width="369" height="71"></td></tr> <tr bgcolor="#BB0000" valign="middle" align="left"> 
+<td class="bodytext" height="20"><TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+  <TR ALIGN="center" CLASS="menuitem">
+    <TD WIDTH="44" height="19" CLASS="menuitem"><A HREF="../../index.html" CLASS="menuitem">&nbsp;<B>home</B>&nbsp;</A></TD>
+    <TD WIDTH="5" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="102" CLASS="menuitem"><strong><a href="index_fluidos.html" class="menuitem">m&aacute;s de fluidos </a> </strong></TD>
+    <TD width="5" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="136" CLASS="menuitem"><strong><a href="../../intro_NMS.html" class="menuitem">otros temas de F&iacute;sica</a></strong></TD>
+    <TD width="10" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="173" CLASS="menuitem"><strong><a href="../../lista_ciruela.html" class="menuitem">lecciones del maestro Ciruela </a></strong></TD>
+    <TD width="9" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="68" CLASS="menuitem"><strong><a href="../../lista_tonterias.html" class="menuitem">tonter&iacute;as</a></strong></TD>
+    <TD WIDTH="8" CLASS="menuitem"><a href="../ENERGIA/index_energia.html" class="menuitem"></a><FONT COLOR="#000000">|</FONT></TD>
+    <TD WIDTH="40" CLASS="menuitem">&nbsp;<B><FONT FACE="Arial, Helvetica, sans-serif"><A HREF="mailto: ricuti@qi.fcen.uba.ar" CLASS="menuitem">@</A></FONT><A HREF="../../index.html" CLASS="menuitem"></A></B>&nbsp;</TD>
+  </TR>
+</TABLE></td></tr> <tr> <td class="bodytext" height="10"><img src="img_flu/transparente.gif" width="600" height="8"></td>
+</tr> 
+<tr align="center"> <td height="808"> <table width="600" border="0" cellspacing="0" cellpadding="0"> 
+<tr class="bodytext"> <td colspan="2" valign="top" height="788"> <img src="img_flu/transparente.gif" width="1" height="1"></td>
+<td valign="top" width="596" height="788"> 
+<table width="600" border="0" cellspacing="0" cellpadding="0"> <tr> 
+  <td height="74" bgcolor="#D7FFFF" class="bodytext"><span class="bodytext"><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>NO ME SALEN<br>
+</strong></span><span class="Estilo3"><em class="bodytext "><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>(<strong>EJERCICIOS RESUELTOS   DE F&Iacute;SICA DEL CBC</strong>)</strong></em></span><br>
+      <span class="titulograndegris Estilo16"><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>FLUIDOS - HIDROST&Aacute;TICA<br>
+      </strong></span><br> </td>
+  <td class="bodytext" rowspan="3" height="74" width="6">&nbsp;</td>
+  <td width="87" height="74" rowspan="3" align="center" valign="top" class="bodytext"> 
+<p><img src="img_flu/cap18.jpg" alt="desesperado" width="85" height="121"></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p></td></tr>
+  <tr>
+    <td height="18" bgcolor="#FFFFFF" class="bodytext">&nbsp;</td>
+  </tr> 
+<tr> <td height="147" valign="top" class="bodytext"><table width="100%" border="0">
+  <tr>
+    <td width="67%" height="152" align="left" valign="top" class="bodytext"><p><strong class="bodytext"><em>Hidrost&aacute;tica</em></strong><strong> 8) La musculatura (diafragma y m&uacute;sculos intercostales entre otros) permite que le pulm&oacute;n humano funcione contra una diferencia de presi&oacute;n de menos de 0,05 atm. &iquest;A qu&eacute; profundidad del nivel del agua puede nadar un buceador que respire por medio de un tubo largo (snorkel)?</strong></p>      </td>
+    <td width="33%" align="left" valign="top" class="bodytext"><img src="img_flu/he_08_1.jpg" alt="Flu&iacute;dos - Ricardo Cabrera" width="200" height="148"></td>
+  </tr>
+  
+</table>  
+  </td>
+  </tr>
+<tr>
+  <td align="left" valign="middle" class="bodytext"><p>En efecto, si quer&eacute;s respirar debajo del agua con un tubo que te conecte con el aire de la superficie... no va a ser f&aacute;cil. Mir&aacute; lo que dice el Principio General de la Hidrost&aacute;tica:</p>
+    <blockquote>
+      <p><em><strong>&Delta;Pr<sub>max</sub> = </strong></em><em><strong>&rho;<sub>H2O</sub></strong></em> . <em><strong>&Delta;h<sub>max</sub></strong></em></p>
+      </blockquote>    
+    <p>De donde,</p>
+    <blockquote>
+      <p><em><strong>&Delta;h<sub>max</sub> = &Delta;Pr<sub>max</sub> / </strong></em><em><strong>&rho;<sub>H2O</sub></strong></em></p>
+      <p><em><strong>&Delta;h<sub>max </sub>= 0,05 <span class="epigrafe">atm</span> / 10.000 <span class="epigrafe">N</span></strong></em><span class="epigrafe">/</span><em><strong><span class="epigrafe">m</span><em><strong><em><strong><em><strong><strong><sup>3</sup></strong></strong></em></strong></em></strong></em></strong></em></p>
+      </blockquote>    
+    <p>Pasemos esas atm&oacute;sferas a pascales, para tener unidades homog&eacute;neas y poder operar algebraicamente. Acordate que<em><strong> 1 <span class="epigrafe">atm</span> = 101.300 <span class="epigrafe">Pa</span></strong></em>, y hac&eacute; una regla de tres simple.</p>
+    <blockquote>
+      <p><em><strong>&Delta;h<sub>max</sub>= 5.065 <span class="epigrafe">Pa</span> / 10.000 <span class="epigrafe">N</span></strong></em><span class="epigrafe">/</span><em><strong><span class="epigrafe">m</span><em><strong><em><strong><em><strong><strong><sup>3</sup></strong></strong></em></strong></em></strong></em></strong></em> <em><strong>= </strong></em></p>
+      <p><em><strong>&Delta;h<sub>max</sub>=</strong></em> <em><strong>5.065 <span class="epigrafe">N</span></strong></em><span class="epigrafe">/</span><em><strong><span class="epigrafe">m</span><em><strong><em><strong><em><strong><strong><sup>2</sup></strong></strong></em></strong></em></strong></em>/ 10.000 <span class="epigrafe">N</span></strong></em><span class="epigrafe">/</span><em><strong><span class="epigrafe">m</span><em><strong><em><strong><em><strong><strong><sup>3</sup></strong></strong></em></strong></em></strong></em></strong></em></p>
+    </blockquote></td>
+  <td class="bodytext" height="289">&nbsp;</td>
+  <td align="center" valign="top" class="bodytext"><p class="epigrafe Estilo39">&nbsp;</p>
+    <p class="epigrafe Estilo39"><br>
+      </p>
+    <p class="epigrafe Estilo39">&nbsp;</p></td>
+</tr>
+<tr>
+  <td height="55" align="center" valign="middle" bgcolor="#FFFFFF" class="epigrafe"><table width="507" height="36" border="0">
+    <tr>
+      <td width="35" height="28" valign="middle" class="bodytext">&nbsp;</td>
+      <td width="210" align="center" bordercolor="#FFFFFF" bgcolor="#CCCCCC" class="bodytext"><p><em><strong>&Delta;h<sub>max</sub> =</strong></em> <em><strong>0,5 </strong></em><span class="epigrafe"><em><strong>m</strong></em></span></p></td>
+      <td width="248" align="center" class="bodytext">&nbsp;</td>
+    </tr>
+  </table></td>
+  <td class="bodytext" height="55">&nbsp;</td>
+  <td class="bodytext" height="55" valign="middle">&nbsp;</td>
+</tr>
+<tr>
+  <td height="55" align="left" valign="middle" bgcolor="#FFFFFF" class="bodytext"><p>50 cent&iacute;metros... no es mucho. Si te vas m&aacute;s abajo ten&eacute;s que hacer una fuerza sobrehumana para poder tomar aire. Por eso no tiene sentido fabricar snorkels muy largos. No servir&iacute;an.</p>    </td>
+  <td class="bodytext" height="55">&nbsp;</td>
+  <td class="bodytext" height="55" valign="middle">&nbsp;</td>
+</tr>
+<tr>
+  <td align="center" valign="middle" bgcolor="#FFFFFF" class="epigrafe"><p>&nbsp;</p></td>
+  <td width="6" class="bodytext">&nbsp;</td>
+  <td width="87" valign="middle" class="bodytext">&nbsp;</td>
+</tr>
+
+
+
+
+
+<tr>
+  <td height="42" align="left" class="bodytext"><p><strong>DESAF&Iacute;O</strong>: &iquest;Cada cu&aacute;ntos metros de profundidad en el agua la presi&oacute;n aumenta 1 atm&oacute;sfera?</p>    </td>
+  <td class="bodytext">&nbsp;</td>
+  <td width="87" rowspan="2" valign="bottom" class="bodytext"><img src="img_flu/ric_081.jpg" alt="Flu&iacute;dos - Ricardo Cabrera" width="85" height="109"></td>
+</tr>
+
+
+<tr> <td height="46" align="center" valign="middle" bgcolor="#CCCCCC" class="bodytext"><table width="92%" border="0">
+  <tr>
+    <td class="epigrafe">Algunos derechos reservados. 
+      Se permite su reproducci&oacute;n citando la fuente. &Uacute;ltima actualizaci&oacute;n jun-11. Buenos Aires, Argentina. </td>
+  </tr>
+</table>  </td>
+  <td class="bodytext" width="6">&nbsp;</td>
+  </tr> 
+<tr> <td height="18" class="bodytext">&nbsp;</td><td class="bodytext" width="6">&nbsp;</td>
+<td class="bodytext" width="87">&nbsp;</td>
+</tr> 
+</table></td></tr> </table><img src="img_flu/transparente.gif" width="10" height="20"></td></tr> 
+<tr> <td class="bodytext"><img src="img_flu/transparente.gif" width="600" height="20"></td></tr> 
+</table>
+</body>
+</html>

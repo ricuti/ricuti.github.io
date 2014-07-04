@@ -1,0 +1,17 @@
+<?xml version="1.0" standalone="yes" ?>
+
+<mm_report>
+	<mm_reportname>	ResultsReport.xml</mm_reportname>
+	<mm_reportdate>10/10/06 18:26:57</mm_reportdate>
+	<mm_reportlocation>D:\\Riqui en XP\PERSONAL\web RC\web_Ric\</mm_reportlocation>
+	<mm_reportitem>
+		<mm_file>[documento actual]</mm_file>
+		<mm_displaystr><![CDATA[...qué distancia recorrerá hasta detenerse si prosigue así. ]]></mm_displaystr>
+		<mm_data mm_rangemin="3476" mm_rangemax="3479" mm_isshortname="false" mm_replaced="false" mm_matchedtextdirty="false" />
+	</mm_reportitem>
+	<mm_reportitem>
+		<mm_file>[documento actual]</mm_file>
+		<mm_displaystr><![CDATA[Lo que sigue (en éste y en cualquier otro problema de...]]></mm_displaystr>
+		<mm_data mm_rangemin="4702" mm_rangemax="4705" mm_isshortname="false" mm_replaced="false" mm_matchedtextdirty="false" />
+	</mm_reportitem>
+</mm_report>

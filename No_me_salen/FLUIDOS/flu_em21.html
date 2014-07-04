@@ -1,0 +1,132 @@
+<html>
+<head>
+<title>MECANICA DE FLUIDOS, EM21, fisica online, ejercicios resueltos</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="keywords" content="problemas resueltos, ejercicios resueltos, cbc, fisica, biofisica, fluidos, liquidos, gases, bernoulli, poiseuille, viscosidad, ideales, viscosos, humedad, difusion, osmosis, nomesalen, no me salen, ricardo cabrera" />
+<meta name="description" content="Ejercicios y problemas resueltos, y apuntes teóricos de Fluidos, mecanismos de transporte de fluidos" />
+<link rel="stylesheet" href="../FLUIDOS/win_ie.css">
+<style type="text/css">
+<!--
+.style1 {
+	color: #3F6386;
+	font-weight: bold;
+}
+.Estilo3 {color: #3F6386}
+.Estilo16 {font-size: 16px}
+.Estilo17 {font-size: 10px}
+-->
+</style>
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000" alink="#000000" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<table align=center width="600" border="0" cellspacing="0" cellpadding="0"> 
+  <tr bgcolor="#000000" align="right"> 
+<td><img src="img_flu/nombre5.gif" width="369" height="71"></td></tr> <tr bgcolor="#BB0000" valign="middle" align="left"> 
+<td class="bodytext" height="20"><TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+  <TR ALIGN="center" CLASS="menuitem">
+    <TD WIDTH="44" height="19" CLASS="menuitem"><A HREF="../../index.html" CLASS="menuitem">&nbsp;<B>home</B>&nbsp;</A></TD>
+    <TD WIDTH="5" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="102" CLASS="menuitem"><strong><a href="index_fluidos.html" class="menuitem">m&aacute;s de fluidos </a> </strong></TD>
+    <TD width="5" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="136" CLASS="menuitem"><strong><a href="../../intro_NMS.html" class="menuitem">otros temas de F&iacute;sica</a></strong></TD>
+    <TD width="10" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="173" CLASS="menuitem"><strong><a href="../../lista_ciruela.html" class="menuitem">lecciones del maestro Ciruela </a></strong></TD>
+    <TD width="9" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="68" CLASS="menuitem"><strong><a href="../../lista_tonterias.html" class="menuitem">tonter&iacute;as</a></strong></TD>
+    <TD WIDTH="8" CLASS="menuitem"><a href="../ENERGIA/index_energia.html" class="menuitem"></a><FONT COLOR="#000000">|</FONT></TD>
+    <TD WIDTH="40" CLASS="menuitem">&nbsp;<B><FONT FACE="Arial, Helvetica, sans-serif"><A HREF="mailto: ricuti@qi.fcen.uba.ar" CLASS="menuitem">@</A></FONT><A HREF="../../index.html" CLASS="menuitem"></A></B>&nbsp;</TD>
+  </TR>
+</TABLE></td></tr> <tr> <td class="bodytext" height="8"><img src="img_flu/transparente.gif" width="600" height="8"></td>
+</tr> 
+<tr align="center"> <td> <table width="600" border="0" cellspacing="0" cellpadding="0"> 
+<tr class="bodytext"> <td valign="top" width="594" height="945"> 
+<table width="600" border="0" cellspacing="0" cellpadding="0"> <tr> 
+  <td height="74" colspan="2" bgcolor="#D7FFFF" class="bodytext"><span class="bodytext"><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>NO ME SALEN<br>
+</strong></span><span class="Estilo3"><em class="bodytext "><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>(<strong>PROBLEMAS RESUELTOS   DE BIOF&Iacute;SICA DEL CBC</strong>)</strong></em></span><br>
+      <span class="titulograndegris Estilo16"><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>FLUIDOS<br>
+      </strong></span><br> </td>
+  <td class="bodytext" rowspan="3" height="74" width="4">&nbsp;</td>
+  <td class="bodytext" height="74" rowspan="3" valign="top" width="87"> 
+<p><img src="img_flu/cap9.jpg" alt="desesperado" width="85" height="123"></p></td></tr>
+  <tr>
+    <td height="14" colspan="2" bgcolor="#FFFFFF" class="bodytext">&nbsp;</td>
+  </tr> 
+<tr> <td width="73" height="84" class="bodytext"><P><img src="img_flu/BIOFISICA.jpg" width="65" height="90"></P>
+    </td>
+  <td width="436" class="bodytext"><p><strong>21) &iquest;Qu&eacute; fuerza produce un viento de 120 km/h sobre un techo de chapa de 3m x 3m?
+    Considerar la densidad del aire 1,2 <strong>g/lt</strong>.<br>
+    <br>
+    <em><em>&#160; &#160;&#160; &#160; &#160;&#160; </em></em>a) 2.500 kgr    <em><em>&#160; &#160;&#160; &#160; </em></em>b) 500 ton
+    <em><em>&#160; &#160;&#160; &#160; &#160;</em></em>c) 250 kgr <br>
+    <em><em>&#160; &#160;&#160; &#160; &#160;&#160; </em></em>d) 150 kgr 
+        <em><em>&#160; &#160;&#160; &#160; &#160;&#160; </em></em>e) 31 kgr    <em><em>&#160; &#160;&#160; &#160; &#160;&#160; </em></em>f) 600 kgr</strong></p>    </td>
+</tr>
+<tr>
+  <td height="489" colspan="2" class="bodytext"><p>Ac&aacute; ten&eacute;s un ejercicio revelador. La cuesti&oacute;n num&eacute;rica, la aplicaci&oacute;n de la ecuaci&oacute;n de Bernoulli -que es lo que tenemos que usar-, todo eso es bastante sencillo, vas a ver; pero lo interesante es que te muestra fen&oacute;menos insospechados. Primero pasemos las magnitudes a unidades homog&eacute;neas, operables entre s&iacute;. Vamos al MKS (si no ten&eacute;s presente c&oacute;mo se realiza el pasaje de unidades, te ofrezco una ayuda <a href="../MISCELANEA/pasaje_de_unidades.html">aqu&iacute;</a>). </p>
+    <blockquote>
+      <p><em><strong>v = 120</strong></em> <strong><em><span class="Estilo17">km</span></em></strong><em><span class="Estilo17">/</span></em><strong><em><span class="Estilo17">h</span></em></strong> <em><strong>= 33,33 </strong></em> <strong><em><span class="Estilo17">m</span></em></strong><em><span class="Estilo17">/</span></em><strong><em><span class="Estilo17">s</span></em></strong></p>
+      <p><strong><em>&delta;</em></strong> <em><strong>=</strong></em> <em><strong>1,2</strong></em> <span class="Estilo17"><em><strong>g</strong>/<strong>lt</strong></em></span> <em><strong>= 1,2 </strong></em><strong><em><span class="Estilo17">kg</span></em></strong><em><span class="Estilo17">/</span></em><strong><em><span class="Estilo17">m</span><strong><em><strong><strong><em><strong><em><strong><em><strong><strong><em><strong><sup>3</sup></strong></em></strong></strong></em></strong></em></strong></em></strong></strong></em></strong></em></strong></p>
+      </blockquote>
+    <p>Ahora s&iacute;, vamos a Berni. Entre arriba y abajo del techo de chapa la diferencia de altura es despreciable, de modo que no vamos a utilizar los t&eacute;rminos de energ&iacute;a potencial. Ac&aacute; la cuesti&oacute;n importante es la cin&eacute;tica: en el exterior de la casa el viento tiene una velocidad alta, que llamar&eacute; <strong><em><strong><em><strong><strong><em>v<strong><em><strong><strong><em><strong><em><sub>E</sub></em></strong></em></strong></strong></em></strong></em></strong></strong></em></strong></em></strong>, y en el interior de la casa la velocidad del viento, <strong><em><strong><em><strong><strong><em>v<strong><em><strong><em><strong><strong><em><strong><em><strong><strong><em><strong><em><sub>I</sub></em></strong></em></strong></strong></em></strong></em></strong></strong></em></strong></em></strong></em></strong></strong></em></strong></em></strong>, es nula (a menos que tengamos abiertas las ventanas, cosa poco recomendable un d&iacute;a tan ventoso). </p>
+    <blockquote>
+      <p><strong><em><strong><em><strong>&Delta;<strong><em>P <strong><em><strong><em><strong>= </strong></em></strong></em></strong></em></strong> <strong><em>&frac12; &delta; (v<strong><em><strong><em><strong><strong><em><strong><em><strong><strong><em><strong><em><sub>E</sub></em></strong></em></strong></strong></em></strong></em></strong></strong></em></strong></em><sup>2 </sup></strong></em></strong><em><strong><strong>&ndash;</strong></strong></em><strong><em> v<strong><em><strong><strong><em><strong><em><strong><em><strong><strong><em><strong><em><strong><em><strong><strong><em><strong><em><strong><strong><em><strong><em><sub>I</sub></em></strong></em></strong></strong></em></strong></em></strong></strong></em></strong></em></strong></em></strong></strong></em></strong></em></strong></em></strong></strong></em><sup>2</sup></strong></em></strong></strong></em></strong>)</em></strong> </p>
+      </blockquote>
+    <p>El orden en que que realices la resta es arbitrario. La cuesti&oacute;n f&iacute;sica es que afuera la presi&oacute;n es menor y adentro, mayor. Sacando <strong><em><strong><em><strong><strong><em>v<strong><em><strong><em><strong><strong><em><strong><em><strong><strong><em><strong><em><sub>I</sub></em></strong></em></strong></strong></em></strong></em></strong></strong></em></strong></em></strong></em></strong></strong></em></strong></em></strong> porque vale cero, queda: </p>
+    <blockquote>
+      <p><strong><em><strong><em><strong>&Delta;<strong><em>P <strong><em><strong><em><strong>= </strong></em></strong></em></strong></em></strong> <strong><em>&frac12; &delta; </em></strong> <strong><em> v<strong><em><strong><strong><em><strong><em><sub>E</sub></em></strong></em></strong></strong></em><sup>2</sup></strong></em></strong></strong></em></strong></em></strong></p>
+      <p><strong><em><strong><em><strong>&Delta;<strong><em>P <strong><em><strong><em><strong>= </strong></em></strong></em></strong></em></strong> <strong><em>&frac12; <strong>1,2</strong> <span class="Estilo17">kg</span></em></strong></strong></em></strong></em></strong><em><em><em><span class="Estilo17">/</span></em></em></em><strong><em><strong><em><strong><strong><em><span class="Estilo17">m</span><strong><em><strong><strong><em><strong><em><strong><em><strong><strong><em><strong><sup>3</sup></strong></em></strong></strong></em></strong></em></strong></em></strong></strong></em></strong> </em></strong><em><strong><em><strong><strong><em>(</em></strong>33,33 </strong></em> <strong><em><span class="Estilo17">m</span></em></strong></strong></em></strong></em></strong></em></strong><em><em><em><em><span class="Estilo17">/</span></em></em></em></em><strong><em><strong><em><strong><em><strong><strong><em><span class="Estilo17">s</span></em></strong></strong>)</em></strong></em></strong></em></strong></p>
+      <p><strong><em><strong><em><strong>&Delta;<strong><em>P <strong><em><strong><em><strong>= </strong></em></strong></em></strong></em></strong> <strong><em>667</em></strong><em><strong><em><strong> </strong></em> <strong><em><span class="Estilo17">Pa</span></em></strong></strong></em></strong></em></strong></em></strong></p>
+      </blockquote>
+    <p>Eso implica que sobre el techo habr&aacute; una fuerza neta aplicada de:</p>
+    <blockquote>
+      <p><em><strong>F = &Delta;P . A </strong></em><em><strong>= <em><strong><em><strong><strong><em>667</em></strong><em><strong><em><strong> </strong></em> <strong><em><span class="Estilo17">Pa</span></em></strong></strong></em></strong></em></strong></em> . 9 </strong></em><strong><em><span class="Estilo17">m</span><strong><em><strong><strong><em><strong><em><strong><em><strong><strong><em><strong><sup>2</sup></strong></em></strong></strong></em></strong></em></strong></em></strong></strong></em></strong></em></strong></p>
+    </blockquote></td>
+  <td class="bodytext" height="489">&nbsp;</td>
+  <td height="489" align="center" valign="middle" class="bodytext"><img src="img_flu/Tormenta.jpg" alt="Flu&iacute;dos - Ricardo Cabrera" width="85" height="150"></td>
+</tr>
+<tr>
+  <td height="46" colspan="2" align="center" class="bodytext"><table width="70%" border="0">
+    <tr>
+      <td height="26" bgcolor="#CCCCCC"><p class="bodytext"><em><strong><strong>&#160;&#160; &#160;&#160; &#160;&#160; &#160;</strong>F = </strong></em><em><strong><em><strong><em><strong><strong><em>6.000</em></strong><em><strong><em><strong> </strong></em> <strong><em><span class="Estilo17">N</span></em></strong></strong></em></strong></em></strong></em></strong></em> <em><strong>= </strong></em><em><strong><em><strong><em><strong><strong><em>600</em></strong><em><strong><em><strong> </strong></em> <strong><em><span class="Estilo17">kgf</span></em></strong></strong></em></strong></em></strong></em></strong></em></p></td>
+    </tr>
+  </table></td>
+  <td class="bodytext" height="46">&nbsp;</td>
+  <td class="bodytext" height="46" valign="top">&nbsp;</td>
+</tr>  
+<tr> 
+  <td height="82" colspan="2" align="left" class="bodytext"><p>Suficiente para levantar cuatro chabones parados en el techo. Como ves, se trata de una fuerza muy grande... insospechadamente grande. Eso nos advierte de la necesidad de asegurar los techos convenientemente. Es cierto que un viento de <em><strong>    120</strong></em> <strong><em><span class="Estilo17">km/h</span></em></strong> no es habitual en Buenos Aires ni en otras grandes ciudades. Pero tampoco te olvides que una chapa de techo pesa apenas <em><strong><em><strong><em><strong><strong><em>15</em></strong><em><strong><em><strong> </strong></em> <strong><em><span class="Estilo17">kgf</span></em></strong></strong></em></strong></em></strong></em></strong></em>.</p>    </td>
+  <td class="bodytext" width="4">&nbsp;</td>
+  <td class="bodytext" width="87">&nbsp;</td>
+</tr>
+<tr>
+  <td colspan="2" align="center" valign="middle" class="bodytext">&nbsp;</td>
+  <td align="left" valign="middle" class="bodytext">&nbsp;</td>
+  <td width="87" rowspan="4" align="left" valign="bottom" class="bodytext"><img src="img_flu/ric_celeste.jpg" alt="Flu&iacute;dos - Ricardo Cabrera" width="85" height="121"></td>
+  </tr>
+
+<tr>
+  <td height="28" colspan="2" align="left" class="bodytext"><p><strong>DESAF&Iacute;O</strong>: En una tormenta porte&ntilde;a -de esas inolvidables- el viento puede alcanzar r&aacute;fagas de <em><strong>100</strong></em> <strong><em><span class="Estilo17">km/h</span></em></strong>. &iquest;Cu&aacute;nto vale la fuerza sobre una chapa real, de 3 metros por 1? </p>    </td>
+  <td class="bodytext">&nbsp;</td>
+  </tr>
+
+<tr>
+  <td height="27" colspan="2" bgcolor="#FFFFFF" class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+  </tr>
+
+<tr> <td colspan="2" bgcolor="#CCCCCC" class="bodytext"><blockquote>
+  <p><span class="epigrafe">Todos los derechos reservados. 
+        Se permite su reproducci&oacute;n citando la fuente. Quien no cite la fuente ser&aacute; penado con reclusi&oacute;n en la Ant&aacute;rtida y trabajos forzados. &Uacute;ltima actualizaci&oacute;n abr-08. Buenos Aires, Argentina.</span></p>
+</blockquote></td>
+  <td class="bodytext" width="4">&nbsp;</td>
+  </tr> 
+<tr> <td height="18" colspan="2" class="bodytext">&nbsp;</td><td class="bodytext" width="4">&nbsp;</td>
+<td class="bodytext" width="87">&nbsp;</td>
+</tr> 
+</table></td></tr> </table>
+<img src="img_flu/transparente.gif" width="10" height="20"></td>
+</tr> 
+<tr> <td class="bodytext"><img src="img_flu/transparente.gif" width="600" height="20"></td></tr> 
+</table>
+</body>
+</html>

@@ -1,0 +1,159 @@
+<html>
+<head>
+<title>MECANICA DE FLUIDOS, HE14, fisica online, ejercicios resueltos</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="keywords" content="problemas resueltos, ejercicios resueltos, cbc, fisica, biofisica, fluidos, liquidos, gases, bernoulli, poiseuille, viscosidad, ideales, viscosos, humedad, difusion, osmosis, nomesalen, no me salen, ricardo cabrera" />
+<meta name="description" content="Ejercicios y problemas resueltos, y apuntes teóricos de Fluidos, mecanismos de transporte de fluidos" />
+<link rel="stylesheet" href="../FLUIDOS/win_ie.css">
+<style type="text/css">
+<!--
+.style1 {
+	color: #3F6386;
+	font-weight: bold;
+}
+.Estilo3 {color: #3F6386}
+.Estilo18 {color: #FF0000}
+-->
+</style>
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000" alink="#000000" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<table align=center width="600" border="0" cellspacing="0" cellpadding="0"> 
+  <tr bgcolor="#000000" align="right"> 
+<td><img src="img_flu/nombre5.gif" width="369" height="71"></td>
+  </tr> <tr bgcolor="#BB0000" valign="middle" align="left"> 
+<td class="bodytext" height="20"><TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+  <TR ALIGN="center" CLASS="menuitem">
+    <TD WIDTH="44" height="19" CLASS="menuitem"><A HREF="../../index.html" CLASS="menuitem">&nbsp;<B>home</B>&nbsp;</A></TD>
+    <TD WIDTH="5" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="102" CLASS="menuitem"><strong><a href="index_fluidos.html" class="menuitem">m&aacute;s de fluidos </a> </strong></TD>
+    <TD width="5" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="136" CLASS="menuitem"><strong><a href="../../intro_NMS.html" class="menuitem">otros temas de F&iacute;sica</a></strong></TD>
+    <TD width="10" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="173" CLASS="menuitem"><strong><a href="../../lista_ciruela.html" class="menuitem">lecciones del maestro Ciruela </a></strong></TD>
+    <TD width="9" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="68" CLASS="menuitem"><strong><a href="../../lista_tonterias.html" class="menuitem">tonter&iacute;as</a></strong></TD>
+    <TD WIDTH="8" CLASS="menuitem"><a href="../ENERGIA/index_energia.html" class="menuitem"></a><FONT COLOR="#000000">|</FONT></TD>
+    <TD WIDTH="40" CLASS="menuitem">&nbsp;<B><FONT FACE="Arial, Helvetica, sans-serif"><A HREF="mailto: ricuti@qi.fcen.uba.ar" CLASS="menuitem">@</A></FONT><A HREF="../../index.html" CLASS="menuitem"></A></B>&nbsp;</TD>
+  </TR>
+</TABLE></td></tr> <tr> <td class="bodytext" height="8"><img src="img_flu/transparente.gif" width="600" height="8"></td>
+</tr> 
+<tr align="center"> <td height="720"> <table width="600" border="0" cellspacing="0" cellpadding="0"> 
+<tr class="bodytext"> <td valign="top" width="594" height="700"> 
+<table width="600" border="0" cellspacing="0" cellpadding="0"> <tr> 
+  <td height="74" valign="middle" bgcolor="#D7FFFF" class="bodytext"><span class="bodytext"><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>NO ME SALEN<br>
+</strong></span><span class="Estilo3"><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em></strong></span><span class="titulograndegris"><strong>EJERCICIOS<strong> RESUELTOS   DE F&Iacute;SICA DEL CBC</strong></strong></span><br>
+      <span class="titulochicogris"><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>FLUIDOS - PRINCIPIO DE ARQU&Iacute;MEDES</strong></span></td>
+  <td class="bodytext" rowspan="3" height="74" width="7">&nbsp;</td>
+  <td class="bodytext" height="74" rowspan="3" valign="top" width="86"> 
+<p><img src="img_flu/cap15.jpg" alt="desesperado" width="85" height="131"></p></td></tr>
+  <tr>
+    <td height="18" bgcolor="#FFFFFF" class="bodytext">&nbsp;</td>
+  </tr> 
+<tr> <td height="64" class="bodytext"><P><strong><em>Hidrost&aacute;tica</em></strong> <strong>14) Un cuerpo cuelga del techo mediante un hilo. Cuando est&aacute; suspendido en el aire, la tensi&oacute;n del hilo es 600 N y cuando est&aacute; sumergido totalmente en agua la tensi&oacute;n en el hilo que lo sostiene es 200 N. Calcular su peso espec&iacute;fico</strong>.</P>
+    </td>
+  </tr>
+<tr>
+  <td height="49" class="bodytext"><p>como tantas otras veces en tantos otros temas... tenemos dos situaciones diferentes: las plantearemos por separado y despu&eacute;s algo las vincular&aacute;, algo que no cambia entre una situaci&oacute;n y la otra. Veamos:<em></em></p>    </td>
+  <td width="7" class="bodytext">&nbsp;</td>
+  <td width="86" align="center" valign="middle" class="bodytext"><span class="epigrafe Estilo18"><br>
+    </span></td>
+</tr>  
+
+<tr>
+  <td height="59" align="center" class="bodytext"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td width="28%" height="171" align="center" class="bodytext"><img src="img_flu/he_14_1.gif" alt="Flu&iacute;dos - Ricardo Cabrera" width="45" height="140"></td>
+      <td width="2%" class="bodytext">&nbsp;</td>
+      <td width="70%" class="bodytext"><p>Ac&aacute; est&aacute; el cuerpo colgando del techo y en el aire. Esta situaci&oacute;n la llamar&eacute; <strong>A</strong>. Las dos &uacute;nicas fuerzas que act&uacute;an sobre &eacute;l son la tensi&oacute;n que hace el piol&iacute;n, <em><strong>T<sub>A</sub></strong></em>, y el peso, <em><strong>P</strong></em>. Como el cuerpo est&aacute; en equilibrio, podemos asegurar que:</p>
+        <blockquote>
+          <p><em><strong>T<sub>A</sub></strong></em> <em><strong>= P</strong></em></p>
+          </blockquote>
+        <p>Te habr&aacute;s fijado que a la tensi&oacute;n le puse sub&iacute;ndice para identificar a cu&aacute;l de ambas situaciones pertenece. tambi&eacute;n te habr&aacute;s fijado que no ced&iacute; a la tentaci&oacute;n de calcular el peso del cuerpo... <em>&iexcl;</em>aunque mi inconsciente ya lo sabe<em>!</em></p></td>
+    </tr>
+    <tr>
+      <td height="37" colspan="3" class="bodytext">Ahora viene la situaci&oacute;n <strong>B</strong>, en la que ese mismo cuerpo se sumerge en agua (y esperemos que no se oxide).</td>
+      </tr>
+    <tr>
+      <td height="171" align="center" class="bodytext"><img src="img_flu/he_14_2.gif" alt="Flu&iacute;dos - Ricardo Cabrera" width="81" height="140"></td>
+      <td class="bodytext">&nbsp;</td>
+      <td class="bodytext"><p>Ahora las fuerzas que act&uacute;an son tres: la nueva tensi&oacute;n que hace el hilo, el peso de cuerpo (<em>&iexcl;</em>que no cambia<em>!</em>) y el empuje que recibe del agua tal como predijo Arqu&iacute;medes.</p>
+        <blockquote>
+          <p><em><strong>T<sub>B</sub></strong></em> <em><strong>+ E = P</strong></em></p>
+          </blockquote>
+        <p>Pero Arqu&iacute;medes no s&oacute;lo predice la existencia del empuje, tambi&eacute;n dijo que el empuje es igual al peso del l&iacute;quido desalojado. Y como el cuerpo se sumerge en forma &iacute;ntegra desalojar&aacute; un volumen igual al propio.</p></td>
+    </tr>
+  </table></td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="368" align="left" class="bodytext"><p>El peso espec&iacute;fico, <em><strong> &rho;</strong></em>, es el cociente entre el peso y el volumen. Entonces el peso es igual al producto entre el peso espec&iacute;fico y el volumen. En el caso del peso del l&iacute;quido desalojado ser&aacute; as&iacute;:</p>
+    <blockquote>
+      <p><em><strong>E = &rho;<sub>H20</sub> . V<span class="epigrafe"></span></strong></em></p>
+      </blockquote>
+    <p>Y en el caso del cuerpo, as&aacute;:</p>
+    <blockquote>
+      <p><em><strong>P = &rho;<sub>cuerpo</sub> . V</strong></em></p>
+      </blockquote>
+    <p>De esta &uacute;ltima despejo el peso espec&iacute;fico del cuerpo y voy reemplazando las inc&oacute;gnitas sac&aacute;ndolas de las ecuaciones anteriores. No te pierdas. Ac&aacute; va:</p>
+    <blockquote>
+      <p><em><strong>&rho;<sub>cuerpo</sub></strong></em> <em><strong>=</strong></em> <em><strong>P / V</strong></em></p>
+      <p><em><strong>&rho;<sub>cuerpo</sub></strong></em> <em><strong>=</strong></em> <em><strong>P . &rho;<sub>H20</sub> / E</strong></em></p>
+      <p><em><strong>&rho;<sub>cuerpo</sub></strong></em> <em><strong>=</strong></em> <em><strong>P . &rho;<sub>H20</sub> / (P &mdash; T<sub>B</sub> )</strong></em></p>
+      <p><em><strong>&rho;<sub>cuerpo</sub></strong></em> <em><strong>=</strong></em> <em><strong>T<sub>A</sub> . &rho;<sub>H20</sub> / (T<sub>A</sub> &mdash; T<sub>B</sub> )</strong></em></p>
+      <p><em><strong>&rho;<sub>cuerpo</sub></strong></em> <em><strong>=</strong></em> <em><strong>600 <span class="epigrafe">N</span> . 1 <span class="epigrafe">gf</span></strong></em><span class="epigrafe">/</span><em><strong><span class="epigrafe">cm</span><em><strong><sup>3</sup></strong></em> </strong></em><em><strong>/ (600 <span class="epigrafe">N</span> &mdash; 200 <span class="epigrafe">N</span>)</strong></em></p>
+      </blockquote></td>
+  <td class="bodytext">&nbsp;</td>
+  <td align="center" class="epigrafe"><p class="Estilo18">el peso de un cuerpo no cambia por m&aacute;s que se sumerja en un l&iacute;quido</p>
+    <p class="Estilo18">no ten&eacute;s que confundir el peso de un cuerpo (un negocio privado entre el cuerpo y la Tierra), con el <strong>peso</strong> <strong>aparente</strong> (la fuerza que vos tendr&iacute;as que hacer para levantarlo estando sumergido)</p></td>
+  </tr>
+<tr>
+  <td height="51" align="center" class="bodytext"><table width="94%" border="0">
+    <tr>
+      <td width="50%" height="36" align="center" bgcolor="#CCCCCC"><p class="bodytext"><em><strong>&rho;<sub>cuerpo</sub></strong></em> <em><strong>=</strong></em> <em><strong>1,5 <span class="epigrafe">gf</span></strong></em><span class="epigrafe">/</span><em><strong><span class="epigrafe">cm</span><em><strong><sup>3</sup></strong></em></strong></em><em><strong><em><em><strong><em><strong></strong></em></strong></em></em></strong></em><em><strong><em><em><strong><em><strong></strong></em></strong></em></em></strong></em></p></td>
+      <td width="50%" align="center" bgcolor="#FFFFFF" class="bodytext">(gf = gramos fuerza)</td>
+    </tr>
+  </table></td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td align="left" class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+  <td width="86" rowspan="5" valign="bottom" class="bodytext"><strong><em><sub><img src="img_flu/ricuti.jpg" alt="Flu&iacute;dos - Ricardo Cabrera" width="85" height="116"></sub></em></strong></td>
+</tr>
+
+
+<tr>
+  <td rowspan="2" bgcolor="#FFFFFF" class="bodytext"><p>No s&oacute;lo me contuve de decir cu&aacute;nto val&iacute;a el peso del cuerpo, tambi&eacute;n evit&eacute; calcular el volumen. &iquest;Hago bien o hago mal? &iquest;Qu&eacute; te parece, y por qu&eacute;?</p>
+    <p><strong>DESAF&Iacute;O</strong>: &iquest;Qu&eacute; ocurrir&iacute;a si el cuerpo tuviese un peso espec&iacute;fico de <em><strong>0,9 <span class="epigrafe">gf</span></strong></em><span class="epigrafe">/</span><em><strong><span class="epigrafe">cm</span><em><strong><sup>3</sup></strong></em></strong></em>?</p></td>
+  <td height="18" class="bodytext">&nbsp;</td>
+  </tr>
+
+<tr>
+  <td height="23" class="bodytext">&nbsp;</td>
+  </tr>
+<tr>
+  <td bgcolor="#FFFFFF" class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+  </tr>
+
+<tr> <td align="center" valign="middle" bgcolor="#CCCCCC" class="bodytext"><table width="92%" border="0">
+  <tr>
+    <td class="epigrafe">Algunos derechos reservados. 
+  Se permite su reproducci&oacute;n citando la fuente leg&iacute;tima, o sea, este sitio. &Uacute;ltima actualizaci&oacute;n 
+  jun-11. Buenos Aires, Argentina. </td>
+  </tr>
+</table>  </td>
+  <td class="bodytext" width="7">&nbsp;</td>
+  </tr> 
+<tr> <td height="18" class="bodytext">&nbsp;</td><td class="bodytext" width="7">&nbsp;</td>
+<td class="bodytext" width="86">&nbsp;</td>
+</tr> 
+</table></td></tr> </table>
+<img src="img_flu/transparente.gif" width="10" height="20"></td></tr> 
+<tr> <td class="bodytext"><img src="img_flu/transparente.gif" width="600" height="20"></td></tr> 
+</table>
+</body>
+</html>

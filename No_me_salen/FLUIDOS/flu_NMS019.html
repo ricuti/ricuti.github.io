@@ -1,0 +1,145 @@
+<html>
+<head>
+<title>MECANICA DE FLUIDOS, NMS019, fisica online, ejercicios resueltos</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="keywords" content="problemas resueltos, ejercicios resueltos, cbc, fisica, biofisica, fluidos, liquidos, gases, bernoulli, poiseuille, viscosidad, ideales, viscosos, humedad, difusion, osmosis, nomesalen, no me salen, ricardo cabrera" />
+<meta name="description" content="Ejercicios y problemas resueltos, y apuntes teóricos de Fluidos, mecanismos de transporte de fluidos" />
+<link rel="stylesheet" href="../FLUIDOS/win_ie.css">
+<style type="text/css">
+<!--
+.style1 {
+	color: #3F6386;
+	font-weight: bold;
+}
+.Estilo3 {color: #3F6386}
+.Estilo18 {color: #FF0000}
+-->
+</style>
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000" alink="#000000" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<table align=center width="600" border="0" cellspacing="0" cellpadding="0"> 
+  <tr bgcolor="#000000" align="right"> 
+<td><img src="img_flu/nombre5.gif" width="369" height="71"></td>
+  </tr> <tr bgcolor="#BB0000" valign="middle" align="left"> 
+<td class="bodytext" height="20"><TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+  <TR ALIGN="center" CLASS="menuitem">
+    <TD WIDTH="44" height="19" CLASS="menuitem"><A HREF="../../index.html" CLASS="menuitem">&nbsp;<B>home</B>&nbsp;</A></TD>
+    <TD WIDTH="5" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="102" CLASS="menuitem"><strong><a href="index_fluidos.html" class="menuitem">m&aacute;s de fluidos </a> </strong></TD>
+    <TD width="5" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="136" CLASS="menuitem"><strong><a href="../../intro_NMS.html" class="menuitem">otros temas de F&iacute;sica</a></strong></TD>
+    <TD width="10" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="173" CLASS="menuitem"><strong><a href="../../lista_ciruela.html" class="menuitem">lecciones del maestro Ciruela </a></strong></TD>
+    <TD width="9" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="68" CLASS="menuitem"><strong><a href="../../lista_tonterias.html" class="menuitem">tonter&iacute;as</a></strong></TD>
+    <TD WIDTH="8" CLASS="menuitem"><a href="../ENERGIA/index_energia.html" class="menuitem"></a><FONT COLOR="#000000">|</FONT></TD>
+    <TD WIDTH="40" CLASS="menuitem">&nbsp;<B><FONT FACE="Arial, Helvetica, sans-serif"><A HREF="mailto: ricuti@qi.fcen.uba.ar" CLASS="menuitem">@</A></FONT><A HREF="../../index.html" CLASS="menuitem"></A></B>&nbsp;</TD>
+  </TR>
+</TABLE></td></tr> <tr> <td class="bodytext" height="8"><img src="img_flu/transparente.gif" width="600" height="8"></td>
+</tr> 
+<tr align="center"> <td height="1092"> <table width="600" border="0" cellspacing="0" cellpadding="0"> 
+<tr class="bodytext"> <td valign="top" width="594" height="875"> 
+<table width="600" border="0" cellspacing="0" cellpadding="0"> <tr> 
+  <td height="74" colspan="2" valign="middle" bgcolor="#D7FFFF" class="bodytext"><span class="bodytext"><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>NO ME SALEN<br>
+</strong></span><span class="Estilo3"><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em></strong></span><span class="titulograndegris"><strong>EJERCICIOS<strong> RESUELTOS   DE F&Iacute;SICA DEL CBC</strong></strong></span><br>
+      <span class="titulochicogris"><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>FLUIDOS - HIDROST&Aacute;TICA</strong></span></td>
+  <td class="bodytext" rowspan="3" height="74" width="7">&nbsp;</td>
+  <td class="bodytext" height="74" rowspan="3" valign="top" width="86"> 
+<p><img src="img_flu/cap2.jpg" alt="desesperado" width="85" height="130"></p></td></tr>
+  <tr>
+    <td height="18" colspan="2" bgcolor="#FFFFFF" class="bodytext">&nbsp;</td>
+  </tr> 
+<tr> <td height="133" colspan="2" class="bodytext"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="62%" height="61" class="bodytext"><p><strong>Adicional NMS 19) *Se mantiene un tubo de ensayo invertido y sumergido en un recipiente con agua. Las alturas indicadas </strong><em><strong>h<sub>1</sub></strong></em>, <em><strong>h<sub>2</sub></strong></em>, <em><strong>h<sub>3</sub></strong></em>, <em><strong>h<sub>4</sub></strong></em> y <em><strong>h<sub>5</sub></strong></em> <strong>valen, respectivamente 4, 10, 30, 34 y 38 cent&iacute;metros con respecto al vivel cero del fondo del recipiente, y la presi&oacute;n atmosf&eacute;rica es de 101.300 pascales. &iquest;Cu&aacute;nto vale la presi&oacute;n absoluta del aire atrapado en el tubo?</strong></p>
+          <p><strong><em><strong><em><strong><strong>* </strong></strong></em></strong></em></strong><span class="epigrafe">Ejercicio del examen final libre de diciembre de 2011.</span></p></td>
+        <td width="38%" align="center" class="bodytext"><img src="img_flu/flu_NMS19_1.gif" alt="Flu&iacute;dos - Ricardo Cabrera" width="180" height="173"></td>
+      </tr>
+    </table>    
+    </td>
+  </tr>
+<tr>
+  <td height="145" colspan="2" class="bodytext"><p>Este ejercicio tiene algo muy interesante: nos ofrece el valor de seis alturas -o niveles, o profundidades- cuando es casi seguro que muchos de ellos no interesan. O sea, sobran datos. Se trata entonces de un ejercicio que se aproxima mucho m&aacute;s a la verdadera tarea del cient&iacute;fico: recortar el universo.</p>
+    <p>Posee otra particularidad interesante: la misma ley que vamos a utilizar para medir presiones dentro del fluido l&iacute;quido, vamos a despreciarla (no la vamos a utilizar) para medir presiones dentro del fluido gaseoso: el aire encerrado dentro del tubo de ensayo. Y ambos son fluidos.</p></td>
+  <td width="7" class="bodytext">&nbsp;</td>
+  <td width="86" align="center" valign="middle" class="bodytext"><span class="epigrafe Estilo18"><br>
+    </span></td>
+</tr>
+<tr>
+  <td width="193" height="40" align="left" class="bodytext"><img src="img_flu/flu_NMS19_2.gif" alt="Flu&iacute;dos - Ricardo Cabrera" width="180" height="168"></td>
+  <td width="314" align="left" class="bodytext"><p>El motivo es que siendo la densidad del aire tan baja (en comparaci&oacute;n con la del agua) las deferencias de presi&oacute;n del aire dentro del tubo resultan insignificantes y bien se puede considerar todo ese gas sometido a una &uacute;nica presi&oacute;n.</p>
+    <p>Esa presi&oacute;n ha de ser la misma que la de la superficie de agua que se halla dentro del tubo, en el nivel <em><strong>h<sub>2</sub></strong></em>. (Si as&iacute; no fuera esa interfase no podr&iacute;a hallarse en equilibrio).</p>
+    <p>Adentro o afuera del tubo, la presi&oacute;n en un mismo nivel (en una misma profundidad) es la misma cuando estamos describiendo un mismo fluido. Eso lo garantiza el <em><strong>principio general de la hidrost&aacute;tica</strong></em>, que es el que vamos a utilizar para conocer el valor de esa presi&oacute;n.</p></td>
+  <td class="bodytext">&nbsp;</td>
+  <td align="center" valign="middle" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="221" colspan="2" align="left" class="bodytext"><p>Lo vamos a utilizar para comparar con otro nivel cuya presi&oacute;n conozcamos. Efectivamente: la superficie libre del recipiente, <em><strong>h<sub>4</sub></strong></em>, tiene que tener la misma presi&oacute;n que el aire de la atm&oacute;sfera (<em><strong>101.300 <span class="epigrafe">Pa</span> </strong></em>), que es un dato del enunciado. Ac&aacute; va:</p>
+    <blockquote>
+      <p><em><strong>&Delta;Pr<sub>2,4</sub> = &rho;<sub>H2O</sub> &Delta;h<sub>2,4</sub></strong></em></p>
+      <p><em><strong>Pr<sub>2</sub> <em><strong>&mdash;</strong></em> Pr<sub>4</sub> = <em><strong>&mdash;</strong></em> &rho;<sub>H2O</sub> (h<sub>2</sub> <em><strong>&mdash;</strong></em> h<sub>4</sub>)</strong></em></p>
+      <p><em><strong>Pr<sub>2</sub> = Pr<sub>4</sub> + &rho;<sub>H2O</sub> (h<sub>4</sub> <em><strong>&mdash;</strong></em> h<sub>2</sub>)</strong></em></p>
+      <p><em><strong>Pr<sub>2</sub> = 101.300 <span class="epigrafe">Pa</span> + 10.000 <span class="epigrafe">N</span></strong><span class="epigrafe">/</span><strong><span class="epigrafe">m<sup>3</sup></span> (0,34 <span class="epigrafe">m</span> <em><strong>&mdash;</strong></em> 0,10 <span class="epigrafe">m</span>)</strong></em></p>
+      <p><em><strong>Pr<sub>2</sub> = 101.300 <span class="epigrafe">Pa</span> + 2.400 <span class="epigrafe">Pa</span></strong></em></p>
+    </blockquote></td>
+  <td class="bodytext">&nbsp;</td>
+  <td align="center" valign="middle" class="bodytext"><table width="85" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td height="175" align="center" class="epigrafe"><p class="Estilo18">No te olvides de que ac&aacute; <em><strong>h</strong></em> significa <em><strong>profundidad</strong></em>, y se mide de arriba hacia abajo.</p>
+        <p class="Estilo18">(A los efectos del c&aacute;lculo es lo mismo que multiplicar la diferencia <br>
+          por -1)</p></td>
+    </tr>
+  </table></td>
+</tr>
+<tr>
+  <td height="59" colspan="2" class="bodytext"><table width="507" height="33" border="0" cellpadding="0" cellspacing="0">
+    <tr>
+      <td width="39" class="epigrafe">&nbsp;</td>
+      <td width="288" align="center" bgcolor="#CCCCCC" class="epigrafe"><span class="bodytext"><em><strong>Pr<sub>2</sub> = Pr<sub>aire</sub> = 103.700</strong></em></span><em><strong> Pa</strong></em></td>
+      <td width="180" class="epigrafe">&nbsp;</td>
+    </tr>
+  </table></td>
+  <td class="bodytext">&nbsp;</td>
+  <td align="center" valign="middle" class="bodytext">&nbsp;</td>
+</tr>  
+
+<tr>
+  <td colspan="2" rowspan="2" align="left" class="bodytext">Si en lugar de preguntarnos por la presi&oacute;n absoluta nos hubieran pedido la presi&oacute;n relativa, la respuesta habr&iacute;a sido <em><strong>2.400 <span class="epigrafe">Pa</span></strong></em>.</td>
+  <td rowspan="2" class="bodytext">&nbsp;</td>
+  <td height="49" class="bodytext"><p class="Estilo18">&nbsp;</p></td>
+</tr>
+
+<tr>
+  <td width="86" rowspan="4" valign="bottom" class="bodytext"><strong><em><sub><img src="img_flu/ricuti.jpg" alt="Flu&iacute;dos - Ricardo Cabrera" width="85" height="116"></sub></em></strong></td>
+</tr>
+
+
+<tr>
+  <td height="51" colspan="2" bgcolor="#FFFFFF" class="bodytext"><p class="bodytext"><strong>Desaf&iacute;o</strong>: &iquest;Qu&eacute; suceder&iacute;a si el tubo fuera mucho m&aacute;s largo y sobresariera de la superficie del l&iacute;quido 76 cent&iacute;metros? (Todas las otras alturas son las mismas, excepto <em><strong>h<sub>3</sub></strong></em>).</p>    </td>
+  <td class="bodytext">&nbsp;</td>
+  </tr>
+
+<tr>
+  <td colspan="2" bgcolor="#FFFFFF" class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+  </tr>
+
+<tr> <td height="56" colspan="2" align="center" valign="middle" bgcolor="#CCCCCC" class="bodytext"><table width="92%" border="0">
+  <tr>
+    <td class="epigrafe">Algunos derechos reservados. 
+  Se permite su reproducci&oacute;n citando la fuente leg&iacute;tima, o sea, este sitio. Sin los tubos de ensayo siempre salen mal los tubos del estreno. &Uacute;ltima actualizaci&oacute;n 
+  dic-11. Buenos Aires, Argentina. </td>
+  </tr>
+</table>  </td>
+  <td class="bodytext" width="7">&nbsp;</td>
+  </tr> 
+<tr> <td height="18" colspan="2" class="bodytext">&nbsp;</td><td class="bodytext" width="7">&nbsp;</td>
+<td class="bodytext" width="86">&nbsp;</td>
+</tr> 
+</table></td></tr> </table>
+<img src="img_flu/transparente.gif" width="10" height="20"></td></tr> 
+<tr> <td class="bodytext"><img src="img_flu/transparente.gif" width="600" height="20"></td></tr> 
+</table>
+</body>
+</html>

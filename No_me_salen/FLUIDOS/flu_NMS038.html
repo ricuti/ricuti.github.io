@@ -1,0 +1,245 @@
+<html>
+<head>
+<title>MECANICA DE FLUIDOS, NMS038, fisica online, ejercicios resueltos</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="keywords" content="problemas resueltos, ejercicios resueltos, cbc, fisica, biofisica, fluidos, liquidos, gases, bernoulli, poiseuille, viscosidad, ideales, viscosos, humedad, difusion, osmosis, nomesalen, no me salen, ricardo cabrera" />
+<meta name="description" content="Ejercicios y problemas resueltos, y apuntes teóricos de Fluidos, mecanismos de transporte de fluidos" />
+<link rel="stylesheet" href="../FLUIDOS/win_ie.css">
+<style type="text/css">
+<!--
+.style1 {
+	color: #3F6386;
+	font-weight: bold;
+}
+.Estilo3 {color: #3F6386}
+.Estilo18 {color: #FF0000}
+.Estilo53 {LINE-HEIGHT: 15px; font-family: Verdana, Arial, sans-serif; font-size: 12; }
+.Estilo54 {LINE-HEIGHT: 11px; font-family: Verdana, Arial, sans-serif; font-size: 12; }
+-->
+</style>
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000" alink="#000000" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<table align=center width="600" border="0" cellspacing="0" cellpadding="0"> 
+  <tr bgcolor="#000000" align="right"> 
+<td><img src="img_flu/nombre5.gif" width="369" height="71"></td>
+  </tr> <tr bgcolor="#BB0000" valign="middle" align="left"> 
+<td class="bodytext" height="20"><TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+  <TR ALIGN="center" CLASS="menuitem">
+    <TD WIDTH="44" height="19" CLASS="menuitem"><A HREF="../../index.html" CLASS="menuitem">&nbsp;<B>home</B>&nbsp;</A></TD>
+    <TD WIDTH="5" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="102" CLASS="menuitem"><strong><a href="index_fluidos.html" class="menuitem">m&aacute;s de fluidos </a> </strong></TD>
+    <TD width="5" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="136" CLASS="menuitem"><strong><a href="../../intro_NMS.html" class="menuitem">otros temas de F&iacute;sica</a></strong></TD>
+    <TD width="10" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="173" CLASS="menuitem"><strong><a href="../../lista_ciruela.html" class="menuitem">lecciones del maestro Ciruela </a></strong></TD>
+    <TD width="9" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="68" CLASS="menuitem"><strong><a href="../../lista_tonterias.html" class="menuitem">tonter&iacute;as</a></strong></TD>
+    <TD WIDTH="8" CLASS="menuitem"><a href="../ENERGIA/index_energia.html" class="menuitem"></a><FONT COLOR="#000000">|</FONT></TD>
+    <TD WIDTH="40" CLASS="menuitem">&nbsp;<B><FONT FACE="Arial, Helvetica, sans-serif"><A HREF="mailto: ricuti@qi.fcen.uba.ar" CLASS="menuitem">@</A></FONT><A HREF="../../index.html" CLASS="menuitem"></A></B>&nbsp;</TD>
+  </TR>
+</TABLE></td></tr> <tr> <td class="bodytext" height="8"><img src="img_flu/transparente.gif" width="600" height="8"></td>
+</tr> 
+<tr align="center"> <td height="743"> <table width="600" border="0" cellspacing="0" cellpadding="0"> 
+<tr class="bodytext"> <td valign="top" width="594" height="1286"> 
+<table width="600" border="0" cellspacing="0" cellpadding="0"> <tr> 
+  <td height="74" valign="middle" bgcolor="#D7FFFF" class="bodytext"><span class="bodytext"><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>NO ME SALEN<br>
+</strong></span><span class="Estilo3"><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em></strong></span><span class="titulograndegris"><strong>EJERCICIOS<strong> RESUELTOS   DE F&Iacute;SICA DEL CBC</strong></strong></span><br>
+      <span class="titulochicogris"><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>FLUIDOS</strong></span></td>
+  <td class="bodytext" rowspan="3" height="74" width="7">&nbsp;</td>
+  <td class="bodytext" height="74" rowspan="3" valign="top" width="86"> 
+<p><img src="img_flu/cap7.jpg" alt="desesperado" width="85" height="108"></p></td></tr>
+  <tr>
+    <td height="14" bgcolor="#FFFFFF" class="bodytext">&nbsp;</td>
+  </tr> 
+<tr> 
+  <td height="84" class="bodytext"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td class="bodytext"><p><strong><em>Adicional NMS</em></strong> <strong>38) Se mezcla una cierta masa de la soluci&oacute;n A cuya densidad es 1,20 kg/lit con otra masa igual de la soluci&oacute;n B, de densidad 1,40 kg/lit. Suponiendo que en la mezcla no hay alteraci&oacute;n de volumen, &iquest;cu&aacute;l es la densidad de la mezcla?</strong></p>        </td>
+    </tr>
+    
+    
+  </table>    </td>
+</tr>
+<tr>
+  <td height="32" class="bodytext"><p>&iquest;Sacaste el resultado mentalmente? A ver... veamos. </p>
+    <blockquote>
+      <p><strong><em><strong>&#948;<sub>A</sub></strong></em><em> </em>=</strong> <em><strong>1,2<span class="epigrafe"> kg</span></strong><span class="epigrafe">/</span><strong><span class="epigrafe">lit</span></strong></em></p>
+      </blockquote>
+    <p>Y se mezcla una masa <strong><em><strong>m<sub>A</sub></strong></em></strong> que ocupa un volumen<strong><em><strong> V<sub>A</sub></strong></em></strong>. La relaci&oacute;n entre estas cantidades cumple: </p>
+    <blockquote>
+      <p><strong><em><strong>m<sub>A</sub></strong></em></strong> <em><strong>/</strong></em> <strong><em><strong>V<sub>A</sub></strong></em></strong><strong> = </strong><em><strong>1,20<span class="epigrafe"> kg</span></strong><span class="epigrafe">/</span><strong><span class="epigrafe">lit</span></strong></em></p>
+      </blockquote>
+    <p>Con la soluci&oacute;n <strong>B</strong> ocurre lo mismo.</p>
+    <blockquote>
+      <p><strong><em><strong>&#948;<sub>A</sub></strong></em><em> </em>=</strong> <em><strong>1,4<span class="epigrafe"> kg</span></strong><span class="epigrafe">/</span><strong><span class="epigrafe">lit</span></strong></em></p>
+      </blockquote>
+    <p>Se mezcla una masa <strong><em><strong>m<sub>B</sub></strong></em></strong> que ocupa un volumen<strong><em><strong> V<sub>B</sub></strong></em></strong>. La relaci&oacute;n entre estas cantidades cumple: </p>
+    <blockquote>
+      <p><strong><em><strong>m<sub>B</sub></strong></em></strong> <em><strong>/</strong></em> <strong><em><strong>V<sub>B</sub></strong></em></strong><strong> = </strong><em><strong>1,40<span class="epigrafe"> kg</span></strong><span class="epigrafe">/</span><strong><span class="epigrafe">lit</span></strong></em></p>
+      </blockquote>
+    <p>La mezca contiene iguales cantidades (en masa) de ambas soluciones:</p>
+    <blockquote>
+      <p><strong><em><strong>m<sub>A</sub></strong></em></strong><strong> = </strong><strong><em><strong>m<sub>B</sub></strong></em></strong></p>
+      </blockquote>
+    <p>De donde la mezcla tendr&aacute; una masa, <strong><em><strong>m<sub>M</sub></strong></em></strong>, igual a la suma de ambas (o al doble de cualquiera de ellas). </p>
+    <blockquote>
+      <p><strong><em><strong>m<sub>M</sub></strong></em></strong> <strong>= </strong><strong><em><strong>2 m<sub>A</sub></strong></em></strong><strong> = 2 </strong><strong><em><strong>m<sub>B</sub></strong></em></strong></p>
+    </blockquote>
+    <p>Y como no hay alteraci&oacute;n de volumen (en algunas mezclas s&iacute; ocurre), el volumen de la mezcla, , ser&aacute; igual a la suma de los vol&uacute;menes de las dos soluciones, que -es obvio- no son iguales.</p>
+    <blockquote>
+      <p><strong><em><strong>V<sub>M</sub></strong></em></strong> <strong>= </strong><strong><em><strong>V<sub>A</sub></strong></em></strong><strong> + </strong><strong><em><strong>V<sub>B</sub></strong></em></strong></p>
+    </blockquote>
+    <p>Lo que buscamos es la densidad de la mezcla: </p>
+    <blockquote>
+      <p><strong><em><strong>&#948;<sub>M</sub></strong></em><em> </em>=</strong><strong><em><strong> m<sub>M</sub></strong></em></strong> <em><strong>/</strong></em> <strong><em><strong>V<sub>M</sub></strong></em></strong></p>
+      </blockquote>
+    <p>Reemplacemos las relaciones de cantidad y veamos qu&eacute; pasa.</p>    </td>
+  <td width="7" class="bodytext">&nbsp;</td>
+  <td width="86" align="center" valign="middle" class="bodytext"><p class="epigrafe Estilo18">&nbsp;</p>    </td>
+</tr>  
+
+<tr>
+  <td height="52" align="center" class="bodytext"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td width="14%" rowspan="3" align="right" class="Estilo53"><strong><em><strong>&#948;<sub>M</sub></strong></em><em> </em>=</strong></td>
+      <td width="2%" rowspan="3" class="Estilo53">&nbsp;</td>
+      <td width="16%" height="0" align="center" valign="bottom" class="bodytext"><strong><em><strong>m<sub>M</sub></strong></em></strong></td>
+      <td width="68%" rowspan="3" align="center" valign="middle" class="Estilo53">&nbsp;</td>
+      </tr>
+    <tr>
+      <td height="2" align="center" valign="middle" class="Estilo54"><hr align="center" width="100%" style="color:black" size="1" noshade></td>
+      </tr>
+    <tr>
+      <td height="0" align="center" valign="top" class="Estilo53"><strong><em><strong><em><strong>V<sub>A</sub></strong></em></strong><strong> + </strong><strong><em><strong>V<sub>B</sub></strong></em></strong></em></strong></td>
+      </tr>
+  </table></td>
+  <td class="bodytext">&nbsp;</td>
+  <td align="center" class="epigrafe Estilo18"><p>&nbsp;</p>    </td>
+</tr>
+<tr>
+  <td height="74" align="left" class="bodytext"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td width="14%" rowspan="3" align="right" valign="middle" class="Estilo53"><strong><em><strong>&#948;<sub>M</sub></strong></em><em> </em>=</strong></td>
+      <td width="2%" rowspan="3" class="Estilo53">&nbsp;</td>
+      <td width="43%" height="38" align="center" valign="bottom" class="bodytext"><strong><em><strong>2 m<sub>A</sub></strong></em></strong></td>
+      <td width="41%" rowspan="3" align="center" valign="middle" class="Estilo53">&nbsp;</td>
+    </tr>
+    <tr>
+      <td height="2" align="center" valign="middle" class="Estilo54"><hr align="center" width="100%" style="color:black" size="1" noshade></td>
+    </tr>
+    <tr>
+      <td height="38" align="center" valign="top" class="Estilo53"><table width="87%" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td width="45%" height="19" align="center" valign="middle" class="bodytext" font style="line-height: 60%;" ><strong><em><strong><em><strong>m<sub>A </sub></strong></em></strong></em></strong></td>
+          <td width="10%" rowspan="3" align="center" class="bodytext"><em><strong>+</strong></em></td>
+          <td width="45%" align="center" valign="middle" class="bodytext" style="line-height: 60%;" font><strong><em><strong><em><strong>m<sub>B</sub></strong></em></strong></em></strong></td>
+          </tr>
+        <tr>
+          <td align="center" class="bodytext"><hr align="center" width="100%" style="color:black" size="1" noshade></td>
+          <td align="center" class="bodytext"><hr align="center" width="100%" style="color:black" size="1" noshade></td>
+        </tr>
+        <tr>
+          <td height="18" align="center" valign="top" class="bodytext" font style="line-height: 60%;" ><strong><em><strong>1,20<span class="epigrafe"> kg</span></strong></em></strong><em><span class="epigrafe">/</span></em><strong><em><strong><span class="epigrafe">lit</span> </strong></em></strong></td>
+          <td align="center" valign="top" class="bodytext" font style="line-height: 60%;"><strong><em><strong>1,40<span class="epigrafe"> kg</span></strong></em></strong><em><span class="epigrafe">/</span></em><strong><em><strong><span class="epigrafe">lit</span></strong></em></strong></td>
+        </tr>
+      </table></td>
+    </tr>
+  </table>    </td>
+  <td class="bodytext">&nbsp;</td>
+  <td align="center" class="epigrafe">&nbsp;</td>
+</tr>
+<tr>
+  <td height="62" align="left" class="bodytext">Acordate que la masa de <strong>A</strong> era igual a la de <strong>B</strong>, podemos cancelar.</td>
+  <td class="bodytext">&nbsp;</td>
+  <td align="center" class="epigrafe">&nbsp;</td>
+</tr>
+<tr>
+  <td height="57" align="center" class="bodytext"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td width="14%" rowspan="3" align="right" class="Estilo53"><strong><em><strong>&#948;<sub>M</sub></strong></em><em> </em>=</strong></td>
+      <td width="2%" rowspan="3" class="Estilo53">&nbsp;</td>
+      <td width="39%" height="0" align="center" valign="bottom" class="Estilo53"><span class="bodytext"><strong><em><strong><em><strong><em><strong>&nbsp;2 . 1,68</strong><strong> </strong></em></strong></em></strong></em></strong></span><strong><em><strong><em><strong><em><strong><span class="epigrafe">(kg</span></strong></em></strong></em></strong></em></strong><em><em><em><span class="epigrafe">/</span></em></em></em><strong><em><strong><em><strong><em><strong><span class="epigrafe">lit)</span><em>&sup2;</em></strong></em></strong></em></strong></em></strong></td>
+      <td width="45%" rowspan="3" align="center" valign="middle" class="Estilo53">&nbsp;</td>
+    </tr>
+    <tr>
+      <td height="2" align="center" valign="middle" class="Estilo54"><hr align="center" width="100%" style="color:black" size="1" noshade></td>
+    </tr>
+    <tr>
+      <td height="0" align="center" valign="top" class="Estilo53"><span class="bodytext"><strong><em><strong><em><strong><em><strong>1,40</strong></em></strong></em></strong></em></strong></span><strong><em><strong><em><strong><em><strong><span class="epigrafe"> kg</span></strong></em></strong></em></strong></em></strong><em><em><em><span class="epigrafe">/</span></em></em></em><strong><em><strong><em><strong><em><strong><span class="epigrafe">lit</span></strong></em></strong></em> + <span class="bodytext"><em><strong><em><strong>1,20</strong></em></strong></em></span><em><strong><em><strong><span class="epigrafe"> kg</span></strong></em></strong></em></strong></em></strong><em><em><em><span class="epigrafe">/</span></em></em></em><strong><em><strong><em><strong><em><strong><span class="epigrafe">lit</span></strong></em></strong></em></strong></em></strong></td>
+    </tr>
+  </table></td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="59" align="center" class="bodytext"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td width="14%" rowspan="3" align="right" class="Estilo53"><strong><em><strong>&#948;<sub>M</sub></strong></em><em> </em>=</strong></td>
+      <td width="2%" rowspan="3" class="Estilo53">&nbsp;</td>
+      <td width="28%" height="0" align="center" valign="bottom" class="Estilo53"><span class="bodytext"><strong><em><strong><em><strong><em><strong>2 . 1,68</strong></em></strong></em></strong></em></strong></span><strong><em><strong><em><strong><em><strong><span class="epigrafe"> kg</span></strong></em></strong></em></strong></em></strong><em><em><em><span class="epigrafe">/</span></em></em></em><strong><em><strong><em><strong><em><strong><span class="epigrafe">lit</span></strong></em></strong></em></strong></em></strong></td>
+      <td width="56%" rowspan="3" align="center" valign="middle" class="Estilo53">&nbsp;</td>
+    </tr>
+    <tr>
+      <td height="2" align="center" valign="middle" class="Estilo54"><hr align="center" width="100%" style="color:black" size="1" noshade></td>
+    </tr>
+    <tr>
+      <td height="0" align="center" valign="top" class="Estilo53"><strong class="bodytext"><em><strong><em><strong>2,6</strong></em></strong></em></strong><strong><em><strong><em><strong></strong></em></strong></em></strong></td>
+    </tr>
+  </table></td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="72" align="center" class="bodytext"><table width="102%" border="0">
+    <tr>
+      <td width="9%" height="36" align="center" bgcolor="#FFFFFF"><p class="bodytext">&nbsp;</p></td>
+        <td width="49%" align="center" bgcolor="#CCCCCC" class="bodytext"><strong><em><strong>&#948;<sub>A</sub></strong></em><em> </em>=</strong> <em><strong>1,292<span class="epigrafe"> kg</span></strong><span class="epigrafe">/</span><strong><span class="epigrafe">lit</span></strong></em></td>
+        <td width="42%" align="center" bgcolor="#FFFFFF" class="bodytext">&nbsp;</td>
+      </tr>
+  </table></td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+</tr>
+
+<tr>
+  <td height="30" align="left" class="bodytext"><p>Capaz que tu pron&oacute;stico hab&iacute;a sido <em><strong>1,3</strong></em>, o sea, el promedio aritm&eacute;tico entre las densidades. Ese habr&iacute;a sido el caso si se mezclaran vol&uacute;menes iguales... pero no masas. Sorpresa, &iquest;no?</p>    </td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td align="center" class="bodytext"><p>&nbsp;</p></td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext"><p class="Estilo18">&nbsp;</p></td>
+</tr>
+
+<tr>
+  <td height="20" align="center" valign="middle" bgcolor="#FFFF99" class="epigrafe">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+</tr>
+
+<tr>
+  <td height="53" bgcolor="#FFFFFF" class="bodytext"><strong>DESAF&Iacute;O</strong>:  &iquest;Cu&aacute;nto valdr&iacute;a la densidad de la mezcla si al hacerse sufre una reducci&oacute;n de volumen del 10%?</td>
+  <td class="bodytext">&nbsp;</td>
+  <td width="86" rowspan="2" valign="bottom" class="bodytext"><strong><em><sub><img src="img_flu/ricuti.jpg" alt="Flu&iacute;dos - Ricardo Cabrera" width="85" height="116"></sub></em></strong></td>
+</tr>
+
+<tr> <td height="45" align="center" valign="middle" bgcolor="#CCCCCC" class="bodytext"><table width="92%" border="0">
+  <tr>
+    <td class="epigrafe">Algunos derechos reservados. 
+  Se permite su reproducci&oacute;n citando la fuente leg&iacute;tima, o sea, este sitio. &Uacute;ltima actualizaci&oacute;n 
+  ene-14. Buenos Aires, Argentina. </td>
+  </tr>
+</table>  </td>
+  <td class="bodytext" width="7">&nbsp;</td>
+  </tr> 
+<tr> <td height="18" class="bodytext">&nbsp;</td><td class="bodytext" width="7">&nbsp;</td>
+<td class="bodytext" width="86">&nbsp;</td>
+</tr> 
+</table></td></tr> </table>
+<img src="img_flu/transparente.gif" width="10" height="20"></td></tr> 
+<tr> <td class="bodytext"><img src="img_flu/transparente.gif" width="600" height="20"></td></tr> 
+</table>
+</body>
+</html>

@@ -1,0 +1,179 @@
+<html>
+<head>
+<title>MECANICA DE FLUIDOS, F016, fisica online, ejercicios resueltos</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta name="keywords" content="problemas resueltos, ejercicios resueltos, cbc, fisica, biofisica, fluidos, liquidos, gases, bernoulli, poiseuille, viscosidad, ideales, viscosos, humedad, difusion, osmosis, nomesalen, no me salen, ricardo cabrera" />
+<meta name="description" content="Ejercicios y problemas resueltos, y apuntes teóricos de Fluidos, mecanismos de transporte de fluidos" />
+<link rel="stylesheet" href="../FLUIDOS/win_ie.css">
+<style type="text/css">
+<!--
+.style1 {
+	color: #3F6386;
+	font-weight: bold;
+}
+.Estilo3 {color: #3F6386}
+.Estilo16 {font-size: 16px}
+.Estilo26 {font-family: "Times New Roman", Times, serif;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 16px;
+}
+.Estilo17 {font-size: 10px}
+.Estilo25 {font-family: Verdana, Arial, sans-serif}
+-->
+</style>
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000" alink="#000000" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<table align=center width="600" border="0" cellspacing="0" cellpadding="0"> 
+  <tr bgcolor="#000000" align="right"> 
+<td><img src="img_flu/nombre5.gif" width="369" height="71" /></td></tr> <tr bgcolor="#BB0000" valign="middle" align="left"> 
+<td class="bodytext" height="20"><TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+  <TR ALIGN="center" CLASS="menuitem">
+    <TD WIDTH="44" height="19" CLASS="menuitem"><A HREF="../../index.html" CLASS="menuitem">&nbsp;<B>home</B>&nbsp;</A></TD>
+    <TD WIDTH="5" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="102" CLASS="menuitem"><strong><a href="index_fluidos.html" class="menuitem">m&aacute;s de fluidos </a> </strong></TD>
+    <TD width="5" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="136" CLASS="menuitem"><strong><a href="../../intro_NMS.html" class="menuitem">otros temas de F&iacute;sica</a></strong></TD>
+    <TD width="10" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="173" CLASS="menuitem"><strong><a href="../../lista_ciruela.html" class="menuitem">lecciones del maestro Ciruela </a></strong></TD>
+    <TD width="9" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="68" CLASS="menuitem"><strong><a href="../../lista_tonterias.html" class="menuitem">tonter&iacute;as</a></strong></TD>
+    <TD WIDTH="8" CLASS="menuitem"><a href="../ENERGIA/index_energia.html" class="menuitem"></a><FONT COLOR="#000000">|</FONT></TD>
+    <TD WIDTH="40" CLASS="menuitem">&nbsp;<B><FONT FACE="Arial, Helvetica, sans-serif"><A HREF="mailto: ricuti@qi.fcen.uba.ar" CLASS="menuitem">@</A></FONT><A HREF="../../index.html" CLASS="menuitem"></A></B>&nbsp;</TD>
+  </TR>
+</TABLE></td></tr> <tr> <td class="bodytext" height="19"><img src="img_flu/transparente.gif" width="600" height="20" /></td></tr> 
+<tr align="center"> <td height="959"> <table width="600" border="0" cellspacing="0" cellpadding="0"> 
+<tr class="bodytext"> <td valign="top" width="594" height="939"> 
+<table width="600" border="0" cellspacing="0" cellpadding="0"> <tr> 
+  <td height="74" colspan="2" bgcolor="#D7FFFF" class="bodytext"><span class="bodytext"><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>NO ME SALEN<br />
+</strong></span><span class="Estilo3"><em class="bodytext "><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>(<strong>PROBLEMAS RESUELTOS   DE BIOF&Iacute;SICA DEL CBC</strong>)</strong></em></span><br />
+      <span class="titulograndegris Estilo16"><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>FLUIDOS<br />
+      </strong></span><span class="titulochicogris"><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em></strong></span><span class="Estilo3">HIDRODIN&Aacute;MICA<br />
+      </span></td>
+  <td class="bodytext" rowspan="3" height="74" width="10">&nbsp;</td>
+  <td class="bodytext" height="74" rowspan="3" valign="top" width="86"> 
+<p><img src="img_flu/cap9.jpg" alt="desesperado" width="85" height="123" /></p></td></tr>
+  <tr>
+    <td height="18" colspan="2" bgcolor="#FFFFFF" class="bodytext">&nbsp;</td>
+  </tr> 
+<tr> <td width="81" height="84" class="bodytext"><P><img src="img_flu/BIOFISICA.jpg" width="65" height="90" /></P>
+    </td>
+  <td width="429" class="bodytext"><p><strong>16) Por un ca&ntilde;o horizontal de secci&oacute;n variable fluye un l&iacute;quido de viscosidad insignificante.
+  Calcular la diferencia de presi&oacute;n entre los extremos del ca&ntilde;o en funci&oacute;n de la velocidad
+    de entrada, <em>v,</em> y la densidad del l&iacute;quido, <em>&delta;,</em> si:<br />
+    a) la secci&oacute;n a la salida del ca&ntilde;o es el triple que la de entrada,<br />
+    b) el di&aacute;metro a la salida del ca&ntilde;o es el triple que el de la entrada.</strong></p>    </td>
+</tr>
+<tr>
+  <td height="65" colspan="2" class="bodytext"><p>Ac&aacute; otro problema t&iacute;pico de conservaci&oacute;n de energ&iacute;a en un fluido (Bernoulli). Vamos con la primera parte en la que la secci&oacute;n de salida triplica  la de entrada.</p>    </td>
+  <td class="bodytext" height="65">&nbsp;</td>
+  <td class="bodytext" height="65" valign="top">&nbsp;</td>
+</tr>
+<tr>
+  <td height="105" colspan="2" align="center" class="bodytext"><img src="img_flu/flu_016_1.gif" alt="Flu&iacute;dos - Ricardo Cabrera" width="506" height="120" /></td>
+  <td class="bodytext" height="105">&nbsp;</td>
+  <td class="bodytext" height="105" valign="top">&nbsp;</td>
+</tr>  
+<tr> 
+  <td height="403" colspan="2" align="left" class="bodytext"><p>Escrita como ecuaci&oacute;n, la condici&oacute;n del ejercicio dice: </p>
+    <blockquote>
+      <p><strong><em>S<strong><em><strong><strong><em><strong><em><sub>S</sub></em></strong></em></strong></strong></em></strong></em></strong><strong><em> = 3 S<strong><em><strong><strong><em><strong><em><sub>E</sub></em></strong></em></strong></strong></em></strong> </em></strong></p>
+      </blockquote>
+    <p>Eso tiene su consecuencia en la velocidad, y en la velocidad al cuadrado, ya que: </p>
+    <blockquote>
+      <p><strong><em>Q<strong><em><strong><strong><em><strong><em><sub>S</sub> =</em></strong></em></strong></strong></em></strong></em></strong><strong><em> Q<strong><em><strong><strong><em><strong><em><sub>E</sub></em></strong></em></strong></strong></em></strong></em></strong></p>
+      <p><strong><em>S<strong><em><strong><strong><em><strong><em><sub>S </sub></em></strong></em></strong></strong></em></strong>. v<strong><em><strong><strong><em><strong><em><sub>S </sub></em></strong></em></strong></strong></em></strong></em></strong><strong><em>= S<strong><em><strong><strong><em><strong><em><sub>E</sub></em></strong></em></strong></strong></em></strong> . v<strong><em><strong><strong><em><strong><em><sub>E</sub></em></strong></em></strong></strong></em></strong> </em></strong></p>
+      <p><strong><em><strong><em><strong><strong><em><strong><em>3 S<strong><em><strong><strong><em><strong><em><sub>E </sub></em></strong></em></strong></strong></em></strong></em></strong></em></strong></strong></em></strong>. v<strong><em><strong><strong><em><strong><em><sub>S </sub></em></strong></em></strong></strong></em></strong></em></strong><strong><em>= S<strong><em><strong><strong><em><strong><em><sub>E</sub></em></strong></em></strong></strong></em></strong> . v<strong><em><strong><strong><em><strong><em><sub>E</sub></em></strong></em></strong></strong></em></strong> </em></strong></p>
+      <p><strong><em><strong><em><strong><strong><em><strong><em>3 </em></strong></em></strong></strong></em></strong> v<strong><em><strong><strong><em><strong><em><sub>S</sub></em></strong></em></strong></strong></em></strong></em></strong><strong><em> = v<strong><em><strong><strong><em><strong><em><sub>E</sub></em></strong></em></strong></strong></em></strong> </em></strong></p>
+      </blockquote>
+    <p>Y en los cuadrados:</p>
+    <blockquote>
+      <p><strong><em><strong><em><strong><strong><em><strong><em>9 </em></strong></em></strong></strong></em></strong> v<strong><em><strong><strong><em><strong><em><sub>S</sub><strong><em><strong><strong><em><strong>&sup2;<em> = </em></strong></em></strong></strong></em></strong></em></strong></em></strong></strong></em></strong></em></strong><strong><em>v<strong><em><strong><strong><em><strong><em><sub>E</sub><strong><em><strong><strong><em><strong>&sup2;</strong></em></strong></strong></em></strong></em></strong></em></strong></strong></em></strong></em></strong></p>
+      <p><strong><em>v<strong><em><strong><strong><em><strong><em><sub>S</sub><strong><em><strong><strong><em><strong>&sup2;</strong></em></strong></strong></em></strong></em></strong></em></strong></strong></em></strong></em></strong><strong><em> = v<strong><em><strong><strong><em><strong><em><sub>E</sub><strong><em><strong><strong><em><strong>&sup2;</strong></em></strong></strong></em></strong></em></strong></em></strong></strong></em></strong> / 9</em></strong></p>
+    </blockquote>
+    <p>Ahora podemos plantear la ecuaci&oacute;n de Bernoulli (sin los t&eacute;rminos de energ&iacute;a potencial ya que todo ocurre a la misma altura). </p>
+    <blockquote>
+      <p><strong><em><strong><em><strong>&Delta;<strong><em>P <strong><em><strong><em><strong>= </strong></em></strong></em></strong></em></strong> <strong><em>&frac12; &delta; (v<strong><em><strong><strong><em><strong><em><sub>E</sub></em></strong></em></strong></strong></em>&sup2; </strong></em></strong><em><strong><strong>&ndash;</strong></strong></em><strong><em> v<strong><em><strong><strong><em><strong><em><sub>S</sub></em></strong></em></strong></strong></em>&sup2;</strong></em></strong></strong></em></strong>)</em></strong></p>
+      <p><strong><em><strong><em><strong>&Delta;<strong><em>P <strong><em><strong><em><strong>= </strong></em></strong></em></strong></em></strong> <strong><em>&frac12; &delta; (v<strong><em><strong><strong><em><strong><em><sub>E</sub></em></strong></em></strong></strong></em>&sup2;</strong></em></strong><em> &ndash;</em> <strong><em><strong><em>v<strong><em><strong><strong><em><strong><em><sub>E</sub><strong><em><strong><strong><em><strong>&sup2;</strong></em></strong></strong></em></strong></em></strong></em></strong></strong></em></strong>/ 9</em></strong></em></strong></strong></em></strong>)</em></strong><strong><em><strong><em><strong><strong><em><strong><em><strong><em><strong> = </strong></em></strong></em></strong></em></strong> <strong><em>&frac12; &delta; (<strong><em><strong><strong><em><strong><em>8/9) </em></strong></em></strong></strong></em></strong>v<strong><em><strong><strong><em><strong><em><sub>E</sub></em></strong></em></strong></strong></em>&sup2;</strong></em></strong></strong></em></strong></em></strong></p>
+      </blockquote></td>
+  <td class="bodytext" width="10">&nbsp;</td>
+  <td class="bodytext" width="86">&nbsp;</td>
+</tr>
+<tr>
+  <td height="56" colspan="2" align="center" valign="middle" class="bodytext"><table width="93%" border="0">
+    <tr>
+      <td height="40" bgcolor="#CCCCCC"><p class="bodytext"><strong><em><strong><em><strong><strong>&#160;&#160; &#160;&#160; &#160;&#160; &#160;</strong>&Delta;<strong><em>P <strong><em><strong><em><strong>= </strong></em></strong></em></strong></em></strong></strong></em></strong></em></strong><strong><em><strong><em><strong><strong><em><strong><em><strong><em><strong><strong><em>(<strong><em><strong><strong><em><strong><em>4/9)</em></strong></em></strong></strong></em></strong></em></strong></strong></em></strong></em></strong> &delta; v<strong><em><strong><strong><em><strong><em><sub>E</sub></em></strong></em></strong></strong></em>&sup2;</strong></em></strong></strong></em></strong></em></strong><em><em> &#160;&#160; &#160;</em></em><em><em> &#160;&#160; &#160;</em></em><em><em> &#160;&#160; &#160;</em></em><em><em> &#160;&#160; &#160;</em></em><em><em> &#160;&#160; &#160;</em></em><em><em> &#160;&#160; &#160;</em></em>a)</p></td>
+    </tr>
+  </table></td>
+  <td height="56" align="left" valign="middle" class="bodytext">&nbsp;</td>
+  <td height="56" align="left" valign="middle" class="bodytext">&nbsp;</td>
+  </tr>
+<tr>
+  <td colspan="2" align="left" valign="middle" class="bodytext"><p>La nueva condici&oacute;n del ejercicio relaciona los di&aacute;metros de los tubos, no sus secciones: </p>
+    <blockquote>
+      <p><strong><em>d<strong><em><strong><strong><em><strong><em><sub>S </sub></em></strong></em></strong></strong></em></strong></em></strong><strong><em>= 3 d<strong><em><strong><strong><em><strong><em><sub>E</sub></em></strong></em></strong></strong></em></strong></em></strong></p>
+      <p><strong><em>d<strong><em><strong><strong><em><strong><em><sub>S</sub></em></strong></em></strong></strong></em></strong></em></strong><strong><em><strong><em><strong><strong><em><strong><em><strong><em><strong><strong><em><strong>&sup2;</strong></em></strong></strong></em></strong></em></strong></em></strong></strong></em></strong></em></strong><strong><em> = 9 d<strong><em><strong><strong><em><strong><em><sub>E</sub></em></strong></em></strong></strong></em></strong><strong><em><strong><strong><em><strong><em><strong><em><strong><strong><em><strong>&sup2;</strong></em></strong></strong></em></strong></em></strong></em></strong></strong></em></strong></em></strong></p>
+    </blockquote>
+    <p>Pero a partir de ello podemos relacionar las secciones (acordate que una secci&oacute;n circular es igual a <strong><em>S = (</em><span class="Estilo26">&pi;</span></strong><em>/</em><strong><em>4) d<strong><em><strong><strong><em><strong><em><strong><em><strong><strong><em><strong>&sup2;</strong></em></strong></strong></em></strong></em></strong></em></strong></strong></em></strong></em></strong></p>
+    <blockquote>
+      <p><strong><em>(</em><span class="Estilo26">&pi;</span></strong><em>/</em><strong><em>4) d<strong><em><strong><strong><em><strong><em><sub>S</sub><strong><em><strong><strong><em><strong>&sup2;</strong></em></strong></strong></em></strong></em></strong></em></strong></strong></em></strong></em></strong><strong><em> = 9 (</em><span class="Estilo26">&pi;</span></strong><em>/</em><strong><em>4) d<strong><em><strong><strong><em><strong><em><sub>E</sub><strong><em><strong><strong><em><strong>&sup2;</strong></em></strong></strong></em></strong></em></strong></em></strong></strong></em></strong></em></strong></p>
+      <p><strong><em>S<strong><em><strong><strong><em><strong><em><sub>S</sub></em></strong></em></strong></strong></em></strong></em></strong><strong><em><strong><em><strong><strong><em><strong><em><strong><em><strong><strong><em><strong>&sup2; </strong></em></strong></strong></em></strong></em></strong></em></strong></strong></em></strong></em></strong><strong><em>= 9 S<strong><em><strong><strong><em><strong><em><sub>E</sub></em></strong></em></strong></strong></em></strong><strong><em><strong><strong><em><strong><em><strong><em><strong><strong><em><strong>&sup2;</strong></em></strong></strong></em></strong></em></strong></em></strong></strong></em></strong> </em></strong></p>
+    </blockquote>
+    <p>Y esto tiene su consecuencia en la velocidad, y en la velocidad al cuadrado, ya que: </p>
+    <blockquote>
+      <p><strong><em>Q<strong><em><strong><strong><em><strong><em><sub>S</sub></em></strong></em></strong></strong></em></strong></em></strong><strong><em> = Q<strong><em><strong><strong><em><strong><em><sub>E</sub></em></strong></em></strong></strong></em></strong> </em></strong></p>
+      <p><strong><em>S<strong><em><strong><strong><em><strong><em><sub>S </sub></em></strong></em></strong></strong></em></strong>. v<strong><em><strong><strong><em><strong><em><sub>S</sub> = </em></strong></em></strong></strong></em></strong></em></strong><strong><em>S<strong><em><strong><strong><em><strong><em><sub>E</sub></em></strong></em></strong></strong></em></strong> . v<strong><em><strong><strong><em><strong><em><sub>E</sub></em></strong></em></strong></strong></em></strong></em></strong></p>
+      <p><strong><em><strong><em><strong><strong><em><strong><em>9 S<strong><em><strong><strong><em><strong><em><sub>E </sub></em></strong></em></strong></strong></em></strong></em></strong></em></strong></strong></em></strong>. v<strong><em><strong><strong><em><strong><em><sub>S</sub> = </em></strong></em></strong></strong></em></strong></em></strong><strong><em>S<strong><em><strong><strong><em><strong><em><sub>E</sub></em></strong></em></strong></strong></em></strong> . v<strong><em><strong><strong><em><strong><em><sub>E</sub></em></strong></em></strong></strong></em></strong> </em></strong></p>
+      <p><strong><em><strong><em><strong><strong><em><strong><em>9 </em></strong></em></strong></strong></em></strong> v<strong><em><strong><strong><em><strong><em><sub>S</sub></em></strong></em></strong></strong></em></strong></em></strong><strong><em> = v<strong><em><strong><strong><em><strong><em><sub>E</sub></em></strong></em></strong></strong></em></strong> </em></strong></p>
+      <p><strong><em><strong><em><strong><strong><em><strong><em>81 </em></strong></em></strong></strong></em></strong> v<strong><em><strong><strong><em><strong><em><sub>S</sub><strong><em><strong><strong><em><strong>&sup2;</strong></em></strong></strong></em></strong></em></strong></em></strong></strong></em></strong></em></strong><strong><em> = v<strong><em><strong><strong><em><strong><em><sub>E</sub><strong><em><strong><strong><em><strong>&sup2;</strong></em></strong></strong></em></strong></em></strong></em></strong></strong></em></strong> </em></strong></p>
+      <p><strong><em>v<strong><em><strong><strong><em><strong><em><sub>S</sub><strong><em><strong><strong><em><strong>&sup2;</strong></em></strong></strong></em></strong></em></strong></em></strong></strong></em></strong></em></strong><strong><em> = v<strong><em><strong><strong><em><strong><em><sub>E</sub><strong><em><strong><strong><em><strong>&sup2;</strong></em></strong></strong></em></strong></em></strong></em></strong></strong></em></strong> / 81</em></strong></p>
+    </blockquote>
+    <p>Ahora planteamos la ecuaci&oacute;n de Bernoulli:</p>
+    <blockquote>
+      <p><strong><em><strong><em><strong>&Delta;<strong><em>P <strong><em><strong><em><strong>= </strong></em></strong></em></strong></em></strong> <strong><em>&frac12; &delta; (v<strong><em><strong><strong><em><strong><em><sub>E</sub></em></strong></em></strong></strong></em>&sup2; </strong></em></strong><em>&ndash;</em> <strong><em> v<strong><em><strong><strong><em><strong><em><sub>S</sub></em></strong></em></strong></strong></em>&sup2;</strong></em></strong></strong></em></strong>)</em></strong></p>
+      <p><strong><em><strong><em><strong>&Delta;<strong><em>P <strong><em><strong><em><strong>= </strong></em></strong></em></strong></em></strong> <strong><em>&frac12; &delta; (v<strong><em><strong><strong><em><strong><em><sub>E</sub></em></strong></em></strong></strong></em>&sup2;</strong></em></strong><em> &ndash;</em> <strong><em><strong><em>v<strong><em><strong><strong><em><strong><em><sub>E</sub><strong><em><strong><strong><em><strong>&sup2;</strong></em></strong></strong></em></strong></em></strong></em></strong></strong></em></strong>/ 81 </em></strong></em></strong></strong></em></strong>)</em></strong><strong><em><strong><em><strong><strong><em><strong><em><strong><em><strong> = </strong></em></strong></em></strong></em></strong> <strong><em>&frac12; &delta; (<strong><em><strong><strong><em><strong><em>80/81) </em></strong></em></strong></strong></em></strong>v<strong><em><strong><strong><em><strong><em><sub>E</sub></em></strong></em></strong></strong></em>&sup2;</strong></em></strong></strong></em></strong></em></strong></p>
+    </blockquote></td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext"><img src="img_flu/stillson.jpg" alt="Flu&iacute;dos - Ricardo Cabrera" width="85" height="325"></td>
+</tr>
+<tr>
+  <td height="54" colspan="2" align="center" valign="middle" class="bodytext"><table width="93%" border="0">
+    <tr>
+      <td height="31" bgcolor="#CCCCCC"><p class="bodytext"><strong><em><strong><em><strong><strong>&#160;&#160; &#160;&#160; &#160;&#160; &#160;</strong>&Delta;<strong><em>P <strong><em><strong><em><strong>= </strong></em></strong></em></strong></em></strong></strong></em></strong></em></strong><strong><em><strong><em><strong><strong><em><strong><em><strong><em><strong><strong><em>(<strong><em><strong><strong><em><strong><em>40/81)</em></strong></em></strong></strong></em></strong></em></strong></strong></em></strong></em></strong> &delta; v<strong><em><strong><strong><em><strong><em><sub>E</sub></em></strong></em></strong></strong></em>&sup2;</strong></em></strong></strong></em></strong></em></strong><em><em> &#160;&#160; &#160;</em></em><em><em> &#160;&#160; &#160;</em></em><em><em> &#160;&#160; &#160;</em></em><em><em> &#160;&#160; &#160;</em></em><em><em> &#160;&#160; &#160;</em></em><em><em> &#160;&#160; &#160;</em></em>b)</p></td>
+    </tr>
+  </table></td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="53" colspan="2" align="left" class="bodytext">En ambos casos se trata de un aumento de presi&oacute;n ya que en la salida siempre tenemos menor velocidad que en la entrada y, estando a la misma altura, a menor velocidad mayor debe ser la presi&oacute;n. </td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="32" colspan="2" align="left" class="bodytext"><p><strong>DESAF&Iacute;O</strong>: &iquest;Cu&aacute;nto valdr&iacute;a la diferencia de presi&oacute;n si la densidad del l&iacute;quido valiera <em><strong>1.200</strong></em> <span class="epigrafe"><em><strong>kg</strong>/</em></span><em><strong><em><span class="Estilo25"><span class="Estilo17">m</span></span><strong><sup>3</sup></strong></em></strong></em> y la velocidad de entrada <em><strong>0,082</strong></em> <em><strong><em><span class="Estilo25"><span class="Estilo17">m</span></span></em></strong></em><span class="Estilo17">/</span><em><strong><span class="Estilo17">s</span></strong></em>? </p>    </td>
+  <td class="bodytext">&nbsp;</td>
+  <td width="86" rowspan="3" valign="bottom" class="bodytext"><strong><em><sub><img src="img_flu/ric_fotoric.jpg" alt="Flu&iacute;dos - Ricardo Cabrera" width="85" height="110" /></sub></em></strong></td>
+</tr>
+
+<tr>
+  <td height="18" colspan="2" bgcolor="#FFFFFF" class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+  </tr>
+
+<tr> <td colspan="2" bgcolor="#CCCCCC" class="bodytext"><blockquote>
+  <p><span class="epigrafe">Algunos derechos reservados. 
+    Se permite su reproducci&oacute;n citando la fuente. &Uacute;ltima actualizaci&oacute;n abr-08. Buenos Aires, Argentina. </span></p>
+</blockquote></td>
+  <td class="bodytext" width="10">&nbsp;</td>
+  </tr> 
+<tr> <td height="18" colspan="2" class="bodytext">&nbsp;</td><td class="bodytext" width="10">&nbsp;</td>
+<td class="bodytext" width="86">&nbsp;</td>
+</tr> 
+</table></td></tr> </table>
+<img src="img_flu/transparente.gif" width="10" height="20" /></td></tr> 
+<tr> <td class="bodytext"><img src="img_flu/transparente.gif" width="600" height="20" /></td></tr> 
+</table>
+</body>
+</html>

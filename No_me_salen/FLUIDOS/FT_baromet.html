@@ -1,0 +1,186 @@
+<html>
+<head>
+<title>Ricardo Cabrera, MECANICA DE FLUIDOS, PRESION ABSOLUTA Y RELATIVA</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="keywords" content="problemas resueltos, ejercicios resueltos, cbc, fisica, biofisica, fluidos, liquidos, gases, bernoulli, poiseuille, viscosidad, ideales, viscosos, humedad, difusion, osmosis, nomesalen, no me salen, ricardo cabrera" />
+<meta name="description" content="Ejercicios y problemas resueltos, y apuntes teóricos de Fluidos, mecanismos de transporte de fluidos" />
+<link rel="stylesheet" href="../FLUIDOS/win_ie.css">
+<style type="text/css">
+<!--
+.style1 {
+	color: #3F6386;
+	font-weight: bold;
+}
+.Estilo3 {color: #3F6386}
+.Estilo16 {font-size: 16px}
+.Estilo19 {font-size: 10px; font-weight: bold; font-style: italic; }
+.Estilo24 {font-size: 10px}
+-->
+</style>
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000" alink="#000000" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<table align=center width="600" border="0" cellspacing="0" cellpadding="0"> 
+  <tr bgcolor="#000000" align="right"> 
+<td><img src="img_flu/nombre5.gif" width="369" height="71"></td></tr> <tr bgcolor="#BB0000" valign="middle" align="left"> 
+<td class="bodytext" height="20"><TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+  <TR ALIGN="center" CLASS="menuitem">
+    <TD WIDTH="44" height="19" CLASS="menuitem"><A HREF="../../index.html" CLASS="menuitem">&nbsp;<B>home</B>&nbsp;</A></TD>
+    <TD WIDTH="5" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="102" CLASS="menuitem"><strong><a href="index_fluidos.html" class="menuitem">m&aacute;s de fluidos </a> </strong></TD>
+    <TD width="5" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="136" CLASS="menuitem"><strong><a href="../../intro_NMS.html" class="menuitem">otros temas de F&iacute;sica</a></strong></TD>
+    <TD width="10" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="173" CLASS="menuitem"><strong><a href="../../lista_ciruela.html" class="menuitem">lecciones del maestro Ciruela </a></strong></TD>
+    <TD width="9" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="68" CLASS="menuitem"><strong><a href="../../lista_tonterias.html" class="menuitem">tonter&iacute;as</a></strong></TD>
+    <TD WIDTH="8" CLASS="menuitem"><a href="../ENERGIA/index_energia.html" class="menuitem"></a><FONT COLOR="#000000">|</FONT></TD>
+    <TD WIDTH="40" CLASS="menuitem">&nbsp;<B><FONT FACE="Arial, Helvetica, sans-serif"><A HREF="mailto: ricuti@qi.fcen.uba.ar" CLASS="menuitem">@</A></FONT><A HREF="../../index.html" CLASS="menuitem"></A></B>&nbsp;</TD>
+  </TR>
+</TABLE></td></tr> <tr> <td class="bodytext" height="19"><img src="img_flu/transparente.gif" width="600" height="20"></td></tr> 
+<tr align="center"> <td height="1938"> <table width="600" border="0" cellspacing="0" cellpadding="0"> 
+<tr class="bodytext"> <td valign="top" width="594" height="1097"> 
+<table width="600" border="0" cellspacing="0" cellpadding="0"> <tr> 
+  <td width="510" height="74" bgcolor="#D7FFFF" class="bodytext"><span class="bodytext"><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>NO ME SALEN<br>
+</strong></span><span class="Estilo3"><em class="bodytext "><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>(<strong>LECCIONES TEORICAS  DE BIOF&Iacute;SICA DEL CBC</strong>)</strong></em></span><br>
+      <span class="titulograndegris Estilo16"><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>FLUIDOS<br>
+      </strong></span><span class="titulochicogris"><strong> <em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>HIDROSTATICA - PRESION ABSOLUTA Y RELATIVA </strong></span><span class="Estilo3"><br>
+      </span><br> </td>
+  <td class="bodytext" rowspan="3" height="74" width="10">&nbsp;</td>
+  <td class="bodytext" colspan="2" height="74" rowspan="3" valign="top" width="86"> 
+<p><img src="img_flu/cap2.jpg" alt="desesperado" width="85" height="130"></p></td></tr>
+  <tr>
+    <td height="18" bgcolor="#FFFFFF" class="bodytext">&nbsp;</td>
+  </tr> 
+<tr> <td height="234" class="bodytext"><P><strong>PRESIONES  ABSOLUTAS Y RELATIVAS</strong><br>
+  El <a href="FT_presion.html" target="_blank">Principio General de la  Hidrost&aacute;tica</a> nos permite conocer la <strong>diferencia</strong> de presi&oacute;n entre dos puntos  cualesquiera en el seno de un l&iacute;quido. Pero no nos indica d&oacute;nde la presi&oacute;n vale cero. Por l&oacute;gica, la presi&oacute;n vale cero en el vac&iacute;o (no hay materia que realice presi&oacute;n ni fuerza sobre nada). Pero ese dato de poco sirve ya que no tenemos vac&iacute;o dentro del seno de un fluido (la sola idea es contradictoria).</P>
+    <P>Entonces se utiliza una<strong> escala relativa</strong>, que fija un cero arbitrario (un cero que no es cero), en el ambiente en que vivimos, o sea, en la superficie de la Tierra (y, l&oacute;gicamente, en la superficie libre de un l&iacute;quido).</P>
+    <P>Pero ahora que conocemos el valor de la  presi&oacute;n en la superficie de la Tierra,  que es la <a href="FT_atmosf.html" target="_blank">presi&oacute;n atmosf&eacute;rica</a>, y que es tambi&eacute;n el valor de la presi&oacute;n de cualquier l&iacute;quido en  la superficie de contacto con el aire, podemos conocer el valor <strong>absoluto</strong> de presi&oacute;n en cualquier  punto del seno de un l&iacute;quido... alcanza con sumarle el valor de la presi&oacute;n atmosf&eacute;rica.</P>
+    </td>
+  </tr>  
+<tr>
+  <td height="371" align="center" class="bodytext"><img src="img_flu/FT_barometr_1.gif" width="320" height="357"></td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext" colspan="2">&nbsp;</td>
+</tr>
+<tr>
+  <td height="423" align="left" class="bodytext"><p>Por ejemplo en nuestra piscina de <em><strong>4</strong></em> metros de  profundidad que analizamos en el apunte sobre el <a href="FT_presion.html">Principio General de la Hidrost&aacute;tica</a> encontramos que la diferencia de presi&oacute;n entre  la superficie y el fondo era</p>
+    <blockquote>
+      <h3 class="bodytext"><em><strong>&Delta;Pr = 10.000 <span class="Estilo24">N/</span><span class="Estilo19">m<sup>3</sup></span> . 4 <span class="Estilo24">m</span></strong></em></h3>
+      <h3 class="bodytext"><em><strong>&Delta;Pr = 40.000 <span class="Estilo24">Pa</span></strong></em></h3>
+    </blockquote>
+    <p>Tomando arbitrariamente un valor de presi&oacute;n cero en la superficie del agua, dir&iacute;amos que la presi&oacute;n a <em><strong>4 <span class="Estilo24">m</span></strong></em> de profundidad es <em><strong>40.000 <span class="Estilo24">Pa</span></strong></em>. Y acabamos de usar la escala relativa.</p>
+    <blockquote>
+      <p><em><strong>Pr</strong></em><strong><em><em><em><em><sub>4m</sub></em></em></em></em></strong> <em><strong>=</strong></em>&nbsp;&nbsp;<strong><em>40.000 <span class="Estilo24">Pa</span></em></strong><strong><strong><em><strong><strong>&#160;&#160; &#160;&#160; &#160;</strong></strong></em></strong></strong><strong><strong><em><strong><strong>&#160;&#160; &#160;&#160; &#160;</strong></strong></em></strong></strong>(en escala relativa)</p>
+    </blockquote>
+    <p>Pero si admitimos que en la superficie del agua la presi&oacute;n no vale cero sino que vale <strong><em>P<span class="Estilo24">atm</span> = 101.300 <span class="Estilo24">Pa</span></em></strong>, entonces la <strong>presi&oacute;n absoluta</strong> a <em><strong>4 <span class="Estilo24">m</span></strong></em> de profundidad valdr&aacute;:</p>
+    <blockquote>
+      <p><em><strong>&Delta;Pr</strong></em> <em><strong>=</strong></em> <em><strong>Pr</strong></em><strong><em><em><em><em><sub>4m </sub></em></em></em></em></strong> <em><strong><em><strong>&ndash;</strong></em></strong></em> <em><strong>Pr</strong></em><strong><em><em><em><em><sub>atm </sub></em></em></em></em></strong> <em><strong>=</strong></em> <em><strong>10.000 <span class="Estilo24">N/</span><span class="Estilo19">m<sup>3</sup></span> . 4 <span class="Estilo24">m</span></strong></em> <em><strong>= 40.000 <span class="Estilo24">Pa</span></strong></em></p>
+    </blockquote>
+    <p>De donde:</p>
+    <blockquote>
+      <p><em><strong>Pr</strong></em><strong><em><em><em><em><sub>4m</sub></em></em></em></em></strong> <em><strong>=</strong></em>&nbsp;&nbsp;<strong><em>141.300 <span class="Estilo24">Pa</span></em><strong><em><strong><strong>&#160;&#160; &#160;&#160; &#160;</strong></strong></em></strong></strong><strong><strong><em><strong><strong>&#160;&#160; &#160;&#160; &#160;</strong></strong></em></strong></strong>(en escala absoluta)</p>
+    </blockquote>
+    <p>Y esta, ahora, es la presi&oacute;n absoluta o, si quer&eacute;s, la presi&oacute;n dada en la escala absoluta. Resumiendo:<strong><em><em>&#160; &#160;&#160; &#160;</em></em><em><em>&#160; &#160;</em></em></strong></p>
+    </td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext" colspan="2">&nbsp;</td>
+</tr>
+<tr>
+  <td height="33" align="center" bordercolor="#000000" bgcolor="#FFFF99" class="bodytext"><strong><em><em>&#160;</em></em>presi&oacute;n absoluta = presi&oacute;n relativa + presi&oacute;n de la atm&oacute;sfera</strong></td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext" colspan="2">&nbsp;</td>
+</tr>
+<tr> 
+  <td height="154" align="center" class="bodytext"><table width="100%" border="0">
+    <tr>
+      <td width="64%" align="left" class="bodytext"><p>Como ya te hab&iacute;a dicho, los man&oacute;metros son incapaces de  medir presiones absolutas (toman como &ldquo;0 de referencia&rdquo; al espacio que habitamos nosotros, que  sabemos que no vale 0);  por esa raz&oacute;n, a las lecturas que dan estos instrumentos las llamamos  presiones manom&eacute;tricas o relativas. No obstante, a partir de ese dato, es f&aacute;cil conocer la presi&oacute;n  absoluta.</p>
+        <p>Ac&aacute; al lado ten&eacute;s uno. Son los relojitos que vienen con el tanque de ox&iacute;geno, o el de cualquier otro gas comprado en tubo. Tambi&eacute;n son los del tensi&oacute;metro que mide la presi&oacute;n arterial. Es f&aacute;cil reconocerlos porque la aguja parte de <strong>cero</strong>. </p></td>
+      <td width="36%" align="left" valign="middle" bordercolor="#ECE9D8" class="bodytext"><p><img src="img_flu/FT_baromet.JPG" alt="Flu&iacute;dos - Ricardo Cabrera" width="180" height="199"></p></td>
+    </tr>
+  </table></td>
+  <td class="bodytext" width="10">&nbsp;</td>
+  <td class="bodytext" colspan="2" width="86">&nbsp;</td>
+</tr>
+<tr>
+  <td height="122" align="left" class="bodytext"><p>Los instrumentos que miden la presi&oacute;n absoluta se llaman bar&oacute;metros, y son los que usan los meteor&oacute;logos para conocerla y te la informan por la radio. De modo que a la presi&oacute;n absoluta tambi&eacute;n se la llama barom&eacute;trica. La igualdad de m&aacute;s arriba la podemos expresar as&iacute;, que es lo mismo:</p>
+    <p><strong><em><em>&#160; &#160;&#160;</em></em>presi&oacute;n barom&eacute;trica = presi&oacute;n manom&eacute;trica + presi&oacute;n de la atm&oacute;sfera</strong></p></td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext" colspan="2">&nbsp;</td>
+</tr>
+<tr>
+  <td height="24" align="left" class="bodytext"><table width="100%" border="0">
+    <tr>
+      <td width="72%" align="left" class="bodytext"><p>y en las unidades que quieras. Pero acordate que la presi&oacute;n de la atm&oacute;sfera vale <em><strong>1 <span class="Estilo24">atm</span></strong></em><span class="Estilo24">,</span> o <em><strong>101.300 <span class="Estilo24">Pa</span></strong></em>, o <em><strong>1.013 <span class="Estilo24">hPa</span></strong></em>, o <em><strong>76 <span class="Estilo24">cmHg</span></strong></em>, o <em><strong>760 <span class="Estilo24">mmHg</span></strong></em>, o <em><strong>14,69 <span class="Estilo24">PSI</span></strong></em>. </p>
+        <p>Ac&aacute; mand&eacute; un bar&oacute;metro. Independientemente de las unidades en las que venga graduada su escala, casi siempre contiene el valor de la presi&oacute;n atmosf&eacute;rica. Y aunque ambos instrumentos miden la misma magnitud, los bar&oacute;metros sensan un rango de presiones muy peque&ntilde;o ya que -generalmente- se utilizan para fines meteorol&oacute;gicos. </p>        </td>
+      <td width="28%" align="left" valign="middle" bordercolor="#ECE9D8" class="bodytext"><p><img src="img_flu/FT_barometro.jpg" alt="Flu&iacute;dos - Ricardo Cabrera" width="180" height="179"></p></td>
+    </tr>
+  </table></td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext" colspan="2">&nbsp;</td>
+</tr>
+<tr>
+  <td align="left" class="bodytext"><p>&nbsp;</p>    </td>
+  <td class="bodytext">&nbsp;</td>
+  <td colspan="2" class="bodytext">&nbsp;</td>
+</tr>
+
+
+<tr>
+  <td height="18" align="left" class="bodytext"><p><strong>CHISMES IMPORTANTES </strong></p>    </td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext" colspan="2">&nbsp;</td>
+</tr> 
+<tr>
+  <td align="left" bgcolor="#FFFFFF" class="bodytext"><ul>
+    <li>Tanto en los ex&aacute;menes de F&iacute;sica como en lo cotidiano, cuando te dan una presi&oacute;n como dato, no te aclaran si pertenece a la escala relativa o a la absoluta. Vos te ten&eacute;s que dar cuenta sin ayuda, gui&aacute;ndote  por el valor y el contexto. Por ejemplo, si decimos que la presi&oacute;n venosa es de <em><strong>10 <span class="Estilo24">mmHg</span></strong></em>, est&aacute; claro que se trata de un valor dado en escala relativa (ese mismo dato, en escala absoluta tendr&iacute;a que ser superior a <em><strong>760</strong></em>). Y as&iacute;... </li>
+    <li>El esquema de las escalas dice abajo: <em>no existen presiones menores que &eacute;sta</em>. Eso es cierto, pero s&oacute;lo para los gases. En los l&iacute;quidos s&iacute; pueden establecerse presiones menores que el cero absoluto. Los &aacute;rboles altos, por ejemplo, logran hacer ascender el agua desde las ra&iacute;ces aplicando presiones negativas (como de <em><strong>-15 <span class="epigrafe">atm</span></strong></em>) en sus partes altas. <em>&iexcl;</em>Qu&eacute; locos los &aacute;rboles<em>!</em></li>
+  </ul></td>
+  <td class="bodytext">&nbsp;</td>
+  <td colspan="2" class="bodytext">&nbsp;</td>
+</tr>
+
+
+<tr>
+  <td height="35" valign="bottom" bgcolor="#FFFFFF" class="bodytext"><strong>PREGUNTAS CAPCIOSAS</strong></td>
+  <td class="bodytext">&nbsp;</td>
+  <td width="86" colspan="2" rowspan="4" valign="bottom" class="bodytext"><strong><em><sub><img src="img_flu/ric_fotoric.jpg" alt="Flu&iacute;dos - Ricardo Cabrera" width="85" height="110"></sub></em></strong></td>
+</tr>
+
+<tr>
+  <td height="36" align="left" bgcolor="#FFFFFF" class="bodytext"><ul>
+    <li>&iquest;Te anim&aacute;s a identificar las unidades, las escalas y los rangos de los instrumentos que aparecen en las fotos? </li>
+  </ul></td>
+  <td class="bodytext">&nbsp;</td>
+  </tr>
+<tr>
+  <td bgcolor="#FFFFFF" class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+  </tr>
+<tr>
+  <td bgcolor="#FFFFFF" class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+  </tr>
+<tr>
+  <td align="center" valign="middle" bgcolor="#FFFFFF" class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+  <td colspan="2" valign="bottom" class="bodytext">&nbsp;</td>
+</tr>
+<tr> <td align="center" valign="middle" bgcolor="#CCCCCC" class="bodytext"><table width="89%" border="0">
+  <tr>
+    <td class="epigrafe">Algunos derechos reservados. 
+      Se permite su reproducci&oacute;n citando la fuente. &Uacute;ltima actualizaci&oacute;n sep-07. Buenos Aires, Argentina. </td>
+  </tr>
+</table>  </td>
+  <td class="bodytext" width="10">&nbsp;</td>
+  <td width="86" colspan="2" valign="bottom" class="bodytext"><a href="FT_arquimedes.html"><img src="img_flu/boton.gif" width="85" height="27" border="0"></a></td>
+</tr> 
+<tr> <td class="bodytext">&nbsp;</td><td class="bodytext" width="10">&nbsp;</td>
+<td class="bodytext" colspan="2" width="86">&nbsp;</td>
+</tr> 
+</table></td></tr> </table>
+<img src="img_flu/transparente.gif" width="10" height="20"></td></tr> 
+<tr> <td class="bodytext"><img src="img_flu/transparente.gif" width="600" height="20"></td></tr> 
+</table>
+</body>
+</html>

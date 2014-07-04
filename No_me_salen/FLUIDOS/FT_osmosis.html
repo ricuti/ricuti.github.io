@@ -1,0 +1,195 @@
+<html>
+<head>
+<title>Ricardo Cabrera, MECANICA DE FLUIDOS, MECANISMOS DE TRANSPORTE - OSMOSIS</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="keywords" content="problemas resueltos, ejercicios resueltos, cbc, fisica, biofisica, fluidos, liquidos, gases, bernoulli, poiseuille, viscosidad, ideales, viscosos, humedad, difusion, osmosis, nomesalen, no me salen, ricardo cabrera" />
+<meta name="description" content="Ejercicios y problemas resueltos, y apuntes teóricos de Fluidos, mecanismos de transporte de fluidos" />
+<link rel="stylesheet" href="../FLUIDOS/win_ie.css">
+<style type="text/css">
+<!--
+.style1 {
+	color: #3F6386;
+	font-weight: bold;
+}
+.Estilo3 {color: #3F6386}
+.Estilo16 {font-size: 16px}
+.Estilo17 {font-size: 10px}
+.Estilo28 {font-family: "Times New Roman", Times, serif;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 20px;
+}
+-->
+</style>
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000" alink="#000000" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<table align=center width="600" border="0" cellspacing="0" cellpadding="0"> 
+  <tr bgcolor="#000000" align="right"> 
+<td><img src="img_flu/nombre5.gif" width="369" height="71"></td></tr> <tr bgcolor="#BB0000" valign="middle" align="left"> 
+<td class="bodytext" height="20"><TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+  <TR ALIGN="center" CLASS="menuitem">
+    <TD WIDTH="44" height="19" CLASS="menuitem"><A HREF="../../index.html" CLASS="menuitem">&nbsp;<B>home</B>&nbsp;</A></TD>
+    <TD WIDTH="5" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="102" CLASS="menuitem"><strong><a href="index_fluidos.html" class="menuitem">m&aacute;s de fluidos </a> </strong></TD>
+    <TD width="5" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="136" CLASS="menuitem"><strong><a href="../../intro_NMS.html" class="menuitem">otros temas de F&iacute;sica</a></strong></TD>
+    <TD width="10" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="173" CLASS="menuitem"><strong><a href="../../lista_ciruela.html" class="menuitem">lecciones del maestro Ciruela </a></strong></TD>
+    <TD width="9" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="68" CLASS="menuitem"><strong><a href="../../lista_tonterias.html" class="menuitem">tonter&iacute;as</a></strong></TD>
+    <TD WIDTH="8" CLASS="menuitem"><a href="../ENERGIA/index_energia.html" class="menuitem"></a><FONT COLOR="#000000">|</FONT></TD>
+    <TD WIDTH="40" CLASS="menuitem">&nbsp;<B><FONT FACE="Arial, Helvetica, sans-serif"><A HREF="mailto: ricuti@qi.fcen.uba.ar" CLASS="menuitem">@</A></FONT><A HREF="../../index.html" CLASS="menuitem"></A></B>&nbsp;</TD>
+  </TR>
+</TABLE></td></tr> <tr> <td class="bodytext" height="19"><img src="img_flu/transparente.gif" width="600" height="20"></td></tr> 
+<tr align="center"> <td height="1694"> <table width="600" border="0" cellspacing="0" cellpadding="0"> 
+<tr class="bodytext"> <td valign="top" width="594" height="642"> 
+<table width="600" border="0" cellspacing="0" cellpadding="0"> <tr> 
+  <td width="510" height="74" bgcolor="#D7FFFF" class="bodytext"><span class="bodytext"><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>NO ME SALEN<br>
+</strong></span><span class="Estilo3"><em class="bodytext "><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>(<strong>LECCIONES TEORICAS  DE BIOF&Iacute;SICA DEL CBC</strong>)</strong></em></span><br>
+      <span class="titulograndegris Estilo16"><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>FLUIDOS<br>
+      </strong></span><span class="titulochicogris"><strong> <em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>MECANISMOS DE TRANSPORTE - &Oacute;SMOSIS </strong></span><span class="Estilo3"><br>
+      </span><br> </td>
+  <td class="bodytext" rowspan="3" height="74" width="10">&nbsp;</td>
+  <td class="bodytext" colspan="2" height="74" rowspan="3" valign="top" width="86"> 
+<p><img src="img_flu/cap15.jpg" alt="desesperado" width="85" height="131"></p></td></tr>
+  <tr>
+    <td height="18" bgcolor="#FFFFFF" class="bodytext">&nbsp;</td>
+  </tr> 
+<tr> <td height="84" class="bodytext"><P>El fen&oacute;meno osm&oacute;tico tiene una importancia cl&iacute;nica de primer orden. Todas las membranas de todos nuestros compartimientos internos funcionan osm&oacute;ticamente, y si no estuvi&eacute;semos controlando permanentemente y en cada lugar del cuerpo el contenido de nuestros humores acuosos... reventar&iacute;amos por todas partes.</P>
+    <P>Te voy a explicar el fen&oacute;meno en un dispositivo s&uacute;per simplificado. Ac&aacute; va:  </P></td>
+  </tr>  
+<tr> 
+  <td height="474" align="center" class="bodytext"><table width="98%" height="467" border="0">
+    <tr>
+      <td width="58%" height="463" bgcolor="#FFFFFF" class="bodytext"><p>ac&aacute; ten&eacute;s dos recipientes de igual tama&ntilde;o ambos llenos de agua hasta el mismo nivel. Por la parte inferior est&aacute;n conectados con un tubo. Y ac&aacute; viene la parte m&aacute;s importante: el tubo est&aacute; cerrado, en el centro (en celeste), con una <strong>membrana osm&oacute;tica</strong>. Esta membrana permite el paso del agua en cualquier sentido, pero impide el paso de cualquier otra mol&eacute;cula.</p>
+        <p>En uno de los recipientes -el <strong>A</strong>- agregamos un soluto cualquiera. Cualquiera sirve, de modo que eleg&iacute; uno que d&eacute; un poco de coloraci&oacute;n a la soluci&oacute;n; por eso la ves gris oscuro.</p>
+        <p>Inmediatamente comienza a subir el nivel de agua del recipiente <strong>A</strong> y -por ende- a disminuir el equivalente del recipiente <strong>B</strong>.   La conclusi&oacute;n es que se est&aacute; produciendo una corriente de agua <strong>neta</strong> (flecha azul) desde el recipiente <strong>B</strong> hacia el <strong>A</strong>.</p>
+        <p>El nivel de <strong>A</strong> contin&uacute;a ascendiendo y el de <strong>B</strong> bajando... pero cada vez con menor velocidad (flecha azul m&aacute;s chica), hasta que llega un momento en que los niveles se estabilizan en una diferencia  <em><strong>&Delta;h</strong></em>.</p>
+        <p>La soluci&oacute;n de tinta se fue diluyendo a medida que ingresaba agua pura proveniente de <strong>B</strong>. Su concentraci&oacute;n fue disminuyendo ligeramente. </p></td>
+      <td width="42%" align="right" bgcolor="#FFFFFF" class="bodytext"><img src="img_flu/FT_osmosis_1.gif" alt="Flu&iacute;dos - Ricardo Cabrera" width="189" height="451"></td>
+    </tr>
+  </table></td>
+  <td class="bodytext" width="10">&nbsp;</td>
+  <td class="bodytext" colspan="2" width="86">&nbsp;</td>
+</tr>
+<tr>
+  <td height="18" align="left" class="bodytext"><p>La interpretaci&oacute;n del fen&oacute;meno (hacen falta m&aacute;s experimentos) es como sigue: en una membrana que permite el pasaje del agua en ambos sentidos, habr&aacute; una corriente neta desde la soluci&oacute;n de menor concentraci&oacute;n hacia el lado de mayor concentraci&oacute;n.</p>    </td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext" colspan="2">&nbsp;</td>
+</tr>
+<tr>
+  <td height="59" align="center" valign="middle" class="bodytext"><table width="94%" height="45" border="0">
+    <tr>
+      <td height="41" bgcolor="#FFFFCC" class="bodytext"><blockquote>
+        <p> El pasaje neto de agua   tiende a reducir la diferencia de concentraci&oacute;n a ambos lados de una membrana osm&oacute;tica. </p>
+      </blockquote></td>
+    </tr>
+  </table>  </td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext" colspan="2">&nbsp;</td>
+</tr>
+<tr>
+  <td height="53" align="left" class="bodytext">La corriente osm&oacute;tica obedece a una diferencia de presi&oacute;n,  <strong>presi&oacute;n osm&oacute;tica</strong>, <span class="Estilo28">&pi;</span>, cuya manifestaci&oacute;n se neutraliza cuando se equipara con la diferencia de presi&oacute;n hidrost&aacute;tica producida por la diferencia de niveles a ambos lados de la membrana: </td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext" colspan="2">&nbsp;</td>
+</tr>
+<tr>
+  <td height="45" align="left" class="bodytext"><blockquote>
+    <p><span class="Estilo28">&pi;</span> <em><strong>= &#916;P</strong></em></p>
+  </blockquote></td>
+  <td class="bodytext">&nbsp;</td>
+  <td colspan="2" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="48" align="left" class="bodytext">la presi&oacute;n osm&oacute;tica -que es la que produce la corriente del inicio de nuestro experimento- es proporcional a la diferencia de concentraci&oacute;n a ambos lados de la membrana y a la temperatura absoluta a la que ocurre el fen&oacute;meno.</td>
+  <td class="bodytext">&nbsp;</td>
+  <td colspan="2" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <blockquote>&nbsp;</blockquote>
+  <td height="47" align="left" class="bodytext"><blockquote><span class="Estilo28">&pi;</span> <em><strong>=  &#916;c R T</strong></em></blockquote></td>
+  <td class="bodytext">&nbsp;</td>
+  <td colspan="2" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="27" align="left" class="bodytext">Y <em><strong>R</strong></em> es la constante de los gases ideales. La ecuaci&oacute;n que describe el fen&oacute;meno osm&oacute;tico, conocida como <strong>ecuaci&oacute;n de Van't Hoff</strong>, puede corregirse o modificarse levemente para algunas situaciones especiales. Por ejemplo, algunas mol&eacute;culas se disocian en dos o m&aacute;s partes al entrar en soluci&oacute;n, y cada parte de la mol&eacute;cula disociada ejerce su efecto concentrador en forma independiente. De modo que agregamos: </td>
+  <td class="bodytext">&nbsp;</td>
+  <td colspan="2" class="bodytext">&nbsp;</td>
+</tr>
+
+<tr>
+  <td height="52" align="left" valign="middle" class="bodytext"><blockquote><span class="Estilo28"> &pi;</span> <em><strong>= i &#916;c R T</strong></em></blockquote></td>
+  <td class="bodytext">&nbsp;</td>
+  <td colspan="2" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="28" align="left" valign="middle" class="bodytext"><p>donde<em><strong> i</strong></em> es el n&uacute;mero de partes en que se divide la mol&eacute;cula en soluci&oacute;n y se llama <strong>coeficiente de disociaci&oacute;n</strong>. </p>
+    <p>Pero el caso m&aacute;s general es el que contempla la suma de las concentraciones de cada una de las especies moleculares presentes a cada lado de la membrana. La magnitud que describe esa suma de concentraciones se llama <strong>osmolaridad</strong> (<em><strong>os</strong></em>) y se mide en las mismas unidades que las concentraciones simples, aunque en vez de decir <em>moles</em> decimos <em>osmoles</em>. </p></td>
+  <td class="bodytext">&nbsp;</td>
+  <td colspan="2" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="43" align="left" valign="middle" class="bodytext"><blockquote><span class="Estilo28">&pi;</span> <em><strong>= os R T</strong></em></blockquote></td>
+  <td class="bodytext">&nbsp;</td>
+  <td colspan="2" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="231" align="left" valign="middle" class="bodytext"><p><strong>ISOTONICIDAD</strong>. Las c&eacute;lulas est&aacute;n llenas de metabolitos, iones y otras miles de mol&eacute;culas y porquer&iacute;as. Un medio acuoso que tenga la misma osmolaridad que la c&eacute;lula se llama isot&oacute;nico y en &eacute;l la c&eacute;lula no ganar&aacute; ni perder&aacute;  agua  por efecto osm&oacute;tico.</p>
+    <p>      <strong>HIPOTONICIDAD</strong>. Si arrojamos g&oacute;bulos rojos (por ejemplo) en agua pura, la diferencia de osmolaridad entre el interior y el exterior  (mayor en las   c&eacute;lulas, menor en el agua) har&aacute; que el agua penetre por cuanto poro pueda: los globulitos se hinchan hasta reventar. Ese espect&aacute;culo se llama hem&oacute;lisis.</p>
+    <p><strong>HIPERTONICIDAD</strong>. Un medio es hipert&oacute;nico cuando su osmolaridad es m&aacute;s alta que la de un cuerpo sumergido en &eacute;l. Cuando se da este caso,  si el cuerpo est&aacute; envuelto por una membrana osm&oacute;tica -por ejemplo una membrana celular-, el agua abandona el cuerpo y &eacute;ste termina achicharr&aacute;ndose por completo. </p></td>
+  <td class="bodytext">&nbsp;</td>
+  <td colspan="2" class="bodytext">&nbsp;</td>
+</tr>
+
+
+
+<tr>
+  <td height="23" bgcolor="#FFFFFF" class="bodytext"><p><strong>CHISMES IMPORTANTES</strong>:</p>    </td>
+  <td class="bodytext">&nbsp;</td>
+  <td width="86" colspan="2" rowspan="6" valign="bottom" class="bodytext"><strong><em><sub><img src="img_flu/ric_fotoric.jpg" alt="Flu&iacute;dos - Ricardo Cabrera" width="85" height="110"></sub></em></strong></td>
+</tr>
+<tr>
+  <td height="141" bgcolor="#FFFFFF" class="bodytext"><ul>
+    <li> Los medios hipert&oacute;nicos, como los dulces, son adecuados para permanecer fuera de la heladera: no pueden ser colonizados por bacterias ya que &eacute;stas se achicharran inmediatamente y no pueden proliferar. Los dulces no se pudren. </li>
+    <li>La osmolaridad del suero est&aacute; alrededor de <em><strong>308  <span class="Estilo17">mosmoles/lit</span></strong></em> (mili-osmoles por litro). De modo que la <strong>soluci&oacute;n fisiol&oacute;gica</strong> para inyectar por  v&iacute;a venosa a un paciente se compone de agua y cloruro de sodio, NaCl (sal com&uacute;n de mesa), que se logra disolviendo en un litro de agua 9 gramos de sal y adquiere una concentraci&oacute;n de <em><strong>154 <span class="Estilo17">mEq</span></strong></em> de Na  y <em><strong>154 <span class="Estilo17">mEq</span></strong></em> de Cl, o sea, <em><strong>308 <span class="Estilo17">mosmoles/lit</span></strong></em>.</li>
+    <li>Ten&eacute;s un chisme important&iacute;simo en este breve art&iacute;culo del <a href="../../Lecciones_del_maestro_ciruela/leloir.html">Maestro Ciruela</a>. </li>
+  </ul>  </td>
+  <td class="bodytext">&nbsp;</td>
+  </tr>
+<tr>
+  <td height="29" valign="middle" bgcolor="#FFFFFF" class="bodytext"><strong>PREGUNTAS CAPCIOSAS:</strong></td>
+  <td class="bodytext">&nbsp;</td>
+  </tr>
+
+<tr>
+  <td height="18" align="left" bgcolor="#FFFFFF" class="bodytext"><ul>
+    <li>&iquest;Por qu&eacute; las bacterias pueden vivir en agua pura? &iquest;Por qu&eacute; no revientan como los gl&oacute;bulos rojos? &iquest;Las bacterias no son c&eacute;lulas, acaso?</li>
+    <li>&iquest;Por qu&eacute; el m&eacute;todo para conservar la carne -antes de que existieran las heladeras- consist&iacute;a en salarla?</li>
+    <li>&iquest;Qu&eacute; es esa antig&uuml;edad de la salmuera?   </li>
+    <li>&iquest;Por qu&eacute; no puedo calmar la sed bebiendo agua de mar?</li>
+  </ul></td>
+  <td class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td bgcolor="#FFFFFF" class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+  </tr>
+
+<tr> <td height="42" align="center" valign="middle" bgcolor="#CCCCCC" class="bodytext"><table width="89%" border="0">
+  <tr>
+    <td class="epigrafe">Algunos derechos reservados. 
+      Se permite su reproducci&oacute;n citando la fuente. &Uacute;ltima actualizaci&oacute;n sep-07. Buenos Aires, Argentina. </td>
+  </tr>
+</table>  </td>
+  <td class="bodytext" width="10">&nbsp;</td>
+</tr> 
+<tr> <td height="18" class="bodytext">&nbsp;</td><td class="bodytext" width="10">&nbsp;</td>
+<td class="bodytext" colspan="2" width="86">&nbsp;</td>
+</tr> 
+</table></td></tr> </table>
+<img src="img_flu/transparente.gif" width="10" height="20"></td></tr> 
+<tr> <td class="bodytext"><img src="img_flu/transparente.gif" width="600" height="20"></td></tr> 
+</table>
+</body>
+</html>

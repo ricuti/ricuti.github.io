@@ -1,0 +1,167 @@
+<html>
+<head>
+<title>MECANICA DE FLUIDOS, NMS020, fisica online, ejercicios resueltos</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="keywords" content="problemas resueltos, ejercicios resueltos, cbc, fisica, biofisica, fluidos, liquidos, gases, bernoulli, poiseuille, viscosidad, ideales, viscosos, humedad, difusion, osmosis, nomesalen, no me salen, ricardo cabrera" />
+<meta name="description" content="Ejercicios y problemas resueltos, y apuntes teóricos de Fluidos, mecanismos de transporte de fluidos" />
+<link rel="stylesheet" href="../FLUIDOS/win_ie.css">
+<style type="text/css">
+<!--
+.style1 {
+	color: #3F6386;
+	font-weight: bold;
+}
+.Estilo3 {color: #3F6386}
+.Estilo16 {font-size: 16px}
+-->
+</style>
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000" alink="#000000" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<table align=center width="600" border="0" cellspacing="0" cellpadding="0"> 
+  <tr bgcolor="#000000" align="right"> 
+<td><img src="img_flu/nombre5.gif" width="369" height="71"></td></tr> <tr bgcolor="#BB0000" valign="middle" align="left"> 
+<td class="bodytext" height="20"><TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+  <TR ALIGN="center" CLASS="menuitem">
+    <TD WIDTH="44" height="19" CLASS="menuitem"><A HREF="../../index.html" CLASS="menuitem">&nbsp;<B>home</B>&nbsp;</A></TD>
+    <TD WIDTH="5" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="102" CLASS="menuitem"><strong><a href="index_fluidos.html" class="menuitem">m&aacute;s de fluidos </a> </strong></TD>
+    <TD width="5" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="136" CLASS="menuitem"><strong><a href="../../intro_NMS.html" class="menuitem">otros temas de F&iacute;sica</a></strong></TD>
+    <TD width="10" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="173" CLASS="menuitem"><strong><a href="../../lista_ciruela.html" class="menuitem">lecciones del maestro Ciruela </a></strong></TD>
+    <TD width="9" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="68" CLASS="menuitem"><strong><a href="../../lista_tonterias.html" class="menuitem">tonter&iacute;as</a></strong></TD>
+    <TD WIDTH="8" CLASS="menuitem"><a href="../ENERGIA/index_energia.html" class="menuitem"></a><FONT COLOR="#000000">|</FONT></TD>
+    <TD WIDTH="40" CLASS="menuitem">&nbsp;<B><FONT FACE="Arial, Helvetica, sans-serif"><A HREF="mailto: ricuti@qi.fcen.uba.ar" CLASS="menuitem">@</A></FONT><A HREF="../../index.html" CLASS="menuitem"></A></B>&nbsp;</TD>
+  </TR>
+</TABLE></td></tr> <tr> <td class="bodytext" height="19"><img src="img_flu/transparente.gif" width="600" height="20"></td></tr> 
+<tr align="center"> <td height="875"> <table width="600" border="0" cellspacing="0" cellpadding="0"> 
+<tr class="bodytext"> <td valign="top" width="594" height="860"> 
+<table width="600" border="0" cellspacing="0" cellpadding="0"> <tr> 
+  <td height="74" colspan="2" bgcolor="#D7FFFF" class="bodytext"><span class="bodytext"><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>NO ME SALEN<br>
+</strong></span><span class="Estilo3"><em class="bodytext "><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>(<strong>PROBLEMAS RESUELTOS   DE BIOF&Iacute;SICA DEL CBC</strong>)</strong></em></span><br>
+      <span class="titulograndegris Estilo16"><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>FLUIDOS<br>
+      </strong></span><br> </td>
+  <td class="bodytext" rowspan="3" height="74" width="4">&nbsp;</td>
+  <td class="bodytext" height="74" rowspan="3" valign="top" width="86"> 
+<p><img src="img_flu/cap7.jpg" alt="desesperado" width="85" height="108"></p></td></tr>
+  <tr>
+    <td height="18" colspan="2" bgcolor="#FFFFFF" class="bodytext">&nbsp;</td>
+  </tr> 
+<tr> <td width="372" height="105" valign="top" class="bodytext"><P><strong>AD NMS 20*) Una ma&ntilde;ana de invierno el Servicio Meteorol&oacute;gico  Nacional informa una temperatura ambiente 5 &ordm;C  y 73% de Humedad Relativa. Si al mediod&iacute;a la humedad relativa desciende  al 15 %, sin que se modifique la presi&oacute;n de vapor, podemos inferir que la  temperatura ambiente ser&aacute;:</strong></P>
+    </td>
+  <td width="138" align="center" class="bodytext"><table width="119" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td width="41" height="25" align="right" class="epigrafe"><em><strong>T (&deg;C)</strong></em></td>
+      <td width="15" align="left" class="epigrafe">&nbsp;</td>
+      <td width="108" height="25" align="left" class="epigrafe"><em><strong>P<sub>sat</sub> (kPa)</strong></em></td>
+    </tr>
+    <tr>
+      <td height="16" align="right" class="epigrafe"><em><strong>5</strong></em></td>
+      <td align="left" class="epigrafe">&nbsp;</td>
+      <td height="16" align="left" class="epigrafe"><em><strong>0,871</strong></em></td>
+    </tr>
+    <tr>
+      <td height="16" align="right" class="epigrafe"><em><strong>10</strong></em></td>
+      <td align="left" class="epigrafe">&nbsp;</td>
+      <td height="16" align="left" class="epigrafe"><em><strong>1,226</strong></em></td>
+    </tr>
+    <tr>
+      <td height="16" align="right" class="epigrafe"><em><strong>20</strong></em></td>
+      <td align="left" class="epigrafe">&nbsp;</td>
+      <td height="16" align="left" class="epigrafe"><em><strong>2,33</strong></em></td>
+    </tr>
+    <tr>
+      <td height="16" align="right" class="epigrafe"><em><strong>25</strong></em></td>
+      <td align="left" class="epigrafe">&nbsp;</td>
+      <td height="16" align="left" class="epigrafe"><em><strong>3,17</strong></em></td>
+    </tr>
+    <tr>
+      <td height="16" align="right" class="epigrafe"><em><strong>30</strong></em></td>
+      <td align="left" class="epigrafe">&nbsp;</td>
+      <td height="16" align="left" class="epigrafe"><em><strong>4,24</strong></em></td>
+    </tr>
+  </table></td>
+</tr>
+<tr>
+  <td height="474" colspan="2" class="bodytext"><p>Se trata de un ejercicio cl&aacute;sico, t&iacute;pico, casi de aplicaci&oacute;n inmediata del concepto de humedad relativa. All&aacute; vamos. </p>
+    <blockquote>
+      <p><em><strong>H<sub>R </sub>= p<sub>exist</sub> / </strong></em><em><strong>p<sub>sat</sub></strong></em></p>
+    </blockquote>
+    <p>A <em><strong>5&ordm;C</strong></em> tenemos una humedad relativa de <em><strong>0,73</strong></em>, o sea: </p>
+    <blockquote>
+      <p><em><strong>0,73 = p<sub>exist</sub> / </strong></em><em><strong>0,871 </strong></em><em class="epigrafe"><strong>kPa</strong></em></p>
+    </blockquote>
+    <p>La presi&oacute;n parcial de agua presente, la existente, ser&aacute;:</p>
+    <blockquote>
+      <p><em><strong>p<sub>exist</sub> = </strong></em><em><strong>0,871 </strong></em><em class="epigrafe"><strong>kPa</strong></em> . <em><strong>0,73</strong></em></p>
+      <p><em><strong>p<sub>exist</sub> = <em><strong><em><strong><strong></strong></strong></em></strong></em>0,63583</strong></em> <em><strong> </strong></em><em class="epigrafe"><strong>kPa</strong></em></p>
+      </blockquote>
+    <p>Ese es el valor de la presi&oacute;n existente en el lugar, que el enuciado afirma que no se modificar&aacute;. (Podr&iacute;a no haberlo calculado, lo hice para evitar tus nervios; pero nos habr&iacute;a bastado con dejar expresado el producto <em><strong> </strong></em><em><strong>0,871 </strong></em><em class="epigrafe"><strong>kPa</strong></em> . <em><strong>0,73</strong></em>).</p>
+    <p>La cuesti&oacute;n es que al mediod&iacute;a la humedad relativa baja al 15%. Entonces:</p>
+    <blockquote>
+      <p><em><strong>0,15 = 0,63583</strong></em>  <em class="epigrafe"><strong>kPa </strong></em><em><strong>/ p<sub>sat</sub></strong></em></p>
+      </blockquote>
+    <p>De donde</p>
+    <blockquote>
+      <p><em><strong>p<sub>sat</sub> = 0,63583</strong></em> <em class="epigrafe"><strong>kPa </strong></em><em><strong>/ </strong></em><em><strong>0,15 </strong></em></p>
+      <p><em><strong>p<sub>sat</sub> = 4,23887</strong></em> <em class="epigrafe"><strong>kPa</strong></em></p>
+      </blockquote>
+    <p>volvemos a la tabla de presiones de saturaci&oacute;n que aporta el enunciado y buscamos a qu&eacute; temperatura se corresponde esa presi&oacute;n.</p></td>
+  <td class="bodytext" height="474">&nbsp;</td>
+  <td class="bodytext" height="474" valign="top">&nbsp;</td>
+</tr>  
+<tr> 
+  <td height="54" colspan="2" align="center" valign="middle" class="bodytext"><table width="45%" border="0">
+    <tr>
+      <td height="31" align="center" bgcolor="#CCCCCC"><p class="bodytext"><em><strong>T </strong></em><strong><em>= </em></strong><em><strong>30</strong></em> <em><strong>&deg;C</strong></em></p></td>
+    </tr>
+  </table></td>
+  <td class="bodytext" width="4">&nbsp;</td>
+  <td class="bodytext" width="86">&nbsp;</td>
+</tr>
+<tr>
+  <td height="47" colspan="2" align="left" valign="middle" class="bodytext"><p>Este ejercicio es una clara muestra de que nuestros profesores anticipan un futuro de cambio clim&aacute;tico y calentamiento global (<em><strong>30</strong></em> <em><strong>&deg;C</strong></em> en un invierno porte&ntilde;o...).</p></td>
+  <td align="left" valign="middle" class="bodytext">&nbsp;</td>
+  <td align="left" valign="middle" class="bodytext">&nbsp;</td>
+  </tr>
+
+<tr>
+  <td height="30" colspan="2" align="center" bgcolor="#FFFF99" class="bodytext"><table width="437" height="17" border="0" cellpadding="0" cellspacing="0">
+    <tr>
+      <td class="epigrafe">* Este ejercicio formaba parte del examen parcial tomado el 25-jun-12</td>
+    </tr>
+  </table></td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="32" colspan="2" align="left" class="bodytext"><p><strong>DESAF&Iacute;O</strong>: Si la humedad relativa ambiente de la ma&ntilde;ana hubiera sido del 50% y al mediod&iacute;a bajaba al 35,5%, &iquest;cu&aacute;l habr&iacute;a sido la temperatura del mediod&iacute;a?<em><strong></strong></em></p>
+    </td>
+  <td class="bodytext">&nbsp;</td>
+  <td width="86" rowspan="3" valign="bottom" class="bodytext"><img src="../CINEMATICA/img_cin/ric_teclado.jpg" alt="teclado ricardo cabrera" width="85" height="130"></td>
+</tr>
+
+<tr>
+  <td height="18" colspan="2" bgcolor="#FFFFFF" class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+  </tr>
+
+<tr> <td colspan="2" align="center" valign="middle" bgcolor="#CCCCCC" class="bodytext"><table width="91%" border="0">
+  <tr>
+    <td class="epigrafe">Algunos derechos reservados. 
+      Se permite su reproducci&oacute;n citando la fuente. Se recomienda fervientemente su lectura en bibliotecas, escuelas, clubes, reuniones de consorcios. &Uacute;ltima actualizaci&oacute;n jun-12. Buenos Aires, Argentina. </td>
+  </tr>
+</table>  </td>
+  <td class="bodytext" width="4">&nbsp;</td>
+  </tr> 
+<tr> <td height="18" colspan="2" class="bodytext">&nbsp;</td><td class="bodytext" width="4">&nbsp;</td>
+<td class="bodytext" width="86">&nbsp;</td>
+</tr> 
+</table></td></tr> </table>
+<img src="img_flu/transparente.gif" width="10" height="20"></td></tr> 
+<tr> <td class="bodytext"><img src="img_flu/transparente.gif" width="600" height="20"></td></tr> 
+</table>
+</body>
+</html>

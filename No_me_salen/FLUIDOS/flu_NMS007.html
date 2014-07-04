@@ -1,0 +1,275 @@
+<html>
+<head>
+<title>MECANICA DE FLUIDOS, NMS007, fisica online, ejercicios resueltos</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="keywords" content="problemas resueltos, ejercicios resueltos, cbc, fisica, biofisica, fluidos, liquidos, gases, bernoulli, poiseuille, viscosidad, ideales, viscosos, humedad, difusion, osmosis, nomesalen, no me salen, ricardo cabrera" />
+<meta name="description" content="Ejercicios y problemas resueltos, y apuntes teóricos de Fluidos, mecanismos de transporte de fluidos" />
+<link rel="stylesheet" href="../FLUIDOS/win_ie.css">
+<style type="text/css">
+<!--
+.style1 {
+	color: #3F6386;
+	font-weight: bold;
+}
+.Estilo3 {color: #3F6386}
+.Estilo16 {font-size: 16px}
+.Estilo32 {font-weight: bold; font-size: 11px;}
+.Estilo33 {font-size: 10px}
+.Estilo34 {
+	font-weight: bold;
+	font-style: italic;
+}
+.Estilo36 {font-size: 11px}
+.Estilo38 {font-weight: bold; font-size: 11px; font-style: italic; }
+-->
+</style>
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000" alink="#000000" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<table align=center width="600" border="0" cellspacing="0" cellpadding="0"> 
+  <tr bgcolor="#000000" align="right"> 
+<td><img src="img_flu/nombre5.gif" width="369" height="71"></td></tr> <tr bgcolor="#BB0000" valign="middle" align="left"> 
+<td class="bodytext" height="20"><TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+  <TR ALIGN="center" CLASS="menuitem">
+    <TD WIDTH="44" height="19" CLASS="menuitem"><A HREF="../../index.html" CLASS="menuitem">&nbsp;<B>home</B>&nbsp;</A></TD>
+    <TD WIDTH="5" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="102" CLASS="menuitem"><strong><a href="index_fluidos.html" class="menuitem">m&aacute;s de fluidos </a> </strong></TD>
+    <TD width="5" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="136" CLASS="menuitem"><strong><a href="../../intro_NMS.html" class="menuitem">otros temas de F&iacute;sica</a></strong></TD>
+    <TD width="10" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="173" CLASS="menuitem"><strong><a href="../../lista_ciruela.html" class="menuitem">lecciones del maestro Ciruela </a></strong></TD>
+    <TD width="9" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="68" CLASS="menuitem"><strong><a href="../../lista_tonterias.html" class="menuitem">tonter&iacute;as</a></strong></TD>
+    <TD WIDTH="8" CLASS="menuitem"><a href="../ENERGIA/index_energia.html" class="menuitem"></a><FONT COLOR="#000000">|</FONT></TD>
+    <TD WIDTH="40" CLASS="menuitem">&nbsp;<B><FONT FACE="Arial, Helvetica, sans-serif"><A HREF="mailto: ricuti@qi.fcen.uba.ar" CLASS="menuitem">@</A></FONT><A HREF="../../index.html" CLASS="menuitem"></A></B>&nbsp;</TD>
+  </TR>
+</TABLE></td></tr> <tr> <td class="bodytext" height="10"><img src="img_flu/transparente.gif" width="600" height="8"></td>
+</tr> 
+<tr align="center"> <td height="972"> <table width="600" border="0" cellspacing="0" cellpadding="0"> 
+<tr class="bodytext"> <td colspan="2" valign="top" height="952"> <img src="img_flu/transparente.gif" width="1" height="1"></td>
+<td valign="top" width="596" height="952"> 
+<table width="600" border="0" cellspacing="0" cellpadding="0"> <tr> 
+  <td height="74" bgcolor="#D7FFFF" class="bodytext"><span class="bodytext"><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>NO ME SALEN<br>
+</strong></span><span class="Estilo3"><em class="bodytext "><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>(<strong>PROBLEMAS RESUELTOS   DE BIOF&Iacute;SICA DEL CBC</strong>)</strong></em></span><br>
+      <span class="titulograndegris Estilo16"><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>FLUIDOS<br>
+      </strong></span><br> </td>
+  <td class="bodytext" rowspan="3" height="74" width="6">&nbsp;</td>
+  <td class="bodytext" height="74" rowspan="3" valign="top" width="87"> 
+<p><img src="img_flu/cap17.jpg" alt="desesperado" width="85" height="111"></p></td></tr>
+  <tr>
+    <td height="18" bgcolor="#FFFFFF" class="bodytext">&nbsp;</td>
+  </tr> 
+<tr> <td height="265" valign="top" class="bodytext"><table width="100%" border="0">
+  <tr>
+    <td height="90" colspan="2" align="left" valign="top" class="bodytext"><strong class="bodytext">Ad. NMS 07)* -Dos tanques contienen un l&iacute;quido viscoso hasta diferentes alturas</strong> <strong>(h<sub>A</sub> y h<sub>B</sub>)</strong> <strong>y se conectan por abajo por un tubo de 75 cm de largo y secci&oacute;n transversal S, que posee una llave que est&aacute; deteniendo el flujo. Las secciones de los tanques son tan grandes que el l&iacute;quido en ellos se puede considerar casi quieto en todo momento. &iquest;Para qu&eacute; opci&oacute;n ofrecida ser&aacute; mayor el caudal en el ca&ntilde;o cuando se abra la llave?</strong></td>
+    </tr>
+  <tr>
+    <td width="45%" height="155" align="center" valign="middle"><img src="img_flu/flu_NMS07_1.gif" alt="Flu&iacute;dos - Ricardo Cabrera" width="230" height="136"></td>
+    <td width="55%" align="center" valign="middle"><table width="87%" border="1" bordercolor="#CCCCCC">
+      <tr>
+        <td align="center" valign="middle" bgcolor="#CCCCCC" class="bodytext">&nbsp;</td>
+        <td align="center" valign="middle" bgcolor="#CCCCCC" class="bodytext"><span class="Estilo32">h<sub>A</sub><span class="Estilo33">(m)</span></span></td>
+        <td align="center" valign="middle" bgcolor="#CCCCCC" class="bodytext"><span class="Estilo32">h<sub>B</sub><span class="Estilo33">(m)</span></span></td>
+        <td align="center" valign="middle" bgcolor="#CCCCCC" class="bodytext"><strong>S <span class="Estilo33">(cm<em><strong>&sup2;</strong></em>)</span></strong></td>
+      </tr>
+      <tr>
+        <td align="center" valign="middle" bgcolor="#CCCCCC" class="bodytext"><em>a </em></td>
+        <td align="center" valign="middle" bgcolor="#CCCCCC" class="bodytext"><strong>1 </strong></td>
+        <td align="center" valign="middle" bgcolor="#CCCCCC" class="bodytext"><strong>4</strong></td>
+        <td align="center" valign="middle" bgcolor="#CCCCCC" class="bodytext"><strong>4</strong></td>
+      </tr>
+      <tr>
+        <td align="center" valign="middle" bgcolor="#CCCCCC" class="bodytext"><em>b</em></td>
+        <td align="center" valign="middle" bgcolor="#CCCCCC" class="bodytext"><strong>4</strong></td>
+        <td align="center" valign="middle" bgcolor="#CCCCCC" class="bodytext"><strong>2</strong></td>
+        <td align="center" valign="middle" bgcolor="#CCCCCC" class="bodytext"><strong>6</strong></td>
+      </tr>
+      <tr>
+        <td align="center" valign="middle" bgcolor="#CCCCCC" class="bodytext"><em>c</em></td>
+        <td align="center" valign="middle" bgcolor="#CCCCCC" class="bodytext"><strong>1,5</strong></td>
+        <td align="center" valign="middle" bgcolor="#CCCCCC" class="bodytext"><strong>1</strong></td>
+        <td align="center" valign="middle" bgcolor="#CCCCCC" class="bodytext"><strong>10</strong></td>
+      </tr>
+      <tr>
+        <td align="center" valign="middle" bgcolor="#CCCCCC" class="bodytext"><em>d</em></td>
+        <td align="center" valign="middle" bgcolor="#CCCCCC" class="bodytext"><strong>6</strong></td>
+        <td align="center" valign="middle" bgcolor="#CCCCCC" class="bodytext"><strong>6</strong></td>
+        <td align="center" valign="middle" bgcolor="#CCCCCC" class="bodytext"><strong>12</strong></td>
+      </tr>
+      <tr>
+        <td align="center" valign="middle" bgcolor="#CCCCCC" class="bodytext"><em>e</em></td>
+        <td align="center" valign="middle" bgcolor="#CCCCCC" class="bodytext"><strong>6</strong></td>
+        <td align="center" valign="middle" bgcolor="#CCCCCC" class="bodytext"><strong>5</strong></td>
+        <td align="center" valign="middle" bgcolor="#CCCCCC" class="bodytext"><strong>9</strong></td>
+      </tr>
+      <tr>
+        <td align="center" valign="middle" bgcolor="#CCCCCC" class="bodytext"><em>f</em></td>
+        <td align="center" valign="middle" bgcolor="#CCCCCC" class="bodytext"><strong>4</strong></td>
+        <td align="center" valign="middle" bgcolor="#CCCCCC" class="bodytext"><strong>12</strong></td>
+        <td align="center" valign="middle" bgcolor="#CCCCCC" class="bodytext"><strong>3</strong></td>
+      </tr>
+    </table></td>
+  </tr>
+</table>  
+  </td>
+  </tr>
+<tr>
+  <td height="981" align="left" valign="middle" class="bodytext"><p><em>&iexcl;</em>Guauuu<em>! &iexcl;</em>Qu&eacute; ejercicio<em>! </em>Te aclaro -por si no te diste cuenta- que se trata de esos ejercicios en los que se busca no que sepas mucha f&iacute;sica sino que est&eacute;s bien despierto. Que seas una persona de recursos, que pienses con tino, con punter&iacute;a. Hay varios distractores (vos las llamar&iacute;as trampas) y me parece que no es malo que aparezcan de vez en cuando... porque el universo se nos presenta <strong>siempre</strong> lleno de trampas.</p>
+    <p>Lo primero que debe quedarte claro es qu&eacute; se pregunta: al abrirse la llave del ca&ntilde;o horizontal que une los tanques por abajo, en el ca&ntilde;o ese va a haber un caudal de l&iacute;quido de un tanque a otro. Dependiendo de las alturas de l&iacute;quido en cada tanque y del ancho del ca&ntilde;o el caudal va a ser m&aacute;s o menos grande. Se nos pide que identifiquemos en cu&aacute;l de las situaciones que aparecen en el cuadro, <em>a</em> o<em> b</em> o <em>c</em>..., el caudal resultante va a ser el mayor.</p>
+    <p>Lo segundo es identificar el terreno al que nos llaman para resolver el ejercicio. Es obvio que se trata de fluidos reales, ya que aparece la palabra que lo identifica: viscosidad; los tanques est&aacute;n llenos de un l&iacute;quido viscoso, que va a ser el que circule por el ca&ntilde;o de abajo cuyo caudal ser&aacute; descripto por la Ley de Poiseuille:</p>
+    <blockquote>
+      <p><strong><em><strong><em><strong>Q<strong><em> <span class="Estilo34"><strong>= </strong></span></em></strong> </strong></em></strong></em></strong><em><strong> <em><strong><em><strong>&Delta;<strong><em>P</em></strong></strong></em></strong></em> /  R</strong></em></p>
+      </blockquote>
+    <p>El caudal, <strong><em><strong><em><strong>Q</strong></em></strong></em></strong>, que circula por un ca&ntilde;o es directamente proporcional a la diferencia de presi&oacute;n entre sus extremos, <em><strong><em><strong><em><strong>&Delta;<strong><em>P</em></strong></strong></em></strong></em></strong></em>, que lo mueve, e inversamente proporcional a la resistencia hidrodin&aacute;mica, <em><strong>R</strong></em>, que lo frena. </p>
+    <p>A su vez, la resistencia hidrodin&aacute;mica es inversamente proporcional al cuadrado de la secci&oacute;n del ca&ntilde;o:</p>
+    <blockquote>
+      <p><strong><em><strong><em><strong>R<strong><em> <span class="Estilo34"><strong>= </strong></span></em></strong> </strong></em></strong></em></strong><em><strong> <em><strong><em><strong>k</strong></em></strong></em> / S</strong></em><strong><em><strong>&sup2;</strong></em></strong></p>
+      </blockquote>
+    <p>En este caso, esa constante depende de la viscosidad, el largo del ca&ntilde;o y el factor <em><strong>8 pi</strong></em>, pero en todas las situaciones que se nos pide comparar valen lo mismo, de modo que no tiene sentido hacerlas aparecer, y las resumo todas en esa letra<em><strong> k</strong></em>, que justamente me dice que es constante durante las comparaciones. &iquest;Vamos bien?</p>
+    <p>En definitiva los caudales en cada caso los vamos a comparar con  la expresi&oacute;n:</p>
+    <blockquote>
+      <p><strong><em><strong><em><strong>Q<strong><em> <span class="Estilo34"><strong>= </strong></span></em></strong> </strong></em></strong></em></strong><em><strong> <em><strong><em><strong>&Delta;<strong><em>P</em></strong></strong></em></strong></em> . S</strong></em><strong><em><strong>&sup2;</strong></em></strong><em><strong> / <em><strong><em><strong><strong><em><span class="Estilo34"><strong> </strong></span></em></strong> </strong></em></strong></em></strong><em><strong> <em><strong><em><strong>k</strong></em></strong></em> </strong></em></em></p>
+      </blockquote>
+    <p>Ac&aacute; viene una de las trampas: la diferencia de presi&oacute;n, <em><strong><em><strong><em><strong>&Delta;<strong><em>P</em></strong></strong></em></strong></em></strong></em>, depende exclusivamente de la diferencia de altura de l&iacute;quido en los tanques, tal como lo ense&ntilde;a el principio fundamental de la hidrost&aacute;tica:</p>
+    <blockquote>
+      <p><em><strong><em><strong><em><strong>&Delta;</strong></em></strong></em>P</strong></em><strong> =</strong> <em><strong>&#948; . g . <em><strong><em><strong>&Delta;</strong></em></strong></em>h</strong></em></p>
+      </blockquote>
+    <p>Ya que -el enunciado te lo aclara- la velocidad dentro de los tanques puede considerarse nula. Muchos estudiantes se confunde y pisan el palito (no vos, claro, pero igual te lo digo para que puedas ayudar a tus compa&ntilde;eros) con la diferencia de secci&oacute;n delos tanques. No importa que un tanque sea ancho y gordo y el otro tanque sea flaco y finito... trat&aacute;ndose del mismo l&iacute;quido, la diferencia de presi&oacute;n en el fondo (que es la misma de los extremos del ca&ntilde;o) depende exclusivamente de la diferencia de altura, <em><strong>(<span class="Estilo36">h<sub>A</sub> - h<sub>B</sub></span>)</strong>,</em> entre ellos.</p>
+    <p>Si juntamos las nuevas constantes que aparecen, <em><strong>&#948; . g</strong></em>, con la anterior,  as&iacute;:</p>
+    <blockquote>
+      <p><em><strong>c</strong></em><strong> =</strong> <em><strong>&#948; . g / <em><strong><em><strong>k</strong></em></strong></em></strong></em></p>
+      </blockquote>
+    <p>Donde <em><strong>c</strong></em> es una constante cuyo valor no nos interesa porque no cambia en los 6 casos que tenemos que comparar, vale lo mismo para todos. La ecuaci&oacute;n de Poiseuille con la que haremos la comparaci&oacute;n queda as&iacute;:</p>
+    <blockquote>
+      <p><strong><em><strong><em><strong>Q<strong><em> <span class="Estilo34"><strong>= </strong></span></em></strong> c . (<span class="Estilo36">h<sub>A</sub> - h<sub>B</sub></span>) . </strong></em></strong></em></strong><em><strong>S</strong></em><strong><em><strong>&sup2;</strong></em></strong></p>
+      </blockquote>
+    <p>En la que vemos que el caudal ser&aacute; mayor cuanto m&aacute;s grande sea el producto entre la diferencia de altura,<strong><em><strong><em><strong> (<span class="Estilo36">h<sub>A</sub> - h<sub>B</sub></span>)</strong></em></strong></em></strong>, y la secci&oacute;n al cuadrado, <em><strong>S</strong></em><strong><em><strong>&sup2;</strong></em></strong>. Rehaganos el cuadro del enunciado aqregando las columnas que son las que importan:</p></td>
+  <td class="bodytext" height="981">&nbsp;</td>
+  <td class="bodytext" height="981" valign="middle">&nbsp;</td>
+</tr>
+<tr>
+  <td height="166" align="center" valign="middle" bgcolor="#FFFFFF" class="epigrafe"><table width="434" border="1">
+    <tr>
+      <td width="7%" align="center" valign="middle" bordercolor="#CCCCCC" bgcolor="#CCCCCC" class="bodytext">&nbsp;</td>
+      <td width="15%" align="center" valign="middle" bordercolor="#CCCCCC" bgcolor="#CCCCCC" class="bodytext"><span class="Estilo38">h<sub>A</sub><span class="Estilo33">(m)</span></span></td>
+      <td width="15%" align="center" valign="middle" bordercolor="#CCCCCC" bgcolor="#CCCCCC" class="bodytext"><span class="Estilo38">h<sub>B</sub><span class="Estilo33">(m)</span></span></td>
+      <td width="15%" align="center" valign="middle" bordercolor="#CCCCCC" bgcolor="#66FF99" class="bodytext"><em><strong><strong><strong><font color="#000000">|</font>&Delta;</strong></strong>h<font color="#000000">|</font></strong></em></td>
+      <td width="15%" align="center" valign="middle" bordercolor="#CCCCCC" bgcolor="#CCCCCC" class="bodytext"><em><strong>S <span class="Estilo33">(cm<strong>&sup2;</strong>)</span></strong></em></td>
+      <td width="15%" align="center" valign="middle" bordercolor="#CCCCCC" bgcolor="#66FF99" class="bodytext"><em><strong>S<strong>&sup2;</strong></strong></em></td>
+      <td width="18%" align="center" valign="middle" bordercolor="#CCCCCC" bgcolor="#FFFF99" class="bodytext"><em><strong><strong><strong>&Delta;</strong></strong>h</strong></em> . <em><strong>S<strong>&sup2;</strong></strong></em></td>
+    </tr>
+    <tr>
+      <td align="center" valign="middle" bordercolor="#CCCCCC" bgcolor="#CCCCCC" class="bodytext"><em>a </em></td>
+      <td align="center" valign="middle" bordercolor="#CCCCCC" bgcolor="#CCCCCC" class="bodytext"><strong><em>1 </em></strong></td>
+      <td align="center" valign="middle" bordercolor="#CCCCCC" bgcolor="#CCCCCC" class="bodytext"><strong><em>4</em></strong></td>
+      <td align="center" valign="middle" bordercolor="#CCCCCC" bgcolor="#66FF99" class="bodytext"><strong><em>3</em></strong></td>
+      <td align="center" valign="middle" bordercolor="#CCCCCC" bgcolor="#CCCCCC" class="bodytext"><strong><em>4</em></strong></td>
+      <td align="center" valign="middle" bordercolor="#CCCCCC" bgcolor="#66FF99" class="bodytext"><strong><em>16</em></strong></td>
+      <td align="center" valign="middle" bordercolor="#CCCCCC" bgcolor="#FFFF99" class="bodytext"><em><strong>48</strong></em></td>
+    </tr>
+    <tr>
+      <td align="center" valign="middle" bordercolor="#CCCCCC" bgcolor="#CCCCCC" class="bodytext"><em>b</em></td>
+      <td align="center" valign="middle" bordercolor="#CCCCCC" bgcolor="#CCCCCC" class="bodytext"><strong><em>4</em></strong></td>
+      <td align="center" valign="middle" bordercolor="#CCCCCC" bgcolor="#CCCCCC" class="bodytext"><strong><em>2</em></strong></td>
+      <td align="center" valign="middle" bordercolor="#CCCCCC" bgcolor="#66FF99" class="bodytext"><strong><em>2</em></strong></td>
+      <td align="center" valign="middle" bordercolor="#CCCCCC" bgcolor="#CCCCCC" class="bodytext"><strong><em>6</em></strong></td>
+      <td align="center" valign="middle" bordercolor="#CCCCCC" bgcolor="#66FF99" class="bodytext"><strong><em>36</em></strong></td>
+      <td align="center" valign="middle" bordercolor="#CCCCCC" bgcolor="#FFFF99" class="bodytext"><em><strong>72</strong></em></td>
+    </tr>
+    <tr>
+      <td align="center" valign="middle" bordercolor="#CCCCCC" bgcolor="#CCCCCC" class="bodytext"><em>c</em></td>
+      <td align="center" valign="middle" bordercolor="#CCCCCC" bgcolor="#CCCCCC" class="bodytext"><strong><em>1,5</em></strong></td>
+      <td align="center" valign="middle" bordercolor="#CCCCCC" bgcolor="#CCCCCC" class="bodytext"><strong><em>1</em></strong></td>
+      <td align="center" valign="middle" bordercolor="#CCCCCC" bgcolor="#66FF99" class="bodytext"><strong><em>0,5</em></strong></td>
+      <td align="center" valign="middle" bordercolor="#CCCCCC" bgcolor="#CCCCCC" class="bodytext"><strong><em>10</em></strong></td>
+      <td align="center" valign="middle" bordercolor="#CCCCCC" bgcolor="#66FF99" class="bodytext"><strong><em>100</em></strong></td>
+      <td align="center" valign="middle" bordercolor="#CCCCCC" bgcolor="#FFFF99" class="bodytext"><em><strong>50</strong></em></td>
+    </tr>
+    <tr>
+      <td align="center" valign="middle" bordercolor="#CCCCCC" bgcolor="#CCCCCC" class="bodytext"><em>d</em></td>
+      <td align="center" valign="middle" bordercolor="#CCCCCC" bgcolor="#CCCCCC" class="bodytext"><strong><em>6</em></strong></td>
+      <td align="center" valign="middle" bordercolor="#CCCCCC" bgcolor="#CCCCCC" class="bodytext"><strong><em>6</em></strong></td>
+      <td align="center" valign="middle" bordercolor="#CCCCCC" bgcolor="#66FF99" class="bodytext"><strong><em>0</em></strong></td>
+      <td align="center" valign="middle" bordercolor="#CCCCCC" bgcolor="#CCCCCC" class="bodytext"><strong><em>12</em></strong></td>
+      <td align="center" valign="middle" bordercolor="#CCCCCC" bgcolor="#66FF99" class="bodytext"><strong><em>144</em></strong></td>
+      <td align="center" valign="middle" bordercolor="#CCCCCC" bgcolor="#FFFF99" class="bodytext"><em><strong>0</strong></em></td>
+    </tr>
+    <tr>
+      <td align="center" valign="middle" bordercolor="#CCCCCC" bgcolor="#CCCCCC" class="bodytext"><em>e</em></td>
+      <td align="center" valign="middle" bordercolor="#CCCCCC" bgcolor="#CCCCCC" class="bodytext"><strong><em>6</em></strong></td>
+      <td align="center" valign="middle" bordercolor="#CCCCCC" bgcolor="#CCCCCC" class="bodytext"><strong><em>5</em></strong></td>
+      <td align="center" valign="middle" bordercolor="#CCCCCC" bgcolor="#66FF99" class="bodytext"><strong><em>1</em></strong></td>
+      <td align="center" valign="middle" bordercolor="#CCCCCC" bgcolor="#CCCCCC" class="bodytext"><strong><em>9</em></strong></td>
+      <td align="center" valign="middle" bordercolor="#CCCCCC" bgcolor="#66FF99" class="bodytext"><strong><em>81</em></strong></td>
+      <td align="center" valign="middle" bordercolor="#CCCCCC" bgcolor="#FFFF99" class="bodytext"><em><strong>81</strong></em></td>
+    </tr>
+    <tr>
+      <td align="center" valign="middle" bordercolor="#CCCCCC" bgcolor="#CCCCCC" class="bodytext"><em>f</em></td>
+      <td align="center" valign="middle" bordercolor="#CCCCCC" bgcolor="#CCCCCC" class="bodytext"><strong><em>4</em></strong></td>
+      <td align="center" valign="middle" bordercolor="#CCCCCC" bgcolor="#CCCCCC" class="bodytext"><strong><em>12</em></strong></td>
+      <td align="center" valign="middle" bordercolor="#CCCCCC" bgcolor="#66FF99" class="bodytext"><strong><em>8</em></strong></td>
+      <td align="center" valign="middle" bordercolor="#CCCCCC" bgcolor="#CCCCCC" class="bodytext"><strong><em>3</em></strong></td>
+      <td align="center" valign="middle" bordercolor="#CCCCCC" bgcolor="#66FF99" class="bodytext"><strong><em>9</em></strong></td>
+      <td align="center" valign="middle" bordercolor="#CCCCCC" bgcolor="#FFFF99" class="bodytext"><em><strong>72</strong></em></td>
+    </tr>
+  </table></td>
+  <td class="bodytext" height="166">&nbsp;</td>
+  <td class="bodytext" height="166" valign="middle">&nbsp;</td>
+</tr>
+<tr>
+  <td height="102" class="bodytext"><p>Las columnas en verde son las agregadas en base a nuestros intereses. Tom&eacute; el m&oacute;dulo de la diferencia de alturas ya que el enunciado no nos pide distinguir con qu&eacute; sentido se mueve el l&iacute;quido.</p>
+    <p>Las unidades en las que midamos las variables tampoco importan, ya que si son las mismas en los seis casos, a los fines de la comparaci&oacute;n, es lo mismo.</p></td>
+  <td class="bodytext" height="102">&nbsp;</td>
+  <td class="bodytext" height="102" valign="middle">&nbsp;</td>
+</tr>
+<tr>
+  <td height="51" class="bodytext"><table width="507" height="36" border="0">
+    <tr>
+      <td width="35" height="28" valign="middle" class="bodytext">&nbsp;</td>
+      <td width="363" align="center" bordercolor="#FFFFFF" bgcolor="#CCCCCC" class="bodytext"><p><span class="Estilo32"><em>e</em>) <em><em> &#160;&#160;</em>h<sub>A</sub>=</em><strong><em> 6<span class="Estilo33"> m</span></em></strong><em><em> , &#160;&#160;</em>h<sub>B</sub>=</em><strong><em> 5<span class="Estilo33"> m </span></em></strong></span> , <em><em> &#160;&#160;</em></em><em><strong>S = 9</strong></em> <em><strong><span class="Estilo33">cm<strong>&sup2;</strong></span></strong></em></p></td>
+      <td width="95" align="center" class="bodytext">&nbsp;</td>
+    </tr>
+  </table></td>
+  <td class="bodytext" height="51">&nbsp;</td>
+  <td class="bodytext" height="51" valign="middle">&nbsp;</td>
+</tr>
+<tr>
+  <td height="68" class="bodytext"><p>Es cierto... tal vez este ejercicio no merec&iacute;a quedar tan largo. Hay quien lo resolv&iacute;a simplemente mirando el cuadro y poniendo la cruz en el rengl&oacute;n correcto. Pero yo estaba obligado a ser lo m&aacute;s detallista posible. Espero que te aproveche.</p>    </td>
+  <td class="bodytext">&nbsp;</td>
+  <td valign="middle" class="bodytext">&nbsp;</td>
+</tr>
+
+<tr>
+  <td height="41" align="center" valign="middle" bgcolor="#FFFF66" class="bodytext"><table width="91%" height="22" border="0">
+    <tr>
+      <td class="epigrafe">*Este ejercicio perteneci&oacute; al primer examen parcial de Biof&iacute;sica tomado en varias sedes del CBC simult&aacute;neamente el 20 de octubre de 2009.</td>
+    </tr>
+  </table>  </td>
+  <td width="6" class="bodytext">&nbsp;</td>
+  <td width="87" class="bodytext">&nbsp;</td>
+</tr>
+
+
+<tr>
+  <td height="63" align="left" class="bodytext"><p><strong>DESAF&Iacute;O</strong>: &iquest;Cu&aacute;l ser&iacute;a el resultado si la viscosidad del l&iacute;quido del tanque <strong>A</strong> fuera la mitad de la viscosidad del del <strong>B</strong>?</p>    </td>
+  <td class="bodytext">&nbsp;</td>
+  <td width="87" rowspan="2" valign="bottom" class="bodytext"><img src="img_flu/ric_081.jpg" alt="Flu&iacute;dos - Ricardo Cabrera" width="85" height="109"></td>
+</tr>
+
+
+<tr> <td height="46" align="center" valign="middle" bgcolor="#CCCCCC" class="bodytext"><table width="92%" border="0">
+  <tr>
+    <td class="epigrafe">Algunos derechos reservados. 
+      Se permite su reproducci&oacute;n citando la fuente. &Uacute;ltima actualizaci&oacute;n abr-10. Buenos Aires, Argentina. </td>
+  </tr>
+</table>  </td>
+  <td class="bodytext" width="6">&nbsp;</td>
+  </tr> 
+<tr> <td height="18" class="bodytext">&nbsp;</td><td class="bodytext" width="6">&nbsp;</td>
+<td class="bodytext" width="87">&nbsp;</td>
+</tr> 
+</table></td></tr> </table><img src="img_flu/transparente.gif" width="10" height="20"></td></tr> 
+<tr> <td class="bodytext"><img src="img_flu/transparente.gif" width="600" height="20"></td></tr> 
+</table>
+</body>
+</html>

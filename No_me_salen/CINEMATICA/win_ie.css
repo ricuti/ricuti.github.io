@@ -1,0 +1,36 @@
+.menuitem {
+	COLOR: #CCCCCC; FONT-FAMILY: Verdana, Arial, Sans-Serif; FONT-SIZE: 9px; LINE-HEIGHT: 135%
+}
+.bodytext {
+	FONT-FAMILY: Verdana, Arial, sans-serif; FONT-SIZE: 11px; LINE-HEIGHT: 15px
+}
+.titulochicogris {
+	COLOR: #3F6386; FONT-FAMILY: Verdana, Arial, sans-serif; FONT-SIZE: 12px; LINE-HEIGHT: 15px
+}
+.titulograndegris {
+	COLOR: #3F6386; FONT-FAMILY: Verdana, Arial, sans-serif; FONT-SIZE: 16px; LINE-HEIGHT: 18px
+}
+.epigrafe {
+	FONT-FAMILY: Verdana, Arial, sans-serif; FONT-SIZE: 10px; LINE-HEIGHT: 11px
+}
+.bodylink { 
+	COLOR: #999999; FONT-FAMILY: Verdana, Arial, sans-serif; FONT-SIZE: 11px; LINE-HEIGHT: 13px
+}
+.bodylinkblack { 
+	COLOR: #000000; FONT-FAMILY: Verdana, Arial, sans-serif; FONT-SIZE: 11px;LINE-HEIGHT: 16px 
+}
+.menuitem:hover {
+	COLOR: #000000; TEXT-DECORATION: underline
+}
+.bodylink:hover {
+	COLOR: #BB0000; TEXT-DECORATION: underline
+}
+A {
+	TEXT-DECORATION: none
+}
+A:visited {
+	TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #BB0000; TEXT-DECORATION: underline
+}
