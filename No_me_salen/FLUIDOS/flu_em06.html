@@ -17,6 +17,7 @@
 .Estilo33 {font-style: italic}
 .Estilo34 {font-style: italic}
 .Estilo35 {font-style: italic}
+.Estilo36 {color: #FF0000}
 -->
 </style>
 </head>
@@ -86,18 +87,18 @@
 </tr>  
 <tr> 
   <td height="873" colspan="2" align="left" class="bodytext"><p>Con este esquemita sencill&iacute;simo que hice ya alcanza para definir todas las variables que entran en juego en el ejercicio. Pese a que en el texto voy a volver a hacerlo no siempre es tan claro y pr&aacute;ctico como en el esquema.</p>
-    <p>Si vos quer&eacute;s que el l&iacute;quido fluya hacia la derecha no cabe otra posibilidad que la presi&oacute;n sea mayor en el &eacute;mbolo y menor en la aguja. Eso ya te permite descartar las opciones <strong>a)</strong>, <strong>c)</strong> y <strong>f)</strong>. </p>
     <p>Vamos a la resoluci&oacute;n. Como lo que estamos inyectando es un l&iacute;quido ideal (probablemente un remedio para la gripe, o algo as&iacute;) podemos utilizar el <strong><a href="FT_bernouille.html">Principio  de Bernoulli</a></strong>. Con &eacute;l describo el momento inicial </p>
     <blockquote>
       <p><strong><em>P<strong><em><strong><strong><em><strong><em><sub>0E</sub></em></strong></em></strong></strong></em></strong> + &delta; g h<strong><em><strong><strong><em><strong><em><sub>0E</sub></em></strong></em></strong></strong></em></strong></em></strong> + <strong><em>&frac12; &delta; v<strong><em><strong><strong><em><strong><em><sub>0E</sub></em></strong></em></strong></strong></em></strong><strong>&sup2;</strong></em></strong> <em><strong>= </strong></em><strong><em>P<strong><em><strong><strong><em><strong><em><sub>0A</sub></em></strong></em></strong></strong></em></strong> + &delta; g h<strong><em><strong><strong><em><strong><em><sub>0A</sub></em></strong></em></strong></strong></em></strong></em></strong> + <strong><em>&frac12; &delta; v<strong><em><strong><strong><em><strong><em><sub>0A</sub></em></strong></em></strong></strong></em></strong><strong>&sup2;</strong></em></strong></p>
       </blockquote>
-    <p>A menos que se trate de una jeringa gigante (como para tiranosaurios) la diferencia de altura es despreciable... en el sentido que las diferencias de presi&oacute;n que provoca la diferencia de altura son insignificantes en comparaci&oacute;n con las que provoca la diferencia de caudal.  No vale decir que la diferencia de alturas es cero porque el dibujo en el esquemita te lo hice con la jeringa dispuesta horizontalmente: el tema es que aunque estuviese vertical, la diferencia de altura es despreciable, &iexcl;puaj! </p>
-    <p>Entonces vamos a despreciar los t&eacute;rminos de altura (de presi&oacute;n hidrost&aacute;tica) y vamos a reagrupar los otros t&eacute;rminos para operar m&aacute;s c&oacute;modamente.</p>
+    <p>A menos que se trate de una jeringa gigante (como para tiranosaurios) la diferencia de altura es despreciable... en el sentido que las diferencias de presi&oacute;n que provoca la diferencia de altura son insignificantes en comparaci&oacute;n con las que provoca la diferencia de velocidad.  No vale decir que la diferencia de alturas es cero porque el dibujo en el esquemita te lo hice con la jeringa dispuesta horizontalmente: el tema es que aunque estuviese vertical, la diferencia de altura es despreciable.<em></em></p>
+    <p>Por otro lado, como el fluido es ideal y la sección en el émbolo es mayor que en la aguja, siempre la presión en el émbolo será mayor a la presión en la aguja, antes y después de variar la presión que ejerce la mano... eso ya te permite descartar las opciones <strong>a)</strong>, <strong>c)</strong> y <strong>f)</strong>. </p>
+    <p>Volvamos a Bernoulli despreciando los t&eacute;rminos de altura (de presi&oacute;n hidrost&aacute;tica) y vamos a reagrupar los otros t&eacute;rminos para operar m&aacute;s c&oacute;modamente.</p>
     <blockquote>
       <p><strong><em><strong>&Delta;</strong>P<strong><em><strong><strong><em><strong><em><sub>0</sub></em></strong></em></strong></strong></em></strong> </em></strong><em><strong>= </strong></em><strong><em> &frac12; &delta; v<strong><em><strong><em><strong><strong><em><strong><em><sub>0A</sub></em></strong></em></strong></strong></em></strong></em>&sup2;</strong></em></strong><em><strong><strong> &ndash;</strong></strong><strong> </strong></em><strong><em>&frac12; &delta; v<strong><em><strong><em><strong><strong><em><strong><em><sub>0E</sub></em></strong></em></strong></strong></em></strong></em>&sup2;</strong></em></strong></p>
       <p><strong><em><strong>&Delta;</strong>P<strong><em><strong><strong><em><strong><em><sub>0</sub></em></strong></em></strong></strong></em></strong> </em></strong><em><strong>= </strong></em><strong><em> &frac12; &delta; ( v<strong><em><strong><em><strong><strong><em><strong><em><sub>0A</sub></em></strong></em></strong></strong></em></strong></em>&sup2;</strong></em></strong><em><strong><strong> &ndash;</strong></strong> </em><strong><em> v<strong><em><strong><em><strong><em><strong><strong><em><strong><em><sub>0E</sub></em></strong></em></strong></strong></em></strong></em></strong></em>&sup2;</strong></em></strong> <em><strong>) </strong></em></p>
     </blockquote>
-    <p>El enunciado nada nos dice sobre las velocidades del l&iacute;quido; en cambio habla de caudales. Eso me incita a expresar las velocidades en funci&oacute;n de los caudales. Eso es f&aacute;cil ya que para cualquier fluido se cumple siempre que el caudal, <em><strong>Q</strong></em>, es igual al producto entre la velocidad del fluido, <em><strong>v</strong></em>, y la secci&oacute;n transversal del conducto, <em><strong>S</strong></em>. Entonces: </p>
+    <p>El enunciado nada nos dice sobre las velocidades del l&iacute;quido; en cambio habla de caudales. Eso me lleva a expresar las velocidades en funci&oacute;n de los caudales. Que   es f&aacute;cil ya que para cualquier fluido se cumple siempre que el caudal, <em><strong>Q</strong></em>, es igual al producto entre la velocidad del fluido, <em><strong>v</strong></em>, y la secci&oacute;n transversal del conducto, <em><strong>S</strong></em>. Entonces: </p>
     <blockquote>
       <p><strong><em>v<strong><em><strong><em><strong><strong><em><strong><em><sub>0E</sub></em></strong></em></strong></strong></em></strong></em></strong> = Q<strong><em><strong><strong><em><strong><em><sub>0 </sub></em></strong></em></strong></strong></em></strong>/</em></strong> <em><strong>S<sub>E</sub> </strong></em><strong><span class="Estilo10"><strong><em><strong><strong>&#160;&#160; &#160; &#160; </strong></strong></em>&rarr; <em><strong><strong> &#160;&#160; &#160;&#160; &#160;</strong></strong></em></strong></span><em>v<strong><em><strong><em><strong><strong><em><strong><em><sub>0E</sub><strong>&sup2;</strong></em></strong></em></strong></strong></em></strong></em></strong> = Q<strong><em><strong><strong><em><strong><em><sub>0</sub><strong>&sup2;</strong></em></strong> </em></strong></strong></em></strong></em></strong><em><strong>/</strong></em> <em><strong>S<sub>E</sub></strong></em><strong><em><strong>&sup2;</strong></em></strong></p>
       <p><strong><em>v<strong><em><strong><em><strong><strong><em><strong><em><sub>0A</sub></em></strong></em></strong></strong></em></strong></em></strong> = Q<strong><em><strong><strong><em><strong><em><sub>0</sub></em></strong><span class="Estilo35"><sub> </sub></span></em></strong></strong></em></strong></em></strong><em><strong>/</strong></em> <em><strong>S<sub>A</sub> </strong></em><strong><span class="Estilo10"><strong><em><strong><strong>&#160;&#160; &#160;&#160; </strong></strong></em>&#160;&rarr;<em><strong><strong> &#160;&#160; &#160;&#160; &#160;</strong></strong></em></strong></span><em>v<strong><em><strong><em><strong><strong><em><strong><em><sub>0A</sub><strong>&sup2;</strong></em></strong></em></strong></strong></em></strong></em></strong> = Q<strong><em><strong><strong><em><strong><em><sub>0</sub><strong>&sup2;</strong> </em></strong></em></strong></strong></em></strong>/</em></strong> <em><strong>S<sub>A</sub></strong></em><strong><em><strong>&sup2;</strong></em></strong></p>
@@ -111,7 +112,7 @@
     <blockquote>
       <p><strong><em><strong>&Delta;</strong>P<strong><em><strong><strong><em><strong><em><sub>F</sub></em></strong></em></strong></strong></em></strong> </em></strong><em><strong>= </strong></em><strong><em> &frac12; &delta; [(Q<strong><em><strong><strong><em><strong><em><sub>F</sub><strong>&sup2;</strong> </em></strong></em></strong></strong></em></strong>/</em></strong> <em><strong>S<sub>A</sub></strong></em><strong><em><strong>&sup2;</strong></em></strong><em><strong><strong>) &ndash;</strong></strong> </em><strong><em>(Q<strong><em><strong><strong><em><strong><em><sub>F</sub><strong>&sup2;</strong> </em></strong></em></strong></strong></em></strong>/ </em></strong><em><strong>S<sub>E</sub></strong></em><strong><em><strong>&sup2;</strong></em></strong><em><strong>)]</strong></em></p>
       </blockquote>
-    <p>Y es dato del problema que el caudal en la segunda instancia es la mitad del caudal en la primera instancia. O sea: </p>
+    <p>Y es dato del enunciado del ejercicio que el caudal en la segunda instancia es la mitad del caudal en la primera instancia. O sea: </p>
     <blockquote>
       <p><strong><em>Q<strong><em><strong><em><strong><strong><em><strong><em><sub>F</sub></em></strong></em></strong></strong></em></strong></em></strong> = Q<strong><em><strong><strong><em><strong><em><sub>0</sub></em></strong><span class="Estilo33"><sub> </sub></span></em></strong></strong></em></strong></em></strong><em><strong>/ 2 </strong></em><strong><span class="Estilo10"><strong><em><strong><strong>&#160;&#160; &#160; &#160; </strong></strong></em>&rarr; <em><strong><strong> &#160;&#160; &#160;&#160; &#160;</strong></strong></em></strong></span><em>Q<strong><em><strong><em><strong><strong><em><strong><em><sub>F</sub></em></strong></em></strong></strong></em></strong></em>&sup2;</strong> = Q<strong><em><strong><strong><em><strong><em><sub>0</sub><strong>&sup2;</strong> </em></strong></em></strong></strong></em></strong>/ </em></strong><em><strong>4</strong></em></p>
       </blockquote>
@@ -125,7 +126,8 @@
       </blockquote>
     <p>Ahora si compar&aacute;s <strong>[1]</strong> con <strong>[2]</strong> coincidir&aacute;s conmigo en que:</p></td>
   <td width="10" class="bodytext">&nbsp;</td>
-  <td width="85" class="bodytext"><img src="img_flu/inyeccion.jpg" alt="Flu&iacute;dos - Ricardo Cabrera" width="85" height="84" /></td>
+  <td width="85" align="center" class="bodytext"><img src="img_flu/inyeccion.jpg" alt="Flu&iacute;dos - Ricardo Cabrera" width="85" height="84" /><br>
+    <span class="epigrafe Estilo36">cuarto superior externo de la nalga</span></td>
 </tr>
 
 <tr>
@@ -140,13 +142,14 @@
   <td class="bodytext">&nbsp;</td>
 </tr>
 <tr>
-  <td height="156" colspan="2" align="left" class="epigrafe"><p><strong>OBSERVACION</strong>: Como ves, cuanto mayor sea la presi&oacute;n que ejerc&eacute;s en el pist&oacute;n, mayor la velocidad con que se desagota el dep&oacute;sito, y menor el tiempo que est&aacute;s pinchando a tu paciente. Pero lo que tu paciente te va a agradecer no es el tiempo que le ahorres con la cola al aire, sino que la inyecci&oacute;n no le duela. </p>
+  <td height="205" colspan="2" align="left" class="epigrafe"><p><strong>OBSERVACIONES</strong>: Como ves, cuanto mayor sea la presi&oacute;n que ejerc&eacute;s en el pist&oacute;n, mayor la velocidad con que se desagota el dep&oacute;sito, y menor el tiempo que est&aacute;s pinchando a tu paciente. Pero lo que tu paciente te va a agradecer no es el tiempo que le ahorres con la cola al aire, sino que la inyecci&oacute;n no le duela. </p>
+    <p>Este ejercicio plantea una situación ideal (<em>se inyecta un fluido ideal</em>). Tenés que tener presente que cuanto más finita sea la aguja más difícil es que un fluido se comporte de manera ideal.</p>
     <p>La cuesti&oacute;n del pinchazo es pr&aacute;ctica: naranjas y familiares abnegados. En cuanto al ingreso de l&iacute;quidos, una inyecci&oacute;n veloz puede producir lesiones en los tejidos y justamente el dolor puede estar indicando eso. La inyecci&oacute;n ser&aacute; indolora si el tejido que recibe el l&iacute;quido for&aacute;neo es capaz de difundirlo en el mismo intervalo de tiempo en que est&aacute; ingresando. Ese intervalo depende del tejido y del l&iacute;quido, pero queda claro que siempre ser&aacute;n menos dolorosas la inyecciones en las que el fluido ingrese m&aacute;s lentamente. Y que te quede claro: vos a m&iacute; no me pinch&aacute;s ni mamado. </p></td>
   <td class="bodytext">&nbsp;</td>
   <td class="bodytext">&nbsp;</td>
 </tr>
 <tr>
-  <td height="32" colspan="2" align="left" class="bodytext"><p><strong>DESAF&Iacute;O</strong>: Mentalmente: &iquest;cu&aacute;nto tendr&iacute;a que aumentar la diferencia de presi&oacute;n si quisi&eacute;ramos un caudal cinco veces mayor? </p>    </td>
+  <td height="66" colspan="2" align="left" class="bodytext"><p><strong>DESAF&Iacute;O</strong>: Mentalmente: &iquest;cu&aacute;nto tendr&iacute;a que aumentar la diferencia de presi&oacute;n si quisi&eacute;ramos un caudal cinco veces mayor? </p>    </td>
   <td class="bodytext">&nbsp;</td>
   <td width="85" rowspan="3" valign="bottom" class="bodytext"><img src="img_flu/ric_perf.jpg" alt="Flu&iacute;dos - Ricardo Cabrera" width="85" height="104" /></td>
 </tr>
@@ -159,7 +162,7 @@
 <tr> <td colspan="2" align="center" valign="middle" bgcolor="#CCCCCC" class="bodytext"><table width="93%" border="0">
   <tr>
     <td align="left" class="epigrafe">Algunos derechos reservados. 
-  Se permite su reproducci&oacute;n citando la fuente. &Uacute;ltima actualizaci&oacute;n dic-07. Buenos Aires, Argentina. </td>
+  Se permite su reproducci&oacute;n citando la fuente. Se agradece por el envío de una errata conceptual a la ingeniera Cintia Perrone. &Uacute;ltima actualizaci&oacute;n dic-07. Buenos Aires, Argentina. </td>
   </tr>
 </table>  </td>
   <td class="bodytext" width="10">&nbsp;</td>
