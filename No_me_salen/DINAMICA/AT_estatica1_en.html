@@ -1,0 +1,168 @@
+<html>
+<head>
+<title>DINAMICA, estatica cuerpo puntual, apunte teorico, ejercicios resueltos</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="keywords" content="problemas resueltos, ejercicios resueltos, cbc, fisica, biofisica, dinamica, estatica, nomesalen, no me salen, ricardo cabrera" />
+<meta name="description" content="Ejercicios y problemas resueltos, y apuntes teóricos de Dinámica y Estática" />
+<link rel="stylesheet" href="../DINAMICA/win_ie.css" />
+<style type="text/css">
+<!--
+.style1 {
+	color: #3F6386;
+	font-weight: bold;
+}
+.Estilo3 {color: #3F6386}
+.Estilo4 {color: #FF0000}
+-->
+</style>
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000" alink="#000000" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<table align=center width="600" border="0" cellspacing="0" cellpadding="0"> 
+  <tr bgcolor="#000000" align="right"> 
+<td width="136" align="left" valign="top"><a href="AT_estatica1.html"><img src="img_din/eng.gif" alt="english version" width="20" height="10" border="0"></a></td>
+  <td width="502"><img src="img_din/nombre5.gif" width="369" height="71" /></td>
+  </tr> <tr bgcolor="#BB0000" valign="middle" align="left"> 
+<td height="20" colspan="2" class="bodytext"><TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+  <TR ALIGN="center" CLASS="menuitem">
+    <TD WIDTH="50" height="19" CLASS="menuitem"><A HREF="../../index.html" CLASS="menuitem">&nbsp;<B>home</B>&nbsp;</A></TD>
+    <TD WIDTH="5" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="155" CLASS="menuitem"><strong><a href="index_din_est.html" class="menuitem">m&aacute;s de din&aacute;mica y est&aacute;tica </a> </strong></TD>
+    <TD width="17" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="115" CLASS="menuitem"><strong><a href="../../intro_NMS.html" class="menuitem">otros temas de F&iacute;sica</a></strong></TD>
+    <TD width="10" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="151" CLASS="menuitem"><strong><a href="../../lista_ciruela.html" class="menuitem">lecciones del maestro Ciruela </a></strong></TD>
+    <TD width="10" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="55" CLASS="menuitem"><strong><a href="../../lista_tonterias.html" class="menuitem">tonter&iacute;as </a></strong><a href="../CINEMATICA/index_cinem.html"></a><a href="../ENERGIA/index_energia.html" class="menuitem"></a></TD>
+    <TD WIDTH="10" CLASS="menuitem"><a href="../ENERGIA/index_energia.html" class="menuitem"></a><FONT COLOR="#000000">|</FONT></TD>
+    <TD WIDTH="22" CLASS="menuitem">&nbsp;<B><FONT FACE="Arial, Helvetica, sans-serif"><A HREF="mailto: ricuti@qi.fcen.uba.ar" CLASS="menuitem">@</A></FONT><A HREF="../../index.html" CLASS="menuitem"></A></B>&nbsp;</TD>
+  </TR>
+</TABLE></td></tr> <tr> <td height="10" colspan="2" class="bodytext"><img src="../CINEMATICA/img_cin/transparente.gif" width="600" height="10" /></td>
+</tr> 
+<tr align="center"> <td height="760" colspan="2"> <table width="561" border="0" cellspacing="0" cellpadding="0"> 
+<tr class="bodytext"> <td colspan="2" valign="top" height="699"> <img src="../CINEMATICA/img_cin/transparente.gif" width="1" height="1" /></td>
+<td valign="top" width="550" height="699"> 
+<table width="597" border="0" cellspacing="0" cellpadding="0"> 
+  <tr> 
+  <td height="73" colspan="2" class="bodytext"><p><span class="titulochicogris"><strong>NO ME SALEN </strong></span><br />
+      <span class="titulograndegris"><strong>APUNTES  Y EJERCICIOS RESUELTOS DE F&Iacute;SICA</strong></span><span class="Estilo3"><br>
+      <em><strong>Mec&aacute;nica Cl&aacute;sica</strong></em><br />
+      </span><br /> 
+      </p>    </td>
+  <td class="bodytext" rowspan="2" height="73" width="10">&nbsp;</td>
+  <td class="bodytext" colspan="2" height="73" rowspan="2" valign="top" width="85"> 
+<p><img src="img_din/cap26.jpg" alt="¡no me salen!" width="85" height="128" /></p></td></tr> 
+<tr> <td height="128" colspan="2" valign="top" class="bodytext"><P><em><strong>Static of Punctual Bodies</strong></em></P>
+  <P>Or <em><strong>static of the particle</strong></em>, it’s the same. It ignores the rotation a real body may be having, hence the name. It only cares about the movement regarding it’s displacement (the same criteria we’ve been using for cinematics)</P>
+  <P>Static is the study of <em><strong>equilibrium</strong></em> (not to mistake with statistics) and we interpret a body in equilibrium as one without acceleration. So we can summarize this like:</P>
+  </td>
+</tr>  
+<tr>
+  <td height="38" colspan="2" align="center" bgcolor="#FFFFFF" class="bodytext"><img src="img_din/gr_DAT_estat1_3.gif" width="62" height="21"></td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext" colspan="2">&nbsp;</td>
+</tr>
+<tr>
+  <td height="392" colspan="2" align="left" class="bodytext"><p>That is, the resultant of the forces being applied on it, <em><strong>Res</strong></em>,or the sum of all the forces applyingon it, <strong><em>&#931;F</em></strong>, equals zero. So statics is just a particular case of dynamics (<strong><em>&#931;F </em></strong><strong><em>= m.a</em></strong>), m.a), where acceleration is zero.</p>
+    <p>To pose this condition of equilibrium in equations we need to remember it’s about a vector relation. So if the forces applying on a body are all headed towards the same direction, a single equation will suffice (<strong><em>&#931;F </em></strong><strong><em>= 0</em></strong>).</p>
+    <p>If the forces are pointing to various directions within the same plane, then we’ll need 2 equations:</p>
+    <blockquote>
+      <p><strong><em>&#931;F<strong><sub>x</sub></strong> </em></strong><strong><em>= 0</em></strong></p>
+      <p><strong><em>&#931;F<strong><sub>y</sub></strong> </em></strong><strong><em>= 0</em></strong></p>
+      </blockquote>
+    <p>Obviously, never forget to set a clear reference system, <em><strong>x-y</strong></em>. Basically, the same we did with dynamics.</p>
+    <p>If the forces don’t act all within the same plane, we’ll need 3 equations, one for each of the directions of the tridimensional Reference System.</p>
+    <p>Because they are punctual bodies, it’s obvious the forces over the body are <em><strong>concurrent</strong></em>. Next chapter we’ll see when this doesn’t happen (large bodies). On with an example.</p>
+    </td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext" colspan="2">&nbsp;</td>
+</tr>
+<tr>
+  <td height="199" colspan="2" align="center" class="bodytext"><table width="502" height="18" border="0" cellpadding="0" cellspacing="0">
+    <tr>
+      <td width="222" class="bodytext"><img src="img_din/gr_DAT_estat1_1.gif" width="200" height="189"></td>
+      <td width="280" class="bodytext"><p>Let’s imagine we have five forces acting over this body on the left.</p>
+        <p>Four of them are orthogonal and only one, <strong><em>F<strong><sub>5</sub></strong></em></strong>, Four of them are orthogonal and only one, F5, point towards a fractious direction. There`s no doubt the best Reference System is the one that matches the directions of the first four forces. (Anyways, I’ll remind you every Reference System is as good as each other and will lead you to the same answers, but will take longer).</p>
+        </td>
+    </tr>
+  </table></td>
+  <td class="bodytext">&nbsp;</td>
+  <td width="85" colspan="2" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="54" colspan="2" align="left" class="bodytext">Once you have the Reference System, those forces (only <strong><em>F<strong><sub>5</sub></strong></em></strong> in this case) whose directions don’t match with the Reference System, we’ll have to replace them by their components in the Reference System’s directions.</td>
+  <td class="bodytext">&nbsp;</td>
+  <td colspan="2" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td colspan="2" align="center" class="bodytext"><table width="502" height="18" border="0" cellpadding="0" cellspacing="0">
+    <tr>
+      <td width="222" class="bodytext"><img src="img_din/gr_DAT_estat1_2.gif" width="200" height="186"></td>
+      <td width="280" class="bodytext"><p>Check out that this other representation goes with its Reference System. Never forget about that!</p>
+        <p>As we are told the body is in equilibrium, we are allowed to pose…</p>
+        <p>dir. <strong><em>x</em></strong>: <em><strong><em><strong><strong>&#160; &#160;&#160; &#160;&#160;</strong></strong></em></strong></em><strong><em>F<strong><sub>5x</sub></strong></em></strong> <strong><em><strong>&mdash;</strong></em></strong> <strong><em>F<strong><sub>2</sub></strong></em></strong> <strong><em><strong>&mdash;</strong></em></strong> <strong><em>F<strong><sub>3</sub></strong></em></strong> <strong><em>= 0</em></strong></p>
+        <p>dir. <strong><em>y</em></strong>: <em><strong><em><strong><strong>&#160; &#160;&#160; &#160;&#160;&#160;</strong></strong></em></strong></em><strong><em>F<strong><sub>5y</sub></strong></em></strong> <strong><em><strong>+</strong></em></strong> <strong><em>F<strong><sub>4</sub></strong></em></strong> <strong><em><strong>&mdash;</strong></em></strong> <strong><em>F<strong><sub>1</sub></strong></em></strong> <strong><em>= 0</em></strong></p></td>
+    </tr>
+  </table></td>
+  <td class="bodytext">&nbsp;</td>
+  <td colspan="2" class="bodytext"><table width="85" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td height="156" align="center" class="epigrafe Estilo4"><p>If during an exam you happen to forget to clearly state the Reference System, the teacher in charge will make sure that you pay for that.</p>
+        </td>
+    </tr>
+  </table></td>
+</tr>
+<tr>
+  <td height="65" colspan="2" align="left" class="bodytext">Fijate que en una representaci&oacute;n clara las fuerzas no se dibujan encimadas (se sobreentiende que se trata de fuerzas concurrentes, o sea, aplicadas todas sobre un mismo punto).</td>
+  <td class="bodytext">&nbsp;</td>
+  <td colspan="2" class="bodytext">&nbsp;</td>
+</tr>
+
+<tr>
+  <td height="24" colspan="2" align="left" valign="middle" class="bodytext"><span class="bodylinkblack"><strong>Important Gossip:</strong></span></td>
+  <td class="bodytext">&nbsp;</td>
+  <td width="85" colspan="2" valign="bottom" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="60" colspan="2" align="left" valign="middle" class="bodytext"><ul>
+    <li>One of the best things about static is that when an object (or sytem of bodies) is in equilibrium one can apply the static relation  (<strong><em>&#931;F </em></strong><strong><em>= 0</em></strong>)  to any of its parts, as joints beams and columns, or any other place where forces might concur.</li>
+    </ul></td>
+  <td class="bodytext">&nbsp;</td>
+  <td colspan="2" align="center" valign="bottom" class="bodytext">&nbsp;</td>
+</tr>
+
+<tr>
+  <td height="27" colspan="2" align="left" valign="middle" class="bodytext"><strong>Trick Questions:</strong></td>
+  <td class="bodytext">&nbsp;</td>
+  <td width="85" colspan="2" rowspan="3" valign="bottom" class="bodytext"><img src="img_din/ric_hora.jpg" width="85" height="119" /></td>
+</tr>
+<tr>
+  <td height="46" colspan="2" align="left" valign="middle" class="bodytext"><ul>
+    <li>A glass ball… can it be considered a punctual body? And a hippopotamus? And a planet of the Solar System?</li>
+    </ul></td>
+  <td class="bodytext">&nbsp;</td>
+  </tr>
+<tr>
+  <td height="14" colspan="2" align="center" class="bodytext">&nbsp;</td>
+  <td width="10" class="bodytext">&nbsp;</td>
+  </tr>
+
+
+
+
+<tr> <td height="33" colspan="2" align="center" valign="middle" bgcolor="#CCCCCC" class="bodytext"><table width="90%" border="0">
+  <tr>
+    <td class="epigrafe">Translated by 
+      Román Dumas.  Some Rights Reserved. Not   allowed to be copied without naming either the author or this source material.   Last Updated nov-15. Buenos Aires, Argentina.</td>
+  </tr>
+</table>  </td>
+  <td class="bodytext" width="10">&nbsp;</td>
+  <td width="85" colspan="2" valign="middle" class="bodytext"><a href="AT_estatica2.html"><img src="img_din/boton.gif" width="85" height="27" border="0"></a></td>
+</tr> 
+</table></td></tr> </table><img src="img_din/transparente.gif" width="20" height="20" /></td>
+</tr> 
+<tr> <td colspan="2" class="bodytext"><img src="../CINEMATICA/img_cin/transparente.gif" width="600" height="8" /></td>
+</tr> 
+</table>
+</body>
+</html>
