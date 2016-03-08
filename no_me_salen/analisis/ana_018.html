@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta name="keywords" content="problemas resueltos, ejercicios resueltos, cbc, fisica, biofisica, electricidad, magnetismo, electromagnetismo, nomesalen, no me salen, ricardo cabrera" />
 <meta name="description" content="Ejercicios y problemas resueltos, y apuntes teóricos de magnetismo y electromagnetismo" />
-<link rel="stylesheet" href="../MAGNETISMO/win_ie.css" />
+<link rel="stylesheet" href="../analisis/win_ie.css" />
 <style type="text/css">
 <!--
 .style1 {
@@ -13,6 +13,11 @@
 }
 .Estilo3 {color: #3F6386}
 .Estilo16 {font-size: 16px}
+.Estilo26 {	font-family: "Times New Roman", Times, serif;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 16px;
+}
 -->
 </style>
 </head>
@@ -53,38 +58,121 @@
   <tr>
     <td height="14" bgcolor="#FFFFFF" class="bodytext">&nbsp;</td>
   </tr> 
-<tr> <td rowspan="2" valign="top" class="bodytext"><p><strong>2.3- Calcular las derivadas que siguen 
+<tr> <td rowspan="2" valign="top" class="bodytext"><p><strong>2.3 - Calcular las derivadas que siguen 
         <em>f´(x)= df(x)/dx</em>, y luego especificar el valor para 
-        <em>x<strong><sub>o</sub></strong> = 0,2</em>.</strong></p>
-    <blockquote>
-      <p><strong> a) <em>&nbsp;&nbsp; f(x) = 2x</em><br>
-        b)&nbsp;&nbsp;&nbsp; <em>f(x) = 2</em><br>
-        c) <em>&nbsp;&nbsp; f(x) = 2x&sup2; +3</em><br>
-        d)<em>&nbsp;&nbsp;&nbsp; f(x) = 10x&sup2; − x+2</em><br>
-        e)<em>&nbsp;&nbsp;&nbsp; f(x) = 2/x</em><br>
-        f)&nbsp;&nbsp;&nbsp;&nbsp; <em>f(x) = 2x/(x−1)</em><br>
-        g)&nbsp;&nbsp;&nbsp; <em>f(x) = (x−1)&sup2;/(x+1)&sup2;</em><br>
-        h) <em>&nbsp;&nbsp; f(x) = ln (x)</em><br>
-        i) <em>&nbsp;&nbsp;&nbsp; f(x) = e<sup>x</sup></em><br>
-        j) <em>&nbsp;&nbsp;&nbsp; f(x) = e<sup>-x</sup></em><br>
-        k) <em>&nbsp;&nbsp; f(x) = x e<sup>-x</sup></em><br>
-        l)<em>&nbsp;&nbsp;&nbsp;&nbsp; f(x) = sen (x/4) + cos (x/π)</em><br>
-        m) <em>&nbsp; f(x) = sen [(x/2)&sup2;] / cos [(x/3)&sup2;]</em><br>
-        n)&nbsp;&nbsp;&nbsp; <em>f(x) = tan(x)</em><br>
-          </strong></p>
-    </blockquote></td>
+        <em>x<strong><sub>o</sub></strong> = 0,2</em>.</strong><strong><br>
+        </strong></p>
+    </td>
   </tr>  
-<tr> <td height="245" align="center" class="bodytext">&nbsp;</td>
+<tr> <td height="22" align="center" class="bodytext">&nbsp;</td>
 </tr>
  
 <tr>
-  <td height="137" align="left" valign="middle" bgcolor="#FFFFFF" class="bodytext">&nbsp;</td>
+  <td height="107" align="left" valign="middle" bgcolor="#FFFFFF" class="bodytext"><table width="100%" border="0">
+    <tr>
+      <td width="47%" class="bodytext"><strong>a) <em>&nbsp;&nbsp; f<span class="epigrafe">(x)</span> = 2x</em><br>
+b)&nbsp;&nbsp;&nbsp; <em>f<span class="epigrafe">(x)</span> = 2</em><br>
+c) <em>&nbsp;&nbsp; f<span class="epigrafe">(x)</span> = 2x&sup2; + 3</em><br>
+d)<em>&nbsp;&nbsp;&nbsp; f<span class="epigrafe">(x)</span> = 10x&sup2; − x+2</em><br>
+e)<em>&nbsp;&nbsp;&nbsp; f<span class="epigrafe">(x)</span> = 2/x</em><br>
+f)&nbsp;&nbsp;&nbsp;&nbsp; <em>f<span class="epigrafe">(x)</span> = 2x/(x−1)</em><br>
+g)&nbsp;&nbsp;&nbsp; <em>f<span class="epigrafe">(x)</span> = (x−1)&sup2;/(x+1)&sup2;</em></strong></td>
+      <td width="53%" class="bodytext"><strong>h) <em>&nbsp;&nbsp; f<span class="epigrafe">(x)</span> = ln (x)</em><br>
+i) <em>&nbsp;&nbsp;&nbsp; f<span class="epigrafe">(x)</span> = e<sup>x</sup></em><br>
+j) <em>&nbsp;&nbsp;&nbsp; f<span class="epigrafe">(x)</span> = e<sup>-x</sup></em><br>
+k) <em>&nbsp;&nbsp; f<span class="epigrafe">(x)</span> = x e<sup>-x</sup></em><br>
+l)<em>&nbsp;&nbsp;&nbsp;&nbsp; f<span class="epigrafe">(x)</span> = sen (x/4) + cos (x/π)</em><br>
+m) <em>&nbsp; f<span class="epigrafe">(x)</span> = sen [(x/2)&sup2;] / cos [(x/3)&sup2;]</em><br>
+n)&nbsp;&nbsp;&nbsp; <em>f<span class="epigrafe">(x)</span> = tan(x)</em></strong></td>
+    </tr>
+  </table></td>
   <td class="bodytext">&nbsp;</td>
   <td align="center" valign="middle" class="bodytext">&nbsp;</td>
 </tr>
 <tr>
-  <td height="47" align="left" valign="middle" bgcolor="#FFFFFF" class="bodytext"><p>&nbsp;</p>
-    <blockquote>&nbsp;</blockquote></td>
+  <td height="47" align="left" valign="middle" bgcolor="#FFFFFF" class="bodytext"><p>OK, no voy a ponerme a derivar todas esas funciones, sobre todo porque hoy en día tenemos a mano herramientas electrónicas que realizan la operación gratis y sin errores. Hasta hace unos años teníamos tablas  de derivación (impresas en papel, no arcilla) con cientos de funciones notables.</p>
+    <p>En todo caso lo que vos tenés que conocer son las reglas de derivación y el álgebra de las derivadas. Con ese conocimiento te vas a poder desenvolver en cualquier situación física y matemática que lo requiera. Vamos con los resultados:</p></td>
+  <td class="bodytext">&nbsp;</td>
+  <td align="center" valign="middle" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="289" align="left" valign="middle" bgcolor="#FFFFFF" class="bodytext"><table width="100%" border="0">
+    <tr>
+      <td width="5%">&nbsp;</td>
+      <td width="43%" align="center"><em><strong>función</strong></em></td>
+      <td width="52%" align="center"><em><strong>derivada</strong></em></td>
+    </tr>
+    <tr>
+      <td class="bodytext"><strong>a)</strong></td>
+      <td class="bodytext"><strong><em>f<span class="epigrafe">(x)</span> = 2x</em></strong></td>
+      <td class="bodytext"><strong><em>f<span class="epigrafe">'(x)</span> = 2</em></strong></td>
+    </tr>
+    <tr>
+      <td class="bodytext"><strong>b)</strong></td>
+      <td class="bodytext"><strong><em>f<span class="epigrafe">(x)</span> = 2</em></strong></td>
+      <td class="bodytext"><strong><em>f<span class="epigrafe">'(x)</span> = 0</em></strong></td>
+    </tr>
+    <tr>
+      <td class="bodytext"><strong>c)</strong></td>
+      <td class="bodytext"><strong><em>f<span class="epigrafe">(x)</span> = 2x&sup2; + 3</em></strong></td>
+      <td class="bodytext"><strong><em>f<span class="epigrafe">'(x)</span> = 4x</em></strong></td>
+    </tr>
+    <tr>
+      <td class="bodytext"><strong>d)</strong></td>
+      <td class="bodytext"><strong><em>f<span class="epigrafe">(x)</span> = 10x&sup2; − x+2</em></strong></td>
+      <td class="bodytext"><strong><em>f<span class="epigrafe">'(x)</span> = 20x − 1</em></strong></td>
+    </tr>
+    <tr>
+      <td class="bodytext"><strong>e)</strong></td>
+      <td class="bodytext"><strong><em>f<span class="epigrafe">(x)</span> = 2/x</em></strong></td>
+      <td class="bodytext"><strong><em>f'<span class="epigrafe">(x)</span> = −2/x&sup2;</em></strong></td>
+    </tr>
+    <tr>
+      <td class="bodytext"><strong>f)</strong></td>
+      <td class="bodytext"><strong><em>f<span class="epigrafe">(x)</span> = 2x/(x−1)</em></strong></td>
+      <td class="bodytext"><strong><em>f'<span class="epigrafe">(x)</span> = -2(x+1)/(x-1)&sup3;</em></strong></td>
+    </tr>
+    <tr>
+      <td class="bodytext"><strong>g)</strong></td>
+      <td class="bodytext"><strong><em>f<span class="epigrafe">(x)</span> = (x−1)&sup2;/(x+1)&sup2;</em></strong></td>
+      <td class="bodytext"><strong><em>f'<span class="epigrafe">(x)</span> = 4(x-1)&sup2;/(x+1)&sup3;</em></strong></td>
+    </tr>
+    <tr>
+      <td class="bodytext"><strong>h)</strong></td>
+      <td class="bodytext"><strong><em>f<span class="epigrafe">(x)</span> = ln (x)</em></strong></td>
+      <td class="bodytext"><strong><em>f'<span class="epigrafe">(x)</span> = 1/x</em></strong></td>
+    </tr>
+    <tr>
+      <td class="bodytext"><strong>i)</strong></td>
+      <td class="bodytext"><strong><em>f<span class="epigrafe">(x)</span> = e<sup>x</sup></em></strong></td>
+      <td class="bodytext"><strong><em>f'<span class="epigrafe">(x)</span> =  e<sup>x</sup></em></strong></td>
+    </tr>
+    <tr>
+      <td class="bodytext"><strong>j)</strong></td>
+      <td class="bodytext"><strong><em>f<span class="epigrafe">(x)</span>) = e<sup>-x</sup></em></strong></td>
+      <td class="bodytext"><strong><em>f'<span class="epigrafe">(x)</span> = -e<sup>-x</sup></em></strong></td>
+    </tr>
+    <tr>
+      <td class="bodytext"><strong>k)</strong></td>
+      <td class="bodytext"><strong><em>f<span class="epigrafe">(x)</span> = x e<sup>-x</sup></em></strong></td>
+      <td class="bodytext"><strong><em>f'<span class="epigrafe">(x)</span> = e<sup>-x</sup> (x+1)</em></strong></td>
+    </tr>
+    <tr>
+      <td class="bodytext"><strong>l)</strong></td>
+      <td class="bodytext"><strong><em>f<span class="epigrafe">(x)</span> = sen (x/4) + cos (x/<span class="Estilo26">&pi;</span>)</em></strong></td>
+      <td class="bodytext"><strong><em>f'<span class="epigrafe">(x)</span> = <span class="epigrafe">(1/4)</span> cos (<span class="epigrafe">x/4</span>) - <span class="epigrafe">(1/<span class="Estilo26">&pi;</span>)</span> sen <span class="epigrafe">(x/<span class="Estilo26">&pi;</span>)</span></em></strong></td>
+    </tr>
+    <tr>
+      <td class="bodytext"><strong>m)</strong></td>
+      <td class="bodytext"><strong><em>f<span class="epigrafe">(x)</span> = sen (<span class="epigrafe">x/2</span>)&sup2; / cos (<span class="epigrafe">x/3</span>)&sup2;</em></strong></td>
+      <td class="bodytext"><strong><em>f'<span class="epigrafe">(x)</span> = kilombo atómico</em></strong></td>
+    </tr>
+    <tr>
+      <td class="bodytext"><strong>n)</strong></td>
+      <td class="bodytext"><strong><em>f<span class="epigrafe">(x)</span> = tan(x)</em></strong></td>
+      <td class="bodytext"><strong><em>f'<span class="epigrafe">(x)</span> = sec&sup2;(x)</em></strong></td>
+    </tr>
+  </table></td>
   <td class="bodytext">&nbsp;</td>
   <td align="center" valign="middle" class="bodytext">&nbsp;</td>
 </tr>
@@ -95,30 +183,93 @@
 </tr>
 
 <tr>
-  <td height="40" align="left" valign="middle" bgcolor="#FFFFFF" class="bodytext"><table width="100%" border="0">
-    <tr>
-      <td width="10%" height="42" class="bodytext">&nbsp;</td>
-      <td width="56%" align="center" bgcolor="#CCCCCC" class="bodytext"><em><strong>x&sup2; &mdash; 8 x + 12  = y</strong></em></td>
-      <td width="34%" align="center" class="bodytext">a)</td>
-    </tr>
-  </table></td>
+  <td height="40" align="left" valign="middle" bgcolor="#FFFFFF" class="bodytext">Ahora vamos a especializar esas funciones derivadas para el <em><strong>x<em><strong><sub>o</sub></strong> </em> = 0,2</strong></em></td>
   <td class="bodytext">&nbsp;</td>
   <td width="87" align="center" valign="middle" class="bodytext"><p>&nbsp;</p></td>
 </tr>
 <tr>
-  <td height="47" align="left" valign="middle" bgcolor="#FFFFFF" class="bodytext"><p>&nbsp;</p>
-    <blockquote>&nbsp;</blockquote></td>
+  <td height="47" align="left" valign="middle" bgcolor="#FFFFFF" class="bodytext"><table width="100%" border="0">
+    <tr>
+      <td width="5%">&nbsp;</td>
+      <td width="53%" align="center"><em><strong>función derivada</strong></em></td>
+      <td width="42%" align="center"><em><strong>derivada en x<em><strong><sub>o</sub></strong></em></strong></em></td>
+    </tr>
+    <tr>
+      <td class="bodytext"><strong>a)</strong></td>
+      <td class="bodytext"><strong><em>f<span class="epigrafe">'(x)</span> = 2</em></strong></td>
+      <td class="bodytext"><strong><em>f<span class="epigrafe">'(0,2)</span> = 2</em></strong></td>
+    </tr>
+    <tr>
+      <td class="bodytext"><strong>b)</strong></td>
+      <td class="bodytext"><strong><em>f<span class="epigrafe">'(x)</span> = 0</em></strong></td>
+      <td class="bodytext"><strong><em>f<span class="epigrafe">'(0,2)</span> = 0</em></strong></td>
+    </tr>
+    <tr>
+      <td class="bodytext"><strong>c)</strong></td>
+      <td class="bodytext"><strong><em>f<span class="epigrafe">'(x)</span> = 4x</em></strong></td>
+      <td class="bodytext"><strong><em>f<span class="epigrafe">'(0,2)</span> = 0,8</em></strong></td>
+    </tr>
+    <tr>
+      <td class="bodytext"><strong>d)</strong></td>
+      <td class="bodytext"><strong><em>f<span class="epigrafe">'(x)</span> = 20x − 1</em></strong></td>
+      <td class="bodytext"><strong><em>f<span class="epigrafe">'(0,2)</span> = 3</em></strong></td>
+    </tr>
+    <tr>
+      <td class="bodytext"><strong>e)</strong></td>
+      <td class="bodytext"><strong><em>f'<span class="epigrafe">(x)</span> = −2/x&sup2;</em></strong></td>
+      <td class="bodytext"><strong><em>f'<span class="epigrafe">(0,2)</span> = -50</em></strong></td>
+    </tr>
+    <tr>
+      <td class="bodytext"><strong>f)</strong></td>
+      <td class="bodytext"><strong><em>f'<span class="epigrafe">(x)</span> = -2(x+1)/(x-1)&sup3;</em></strong></td>
+      <td class="bodytext"><strong><em>f'<span class="epigrafe">(0,2)</span> = -4,6875</em></strong></td>
+    </tr>
+    <tr>
+      <td class="bodytext"><strong>g)</strong></td>
+      <td class="bodytext"><strong><em>f'<span class="epigrafe">(x)</span> = 4(x-1)&sup2;/(x+1)&sup3;</em></strong></td>
+      <td class="bodytext"><strong><em>f'<span class="epigrafe">(0,2)</span> = 1,481</em></strong></td>
+    </tr>
+    <tr>
+      <td class="bodytext"><strong>h)</strong></td>
+      <td class="bodytext"><strong><em>f'<span class="epigrafe">(x)</span> = 1/x</em></strong></td>
+      <td class="bodytext"><strong><em>f'<span class="epigrafe">(0,2)</span> = 5</em></strong></td>
+    </tr>
+    <tr>
+      <td class="bodytext"><strong>i)</strong></td>
+      <td class="bodytext"><strong><em>f'<span class="epigrafe">(x)</span> =  e<sup>x</sup></em></strong></td>
+      <td class="bodytext"><strong><em>f'<span class="epigrafe">(0,2)</span> = 1,22</em></strong></td>
+    </tr>
+    <tr>
+      <td class="bodytext"><strong>j)</strong></td>
+      <td class="bodytext"><strong><em>f'<span class="epigrafe">(x)</span> = -e<sup>-x</sup></em></strong></td>
+      <td class="bodytext"><strong><em>f'<span class="epigrafe">(0,2)</span> = -0,819</em></strong></td>
+    </tr>
+    <tr>
+      <td class="bodytext"><strong>k)</strong></td>
+      <td class="bodytext"><strong><em>f'<span class="epigrafe">(x)</span> = e<sup>-x</sup> (x+1)</em></strong></td>
+      <td class="bodytext"><strong><em>f'<span class="epigrafe">(0,2)</span> = 1,464</em></strong></td>
+    </tr>
+    <tr>
+      <td class="bodytext"><strong>l)</strong></td>
+      <td class="bodytext"><strong><em>f'<span class="epigrafe">(x)</span> = <span class="epigrafe">(1/4)</span> cos (<span class="epigrafe">x/4</span>) - <span class="epigrafe">(1/<span class="Estilo26">&pi;</span>)</span> sen <span class="epigrafe">(x/<span class="Estilo26">&pi;</span>)</span></em></strong></td>
+      <td class="bodytext"><strong><em>f'<span class="epigrafe">(0,2)</span> = 0,249</em></strong></td>
+    </tr>
+    <tr>
+      <td class="bodytext"><strong>m)</strong></td>
+      <td class="bodytext"><strong><em>f'<span class="epigrafe">(x)</span> = kilombo atómico</em></strong></td>
+      <td class="bodytext"><strong><em>f'<span class="epigrafe">(0,2)</span> = %$#@&amp;!!!!!</em></strong></td>
+    </tr>
+    <tr>
+      <td class="bodytext"><strong>n)</strong></td>
+      <td class="bodytext"><strong><em>f'<span class="epigrafe">(x)</span> = sec&sup2;(x)</em></strong></td>
+      <td class="bodytext"><strong><em>f'<span class="epigrafe">(0,2)</span> = 1</em></strong></td>
+    </tr>
+  </table>    </td>
   <td class="bodytext">&nbsp;</td>
   <td align="center" valign="middle" class="bodytext">&nbsp;</td>
 </tr>
 <tr>
-  <td height="67" align="left" valign="middle" bgcolor="#FFFFFF" class="bodytext"><table width="100%" border="0">
-    <tr>
-      <td width="10%" height="42" class="bodytext">&nbsp;</td>
-      <td width="56%" align="center" bgcolor="#CCCCCC" class="bodytext">&nbsp;</td>
-      <td width="34%" align="center" class="bodytext">b)</td>
-    </tr>
-  </table></td>
+  <td height="32" align="left" valign="middle" bgcolor="#FFFFFF" class="bodytext">&nbsp;</td>
   <td class="bodytext">&nbsp;</td>
   <td align="center" valign="middle" class="bodytext">&nbsp;</td>
 </tr>
@@ -135,7 +286,7 @@
 
 
 <tr>
-  <td height="30" align="left" valign="middle" bgcolor="#FFFFFF" class="bodytext"><strong>DESAFIO</strong>: </td>
+  <td height="14" align="left" valign="middle" bgcolor="#FFFFFF" class="bodytext">&nbsp;</td>
   <td class="bodytext">&nbsp;</td>
   <td width="87" rowspan="4" align="center" valign="bottom" class="bodytext"><strong><em><sub><img src="img_ana/ric_mate.gif" alt="Magnetismo - Ricardo Cabrera" width="85" height="124"></sub></em></strong></td>
 </tr>

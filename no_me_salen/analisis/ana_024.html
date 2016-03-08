@@ -1,6 +1,6 @@
 <html>
 <head>
-<title>Funciones y Análisis matemático, A022, fisica online, ejercicios resueltos</title>
+<title>Funciones y Análisis matemático, A023, fisica online, ejercicios resueltos</title>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta name="keywords" content="problemas resueltos, ejercicios resueltos, cbc, fisica, biofisica, electricidad, magnetismo, electromagnetismo, nomesalen, no me salen, ricardo cabrera" />
 <meta name="description" content="Ejercicios y problemas resueltos, y apuntes teóricos de magnetismo y electromagnetismo" />
@@ -43,7 +43,7 @@
   </TR>
 </TABLE></td></tr> <tr> <td class="bodytext" height="8"><img src="img_ana/transparente.gif" width="600" height="9"></td>
 </tr> 
-<tr align="center"> <td height="541"> <table width="599" border="0" cellspacing="0" cellpadding="0"> 
+<tr align="center"> <td height="1051"> <table width="599" border="0" cellspacing="0" cellpadding="0"> 
 <tr class="bodytext"> <td colspan="2" valign="top" height="847"> <img src="img_ana/transparente.gif" width="1" height="1"></td>
 <td valign="top" width="597" height="847"> 
 <table width="599" border="0" cellspacing="0" cellpadding="0"> 
@@ -58,38 +58,49 @@
   <tr>
     <td height="14" bgcolor="#FFFFFF" class="bodytext">&nbsp;</td>
   </tr> 
-<tr> <td rowspan="2" valign="middle" class="bodytext"><p><strong>2.7 - ¿Con qué rapidez baja el nivel del agua contenida 
-  en un depósito cilíndrico, de radio R = 2 m, 
-  si se está vaciando uniformemente a razón de 
-  3000 litros por minuto?<br>
+<tr> <td rowspan="2" valign="middle" class="bodytext"><p><strong>2.9 - Una masa esférica de hielo se está derritiendo
+  de forma uniforme en toda la superficie, a
+  razón de 50 cm<em><strong><em>&sup3;</em></strong></em> por minuto. ¿Con qué velocidad<br>
+  está disminuyendo el radio de la bola cuando
+  este mide 15 cm?<br>
+  <br>
 </strong></p>
     </td>
   </tr>  
-<tr> <td height="60" align="center" class="bodytext">&nbsp;</td>
+<tr> <td height="64" align="center" class="bodytext">&nbsp;</td>
 </tr>
  
 <tr>
-  <td height="522" align="left" valign="middle" bgcolor="#FFFFFF" class="bodytext"><p>Bien, con un poco de conocimiento de geometría e ingenio el ejercicio sale sin necesidad de herramientas de análisis matemático. De todos modos vamos a formalizarlo con esas herramientas, ya que el objetivo es que te familiarices con ellas. Acá va:</p>
-    <p>El volumen, <em><strong>V</strong></em>, del contenido en el cilindro se puede expresar como el producto de su sección (<span class="Estilo26">&pi;</span><em><strong>.R<em>&sup2;</em></strong></em>) por su altura (o nivel) que llamaremos <em><strong>x</strong></em> porque es una variable. Y el volumen depende de esa variable.</p>
+  <td height="697" align="left" valign="middle" bgcolor="#FFFFFF" class="bodytext"><p>Si hiciste el anterior, lo masticaste y lo entendiste... entonces este te va a parecer una papa.</p>
+    <p>El volumen de la esfera depende del radio. La relación es la siguiente: <em><strong>V = </strong></em><em><strong>4</strong></em><span class="Estilo26">&pi;</span><em>/<strong>3</strong></em><em><strong>. r<em>&sup3;</em></strong></em>. (Esto es simple geometría que cuando uno no se acuerda lo pregunta o lo busca en google, o lo mirás en el ejercicio anterior). Como en este ejercicio vamos a trabajar con variaciones de volumen y variaciones de radio, escribamos la relación como una función volumen que depende del radio:</p>
     <blockquote>
-      <p><em><strong>V(x) = </strong></em><span class="Estilo26">&pi;</span><em><strong>.R<em>&sup2;</em></strong></em>. <em><strong>x</strong></em></p>
+      <p><em><strong>V(r) = </strong></em><span class="bodytext"><em><strong>4</strong></em></span><span class="Estilo26">&pi;</span><span class="bodytext"><em>/<strong>3</strong></em></span><em><strong> . r<em>&sup3;</em></strong></em></p>
     </blockquote>
-    <p>Si derivamos esa función lo que obtenemos algo así como la tasa de cambio de volumen respecto del nivel. Su significado no importa mucho en este ejercicio. La cuestión es que como tanto <span class="Estilo26">&pi;</span> como <em><strong>R </strong></em>son constantes la derivada nos da:</p>
+    <p>Si derivamos esa función de volumen respecto del radio obtenemos:</p>
     <blockquote>
-      <p><em><strong>dV/dx = </strong></em><span class="Estilo26">&pi;</span><em><strong>.R<em>&sup2;</em></strong></em></p>
-    </blockquote>
-    <p>Ahora bien, <em><strong>dV </strong></em>es un <em>diferencial de volumen</em> (un pequeñito cambio de volumen) y <em><strong>dx </strong></em>un <em>diferencial de nivel</em> (un pequeñito cambio de nivel). Por pequeñitos que sean se pueden manejar algebraicamente como cualquier factor.</p>
-    <blockquote>
-      <p><em><strong>dV = </strong></em><span class="Estilo26">&pi;</span><em><strong>.R<em>&sup2;</em></strong></em>.<em><strong><span class="bodytext">d</span>x</strong></em></p>
-    </blockquote>
-    <p>Si dividimos por el pequeño intervalo de tiempo <em><strong>dt</strong></em> en el que se vacía una pequeña cantidad de volumen,<em><strong> dV</strong></em>, lo que obtenemos son las derivadas respecto del tiempo, o sea, las velocidades:</p>
-    <blockquote>
-      <p><em><strong>dV/dt = </strong></em><span class="Estilo26">&pi;</span><em><strong>.R<em>&sup2;</em></strong></em>.<em><strong><span class="bodytext"> d</span>x</strong></em><em><strong>/dt</strong></em></p>
+      <p><em><strong>dV/dr = 4</strong></em><span class="Estilo26">&pi;</span><em><strong> r<em>&sup2;</em></strong></em></p>
       </blockquote>
-    <p>La velocidad de vaciado (variación de volumen respecto del tiempo) es un dato del ejercicio: <em><strong>dV/dt</strong></em> <strong><em>= 3 <span class="epigrafe">m</span>&sup3;</em></strong><em><span class="epigrafe">/</span></em><strong><em><span class="epigrafe">min</span></em></strong>. Lo mismo que el radio: <strong><em>2 <span class="epigrafe">m</span></em></strong>. </p>
-    <p>Y si metemos eso en la igualdad anterior y despejamos la velocidad del cambio de nivel, <em><strong><span class="bodytext">      d</span>x</strong></em><em><strong>/dt</strong></em>. </p>
+    <p>Una pequeñísima variación de una magnitud cualquiera recibe el nombre de <em>diferencial</em>. <em><strong>dV</strong></em> es un diferencial de volumen y <em><strong>dr</strong></em> un diferencial de radio. Por pequeños que sean, se pueden manejar algebraicamente como cualquier factor. De modo que podemos pasar multiplicando al segundo miembro el diferencial de radio:</p>
     <blockquote>
-      <p><em><strong><em><strong><span class="bodytext">d</span>x/dt =</strong> (3 <span class="epigrafe">m</span>&sup3;</em></strong><em><span class="epigrafe">/</span></em><strong><em><span class="epigrafe">min</span></em></strong></em><span class="bodytext"><em><strong>) / </strong></em></span><strong><em>2 <span class="epigrafe">m</span>&sup2;</em></strong></p>
+      <p><em><strong>dV = 4</strong></em><span class="Estilo26">&pi;</span><em><strong> r<em>&sup2;</em></strong></em><em><strong> dr</strong></em></p>
+    </blockquote>
+    <p>Ahora, si dividimos miembro a miembro por un diferencial de tiempo, <em><strong>dt</strong></em>,</p>
+    <blockquote>
+      <p><em><strong>dV/dt = 4</strong></em><span class="Estilo26">&pi;</span><em><strong> r<em>&sup2;</em></strong></em> <em><strong>dr</strong></em><em><strong>/dt</strong></em></p>
+    </blockquote>
+    <p>Resulta que el primer miembro se convierte en la velocidad de derretimiento, que es constante y dato del ejercicio:</p>
+    <blockquote><em><strong>dV/dt </strong></em><strong><em>=</em></strong><em><strong> 50 <span class="epigrafe">cm&sup3;</span></strong><span class="epigrafe">/</span><strong><span class="epigrafe">min</span></strong></em></blockquote>
+    <p>Metámoslo en la igualdad anterior.</p>
+    <blockquote>
+      <p><em><strong>50 <span class="epigrafe">cm&sup3;</span></strong><span class="epigrafe">/</span><strong><span class="epigrafe">min</span></strong></em> <em><strong>= 4</strong></em><span class="Estilo26">&pi;</span><em><strong> r<em>&sup2;</em></strong></em> <em><strong>dr</strong></em><em><strong>/dt</strong></em></p>
+      </blockquote>
+    <p>Y en el segundo miembro aparece la velocidad de disminución del radio, que podemos despejar:</p>
+    <blockquote>
+      <p><em><strong>dr</strong></em><em><strong>/dt </strong></em><em><strong>= 50 <span class="epigrafe">cm&sup3;</span></strong><span class="epigrafe">/</span><strong><span class="epigrafe">min</span></strong></em> <em><strong> / 4</strong></em><span class="Estilo26">&pi;</span><em><strong> r<em>&sup2;</em></strong></em></p>
+    </blockquote>
+    <p>Como ves, la velocidad de disminución del radio depende del mismo radio. Resulta ser inversa al cuadrado del propio radio. Cuanto más grande disminuye lentamente y después va más rápido.  Para <em><strong>r = 15 <span class="epigrafe">cm</span></strong></em></p>
+    <blockquote>
+      <p><em><strong>dr</strong></em><em><strong>/dt </strong></em><em><strong>= 50 <span class="epigrafe">cm&sup3;</span></strong><span class="epigrafe">/</span><strong><span class="epigrafe">s</span></strong></em> <em><strong> / 4</strong></em><span class="Estilo26">&pi;</span><em><strong> 225 <span class="epigrafe">cm</span><em>&sup2;</em></strong></em></p>
     </blockquote></td>
   <td class="bodytext">&nbsp;</td>
   <td align="center" valign="middle" class="bodytext">&nbsp;</td>
@@ -98,7 +109,7 @@
   <td height="64" align="left" valign="middle" bgcolor="#FFFFFF" class="bodytext"><table width="100%" border="0">
     <tr>
       <td width="10%" height="42" class="bodytext">&nbsp;</td>
-      <td width="56%" align="center" bgcolor="#CCCCCC" class="bodytext"><em><strong><em><strong><span class="bodytext">d</span>x/dt =</strong> 0,24 <span class="epigrafe">m</span></em></strong><em><span class="epigrafe">/</span></em><strong><em><span class="epigrafe">min</span></em></strong></em></td>
+      <td width="56%" align="center" bgcolor="#CCCCCC" class="bodytext"><em><strong>dr</strong></em><em><strong>/dt </strong></em><em><strong>= 0,0177 <span class="epigrafe">cm</span></strong><span class="epigrafe">/</span><strong><span class="epigrafe">s </span>= 0,177 <span class="epigrafe">mm</span></strong><span class="epigrafe">/</span><strong><span class="epigrafe">s</span></strong></em></td>
       <td width="34%" align="center" class="bodytext">&nbsp;</td>
     </tr>
   </table>    </td>
@@ -125,7 +136,7 @@
 
 
 <tr>
-  <td height="30" align="left" valign="middle" bgcolor="#FFFFFF" class="bodytext"><strong>DESAFIO</strong>: ¿Cuánto valdrá la velocidad de descenso del nivel si cerrás la canilla?</td>
+  <td height="30" align="left" valign="middle" bgcolor="#FFFFFF" class="bodytext"><strong>DESAFIO</strong>: ¿Cuánto tiempo tardó en derretirse completamente desde que su radio fue de 15 cm?</td>
   <td class="bodytext">&nbsp;</td>
   <td width="87" rowspan="4" align="center" valign="bottom" class="bodytext"><strong><em><sub><img src="img_ana/ric_mate.gif" alt="Magnetismo - Ricardo Cabrera" width="85" height="124"></sub></em></strong></td>
 </tr>
