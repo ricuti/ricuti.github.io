@@ -1,0 +1,176 @@
+<html>
+<head>
+<title>MECANICA DE FLUIDOS, NMS033, fisica online, ejercicios resueltos</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="keywords" content="problemas resueltos, ejercicios resueltos, cbc, fisica, biofisica, fluidos, liquidos, gases, bernoulli, poiseuille, viscosidad, ideales, viscosos, humedad, difusion, osmosis, nomesalen, no me salen, ricardo cabrera" />
+<meta name="description" content="Ejercicios y problemas resueltos, y apuntes teóricos de Fluidos, mecanismos de transporte de fluidos" />
+<link rel="stylesheet" href="win_ie.css">
+<style type="text/css">
+<!--
+.style1 {
+	color: #3F6386;
+	font-weight: bold;
+}
+.Estilo3 {color: #3F6386}
+.Estilo18 {color: #FF0000}
+.Estilo27 {
+	font-style: italic;
+	font-weight: bold;
+}
+-->
+</style>
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000" alink="#000000" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<table align=center width="600" border="0" cellspacing="0" cellpadding="0"> 
+  <tr bgcolor="#000000" align="right"> 
+<td><img src="img_flu/nombre5.gif" width="369" height="71"></td>
+  </tr> <tr bgcolor="#BB0000" valign="middle" align="left"> 
+<td class="bodytext" height="20"><TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+  <TR ALIGN="center" CLASS="menuitem">
+    <TD WIDTH="44" height="19" CLASS="menuitem"><A HREF="../../index.html" CLASS="menuitem">&nbsp;<B>home</B>&nbsp;</A></TD>
+    <TD WIDTH="5" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="102" CLASS="menuitem"><strong><a href="index_fluidos.html" class="menuitem">m&aacute;s de fluidos </a> </strong></TD>
+    <TD width="5" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="136" CLASS="menuitem"><strong><a href="../../intro_NMS.html" class="menuitem">otros temas de F&iacute;sica</a></strong></TD>
+    <TD width="10" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="173" CLASS="menuitem"><strong><a href="../../lista_ciruela.html" class="menuitem">lecciones del maestro Ciruela </a></strong></TD>
+    <TD width="9" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="68" CLASS="menuitem"><strong><a href="../../lista_tonterias.html" class="menuitem">tonter&iacute;as</a></strong></TD>
+    <TD WIDTH="8" CLASS="menuitem"><a href="../energia/index_energia.html" class="menuitem"></a><FONT COLOR="#000000">|</FONT></TD>
+    <TD WIDTH="40" CLASS="menuitem">&nbsp;<B><FONT FACE="Arial, Helvetica, sans-serif"><A HREF="mailto: ricuti@qi.fcen.uba.ar" CLASS="menuitem">@</A></FONT><A HREF="../../index.html" CLASS="menuitem"></A></B>&nbsp;</TD>
+  </TR>
+</TABLE></td></tr> <tr> <td class="bodytext" height="8"><img src="img_flu/transparente.gif" width="600" height="8"></td>
+</tr> 
+<tr align="center"> <td height="935"> <table width="600" border="0" cellspacing="0" cellpadding="0"> 
+<tr class="bodytext"> <td valign="top" width="594" height="700"> 
+<table width="600" border="0" cellspacing="0" cellpadding="0"> <tr> 
+  <td height="74" valign="middle" bgcolor="#D7FFFF" class="bodytext"><span class="bodytext"><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>NO ME SALEN<br>
+</strong></span><span class="Estilo3"><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em></strong></span><span class="titulograndegris"><strong>EJERCICIOS<strong> RESUELTOS   DE F&Iacute;SICA DEL CBC</strong></strong></span><br>
+      <span class="titulochicogris"><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>FLUIDOS - HIDRODIN&Aacute;MICA</strong></span></td>
+  <td class="bodytext" rowspan="3" height="74" width="7">&nbsp;</td>
+  <td class="bodytext" height="74" rowspan="3" valign="top" width="86"> 
+<p><img src="img_flu/cap49.jpg" alt="desesperado" width="85" height="129"></p></td></tr>
+  <tr>
+    <td height="18" bgcolor="#FFFFFF" class="bodytext">&nbsp;</td>
+  </tr> 
+<tr> 
+  <td height="47" class="bodytext"><table width="100%" height="94" border="0" cellpadding="0" cellspacing="0">
+    <tr>
+      <td height="88" class="bodytext"><p><strong><em>Adicional NMS</em></strong> <strong>33) ¿Cuál es la fuerza neta sobre las alas  de un avión comercial Airbus 330 cuya superficie alar es 363 m<em><strong>&sup2;,</strong></em> se desplaza a 900 km/h a una altura de 9.144 metros y la diferencia de velocidad del aire arriba y abajo del ala es de un 15%?</strong></p>
+        <blockquote>
+          <p class="epigrafe"><strong>Dato: la densidad del aire a 9.144 metros vale 0,374 kg/m<em><strong><em><strong><strong><em><strong><em><strong><em><strong><strong><em><strong><sup>3</sup></strong></em></strong></strong></em></strong></em></strong></em></strong></strong></em></strong></em></strong></p>
+        </blockquote></td>
+      </tr>
+    
+  </table>    </td>
+</tr>
+<tr>
+  <td height="104" class="bodytext"><p>Un buen ejercicio de aplicación del principio de Bernoulli que nos va a permitir discutir un poco sobre aeronáutica, unidades y  política.</p>
+    <p>La sustentación de un avión se logra principalmente con un buen perfil alar:</p></td>
+  <td width="7" class="bodytext">&nbsp;</td>
+  <td width="86" align="center" valign="middle" class="bodytext"><p class="epigrafe Estilo18">&nbsp;</p>    </td>
+</tr>  
+
+<tr>
+  <td height="68" align="center" class="bodytext"><img src="img_flu/flu_NMS33_1.gif" width="250" height="53"></td>
+  <td class="bodytext">&nbsp;</td>
+  <td align="center" class="epigrafe Estilo18"><p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>    </td>
+</tr>
+<tr>
+  <td height="572" align="left" class="bodytext"><p>Se trata de un corte transversal del ala. Como ves es más curvado en la parte de arriba y más chato en la parte de abajo. La trayectoria del viento es mayor por arriba que por abajo. Eso hace que el aire deba moverse más de prisa sobre el ala y más lento debajo de ella. Vamos a llamarlas velocidad superior, <em><strong>v<sub>s</sub></strong><strong></strong></em>, y velocidad inferior,  <em><strong>v<sub>i</sub></strong></em>.</p>
+    <p>El enunciado lo dice: la diferencia de velocidades es un 15%. De modo que :</p>
+    <blockquote>
+      <p><em><strong>v<sub>s</sub></strong></em> <em><strong>= 1,15</strong></em> <em><strong>v<sub>i</sub></strong></em> </p>
+      </blockquote>
+    <p>Ahora, la velocidad inferior es prácticamente igual a la velocidad de avance del avión, 900 km/k, que en metros por segundo equivale a:</p>
+    <blockquote>
+      <p><em><strong>v<sub>i</sub></strong></em> <em><strong>= 250 <span class="epigrafe">m</span></strong><span class="epigrafe">/<strong>s</strong></span></em></p>
+      </blockquote>
+    <p>Por lo tanto:</p>
+    <blockquote>
+      <p><em><strong>v<sub>s</sub></strong></em> <em><strong>= 288 <span class="epigrafe">m</span></strong><span class="epigrafe">/<strong>s</strong></span></em></p>
+      </blockquote>
+    <p>Esa diferencia de velocidad arriba y abajo del ala es la que produce una diferencia de presión en la parte superior (más baja) y la parte inferior (más alta), según explica el principio de Bernoulli.</p>
+    <blockquote>
+      <p><strong><em><strong><em><strong>&Delta;<strong><em>P <strong><em><strong><em><strong>= </strong></em></strong></em></strong></em></strong> <strong><em>&frac12; &delta; (v<strong><em><strong><em><strong><strong><em><strong><em><strong><strong><em><strong><em><sub>s</sub></em></strong></em></strong></strong></em></strong></em></strong></strong></em></strong></em><sup>2 </sup></strong></em></strong><em><strong><strong>&ndash;</strong></strong></em><strong><em> v<strong><em><strong><strong><em><strong><em><strong><em><strong><strong><em><strong><em><strong><em><strong><strong><em><strong><em><strong><strong><em><strong><em><sub>i</sub></em></strong></em></strong></strong></em></strong></em></strong></strong></em></strong></em></strong></em></strong></strong></em></strong></em></strong></em></strong></strong></em><sup>2</sup></strong></em></strong></strong></em></strong>)</em></strong></p>
+      <p><strong><em><strong><em><strong>&Delta;<strong><em>P <strong><em><strong><em><strong>= </strong></em></strong></em></strong></em></strong> <strong><em>&frac12; </em> 0,374 <span class="epigrafe">kg</span></strong></strong></em></strong></em></strong><span class="epigrafe"><em><em>/</em></em><strong><em><strong><em><strong><strong>m<em><strong><em><strong><strong><em><strong><em><strong><em><strong><strong><em><strong><sup>3</sup></strong></em></strong></strong></em></strong></em></strong></em></strong></strong></em></strong></em></strong></strong></em></strong></em></strong></span><strong><em><strong><em><strong><strong> <em> (</em></strong><em>(</em>288 <span class="epigrafe">m</span></strong><span class="epigrafe">/<strong>s</strong></span><strong><strong><em>)<strong><sup>2 </sup></strong></em></strong><em><strong><strong>&ndash;</strong></strong></em><strong><em> (<strong>250 <span class="epigrafe">m</span></strong><span class="epigrafe">/<strong>s</strong></span>)<strong><sup>2</sup></strong></em></strong></strong></em></strong>)</em></strong></p>
+      <p><strong><em><strong><em><strong>&Delta;<strong><em>P <strong><em><strong><em><strong>=</strong></em></strong></em></strong></em></strong></strong></em></strong> 3.770 <span class="epigrafe">Pa</span></em></strong></p>
+      </blockquote>
+    <p>Esa es la diferencia de presión entre la parte superior e inferior de las alas. Si tenemos en cuenta que la superficie total de las alas del Airbus, <em><strong>S</strong></em>, es de <span class="Estilo27">363 </span><span class="epigrafe">m<strong>&sup2;</strong></span>, podemos calcular la fuerza neta sobre las alas, o fuerza de sustentación, <em><strong>F</strong></em>:</p>
+    <blockquote>
+      <p><em><strong>F = &Delta;P . S</strong></em></p>
+      <p><em><strong>F = <em>3.770 <span class="epigrafe">Pa</span></em> . <span class="Estilo27">363 </span><span class="epigrafe">m<strong>&sup2;</strong></span></strong></em></p>
+    </blockquote></td>
+  <td class="bodytext">&nbsp;</td>
+  <td align="center" class="epigrafe">&nbsp;</td>
+</tr>
+<tr>
+  <td height="64" align="center" class="bodytext"><table width="102%" border="0">
+    <tr>
+      <td width="9%" height="36" align="center" bgcolor="#FFFFFF"><p class="bodytext">&nbsp;</p></td>
+      <td width="41%" align="center" bgcolor="#CCCCCC" class="bodytext"><em><strong>F = 1.370.000<span class="epigrafe"> N</span></strong></em></td>
+      <td width="50%" align="center" bgcolor="#FFFFFF" class="bodytext"><em class="epigrafe">o sea, 137 toneladas</em></td>
+    </tr>
+  </table></td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="99" align="left" class="bodytext">Con esta fuerza de sustentación no alcanza para sostener un Airbus 330, que pesa 230 toneladas en el despegue con los tanques llenos. La fuerza neta se alcanza con el ángulo de ataque de las alas que &quot;muestra&quot; más la parte inferior a la dirección de avance (tal como lo muestra el esquema de arriba). Esa inclinación empuja el aire hacia abajo y por acción y reacción el aire empuja al avión hacia arriba. Este efecto es el predominante durante el vuelo de crucero y representa el 80% de la sustentación allá arriba, a 10,5 km de altura. Bernoulli colabora con apenas el 20% restante.</td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="291" align="center" class="bodytext"><img src="img_flu/airbus.jpg" width="500" height="273"></td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext"><p class="Estilo18">&nbsp;</p></td>
+</tr>
+<tr>
+  <td height="55" align="center" class="bodytext"><table width="469" height="20" border="0" cellpadding="0" cellspacing="0">
+    <tr>
+      <td width="469" class="epigrafe">Airbus A330-200, recientemente incorporado a la flota de Aerolíneas Argentinas, longitud total 58,8m; envergadura (distancia entre las puntas de las alas) 60,3 m; peso másximo al despegue 230 t; capacidad 300 pasajeros; carrera de despegue 2.200 m.</td>
+    </tr>
+  </table>
+    </td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+</tr>
+
+<tr>
+  <td height="30" align="center" valign="middle" bgcolor="#FFFF99" class="bodytext"><table width="422" height="20" border="0" cellpadding="0" cellspacing="0">
+    <tr>
+      <td width="422" class="epigrafe"><em><strong>*Este ejercicio (modificado) fue tomado de Física, Serway - Jewett.</strong></em></td>
+    </tr>
+  </table></td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+</tr>
+
+<tr>
+  <td height="114" bgcolor="#FFFFFF" class="bodytext"><p>Podés encontar algunas consideraciones más sobre aeronáutica en <a href="../dinamica/BIO_dM25.html" target="_blank">este otro ejercicio</a>.</p>
+    <p><strong>DESAF&Iacute;O</strong>: ¿Cuántro valdrá la fuerza de rozamiento que debe vencer el avión si los motores a chorro le imprimen un empuje de 310 kN? Para vencer ese rozamiento (que consume casi todo el combustible, por qué no asciende a 30.000 metros de altura donde el rozamiento se hace casi insignificante? </p></td>
+  <td class="bodytext">&nbsp;</td>
+  <td width="86" rowspan="2" valign="bottom" class="bodytext"><strong><em><sub><img src="img_flu/ricuti.jpg" alt="Flu&iacute;dos - Ricardo Cabrera" width="85" height="116"></sub></em></strong></td>
+</tr>
+
+<tr> <td height="45" align="center" valign="middle" bgcolor="#CCCCCC" class="bodytext"><table width="92%" border="0">
+  <tr>
+    <td class="epigrafe">Algunos derechos reservados. 
+  Se permite su reproducci&oacute;n citando la fuente leg&iacute;tima, o sea, este sitio. &Uacute;ltima actualizaci&oacute;n 
+  abr-15. Buenos Aires, Argentina. </td>
+  </tr>
+</table>  </td>
+  <td class="bodytext" width="7">&nbsp;</td>
+  </tr> 
+<tr> <td height="18" class="bodytext">&nbsp;</td><td class="bodytext" width="7">&nbsp;</td>
+<td class="bodytext" width="86">&nbsp;</td>
+</tr> 
+</table></td></tr> </table>
+<img src="img_flu/transparente.gif" width="10" height="20"></td></tr> 
+<tr> <td class="bodytext"><img src="img_flu/transparente.gif" width="600" height="20"></td></tr> 
+</table>
+</body>
+</html>

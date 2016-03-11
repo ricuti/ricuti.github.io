@@ -1,0 +1,658 @@
+<html>
+<head>
+<title>MECANICA DE FLUIDOS, perpuestas a los desafios 2, fisica online, ejercicios resueltos</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="keywords" content="problemas resueltos, ejercicios resueltos, cbc, fisica, biofisica, fluidos, liquidos, gases, bernoulli, poiseuille, viscosidad, ideales, viscosos, humedad, difusion, osmosis, nomesalen, no me salen, ricardo cabrera" />
+<meta name="description" content="Ejercicios y problemas resueltos, y apuntes teóricos de Fluidos, mecanismos de transporte de fluidos" />
+<link rel="stylesheet" href="win_ie.css">
+<style type="text/css">
+<!--
+.style1 {
+	color: #3F6386;
+	font-weight: bold;
+}
+.Estilo16 {font-size: 16px}
+.Estilo17 {font-size: 10px}
+.Estilo19 {
+	color: #FFFFFF;
+	font-weight: bold;
+}
+.Estilo25 {font-family: Verdana, Arial, sans-serif}
+.Estilo26 {font-family: "Times New Roman", Times, serif;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 16px;
+}
+.Estilo27 {
+	font-family: "Times New Roman", Times, serif;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 14px;
+}
+.Estilo32 {font-weight: bold; font-size: 11px;}
+.Estilo38 {font-size: 11px}
+-->
+</style>
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000" alink="#000000" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<table align=center width="600" border="0" cellspacing="0" cellpadding="0"> 
+  <tr bgcolor="#000000" align="right"> 
+<td><img src="img_flu/nombre5.gif" width="369" height="71"></td>
+  </tr> <tr bgcolor="#BB0000" valign="middle" align="left"> 
+<td class="bodytext" height="20"><TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+  <TR ALIGN="center" CLASS="menuitem">
+    <TD WIDTH="44" height="19" CLASS="menuitem"><A HREF="../../index.html" CLASS="menuitem">&nbsp;<B>home</B>&nbsp;</A></TD>
+    <TD WIDTH="5" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="102" CLASS="menuitem"><strong><a href="index_fluidos.html" class="menuitem">m&aacute;s de fluidos </a> </strong></TD>
+    <TD width="5" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="136" CLASS="menuitem"><strong><a href="../../intro_NMS.html" class="menuitem">otros temas de F&iacute;sica</a></strong></TD>
+    <TD width="10" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="173" CLASS="menuitem"><strong><a href="../../lista_ciruela.html" class="menuitem">lecciones del maestro Ciruela </a></strong></TD>
+    <TD width="9" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="68" CLASS="menuitem"><strong><a href="../../lista_tonterias.html" class="menuitem">tonter&iacute;as</a></strong></TD>
+    <TD WIDTH="8" CLASS="menuitem"><a href="../energia/index_energia.html" class="menuitem"></a><FONT COLOR="#000000">|</FONT></TD>
+    <TD WIDTH="40" CLASS="menuitem">&nbsp;<B><FONT FACE="Arial, Helvetica, sans-serif"><A HREF="mailto: ricuti@qi.fcen.uba.ar" CLASS="menuitem">@</A></FONT><A HREF="../../index.html" CLASS="menuitem"></A></B>&nbsp;</TD>
+  </TR>
+</TABLE></td></tr> <tr> <td class="bodytext" height="8"><img src="img_flu/transparente.gif" width="600" height="8"></td>
+</tr> 
+<tr align="center"> <td height="2562"> <table width="600" border="0" cellspacing="0" cellpadding="0"> 
+<tr class="bodytext"> <td valign="top" width="594" height="320"> 
+<table width="600" border="0" cellspacing="0" cellpadding="0"> <tr> 
+  <td height="62" valign="middle" bgcolor="#D7FFFF" class="bodytext"><span class="bodytext"><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>NO ME SALEN<br>
+</strong></span><span class="titulochicogris"><em class="bodytext "><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>RESPUESTAS A LOS DESAF&Iacute;OS DE NO ME SALEN</strong></em></span><br>
+<span class="titulograndegris"><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>FLUIDOS</strong></span><span class="titulograndegris Estilo16"><strong><br>
+      <strong><span class="titulochicogris"><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em></strong></span></strong></strong></span></td>
+  <td class="bodytext" rowspan="3" height="74" width="7">&nbsp;</td>
+  <td class="bodytext" height="74" rowspan="3" valign="top" width="86"> 
+<p><img src="img_flu/cap1.jpg" alt="desesperado" width="85" height="129"></p></td></tr>
+  <tr>
+    <td height="18" bgcolor="#FFFFFF" class="bodytext">&nbsp;</td>
+  </tr> 
+<tr> <td height="84" class="bodytext"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td height="35" colspan="2" align="center" valign="middle" bordercolor="#999999" bgcolor="#999999" class="bodytext"><span class="Estilo19">HIDROST&Aacute;TICA E HIDRODIN&Aacute;MICA</span></td>
+    </tr>
+  <tr>
+    <td valign="top" class="bodytext"><strong>H1</strong></td>
+    <td class="bodytext"><em><strong>F = 3.180 <span class="epigrafe">N</span> = 318 <span class="epigrafe">kgf</span></strong></em></td>
+  </tr>
+  <tr>
+    <td valign="top" class="bodytext"><strong>H2</strong></td>
+    <td class="bodytext"><em><strong>Pr<sub>10cm</sub> = 770 <span class="epigrafe">cmHg</span></strong></em></td>
+  </tr>
+  <tr>
+    <td valign="top" class="bodytext"><strong>H3</strong></td>
+    <td class="bodytext">Porque la presi&oacute;n interna de las c&eacute;lulas es igual a la presi&oacute;n externa en la que viven.</td>
+  </tr>
+  <tr>
+    <td valign="top" class="bodytext"><strong>H4</strong></td>
+    <td class="bodytext"><em><strong>0,0001</strong></em> <em><strong><span class="epigrafe">kg</span></strong></em>/<em><strong><span class="epigrafe">cm</span></strong><em><strong><em><strong>&sup2; ; 0,34 <span class="epigrafe">atm</span></strong></em></strong></em></em></td>
+  </tr>
+  <tr>
+    <td valign="top" class="bodytext"><strong>H5</strong></td>
+    <td class="bodytext">El volumen de agua es el mismo en ambos vasos: 20 ml. La fuerza que cada vaso hace sobre la mesa es igual al peso del agua m&aacute;s el peso del vaso (no nos dan ese dato). El agua pesa 20 gr (es la misma cantidad de agua en ambos vasos. Suponiendo que los vasos no pesan nada, la presi&oacute;n que hace un vaso es el doble que la del otro: 10 gr/cm&sup2; y 5 gr/cm&sup2;.</td>
+  </tr>
+  <tr>
+    <td valign="top" class="bodytext"><strong>H6</strong></td>
+    <td class="bodytext">No.</td>
+  </tr>
+  <tr>
+    <td valign="top" class="bodytext"><strong>H7</strong></td>
+    <td class="bodytext">a) como m&aacute;ximo 1 atm; b) un dispositivo autom&aacute;tico que detecta diferencias de presi&oacute;n pone a disposici&oacute;n de los pasajeros aire a presi&oacute;n normal; c) la misma que si te sumergieras 1 m en el agua; depende del tama&ntilde;o de la abertura, pero mucho menos de lo que muestran en las pel&iacute;culas; d) espero que ninguna m&aacute;s.</td>
+  </tr>
+  <tr>
+    <td valign="top" class="bodytext"><strong>H8</strong></td>
+    <td class="bodytext">Cada 10 metros.</td>
+  </tr>
+  <tr>
+    <td valign="top" class="bodytext"><strong>H9</strong></td>
+    <td class="bodytext"><em><strong>Pr<sub>12m</sub> = </strong></em><em><strong> 221.300 Pa</strong></em></td>
+  </tr>
+  <tr>
+    <td valign="top" class="bodytext"><strong>H10</strong></td>
+    <td class="bodytext">Nada, las respuestas no cambian.</td>
+  </tr>
+  <tr>
+    <td height="17" valign="top" class="bodytext"><strong>H11</strong></td>
+    <td class="bodytext"><strong><em>P<sub>fdo der </sub>= 810 </em></strong><em><strong><span class="Estilo17">mmHg, <strong><em>P<sub>fdo izq </sub>= 730 </em></strong><em><strong>mmHg, </strong></em></span></strong></em></td>
+  </tr>
+  <tr>
+    <td valign="top" class="bodytext"><strong>H12</strong></td>
+    <td class="bodytext"><em><strong>0,2 <span class="epigrafe">atm</span></strong></em></td>
+  </tr>
+  <tr>
+    <td valign="top" class="bodytext"><strong>H13</strong></td>
+    <td class="bodytext">Emerger&iacute;a m&aacute;s.</td>
+  </tr>
+  <tr>
+    <td valign="top" class="bodytext"><strong>H14</strong></td>
+    <td class="bodytext">Flotar&iacute;a por s&iacute; solo, no necesitar&iacute;a del hilo para sostenerse.</td>
+  </tr>
+  <tr>
+    <td valign="top" class="bodytext"><strong>H15</strong></td>
+    <td class="bodytext"> <em><strong><em><strong>V </strong></em>= 0,1 <span class="epigrafe">m</span><em><strong><sup>3</sup></strong></em></strong></em>; <em><strong>P = 1.800 <span class="epigrafe">N</span></strong></em>; <em><strong>E<sub>A</sub> = 1.000 <span class="epigrafe">N</span></strong></em>; <em><strong>E<sub>B</sub> = 1.200 <span class="epigrafe">N</span></strong></em>; <em><strong>E<sub>C</sub> = 800 <span class="epigrafe">N</span></strong></em>.</td>
+  </tr>
+  <tr>
+    <td valign="top" class="bodytext"><strong>H16</strong></td>
+    <td class="bodytext"><em><strong>P<sub>G</sub> =</strong></em> <em><strong>9600 <span class="epigrafe">N</span></strong></em> (lleno de aire caliente).</td>
+  </tr>
+  <tr>
+    <td valign="top" class="bodytext"><strong>H17</strong></td>
+    <td class="bodytext">Al ser un cuerpo s&oacute;lido y siendo sus caras laterales opuestasas e iguales entre s&iacute; (se trata de un cubo) si la presi&oacute;n de un lado fuese mayor que la del opuesto habr&iacute;a una fuerza neta lateral y el cuerpo acelerar&iacute;a, cosa que no pasa. La presi&oacute;n sobre cada cara no es uniforme y aumenta con la profundidad. Para hacer c&aacute;lculo de fuerza se puede tomar el valor medio de la presi&oacute;n (a mitad de profundidad de la cara).</td>
+  </tr>
+  <tr>
+    <td height="21" valign="top" class="bodytext"><strong>H18</strong></td>
+    <td class="bodytext"><em><strong>V<sub>oro</sub></strong></em> <strong>= <em><strong>86</strong></em> <strong><span class="epigrafe"><em>cm<strong><em><strong><em><strong><strong><sup>3</sup></strong></strong></em></strong></em></strong></em></span></strong></strong>; <em><strong>V<sub>plata</sub></strong></em> <strong>= <em><strong>80</strong></em> <strong><span class="epigrafe"><em>cm<strong><em><strong><em><strong><strong><sup>3</sup></strong></strong></em></strong></em></strong></em></span></strong></strong>.</td>
+  </tr>
+  <tr>
+    <td valign="top" class="bodytext"><strong>H19</strong></td>
+    <td class="bodytext">Seis metros.</td>
+  </tr>
+  <tr>
+    <td valign="top" class="bodytext"><strong>H20</strong></td>
+    <td class="bodytext">Porque me recuerda mi infancia.</td>
+  </tr>
+  <tr>
+    <td valign="top" class="bodytext"><strong>H21</strong></td>
+    <td class="bodytext"><em>&iexcl;</em>Cu&aacute;<em>!</em></td>
+  </tr>
+  <tr>
+    <td valign="top" class="bodytext"><strong>H22</strong></td>
+    <td class="bodytext">Tres sumergidos y tres arriba.</td>
+  </tr>
+  <tr>
+    <td valign="top" class="bodytext">&nbsp;</td>
+    <td class="bodytext">&nbsp;</td>
+  </tr>
+  <tr>
+    <td valign="top" bgcolor="#99CCFF" class="bodytext">&nbsp;</td>
+    <td bgcolor="#99CCFF" class="bodytext">&nbsp;</td>
+  </tr>
+  <tr>
+    <td valign="top" class="bodytext">&nbsp;</td>
+    <td class="bodytext">&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="12%" valign="top" class="bodytext"><strong>1)</strong></td>
+    <td width="88%" class="bodytext"><em><strong>480.000 <span class="epigrafe">Pa</span></strong></em></td>
+  </tr>
+  <tr>
+    <td valign="top" class="bodytext"><strong>2)</strong></td>
+    <td class="bodytext"><em><strong>0,0001</strong></em> <em><strong><span class="epigrafe">kg</span></strong></em>/<em><strong><span class="epigrafe">cm</span></strong><em><strong><em><strong>&sup2; ; 0,34 <span class="epigrafe">atm</span></strong></em></strong></em></em></td>
+  </tr>
+  <tr>
+    <td valign="top" class="bodytext"><strong>4)</strong></td>
+    <td class="bodytext">El volumen de agua es el mismo en ambos vasos: 20 ml. La fuerza que cada vaso hace sobre la mesa es igual al peso del agua m&aacute;s el peso del vaso (no nos dan ese dato). El agua pesa 20 gr (es la misma cantidad de agua en ambos vasos. Suponiendo que los vasos no pesan nada, la presi&oacute;n que hace un vaso es el doble que la del otro: 10 gr/cm&sup2; y 5 gr/cm&sup2;.</td>
+  </tr>
+  <tr>
+    <td valign="top" class="bodytext"><strong>5)</strong></td>
+    <td class="bodytext"><em><strong>0,2 <span class="epigrafe">atm</span></strong></em></td>
+  </tr>
+  <tr>
+    <td valign="top" class="bodytext"><em><strong>7)</strong></em></td>
+    <td class="bodytext">Un poco m&aacute;s de 30 gotas.</td>
+  </tr>
+  <tr>
+    <td valign="top" class="bodytext"><strong>9)</strong></td>
+    <td class="bodytext">a) como m&aacute;ximo 1 atm; b) un dispositivo autom&aacute;tico que detecta diferencias de presi&oacute;n pone a disposici&oacute;n de los pasajeros aire a presi&oacute;n normal; c) la misma que si te sumergieras 1 m en el agua; depende del tama&ntilde;o de la abertura, pero mucho menos de lo que muestran en las pel&iacute;culas; d) espero que ninguna m&aacute;s.</td>
+  </tr>
+  <tr>
+    <td valign="top" class="bodytext"><strong>10)</strong></td>
+    <td class="bodytext">Si el fluido es ideal, la misma que en el ejercicio. Si el fluido es viscoso, depende de la viscosidad del fluido y del di&aacute;metro y el largo de la aguja (ese asunto se plantea m&aacute;s adelante).</td>
+  </tr>
+  <tr>
+    <td valign="top" class="bodytext"><strong>11)</strong></td>
+    <td class="bodytext">No.</td>
+  </tr>
+  <tr>
+    <td valign="top" class="bodytext"><strong>12)</strong></td>
+    <td class="bodytext">La longitud media del capilar es de <em><strong>1 <span class="epigrafe">mm</span></strong></em>, de modo que el intercambio debe realizarse aproximadamente en<em><strong> 0,4 <span class="epigrafe">s</span></strong></em>. La longitud total capilar ser&aacute;: <em><strong>1000 <span class="epigrafe">km</span></strong></em>.</td>
+  </tr>
+  <tr>
+    <td valign="top" class="bodytext"><strong>13) </strong></td>
+    <td class="bodytext">El giro (o <em>spin</em>) produce una corriente de aire alrededor de la pelota, de un lado acompa&ntilde;a el desplazamiento de la pelota y del otro va en contra. Eso produce una diferencia de presi&oacute;n de aire de desv&iacute;a a la pelota de costado.</td>
+  </tr>
+  <tr>
+    <td valign="top" class="bodytext"><strong>14)</strong></td>
+    <td class="bodytext"><em><strong>226</strong></em> <em><strong><span class="epigrafe">m</span></strong></em>/<em><strong><span class="epigrafe">s</span></strong></em>; <em><strong>16</strong></em> <em><strong><span class="epigrafe">N</span></strong></em></td>
+  </tr>
+  <tr>
+    <td valign="top" class="bodytext"><strong>15)</strong></td>
+    <td class="bodytext"><strong><em><strong><em><strong><strong><em>P<strong><sub>S</sub></strong> <strong><em><strong><em><strong>= </strong></em></strong></em></strong></em></strong></strong></em></strong></em></strong><em><strong><em><strong><em><strong><em>0</em></strong></em></strong></em>,2875 <span class="Estilo17">Pa</span></strong></em></td>
+  </tr>
+  <tr>
+    <td valign="top" class="bodytext"><strong>16)</strong></td>
+    <td class="bodytext"><strong><em><strong><em><strong>&Delta;<strong><em>P <strong><em><strong><em><strong>= </strong></em></strong></em></strong></em></strong></strong></em></strong></em></strong><strong><em><strong><em><strong><strong><em><strong><em><strong><em><strong><strong><em><strong><em><strong><strong><em><strong><em>4 <strong><span class="Estilo17">Pa</span></strong></em></strong></em></strong></strong></em></strong></em></strong></strong></em></strong></em></strong></em></strong></strong></em></strong></em></strong></td>
+  </tr>
+  <tr>
+    <td valign="top" class="bodytext"><strong>17)</strong></td>
+    <td class="bodytext">Queda en tus palabras.</td>
+  </tr>
+  <tr>
+    <td valign="top" class="bodytext"><strong>19)</strong></td>
+    <td class="bodytext"><span class="Estilo25">Sigue valiendo</span><em><strong><em><span class="Estilo25"> 6,48 <span class="Estilo17">m </span></span></em></strong></em><span class="Estilo17">/</span><em><strong><span class="Estilo17">s</span></strong></em></td>
+  </tr>
+  <tr>
+    <td valign="top" class="bodytext"><strong>20)</strong></td>
+    <td class="bodytext">Lo que cambia es el factor <em><strong>8 . </strong></em><strong><span class="Estilo26">&pi;</span></strong> de la expresi&oacute;n de Poiseuille. Cada forma de secci&oacute;n tiene su constante num&eacute;rica caracter&iacute;stica.</td>
+  </tr>
+  <tr>
+    <td valign="top" class="bodytext"><strong>21)</strong></td>
+    <td class="bodytext">Cuatro veces m&aacute;s largo.</td>
+  </tr>
+  <tr>
+    <td valign="top" class="bodytext"><strong>22)</strong></td>
+    <td class="bodytext"><em>&iexcl;</em>Ehhh<em>!</em> &iquest;M&aacute;s ayuda?<em> &iexcl;&iexcl;&iexcl;</em>Lo tuyo es un afano<em>!!!</em></td>
+  </tr>
+  <tr>
+    <td valign="top" class="bodytext"><strong>23)</strong></td>
+    <td class="bodytext">Ocho valores diferentes... encontralos.</td>
+  </tr>
+  <tr>
+    <td valign="top" class="bodytext"><strong>24)</strong></td>
+    <td class="bodytext"><strong><em><strong>Q<sub>b</sub> =</strong></em> </strong><em><strong>73 </strong></em><span class="epigrafe"><em class="epigrafe"><strong>ml</strong></em>/<em class="epigrafe"><strong>s</strong></em></span><em class="epigrafe">,<strong> <span class="bodylinkblack"><strong><em><strong>Q<sub>c</sub></strong></em></strong></span><strong><em><strong> =</strong></em> </strong><em class="bodytext"><strong>603 </strong></em><em class="epigrafe"><strong>ml</strong></em></strong></em>/<em class="epigrafe"><strong><em class="epigrafe"><strong>s</strong></em></strong></em></td>
+  </tr>
+  <tr>
+    <td valign="top" class="bodytext">&nbsp;</td>
+    <td class="bodytext">&nbsp;</td>
+  </tr>
+  <tr>
+    <td valign="top" bgcolor="#99CCFF" class="bodytext">&nbsp;</td>
+    <td bgcolor="#99CCFF" class="bodytext">&nbsp;</td>
+  </tr>
+  
+  <tr>
+    <td valign="top" class="bodytext">&nbsp;</td>
+    <td class="bodytext">&nbsp;</td>
+  </tr>
+  <tr>
+    <td valign="top" class="bodytext"><strong>EM01)</strong></td>
+    <td class="bodytext">Secci&oacute;n cuadrada: ninguna diferencia. Mercurio: cambian las presiones, pero no la relaci&oacute;n.</td>
+  </tr>
+  <tr>
+    <td valign="top" class="bodytext"><strong>EM02)</strong></td>
+    <td class="bodytext">Ascendente: misma respuesta. Descendente, no puede saberse sin conocer otros datos, como diferencia de altura, velocidad, densidad y viscosidad. No es un asunto que se trate en este curso.</td>
+  </tr>
+  <tr>
+    <td valign="top" class="bodytext"><strong>EM03)</strong></td>
+    <td class="bodytext"><em><strong>-0,42 <span class="epigrafe">atm</span></strong></em></td>
+  </tr>
+  <tr>
+    <td valign="top" class="bodytext"><strong>EM04)</strong></td>
+    <td class="bodytext">Di&aacute;metro del tubo A 1,41 veces m&aacute;s grande que el del tubo B.</td>
+  </tr>
+  <tr>
+    <td valign="top" class="bodytext"><strong>EM05)</strong></td>
+    <td class="bodytext">Di&aacute;metro del tubo A 2,8 veces m&aacute;s grande que el del tubo B.</td>
+  </tr>
+  <tr>
+    <td valign="top" class="bodytext"><strong>EM06)</strong></td>
+    <td class="bodytext">2,5 veces</td>
+  </tr>
+  <tr>
+    <td valign="top" class="bodytext"><strong>EM07)</strong></td>
+    <td class="bodytext">Queda en manos de los estudiantes aplicados (los otros no).</td>
+  </tr>
+  <tr>
+    <td valign="top" class="bodytext"><strong>EM014)</strong></td>
+    <td class="bodytext"><strong>2,4 cm<em><strong>&sup2;</strong></em></strong></td>
+  </tr>
+  <tr>
+    <td valign="top" class="bodytext"><strong>EM016)</strong></td>
+    <td class="bodytext">Nada, valdr&iacute;a lo mismo, no cambiar&iacute;a de m&oacute;dulo ni signo.</td>
+  </tr>
+  <tr>
+    <td valign="top" class="bodytext"><strong>EM017)</strong></td>
+    <td class="bodytext"><strong>17R/16</strong></td>
+  </tr>
+  <tr>
+    <td valign="top" class="bodytext"><strong>EM018)</strong></td>
+    <td class="bodytext"><span class="Estilo32">2V/3 </span><span class="Estilo38">y</span><span class="Estilo32"> Q/3</span></td>
+  </tr>
+  <tr>
+    <td valign="top" class="bodytext"><strong>EM019)</strong></td>
+    <td class="bodytext">No cambia el resultado.</td>
+  </tr>
+  <tr>
+    <td valign="top" class="bodytext"><strong>EM021)</strong></td>
+    <td class="bodytext"><em><strong>139 <span class="epigrafe">kgf</span></strong></em></td>
+  </tr>
+  <tr>
+    <td valign="top" class="bodytext"><strong>EM023)</strong></td>
+    <td class="bodytext">Colocan una bomba de agua en planta baja (o subsuelo)</td>
+  </tr>
+  <tr>
+    <td valign="top" class="bodytext"><strong>EM024)</strong></td>
+    <td class="bodytext"><em><strong>R' = R / 9 </strong></em></td>
+  </tr>
+  <tr>
+    <td valign="top" class="bodytext">&nbsp;</td>
+    <td class="bodytext">&nbsp;</td>
+  </tr>
+  <tr>
+    <td valign="top" bordercolor="#CCCCCC" bgcolor="#99CCFF" class="bodytext">&nbsp;</td>
+    <td bordercolor="#CCCCCC" bgcolor="#99CCFF" class="bodytext">&nbsp;</td>
+  </tr>
+  
+  <tr>
+    <td valign="top" class="bodytext">&nbsp;</td>
+    <td class="bodytext">&nbsp;</td>
+  </tr>
+  <tr>
+    <td valign="top" class="bodytext"><strong class="bodytext">NMS 2)</strong></td>
+    <td class="bodytext"><strong><em><strong><strong><em><strong>P<em><sub>Minf</sub></em> = <em>2 </em></strong><em><strong><span class="Estilo17">atm</span></strong></em></em></strong></strong></em></strong></td>
+  </tr>
+  <tr>
+    <td valign="top" class="bodytext"><strong class="bodytext">NMS 3)</strong></td>
+    <td class="bodytext"><strong><em>P<sub>fdo der </sub>= 860 </em></strong><em><strong><span class="Estilo17">mmHg, <strong><em>P<sub>fdo izq </sub>= 700 </em></strong><em><strong>mmHg, </strong></em></span></strong></em></td>
+  </tr>
+  <tr>
+    <td valign="top" class="bodytext"><strong class="bodytext">NMS 4)</strong></td>
+    <td class="bodytext">Queda en manos de los estudiantes creativos.</td>
+  </tr>
+  <tr>
+    <td valign="top" class="bodytext"><strong class="bodytext">NMS 5)</strong></td>
+    <td class="bodytext">a) no importa que las capas tengan igual espesor. b) las presiones no pueden no ser de escala absoluta, como remarca el enunciado. Si no lo fueran el ejercicio ser&iacute;a inconsistente.</td>
+  </tr>
+  <tr>
+    <td valign="top" class="bodytext"><strong class="bodytext">NMS 6)</strong></td>
+    <td class="bodytext">Un paraboloide de revoluci&oacute;n ( y eso &iquest;con qu&eacute; se come?). No. No.</td>
+  </tr>
+  <tr>
+    <td valign="top" class="bodytext"><strong class="bodytext">NMS 7)</strong></td>
+    <td class="bodytext">El mismo.</td>
+  </tr>
+  <tr>
+    <td valign="top" class="bodytext"><strong class="bodytext">NMS 8)</strong></td>
+    <td class="bodytext">Los 3.</td>
+  </tr>
+  <tr>
+    <td valign="top" class="bodytext"><strong class="bodytext">NMS 9)</strong></td>
+    <td class="bodytext">Alargarlos 8/3 partes.</td>
+  </tr>
+  
+  <tr>
+    <td valign="top" class="bodytext"><strong class="bodytext">NMS 10)</strong></td>
+    <td class="bodytext">Presi&oacute;n en la superficie vale 0 atm; 40 cm m&aacute;s abajo 0,8 atm; una presi&oacute;n triple de 0 es 0, estamos en el horno. Este tipo de operaciones carece de sentido en escalas relativas, s&oacute;lo se puede plantear en escalas absolutas. No es el &uacute;nico caso en la f&iacute;sica donde aparecen estas dificultades: son muchos. Un ejemplo muy conocido ocurre con las temperaturas, muchas operaciones, y hasta Leyes, son v&aacute;lidas s&oacute;lo si se trabaja con la escala absoluta de temperaturas (Kelvin) y dejan de valer o carecen de sentido en la escala Celcius o cualquiera de la otras.</td>
+  </tr>
+  <tr>
+    <td valign="top" class="bodytext"><strong class="bodytext">NMS 11)</strong></td>
+    <td class="bodytext">La rama en la que se hace vac&iacute;o asciende la misma distancia; la rama expuesta a la presi&oacute;n atmosf&eacute;rica baja 4 veces m&aacute;s.</td>
+  </tr>
+  <tr>
+    <td valign="top" class="bodytext"><strong class="bodytext">NMS 12)</strong></td>
+    <td class="bodytext"><em><strong>R' =  R /16</strong></em></td>
+  </tr>
+  <tr>
+    <td valign="top" class="bodytext"><strong class="bodytext">NMS 13)</strong></td>
+    <td class="bodytext">La misma desnsidad que el cuerpo.</td>
+  </tr>
+  <tr>
+    <td valign="top" class="bodytext"><strong class="bodytext">NMS 14)</strong></td>
+    <td class="bodytext">No cambia. La respuesta es independiente de la densidad del l&iacute;quido.</td>
+  </tr>
+  <tr>
+    <td valign="top" class="bodytext"><strong class="bodytext">NMS 15)</strong></td>
+    <td class="bodytext">No hay que saber todo... si no, no queda espacio para el razonamiento.</td>
+  </tr>
+  <tr>
+    <td height="17" valign="top" class="bodytext"><strong class="bodytext">NMS 16)</strong></td>
+    <td class="bodytext">Queda en tus manos. Hac&eacute;lo, es un buen ejercicio. Otro buen ejercicio es mostrarle a un compa&ntilde;ero lo que hiciste y que pueda interpretar qu&eacute; es cada una de las fuerzas que representaste sin tener que preguntarte a vos.</td>
+  </tr>
+  <tr>
+    <td valign="top" class="bodytext"><strong class="bodytext">NMS 17)</strong></td>
+    <td class="bodytext"><strong><em><strong><strong><em><strong>P<em><sub>ao</sub></em> = <em>114.750 </em></strong><em><strong><span class="Estilo17">N</span></strong></em></em></strong></strong></em></strong></td>
+  </tr>
+  <tr>
+    <td valign="top" class="bodytext"><strong class="bodytext">NMS 18)</strong></td>
+    <td class="bodytext"><em><strong>Pr<sub>lat</sub></strong></em> <em><strong>=</strong></em><em><strong> 36.000 <span class="epigrafe">Pa</span><sup></sup></strong></em></td>
+  </tr>
+  <tr>
+    <td valign="top" class="bodytext"><strong class="bodytext">NMS 19)</strong></td>
+    <td class="bodytext">Nada, la respuesta no cambia. La diferencia de altura del aire no es suficiente como para variar substancialmente la presi&oacute;n.</td>
+  </tr>
+  <tr>
+    <td valign="top" class="bodytext"><strong class="bodytext">NMS 21)</strong></td>
+    <td class="bodytext">En nada.</td>
+  </tr>
+  <tr>
+    <td valign="top" class="bodytext"><strong class="bodytext">NMS 22)</strong></td>
+    <td class="bodytext">Se llama arteria terminal, es el tramo final antes de abrirse en un lecho capilar.</td>
+  </tr>
+  <tr>
+    <td valign="top" class="bodytext"><strong class="bodytext">NMS 23)</strong></td>
+    <td class="bodytext"><strong><em>&Delta;P<strong><sub>AB</sub></strong> </em>=</strong><em><strong> </strong></em><em><strong><em>0,025 <span class="Estilo17">atm</span></em></strong></em></td>
+  </tr>
+  <tr>
+    <td valign="top" class="bodytext"><strong class="bodytext">NMS 25)</strong></td>
+    <td class="bodytext">Garganta del diablo, en las Cataratas del Iguaz&uacute;.</td>
+  </tr>
+  <tr>
+    <td valign="top" class="bodytext"><strong class="bodytext">NMS 26)</strong></td>
+    <td class="bodytext"><em><strong><em><strong>5 <span class="epigrafe">atm</span></strong></em></strong></em></td>
+  </tr>
+  <tr>
+    <td valign="top" class="bodytext"><strong class="bodytext">NMS 27)</strong></td>
+    <td class="bodytext"><em><strong>3<em><strong>R</strong></em>/4</strong></em></td>
+  </tr>
+  
+  <tr>
+    <td valign="top" class="bodytext"><strong class="bodytext">NMS 30)</strong></td>
+    <td class="bodytext"><em><strong>V = 320 <span class="epigrafe">ml</span></strong></em>; <em><strong>Pk = 29,04 <span class="epigrafe">N</span></strong></em>, <em><strong>Pt = 22 <span class="epigrafe">N.</span></strong></em></td>
+  </tr>
+  <tr>
+    <td valign="top" class="bodytext"><strong class="bodytext">NMS 31)</strong></td>
+    <td class="bodytext"><em><strong>h = 0,137 <span class="epigrafe">m</span></strong></em></td>
+  </tr>
+  <tr>
+    <td valign="top" class="bodytext"><strong class="bodytext">NMS 32)</strong></td>
+    <td class="bodytext">En nada</td>
+  </tr>
+  <tr>
+    <td valign="top" class="bodytext"><strong class="bodytext">NMS 35)</strong></td>
+    <td class="bodytext"><em><strong>4</strong></em></td>
+  </tr>
+  <tr>
+    <td valign="top" class="bodytext"><strong class="bodytext">NMS 36)</strong></td>
+    <td class="bodytext">La misma, porque es la del fondo.</td>
+  </tr>
+  <tr>
+    <td valign="top" class="bodytext"><strong class="bodytext">NMS 37)</strong></td>
+    <td class="bodytext"><em><strong>3 <span class="epigrafe">hs</span> 12 <span class="epigrafe">min</span></strong></em></td>
+  </tr>
+  <tr>
+    <td valign="top" class="bodytext"><strong class="bodytext">NMS 38)</strong></td>
+    <td class="bodytext"><em><strong>1,421<span class="epigrafe"> kg</span></strong><span class="epigrafe">/</span><strong><span class="epigrafe">lit</span></strong></em></td>
+  </tr>
+  <tr>
+    <td valign="top" class="bodytext"><strong class="bodytext">NMS 40)</strong></td>
+    <td class="bodytext"><em><strong>2,4 %</strong></em></td>
+  </tr>
+  <tr>
+    <td valign="top" class="bodytext"><strong class="bodytext">NMS 42)</strong></td>
+    <td class="bodytext">¿Lo lograste?</td>
+  </tr>
+  <tr>
+    <td valign="top" class="bodytext"><strong class="bodytext">NMS 43)</strong></td>
+    <td class="bodytext">El sentido de fluido.</td>
+  </tr>
+  <tr>
+    <td valign="top" class="bodytext"><strong class="bodytext">NMS 45)</strong></td>
+    <td class="bodytext">Hacia ningún lado, la presión es un escalar, no un vector.</td>
+  </tr>
+  <tr>
+    <td valign="top" class="bodytext">&nbsp;</td>
+    <td class="bodytext">&nbsp;</td>
+  </tr>
+  
+  <tr>
+    <td height="34" colspan="2" align="center" valign="middle" bgcolor="#999999" class="bodytext"><span class="Estilo19">GASES - HUMEDAD RELATIVA</span></td>
+    </tr>
+  <tr>
+    <td valign="top" class="bodytext"><strong>25)</strong></td>
+    <td class="bodytext">S&oacute;lo cambia el peso (hay que ponderar por la cantidad de moles de cada especie presente en el aire).</td>
+  </tr>
+  <tr>
+    <td height="92" valign="top" class="bodytext"><strong>26)</strong></td>
+    <td class="bodytext">El tanque lleno tiene <em><strong>3 <span class="epigrafe">kg</span></strong></em> de aire. El tanque vac&iacute;o nada. <br>
+      El empuje vale <em><strong>17 <span class="epigrafe">kgf</span></strong></em>, de modo que al sumergirse con el tanque lleno el peso aparente es de <em><strong>8</strong></em><em class="epigrafe"><strong> kgf</strong></em> y de regreso solo <em><strong>5 <span class="epigrafe">kgf</span></strong></em>, pero al salir del agua el tanque pesa <em><strong>22 <span class="epigrafe">kgf.<br>
+      </span></strong></em>Una v&aacute;lvula directa al interior del tanque, con <em><strong>150 <span class="epigrafe">atm</span></strong></em>, nos perforar&iacute;a la boca por m&aacute;s chiquito que fuese el orificio de conexi&oacute;n.</td>
+  </tr>
+  <tr>
+    <td height="21" valign="top" class="bodytext"><strong>27)</strong></td>
+    <td class="bodytext">Ninguna.</td>
+  </tr>
+  <tr>
+    <td valign="top" class="bodytext"><strong>28)</strong></td>
+    <td class="bodytext">S&iacute;, los datos del enunciado corresponden al aire seco (cosa que no existe en la naturaleza, salvo en los laboratorios y otros lugares raros). Si tenemos en cuenta el vapor de agua para la situaci&oacute;n mencionada, quedar&iacute;a as&iacute;: <br>
+      <em><strong>p</strong></em><strong><em><sub>H2O </sub></em></strong><em><strong> = </strong></em><strong><em>0,0334</em></strong><em><strong> </strong></em><span class="Estilo17"><em><strong>atm</strong>;</em></span><em><strong>p</strong></em><strong><em><sub>N2 </sub></em></strong><em><strong> = </strong></em><strong><em>0,7536</em></strong><em><strong> </strong></em><span class="Estilo17"><em><strong>atm</strong>;</em></span> <em><strong>p</strong></em><strong><em><sub>O2 </sub></em></strong><em><strong> = </strong></em><strong> <em>0,2036</em></strong> <span class="Estilo17"><em><strong>atm</strong></em></span>; <br>
+        <em><strong>p</strong></em><strong><em><sub>Ar </sub></em></strong><em><strong>= </strong></em><strong> <em>0,0091</em></strong> <span class="Estilo17"><em><strong>atm</strong></em></span>; <em><strong>p</strong></em><strong><em><sub>CO2</sub></em></strong><em><strong> = </strong></em><strong> <em>0,0003</em></strong> <span class="Estilo17"><em><strong>atm</strong></em></span>.</td>
+  </tr>
+  <tr>
+    <td valign="top" class="bodytext"><strong>29)</strong></td>
+    <td class="bodytext">Considerando al agua como un gas ideal (y siempre dentro de nuestro cilindro de la derecha) utilizamos la ecuaci&oacute;n de estado, y ya. <span class="Estilo27"><br>
+      X<strong class="bodytext"><em><strong><em><strong><strong><em><strong><sub>N2</sub></strong></em></strong></strong></em></strong></em></strong></span> <strong>=<em><strong> 0,9645</strong></em></strong>; <span class="Estilo27">
+      X<strong class="bodylinkblack"><em><strong><em><strong><strong><em><strong><sub>H2O</sub></strong></em></strong></strong></em></strong></em></strong></span> <strong>=<em><strong> 0,0355</strong></em></strong>. <br>
+      Todos, ya que la presi&oacute;n de vapor no cambia, porque s&oacute;lo depende de la temperatura.<br></td>
+  </tr>
+  
+  <tr>
+    <td valign="top" class="bodytext"><strong>30)</strong></td>
+    <td class="bodytext">No tengo idea.</td>
+  </tr>
+  <tr>
+    <td valign="top" class="bodytext"><strong>31)</strong></td>
+    <td class="bodytext">Te lo voy a decir en dif&iacute;cil, para que tengas que investigarlo: la pendiente de la frontera s&oacute;l-l&iacute;q es negativa.</td>
+  </tr>
+  <tr>
+    <td valign="top" class="bodytext"><strong>32)</strong></td>
+    <td class="bodytext">A<em><strong> 0</strong></em><strong>&deg;<em>C</em> </strong>y menos tambi&eacute;n. Saldr&iacute;a tan cruda como entr&oacute;. El resto deducilo vos.</td>
+  </tr>
+  <tr>
+    <td valign="top" class="bodytext"><strong>33)</strong></td>
+    <td class="bodytext">Hasta 2 grados cent&iacute;grados, m&aacute;s o menos.</td>
+  </tr>
+  <tr>
+    <td valign="top" class="bodytext"><strong>34)</strong></td>
+    <td class="bodytext">Es una papa.Acordate que<em><strong> 1 <span class="epigrafe">atm</span> = 101.300 <span class="epigrafe">Pa</span></strong></em>. El resto, regla de 3.</td>
+  </tr>
+  <tr>
+    <td valign="top" class="bodytext"><strong>35)</strong></td>
+    <td class="bodytext">A 9 grados cent&iacute;grados, m&aacute;s o menos.</td>
+  </tr>
+  <tr>
+    <td valign="top" class="bodytext">&nbsp;</td>
+    <td class="bodytext">&nbsp;</td>
+  </tr>
+  <tr>
+    <td valign="top" bgcolor="#99CCFF" class="bodytext">&nbsp;</td>
+    <td bgcolor="#99CCFF" class="bodytext">&nbsp;</td>
+  </tr>
+  <tr>
+    <td valign="top" class="bodytext">&nbsp;</td>
+    <td class="bodytext">&nbsp;</td>
+  </tr>
+  
+  <tr>
+    <td valign="top" class="bodytext"><strong>EM08)</strong></td>
+    <td class="bodytext">No, las leyes (como la de los gases ideales) que expresan proporcionalidad requieren la utilizaci&oacute;n de escalas absolutas.</td>
+  </tr>
+  <tr>
+    <td valign="top" class="bodytext"><strong>EM09)</strong></td>
+    <td class="bodytext"> -<strong>212&deg;C</strong></td>
+  </tr>
+  <tr>
+    <td valign="top" class="bodytext"><strong>EM010)</strong></td>
+    <td class="bodytext">57 metros de profundidad, pero s&oacute;lo para buzos profesionales, ya que aparecen otros problemas relacionados con el burbujeo durante el ascenso.</td>
+  </tr>
+  <tr>
+    <td valign="top" class="bodytext"><strong>EM011)</strong></td>
+    <td class="bodytext">Porque en las zonas elevadas la presi&oacute;n atmosf&eacute;rica es menor que a nivel del mar y los alimentos se cocinan a temperaturas inferiores a 100 grados.</td>
+  </tr>
+  <tr>
+    <td valign="top" class="bodytext"><strong>EM012)</strong></td>
+    <td class="bodytext">Queda en manos de los estudiantes.</td>
+  </tr>
+  <tr>
+    <td valign="top" class="bodytext"><strong>EM013)</strong></td>
+    <td class="bodytext"><strong> P&rsquo; = 2<strong>P</strong>/5 </strong></td>
+  </tr>
+  <tr>
+    <td valign="top" class="bodytext"><strong>EM015)</strong></td>
+    <td class="bodytext">No tiene.</td>
+  </tr>
+  <tr>
+    <td valign="top" class="bodytext"><strong>EM022)</strong></td>
+    <td class="bodytext">M&aacute;s o menos a los 19 grados.</td>
+  </tr>
+  <tr>
+    <td valign="top" class="bodytext"><strong>EM025)</strong></td>
+    <td class="bodytext"><em><strong>PP<sub>O2 </sub> = 0,84 <span class="Estilo17">atm</span></strong></em></td>
+  </tr>
+  <tr>
+    <td valign="top" class="bodytext">&nbsp;</td>
+    <td class="bodytext">&nbsp;</td>
+  </tr>
+  <tr>
+    <td valign="top" bgcolor="#99CCFF" class="bodytext">&nbsp;</td>
+    <td bgcolor="#99CCFF" class="bodytext">&nbsp;</td>
+  </tr>
+  <tr>
+    <td valign="top" class="bodytext">&nbsp;</td>
+    <td class="bodytext">&nbsp;</td>
+  </tr>
+  <tr>
+    <td valign="top" class="bodytext"><strong class="bodytext">NMS 1)</strong></td>
+    <td class="bodytext">La misma.</td>
+  </tr>
+  <tr>
+    <td valign="top" class="bodytext"><strong class="bodytext">NMS 20)</strong></td>
+    <td class="bodytext"><em><strong>T </strong></em><strong><em>= </em></strong><em><strong>10</strong></em> <em><strong>&deg;C</strong></em></td>
+  </tr>
+  <tr>
+    <td valign="top" class="bodytext"><strong class="bodytext">NMS 24)</strong></td>
+    <td class="bodytext"><em><strong>T </strong></em><strong><em>= </em></strong><em><strong>5</strong></em> <em><strong>&deg;C</strong></em></td>
+  </tr>
+  <tr>
+    <td valign="top" class="bodytext"><strong>NMS 33)</strong></td>
+    <td class="bodytext"><em><strong>X - 10% X = X - 0,1 X = X (1 - 0,1) = X 0,9</strong></em></td>
+  </tr>
+</table>
+  </td>
+  </tr>
+<tr>
+  <td class="bodytext">&nbsp;</td>
+  <td width="7" class="bodytext">&nbsp;</td>
+  <td width="86" rowspan="4" align="center" valign="bottom" class="bodytext"><strong><em><sub><img src="img_flu/ric_fotoric.jpg" alt="Flu&iacute;dos - Ricardo Cabrera" width="85" height="110"></sub></em></strong></td>
+</tr>  
+
+
+
+<tr>
+  <td bgcolor="#FFFFFF" class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+  </tr>
+
+<tr>
+  <td bgcolor="#FFFFFF" class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+  </tr>
+
+<tr> <td align="center" valign="middle" bgcolor="#CCCCCC" class="bodytext"><table width="90%" border="0">
+  <tr>
+    <td class="epigrafe">Algunos derechos reservados. 
+  Se permite su reproducci&oacute;n citando la fuente. La Asociaci&oacute;n Internacional de F&iacute;sicos Constructivistas y el Club Boca Juniors recomiendan <strong>NO</strong> utilizar este material did&aacute;ctico, al que se considera perversor y altamente peligroso. &Uacute;ltima actualizaci&oacute;n dic-15. Buenos Aires, Argentina. </td>
+  </tr>
+</table>  </td>
+  <td class="bodytext" width="7">&nbsp;</td>
+  </tr> 
+<tr> <td height="18" class="bodytext">&nbsp;</td><td class="bodytext" width="7">&nbsp;</td>
+<td class="bodytext" width="86">&nbsp;</td>
+</tr> 
+</table></td></tr> </table>
+<img src="img_flu/transparente.gif" width="10" height="20"></td></tr> 
+<tr> <td class="bodytext"><img src="img_flu/transparente.gif" width="600" height="20"></td></tr> 
+</table>
+</body>
+</html>

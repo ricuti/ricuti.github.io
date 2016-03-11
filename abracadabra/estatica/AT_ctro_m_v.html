@@ -1,0 +1,253 @@
+<html>
+<head>
+<title>DINAMICA, velocidad del centro de masa, ejercicios resueltos</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="keywords" content="problemas resueltos, ejercicios resueltos, cbc, fisica, biofisica, dinamica, estatica, nomesalen, no me salen, ricardo cabrera" />
+<meta name="description" content="Ejercicios y problemas resueltos, y apuntes teóricos de Dinámica y Estática" />
+<link rel="stylesheet" href="../dinamica/win_ie.css" />
+<style type="text/css">
+<!--
+.style1 {
+	color: #3F6386;
+	font-weight: bold;
+}
+.Estilo3 {color: #3F6386}
+.Estilo4 {color: #FF0000}
+.Estilo5 {
+	font-size: 14px;
+	font-style: italic;
+}
+.Estilo16 {font-size: 16px}
+-->
+</style>
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000" alink="#000000" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<table align=center width="600" border="0" cellspacing="0" cellpadding="0"> 
+  <tr bgcolor="#000000" align="right"> 
+<td width="143" align="left" valign="top"><a href="AT_ctro_m_v_en.html"><img src="img_est/eng.gif" alt="english version" width="20" height="10" border="0"></a><a href="AT_ctro_masa.html"></a></td>
+  <td width="457"><img src="img_est/nombre5.gif" width="369" height="71" /></td>
+  </tr> <tr bgcolor="#BB0000" valign="middle" align="left"> 
+<td height="20" colspan="2" class="bodytext"><TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+  <TR ALIGN="center" CLASS="menuitem">
+    <TD WIDTH="50" height="19" CLASS="menuitem"><A HREF="../../index.html" CLASS="menuitem">&nbsp;<B>home</B>&nbsp;</A></TD>
+    <TD WIDTH="5" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="155" CLASS="menuitem"><strong><a href="../../no_me_salen/estatica/index_din_est.html" class="menuitem">más de estática </a> </strong></TD>
+    <TD width="17" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="115" CLASS="menuitem"><strong><a href="../../intro_NMS.html" class="menuitem">otros temas de F&iacute;sica</a></strong></TD>
+    <TD width="10" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="151" CLASS="menuitem"><strong><a href="../../lista_ciruela.html" class="menuitem">lecciones del maestro Ciruela </a></strong></TD>
+    <TD width="10" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="55" CLASS="menuitem"><strong><a href="../../lista_tonterias.html" class="menuitem">tonter&iacute;as </a></strong><a href="../cinematica/index_cinem.html"></a><a href="../energia/index_energia.html" class="menuitem"></a></TD>
+    <TD WIDTH="10" CLASS="menuitem"><a href="../energia/index_energia.html" class="menuitem"></a><FONT COLOR="#000000">|</FONT></TD>
+    <TD WIDTH="22" CLASS="menuitem">&nbsp;<B><FONT FACE="Arial, Helvetica, sans-serif"><A HREF="mailto: ricuti@qi.fcen.uba.ar" CLASS="menuitem">@</A></FONT><A HREF="../../index.html" CLASS="menuitem"></A></B>&nbsp;</TD>
+  </TR>
+</TABLE></td></tr> <tr> <td height="10" colspan="2" class="bodytext"><img src="../cinematica/img_cin/transparente.gif" width="600" height="10" /></td>
+</tr> 
+<tr align="center"> <td height="1360" colspan="2"> <table width="561" border="0" cellspacing="0" cellpadding="0"> 
+<tr class="bodytext"> <td colspan="2" valign="top" height="1453"> <img src="../cinematica/img_cin/transparente.gif" width="1" height="1" /></td>
+<td valign="top" width="550" height="1453"> 
+<table width="597" border="0" cellspacing="0" cellpadding="0"> 
+  <tr> 
+  <td height="61" colspan="2" bgcolor="#FFDB4A" class="bodytext"><p><strong><em><strong><em><strong><strong><br>
+    &#160; &#160;</strong></strong></em></strong></em>NO ME SALEN<br>
+  </strong><span class="Estilo3"><em class="bodytext "><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>(EJERCICIOS RESUELTOS Y <strong>APUNTES TE&Oacute;RICOS  DE F&Iacute;SICA</strong>)</strong></em></span><br>
+  <span class="titulograndegris Estilo16"><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>Estática</strong></span><span class="Estilo3"><br />
+      </span><br /> 
+      </p>    </td>
+  <td class="bodytext" rowspan="2" height="73" width="10">&nbsp;</td><td class="bodytext" colspan="2" height="73" rowspan="2" valign="top" width="85"> 
+<p><img src="img_est/cap17.jpg" width="85" height="111" /></p></td></tr> 
+<tr> <td height="164" colspan="2" valign="top" class="bodytext"><P><strong><br>
+  VELOCIDAD DEL CENTRO DE MASA </strong></P>
+  <P>Una de las propiedades m&aacute;s interesantes del centro de masa aparece cuando se considera un sistema de cuerpos que se mueven en diferentes direcciones, por ejemplo un conjunto de estrellas en una galaxia, los fragmentos de una explosi&oacute;n, etc&eacute;tera.</P>
+  <P>En la <a href="AT_ctro_masa.html" target="_blank">secci&oacute;n anterior</a> te cont&eacute; que la posici&oacute;n del centro de masa se puede hallar resolviendo un &quot;promedio ponderado&quot; entre todas los posiciones, <em><strong><em><strong><em><strong><em><strong>x<em><strong><sub>i</sub></strong></em></strong></em></strong></em></strong></em></strong></em>, que ocupa cada uno de los fragmentos de masa, <em><strong><em><strong><strong><strong>m<sub>i</sub></strong></strong></strong></em></strong></em>, que integran un cuerpo o simplemente un sistema de masas.</P>
+  </td>
+</tr>
+<tr>
+  <td height="33" colspan="2" valign="middle" class="bodytext"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td width="14%" rowspan="3" align="right" class="bodytext"><em><strong>x<sub>G </sub>=</strong></em></td>
+      <td width="3%" rowspan="3" class="bodytext">&nbsp;</td>
+      <td width="14%" height="0" align="center" valign="bottom" class="bodytext"><em><strong><em><strong><strong><strong><span class="Estilo5">&#931;</span> m<sub>i </sub></strong></strong><em><strong><em><strong>x<em><strong><sub>i</sub></strong></em></strong></em></strong></em> </strong></em></strong></em><em><strong></strong></em></td>
+      <td width="69%" rowspan="3" class="bodytext">&nbsp;</td>
+    </tr>
+    <tr>
+      <td height="2" align="center" valign="middle" class="epigrafe"><hr align="center" width="100%" style="color:black" size="1" noshade></td>
+    </tr>
+    <tr>
+      <td height="0" align="center" valign="top" class="bodytext"><em><strong> <strong>M</strong></strong></em></td>
+    </tr>
+  </table></td>
+  <td class="bodytext" height="33">&nbsp;</td>
+  <td class="bodytext" colspan="2" height="33" valign="top">&nbsp;</td>
+</tr>  
+<tr>
+  <td height="119" colspan="2" align="left" class="bodytext"><p>Cuando la distribuci&oacute;n de masas se halla en el plano o en un volumen se repite el procedimiento para hallar las 2 o las 3 coordenadas del centro (<em><strong>x</strong></em>, <em><strong>y</strong></em>, <em><strong>z</strong></em>) de masa seg&uacute;n corresponda.</p>    
+    <p>En este apartado, a los fines de la abreviaci&oacute;n voy a llama <em><strong><em><strong><em><strong><em><strong>r<em><strong><sub>i</sub></strong></em></strong></em></strong></em></strong></em></strong></em> a la posici&oacute;n de cada fragmento independientemente de c&oacute;mo sea la distribuci&oacute;n general. Entonces:</p>    </td>
+  <td rowspan="2" class="bodytext">&nbsp;</td>
+  <td width="85" colspan="2" rowspan="2" align="center" valign="middle" class="epigrafe Estilo4"><table width="85" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td align="center" class="epigrafe">Se suele denominar <em><strong>r</strong></em> (con flechita arriba) al <strong>vector posici&oacute;n</strong>, y es mucho m&aacute;s vers&aacute;til que el concepto de coordenada. pero no cuento con flechita para la<em> r</em> en HTML. Sorry.</td>
+    </tr>
+  </table>    </td>
+</tr>
+<tr>
+  <td height="30" colspan="2" align="left" class="bodytext"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td width="14%" rowspan="3" align="right" class="bodytext"><em><strong>r<sub>G </sub>=</strong></em></td>
+      <td width="3%" rowspan="3" class="bodytext">&nbsp;</td>
+      <td width="15%" height="0" align="center" valign="bottom" class="bodytext"><em><strong><em><strong><strong><strong><span class="Estilo5">&#931;</span> m<sub>i </sub></strong></strong><em><strong><em><strong>r<em><strong><sub>i</sub></strong></em></strong></em></strong></em> </strong></em></strong></em><em><strong></strong></em></td>
+      <td width="68%" rowspan="3" class="bodytext">&nbsp;</td>
+    </tr>
+    <tr>
+      <td height="2" align="center" valign="middle" class="epigrafe"><hr align="center" width="100%" style="color:black" size="1" noshade></td>
+    </tr>
+    <tr>
+      <td height="0" align="center" valign="top" class="bodytext"><em><strong> <strong>M</strong></strong></em></td>
+    </tr>
+  </table></td>
+</tr>
+<tr>
+  <td height="20" colspan="2" align="left" class="bodytext"><p>Hagamos un sencillo desarrollo algebraico que nos va a revelar una propiedad sorprendente. Primero pasemos multiplicando la masa total del sistema, <em><strong>M</strong></em>, al primer miembro:</p>
+    <blockquote>
+      <p><em><strong><strong>M</strong> r<sub>G </sub>=<em><strong><strong><strong><span class="Estilo5"> &#931;</span> m<sub>i </sub></strong></strong><em><strong><em><strong>r<em><strong><sub>i</sub></strong></em></strong></em></strong></em> </strong></em></strong></em></p>
+    </blockquote>
+    <p>Ahora supongamos que todo est&aacute; en movimiento: las posiciones de los fragmentos cambian, y por supuesto, la del centro de masa tambi&eacute;n. Eso se podr&iacute;a representar -aunque un poco groseramente- as&iacute;:</p>
+    <blockquote>
+      <p><em><strong><strong>M</strong> &#916;r<sub>G </sub>=<em><strong><strong><strong><span class="Estilo5"> &#931;</span> m<sub>i </sub></strong></strong><em><strong><em><strong>&#916;r<em><strong><sub>i</sub></strong></em></strong></em></strong></em> </strong></em></strong></em></p>
+    </blockquote>
+    <p>Ahora, si dividimos miembro a miembro por un intervalo de tiempo en el que ocurre un cambio de posiciones, tenemos:</p></td>
+  <td class="bodytext">&nbsp;</td>
+  <td colspan="2" align="center" valign="middle" class="epigrafe Estilo4">&nbsp;</td>
+</tr>
+
+<tr>
+  <td height="58" colspan="2" class="bodytext"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="9%" rowspan="3" align="right" class="bodytext">&nbsp;</td>
+        <td width="14%" height="0" align="center" valign="bottom" class="bodytext"><em><strong><strong>M</strong> &#916;r<sub>G</sub></strong></em><em><strong></strong></em></td>
+        <td width="7%" rowspan="3" align="center" valign="middle" class="bodytext"><em><strong>= <em><strong><strong><strong><span class="Estilo5">&#931;</span></strong></strong></strong></em></strong></em></td>
+        <td width="13%" align="center" valign="bottom" class="bodytext"><em><strong><em><strong><strong><strong>m<sub>i </sub></strong></strong><em><strong><em><strong>&#916;r<em><strong><sub>i</sub></strong></em></strong></em></strong></em></strong></em></strong></em><em><strong></strong></em></td>
+        <td width="57%" rowspan="3" class="bodytext">&nbsp;</td>
+      </tr>
+      <tr>
+        <td height="2" align="center" valign="middle" class="epigrafe"><hr align="center" width="100%" style="color:black" size="1" noshade></td>
+        <td align="center" valign="middle" class="epigrafe"><hr align="center" width="100%" style="color:black" size="1" noshade></td>
+      </tr>
+      <tr>
+        <td height="0" align="center" valign="top" class="bodytext"><em><strong>&#916;t<sub> </sub></strong></em></td>
+        <td align="center" valign="top" class="bodytext"><em><strong><em><strong>&#916;t</strong></em></strong></em></td>
+      </tr>
+    </table>    </td>
+  <td rowspan="2" class="bodytext">&nbsp;</td>
+  <td colspan="2" rowspan="2" align="center" valign="middle" class="epigrafe Estilo4"><table width="85" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td align="center" valign="middle" class="epigrafe">Haceme un favor: no dejes de imaginar las flechitas de vector sobre las <em><strong>v</strong></em> y las <em><strong>r</strong></em> (ambas son magnitudes vectoriales)</td>
+    </tr>
+  </table>  </td>
+</tr>
+<tr>
+  <td height="80" colspan="2" class="bodytext"><p>O, lo que es lo mismo:</p>
+    <blockquote>
+      <p><em><strong><strong>M</strong> v<sub>G</sub><sub> </sub>=<em><strong><strong><strong><span class="Estilo5"> &#931;</span> m<sub>i </sub></strong></strong><em><strong><em><strong>v<em><strong><sub>i</sub></strong></em></strong></em></strong></em></strong></em></strong></em></p>
+    </blockquote>
+    <p>Sorpresa:</p></td>
+</tr>
+<tr>
+  <td height="71" colspan="2" class="bodytext"><table width="100%" border="0">
+    <tr>
+      <td width="17%" height="49" valign="middle" class="bodytext"><p>&nbsp;</p>
+          <p>&nbsp;</p></td>
+      <td width="43%" align="center" valign="middle" bgcolor="#CCCCCC" class="bodytext"><em><strong><strong>p</strong><sub>G</sub><sub> </sub>=<em><strong><strong><strong><span class="Estilo5"> &#931;</span> p</strong></strong><em><strong><em><strong><em><strong><sub>i</sub></strong></em></strong></em></strong></em></strong></em></strong></em></td>
+      <td width="40%" align="right" class="bodytext">&nbsp;</td>
+    </tr>
+  </table>    </td>
+  <td class="bodytext">&nbsp;</td>
+  <td colspan="2" align="center" valign="middle" class="epigrafe Estilo4"><table width="85" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td align="center" class="epigrafe">Lo mismo para <em><strong>p</strong> (cantidad de movimiento)</em></td>
+    </tr>
+  </table>    </td>
+</tr>
+<tr>
+  <td colspan="2" class="bodytext"><p>Esto nos dice que la cantidad de movimiento del centro de masa es igual a la suma de todas las cantidades de movimiento de cada fragmento de masa que integra el cuerpo o el sistema (pero no te olvides: hablamos de una suma vectorial).</p>
+    <p>A partir de esta relaci&oacute;n se concluyen relaciones verdaderamente sorprendentes. Por ejemplo: si un sistema de part&iacute;culas no recibe fuerzas externas, entonces la velocidad del centro de masa ser&aacute; nula o bien tendr&aacute; una velocidad constante.</p>
+    <p>Otra: si todas las part&iacute;culas que integran un sistema reciben exactamente la misma fuerza, hagan lo que hagan cada una de ellas, el centro de masa se comporta como si toda la masa estuviera reunida en ese punto y ah&iacute;, justo ah&iacute;, estuviera recibiendo esa fuerza externa.</p>
+    <p>Si lo que te interesa es la velocidad del centro de masa, basta con que volvamos a pasar dividiendo la masa total al segundo miembro.</p>    </td>
+  <td class="bodytext">&nbsp;</td>
+  <td colspan="2" valign="middle" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="69" colspan="2" class="bodytext"><table width="100%" border="0">
+    <tr>
+      <td width="17%" height="49" valign="middle" class="bodytext"><p>&nbsp;</p>
+          <p>&nbsp;</p></td>
+      <td width="43%" align="center" valign="middle" bgcolor="#CCCCCC" class="bodytext"><em><strong>v<sub>G</sub> =<em><strong><strong><strong><span class="Estilo5"> &#931;</span> m<sub>i </sub></strong></strong><em><strong><em><strong>v<em><strong><sub>i</sub></strong></em></strong></em></strong></em></strong></em></strong></em> <em><strong>/ </strong></em><em><strong><strong>M</strong> </strong></em></td>
+      <td width="40%" align="right" class="bodytext">&nbsp;</td>
+    </tr>
+  </table>    </td>
+  <td class="bodytext">&nbsp;</td>
+  <td colspan="2" valign="middle" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td colspan="2" class="bodytext"><p>Si estuvieses frente a un problema bi-dimensional o de m&aacute;s dimensiones, habr&aacute; que resolver la ecuaci&oacute;n para cada una de las componentes de la velocidad. Por ejemplo:</p>
+    <blockquote>
+      <p><em><strong>v<sub>Gx</sub> =<em><strong><strong><strong><span class="Estilo5"> &#931;</span> m<sub>i </sub></strong></strong><em><strong><em><strong>v<em><strong><sub>ix</sub></strong></em></strong></em></strong></em></strong></em></strong></em> <em><strong>/ </strong></em><em><strong><strong>M</strong> </strong></em></p>
+      <p><em><strong>v<sub>Gy</sub> =<em><strong><strong><strong><span class="Estilo5"> &#931;</span> m<sub>i </sub></strong></strong><em><strong><em><strong>v<em><strong><sub>iy</sub></strong></em></strong></em></strong></em></strong></em></strong></em> <em><strong>/ </strong></em><em><strong><strong>M</strong> </strong></em></p>
+    </blockquote>
+    <p>Luego recompon&eacute;s la velocidad a partir de sus componentes.</p></td>
+  <td class="bodytext">&nbsp;</td>
+  <td colspan="2" valign="middle" class="bodytext">&nbsp;</td>
+</tr>
+
+
+<tr>
+  <td height="28" colspan="2" align="left" valign="middle" class="bodytext"><span class="bodylinkblack"><strong>CHISMES IMPORTANTES</strong>: </span></td>
+  <td class="bodytext">&nbsp;</td>
+  <td width="85" colspan="2" valign="bottom" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="221" colspan="2" align="left" valign="middle" class="bodytext"><ul>
+    <li>La deducci&oacute;n correcta de estas relaciones se efect&uacute;a con el auxilio del an&aacute;lisis matem&aacute;tico (derivadas e integrales). Y de la misma manera se demuestra que la aceleraci&oacute;n del centro de masa es igual a la suma de las &quot;aceleraciones ponderadas&quot; de la totalidad de los fragmentos.</li>
+    <li>Los ciclistas ganan las carreras tirando su cuerpo hacia atr&aacute;s a &uacute;ltimo momento. En ese breve intervalo en que se est&aacute; por cruzar la meta la bicicleta sufre una fuerte aceleraci&oacute;n hacia adelante y el ciclista gana. Sin embargo el centro de masa del conjunto ciclista-bicicleta no vari&oacute; su velocidad.</li>
+    <li>El clavadista se tira desde el trampol&iacute;n y mientras cae a la pileta realiza vueltas, tirabuzones y 248 piruetas m&aacute;s. Las velocidades y aceleraciones de cada una de sus partes: brazos, manos, cabeza, cintura, piernas, orejas, dientes y pelitos de la cabeza, parecen realmente ca&oacute;ticas y es imposible perseguirles el rastro. Sin embargo el centro de masa del clavadista describe una trayectoria limpia y pura: una par&aacute;bola perfecta.</li>
+  </ul></td>
+  <td class="bodytext">&nbsp;</td>
+  <td colspan="2" align="center" valign="bottom" class="bodytext"><img src="img_est/clavadista.jpg" width="85" height="170"></td>
+</tr>
+<tr>
+  <td height="27" colspan="2" align="left" valign="middle" class="bodytext"><strong>PREGUNTAS CAPCIOSAS</strong>: </td>
+  <td class="bodytext">&nbsp;</td>
+  <td colspan="2" valign="bottom" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="48" colspan="2" align="left" valign="middle" class="bodytext"><ul>
+    <li>&iquest;C&oacute;mo se puede describir f&iacute;sicamente una explosi&oacute;n<strong></strong>?</li>
+    <li>&iquest;C&oacute;mo formular&iacute;as la propiedad de esta lecci&oacute;n como una ley de conservaci&oacute;n?</li>
+  </ul></td>
+  <td class="bodytext">&nbsp;</td>
+  <td width="85" colspan="2" rowspan="2" valign="bottom" class="bodytext"><img src="img_est/ric_hora.jpg" width="85" height="119" /></td>
+</tr>
+<tr>
+  <td height="14" colspan="2" align="center" class="bodytext">&nbsp;</td>
+  <td width="10" class="bodytext">&nbsp;</td>
+  </tr>
+
+
+
+
+<tr> <td height="33" colspan="2" align="center" valign="middle" bgcolor="#CCCCCC" class="bodytext"><table width="84%" border="0">
+  <tr>
+    <td class="epigrafe">Algunos derechos reservados. 
+  Se permite su reproducci&oacute;n citando al autor y la fuente. &Uacute;ltima actualizaci&oacute;n nov-10. Buenos Aires, Argentina. </td>
+  </tr>
+</table>  </td>
+  <td class="bodytext" width="10">&nbsp;</td>
+  <td width="85" colspan="2" valign="middle" class="bodytext"><a href="AT_estatica1.html"><img src="img_est/boton.gif" width="85" height="27" border="0"></a></td>
+</tr> 
+</table></td></tr> </table><img src="img_est/transparente.gif" width="20" height="20" /></td>
+</tr> 
+<tr> <td colspan="2" class="bodytext"><img src="../cinematica/img_cin/transparente.gif" width="600" height="20" /></td></tr> 
+</table>
+</body>
+</html>

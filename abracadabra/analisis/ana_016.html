@@ -1,0 +1,475 @@
+<html>
+<head>
+<title>Funciones y Análisis matemático, A016, fisica online, ejercicios resueltos</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="keywords" content="problemas resueltos, ejercicios resueltos, cbc, fisica, biofisica, electricidad, magnetismo, electromagnetismo, nomesalen, no me salen, ricardo cabrera" />
+<meta name="description" content="Ejercicios y problemas resueltos, y apuntes teóricos de magnetismo y electromagnetismo" />
+<link rel="stylesheet" href="win_ie.css" />
+<style type="text/css">
+<!--
+.style1 {
+	color: #3F6386;
+	font-weight: bold;
+}
+.Estilo3 {color: #3F6386}
+.Estilo16 {font-size: 16px}
+.Estilo53 {LINE-HEIGHT: 15px; font-family: Verdana, Arial, sans-serif; font-size: 12; }
+-->
+</style>
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000" alink="#000000" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<table align=center width="600" border="0" cellspacing="0" cellpadding="0"> 
+  <tr bgcolor="#000000" align="right"> 
+<td width="600"><img src="img_ana/nombre5.gif" width="369" height="71"></td>
+  </tr> <tr bgcolor="#BB0000" valign="middle" align="left"> 
+<td class="bodytext" height="20"><TABLE WIDTH="99%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+  <TR ALIGN="center" CLASS="menuitem">
+    <TD WIDTH="50" height="19" CLASS="menuitem"><A HREF="../../index.html" CLASS="menuitem">&nbsp;<B>home</B>&nbsp;</A></TD>
+    <TD WIDTH="5" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="131" CLASS="menuitem"><strong><a href="index_ana.html" class="menuitem">m&aacute;s de funciones </a> </strong></TD>
+    <TD width="12" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="126" CLASS="menuitem"><strong><a href="../../intro_NMS.html" class="menuitem">otros temas de F&iacute;sica</a></strong></TD>
+    <TD width="16" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="154" CLASS="menuitem"><strong><a href="../../lista_ciruela.html" class="menuitem">lecciones del maestro Ciruela </a></strong></TD>
+    <TD width="14" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="66" CLASS="menuitem"><strong><a href="../../lista_tonterias.html" class="menuitem">tonter&iacute;as</a></strong></TD>
+    <TD WIDTH="10" CLASS="menuitem"><a href="../energia/index_energia.html" class="menuitem"></a><FONT COLOR="#000000">|</FONT></TD>
+    <TD WIDTH="26" CLASS="menuitem">&nbsp;<B><FONT FACE="Arial, Helvetica, sans-serif"><A HREF="mailto: ricuti@qi.fcen.uba.ar" CLASS="menuitem">@</A></FONT><A HREF="../../index.html" CLASS="menuitem"></A></B>&nbsp;</TD>
+  </TR>
+</TABLE></td></tr> <tr> <td class="bodytext" height="8"><img src="img_ana/transparente.gif" width="600" height="9"></td>
+</tr> 
+<tr align="center"> <td height="541"> <table width="599" border="0" cellspacing="0" cellpadding="0"> 
+<tr class="bodytext"> <td colspan="2" valign="top" height="551"> <img src="img_ana/transparente.gif" width="1" height="1"></td>
+<td valign="top" width="597" height="551"> 
+<table width="599" border="0" cellspacing="0" cellpadding="0"> 
+  <tr> 
+  <td height="74" valign="middle" bgcolor="#FFDB4A" class="bodytext"><span class="bodytext"><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>NO ME SALEN<br>
+</strong></span><span class="Estilo3"><em class="bodytext "><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>(EJERCICIOS RESUELTOS Y <strong>APUNTES TE&Oacute;RICOS  DE F&Iacute;SICA</strong>)</strong></em></span><br>
+      <span class="titulograndegris Estilo16"><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>Funciones derivadas<br>
+      <em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em></strong></span><br> </td>
+  <td class="bodytext" rowspan="3" height="74" width="4">&nbsp;</td>
+  <td class="bodytext" rowspan="4" valign="top" width="87"> 
+<p><img src="img_ana/cap3.jpg" width="85" height="120"></p></td></tr>
+  <tr>
+    <td height="14" bgcolor="#FFFFFF" class="bodytext">&nbsp;</td>
+  </tr> 
+<tr> <td rowspan="2" valign="top" class="bodytext"><p><strong>2.1 - Calcular por definición las siguientes 
+  derivadas:<br>
+ &nbsp;&nbsp;&nbsp; a)&nbsp;&nbsp;&nbsp; <em>f(x) = 3x + 4</em><br>
+ &nbsp;&nbsp;&nbsp; b)&nbsp;&nbsp;&nbsp; <em>f(x) = x<strong><em>&sup2;</em></strong></em><br>
+ &nbsp;&nbsp;&nbsp; c)&nbsp;&nbsp;&nbsp; <em>f(x) = 1/x</em><br>
+</strong></p>
+    </td>
+  </tr>  
+<tr> <td height="61" align="center" class="bodytext">&nbsp;</td>
+</tr>
+ 
+<tr>
+  <td height="61" align="left" valign="middle" bgcolor="#FFFFFF" class="bodytext">Es fácil, pero hay que arremangarse. Calcular por definición significa que tenés que utilizar la definición de derivada. O sea el límite para <em><strong>&#916x </strong>tendiendo a <strong>0 </strong>del cociente incremental, <strong>&#916y</strong>/<strong>&#916x</strong>.</em></td>
+  <td class="bodytext">&nbsp;</td>
+  <td align="center" valign="middle" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="59" align="left" valign="middle" bgcolor="#FFFFFF" class="bodytext"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td width="16%" rowspan="3" align="right" class="Estilo53" ><strong><em>f'<span class="epigrafe">(x)</span> =</em></strong></td>
+      <td width="9%" align="center" valign="bottom" class="bodytext" font style="line-height: 10%;"><em><strong>lím</strong></em></td>
+      <td width="2%" rowspan="3" align="right" valign="middle" class="bodytext Estilo16">&nbsp;</td>
+      <td width="6%" height="18" align="center" valign="bottom" class="bodytext"font style="line-height: 10%; "><em><strong>&#916y</strong></em></td>
+      <td width="67%" rowspan="3" align="left" valign="middle" class="bodytext Estilo16">&nbsp;</td>
+      </tr>
+    <tr>
+      <td align="center" valign="middle" class="bodytext"><hr align="center" width="100%" style="color:white" size="1" noshade></td>
+      <td height="5" align="center" valign="middle" class="bodytext"><hr align="center" width="100%" style="color:black" size="1" noshade></td>
+      </tr>
+    <tr>
+      <td align="center" valign="top" class="epigrafe" font style="line-height: 10%; "><em><strong>&#916x</strong></em><span class="Estilo10">&rarr;</span><em><strong>0</strong></em></td>
+      <td height="16" align="center" valign="top" class="bodytext" font style="line-height: 10%; "><em><strong>&#916x</strong></em></td>
+      </tr>
+  </table>    </td>
+  <td class="bodytext">&nbsp;</td>
+  <td align="center" valign="middle" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="18" align="left" valign="middle" bgcolor="#FFFFFF" class="bodytext">O sea:</td>
+  <td class="bodytext">&nbsp;</td>
+  <td align="center" valign="middle" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="59" align="left" valign="middle" bgcolor="#FFFFFF" class="bodytext"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td width="16%" rowspan="3" align="right" class="Estilo53" ><strong><em>f'<span class="epigrafe">(x)</span> =</em></strong></td>
+      <td width="9%" align="center" valign="bottom" class="bodytext" font style="line-height: 10%;"><em><strong>lím</strong></em></td>
+      <td width="2%" rowspan="3" align="right" valign="middle" class="bodytext Estilo16">&nbsp;</td>
+      <td width="19%" height="18" align="center" valign="bottom" class="bodytext"font style="line-height: 10%; "><em><strong>f<span class="epigrafe">(x+<em><strong>&#916x</strong></em>) </span><em><strong>&mdash; f<span class="epigrafe">(x)</span></strong></em></strong></em></td>
+      <td width="54%" rowspan="3" align="left" valign="middle" class="bodytext Estilo16">&nbsp;</td>
+    </tr>
+    <tr>
+      <td align="center" valign="middle" class="bodytext"><hr align="center" width="100%" style="color:white" size="1" noshade></td>
+      <td height="5" align="center" valign="middle" class="bodytext"><hr align="center" width="100%" style="color:black" size="1" noshade></td>
+    </tr>
+    <tr>
+      <td align="center" valign="top" class="epigrafe" font style="line-height: 10%; "><em><strong>&#916x</strong></em><span class="Estilo10">&rarr;</span><em><strong>0</strong></em></td>
+      <td height="16" align="center" valign="top" class="bodytext" font style="line-height: 10%; "><em><strong>&#916x</strong></em></td>
+    </tr>
+  </table></td>
+  <td class="bodytext">&nbsp;</td>
+  <td align="center" valign="middle" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="59" align="left" valign="middle" bgcolor="#FFFFFF" class="bodytext">Vamos con el primero. La función en un <em><strong>x </strong></em>cualquiera vale <strong><em>3x + 4</em></strong>, y con un pequeño incremento de <em><strong>x</strong></em>, <strong><em>3 (x<strong>+&#916x</strong>) + 4</em></strong>. Entonces:</td>
+  <td class="bodytext">&nbsp;</td>
+  <td align="center" valign="middle" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="59" align="left" valign="middle" bgcolor="#FFFFFF" class="bodytext"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td width="16%" rowspan="3" align="right" class="Estilo53" ><strong><em>f'<span class="epigrafe">(x)</span> =</em></strong></td>
+      <td width="9%" align="center" valign="bottom" class="bodytext" font style="line-height: 10%;"><em><strong>lím</strong></em></td>
+      <td width="3%" rowspan="3" align="right" valign="middle" class="bodytext Estilo16">&nbsp;</td>
+      <td width="31%" height="18" align="center" valign="bottom" class="bodytext"font style="line-height: 10%; "><strong><em>3 (x<strong>+&#916x</strong>) + 4</em></strong><em><strong><em><strong> &mdash;</strong></em> <em>3x <strong>&mdash;</strong> 4</em></strong></em></td>
+      <td width="41%" rowspan="3" align="left" valign="middle" class="bodytext Estilo16">&nbsp;</td>
+    </tr>
+    <tr>
+      <td align="center" valign="middle" class="bodytext"><hr align="center" width="100%" style="color:white" size="1" noshade></td>
+      <td height="5" align="center" valign="middle" class="bodytext"><hr align="center" width="100%" style="color:black" size="1" noshade></td>
+    </tr>
+    <tr>
+      <td align="center" valign="top" class="epigrafe" font style="line-height: 10%; "><em><strong>&#916x</strong></em><span class="Estilo10">&rarr;</span><em><strong>0</strong></em></td>
+      <td height="16" align="center" valign="top" class="bodytext" font style="line-height: 10%; "><em><strong>&#916x</strong></em></td>
+    </tr>
+  </table></td>
+  <td class="bodytext">&nbsp;</td>
+  <td align="center" valign="middle" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="59" align="left" valign="middle" bgcolor="#FFFFFF" class="bodytext"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td width="16%" rowspan="3" align="right" class="Estilo53" ><strong><em>f'<span class="epigrafe">(x)</span> =</em></strong></td>
+      <td width="9%" align="center" valign="bottom" class="bodytext" font style="line-height: 10%;"><em><strong>lím</strong></em></td>
+      <td width="3%" rowspan="3" align="right" valign="middle" class="bodytext Estilo16">&nbsp;</td>
+      <td width="21%" height="18" align="center" valign="bottom" class="bodytext"font style="line-height: 10%; "><strong><em>3x<strong> +3 &#916x</strong></em></strong><em><strong><em><strong> &mdash;</strong></em> <em>3x</em></strong></em></td>
+      <td width="51%" rowspan="3" align="left" valign="middle" class="bodytext Estilo16">&nbsp;</td>
+    </tr>
+    <tr>
+      <td align="center" valign="middle" class="bodytext"><hr align="center" width="100%" style="color:white" size="1" noshade></td>
+      <td height="5" align="center" valign="middle" class="bodytext"><hr align="center" width="100%" style="color:black" size="1" noshade></td>
+    </tr>
+    <tr>
+      <td align="center" valign="top" class="epigrafe" font style="line-height: 10%; "><em><strong>&#916x</strong></em><span class="Estilo10">&rarr;</span><em><strong>0</strong></em></td>
+      <td height="16" align="center" valign="top" class="bodytext" font style="line-height: 10%; "><em><strong>&#916x</strong></em></td>
+    </tr>
+  </table></td>
+  <td class="bodytext">&nbsp;</td>
+  <td align="center" valign="middle" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="59" align="left" valign="middle" bgcolor="#FFFFFF" class="bodytext"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td width="16%" rowspan="3" align="right" class="Estilo53" ><strong><em>f'<span class="epigrafe">(x)</span> =</em></strong></td>
+      <td width="9%" align="center" valign="bottom" class="bodytext" font style="line-height: 10%;"><em><strong>lím</strong></em></td>
+      <td width="2%" rowspan="3" align="right" valign="middle" class="bodytext Estilo16">&nbsp;</td>
+      <td width="8%" height="18" align="center" valign="bottom" class="bodytext"font style="line-height: 10%; "><strong><em><strong>3 &#916x</strong></em></strong></td>
+      <td width="65%" rowspan="3" align="left" valign="middle" class="bodytext Estilo16">&nbsp;</td>
+    </tr>
+    <tr>
+      <td align="center" valign="middle" class="bodytext"><hr align="center" width="100%" style="color:white" size="1" noshade></td>
+      <td height="5" align="center" valign="middle" class="bodytext"><hr align="center" width="100%" style="color:black" size="1" noshade></td>
+    </tr>
+    <tr>
+      <td align="center" valign="top" class="epigrafe" font style="line-height: 10%; "><em><strong>&#916x</strong></em><span class="Estilo10">&rarr;</span><em><strong>0</strong></em></td>
+      <td height="16" align="center" valign="top" class="bodytext" font style="line-height: 10%; "><em><strong>&#916x</strong></em></td>
+    </tr>
+  </table></td>
+  <td class="bodytext">&nbsp;</td>
+  <td align="center" valign="middle" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="59" align="left" valign="middle" bgcolor="#FFFFFF" class="bodytext"><table width="100%" border="0">
+    <tr>
+      <td width="10%" height="42" class="bodytext">&nbsp;</td>
+      <td width="56%" align="center" bgcolor="#CCCCCC" class="bodytext"><strong><em>f'<span class="epigrafe">(x)</span> =</em></strong><em><strong> 3</strong></em></td>
+      <td width="34%" align="center" class="bodytext"><strong>a)</strong></td>
+    </tr>
+  </table></td>
+  <td class="bodytext">&nbsp;</td>
+  <td align="center" valign="middle" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="33" align="left" valign="middle" bgcolor="#FFFFFF" class="bodytext"><p>Fijate que llegás al mismo resultado al que llegarías aplicando la regla de derivación polinomial (era de esperarse).</p>
+    <p>Vamos con el siguiente. La función en un <em><strong>x </strong></em>cualquiera vale<strong><em> x<strong><em>&sup2;</em></strong></em></strong>, y con un pequeño incremento de <em><strong>x</strong></em>, <strong><em>(x<strong>+&#916x</strong>)<strong><em>&sup2;</em></strong></em></strong>. Entonces:</p></td>
+  <td class="bodytext">&nbsp;</td>
+  <td align="center" valign="middle" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="57" align="left" valign="middle" bgcolor="#FFFFFF" class="bodytext"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td width="16%" rowspan="3" align="right" class="Estilo53" ><strong><em>f'<span class="epigrafe">(x)</span> =</em></strong></td>
+      <td width="9%" align="center" valign="bottom" class="bodytext" font style="line-height: 10%;"><em><strong>lím</strong></em></td>
+      <td width="2%" rowspan="3" align="right" valign="middle" class="bodytext Estilo16">&nbsp;</td>
+      <td width="20%" height="18" align="center" valign="bottom" class="bodytext"font style="line-height: 10%; "><strong><em>(x<strong>+&#916x</strong>)<strong><em>&sup2;</em></strong></em></strong><em><strong><em><strong> &mdash;</strong></em><em>x<strong><em>&sup2;</em></strong></em></strong></em></td>
+      <td width="53%" rowspan="3" align="left" valign="middle" class="bodytext Estilo16">&nbsp;</td>
+    </tr>
+    <tr>
+      <td align="center" valign="middle" class="bodytext"><hr align="center" width="100%" style="color:white" size="1" noshade></td>
+      <td height="5" align="center" valign="middle" class="bodytext"><hr align="center" width="100%" style="color:black" size="1" noshade></td>
+    </tr>
+    <tr>
+      <td align="center" valign="top" class="epigrafe" font style="line-height: 10%; "><em><strong>&#916x</strong></em><span class="Estilo10">&rarr;</span><em><strong>0</strong></em></td>
+      <td height="16" align="center" valign="top" class="bodytext" font style="line-height: 10%; "><em><strong>&#916x</strong></em></td>
+    </tr>
+  </table></td>
+  <td class="bodytext">&nbsp;</td>
+  <td align="center" valign="middle" class="bodytext">&nbsp;</td>
+</tr>
+
+<tr>
+  <td height="51" align="left" valign="middle" bgcolor="#FFFFFF" class="bodytext"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td width="16%" rowspan="3" align="right" class="Estilo53" ><strong><em>f'<span class="epigrafe">(x)</span> =</em></strong></td>
+      <td width="9%" align="center" valign="bottom" class="bodytext" font style="line-height: 10%;"><em><strong>lím</strong></em></td>
+      <td width="2%" rowspan="3" align="right" valign="middle" class="bodytext Estilo16">&nbsp;</td>
+      <td width="31%" height="18" align="center" valign="bottom" class="bodytext"font style="line-height: 10%; "><strong><em>x<strong><em>&sup2;</em></strong><strong>+ 2 x <em><strong>&#916x</strong></em> + &#916x</strong><strong><em>&sup2;</em></strong></em></strong><em><strong><em><strong> &mdash; </strong></em><em>x<strong><em>&sup2;</em></strong></em></strong></em></td>
+      <td width="42%" rowspan="3" align="left" valign="middle" class="bodytext Estilo16">&nbsp;</td>
+    </tr>
+    <tr>
+      <td align="center" valign="middle" class="bodytext"><hr align="center" width="100%" style="color:white" size="1" noshade></td>
+      <td height="5" align="center" valign="middle" class="bodytext"><hr align="center" width="100%" style="color:black" size="1" noshade></td>
+    </tr>
+    <tr>
+      <td align="center" valign="top" class="epigrafe" font style="line-height: 10%; "><em><strong>&#916x</strong></em><span class="Estilo10">&rarr;</span><em><strong>0</strong></em></td>
+      <td height="16" align="center" valign="top" class="bodytext" font style="line-height: 10%; "><em><strong>&#916x</strong></em></td>
+    </tr>
+  </table></td>
+  <td class="bodytext">&nbsp;</td>
+  <td width="87" align="center" valign="middle" class="bodytext"><p>&nbsp;</p></td>
+</tr>
+<tr>
+  <td height="59" align="left" valign="middle" bgcolor="#FFFFFF" class="bodytext"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td width="16%" rowspan="3" align="right" class="Estilo53" ><strong><em>f'<span class="epigrafe">(x)</span> =</em></strong></td>
+      <td width="9%" align="center" valign="bottom" class="bodytext" font style="line-height: 10%;"><em><strong>lím</strong></em></td>
+      <td width="2%" rowspan="3" align="right" valign="middle" class="bodytext Estilo16">&nbsp;</td>
+      <td width="20%" height="18" align="center" valign="bottom" class="bodytext"font style="line-height: 10%; "><strong><em><strong>2 x <em><strong>&#916x</strong></em> + &#916x</strong><strong><em>&sup2;</em></strong></em></strong></td>
+      <td width="53%" rowspan="3" align="left" valign="middle" class="bodytext Estilo16">&nbsp;</td>
+    </tr>
+    <tr>
+      <td align="center" valign="middle" class="bodytext"><hr align="center" width="100%" style="color:white" size="1" noshade></td>
+      <td height="5" align="center" valign="middle" class="bodytext"><hr align="center" width="100%" style="color:black" size="1" noshade></td>
+    </tr>
+    <tr>
+      <td align="center" valign="top" class="epigrafe" font style="line-height: 10%; "><em><strong>&#916x</strong></em><span class="Estilo10">&rarr;</span><em><strong>0</strong></em></td>
+      <td height="16" align="center" valign="top" class="bodytext" font style="line-height: 10%; "><em><strong>&#916x</strong></em></td>
+    </tr>
+  </table></td>
+  <td class="bodytext">&nbsp;</td>
+  <td align="center" valign="middle" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="21" align="left" valign="middle" bgcolor="#FFFFFF" class="bodytext">Sigamos, no temas:</td>
+  <td class="bodytext">&nbsp;</td>
+  <td align="center" valign="middle" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="59" align="left" valign="middle" bgcolor="#FFFFFF" class="bodytext"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td width="16%" rowspan="3" align="right" class="Estilo53" ><strong><em>f'<span class="epigrafe">(x)</span> =</em></strong></td>
+      <td width="9%" align="center" valign="bottom" class="bodytext" font style="line-height: 10%;"><em><strong>lím</strong></em></td>
+      <td width="3%" rowspan="3" align="right" valign="middle" class="bodytext Estilo16">(</td>
+      <td width="9%" height="18" align="center" valign="bottom" class="bodytext"font style="line-height: 10%; "><strong><em><strong>2 x <em><strong>&#916x</strong></em></strong></em></strong></td>
+      <td width="3%" rowspan="3" align="center" valign="middle" class="bodytext">+</td>
+      <td width="6%" align="center" valign="bottom" class="bodytext"font style="line-height: 10%; "><strong><em><strong><em><strong>&#916x<em><strong><em>&sup2;</em></strong></em></strong></em></strong></em></strong></td>
+      <td width="35%" rowspan="3" align="left" valign="middle" class="bodytext Estilo16">)</td>
+      <td width="19%" rowspan="3" align="left" valign="middle" class="bodytext Estilo16">&nbsp;</td>
+    </tr>
+    <tr>
+      <td align="center" valign="middle" class="bodytext"><hr align="center" width="100%" style="color:white" size="1" noshade></td>
+      <td height="5" align="center" valign="middle" class="bodytext"><hr align="center" width="100%" style="color:black" size="1" noshade></td>
+      <td align="center" valign="middle" class="bodytext"><hr align="center" width="100%" style="color:black" size="1" noshade></td>
+    </tr>
+    <tr>
+      <td align="center" valign="top" class="epigrafe" font style="line-height: 10%; "><em><strong>&#916x</strong></em><span class="Estilo10">&rarr;</span><em><strong>0</strong></em></td>
+      <td height="16" align="center" valign="top" class="bodytext" font style="line-height: 10%; "><em><strong>&#916x</strong></em></td>
+      <td align="center" valign="top" class="bodytext" font style="line-height: 10%; "><em><strong>&#916x</strong></em></td>
+    </tr>
+  </table></td>
+  <td class="bodytext">&nbsp;</td>
+  <td align="center" valign="middle" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="59" align="left" valign="middle" bgcolor="#FFFFFF" class="bodytext"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td width="16%" rowspan="3" align="right" class="Estilo53" ><strong><em>f'<span class="epigrafe">(x)</span> =</em></strong></td>
+      <td width="9%" align="center" valign="bottom" class="bodytext" font style="line-height: 10%;"><em><strong>lím</strong></em></td>
+      <td width="2%" rowspan="3" align="right" valign="middle" class="bodytext Estilo16">(</td>
+      <td width="10%" height="18" align="center" valign="bottom" class="bodytext"font style="line-height: 10%; "><strong><em><strong>2 x <em><strong>&#916x</strong></em></strong></em></strong></td>
+      <td width="8%" rowspan="3" align="center" valign="middle" class="bodytext">+<strong><em><strong><em><strong> &#916x</strong></em></strong></em></strong><span class="bodytext Estilo16">)</span></td>
+      <td width="32%" rowspan="3" align="left" valign="middle" class="bodytext Estilo16">&nbsp;</td>
+      <td width="23%" rowspan="3" align="left" valign="middle" class="bodytext Estilo16">&nbsp;</td>
+    </tr>
+    <tr>
+      <td align="center" valign="middle" class="bodytext"><hr align="center" width="100%" style="color:white" size="1" noshade></td>
+      <td height="5" align="center" valign="middle" class="bodytext"><hr align="center" width="100%" style="color:black" size="1" noshade></td>
+      </tr>
+    <tr>
+      <td align="center" valign="top" class="epigrafe" font style="line-height: 10%; "><em><strong>&#916x</strong></em><span class="Estilo10">&rarr;</span><em><strong>0</strong></em></td>
+      <td height="16" align="center" valign="top" class="bodytext" font style="line-height: 10%; "><em><strong>&#916x</strong></em></td>
+      </tr>
+  </table></td>
+  <td class="bodytext">&nbsp;</td>
+  <td align="center" valign="middle" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="67" align="left" valign="middle" bgcolor="#FFFFFF" class="bodytext"><table width="100%" border="0">
+    <tr>
+      <td width="10%" height="42" class="bodytext">&nbsp;</td>
+      <td width="56%" align="center" bgcolor="#CCCCCC" class="bodytext"><strong><em>f'<span class="epigrafe">(x)</span> =</em></strong> <strong><em><strong>2x<em><strong><em></em></strong></em></strong></em></strong></td>
+      <td width="34%" align="center" class="bodytext"><strong>b)</strong></td>
+    </tr>
+  </table></td>
+  <td class="bodytext">&nbsp;</td>
+  <td align="center" valign="middle" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="43" align="left" valign="middle" bgcolor="#FFFFFF" class="bodytext">Ya lo sabías, ¿no? Vamos con el tercero. La función en un <em><strong>x </strong></em>cualquiera vale<strong><em> 1/x</em></strong>, y con un pequeño incremento de <em><strong>x</strong></em>, <strong><em>1/(x<strong>+&#916x</strong>)</em></strong>. Entonces:</td>
+  <td class="bodytext">&nbsp;</td>
+  <td align="center" valign="middle" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="78" align="left" valign="middle" bgcolor="#FFFFFF" class="bodytext"><table width="100%" height="61" border="0" cellpadding="0" cellspacing="0">
+    <tr>
+      <td width="16%" rowspan="3" align="right" class="Estilo53" ><strong><em>f'<span class="epigrafe">(x)</span> =</em></strong></td>
+      <td width="9%" align="center" valign="bottom" class="bodytext" font style="line-height: 10%;"><em><strong>lím</strong></em></td>
+      <td width="2%" rowspan="3" align="right" valign="middle" class="bodytext Estilo16">&nbsp;</td>
+      <td width="23%" height="28" align="center" valign="bottom" class="bodytext"font style="line-height: 10%; "><table width="78%" height="25" border="0" cellpadding="0" cellspacing="0">
+        <tr>
+          <td width="46%" align="center" valign="bottom" class="bodytext" font style="line-height: 10%;"><em><strong>1</strong></em></td>
+          <td width="25%" rowspan="3" align="center" valign="middle" class="Estilo53"><em><strong><em><strong>&mdash;</strong></em></strong></em></td>
+          <td width="29%" height="10" align="center" valign="bottom" class="bodytext"font style="line-height: 10%; "><em><strong>1</strong></em></td>
+        </tr>
+        <tr>
+          <td align="center" valign="middle" class="bodytext"><hr align="center" width="100%" style="color:black" size="1" noshade></td>
+          <td height="5" align="center" valign="middle" class="bodytext"><hr align="center" width="100%" style="color:black" size="1" noshade></td>
+        </tr>
+        <tr>
+          <td align="center" valign="top" class="bodytext" font style="line-height: 10%; "><em><strong><em><strong><em><strong>x</strong></em>+<em><strong>&#916x</strong></em></strong></em></strong></em></td>
+          <td height="8" align="center" valign="top" class="bodytext" font style="line-height: 10%; "><em><strong>x</strong></em></td>
+        </tr>
+      </table></td>
+      <td width="50%" rowspan="3" align="left" valign="middle" class="bodytext Estilo16">&nbsp;</td>
+    </tr>
+    <tr>
+      <td align="center" valign="middle" class="bodytext"><hr align="center" width="100%" style="color:white" size="1" noshade></td>
+      <td height="5" align="center" valign="middle" class="bodytext"><hr align="center" width="100%" style="color:black" size="1" noshade></td>
+    </tr>
+    <tr>
+      <td align="center" valign="top" class="epigrafe" font style="line-height: 10%; "><em><strong>&#916x</strong></em><span class="Estilo10">&rarr;</span><em><strong>0</strong></em></td>
+      <td height="28" align="center" valign="top" class="bodytext" font style="line-height: 10%; "><em><strong>&#916x</strong></em></td>
+    </tr>
+  </table></td>
+  <td class="bodytext">&nbsp;</td>
+  <td align="center" valign="middle" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="78" align="left" valign="middle" bgcolor="#FFFFFF" class="bodytext"><table width="100%" height="61" border="0" cellpadding="0" cellspacing="0">
+    <tr>
+      <td width="16%" rowspan="3" align="right" class="Estilo53" ><strong><em>f'<span class="epigrafe">(x)</span> =</em></strong></td>
+      <td width="9%" align="center" valign="bottom" class="bodytext" font style="line-height: 10%;"><em><strong>lím</strong></em></td>
+      <td width="2%" rowspan="3" align="right" valign="middle" class="bodytext Estilo16">&nbsp;</td>
+      <td width="24%" height="28" align="center" valign="bottom" class="bodytext"font style="line-height: 10%; "><table width="76%" height="26" border="0" cellpadding="0" cellspacing="0">
+          <tr>
+            <td width="44%" height="10" align="center" valign="bottom" class="bodytext" style="line-height: 10%;" font><em><strong>X <em><strong>&mdash;</strong></em> X <em><strong>&mdash;</strong></em> &#916x</strong></em></td>
+            </tr>
+          <tr>
+            <td height="5" align="center" valign="middle" class="bodytext"><hr align="center" width="100%" style="color:black" size="1" noshade></td>
+            </tr>
+          <tr>
+            <td height="8" align="center" valign="top" class="bodytext" style="line-height: 10%; " font><em><strong><em><strong><em><strong>X (x</strong></em>+<em><strong>&#916x)</strong></em></strong></em></strong></em></td>
+            </tr>
+      </table></td>
+      <td width="49%" rowspan="3" align="left" valign="middle" class="bodytext Estilo16">&nbsp;</td>
+    </tr>
+    <tr>
+      <td align="center" valign="middle" class="bodytext"><hr align="center" width="100%" style="color:white" size="1" noshade></td>
+      <td height="5" align="center" valign="middle" class="bodytext"><hr align="center" width="100%" style="color:black" size="1" noshade></td>
+    </tr>
+    <tr>
+      <td align="center" valign="top" class="epigrafe" font style="line-height: 10%; "><em><strong>&#916x</strong></em><span class="Estilo10">&rarr;</span><em><strong>0</strong></em></td>
+      <td height="28" align="center" valign="top" class="bodytext" font style="line-height: 10%; "><em><strong>&#916x</strong></em></td>
+    </tr>
+  </table></td>
+  <td class="bodytext">&nbsp;</td>
+  <td align="center" valign="middle" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="54" align="left" valign="middle" bgcolor="#FFFFFF" class="bodytext"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td width="16%" rowspan="3" align="right" class="Estilo53" ><strong><em>f'<span class="epigrafe">(x)</span> =</em></strong></td>
+      <td width="9%" align="center" valign="bottom" class="bodytext" font style="line-height: 10%;"><em><strong>lím</strong></em></td>
+      <td width="2%" rowspan="3" align="right" valign="middle" class="bodytext Estilo16">&nbsp;</td>
+      <td width="15%" height="18" align="center" valign="bottom" class="bodytext"font style="line-height: 10%; "><strong><em><strong>1</strong><strong><em></em></strong></em></strong></td>
+      <td width="58%" rowspan="3" align="left" valign="middle" class="bodytext Estilo16">&nbsp;</td>
+    </tr>
+    <tr>
+      <td align="center" valign="middle" class="bodytext"><hr align="center" width="100%" style="color:white" size="1" noshade></td>
+      <td height="5" align="center" valign="middle" class="bodytext"><hr align="center" width="100%" style="color:black" size="1" noshade></td>
+    </tr>
+    <tr>
+      <td align="center" valign="top" class="epigrafe" font style="line-height: 10%; "><em><strong>&#916x</strong></em><span class="Estilo10">&rarr;</span><em><strong>0</strong></em></td>
+      <td height="16" align="center" valign="top" class="bodytext" font style="line-height: 10%; "><strong><em><strong>x</strong><strong><em>&sup2;<strong><em><strong>&mdash;</strong></em></strong> x<strong>&#916x</strong></em></strong></em></strong></td>
+    </tr>
+  </table></td>
+  <td class="bodytext">&nbsp;</td>
+  <td align="center" valign="middle" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="78" align="left" valign="middle" bgcolor="#FFFFFF" class="bodytext"><table width="100%" border="0">
+    <tr>
+      <td width="10%" height="42" class="bodytext">&nbsp;</td>
+      <td width="56%" align="center" bgcolor="#CCCCCC" class="bodytext"><strong><em>f'<span class="epigrafe">(x)</span> =</em></strong> <strong><em><strong><em><strong>&mdash;</strong></em> 1/x<em><strong><em>&sup2;</em></strong></em></strong></em></strong></td>
+      <td width="34%" align="center" class="bodytext"><strong>C)</strong></td>
+    </tr>
+  </table></td>
+  <td class="bodytext">&nbsp;</td>
+  <td align="center" valign="middle" class="bodytext">&nbsp;</td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+  <td height="30" align="left" valign="middle" bgcolor="#FFFFFF" class="bodytext"><strong>DESAFIO</strong>: Derivá por definición <strong><em>f(x) = 2x&sup3; + 3x<strong><em><strong><em>&sup2;</em></strong></em></strong> + 4</em> </strong>(no te lo pediría si no supusiera que sos capaz de hacerlo).</td>
+  <td class="bodytext">&nbsp;</td>
+  <td width="87" rowspan="4" align="center" valign="bottom" class="bodytext"><strong><em><sub><img src="img_ana/ric_mate.gif" alt="Magnetismo - Ricardo Cabrera" width="85" height="124"></sub></em></strong></td>
+</tr>
+
+<tr>
+  <td height="14" align="left" valign="top" bgcolor="#FFFFFF" class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+  </tr>
+<tr>
+  <td bgcolor="#FFFFFF" class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+  </tr>
+<tr> <td align="center" valign="middle" bgcolor="#CCCCCC" class="bodytext"><table width="94%" border="0">
+  <tr>
+    <td class="epigrafe">Algunos derechos reservados. 
+      Se permite su reproducci&oacute;n citando la fuente. &Uacute;ltima actualizaci&oacute;n mar-16.  Buenos Aires, Argentina.</td>
+  </tr>
+</table>  </td>
+  <td class="bodytext" width="4">&nbsp;</td>
+  </tr> 
+<tr> <td height="18" class="bodytext">&nbsp;</td><td class="bodytext" width="4">&nbsp;</td>
+<td class="bodytext" width="87">&nbsp;</td>
+</tr> 
+</table></td></tr> </table><img src="img_ana/transparente.gif" width="20" height="20"></td>
+</tr> 
+<tr> <td class="bodytext"><img src="img_ana/transparente.gif" width="20" height="20"></td>
+</tr> 
+</table>
+</body>
+</html>

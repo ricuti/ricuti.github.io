@@ -1,0 +1,147 @@
+<html>
+<head>
+<title>MECANICA DE FLUIDOS, F033, fisica online, ejercicios resueltos</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="keywords" content="problemas resueltos, ejercicios resueltos, cbc, fisica, biofisica, fluidos, liquidos, gases, bernoulli, poiseuille, viscosidad, ideales, viscosos, humedad, difusion, osmosis, nomesalen, no me salen, ricardo cabrera" />
+<meta name="description" content="Ejercicios y problemas resueltos, y apuntes teóricos de Fluidos, mecanismos de transporte de fluidos" />
+<link rel="stylesheet" href="win_ie.css">
+<style type="text/css">
+<!--
+.style1 {
+	color: #3F6386;
+	font-weight: bold;
+}
+.Estilo3 {color: #3F6386}
+.Estilo16 {font-size: 16px}
+.Estilo17 {font-size: 10px}
+.Estilo19 {font-size: 10px; font-weight: bold; font-style: italic; }
+-->
+</style>
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000" alink="#000000" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<table align=center width="600" border="0" cellspacing="0" cellpadding="0"> 
+  <tr bgcolor="#000000" align="right"> 
+<td><img src="img_flu/nombre5.gif" width="369" height="71"></td></tr> <tr bgcolor="#BB0000" valign="middle" align="left"> 
+<td class="bodytext" height="20"><TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+  <TR ALIGN="center" CLASS="menuitem">
+    <TD WIDTH="44" height="19" CLASS="menuitem"><A HREF="../../index.html" CLASS="menuitem">&nbsp;<B>home</B>&nbsp;</A></TD>
+    <TD WIDTH="5" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="102" CLASS="menuitem"><strong><a href="index_fluidos.html" class="menuitem">m&aacute;s de fluidos </a> </strong></TD>
+    <TD width="5" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="136" CLASS="menuitem"><strong><a href="../../intro_NMS.html" class="menuitem">otros temas de F&iacute;sica</a></strong></TD>
+    <TD width="10" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="173" CLASS="menuitem"><strong><a href="../../lista_ciruela.html" class="menuitem">lecciones del maestro Ciruela </a></strong></TD>
+    <TD width="9" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="68" CLASS="menuitem"><strong><a href="../../lista_tonterias.html" class="menuitem">tonter&iacute;as</a></strong></TD>
+    <TD WIDTH="8" CLASS="menuitem"><a href="../energia/index_energia.html" class="menuitem"></a><FONT COLOR="#000000">|</FONT></TD>
+    <TD WIDTH="40" CLASS="menuitem">&nbsp;<B><FONT FACE="Arial, Helvetica, sans-serif"><A HREF="mailto: ricuti@qi.fcen.uba.ar" CLASS="menuitem">@</A></FONT><A HREF="../../index.html" CLASS="menuitem"></A></B>&nbsp;</TD>
+  </TR>
+</TABLE></td></tr> <tr> <td class="bodytext" height="19"><img src="img_flu/transparente.gif" width="600" height="20"></td></tr> 
+<tr align="center"> <td height="875"> <table width="600" border="0" cellspacing="0" cellpadding="0"> 
+<tr class="bodytext"> <td valign="top" width="594" height="855"> 
+<table width="600" border="0" cellspacing="0" cellpadding="0"> <tr> 
+  <td height="74" colspan="2" bgcolor="#D7FFFF" class="bodytext"><span class="bodytext"><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>NO ME SALEN<br>
+</strong></span><span class="Estilo3"><em class="bodytext "><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>(<strong>PROBLEMAS RESUELTOS   DE BIOF&Iacute;SICA DEL CBC</strong>)</strong></em></span><br>
+      <span class="titulograndegris Estilo16"><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>FLUIDOS<br>
+      </strong></span><br> </td>
+  <td class="bodytext" rowspan="3" height="74" width="4">&nbsp;</td>
+  <td class="bodytext" height="74" rowspan="3" valign="top" width="87"> 
+<p><img src="img_flu/cap6.jpg" alt="desesperado" width="85" height="114"></p></td></tr>
+  <tr>
+    <td height="18" colspan="2" bgcolor="#FFFFFF" class="bodytext">&nbsp;</td>
+  </tr> 
+<tr> <td width="74" height="105" valign="top" class="bodytext"><P><img src="img_flu/BIOFISICA.jpg" width="65" height="90"></P>
+    </td>
+  <td width="435" class="bodytext"><p class="bodytext"><strong>33) En una habitaci&oacute;n de 60 m<em><em><sup>3</sup></em></em> y que contiene aire seco a 25 <em>º</em>C, se introducen 300 gr de vapor de agua a la misma temperatura. <br>
+&#160;&#160;a) &iquest;Cu&aacute;l es la humedad absoluta? <br>
+&#160;&#160;b) &iquest;Cu&aacute;nto vale la humedad relativa?<br>
+&#160;&#160;c) &iquest;Qu&eacute; masa m&aacute;xima de vapor de agua admite ese ambiente, si se mantiene constante la temperatura?<br>
+Dato de tablas: a 25 <em><strong>º</strong></em>C la presi&oacute;n de vapor de agua es 3,17 kPa. </strong></p>    </td>
+</tr>
+<tr>
+  <td height="153" colspan="2" class="bodytext"><p>El concepto de humedad absoluta alude a la cantidad de vapor de agua presente en un determinado volumen. Se puede medir en cualesquiera unidades que reflejen esa cantidad. Una de las m&aacute;s utilizadas es gramos sobre metro c&uacute;bico. En este caso contamos con los datos necesarios para hacer el c&aacute;lculo en forma inmediata, sin ning&uacute;n procesamiento anterior.</p>
+    <blockquote>
+      <p><em><strong>H<sub>abs </sub>= m<sub>vap</sub>  / V<sub>tot</sub> </strong></em></p>
+      <p><em><strong>H<sub>abs </sub>= 300 <span class="Estilo17">gr</span>  / 60 </strong></em><em><strong><em><strong><span class="Estilo19">m<sup>3</sup></span></strong></em></strong></em></p>
+    </blockquote></td>
+  <td class="bodytext" height="153">&nbsp;</td>
+  <td class="bodytext" height="153" valign="top">&nbsp;</td>
+</tr>  
+<tr> 
+  <td height="54" colspan="2" align="center" valign="middle" class="bodytext"><table width="67%" border="0">
+    <tr>
+      <td height="31" bgcolor="#CCCCCC"><p class="bodytext"><em><strong><strong>&#160;&#160; &#160;&#160; &#160;&#160; &#160;</strong>H<sub>abs </sub>= 5 <span class="Estilo17">gr</span></strong></em><strong>/</strong><em><strong><em><strong><span class="Estilo19">m<sup>3</sup></span></strong></em></strong></em></p></td>
+    </tr>
+  </table>    </td>
+  <td class="bodytext" width="4">&nbsp;</td>
+  <td class="bodytext" width="87">&nbsp;</td>
+</tr>
+<tr>
+  <td height="375" colspan="2" align="left" valign="middle" class="bodytext"><p>Ahora calculo la humedad relativa; para eso necesito conocer cu&aacute;nto vale la presi&oacute;n parcial que ejercen los <em><strong>300 <span class="Estilo17">gr</span></strong></em> introducidos. La ecuaci&oacute;n de estado de los gases ideales me lo puede decir, pero s&oacute;lo acepta masas medidas en moles. Con una simple regla de tres (la regla del almacenero)...</p>
+    <blockquote>
+      <p><em><strong>18 <span class="Estilo17">gr</span><sub>agua</sub></strong></em> <strong><span class="Estilo10"><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong><strong><em><strong><strong>____________&#160; &#160;</strong></strong></em></strong></span><em>1 <span class="Estilo17">mol</span> </em></strong></p>
+      <p><em><strong>300 <span class="Estilo17">gr</span><sub>agua</sub><span class="Estilo10"><strong><em><strong><strong>&#160;&#160;</strong></strong></em></strong></span></strong></em><em><strong><span class="Estilo10"><strong><em><strong><strong>____________&#160; &#160;16,7 <span class="Estilo17">moles</span></strong></strong></em></strong></span></strong></em></p>
+      </blockquote>
+    <p>Ahora s&iacute;, vamos a la ecuaci&oacute;n de estado... <em><strong>P V = n R T </strong></em></p>
+    <blockquote>
+      <p><em><strong>P<sub>pvap</sub> = n R T / V </strong></em></p>
+      <p><em><strong>P<sub>pvap</sub> = <strong><em><strong><strong>16,7 <em><strong><strong><span class="Estilo17">moles</span></strong></strong></em></strong></strong></em></strong> 8,314 <span class="Estilo17">J </span><strong><em><strong><strong><span class="Estilo17">moles</span></strong><em><strong><sup>-1</sup></strong></em></strong></em></strong> K<em><strong><sup>-1</sup></strong></em> 298 K / 60 </strong></em><em><strong><em><strong><span class="Estilo19">m<sup>3</sup></span></strong></em></strong></em></p>
+      <p><em><strong>P<sub>pvap</sub> = <strong><em><strong><strong>0,</strong></strong></em></strong></strong></em><em><strong><strong><em><strong><strong>69 <em><strong><strong><span class="Estilo17">kPa</span></strong></strong></em></strong></strong></em></strong></strong></em></p>
+      </blockquote>
+    <p>Esa es la presi&oacute;n parcial del vapor presente en la habitaci&oacute;n, los <em><strong>300 <span class="Estilo17">gr</span></strong></em>. Ahora s&iacute;, la humedad relativa es:</p>
+    <blockquote>
+      <p><em><strong>H<sub>R </sub>= P<sub>pvap</sub> / P<sub>sat</sub></strong></em> </p>
+      <p><em><strong>H<sub>R </sub>=  <strong><em><strong><strong>0,</strong></strong></em></strong></strong></em><em><strong><strong><em><strong><strong>69 <em><strong><strong><span class="Estilo17">kPa</span></strong></strong></em></strong></strong></em></strong> </strong></em><em><strong>/ 3,17 <strong><em><strong><strong><em><strong><strong><span class="Estilo17">kPa</span></strong></strong></em></strong></strong></em></strong></strong></em></p>
+    </blockquote>    </td>
+  <td height="375" align="left" valign="middle" class="bodytext">&nbsp;</td>
+  <td height="375" align="left" valign="middle" class="bodytext">&nbsp;</td>
+  </tr>
+
+<tr>
+  <td height="54" colspan="2" align="center" valign="middle" class="bodytext"><table width="70%" border="0">
+    <tr>
+      <td height="31" bgcolor="#CCCCCC"><p class="bodytext"><em><strong><strong>&#160;&#160; &#160;&#160; &#160;&#160; &#160;</strong>H<sub>R </sub>= <strong><em><strong><strong>0,22</strong></strong></em></strong><span class="Estilo10"><strong><em><strong><strong>&#160;&#160; &#160;&#160; &#160;</strong></strong></em></strong></span></strong></em><strong><span class="Estilo10">&rarr;</span></strong><em><strong><span class="Estilo10"><strong><em><strong><strong> &#160;&#160; &#160;&#160; &#160;</strong></strong></em></strong></span>H<sub>R% </sub>= <strong><em><strong><strong>22%</strong></strong></em></strong><span class="Estilo10"><strong><em><strong><strong>&#160;</strong></strong></em></strong></span></strong></em></p></td>
+    </tr>
+  </table></td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="92" colspan="2" align="left" valign="middle" class="bodytext"><p>La m&aacute;xima masa de vapor admitida (como vapor) es justamente aquella cuya presi&oacute;n es la presi&oacute;n de saturaci&oacute;n, o sea, <em><strong>3,17 <strong><em><strong><strong><em><strong><strong><span class="Estilo17">kPa</span></strong></strong></em></strong></strong></em></strong></strong></em>. Para saber qu&eacute; masa representa hay que desandar el mismo camino que recorrimos antes con la masa de vapor introducida: <em><strong>3,17 <strong><em><strong><strong><em><strong><strong><span class="Estilo17">kPa</span></strong></strong></em></strong></strong></em></strong></strong></em> son <em><strong>76,7</strong></em> moles, a <em><strong>18</strong></em> gramos cada uno alcanzan los <em><strong>1.380</strong></em> gramos; si le restamos los trescientos ya introducidos, todav&iacute;a podemos a&ntilde;adir <em><strong>1.080</strong></em> gramos m&aacute;s. </p>    </td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="18" colspan="2" align="left" class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="32" colspan="2" align="left" class="bodytext"><p><strong>DESAF&Iacute;O</strong>: &iquest;A cu&aacute;nto habr&iacute;a que reducir la temperatura de la habitaci&oacute;n para alcanzar el punto de roc&iacute;o, es decir, para que las paredes y el piso empiecen a llenarse de gotitas de condensaci&oacute;n? </p>    </td>
+  <td class="bodytext">&nbsp;</td>
+  <td width="87" rowspan="3" valign="bottom" class="bodytext"><img src="../cinematica/img_cin/ric_teclado.jpg" alt="teclado ricardo cabrera" width="85" height="130"></td>
+</tr>
+
+<tr>
+  <td height="18" colspan="2" bgcolor="#FFFFFF" class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+  </tr>
+
+<tr> <td colspan="2" align="center" valign="middle" bgcolor="#CCCCCC" class="bodytext"><table width="91%" border="0">
+  <tr>
+    <td class="epigrafe">Algunos derechos reservados. 
+      Se permite su reproducci&oacute;n citando la fuente. Se recomienda fervientemente su lectura en bibliotecas, escuelas, clubes, reuniones de comisi&oacute;n directiva de entidades ben&eacute;ficas y mal&eacute;ficas. &Uacute;ltima actualizaci&oacute;n oct-07. Buenos Aires, Argentina. </td>
+  </tr>
+</table></td>
+  <td class="bodytext" width="4">&nbsp;</td>
+  </tr> 
+<tr> <td height="18" colspan="2" class="bodytext">&nbsp;</td><td class="bodytext" width="4">&nbsp;</td>
+<td class="bodytext" width="87">&nbsp;</td>
+</tr> 
+</table></td></tr> </table>
+<img src="img_flu/transparente.gif" width="10" height="20"></td></tr> 
+<tr> <td class="bodytext"><img src="img_flu/transparente.gif" width="600" height="20"></td></tr> 
+</table>
+</body>
+</html>

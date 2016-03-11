@@ -1,0 +1,169 @@
+<html>
+<head>
+<title>MECANICA DE FLUIDOS, NMS003, fisica online, ejercicios resueltos</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="keywords" content="problemas resueltos, ejercicios resueltos, cbc, fisica, biofisica, fluidos, liquidos, gases, bernoulli, poiseuille, viscosidad, ideales, viscosos, humedad, difusion, osmosis, nomesalen, no me salen, ricardo cabrera" />
+<meta name="description" content="Ejercicios y problemas resueltos, y apuntes teóricos de Fluidos, mecanismos de transporte de fluidos" />
+<link rel="stylesheet" href="win_ie.css">
+<style type="text/css">
+<!--
+.style1 {
+	color: #3F6386;
+	font-weight: bold;
+}
+.Estilo3 {color: #3F6386}
+.Estilo16 {font-size: 16px}
+.Estilo17 {font-size: 10px}
+.Estilo19 {font-size: 10px; font-weight: bold; font-style: italic; }
+.Estilo20 {font-style: italic; font-size: 10px;}
+-->
+</style>
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000" alink="#000000" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<table align=center width="600" border="0" cellspacing="0" cellpadding="0"> 
+  <tr bgcolor="#000000" align="right"> 
+<td><img src="img_flu/nombre5.gif" width="369" height="71"></td></tr> <tr bgcolor="#BB0000" valign="middle" align="left"> 
+<td class="bodytext" height="20"><TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+  <TR ALIGN="center" CLASS="menuitem">
+    <TD WIDTH="35" height="19" CLASS="menuitem"><A HREF="../../index.html" CLASS="menuitem">&nbsp;<B>home</B>&nbsp;</A></TD>
+    <TD WIDTH="5" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="63" CLASS="menuitem"><strong><a href="../cinematica/index_cinem.html" class="menuitem">cinem&aacute;tica</a></strong></TD>
+    <TD width="5" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="114" CLASS="menuitem"><strong><a href="../dinamica/index_din.html" class="menuitem">din&aacute;mica y est&aacute;tica </a></strong></TD>
+    <TD width="5" CLASS="menuitem"><a href="../cinematica/index_cinem.html"><FONT COLOR="#000000">|</FONT></a></TD>
+    <TD width="45" CLASS="menuitem"><a href="../energia/index_energia.html" class="menuitem"><strong>energ&iacute;a</strong></a></TD>
+    <TD WIDTH="5" CLASS="menuitem"><a href="../energia/index_energia.html" class="menuitem"></a><FONT COLOR="#000000">|</FONT></TD>
+    <TD WIDTH="47" CLASS="menuitem"><font color="#000000"><a href="index_fluidos.html" class="menuitem"><strong>fluidos</strong></a></font></TD>
+    <TD WIDTH="5" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD WIDTH="74" CLASS="menuitem"><strong><a href="../ELECTRICIDAD/index_electr.html" class="menuitem">electricidad</a></strong></TD>
+    <TD WIDTH="5" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD WIDTH="41" CLASS="menuitem"><strong><a href="../TERMO/index_termo.html" class="menuitem">termo</a></strong></TD>
+    <TD WIDTH="5" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD WIDTH="70" CLASS="menuitem"><a href="../miscelanea/miscelanea.html" class="menuitem"><strong>miscel&aacute;nea</strong></a></TD>
+    <TD WIDTH="5" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD WIDTH="19" CLASS="menuitem">&nbsp;<B><FONT FACE="Arial, Helvetica, sans-serif"><A HREF="mailto: ricuti@qi.fcen.uba.ar" CLASS="menuitem">@</A></FONT><A HREF="../../index.html" CLASS="menuitem"></A></B>&nbsp;</TD>
+  </TR>
+</TABLE></td></tr> <tr> <td class="bodytext" height="10"><img src="img_flu/transparente.gif" width="600" height="10"></td>
+</tr> 
+<tr align="center"> <td height="1553"> <table width="600" border="0" cellspacing="0" cellpadding="0"> 
+<tr class="bodytext"> <td colspan="2" valign="top" height="1029"> <img src="img_flu/transparente.gif" width="1" height="1"></td>
+<td valign="top" width="596" height="1029"> 
+<table width="598" border="0" cellspacing="0" cellpadding="0"> <tr> 
+  <td width="504" height="74" bgcolor="#D7FFFF" class="bodytext"><span class="bodytext"><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>NO ME SALEN<br>
+</strong></span><span class="Estilo3"><em class="bodytext "><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>(<strong>PROBLEMAS RESUELTOS   DE BIOF&Iacute;SICA DEL CBC</strong>)</strong></em></span><br>
+      <span class="titulograndegris Estilo16"><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>FLUIDOS<br>
+      </strong></span><span class="titulograndegris Estilo16"><strong><span class="titulochicogris"><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em></strong></span></strong></span><span class="titulochicogris">HIDROST&Aacute;TICA</span><br> </td>
+  <td class="bodytext" rowspan="3" height="74" width="10">&nbsp;</td>
+  <td class="bodytext" height="74" rowspan="3" valign="top" width="82"> 
+<p><img src="img_flu/cap16.jpg" alt="desesperado" width="85" height="128"></p></td></tr>
+  <tr>
+    <td height="18" bgcolor="#FFFFFF" class="bodytext">&nbsp;</td>
+  </tr> 
+<tr> <td height="195" valign="top" class="bodytext"><table width="100%" border="0">
+  <tr>
+    <td height="176" align="left" valign="top" class="bodytext"><strong>Adicional NMS 03)* El tubo de la figura est&aacute; cerrado por el extremo de la ampolla y abierto en el otro, y tiene mercurio alojado en las dos asas inferiores. Los n&uacute;meros indican las alturas en mil&iacute;metros. Si la presi&oacute;n atmosf&eacute;rica es de <nobr>760 mmHg, </nobr>&iquest;cu&aacute;nto vale la presi&oacute;n en el interior de la ampolla? </strong></td>
+    <td width="45%" class="bodytext"><img src="img_flu/flu_NMS03_1.gif" alt="Flu&iacute;dos - Ricardo Cabrera" width="189" height="174"></td>
+  </tr>
+</table>
+  </td>
+  </tr>
+<tr>
+  <td align="left" valign="middle" class="bodytext"><p>No desaproveches este ejercicio porque es de muy buena calidad did&aacute;ctica. L&oacute;gicamente, se trata de utilizar el principio general de la hidrost&aacute;tica  (<strong><em><strong><strong><em><strong>&Delta;P = <em>&delta; g</em> &Delta;y</strong></em></strong></strong></em></strong><em>).</em> Es tan sencillo que se puede resolver mentalmente guardando los valores intermedios en la memoria. Sin embargo hay varios conceptos fundamentales que, sin experiencia, se te pueden escapar. Prest&aacute; atenci&oacute;n.</p>
+    <p>Rehice y agrand&eacute; la figura para que podamos trabajar m&aacute;s c&oacute;modamente. Adem&aacute;s le puse nombres a varios puntos a los que voy a tener que referirme, as&iacute; no te perd&eacute;s.  </p></td>
+  <td class="bodytext" height="125">&nbsp;</td>
+  <td class="bodytext" height="125" valign="top">&nbsp;</td>
+</tr>
+<tr>
+  <td height="289" align="left" valign="middle" class="bodytext"><table width="100%" border="0">
+    <tr>
+      <td width="60%" height="268"><img src="img_flu/flu_NMS03_2.gif" alt="Flu&iacute;dos - Ricardo Cabrera" width="280" height="256"></td>
+      <td width="40%" class="bodytext"><p>Empecemos con el punto <em><strong>A</strong></em>. Esa superficie de mercurio que est&aacute; en contacto con la  atm&oacute;sfera tiene la presi&oacute;n que ella le ejerce: </p>        
+        <blockquote>
+          <p><strong><em>P<sub>A </sub>= 760 </em></strong><em><strong><span class="Estilo17">mmHg</span></strong></em> </p>
+          </blockquote>
+        <p>Las paredes del tubo vertical no tienen c&oacute;mo afectar ese valor. Vamos ahora al punto <em><strong>B</strong></em>. Ver&aacute;s que lo eleg&iacute; justo en el mismo nivel que <em><strong>A</strong></em> para tener un valor de referencia en esa rama del tubo. Como entre <em><strong>A</strong></em> y <em><strong>B</strong></em> no hay diferencia de profundidad, ambos se hallan al mismo nivel dentro de un mismo l&iacute;quido: sus presiones deben ser iguales. </p>
+        <blockquote>
+          <p><strong><em>P<sub>B </sub>= 760 </em></strong><em><strong><span class="Estilo17">mmHg</span></strong></em></p>
+        </blockquote></td>
+    </tr>
+  </table></td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext" valign="top">&nbsp;</td>
+</tr>
+<tr>
+  <td height="600" class="bodytext"><p>Ahora vamos a ocuparnos de <em><strong>C</strong></em>. En esa columna de mercurio que va desde <em><strong>C</strong></em> hasta <em><strong>B</strong></em>, la presi&oacute;n var&iacute;a con la profundidad, siendo la presi&oacute;n de <em><strong>C</strong></em> menor que la de <em><strong>B</strong></em>. &iquest;Cu&aacute;nto menor? F&aacute;cil: <strong><em>160 </em></strong><em><strong><span class="Estilo17">mmHg</span></strong></em> menos que la presi&oacute;n de <em><strong>B</strong></em>. Esta vez te lo explico, pero la pr&oacute;xima, no. La diferencia de profundidad entre <em><strong>C</strong></em> y <em><strong>B</strong></em> son <strong><em>160 </em></strong><em><strong><span class="Estilo17">mm</span></strong></em>, &iquest;de acuerdo? El principio general dice: </p>
+    <blockquote>
+      <p><strong><em><strong><strong><em><strong>&Delta;P<em><sub>BC</sub></em> = <em>&delta; g</em> &Delta;y</strong></em></strong></strong></em></strong><strong><em><strong><strong><em><strong><em><sub>BC</sub></em></strong></em></strong></strong></em></strong></p>
+      <p><strong><em><strong><strong><em><strong>P<em><sub>B</sub></em> <strong>&ndash;</strong> <em><strong><strong><em><strong>P<em><sub>C</sub></em></strong></em></strong></strong></em> = <em><span class="Estilo19"><strong class="bodytext"><em>13.600</em></strong> kg</span></em></strong></em></strong></strong></em></strong><em><em><em><span class="Estilo20">/</span></em></em></em><strong><em><strong><strong><em><strong><em><span class="Estilo19">m<em><strong><sup>3</sup></strong></em></span></em></strong></em></strong></strong> <strong><strong><em><strong><em><span class="Estilo19"><strong class="bodytext"><em>9,8</em></strong> m</span></em></strong></em></strong></strong></em></strong><em><em><em><span class="Estilo20">/</span></em></em></em><strong><em><strong><strong><em><strong><em><span class="Estilo19">s<em><strong><sup>2</sup></strong></em></span></em></strong></em></strong></strong> 0,160 </em></strong><em><strong><span class="Estilo17">m</span></strong></em></p>
+      <p><strong><em><strong><strong><em><strong>P<em><sub>B</sub></em> <strong>&ndash;</strong> <em><strong><strong><em><strong>P<em><sub>C</sub></em></strong></em></strong></strong></em> = <em><span class="Estilo19"><strong class="bodytext"><em>21.325</em></strong> Pa</span></em></strong></em></strong></strong></em></strong> <strong><em><strong><strong><em><strong>= </strong></em></strong></strong></em></strong> <strong><em>160 </em></strong><em><strong><span class="Estilo17">mmHg</span></strong></em></p>
+      <p><strong><em><strong><strong><em><strong><em><strong><strong><em><strong>P<em><sub>C</sub></em></strong></em></strong></strong></em> =</strong></em></strong></strong></em></strong><strong><em><strong><strong><em><strong> P<em><sub>B</sub></em> <strong>&ndash;</strong></strong></em></strong></strong> 160 </em></strong><em><strong><span class="Estilo17">mmHg</span></strong></em> <strong><em><strong><strong><em><strong>=</strong></em></strong></strong></em></strong><strong><em><strong><strong><em><strong><em> 760 </em></strong><em><strong><span class="Estilo17">mmHg</span></strong></em><strong><strong> &ndash;</strong></strong></em></strong></strong> 160 </em></strong><em><strong><span class="Estilo17">mmHg</span></strong></em></p>
+      <p><strong><em><strong><strong><em><strong><em><strong><strong><em><strong>P<em><sub>C</sub></em></strong></em></strong></strong></em> =</strong></em></strong></strong></em></strong><strong><em> 600 </em></strong><em><strong><span class="Estilo17">mmHg</span></strong></em></p>
+      </blockquote>
+    <p>Supongo que aprendiste la moraleja: las diferencias de presi&oacute;n dentro del propio mercurio se pueden conocer directamente -en <em><strong><span class="Estilo17">mmHg</span></strong></em>- midiendo la profundidad en <em><strong><span class="Estilo17">mm</span></strong></em>. </p>
+    <p>Ahora vamos al punto <em><strong>D</strong></em>. La diferencia de presi&oacute;n debida a la altura en el gas encerrado en la segunda rama (que te colore&eacute; de celeste) hay que despreciarla. La densidad de los gases es tan, pero tan peque&ntilde;a que la diferencia de presi&oacute;n es insignificante en esta escala menor que 1 metro. Luego, la presi&oacute;n del punto <em><strong>D</strong></em> debe ser igual a la de <em><strong>C</strong></em>. </p>
+    <blockquote>
+      <p><strong><em><strong><strong><em><strong><em><strong><strong><em><strong>P<em><sub>D</sub></em></strong></em></strong></strong></em> =</strong></em></strong></strong></em></strong><strong><em> 600 </em></strong><em><strong><span class="Estilo17">mmHg</span></strong></em></p>
+      </blockquote>
+    <p>Ahora se repite la historia que te cont&eacute; en el asa anterior. El punto <em><strong>E</strong></em> se halla en el mismo nivel que <em><strong>D</strong></em>, por lo tanto: </p>
+    <blockquote>
+      <p><strong><em><strong><strong><em><strong><em><strong><strong><em><strong>P<em><sub>E</sub></em></strong></em></strong></strong></em> =</strong></em></strong></strong></em></strong><strong><em> 600 </em></strong><em><strong><span class="Estilo17">mmHg</span></strong></em></p>
+    </blockquote>    
+    <p>Tal vez me objetes que el punto <em><strong>E</strong></em> tambi&eacute;n se halla en el mismo nivel que <em><strong>B</strong></em> y que <em><strong>A</strong></em>, cuya presi&oacute;n es diferente. Lo tuyo es muy de mala onda... te odio. Que se halle al mismo nivel, en este caso no indica nada, pues son cuerpos de mercurio diferentes. No me hagas perder el tiempo... vamos al punto <em><strong>F</strong></em>. Esta superficie tiene que tener una presi&oacute;n menor que la del punto <em><strong>E</strong></em>, ya que se halla en la misma columna de mercurio, pero a menor profundidad. La diferencia de altura entre ambos es de <strong><em>60 </em></strong><em><strong><span class="Estilo17">mm</span></strong></em>, por lo tanto su presi&oacute;n debe ser <strong><em>60 </em></strong><em><strong><span class="Estilo17">mmHg</span></strong></em> menor que la que posee <em><strong>E</strong></em>. </p>
+    </td>
+  <td class="bodytext">&nbsp;</td>
+  <td align="center" valign="top" class="bodytext"><p>&nbsp;</p>
+    <p>&nbsp;</p></td>
+</tr>
+<tr>
+  <td height="40" align="center" class="bodytext"><table width="100%" border="0">
+    <tr>
+      <td width="12%" height="26" bgcolor="#FFFFFF"><p class="bodytext">&nbsp;</p></td>
+      <td width="36%" bgcolor="#CCCCCC" class="bodytext"><em><strong><strong>&#160;&#160; &#160;&#160; &#160;&#160; &#160;</strong></strong></em><strong><em><strong><strong><em><strong><em><strong><strong><em><strong>P<em><sub>F</sub></em></strong></em></strong></strong></em> =</strong></em></strong></strong></em></strong><strong><em> 540 </em></strong><em><strong><span class="Estilo17">mmHg</span></strong></em><strong><em><strong><strong><em><strong> </strong></em></strong></strong></em></strong></td>
+      <td width="52%" bgcolor="#FFFFFF">&nbsp;</td>
+    </tr>
+  </table></td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext" valign="top">&nbsp;</td>
+</tr>
+<tr>
+  <td height="44" align="left" class="bodytext"><p>La presi&oacute;n del punto <em><strong>F</strong></em> no es otra que la del gas de la ampolla (que colore&eacute; en amarillo) ya que, como discutimos antes, su presi&oacute;n es uniforme.  </p></td>
+  <td class="bodytext" height="44">&nbsp;</td>
+  <td class="bodytext" height="44" valign="top">&nbsp;</td>
+</tr>  
+<tr> 
+  <td height="31" align="center" valign="middle" bgcolor="#FFFFCC" class="bodytext"><p class="epigrafe">*Este ejercicio perteneci&oacute; al primer  parcial de Biof&iacute;sica tomado el 6 de oct. de 2006.</p>    </td>
+  <td class="bodytext" width="10">&nbsp;</td>
+  <td width="82" rowspan="5" class="bodytext"><img src="img_flu/ric_2007.jpg" alt="Flu&iacute;dos - Ricardo Cabrera" width="85" height="129"></td>
+</tr>
+<tr>
+  <td align="center" valign="middle" class="bodytext">&nbsp;</td>
+  <td align="left" valign="middle" class="bodytext">&nbsp;</td>
+  </tr>
+
+<tr>
+  <td height="28" align="left" class="bodytext"><p><strong>DESAF&Iacute;O</strong>: S&oacute;lo para hacer mentalmente: &iquest;cu&aacute;nto vale la presi&oacute;n en el fondo de las asas? </p>    </td>
+  <td class="bodytext">&nbsp;</td>
+  </tr>
+
+<tr>
+  <td height="18" bgcolor="#FFFFFF" class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+  </tr>
+
+<tr> <td align="center" valign="middle" bgcolor="#CCCCCC" class="bodytext"><table width="93%" border="0">
+  <tr>
+    <td class="epigrafe">Algunos derechos reservados. 
+  Se permite su reproducci&oacute;n citando la fuente. Quien no cite la fuente ser&aacute; penado con reclusi&oacute;n en la Ant&aacute;rtida y trabajos forzados. &Uacute;ltima actualizaci&oacute;n sep-08. Buenos Aires, Argentina.</td>
+  </tr>
+</table>  </td>
+  <td class="bodytext" width="10">&nbsp;</td>
+  </tr> 
+<tr> <td height="18" class="bodytext">&nbsp;</td><td class="bodytext" width="10">&nbsp;</td>
+<td class="bodytext" width="82">&nbsp;</td>
+</tr> 
+</table></td></tr> </table><img src="img_flu/transparente.gif" width="10" height="20"></td></tr> 
+<tr> <td class="bodytext"><img src="img_flu/transparente.gif" width="600" height="20"></td></tr> 
+</table>
+</body>
+</html>

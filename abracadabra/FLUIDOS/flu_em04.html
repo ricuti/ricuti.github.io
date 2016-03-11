@@ -1,0 +1,236 @@
+<html>
+<head>
+<title>MECANICA DE FLUIDOS, EM04, fisica online, ejercicios resueltos</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="keywords" content="problemas resueltos, ejercicios resueltos, cbc, fisica, biofisica, fluidos, liquidos, gases, bernoulli, poiseuille, viscosidad, ideales, viscosos, humedad, difusion, osmosis, nomesalen, no me salen, ricardo cabrera" />
+<meta name="description" content="Ejercicios y problemas resueltos, y apuntes teóricos de Fluidos, mecanismos de transporte de fluidos" />
+<link rel="stylesheet" href="win_ie.css">
+<style type="text/css">
+<!--
+.style1 {
+	color: #3F6386;
+	font-weight: bold;
+}
+.Estilo3 {color: #3F6386}
+.Estilo16 {font-size: 16px}
+.Estilo32 {font-weight: bold; font-size: 11px;}
+.Estilo25 {font-family: Verdana, Arial, sans-serif}
+.Estilo26 {font-family: "Times New Roman", Times, serif;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 16px;
+}
+.Estilo33 {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 14px;
+}
+-->
+</style>
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000" alink="#000000" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<table align=center width="600" border="0" cellspacing="0" cellpadding="0"> 
+  <tr bgcolor="#000000" align="right"> 
+<td><img src="img_flu/nombre5.gif" width="369" height="71" /></td></tr> <tr bgcolor="#BB0000" valign="middle" align="left"> 
+<td class="bodytext" height="20"><TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+  <TR ALIGN="center" CLASS="menuitem">
+    <TD WIDTH="44" height="19" CLASS="menuitem"><A HREF="../../index.html" CLASS="menuitem">&nbsp;<B>home</B>&nbsp;</A></TD>
+    <TD WIDTH="5" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="102" CLASS="menuitem"><strong><a href="index_fluidos.html" class="menuitem">m&aacute;s de fluidos </a> </strong></TD>
+    <TD width="5" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="136" CLASS="menuitem"><strong><a href="../../intro_NMS.html" class="menuitem">otros temas de F&iacute;sica</a></strong></TD>
+    <TD width="10" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="173" CLASS="menuitem"><strong><a href="../../lista_ciruela.html" class="menuitem">lecciones del maestro Ciruela </a></strong></TD>
+    <TD width="9" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="68" CLASS="menuitem"><strong><a href="../../lista_tonterias.html" class="menuitem">tonter&iacute;as</a></strong></TD>
+    <TD WIDTH="8" CLASS="menuitem"><a href="../energia/index_energia.html" class="menuitem"></a><FONT COLOR="#000000">|</FONT></TD>
+    <TD WIDTH="40" CLASS="menuitem">&nbsp;<B><FONT FACE="Arial, Helvetica, sans-serif"><A HREF="mailto: ricuti@qi.fcen.uba.ar" CLASS="menuitem">@</A></FONT><A HREF="../../index.html" CLASS="menuitem"></A></B>&nbsp;</TD>
+  </TR>
+</TABLE></td></tr> <tr> <td class="bodytext" height="19"><img src="img_flu/transparente.gif" width="600" height="20" /></td></tr> 
+<tr align="center"> <td height="1059"> <table width="600" border="0" cellspacing="0" cellpadding="0"> 
+<tr class="bodytext"> <td valign="top" width="594" height="990"> 
+<table width="600" border="0" cellspacing="0" cellpadding="0"> <tr> 
+  <td height="74" colspan="2" bgcolor="#D7FFFF" class="bodytext"><span class="bodytext"><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>NO ME SALEN<br />
+</strong></span><span class="Estilo3"><em class="bodytext "><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>(<strong>PROBLEMAS RESUELTOS   DE BIOF&Iacute;SICA DEL CBC</strong>)</strong></em></span><br />
+      <span class="titulograndegris Estilo16"><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>FLUIDOS<br />
+      </strong></span><br /> </td>
+  <td class="bodytext" rowspan="3" height="74" width="10">&nbsp;</td>
+  <td class="bodytext" height="74" rowspan="3" valign="top" width="85"> 
+<p><img src="img_flu/cap11.jpg" alt="desesperado" width="85" height="87" /></p></td></tr>
+  <tr>
+    <td height="18" colspan="2" bgcolor="#FFFFFF" class="bodytext">&nbsp;</td>
+  </tr> 
+<tr> <td width="74" height="84" valign="top" class="bodytext"><P><img src="img_flu/BIOFISICA.jpg" width="65" height="90" /></P>
+    </td>
+  <td width="437" class="bodytext"><p><strong>EM 4) Por dos ca&ntilde;os cil&iacute;ndricos A y B, de igual longitud, circula agua: &iquest;cu&aacute;l es la relaci&oacute;n entre
+  sus resistencias hidrodin&aacute;micas si la secci&oacute;n de A es el doble que la de B? (Ayuda: se
+  habla de la secci&oacute;n y no del radio ni del di&aacute;metro).<br />
+    <em><em> &#160;&#160; &#160;</em></em>a) RA = 0,25 RB    <em><em> &#160;&#160; &#160;</em></em>b) RA = 2 RB    <em><em> &#160;&#160; &#160;</em></em>    <em><em> &#160;&#160; &#160;</em></em>c) RA = 0,5 RB<br />
+    <em><em> &#160;&#160; &#160;</em></em>d) RA = RB    <em><em> &#160;&#160; &#160;</em></em> <em><em> &#160;&#160; &#160;</em></em>    <em><em> &#160;&#160;</em></em>e) RA = 4 RB    <em><em> &#160;&#160; &#160;</em></em>    <em><em> &#160;&#160; &#160;</em></em>f) RA = 16</strong></p>    </td>
+</tr>
+<tr>
+  <td height="128" colspan="2" class="bodytext"><p>Ac&aacute; hay otro problema t&iacute;pico de Ley de Poiseuille. El ejercicio -lo reconozco- tiene un 90% de &aacute;lgebra y apenas un 10% de F&iacute;sica. Resignados...  las resistencias de <strong>A</strong> y <strong>B</strong> estar&aacute;n dadas por:</p>
+    <blockquote>
+      <p><strong><em>R<strong><em><strong><strong><em><strong><em><sub>A</sub></em></strong></em></strong></strong></em></strong> = </em></strong><em><strong>  8 . </strong></em><strong><span class="Estilo26">&pi;</span></strong><em><strong><em> . <span class="Estilo25"> <span class="Estilo33">&eta;</span> . </span></em> <em>L<strong><em><strong><strong><em><strong><em><sub>A</sub></em></strong></em></strong></strong></em></strong></em> / S</strong></em><strong><em><strong><em><strong><em><strong><strong><em><strong><em><sub>A</sub></em></strong></em></strong></strong></em></strong></em>&sup2;</strong></em></strong></p>
+      <p><strong><em><strong><em>R<strong><em><strong><strong><em><strong><em><sub>B</sub></em></strong></em></strong></strong></em></strong> = </em></strong><em><strong> 8 . </strong></em></em><span class="Estilo26">&pi;</span><em><em><strong><em> . <span class="Estilo25"> </span><strong><em><span class="Estilo25"><span class="Estilo33">&eta;</span></span></em></strong><span class="Estilo25"> . </span></em> <em>L<strong><em><strong><strong><em><strong><em><sub>B</sub></em></strong></em></strong></strong></em></strong></em> / S</strong></em><strong><em><strong><em><strong><strong><em><strong><em><sub>B</sub></em></strong></em></strong></strong></em>&sup2;</strong></em></strong></em></strong></p>
+    </blockquote>    </td>
+  <td class="bodytext" height="128">&nbsp;</td>
+  <td class="bodytext" height="128" valign="top">&nbsp;</td>
+</tr>
+<tr>
+  <td height="117" colspan="2" align="center" class="bodytext"><img src="img_flu/flu_em04_1.gif" alt="Flu&iacute;dos - Ricardo Cabrera" width="400" height="94" /></td>
+  <td class="bodytext" height="117">&nbsp;</td>
+  <td class="bodytext" height="117" valign="top">&nbsp;</td>
+</tr>
+<tr>
+  <td height="36" colspan="2" align="left" class="bodytext">Dividamos miembro a miembro ambas expresiones:</td>
+  <td class="bodytext" height="36">&nbsp;</td>
+  <td class="bodytext" height="36" valign="top">&nbsp;</td>
+</tr>
+<tr>
+  <td height="45" colspan="2" align="left" class="bodytext"><table width="43%" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td width="19%" rowspan="3" align="center" class="bodytext">&nbsp;</td>
+      <td width="15%" align="center" valign="bottom" class="bodytext"><strong><em>R<strong><em><strong><strong><em><strong><em><sub>A</sub></em></strong></em></strong></strong></em></strong></em></strong></td>
+      <td width="10%" rowspan="3" align="center" valign="middle" class="bodytext"><em><strong>=</strong></em></td>
+      <td width="54%" height="20" align="center" valign="bottom" class="bodytext"><em><strong>8 . </strong></em><strong><span class="Estilo26">&pi;</span></strong><em><strong><em> . <span class="Estilo25"> </span><strong><em><span class="Estilo25"><span class="Estilo33">&eta;</span></span></em></strong><span class="Estilo25"> . </span></em> <em>L<strong><em><strong><strong><em><strong><em><sub>A</sub></em></strong></em></strong></strong></em></strong></em> </strong></em><em><strong>. S</strong></em><strong><em><strong><em><strong><em><strong><strong><em><strong><em><sub>B</sub></em></strong></em></strong></strong></em></strong></em>&sup2;</strong></em></strong></td>
+      <td width="2%" rowspan="3" align="center" valign="bottom" class="bodytext">&nbsp;</td>
+    </tr>
+    <tr>
+      <td align="center" valign="middle" class="epigrafe"><hr align="center" width="100%" size="1" noshade style="color:black"></td>
+      <td height="2" align="center" valign="middle" class="epigrafe"><hr align="center" width="100%" size="1" noshade style="color:black"></td>
+    </tr>
+    <tr>
+      <td align="center" valign="top" class="bodytext"><strong><em><strong><em>R<strong><em><strong><strong><em><strong><em><sub>B</sub></em></strong></em></strong></strong></em></strong></em></strong></em></strong></td>
+      <td height="17" align="center" valign="top" class="bodytext"><strong><em><em><strong> <em><em><strong>8 . </strong></em></em><span class="Estilo26">&pi;</span><em><em><strong><em> . <span class="Estilo25"> </span><strong><em><span class="Estilo25"><span class="Estilo33">&eta;</span></span></em></strong><span class="Estilo25"> . </span></em> <em>L<strong><em><strong><strong><em><strong><em><sub>B</sub></em></strong></em></strong></strong></em></strong></em></strong></em></em> . S</strong></em><strong><em><strong><em><strong><strong><em><strong><em><sub>A</sub></em></strong></em></strong></strong></em>&sup2;</strong></em></strong></em></strong></td>
+    </tr>
+  </table></td>
+  <td class="bodytext" height="45">&nbsp;</td>
+  <td class="bodytext" height="45" valign="top">&nbsp;</td>
+</tr>
+<tr>
+  <td height="45" colspan="2" align="left" class="bodytext">(Acordate que lo que est&aacute; dividiendo en el denominador pasa multiplicando al numerador, y viceversa). Como las longitudes de los ca&ntilde;os son iguales y el fluido que circula es el mismo (o sea que la viscosidad es la misma), las podemos cancelar:</td>
+  <td class="bodytext" height="45">&nbsp;</td>
+  <td class="bodytext" height="45" valign="top">&nbsp;</td>
+</tr>
+<tr>
+  <td height="57" colspan="2" align="left" class="bodytext"><table width="40%" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td width="19%" rowspan="3" align="center" class="bodytext">&nbsp;</td>
+      <td width="17%" align="center" valign="bottom" class="bodytext"><strong><em>R<strong><em><strong><strong><em><strong><em><sub>A</sub></em></strong></em></strong></strong></em></strong></em></strong></td>
+      <td width="11%" rowspan="3" align="center" valign="middle" class="bodytext"><em><strong>=</strong></em></td>
+      <td width="20%" height="20" align="center" valign="bottom" class="bodytext"><em><strong>S</strong></em><strong><em><strong><em><strong><em><strong><strong><em><strong><em><sub>B</sub></em></strong></em></strong></strong></em></strong></em>&sup2;</strong></em></strong></td>
+      <td width="33%" rowspan="3" align="center" valign="bottom" class="bodytext">&nbsp;</td>
+    </tr>
+    <tr>
+      <td align="center" valign="middle" class="epigrafe"><hr align="center" width="100%" size="1" noshade style="color:black"></td>
+      <td height="2" align="center" valign="middle" class="epigrafe"><hr align="center" width="100%" size="1" noshade style="color:black"></td>
+      </tr>
+    <tr>
+      <td align="center" valign="top" class="bodytext"><strong><em><strong><em>R<strong><em><strong><strong><em><strong><em><sub>B</sub></em></strong></em></strong></strong></em></strong></em></strong></em></strong></td>
+      <td height="17" align="center" valign="top" class="bodytext"><strong><em><em><strong> S</strong></em><strong><em><strong><em><strong><strong><em><strong><em><sub>A</sub></em></strong></em></strong></strong></em>&sup2;</strong></em></strong></em></strong></td>
+      </tr>
+  </table></td>
+  <td class="bodytext" height="57">&nbsp;</td>
+  <td class="bodytext" height="57" valign="top">&nbsp;</td>
+</tr>
+<tr>
+  <td height="57" colspan="2" align="left" class="bodytext"><p>Ahora bien, el enunciado afirma que </p>
+    <blockquote>
+      <p><em><strong>S</strong></em><strong><em><strong><em><strong><em><strong><strong><em><strong><em><sub>A</sub></em></strong></em></strong></strong></em></strong></em> = 2 . </strong></em></strong><strong><em><em><strong>S</strong></em><strong><em><strong><em><strong><strong><em><strong><em><sub>B</sub></em></strong></em></strong></strong></em></strong></em></strong></em></strong></p>
+    </blockquote>
+    <p>Si elevamos los dos miembros al cuadrado, nos queda que: </p>
+    <blockquote>
+      <p><em><strong>S</strong></em><strong><em><strong><em><strong><em><strong><strong><em><strong><em><sub>A</sub></em></strong></em></strong></strong></em></strong></em><em><strong>&sup2;</strong></em> = 4 . </strong></em></strong><strong><em><em><strong>S</strong></em><strong><em><strong><em><strong><strong><em><strong><em><sub>B</sub><strong>&sup2;</strong></em></strong></em></strong></strong></em></strong></em></strong></em></strong></p>
+    </blockquote>
+    <p>Ahora reemplazamos esto en la expresi&oacute;n del cociente entre las resistencias, nos queda:</p></td>
+  <td class="bodytext" height="57">&nbsp;</td>
+  <td class="bodytext" height="57" valign="top">&nbsp;</td>
+</tr>
+<tr>
+  <td height="57" colspan="2" align="left" class="bodytext"><table width="40%" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td width="19%" rowspan="3" align="center" class="bodytext">&nbsp;</td>
+      <td width="17%" align="center" valign="bottom" class="bodytext"><strong><em>R<strong><em><strong><strong><em><strong><em><sub>A</sub></em></strong></em></strong></strong></em></strong></em></strong></td>
+      <td width="11%" rowspan="3" align="center" valign="middle" class="bodytext"><em><strong>=</strong></em></td>
+      <td width="28%" height="20" align="center" valign="bottom" class="bodytext"><em><strong>S</strong></em><strong><em><strong><em><strong><em><strong><strong><em><strong><em><sub>B</sub></em></strong></em></strong></strong></em></strong></em>&sup2;</strong></em></strong></td>
+      <td width="25%" rowspan="3" align="center" valign="bottom" class="bodytext">&nbsp;</td>
+    </tr>
+    <tr>
+      <td align="center" valign="middle" class="epigrafe"><hr align="center" width="100%" size="1" noshade style="color:black"></td>
+      <td height="2" align="center" valign="middle" class="epigrafe"><hr align="center" width="100%" size="1" noshade style="color:black"></td>
+    </tr>
+    <tr>
+      <td align="center" valign="top" class="bodytext"><strong><em><strong><em>R<strong><em><strong><strong><em><strong><em><sub>B</sub></em></strong></em></strong></strong></em></strong></em></strong></em></strong></td>
+      <td height="17" align="center" valign="top" class="bodytext"><strong><em><strong>4 . </strong></em></strong><strong><em><em><strong>S</strong></em><strong><em><strong><em><strong><strong><em><strong><em><sub>B</sub><strong>&sup2;</strong></em></strong></em></strong></strong></em></strong></em></strong></em></strong> </td>
+    </tr>
+  </table></td>
+  <td class="bodytext" height="57">&nbsp;</td>
+  <td class="bodytext" height="57" valign="top">&nbsp;</td>
+</tr>  
+<tr> 
+  <td height="50" colspan="2" align="left" class="bodytext"><table width="40%" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td width="19%" rowspan="3" align="center" class="bodytext">&nbsp;</td>
+      <td width="17%" align="center" valign="bottom" class="bodytext"><strong><em>R<strong><em><strong><strong><em><strong><em><sub>A</sub></em></strong></em></strong></strong></em></strong></em></strong></td>
+      <td width="11%" rowspan="3" align="center" valign="middle" class="bodytext"><em><strong>=</strong></em></td>
+      <td width="16%" height="20" align="center" valign="bottom" class="bodytext"><em><strong>1</strong></em></td>
+      <td width="37%" rowspan="3" align="center" valign="bottom" class="bodytext">&nbsp;</td>
+    </tr>
+    <tr>
+      <td align="center" valign="middle" class="epigrafe"><hr align="center" width="100%" size="1" noshade style="color:black"></td>
+      <td height="2" align="center" valign="middle" class="epigrafe"><hr align="center" width="100%" size="1" noshade style="color:black"></td>
+    </tr>
+    <tr>
+      <td align="center" valign="top" class="bodytext"><strong><em><strong><em>R<strong><em><strong><strong><em><strong><em><sub>B</sub></em></strong></em></strong></strong></em></strong></em></strong></em></strong></td>
+      <td height="17" align="center" valign="top" class="bodytext"><strong><em><strong>4 </strong></em></strong></td>
+    </tr>
+  </table>    </td>
+  <td width="10" class="bodytext">&nbsp;</td>
+  <td width="85" class="bodytext">&nbsp;</td>
+</tr>
+
+<tr>
+  <td height="62" colspan="2" align="center" valign="middle" class="bodytext"><blockquote>
+      <table width="104%" height="45" border="0">
+        <tr>
+          <td height="31" valign="middle" bgcolor="#CCCCCC"><p class="bodytext"><strong><strong>&#160;&#160; &#160;&#160; &#160;&#160; &#160;</strong><em>R<strong><em><strong><strong><em><strong><em><sub>A</sub></em></strong></em></strong></strong></em></strong> = </em></strong><em><strong> </strong></em><strong><em><em><strong>0,25</strong></em><strong></strong></em></strong><span class="Estilo32">&#160;<strong><em><strong><em>R<strong><em><strong><strong><em><strong><em><sub>B</sub></em></strong></em></strong></strong></em></strong></em></strong></em></strong>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span>respuesta <strong>a)</strong></p></td>
+        </tr>
+      </table>
+    </blockquote></td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext"><img src="img_flu/tuberia2.jpg" alt="Flu&iacute;dos - Ricardo Cabrera" width="85" height="104" /></td>
+</tr>
+<tr>
+  <td height="18" colspan="2" align="left" class="epigrafe">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="32" colspan="2" align="left" class="bodytext"><p><strong>DESAF&Iacute;O</strong>: &iquest;Cu&aacute;nto vale la relaci&oacute;n entre los di&aacute;metros de los ca&ntilde;os <strong>A</strong> y <strong>B</strong>? </p>    </td>
+  <td class="bodytext">&nbsp;</td>
+  <td width="85" rowspan="3" valign="bottom" class="bodytext"><img src="img_flu/ric_celeste.jpg" alt="Flu&iacute;dos - Ricardo Cabrera" width="85" height="121" /></td>
+</tr>
+
+<tr>
+  <td height="18" colspan="2" bgcolor="#FFFFFF" class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+  </tr>
+
+<tr> <td colspan="2" align="center" valign="middle" bgcolor="#CCCCCC" class="bodytext"><table width="87%" border="0">
+  <tr>
+    <td><span class="epigrafe">Algunos derechos reservados. 
+  Se permite su reproducci&oacute;n citando la fuente. Pregunta: &iquest;qu&eacute; contar&aacute;n las ovejas para dormirse? &Uacute;ltima actualizaci&oacute;n may-08. Buenos Aires, Argentina. </span></td>
+  </tr>
+</table>  </td>
+  <td class="bodytext" width="10">&nbsp;</td>
+  </tr> 
+<tr> <td height="14" colspan="2" class="bodytext">&nbsp;</td><td class="bodytext" width="10">&nbsp;</td>
+<td class="bodytext" width="85">&nbsp;</td>
+</tr> 
+</table></td></tr> </table>
+<img src="img_flu/transparente.gif" width="10" height="20" /></td></tr> 
+<tr> <td class="bodytext"><img src="img_flu/transparente.gif" width="600" height="20" /></td></tr> 
+</table>
+</body>
+</html>

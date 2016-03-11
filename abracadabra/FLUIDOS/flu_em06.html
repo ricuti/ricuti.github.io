@@ -1,0 +1,178 @@
+<html>
+<head>
+<title>MECANICA DE FLUIDOS, EM06, fisica online, ejercicios resueltos</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="keywords" content="problemas resueltos, ejercicios resueltos, cbc, fisica, biofisica, fluidos, liquidos, gases, bernoulli, poiseuille, viscosidad, ideales, viscosos, humedad, difusion, osmosis, nomesalen, no me salen, ricardo cabrera" />
+<meta name="description" content="Ejercicios y problemas resueltos, y apuntes teóricos de Fluidos, mecanismos de transporte de fluidos" />
+<link rel="stylesheet" href="win_ie.css">
+<style type="text/css">
+<!--
+.style1 {
+	color: #3F6386;
+	font-weight: bold;
+}
+.Estilo3 {color: #3F6386}
+.Estilo16 {font-size: 16px}
+.Estilo32 {font-weight: bold; font-size: 11px;}
+.Estilo33 {font-style: italic}
+.Estilo34 {font-style: italic}
+.Estilo35 {font-style: italic}
+.Estilo36 {color: #FF0000}
+-->
+</style>
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000" alink="#000000" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<table align=center width="600" border="0" cellspacing="0" cellpadding="0"> 
+  <tr bgcolor="#000000" align="right"> 
+<td><img src="img_flu/nombre5.gif" width="369" height="71" /></td></tr> <tr bgcolor="#BB0000" valign="middle" align="left"> 
+<td class="bodytext" height="20"><TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+  <TR ALIGN="center" CLASS="menuitem">
+    <TD WIDTH="44" height="19" CLASS="menuitem"><A HREF="../../index.html" CLASS="menuitem">&nbsp;<B>home</B>&nbsp;</A></TD>
+    <TD WIDTH="5" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="102" CLASS="menuitem"><strong><a href="index_fluidos.html" class="menuitem">m&aacute;s de fluidos </a> </strong></TD>
+    <TD width="5" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="136" CLASS="menuitem"><strong><a href="../../intro_NMS.html" class="menuitem">otros temas de F&iacute;sica</a></strong></TD>
+    <TD width="10" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="173" CLASS="menuitem"><strong><a href="../../lista_ciruela.html" class="menuitem">lecciones del maestro Ciruela </a></strong></TD>
+    <TD width="9" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="68" CLASS="menuitem"><strong><a href="../../lista_tonterias.html" class="menuitem">tonter&iacute;as</a></strong></TD>
+    <TD WIDTH="8" CLASS="menuitem"><a href="../energia/index_energia.html" class="menuitem"></a><FONT COLOR="#000000">|</FONT></TD>
+    <TD WIDTH="40" CLASS="menuitem">&nbsp;<B><FONT FACE="Arial, Helvetica, sans-serif"><A HREF="mailto: ricuti@qi.fcen.uba.ar" CLASS="menuitem">@</A></FONT><A HREF="../../index.html" CLASS="menuitem"></A></B>&nbsp;</TD>
+  </TR>
+</TABLE></td></tr> <tr> <td class="bodytext" height="19"><img src="img_flu/transparente.gif" width="600" height="20" /></td></tr> 
+<tr align="center"> <td height="959"> <table width="600" border="0" cellspacing="0" cellpadding="0"> 
+<tr class="bodytext"> <td valign="top" width="594" height="2008"> 
+<table width="600" border="0" cellspacing="0" cellpadding="0"> <tr> 
+  <td height="74" colspan="2" bgcolor="#D7FFFF" class="bodytext"><span class="bodytext"><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>NO ME SALEN<br />
+</strong></span><span class="Estilo3"><em class="bodytext "><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>(<strong>PROBLEMAS RESUELTOS   DE BIOF&Iacute;SICA DEL CBC</strong>)</strong></em></span><br />
+      <span class="titulograndegris Estilo16"><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>FLUIDOS<br />
+      </strong></span><br /> </td>
+  <td class="bodytext" rowspan="3" height="74" width="10">&nbsp;</td>
+  <td class="bodytext" height="74" rowspan="3" valign="top" width="85"> 
+<p><img src="img_flu/cap14.jpg" alt="desesperado" width="85" height="122" /></p></td></tr>
+  <tr>
+    <td height="18" colspan="2" bgcolor="#FFFFFF" class="bodytext">&nbsp;</td>
+  </tr> 
+<tr> <td width="4" height="192" valign="top" class="bodytext"><P>&nbsp;</P>
+    </td>
+  <td width="506" class="bodytext"><table width="100%" border="0">
+    <tr>
+      <td width="14%" class="bodytext"><img src="img_flu/BIOFISICA.jpg" width="65" height="90" /></td>
+      <td width="86%" class="bodytext"><span class="Estilo32">EM6) Se oprime el &eacute;mbolo de una jeringa de modo que por la aguja sale l&iacute;quido con caudal Q.
+    Si se alivia la presi&oacute;n sobre el &eacute;mbolo de modo de reducir el caudal a la mitad,
+    considerando un l&iacute;quido ideal, la diferencia de presi&oacute;n entre el l&iacute;quido que se mueve por
+    la aguja, A, y el que se mueve por el &eacute;mbolo, E, respecto de su valor anterior es:</span></td>
+    </tr>
+    <tr>
+      <td height="86" colspan="2" class="bodytext"><span class="Estilo32"><em><strong> </strong></em><strong><span class="Estilo10"><strong><em><strong><strong>&#160;&#160; &#160; &#160; </strong></strong></em></strong></span></strong>a) el doble, siendo en cada caso la presi&oacute;n en A mayor a la de E,<br />
+          <em><strong> </strong></em><strong><span class="Estilo10"><strong><em><strong><strong>&#160;&#160; &#160; &#160; </strong></strong></em></strong></span></strong>b) el doble, siendo en cada caso la presi&oacute;n en E mayor a la de A,<br />
+          <em><strong> </strong></em><strong><span class="Estilo10"><strong><em><strong><strong>&#160;&#160; &#160; &#160; </strong></strong></em></strong></span></strong>c) la mitad, siendo en cada caso la presi&oacute;n en A mayor a la de E<br />
+          <em><strong> </strong></em><strong><span class="Estilo10"><strong><em><strong><strong>&#160;&#160; &#160; &#160; </strong></strong></em></strong></span></strong>d) la mitad, siendo en cada caso la presi&oacute;n en E mayor a la de A,<br />
+          <em><strong> </strong></em><strong><span class="Estilo10"><strong><em><strong><strong>&#160;&#160; &#160; &#160; </strong></strong></em></strong></span></strong>e) un cuarto, siendo en cada caso la presi&oacute;n en E mayor a la de A,<br />
+          <em><strong> </strong></em><strong><span class="Estilo10"><strong><em><strong><strong>&#160;&#160; &#160; &#160; </strong></strong></em></strong></span></strong>f) un cuarto, siendo en cada caso la presi&oacute;n en A mayor a la de E.</span></td>
+      </tr>
+  </table>  </td>
+</tr>
+<tr>
+  <td height="108" colspan="2" class="bodytext"><p>Mir&aacute;, este problema tiene un par de &quot;meta-ense&ntilde;anzas&quot;, as&iacute; que si quer&eacute;s seguir siendo usuario de<em> No me salen</em> ten&eacute;s que prestar mucha atenci&oacute;n, &iquest;eh? </p>
+    <p>Primero aprend&eacute; a hacer esquemas prolijos: no s&oacute;lo para vos sino para otra persona hipot&eacute;tica (un compa&ntilde;ero, un docente que te corrige, tu hermanito que de fluidos no sabe un sorongo y de paso lo asust&aacute;s con la jeringa...); cuando le tomes la mano vas a ver que se trata de una herramienta invalorable. </p></td>
+  <td class="bodytext" height="108">&nbsp;</td>
+  <td class="bodytext" height="108" valign="top">&nbsp;</td>
+</tr>
+<tr>
+  <td height="270" colspan="2" align="center" class="bodytext"><img src="img_flu/flu_em06_1.gif" alt="Flu&iacute;dos - Ricardo Cabrera" width="435" height="238" /></td>
+  <td class="bodytext" height="270">&nbsp;</td>
+  <td class="bodytext" height="270" valign="top">&nbsp;</td>
+</tr>  
+<tr> 
+  <td height="873" colspan="2" align="left" class="bodytext"><p>Con este esquemita sencill&iacute;simo que hice ya alcanza para definir todas las variables que entran en juego en el ejercicio. Pese a que en el texto voy a volver a hacerlo no siempre es tan claro y pr&aacute;ctico como en el esquema.</p>
+    <p>Vamos a la resoluci&oacute;n. Como lo que estamos inyectando es un l&iacute;quido ideal (probablemente un remedio para la gripe, o algo as&iacute;) podemos utilizar el <strong><a href="FT_bernouille.html">Principio  de Bernoulli</a></strong>. Con &eacute;l describo el momento inicial </p>
+    <blockquote>
+      <p><strong><em>P<strong><em><strong><strong><em><strong><em><sub>0E</sub></em></strong></em></strong></strong></em></strong> + &delta; g h<strong><em><strong><strong><em><strong><em><sub>0E</sub></em></strong></em></strong></strong></em></strong></em></strong> + <strong><em>&frac12; &delta; v<strong><em><strong><strong><em><strong><em><sub>0E</sub></em></strong></em></strong></strong></em></strong><strong>&sup2;</strong></em></strong> <em><strong>= </strong></em><strong><em>P<strong><em><strong><strong><em><strong><em><sub>0A</sub></em></strong></em></strong></strong></em></strong> + &delta; g h<strong><em><strong><strong><em><strong><em><sub>0A</sub></em></strong></em></strong></strong></em></strong></em></strong> + <strong><em>&frac12; &delta; v<strong><em><strong><strong><em><strong><em><sub>0A</sub></em></strong></em></strong></strong></em></strong><strong>&sup2;</strong></em></strong></p>
+      </blockquote>
+    <p>A menos que se trate de una jeringa gigante (como para tiranosaurios) la diferencia de altura es despreciable... en el sentido que las diferencias de presi&oacute;n que provoca la diferencia de altura son insignificantes en comparaci&oacute;n con las que provoca la diferencia de velocidad.  No vale decir que la diferencia de alturas es cero porque el dibujo en el esquemita te lo hice con la jeringa dispuesta horizontalmente: el tema es que aunque estuviese vertical, la diferencia de altura es despreciable.<em></em></p>
+    <p>Por otro lado, como el fluido es ideal y la sección en el émbolo es mayor que en la aguja, siempre la presión en el émbolo será mayor a la presión en la aguja, antes y después de variar la presión que ejerce la mano... eso ya te permite descartar las opciones <strong>a)</strong>, <strong>c)</strong> y <strong>f)</strong>. </p>
+    <p>Volvamos a Bernoulli despreciando los t&eacute;rminos de altura (de presi&oacute;n hidrost&aacute;tica) y vamos a reagrupar los otros t&eacute;rminos para operar m&aacute;s c&oacute;modamente.</p>
+    <blockquote>
+      <p><strong><em><strong>&Delta;</strong>P<strong><em><strong><strong><em><strong><em><sub>0</sub></em></strong></em></strong></strong></em></strong> </em></strong><em><strong>= </strong></em><strong><em> &frac12; &delta; v<strong><em><strong><em><strong><strong><em><strong><em><sub>0A</sub></em></strong></em></strong></strong></em></strong></em>&sup2;</strong></em></strong><em><strong><strong> &ndash;</strong></strong><strong> </strong></em><strong><em>&frac12; &delta; v<strong><em><strong><em><strong><strong><em><strong><em><sub>0E</sub></em></strong></em></strong></strong></em></strong></em>&sup2;</strong></em></strong></p>
+      <p><strong><em><strong>&Delta;</strong>P<strong><em><strong><strong><em><strong><em><sub>0</sub></em></strong></em></strong></strong></em></strong> </em></strong><em><strong>= </strong></em><strong><em> &frac12; &delta; ( v<strong><em><strong><em><strong><strong><em><strong><em><sub>0A</sub></em></strong></em></strong></strong></em></strong></em>&sup2;</strong></em></strong><em><strong><strong> &ndash;</strong></strong> </em><strong><em> v<strong><em><strong><em><strong><em><strong><strong><em><strong><em><sub>0E</sub></em></strong></em></strong></strong></em></strong></em></strong></em>&sup2;</strong></em></strong> <em><strong>) </strong></em></p>
+    </blockquote>
+    <p>El enunciado nada nos dice sobre las velocidades del l&iacute;quido; en cambio habla de caudales. Eso me lleva a expresar las velocidades en funci&oacute;n de los caudales. Que   es f&aacute;cil ya que para cualquier fluido se cumple siempre que el caudal, <em><strong>Q</strong></em>, es igual al producto entre la velocidad del fluido, <em><strong>v</strong></em>, y la secci&oacute;n transversal del conducto, <em><strong>S</strong></em>. Entonces: </p>
+    <blockquote>
+      <p><strong><em>v<strong><em><strong><em><strong><strong><em><strong><em><sub>0E</sub></em></strong></em></strong></strong></em></strong></em></strong> = Q<strong><em><strong><strong><em><strong><em><sub>0 </sub></em></strong></em></strong></strong></em></strong>/</em></strong> <em><strong>S<sub>E</sub> </strong></em><strong><span class="Estilo10"><strong><em><strong><strong>&#160;&#160; &#160; &#160; </strong></strong></em>&rarr; <em><strong><strong> &#160;&#160; &#160;&#160; &#160;</strong></strong></em></strong></span><em>v<strong><em><strong><em><strong><strong><em><strong><em><sub>0E</sub><strong>&sup2;</strong></em></strong></em></strong></strong></em></strong></em></strong> = Q<strong><em><strong><strong><em><strong><em><sub>0</sub><strong>&sup2;</strong></em></strong> </em></strong></strong></em></strong></em></strong><em><strong>/</strong></em> <em><strong>S<sub>E</sub></strong></em><strong><em><strong>&sup2;</strong></em></strong></p>
+      <p><strong><em>v<strong><em><strong><em><strong><strong><em><strong><em><sub>0A</sub></em></strong></em></strong></strong></em></strong></em></strong> = Q<strong><em><strong><strong><em><strong><em><sub>0</sub></em></strong><span class="Estilo35"><sub> </sub></span></em></strong></strong></em></strong></em></strong><em><strong>/</strong></em> <em><strong>S<sub>A</sub> </strong></em><strong><span class="Estilo10"><strong><em><strong><strong>&#160;&#160; &#160;&#160; </strong></strong></em>&#160;&rarr;<em><strong><strong> &#160;&#160; &#160;&#160; &#160;</strong></strong></em></strong></span><em>v<strong><em><strong><em><strong><strong><em><strong><em><sub>0A</sub><strong>&sup2;</strong></em></strong></em></strong></strong></em></strong></em></strong> = Q<strong><em><strong><strong><em><strong><em><sub>0</sub><strong>&sup2;</strong> </em></strong></em></strong></strong></em></strong>/</em></strong> <em><strong>S<sub>A</sub></strong></em><strong><em><strong>&sup2;</strong></em></strong></p>
+    </blockquote>
+    <p>No hace falta que te marque que el caudal siempre es el mismo en cualquier parte del trayecto (principio de continuidad), por eso puse <strong><em>Q<strong><em><strong><strong><em><strong><em><sub>0</sub></em></strong></em></strong></strong></em></strong></em></strong> en lugar de <strong><em>Q<strong><em><strong><strong><em><strong><em><sub>0E</sub></em></strong></em></strong></strong></em></strong></em></strong> y <strong><em>Q<strong><em><strong><strong><em><strong><em><sub>0A</sub></em></strong></em></strong></strong></em></strong></em></strong>. </p>
+    <p>Ahora vuelvo a escribir la &uacute;ltima expresi&oacute;n que ten&iacute;amos de Bernoulli, pero  esta vez lo hago en funci&oacute;n de los caudales. </p>
+    <blockquote>
+      <p><strong><em><strong>&Delta;</strong>P<strong><em><strong><strong><em><strong><em><sub>0</sub></em></strong></em></strong></strong></em></strong> </em></strong><em><strong>= </strong></em><strong><em> &frac12; &delta; [(Q<strong><em><strong><strong><em><strong><em><sub>0</sub><strong>&sup2;</strong> </em></strong></em></strong></strong></em></strong>/</em></strong> <em><strong>S<sub>A</sub></strong></em><strong><em><strong>&sup2;</strong></em></strong><em><strong><strong>) &ndash;</strong></strong> </em><strong><em>(Q<strong><em><strong><strong><em><strong><em><sub>0</sub><strong>&sup2;</strong></em></strong> </em></strong></strong></em></strong></em></strong><em><strong>/ S<sub>E</sub></strong></em><strong><em><strong>&sup2;</strong></em></strong><em><strong>)]</strong></em><strong><strong><em><strong><strong> &#160;&#160; &#160;&#160; &#160; &#160;&#160; &#160;&#160; &#160; &#160;&#160; &#160;&#160; &#160;</strong></strong></em></strong>[1]</strong></p>
+      </blockquote>    
+    <p>El mismo proceso nos llevar&iacute;a a describir la situaci&oacute;n final de este modo </p>
+    <blockquote>
+      <p><strong><em><strong>&Delta;</strong>P<strong><em><strong><strong><em><strong><em><sub>F</sub></em></strong></em></strong></strong></em></strong> </em></strong><em><strong>= </strong></em><strong><em> &frac12; &delta; [(Q<strong><em><strong><strong><em><strong><em><sub>F</sub><strong>&sup2;</strong> </em></strong></em></strong></strong></em></strong>/</em></strong> <em><strong>S<sub>A</sub></strong></em><strong><em><strong>&sup2;</strong></em></strong><em><strong><strong>) &ndash;</strong></strong> </em><strong><em>(Q<strong><em><strong><strong><em><strong><em><sub>F</sub><strong>&sup2;</strong> </em></strong></em></strong></strong></em></strong>/ </em></strong><em><strong>S<sub>E</sub></strong></em><strong><em><strong>&sup2;</strong></em></strong><em><strong>)]</strong></em></p>
+      </blockquote>
+    <p>Y es dato del enunciado del ejercicio que el caudal en la segunda instancia es la mitad del caudal en la primera instancia. O sea: </p>
+    <blockquote>
+      <p><strong><em>Q<strong><em><strong><em><strong><strong><em><strong><em><sub>F</sub></em></strong></em></strong></strong></em></strong></em></strong> = Q<strong><em><strong><strong><em><strong><em><sub>0</sub></em></strong><span class="Estilo33"><sub> </sub></span></em></strong></strong></em></strong></em></strong><em><strong>/ 2 </strong></em><strong><span class="Estilo10"><strong><em><strong><strong>&#160;&#160; &#160; &#160; </strong></strong></em>&rarr; <em><strong><strong> &#160;&#160; &#160;&#160; &#160;</strong></strong></em></strong></span><em>Q<strong><em><strong><em><strong><strong><em><strong><em><sub>F</sub></em></strong></em></strong></strong></em></strong></em>&sup2;</strong> = Q<strong><em><strong><strong><em><strong><em><sub>0</sub><strong>&sup2;</strong> </em></strong></em></strong></strong></em></strong>/ </em></strong><em><strong>4</strong></em></p>
+      </blockquote>
+    <p>Si reemplazo esto en la &uacute;ltima ecuaci&oacute;n, queda:</p>
+    <blockquote>
+      <p class="Estilo34"><strong><strong>&Delta;P<sub>F</sub> </strong>= &frac12; &delta; [(Q<sub>0</sub>&sup2; / 4S<sub>A</sub>&sup2;) &ndash; (Q<sub>0</sub>&sup2; / 4S<sub>E</sub>&sup2;)] </strong></p>
+      </blockquote>
+    <p>Sacando esos cuatros como factor com&uacute;n y luego fuera del par&eacute;ntesis, </p>
+    <blockquote>
+      <p><strong><em>&Delta;P<sub>F</sub> = &frac14; &frac12; &delta; [(Q<sub>0</sub>&sup2; / S<sub>A</sub>&sup2;) &ndash; (Q<sub>0</sub>&sup2; / S<sub>E</sub>&sup2;)]</em></strong><strong><strong><em><strong><strong> &#160;&#160; &#160;&#160; &#160; &#160;&#160; &#160;&#160; &#160; &#160;&#160; &#160;&#160; &#160;</strong></strong></em></strong>[2]</strong></p>
+      </blockquote>
+    <p>Ahora si compar&aacute;s <strong>[1]</strong> con <strong>[2]</strong> coincidir&aacute;s conmigo en que:</p></td>
+  <td width="10" class="bodytext">&nbsp;</td>
+  <td width="85" align="center" class="bodytext"><img src="img_flu/inyeccion.jpg" alt="Flu&iacute;dos - Ricardo Cabrera" width="85" height="84" /><br>
+    <span class="epigrafe Estilo36">cuarto superior externo de la nalga</span></td>
+</tr>
+
+<tr>
+  <td height="62" colspan="2" align="center" valign="middle" class="bodytext"><blockquote>
+      <table width="104%" height="45" border="0">
+        <tr>
+          <td height="31" valign="middle" bgcolor="#CCCCCC"><p class="bodytext"><span class="Estilo32"><strong><strong>&#160;&#160; &#160;&#160; &#160;&#160; &#160;</strong><em>&Delta;P<sub>F</sub> = &frac14;</em></strong> <strong><em><strong>&Delta;</strong>P<strong><em><strong><strong><em><strong><em><sub>0</sub></em></strong></em></strong></strong></em></strong></em></strong>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span>respuesta <strong>e)</strong></p></td>
+        </tr>
+      </table>
+    </blockquote></td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="205" colspan="2" align="left" class="epigrafe"><p><strong>OBSERVACIONES</strong>: Como ves, cuanto mayor sea la presi&oacute;n que ejerc&eacute;s en el pist&oacute;n, mayor la velocidad con que se desagota el dep&oacute;sito, y menor el tiempo que est&aacute;s pinchando a tu paciente. Pero lo que tu paciente te va a agradecer no es el tiempo que le ahorres con la cola al aire, sino que la inyecci&oacute;n no le duela. </p>
+    <p>Este ejercicio plantea una situación ideal (<em>se inyecta un fluido ideal</em>). Tenés que tener presente que cuanto más finita sea la aguja más difícil es que un fluido se comporte de manera ideal.</p>
+    <p>La cuesti&oacute;n del pinchazo es pr&aacute;ctica: naranjas y familiares abnegados. En cuanto al ingreso de l&iacute;quidos, una inyecci&oacute;n veloz puede producir lesiones en los tejidos y justamente el dolor puede estar indicando eso. La inyecci&oacute;n ser&aacute; indolora si el tejido que recibe el l&iacute;quido for&aacute;neo es capaz de difundirlo en el mismo intervalo de tiempo en que est&aacute; ingresando. Ese intervalo depende del tejido y del l&iacute;quido, pero queda claro que siempre ser&aacute;n menos dolorosas la inyecciones en las que el fluido ingrese m&aacute;s lentamente. Y que te quede claro: vos a m&iacute; no me pinch&aacute;s ni mamado. </p></td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="66" colspan="2" align="left" class="bodytext"><p><strong>DESAF&Iacute;O</strong>: Mentalmente: &iquest;cu&aacute;nto tendr&iacute;a que aumentar la diferencia de presi&oacute;n si quisi&eacute;ramos un caudal cinco veces mayor? </p>    </td>
+  <td class="bodytext">&nbsp;</td>
+  <td width="85" rowspan="3" valign="bottom" class="bodytext"><img src="img_flu/ric_perf.jpg" alt="Flu&iacute;dos - Ricardo Cabrera" width="85" height="104" /></td>
+</tr>
+
+<tr>
+  <td height="18" colspan="2" bgcolor="#FFFFFF" class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+  </tr>
+
+<tr> <td colspan="2" align="center" valign="middle" bgcolor="#CCCCCC" class="bodytext"><table width="93%" border="0">
+  <tr>
+    <td align="left" class="epigrafe">Algunos derechos reservados. 
+  Se permite su reproducci&oacute;n citando la fuente. Se agradece por el envío de una errata conceptual a la ingeniera Cintia Perrone. &Uacute;ltima actualizaci&oacute;n dic-07. Buenos Aires, Argentina. </td>
+  </tr>
+</table>  </td>
+  <td class="bodytext" width="10">&nbsp;</td>
+  </tr> 
+<tr> <td height="18" colspan="2" class="bodytext">&nbsp;</td><td class="bodytext" width="10">&nbsp;</td>
+<td class="bodytext" width="85">&nbsp;</td>
+</tr> 
+</table></td></tr> </table>
+<img src="img_flu/transparente.gif" width="10" height="20" /></td></tr> 
+<tr> <td class="bodytext"><img src="img_flu/transparente.gif" width="600" height="20" /></td></tr> 
+</table>
+</body>
+</html>

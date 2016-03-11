@@ -1,0 +1,210 @@
+<html>
+<head>
+<title>MECANICA DE FLUIDOS, NMS004, fisica online, ejercicios resueltos</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="keywords" content="problemas resueltos, ejercicios resueltos, cbc, fisica, biofisica, fluidos, liquidos, gases, bernoulli, poiseuille, viscosidad, ideales, viscosos, humedad, difusion, osmosis, nomesalen, no me salen, ricardo cabrera" />
+<meta name="description" content="Ejercicios y problemas resueltos, y apuntes teóricos de Fluidos, mecanismos de transporte de fluidos" />
+<link rel="stylesheet" href="win_ie.css">
+<style type="text/css">
+<!--
+.style1 {
+	color: #3F6386;
+	font-weight: bold;
+}
+.Estilo3 {color: #3F6386}
+.Estilo16 {font-size: 16px}
+.Estilo32 {font-weight: bold; font-size: 11px;}
+.Estilo35 {font-size: 10px}
+-->
+</style>
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000" alink="#000000" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<table align=center width="600" border="0" cellspacing="0" cellpadding="0"> 
+  <tr bgcolor="#000000" align="right"> 
+<td><img src="img_flu/nombre5.gif" width="369" height="71"></td></tr> <tr bgcolor="#BB0000" valign="middle" align="left"> 
+<td class="bodytext" height="20"><TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+  <TR ALIGN="center" CLASS="menuitem">
+    <TD WIDTH="44" height="19" CLASS="menuitem"><A HREF="../../index.html" CLASS="menuitem">&nbsp;<B>home</B>&nbsp;</A></TD>
+    <TD WIDTH="5" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="102" CLASS="menuitem"><strong><a href="index_fluidos.html" class="menuitem">m&aacute;s de fluidos </a> </strong></TD>
+    <TD width="5" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="136" CLASS="menuitem"><strong><a href="../../intro_NMS.html" class="menuitem">otros temas de F&iacute;sica</a></strong></TD>
+    <TD width="10" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="173" CLASS="menuitem"><strong><a href="../../lista_ciruela.html" class="menuitem">lecciones del maestro Ciruela </a></strong></TD>
+    <TD width="9" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="68" CLASS="menuitem"><strong><a href="../../lista_tonterias.html" class="menuitem">tonter&iacute;as</a></strong></TD>
+    <TD WIDTH="8" CLASS="menuitem"><a href="../energia/index_energia.html" class="menuitem"></a><FONT COLOR="#000000">|</FONT></TD>
+    <TD WIDTH="40" CLASS="menuitem">&nbsp;<B><FONT FACE="Arial, Helvetica, sans-serif"><A HREF="mailto: ricuti@qi.fcen.uba.ar" CLASS="menuitem">@</A></FONT><A HREF="../../index.html" CLASS="menuitem"></A></B>&nbsp;</TD>
+  </TR>
+</TABLE></td></tr> <tr> <td class="bodytext" height="19"><img src="img_flu/transparente.gif" width="600" height="20"></td></tr> 
+<tr align="center"> <td height="1671"> <table width="600" border="0" cellspacing="0" cellpadding="0"> 
+<tr class="bodytext"> <td colspan="2" valign="top" height="1203"> <img src="img_flu/transparente.gif" width="1" height="1"></td>
+<td valign="top" width="596" height="1203"> 
+<table width="600" border="0" cellspacing="0" cellpadding="0"> <tr> 
+  <td height="74" bgcolor="#D7FFFF" class="bodytext"><span class="bodytext"><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>NO ME SALEN<br>
+</strong></span><span class="Estilo3"><em class="bodytext "><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>(<strong>PROBLEMAS RESUELTOS   DE BIOF&Iacute;SICA DEL CBC</strong>)</strong></em></span><br>
+      <span class="titulograndegris Estilo16"><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>FLUIDOS<br>
+      </strong></span><br> </td>
+  <td class="bodytext" rowspan="3" height="74" width="6">&nbsp;</td>
+  <td class="bodytext" height="74" rowspan="3" valign="top" width="87"> 
+<p><img src="img_flu/cap17.jpg" alt="desesperado" width="85" height="111"></p></td></tr>
+  <tr>
+    <td height="18" bgcolor="#FFFFFF" class="bodytext">&nbsp;</td>
+  </tr> 
+<tr> <td height="118" valign="top" class="bodytext"><table width="500" border="0">
+  <tr>
+    <td height="106" align="left" valign="top" class="bodytext"><strong>Ad. NMS 04)* - Un tubo de 4 cm<em><em><em><em><em><em><em><em><em><em>&sup2;</em></em></em></em></em></em></em></em></em></em> de secci&oacute;n transversal conduce l&iacute;quido en r&eacute;gimen estacionario y se divide en 3 tubos iguales de 2 cm<em><em><em><em><em><em><em><em><em><em>&sup2;</em></em></em></em></em></em></em></em></em></em> de secci&oacute;n transversal cada uno. Todos los tubos est&aacute;n a igual altura y no hay efectos viscosos. Si P es la presi&oacute;n y v la velocidad: </strong></td>
+    <td width="34%" class="bodytext"><img src="img_flu/flu_NMS04_1.gif" width="170" height="104"></td>
+  </tr>
+</table>  
+  </td>
+  </tr>
+<tr>
+  <td height="49" class="bodytext"><p class="Estilo32"><em><em>&#160; &#160;&#160; <em>&#160; &#160;&#160;</em></em></em>a) P<sub>A</sub> <em><em>&gt; </em></em>P<sub>B</sub><em><em> &#160;&#160;</em></em>v<sub>A</sub><em><em> <em><em>&lt; </em></em></em></em>v<sub>B</sub>  <em><em><em>&#160;&#160;</em></em></em><em><em>&#160; &#160;&#160; </em></em>b) P<sub>A</sub> <em><em>&gt; </em></em>P<sub>B</sub><em><em> &#160;&#160;</em></em>v<sub>A</sub><em><em> <em><em>&gt; </em></em></em></em>v<sub>B</sub> <em><em><em>&#160;&#160;</em></em></em><em><em>&#160; &#160;&#160;</em></em>c) P<sub>A</sub> <em><em>&gt; </em></em>P<sub>B</sub><em><em> &#160;&#160;</em></em>v<sub>A</sub><em><em> <em><em>= </em></em></em></em>v<sub>B<br>
+  </sub><em><em>&#160;&#160;</em></em><em><em>&#160;&#160;</em></em><em><em>&#160;<em>&#160; &#160;&#160;</em></em></em>d) P<sub>A</sub> <em><em>&lt; </em></em>P<sub>B</sub><em><em> &#160;&#160;</em></em>v<sub>A</sub><em><em> <em><em>&lt; </em></em></em></em>v<sub>B<em><em><em>&#160;</em></em></em></sub> <em><em>&#160; &#160; &#160; </em></em> e) P<sub>A</sub> <em><em>= </em></em>P<sub>B</sub><em><em> &#160;&#160;</em></em>v<sub>A</sub><em><em> <em><em>&lt; </em></em></em></em>v<sub>B</sub> <em><em><em>&#160;&#160;</em></em></em><em><em>&#160; &#160;&#160; </em></em>f) P<sub>A</sub> <em><em>&lt; </em></em>P<sub>B</sub><em><em> &#160;&#160;</em></em>v<sub>A</sub><em><em> <em><em>&gt; </em></em></em></em>v<sub>B</sub></p>    </td>
+  <td class="bodytext" height="49">&nbsp;</td>
+  <td class="bodytext" height="49" valign="middle">&nbsp;</td>
+</tr>
+<tr>
+  <td height="38" bgcolor="#FFFFCC" class="epigrafe">*Este ejercicio perteneci&oacute; al primer examen parcial de Biof&iacute;sica tomado en varias sedes del CBC simult&aacute;neamente el 3 de octubre de 2008. El porcentaje de respuestas correctas obtenidas entre 700 estudiantes rondaba el 40%. </td>
+  <td class="bodytext" height="38">&nbsp;</td>
+  <td class="bodytext" height="38" valign="middle">&nbsp;</td>
+</tr>
+<tr>
+  <td height="323" class="bodytext"><p>Este ejercicio es terriblemente f&aacute;cil. Digo terriblemente porque la mayor&iacute;a de los estudiantes que lo hicieron mal se agarraban la cabeza al comprender d&oacute;nde hab&iacute;an metido la pata: todos aplicaron el principio de continuidad entre los tubos <strong>A</strong> y <strong>B</strong>. El error es grosero: suponete que por el tubo <strong>A</strong> ingresan 30 litros por minuto... &iquest;cu&aacute;ntos litros por minuto salen por <strong>B</strong>? Haber aplicado el principio de continuidad entre <strong>A</strong> y <strong>B</strong>, equivale a contestar que por <strong>B</strong> egresan los mismos 30 litros que entraron por <strong>A</strong>. Cuando lo obvio es que por <strong>B</strong> sale s&oacute;lo la tercera parte, o sea 10 litros por minuto, ya que el ingreso se reparte por igual entre los tres tubos de salida. </p>
+    <p>Por otra parte, el ejercicio fue dise&ntilde;ado para  resolverlo mentalmente y no tener que perder tiempo realizando c&aacute;lculos. Te lo voy a resolver de tres maneras distintas: la primera es mi razonamiento sucinto, lo que habr&iacute;a hecho yo siendo examinado en el parcial. La segunda es el mismo razonamiento anterior pero desarrollado con las f&oacute;rmulas y c&aacute;lculos correspondientes. Y la tercera ser&iacute;a la forma tradicional, como lo har&iacute;a una computadora que tiene cargadas las leyes que rigen el fen&oacute;meno f&iacute;sico y una creatividad nula. </p>
+    <p><strong>RESOLUCI&Oacute;N EXPRESS</strong>: La secci&oacute;n <em><strong>total</strong></em> de salida es <em><strong>6 <span class="Estilo35">cm</span></strong></em><strong><em><strong><em><strong><strong><em><strong><em><strong><em><strong><em><strong><strong><em><strong><em><strong><em><strong><strong><em><strong>&sup2;</strong></em></strong></strong></em></strong></em></strong></em></strong></strong></em></strong></em></strong></em></strong></em></strong></strong></em></strong></em></strong>, mayor que la de la entrada, que es <em><strong>4 <span class="Estilo35">cm</span></strong></em><strong><em><strong><em><strong><strong><em><strong><em><strong><em><strong><em><strong><strong><em><strong><em><strong><em><strong><strong><em><strong>&sup2;</strong></em></strong></strong></em></strong></em></strong></em></strong></strong></em></strong></em></strong></em></strong></em></strong></strong></em></strong></em></strong>. Como  a mayor secci&oacute;n menor velocidad, la velocidad en <strong>A</strong> debe ser mayor que en <strong>B</strong>. Por otro lado, no habiendo viscosidad ni diferencia de altura, y a mayor velocidad, menor presi&oacute;n... la presi&oacute;n en <strong>A</strong> debe ser menor que en <strong>B</strong>. STOP. Punto y a la bolsa. </p></td>
+  <td class="bodytext" height="323">&nbsp;</td>
+  <td class="bodytext" height="323" valign="middle">&nbsp;</td>
+</tr>
+<tr>
+  <td height="51" class="bodytext"><table width="507" height="36" border="0">
+    <tr>
+      <td width="35" height="28" valign="middle" class="bodytext">&nbsp;</td>
+      <td width="257" align="center" bordercolor="#FFFFFF" bgcolor="#CCCCCC" class="bodytext"><p><span class="Estilo32">f) P<sub>A</sub> <em><em>&lt; </em></em>P<sub>B</sub><em><em> &#160;&#160;</em></em>v<sub>A</sub><em><em> <em><em>&gt; </em></em></em></em>v<sub>B</sub></span></p></td>
+      <td width="201" align="center" class="bodytext">&nbsp;</td>
+    </tr>
+  </table></td>
+  <td class="bodytext" height="51">&nbsp;</td>
+  <td class="bodytext" height="51" valign="middle">&nbsp;</td>
+</tr>
+<tr>
+  <td height="78" class="bodytext"><strong>RESOLUCI&Oacute;N EXPLICADA</strong>: Voy a aprovechar, ac&aacute;, para tranquilizar a quien no sepa a qu&eacute; se refiere la frase <strong>r&eacute;gimen estacionario</strong> que figura en el enunciado. Significa que no hay cambios en el tiempo. A veces tampoco resulta obvia la operaci&oacute;n mental de la suma de las secciones que hice en la <em>express</em>. Arm&eacute; esta secuencia de gr&aacute;ficos para explicarlo. </td>
+  <td class="bodytext" height="78">&nbsp;</td>
+  <td class="bodytext" height="78" valign="middle">&nbsp;</td>
+</tr>
+<tr>
+  <td height="33" class="bodytext"><table width="100%" border="0">
+    <tr>
+      <td width="65%" height="299"><img src="img_flu/flu_NMS04_2.gif" alt="Flu&iacute;dos - Ricardo Cabrera" width="310" height="341"></td>
+      <td width="35%" class="bodytext"><p>Hac&eacute; de cuenta que la ca&ntilde;er&iacute;a es sumamente pl&aacute;stica y permite que dobles los tubos. Junt&aacute; lo m&aacute;s que puedas los tres ca&ntilde;os de salida. Cuando est&eacute;n totalmente juntos, los lados de las paredes -que quedaron como internas- pod&eacute;s retirarlos. </p>
+        <p>Ahora qued&oacute; un &uacute;nico tubo de salida, cil&iacute;ndrico, cuya condici&oacute;n geom&eacute;trica es que tiene la misma secci&oacute;n de salida que antes. O sea, la suma de las secciones de cada tubo de salida. Nuestro caso es muy sencillo, porque los tubos de salida originales eran todos iguales, de modo que la secci&oacute;n de salida total es 3 veces la secci&oacute;n de <strong>B</strong>. </p></td>
+    </tr>
+  </table></td>
+  <td class="bodytext" height="33">&nbsp;</td>
+  <td class="bodytext" height="33" valign="middle">&nbsp;</td>
+</tr>
+<tr>
+  <td height="562" class="bodytext"><p>Este proceso lo ten&eacute;s explicado con m&aacute;s detalle y para situaciones menos sencillas en <a href="FT_capilares.html">este apunte</a>. </p>
+    <p>Si llamamos <strong>T</strong> a la salida por ese ca&ntilde;o de salida unificado, tenemos: </p>
+    <blockquote>
+      <p><strong><em> S<strong><em><strong><strong><em><strong><em><sub>T</sub></em></strong></em></strong></strong></em></strong> = 3 S<em><em><em><sub>B</sub></em></em></em></em></strong>  <strong><em>= 3 <strong>. 2 <span class="Estilo35">cm</span></strong></em><strong><em><strong><em><strong><strong><em><strong><em><strong><em><strong><em><strong><strong><em><strong><em><strong><em><strong><strong><em><strong>&sup2;</strong></em></strong></strong></em></strong></em></strong></em></strong></strong></em></strong></em></strong></em></strong></em></strong></strong></em></strong></em></strong></strong> <strong><em>= 6 <strong> <span class="Estilo35">cm</span></strong></em><strong><em><strong><em><strong><strong><em><strong><em><strong><em><strong><em><strong><strong><em><strong><em><strong><em><strong><strong><em><strong>&sup2;</strong></em></strong></strong></em></strong></em></strong></em></strong></strong></em></strong></em></strong></em></strong></em></strong></strong></em></strong></em></strong></strong></p>
+      </blockquote>
+    <p>Ahora s&iacute;, por continuidad: </p>
+    <blockquote>
+      <p><strong><em>Q<strong><em><strong><strong><em><strong><em><sub>A</sub></em></strong></em></strong></strong></em></strong> = Q<strong><em><strong><strong><em><strong><em><sub>T</sub></em></strong></em></strong></strong></em></strong></em></strong></p>
+      <p><strong><em>S<strong><em><strong><strong><em><strong><em><sub>A </sub></em></strong></em></strong></strong></em></strong></em><em>. v<strong><em><strong><strong><em><strong><em><sub>A</sub></em></strong></em></strong></strong></em></strong> = </em></strong><strong><em>S<strong><em><strong><strong><em><strong><em><sub>T</sub></em></strong></em></strong></strong></em></strong></em><em>  . v<strong><em><strong><strong><em><strong><em><sub>T</sub></em></strong></em></strong></strong></em></strong></em></strong></p>
+      <p><strong><em>4 <strong> <span class="Estilo35">cm</span></strong></em><strong><em><strong><em><strong><strong><em><strong><em><strong><em><strong><em><strong><strong><em><strong><em><strong><em><strong><strong><em><strong>&sup2;</strong></em></strong></strong></em></strong></em></strong></em></strong></strong></em></strong></em></strong></em></strong></em></strong></strong></em></strong></em> </strong><em>. v<strong><em><strong><strong><em><strong><em><sub>A</sub></em></strong></em></strong></strong></em></strong> = </em></strong><strong><em> 6 <strong> <span class="Estilo35">cm</span></strong></em><strong><em><strong><em><strong><strong><em><strong><em><strong><em><strong><em><strong><strong><em><strong><em><strong><em><strong><strong><em><strong>&sup2;</strong></em></strong></strong></em></strong></em></strong></em></strong></strong></em></strong></em></strong></em></strong></em></strong></strong></em></strong></em> </strong><em>. v<strong><em><strong><strong><em><strong><em><sub>T</sub></em></strong></em></strong></strong></em></strong></em></strong></p>
+      <p><strong><em> v<strong><em><strong><strong><em><strong><em><sub>A</sub></em></strong></em></strong></strong></em></strong> = </em></strong><strong><em> 1,5 </em><strong></strong><em>. v<strong><em><strong><strong><em><strong><em><sub>T</sub></em></strong></em></strong></strong></em></strong></em></strong></p>
+      <p><strong><em>v<strong><em><strong><strong><em><strong><em><sub>A</sub></em></strong></em></strong></strong></em></strong> &gt; </em></strong><strong><em> v<strong><em><strong><strong><em><strong><em><sub>T</sub></em></strong></em></strong></strong></em></strong></em></strong></p>
+      <p><strong><em>v<strong><em><strong><strong><em><strong><em><sub>A</sub></em></strong></em></strong></strong></em></strong> &gt; </em></strong><strong><em> v<strong><em><strong><strong><em><strong><em><sub>B</sub></em></strong></em></strong></strong></em></strong></em></strong></p>
+      </blockquote>
+    <p>A los estudiantes que dudaban de que la velocidad con la que sale el l&iacute;quido por el tubo unificado, <strong><em>v<strong><em><strong><strong><em><strong><em><sub>T</sub></em></strong></em></strong></strong></em></strong></em></strong>, no fuese la misma que la del tubo finito original, <strong><em>v<strong><em><strong><strong><em><strong><em><sub>B</sub></em></strong></em></strong></strong></em></strong></em></strong>, suelo proponerles la siguiente imagen. Suponete que un chico va caminando por la vereda a <em><strong>10 <span class="Estilo35">km/h</span></strong></em>, y por la vereda de enfrente va una chica caminando a la misma velocidad, <em><strong>10 <span class="Estilo35">km/h</span></strong></em>. De golpe se miran y se dan cuenta de que se aman y deciden seguir juntos para toda la vida. Entonces uno de ellos, cualquiera, cruza en diagonal, se dan un beso sin detenerse y contin&uacute;an caminando juntos y felices tomados de la mano. &iquest;Ahora van a <em><strong>20 <span class="Estilo35">km/h</span></strong></em>? &iquest;Tomarse las manos les imprime velocidad en las piernas? </p>
+    <p>Sigamos, por favor... Ten&iacute;amos que <strong><em>v<strong><em><strong><strong><em><strong><em><sub>A</sub></em></strong></em></strong></strong></em></strong> &gt; </em></strong><strong><em> v<strong><em><strong><strong><em><strong><em><sub>B</sub></em></strong></em></strong></strong></em></strong></em></strong>. Como no hay viscosidad, podemos aplicar la ley de conservaci&oacute;n de la energ&iacute;a de Bernoulli (sin energ&iacute;a potencial):</p>
+    <blockquote>
+      <p><strong><em>P<strong><em><strong><strong><em><strong><em><sub>A</sub></em></strong></em></strong></strong></em></strong></em></strong> + <strong><em>&frac12; &delta; v<strong><em><strong><strong><em><strong><em><sub>A</sub></em></strong></em></strong></strong></em></strong><strong>&sup2;</strong></em></strong> <em><strong>= </strong></em><strong><em>P<strong><em><strong><strong><em><strong><em><sub>B</sub></em></strong></em></strong></strong></em></strong></em></strong> + <strong><em>&frac12; &delta; v<strong><em><strong><strong><em><strong><em><sub>B</sub></em></strong></em></strong></strong></em></strong><strong>&sup2;</strong></em></strong> </p>
+      </blockquote>
+    <p>Como el segundo t&eacute;rmino del primer miembro es mayor al segundo t&eacute;rmino del segundo miembro, no queda otra posibilidad que admitir que el primer t&eacute;rmino del primer miembro es menor que el primer t&eacute;rmino del segundo miembro. </p></td>
+  <td class="bodytext" height="562">&nbsp;</td>
+  <td class="bodytext" height="562" valign="middle">&nbsp;</td>
+</tr>
+<tr>
+  <td height="48" class="bodytext"><table width="507" height="36" border="0">
+    <tr>
+      <td width="35" height="28" valign="middle" class="bodytext">&nbsp;</td>
+      <td width="257" align="center" bordercolor="#FFFFFF" bgcolor="#CCCCCC" class="bodytext"><p><span class="Estilo32">f) P<sub>A</sub> <em><em>&lt; </em></em>P<sub>B</sub><em><em> &#160;&#160;</em></em>v<sub>A</sub><em><em> <em><em>&gt; </em></em></em></em>v<sub>B</sub></span></p></td>
+      <td width="201" align="center" class="bodytext">&nbsp;</td>
+    </tr>
+  </table></td>
+  <td class="bodytext" height="48">&nbsp;</td>
+  <td class="bodytext" height="48" valign="middle">&nbsp;</td>
+</tr>
+<tr>
+  <td height="235" class="bodytext"><p><strong>RESOLUCI&Oacute;N COMPUTADORA</strong>: La computadora aplica continuidad entre <strong>A</strong> y <strong>B</strong>. Pero reconoce que por <strong>B</strong> s&oacute;lo sale la tercera parte de l&iacute;quido que entra por <strong>A</strong>. </p>
+    <blockquote>
+      <p><strong><em>Q<strong><em><strong><strong><em><strong><em><sub>A</sub></em></strong></em></strong></strong></em></strong> = 3 Q<strong><em><strong><strong><em><strong><em><sub>B</sub></em></strong></em></strong></strong></em></strong></em></strong></p>
+      <p><strong><em>S<strong><em><strong><strong><em><strong><em><sub>A </sub></em></strong></em></strong></strong></em></strong>. v<strong><em><strong><strong><em><strong><em><sub>A</sub></em></strong></em></strong></strong></em></strong> = 3 . (S<strong><em><strong><strong><em><strong><em><sub>B </sub></em></strong></em></strong></strong></em></strong>. v<strong><em><strong><strong><em><strong><em><sub>B</sub></em></strong></em></strong></strong></em></strong></em></strong> <em><strong>) </strong></em></p>
+      <p><strong><em>4 <strong> <span class="Estilo35">cm</span></strong></em><strong><em><strong><em><strong><strong><em><strong><em><strong><em><strong><em><strong><strong><em><strong><em><strong><em><strong><strong><em><strong>&sup2; </strong></em></strong></strong></em></strong></em></strong></em></strong></strong></em></strong></em></strong></em></strong></em></strong></strong></em></strong></em></strong><em>. v<strong><em><strong><strong><em><strong><em><sub>A</sub></em></strong></em></strong></strong></em></strong> = 3 . (2 <strong> <span class="Estilo35">cm</span></strong></em><strong><em><strong><em><strong><strong><em><strong><em><strong><em><strong><em><strong><strong><em><strong><em><strong><em><strong><strong><em><strong>&sup2;</strong></em></strong></strong></em></strong></em></strong></em></strong></strong></em></strong></em></strong></em></strong></em></strong></strong></em></strong></em></strong><em><strong><em><strong><strong><em><strong><em><sub> </sub></em></strong></em></strong></strong></em></strong>. v<strong><em><strong><strong><em><strong><em><sub>B</sub></em></strong></em></strong></strong></em></strong></em></strong> <em><strong>) </strong></em></p>
+      <p><strong><em>4 <strong> <span class="Estilo35">cm</span></strong></em><strong><em><strong><em><strong><strong><em><strong><em><strong><em><strong><em><strong><strong><em><strong><em><strong><em><strong><strong><em><strong>&sup2;</strong></em></strong></strong></em></strong></em></strong></em></strong></strong></em></strong></em></strong></em></strong></em></strong></strong></em></strong></em> </strong><em>. v<strong><em><strong><strong><em><strong><em><sub>A</sub></em></strong></em></strong></strong></em></strong> = </em></strong><strong><em> 6 <strong> <span class="Estilo35">cm</span></strong></em><strong><em><strong><em><strong><strong><em><strong><em><strong><em><strong><em><strong><strong><em><strong><em><strong><em><strong><strong><em><strong>&sup2;</strong></em></strong></strong></em></strong></em></strong></em></strong></strong></em></strong></em></strong></em></strong></em></strong></strong></em></strong></em> </strong><em>. v<strong><em><strong><strong><em><strong><em><sub>B</sub></em></strong></em></strong></strong></em></strong></em></strong></p>
+      <p><strong><em>v<strong><em><strong><strong><em><strong><em><sub>A</sub></em></strong></em></strong></strong></em></strong> = </em></strong><strong><em> 1,5 </em><strong><em><strong><em><strong><strong><em><strong><em><strong><em><strong><em><strong><strong><em><strong><em><strong><em><strong><strong><em><strong></strong></em></strong></strong></em></strong></em></strong></em></strong></strong></em></strong></em></strong></em></strong></em></strong></strong></em></strong></em> </strong><em>. v<strong><em><strong><strong><em><strong><em><sub>B</sub></em></strong></em></strong></strong></em></strong></em></strong></p>
+      <p><strong><em>v<strong><em><strong><strong><em><strong><em><sub>A</sub></em></strong></em></strong></strong></em></strong> &gt; </em></strong><strong><em> v<strong><em><strong><strong><em><strong><em><sub>B</sub></em></strong></em></strong></strong></em></strong></em></strong></p>
+      </blockquote>
+    <p>Ahora usa Bernoulli... y podr&iacute;a proceder de esta manera: </p>
+    <blockquote>
+      <p><strong><em>P<strong><em><strong><strong><em><strong><em><sub>A</sub></em></strong></em></strong></strong></em></strong></em></strong> + <strong><em>&frac12; &delta; v<strong><em><strong><strong><em><strong><em><sub>A</sub></em></strong></em></strong></strong></em></strong><strong>&sup2;</strong></em></strong> <em><strong>= </strong></em><strong><em>P<strong><em><strong><strong><em><strong><em><sub>B</sub></em></strong></em></strong></strong></em></strong></em></strong> + <strong><em>&frac12; &delta; v<strong><em><strong><strong><em><strong><em><sub>B</sub></em></strong></em></strong></strong></em></strong><strong>&sup2;</strong></em></strong> </p>
+      <p><strong><em>P<strong><em><strong><strong><em><strong><em><sub>A</sub></em></strong></em></strong></strong></em></strong></em></strong><strong><em><strong><em><strong><strong><em><strong><em><strong><em> &ndash;</em></strong></em></strong></em></strong></strong></em></strong></em></strong><em><strong> </strong></em><strong><em>P<strong><em><strong><strong><em><strong><em><sub>B</sub></em></strong></em></strong></strong></em></strong></em></strong><strong><em><strong><em><strong><strong><em><strong><em><strong><em> </em></strong></em></strong></em></strong></strong></em></strong></em></strong><em><strong> =</strong></em><strong><em> &frac12; &delta; v<strong><em><strong><strong><em><strong><em><sub>B</sub></em></strong></em></strong></strong></em></strong><strong>&sup2;</strong></em></strong> <strong><em><strong><em><strong><strong><em><strong><em><strong><em>&ndash; </em></strong></em></strong></em></strong></strong></em></strong></em></strong><strong><em>&frac12; &delta; v<strong><em><strong><strong><em><strong><em><sub>A</sub></em></strong></em></strong></strong></em></strong><strong>&sup2;</strong></em></strong></p>
+      <p><strong><em>&frac12; &delta; ( v<strong><em><strong><strong><em><strong><em><sub>A</sub></em></strong></em></strong></strong></em></strong><strong>&sup2;</strong></em></strong> <strong><em><strong><em><strong><strong><em><strong><em><strong><em>&ndash; </em></strong></em></strong></em></strong></strong></em></strong> v<strong><em><strong><strong><em><strong><em><sub>B</sub></em></strong></em></strong></strong></em>&sup2;</strong></em></strong> <em><strong>)</strong> </em><strong><em><strong><em><strong><strong><em><strong><em><strong><em> </em></strong></em></strong></em></strong></strong></em></strong></em></strong><em><strong> = </strong></em><strong><em>P<strong><em><strong><strong><em><strong><em><sub>B</sub></em></strong></em></strong></strong></em></strong></em></strong><strong><em><strong><em><strong><strong><em><strong><em><strong><em> &ndash;</em></strong></em></strong></em></strong></strong></em></strong></em></strong><em><strong> </strong></em><strong><em>P<strong><em><strong><strong><em><strong><em><sub>A</sub></em></strong></em></strong></strong></em></strong></em></strong> </p>
+      </blockquote>
+    <p>El primer miembro es positivo, por lo tanto el segundo tambi&eacute;n lo ha de ser... </p>
+    <blockquote>
+      <p></p>
+    </blockquote></td>
+  <td class="bodytext" height="235">&nbsp;</td>
+  <td class="bodytext" height="235" valign="middle">&nbsp;</td>
+</tr>
+<tr>
+  <td height="46" class="bodytext"><table width="507" height="36" border="0">
+    <tr>
+      <td width="35" height="28" valign="middle" class="bodytext">&nbsp;</td>
+      <td width="257" align="center" bordercolor="#FFFFFF" bgcolor="#CCCCCC" class="bodytext"><p><span class="Estilo32">f) P<sub>A</sub> <em><em>&lt; </em></em>P<sub>B</sub><em><em> &#160;&#160;</em></em>v<sub>A</sub><em><em> <em><em>&gt; </em></em></em></em>v<sub>B</sub></span></p></td>
+      <td width="201" align="center" class="bodytext">&nbsp;</td>
+    </tr>
+  </table></td>
+  <td class="bodytext" height="46">&nbsp;</td>
+  <td class="bodytext" height="46" valign="middle">&nbsp;</td>
+</tr>  
+<tr>
+  <td height="78" align="left" valign="middle" class="bodytext"><p>Si llegaste hasta el final, y ten&eacute;s ganas de cerrar con una reflexi&oacute;n... opino que estudiar es hacer algo como lo que hicimos aqu&iacute;: tomar un ejercicio y resolverlo de varias formas, una intuitiva, una formal, una personal, y relacionarlo con otras cosas vistas o aprendidas. Esta es, si se quiere, otra diferencia m&aacute;s entre una gu&iacute;a cualquiera de ejercicios resueltos y <em>NO ME SALEN</em>. </p></td>
+  <td width="6" class="bodytext">&nbsp;</td>
+  <td width="87" class="bodytext">&nbsp;</td>
+</tr>
+
+
+<tr>
+  <td height="32" align="left" class="bodytext"><p><strong>DESAF&Iacute;O</strong>: Busc&aacute; alg&uacute;n razonamiento algebraico para reemplazar al de los chicos que caminan por la vereda. O sea, una explicaci&oacute;n f&iacute;sica de que las velocidades no se suman, sino que son iguales. </p>    </td>
+  <td class="bodytext">&nbsp;</td>
+  <td width="87" rowspan="3" valign="bottom" class="bodytext"><img src="img_flu/ric_081.jpg" alt="Flu&iacute;dos - Ricardo Cabrera" width="85" height="109"></td>
+</tr>
+
+<tr>
+  <td height="18" bgcolor="#FFFFFF" class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+  </tr>
+
+<tr> <td height="56" align="center" valign="middle" bgcolor="#CCCCCC" class="bodytext"><table width="92%" border="0">
+  <tr>
+    <td class="epigrafe">Algunos derechos reservados. 
+      Se permite su reproducci&oacute;n citando la fuente. &Uacute;ltima actualizaci&oacute;n oct-08. Buenos Aires, Argentina. </td>
+  </tr>
+</table>  </td>
+  <td class="bodytext" width="6">&nbsp;</td>
+  </tr> 
+<tr> <td height="18" class="bodytext">&nbsp;</td><td class="bodytext" width="6">&nbsp;</td>
+<td class="bodytext" width="87">&nbsp;</td>
+</tr> 
+</table></td></tr> </table><img src="img_flu/transparente.gif" width="10" height="20"></td></tr> 
+<tr> <td class="bodytext"><img src="img_flu/transparente.gif" width="600" height="20"></td></tr> 
+</table>
+</body>
+</html>

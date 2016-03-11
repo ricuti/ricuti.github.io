@@ -1,0 +1,297 @@
+<html>
+<head>
+<title>DINAMICA, centro de masa, ejercicios resueltos</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="keywords" content="problemas resueltos, ejercicios resueltos, cbc, fisica, biofisica, dinamica, estatica, nomesalen, no me salen, ricardo cabrera" />
+<meta name="description" content="Ejercicios y problemas resueltos, y apuntes teóricos de Dinámica y Estática" />
+<link rel="stylesheet" href="../dinamica/win_ie.css" />
+<style type="text/css">
+<!--
+.style1 {
+	color: #3F6386;
+	font-weight: bold;
+}
+.Estilo3 {color: #3F6386}
+.Estilo4 {color: #FF0000}
+.Estilo5 {
+	font-size: 14px;
+	font-style: italic;
+}
+.Estilo16 {font-size: 16px}
+-->
+</style>
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000" alink="#000000" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<table align=center width="600" border="0" cellspacing="0" cellpadding="0"> 
+  <tr bgcolor="#000000" align="right"> 
+<td width="120" align="left" valign="top"><a href="AT_ctro_masa_en.html"><img src="img_est/eng.gif" alt="english version" width="20" height="10" border="0"></a></td>
+  <td width="480"><img src="img_est/nombre5.gif" width="369" height="71" /></td>
+  </tr> <tr bgcolor="#BB0000" valign="middle" align="left"> 
+<td height="20" colspan="2" class="bodytext"><TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+  <TR ALIGN="center" CLASS="menuitem">
+    <TD WIDTH="50" height="19" CLASS="menuitem"><A HREF="../../index.html" CLASS="menuitem">&nbsp;<B>home</B>&nbsp;</A></TD>
+    <TD WIDTH="5" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="155" CLASS="menuitem"><strong><a href="../../no_me_salen/estatica/index_din_est.html" class="menuitem">más de estática </a> </strong></TD>
+    <TD width="17" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="115" CLASS="menuitem"><strong><a href="../../intro_NMS.html" class="menuitem">otros temas de F&iacute;sica</a></strong></TD>
+    <TD width="10" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="151" CLASS="menuitem"><strong><a href="../../lista_ciruela.html" class="menuitem">lecciones del maestro Ciruela </a></strong></TD>
+    <TD width="10" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="55" CLASS="menuitem"><strong><a href="../../lista_tonterias.html" class="menuitem">tonter&iacute;as </a></strong><a href="../cinematica/index_cinem.html"></a><a href="../energia/index_energia.html" class="menuitem"></a></TD>
+    <TD WIDTH="10" CLASS="menuitem"><a href="../energia/index_energia.html" class="menuitem"></a><FONT COLOR="#000000">|</FONT></TD>
+    <TD WIDTH="22" CLASS="menuitem">&nbsp;<B><FONT FACE="Arial, Helvetica, sans-serif"><A HREF="mailto: ricuti@qi.fcen.uba.ar" CLASS="menuitem">@</A></FONT><A HREF="../../index.html" CLASS="menuitem"></A></B>&nbsp;</TD>
+  </TR>
+</TABLE></td></tr> <tr> <td height="10" colspan="2" class="bodytext"><img src="../cinematica/img_cin/transparente.gif" width="600" height="10" /></td>
+</tr> 
+<tr align="center"> <td height="1360" colspan="2"> <table width="561" border="0" cellspacing="0" cellpadding="0"> 
+<tr class="bodytext"> <td colspan="2" valign="top" height="1998"> <img src="../cinematica/img_cin/transparente.gif" width="1" height="1" /></td>
+<td valign="top" width="550" height="1998"> 
+<table width="597" border="0" cellspacing="0" cellpadding="0"> 
+  <tr> 
+  <td height="73" colspan="2" bgcolor="#FFDB4A" class="bodytext"><p><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>NO ME SALEN<br>
+  </strong><span class="Estilo3"><em class="bodytext "><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>(EJERCICIOS RESUELTOS Y <strong>APUNTES TE&Oacute;RICOS  DE F&Iacute;SICA</strong>)</strong></em></span><br>
+  <span class="titulograndegris Estilo16"><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>Estática</strong></span><span class="Estilo3"><br />
+      </span><br /> 
+      </p>    </td>
+  <td class="bodytext" rowspan="2" height="73" width="10">&nbsp;</td><td class="bodytext" colspan="2" height="73" rowspan="2" valign="top" width="85"> 
+<p><img src="img_est/cap3.jpg" width="85" height="120" /></p></td></tr> 
+<tr> <td height="112" colspan="2" valign="top" class="bodytext"><P><strong><br>
+  CENTRO DE MASA </strong></P>
+  <P>Los cuerpos reales ya sean chicos o grandes tienen su masa distribuida en un volumen. Sin embargo en muchos aspectos se comportan como si toda la masa corporal estuviese reunida en un punto. Esa posici&oacute;n es el <strong>centro de masa</strong>, <em><strong>G</strong></em>, y se trata de un concepto bastante intuitivo, la gente de a pie acierta sin esfuerzo a predecir la posici&oacute;n del centro de masa, <em><strong>x<sub>G</sub></strong></em>, de variados cuerpos.</P>
+  </td>
+</tr>  
+<tr>
+  <td height="93" colspan="2" align="center" class="bodytext"><img src="img_est/gr_DAT_centro_4.gif" width="400" height="85"></td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext" colspan="2">&nbsp;</td>
+</tr>
+<tr>
+  <td height="125" colspan="2" align="left" class="bodytext"><p>Habr&aacute;s notado que el centro de masa es una posici&oacute;n que no necesariamente pertenece al cuerpo, sino que puede estar afuera de &eacute;l, por ejemplo en el caso del anillo, la esfera hueca, una silla, etc.</p>
+    <p>Existe un m&eacute;todo anal&iacute;tico para hallar el centro de masa y para que lo entiendas lo voy a desarrollar partiendo de una situaci&oacute;n muy sencilla. Sea un cuerpo (m&aacute;s propiamente dicho: un sistema de masas) integrado por dos masas puntuales id&eacute;nticas. &iquest;D&oacute;nde se halla el centro de masa? </p>    </td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext" colspan="2">&nbsp;</td>
+</tr>
+<tr>
+  <td height="77" colspan="2" align="center" class="bodytext"><img src="img_est/gr_DAT_centro_1.gif" width="320" height="70"></td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext" colspan="2">&nbsp;</td>
+</tr>
+<tr>
+  <td height="38" colspan="2" align="left" class="bodytext">Correcto: en el medio de ambas posiciones. Y ese medio lo hallamos promediando las posiciones:</td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext" colspan="2">&nbsp;</td>
+</tr>
+<tr>
+  <td height="49" colspan="2" align="center" class="bodytext"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td width="14%" rowspan="3" align="right" class="bodytext"><em><strong>x<sub>G </sub>=</strong></em></td>
+      <td width="2%" rowspan="3" class="bodytext">&nbsp;</td>
+      <td width="15%" height="0" align="center" valign="bottom" class="bodytext"><em><strong><strong>x<strong><sub>1</sub></strong> + <sub> </sub>x<strong><sub>2</sub></strong></strong></strong></em></td>
+      <td width="69%" rowspan="3" class="bodytext">&nbsp;</td>
+    </tr>
+    <tr>
+      <td height="2" align="center" valign="middle" class="epigrafe"><hr align="center" width="100%" style="color:black" size="1" noshade></td>
+    </tr>
+    <tr>
+      <td height="0" align="center" valign="top" class="bodytext"><em><strong> <strong>2</strong></strong></em></td>
+    </tr>
+  </table></td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext" colspan="2">&nbsp;</td>
+</tr>
+<tr>
+  <td height="56" colspan="2" align="left" class="bodytext"><p>Ahora supongamos que una de las masa es m&aacute;s grande que la otra. &iquest;D&oacute;nde se hallar&aacute; ahora el centro de masa? No es dif&iacute;cil predecirlo: sobre la recta que une las dos masas y m&aacute;s cerca de la masa mayor. &iquest;Pero exactamente d&oacute;nde? </p>    </td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext" colspan="2">&nbsp;</td>
+</tr>
+<tr>
+  <td height="80" colspan="2" align="center" class="bodytext"><img src="img_est/gr_DAT_centro_2.gif" width="320" height="70"></td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext" colspan="2">&nbsp;</td>
+</tr>
+<tr>
+  <td height="46" colspan="2" align="left" class="bodytext"><p>La expresi&oacute;n que lo indica se llama <strong>promedio ponderado</strong> (&quot;pesa&quot; m&aacute;s la posici&oacute;n de la porci&oacute;n m&aacute;s pesada). Es &eacute;sta:</p>    </td>
+  <td class="bodytext">&nbsp;</td>
+  <td colspan="2" rowspan="6" align="center" valign="top" class="epigrafe Estilo4"><table width="85" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td align="center" class="epigrafe"><strong>No me salen</strong> no hace desarrollos te&oacute;ricos... pero la f&oacute;rmula del promedio ponderado es tan sencilla que pod&eacute;s tratar de deducirla sin ayuda; el &uacute;nico principio f&iacute;sico que se necesita conocer es que la masa es una magnitud aditiva.</td>
+    </tr>
+  </table>    </td>
+</tr>
+<tr>
+  <td height="59" colspan="2" align="left" class="bodytext"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td width="14%" rowspan="3" align="right" class="bodytext"><em><strong>x<sub>G </sub>=</strong></em></td>
+      <td width="3%" rowspan="3" class="bodytext">&nbsp;</td>
+      <td width="26%" height="0" align="center" valign="bottom" class="bodytext"><em><strong><strong>m<sub>1 </sub>x<strong><sub>1</sub></strong> + m<sub>2 </sub>x<strong><sub>2</sub></strong></strong></strong></em></td>
+      <td width="57%" rowspan="3" class="bodytext">&nbsp;</td>
+    </tr>
+    <tr>
+      <td height="2" align="center" valign="middle" class="epigrafe"><hr align="center" width="100%" style="color:black" size="1" noshade></td>
+    </tr>
+    <tr>
+      <td height="0" align="center" valign="top" class="bodytext"><em><strong><strong>m<sub>1 </sub>+ m<sub>2</sub></strong></strong></em></td>
+    </tr>
+  </table></td>
+  <td class="bodytext">&nbsp;</td>
+  </tr>
+<tr>
+  <td height="60" colspan="2" align="left" class="bodytext"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td width="14%" rowspan="3" align="right" class="bodytext"><em><strong>x<sub>G </sub>=</strong></em></td>
+      <td width="3%" rowspan="3" class="bodytext">&nbsp;</td>
+      <td width="26%" height="0" align="center" valign="bottom" class="bodytext"><em><strong><strong>m<sub>1 </sub>x<strong><sub>1</sub></strong> + m<sub>2 </sub>x<strong><sub>2</sub></strong></strong></strong></em></td>
+      <td width="57%" rowspan="3" class="bodytext">&nbsp;</td>
+    </tr>
+    <tr>
+      <td height="2" align="center" valign="middle" class="epigrafe"><hr align="center" width="100%" style="color:black" size="1" noshade></td>
+    </tr>
+    <tr>
+      <td height="0" align="center" valign="top" class="bodytext"><em><strong> <strong>M</strong></strong></em></td>
+    </tr>
+  </table></td>
+  <td class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="90" colspan="2" align="left" class="bodytext"><p>Donde <em><strong>M</strong></em> es la masa total del sistema, o sea, la suma de  las dos porciones de masa distribuidas por el volumen del sistema. Aunque te cueste creerlo esa posici&oacute;n no depende del sistema de referencia que se te ocurra usar.</p>
+    <p>Si queremos generalizarla para un n&uacute;mero cualquiera de corp&uacute;sculos discretos:</p></td>
+  <td class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="50" colspan="2" align="left" class="bodytext"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td width="14%" rowspan="3" align="right" class="bodytext"><em><strong>x<sub>G </sub>=</strong></em></td>
+      <td width="3%" rowspan="3" class="bodytext">&nbsp;</td>
+      <td width="50%" height="0" align="center" valign="bottom" class="bodytext"><em><strong><strong>m<sub>1 </sub>x<strong><sub>1</sub></strong> + m<sub>2 </sub>x<strong><sub>2 </sub><strong>+ m<sub>3 </sub>x<strong><sub>3</sub></strong></strong> <strong>+ ...</strong> <strong>+ m<sub>i </sub>x<strong><sub>i</sub></strong></strong></strong></strong></strong></em></td>
+      <td width="33%" rowspan="3" class="bodytext">&nbsp;</td>
+    </tr>
+    <tr>
+      <td height="2" align="center" valign="middle" class="epigrafe"><hr align="center" width="100%" style="color:black" size="1" noshade></td>
+    </tr>
+    <tr>
+      <td height="0" align="center" valign="top" class="bodytext"><em><strong> <strong>M</strong></strong></em></td>
+    </tr>
+  </table></td>
+  <td class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="21" colspan="2" align="left" class="bodytext"><p>Nuevamente, <em><strong>M </strong></em>es la masa total del cuerpo. Podr&iacute;amos resumirlo de esta manera:</p>    </td>
+  <td class="bodytext">&nbsp;</td>
+  </tr>
+<tr>
+  <td colspan="2" align="left" class="bodytext"><table width="100%" border="0">
+      <tr>
+        <td width="15%" height="65">&nbsp;</td>
+        <td width="48%" align="center" bgcolor="#CCCCCC"><table width="55%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td width="24%" rowspan="3" align="right" class="bodytext"><em><strong>x<sub>G </sub>=</strong></em></td>
+            <td width="6%" rowspan="3" class="bodytext">&nbsp;</td>
+            <td width="54%" height="0" align="center" valign="bottom" class="bodytext"><em><strong><em><strong><strong><strong><span class="Estilo5">&#931;</span> m<sub>i </sub></strong></strong><em><strong><em><strong>x<em><strong><sub>i</sub></strong></em></strong></em></strong></em> </strong></em></strong></em></td>
+            <td width="16%" rowspan="3" class="bodytext">&nbsp;</td>
+          </tr>
+          <tr>
+            <td height="2" align="center" valign="middle" class="epigrafe"><hr align="center" width="100%" style="color:black" size="1" noshade></td>
+          </tr>
+          <tr>
+            <td height="0" align="center" valign="top" class="bodytext"><em><strong> <strong>M</strong></strong></em></td>
+          </tr>
+          </table>        </td>
+        <td width="37%">&nbsp;</td>
+      </tr>
+      </table></td>
+  <td class="bodytext">&nbsp;</td>
+  <td width="85" colspan="2" valign="middle" class="bodytext">&nbsp;</td>
+</tr>
+
+<tr>
+  <td height="47" colspan="2" class="bodytext"><p>El resto es simple. Si la masa de un cuerpo se halla distribuida sobre una superficie hallaremos las <strong>coordenadas del centro de masa</strong>, <em><strong>x<sub>G</sub></strong></em> e <em><strong>y<sub>G</sub></strong></em>, operando  de la misma manera que antes pero por separado para cada eje.</p>    </td>
+  <td class="bodytext">&nbsp;</td>
+  <td colspan="2" valign="middle" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="28" colspan="2" class="bodytext"><table width="100%" border="0">
+    <tr>
+      <td width="63%" height="285" valign="middle" class="bodytext"><p>Entonces haremos:</p>
+        <blockquote>
+          <p><em><strong>x<sub>G </sub>=<span class="bodytext"><em><strong><strong><strong> (</strong></strong></strong></em></span><em><strong><strong><strong><span class="Estilo5"> &#931;</span> m<sub>i </sub></strong></strong><em><strong><em><strong>x<em><strong><sub>i</sub></strong></em></strong></em></strong></em> </strong></em> ) / <strong>M</strong></strong></em></p>
+          <p><em><strong>y<sub>G </sub>=<span class="bodytext"><em><strong><strong><strong> (</strong></strong></strong></em></span><em><strong><strong><strong><span class="Estilo5"> &#931;</span> m<sub>i </sub></strong></strong><em><strong><em><strong>y<em><strong><sub>i</sub></strong></em></strong></em></strong></em> </strong></em> ) /</strong></em><strong> </strong><em><strong><strong>M</strong></strong></em></p>
+        </blockquote>
+        <p>Y si el sistema de distribuci&oacute;n de masa ocupara un volumen tridimensional, como todo cuerpo de verdad, entonces procederemos de la misma manera en un sistema de referencia volum&eacute;trico, tridimensional, de 3 ejes. Entonces haremos:</p>
+        <blockquote>
+          <p><em><strong>x<sub>G </sub>=<span class="bodytext"><em><strong><strong><strong> ( </strong></strong></strong></em></span><em><strong><strong><strong><span class="Estilo5">&#931;</span> m<sub>i </sub></strong></strong><em><strong><em><strong>x<em><strong><sub>i</sub></strong></em></strong></em></strong></em> </strong></em> <span class="bodytext">)</span> /</strong></em><strong> </strong><em><strong><strong>M</strong></strong></em></p>
+          <p><em><strong>y<sub>G </sub>=<span class="bodytext"><em><strong><strong><strong> (</strong></strong></strong></em></span><em><strong><strong><strong><span class="Estilo5"> &#931;</span> m<sub>i </sub></strong></strong><em><strong><em><strong>y<em><strong><sub>i</sub></strong></em></strong></em></strong></em> </strong></em> <span class="bodytext">)</span> / <strong>M</strong></strong></em></p>
+          <p><em><strong>z<sub>G </sub>=<span class="bodytext"><em><strong><strong><strong> ( </strong></strong></strong></em></span><em><strong><strong><strong><span class="Estilo5">&#931;</span> m<sub>i </sub></strong></strong><em><strong><em><strong>z<em><strong><sub>i</sub></strong></em></strong></em></strong></em> </strong></em> <span class="bodytext">)</span> / <strong>M</strong></strong></em></p>
+        </blockquote></td>
+      <td width="37%" align="right" class="bodytext"><img src="img_est/gr_DAT_centro_3.gif" width="175" height="200"></td>
+    </tr>
+  </table></td>
+  <td class="bodytext">&nbsp;</td>
+  <td colspan="2" valign="middle" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="14" colspan="2" class="bodytext"><p>Tal vez hayas objetado: qu&eacute; clase de cuerpos son &eacute;stos cuyas partes masivas se encuentran separadas... no es una mala objeci&oacute;n. La respuesta es la siguiente:  la naturaleza de la materia es corpuscular; por m&aacute;s compacto que te parezca un cuerpo, est&aacute; hecho principalmente por espacio vac&iacute;o, su masa est&aacute; concentrada en part&iacute;culas que se hallan muy separadas unas de otras. Si no fuese por las fuerzas de atracci&oacute;n y repulsi&oacute;n que se establecen entre &eacute;stas part&iacute;culas los cuerpos podr&iacute;an traspasarse limpiamente unos a otros y la probabilidad de choque entre part&iacute;culas ser&iacute;a muy remota. Podr&iacute;amos atravesar paredes, ingresar a las cajas fuertes de los bancos... eso s&iacute;, ser&iacute;a casi imposible hacer el amor.</p>
+    <p>Por otro lado, la idea de cuerpos con su masa concentrada en porciones separadas, nos ofrece un m&eacute;todo pr&aacute;ctico para hallar el centro de masa de cuerpos no geom&eacute;tricos, o no uniformes. El m&eacute;todo consiste en seccionar el cuerpo (mentalmente) en porciones cuyas masas sean f&aacute;ciles de calcular y cuyos centros de masa (de la porci&oacute;n) f&aacute;cil de determinar. Luego el cuerpo queda idealmente constituido por un conjunto discreto y manejable de porciones de masa puntuales... su ruta.</p>    </td>
+  <td class="bodytext">&nbsp;</td>
+  <td colspan="2" align="center" valign="middle" class="epigrafe Estilo4"><table width="85" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td align="center" class="epigrafe">Si el n&uacute;cleo de un &aacute;tomo (que re&uacute;ne el 99% de toda la masa) tuviese el tama&ntilde;o de una pelota de f&uacute;tbol, lo electrones tendr&iacute;an el tama&ntilde;o de granitos de arena y andar&iacute;an dando vueltas a cientos de metros de la pelota.</td>
+    </tr>
+  </table>    </td>
+</tr>
+<tr>
+  <td height="14" colspan="2" align="center" valign="middle" bgcolor="#FFFFFF" class="bodytext"><p>&nbsp;</p></td>
+  <td class="bodytext">&nbsp;</td>
+  <td colspan="2" valign="bottom" class="bodytext">&nbsp;</td>
+</tr>
+
+<tr>
+  <td height="28" colspan="2" align="left" valign="middle" class="bodytext"><span class="bodylinkblack"><strong>CHISMES IMPORTANTES</strong>: </span></td>
+  <td class="bodytext">&nbsp;</td>
+  <td width="85" colspan="2" valign="bottom" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="235" colspan="2" align="left" valign="middle" class="bodytext"><ul>
+    <li>El asunto m&aacute;s dif&iacute;cil de defender en la Ley de Gravitaci&oacute;n Universal, para Newton, era que un cuerpo celeste cualquiera (la Luna, la Tierra...) se comportaba como si toda su masa  estuviese reunida en un punto (el centro de masa). Para resolver el problema... invent&oacute; el an&aacute;lisis matem&aacute;tico (<em>&iexcl;</em>qu&eacute; hdp<em>!</em>).</li>
+    <li>El centro de masa tiene muchas propiedades notables. Por ejemplo, los equilibrios de cuerpos apoyados se resuelven y plantean teniendo en cuenta el centro de masa: un cuerpo est&aacute; en equilibrio si su centro de masa se halla sobre una vertical que pase por el &aacute;rea de sustentaci&oacute;n (de apoyo).</li>
+    <li>Otra propiedad notable es que las fuerzas aplicadas en la direcci&oacute;n que contiene el centro de masa no produce rotaci&oacute;n en el cuerpo.</li>
+    <li>Los &quot;sistemas de part&iacute;culas&quot; (una galaxia, un sistema planetario, los fragmentos de una explosi&oacute;n, por ejemplo) son complicad&iacute;simos de describir o plantear o resolver si pretendemos analizarlo como la superposici&oacute;n de la din&aacute;mica de cada part&iacute;cula... pero si en lugar de poner el ojo sobre cada part&iacute;cula ponemos el ojo sobre el centro de masa del sistema... su descripci&oacute;n se torna asombrosamente simple.</li>
+  </ul></td>
+  <td class="bodytext">&nbsp;</td>
+  <td colspan="2" valign="bottom" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="27" colspan="2" align="left" valign="middle" class="bodytext"><strong>PREGUNTAS CAPCIOSAS</strong>: </td>
+  <td class="bodytext">&nbsp;</td>
+  <td width="85" colspan="2" rowspan="3" valign="bottom" class="bodytext"><img src="img_est/ric_hora.jpg" width="85" height="119" /></td>
+</tr>
+<tr>
+  <td height="48" colspan="2" align="left" valign="middle" class="bodytext"><ul>
+    <li>&iquest;Cu&aacute;l es la diferencia entre <strong>centro de masa</strong> y <strong>centro de gravedad</strong>?</li>
+    <li>&iquest;Puede ser que <strong>baricentro</strong> sea lo mismo que <strong>centro de masa</strong>? &iquest;Son sin&oacute;nimos? &iquest;C&oacute;mo se obtiene el baricentro de un tri&aacute;ngulo?</li>
+  </ul></td>
+  <td class="bodytext">&nbsp;</td>
+  </tr>
+<tr>
+  <td height="14" colspan="2" align="center" class="bodytext">&nbsp;</td>
+  <td width="10" class="bodytext">&nbsp;</td>
+  </tr>
+
+
+
+
+<tr> <td height="33" colspan="2" align="center" valign="middle" bgcolor="#CCCCCC" class="bodytext"><table width="84%" border="0">
+  <tr>
+    <td class="epigrafe">Algunos derechos reservados. 
+  Se permite su reproducci&oacute;n citando la fuente (aunque se recomienda que no se reproduzca hasta no formar una familia). &Uacute;ltima actualizaci&oacute;n ago-09. Buenos Aires, Argentina. </td>
+  </tr>
+</table>  </td>
+  <td class="bodytext" width="10">&nbsp;</td>
+  <td width="85" colspan="2" valign="middle" class="bodytext"><a href="AT_ctro_m_v.html"><img src="img_est/boton.gif" width="85" height="27" border="0"></a></td>
+</tr> 
+</table></td></tr> </table><img src="img_est/transparente.gif" width="20" height="20" /></td>
+</tr> 
+<tr> <td colspan="2" class="bodytext"><img src="../cinematica/img_cin/transparente.gif" width="600" height="20" /></td></tr> 
+</table>
+</body>
+</html>

@@ -1,0 +1,183 @@
+<html>
+<head>
+<title>MECANICA DE FLUIDOS, NMS023, fisica online, ejercicios resueltos</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="keywords" content="problemas resueltos, ejercicios resueltos, cbc, fisica, biofisica, fluidos, liquidos, gases, bernoulli, poiseuille, viscosidad, ideales, viscosos, humedad, difusion, osmosis, nomesalen, no me salen, ricardo cabrera" />
+<meta name="description" content="Ejercicios y problemas resueltos, y apuntes teóricos de Fluidos, mecanismos de transporte de fluidos" />
+<link rel="stylesheet" href="win_ie.css">
+<style type="text/css">
+<!--
+.style1 {
+	color: #3F6386;
+	font-weight: bold;
+}
+.Estilo3 {color: #3F6386}
+.Estilo16 {font-size: 16px}
+.Estilo17 {font-size: 10px}
+-->
+</style>
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000" alink="#000000" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<table align=center width="600" border="0" cellspacing="0" cellpadding="0"> 
+  <tr bgcolor="#000000" align="right"> 
+<td><img src="img_flu/nombre5.gif" width="369" height="71"></td></tr> <tr bgcolor="#BB0000" valign="middle" align="left"> 
+<td class="bodytext" height="20"><TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+  <TR ALIGN="center" CLASS="menuitem">
+    <TD WIDTH="44" height="19" CLASS="menuitem"><A HREF="../../index.html" CLASS="menuitem">&nbsp;<B>home</B>&nbsp;</A></TD>
+    <TD WIDTH="5" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="102" CLASS="menuitem"><strong><a href="index_fluidos.html" class="menuitem">m&aacute;s de fluidos </a> </strong></TD>
+    <TD width="5" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="136" CLASS="menuitem"><strong><a href="../../intro_NMS.html" class="menuitem">otros temas de F&iacute;sica</a></strong></TD>
+    <TD width="10" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="173" CLASS="menuitem"><strong><a href="../../lista_ciruela.html" class="menuitem">lecciones del maestro Ciruela </a></strong></TD>
+    <TD width="9" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="68" CLASS="menuitem"><strong><a href="../../lista_tonterias.html" class="menuitem">tonter&iacute;as</a></strong></TD>
+    <TD WIDTH="8" CLASS="menuitem"><a href="../energia/index_energia.html" class="menuitem"></a><FONT COLOR="#000000">|</FONT></TD>
+    <TD WIDTH="40" CLASS="menuitem">&nbsp;<B><FONT FACE="Arial, Helvetica, sans-serif"><A HREF="mailto: ricuti@qi.fcen.uba.ar" CLASS="menuitem">@</A></FONT><A HREF="../../index.html" CLASS="menuitem"></A></B>&nbsp;</TD>
+  </TR>
+</TABLE></td></tr> <tr> <td class="bodytext" height="19"><img src="img_flu/transparente.gif" width="600" height="20"></td></tr> 
+<tr align="center"> <td height="1834"> <table width="600" border="0" cellspacing="0" cellpadding="0"> 
+<tr class="bodytext"> <td valign="top" width="594" height="1814"> 
+<table width="600" border="0" cellspacing="0" cellpadding="0"> <tr> 
+  <td height="74" bgcolor="#D7FFFF" class="bodytext"><span class="bodytext"><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>NO ME SALEN<br>
+</strong></span><span class="Estilo3"><em class="bodytext "><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>(<strong>PROBLEMAS RESUELTOS   DE BIOF&Iacute;SICA DEL CBC</strong>)</strong></em></span><br>
+      <span class="titulograndegris Estilo16"><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>FLUIDOS<br>
+      </strong></span><br> </td>
+  <td class="bodytext" rowspan="3" height="74" width="4">&nbsp;</td>
+  <td class="bodytext" height="74" rowspan="3" valign="top" width="86"> 
+<p><img src="img_flu/cap42.jpg" alt="desesperado" width="85" height="124"></p></td></tr>
+  <tr>
+    <td height="18" bgcolor="#FFFFFF" class="bodytext">&nbsp;</td>
+  </tr> 
+<tr> <td height="103" valign="top" class="bodytext"><P><strong>AD NMS 23*) Por  un tubo horizontal (A) de resistencia hidrodin&aacute;mica R=225 atm.seg/m3 fluye  a raz&oacute;n de 20 litros/min un l&iacute;quido viscoso en r&eacute;gimen laminar y estacionario.  El tubo se divide en dos ca&ntilde;os (B y C) de resistencias R=300 atm.seg/m3 y  R=100 atm.seg/m3,  respectivamente, en paralelo entre s&iacute; y a igual altura que el anterior.</strong><br>
+  <strong>a) </strong><strong>&iquest;Qu&eacute;  caudal fluye por B?<br>
+</strong><strong>b)</strong><strong> &iquest;Cu&aacute;l es la diferencia de presi&oacute;n entre la entrada de A y  la salida de B? </strong></P>
+  </td>
+  </tr>
+<tr>
+  <td height="92" class="bodytext"><p>El d&iacute;a que tom&eacute; este examen, fue &eacute;ste el ejercicio que dej&oacute; m&aacute;s heridos. No es complicado en el fondo, pero s&iacute; en la superficie. Posee varias caracter&iacute;sticas que un estudiante iniciado no dudar&iacute;a en calificar de escabrosas. </p>
+    <p>Como siempre, arranco con un esquema que clarifica las cosas y nos da tranquilidad:</p></td>
+  <td class="bodytext" height="92">&nbsp;</td>
+  <td class="bodytext" height="92" valign="top">&nbsp;</td>
+</tr>  
+<tr>
+  <td height="140" align="center" valign="middle" class="bodytext"><img src="img_flu/flu_NMS23_1.gif" width="360" height="107"></td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="84" align="left" valign="middle" class="bodytext">El ejercicio es tan sencillo que no faltaron estudiantes que respondieron la primera pregunta haciendo un c&aacute;lculo mental: los <em><strong>20 <span class="epigrafe">lit/min</span></strong></em> que ingresan por el tubo <strong>A</strong> se reparten en la bifurcaci&oacute;n... &iquest;pero de qu&eacute; manera? Si el tubo <strong>B</strong> tiene una resistencia tres veces mayor que el <strong>C</strong>, entonces por el <strong>C</strong> fluir&aacute; un caudal 3 veces mayor que por el <strong>B</strong>. La suma de esos dos caudales debe ser 20, de modo que el reparto ser&aacute; 5 y 15.</td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="57" align="center" valign="middle" class="bodytext"><table width="54%" border="0">
+    <tr>
+      <td height="31" align="center" bgcolor="#CCCCCC"><p class="bodytext"><strong><em>Q<strong><sub>B</sub></strong> = </em></strong><em><strong>5 </strong></em><span class="epigrafe"><em><strong><em><strong>lit</strong></em></strong></em>/<em><strong>min</strong></em></span></p></td>
+    </tr>
+  </table></td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td align="left" valign="middle" class="bodytext"><p>Hagamos un desarrollo m&aacute;s formal. Todo lo que entra, sale:</p>
+    <blockquote>
+      <p><strong><em>Q<strong><sub>A</sub></strong> </em>=</strong> <strong><em>Q<strong><sub>B</sub></strong> </em></strong> + <strong><em>Q<strong><sub>C</sub></strong> <strong><em><strong><strong>&#160; &#160;&#160; &#160;&#160;&#160; &#160;&#160; &#160;&#160;&#160; &#160;&#160; &#160;&#160;&#160; &#160;&#160;<span class="epigrafe"> &#160;&#160;</span></strong></strong></em></strong></em></strong><span class="epigrafe"><em>(continuidad)</em></span></p>
+      </blockquote>
+    <p>Y adem&aacute;s, como el tubo <strong>B</strong> y el tubo <strong>C</strong> est&aacute;s en paralelo...</p>
+    <blockquote>
+      <p><em><strong>&Delta;P</strong></em><strong><em><strong><sub>B</sub></strong></em></strong> <strong>=</strong> <em><strong>&Delta;P</strong></em><strong><em><strong><sub>C</sub></strong></em></strong></p>
+      </blockquote>
+    <p>Aplicando la Ley de Ohm en cada tubo, la igualdad anterior se puede escribir as&iacute;:</p>
+    <blockquote>
+      <p><strong><em>Q<strong><sub>B</sub></strong></em></strong><em><strong> . <em>R<strong><sub>B</sub></strong></em></strong></em><strong> =</strong><strong><em> Q<strong><sub>C</sub></strong></em></strong><em><strong> . <em>R<strong><sub>C</sub></strong></em></strong></em><strong> </strong></p>
+      <p><strong><em>Q<strong><sub>B</sub></strong></em></strong><em><strong> . <em>300 <span class="Estilo17">atm.s</span></em></strong><em><span class="Estilo17">/</span></em><strong><em><span class="Estilo17">m<strong><em><strong><strong><em><strong><em><strong><sup>3</sup></strong></em></strong></em></strong></strong></em></strong></span></em></strong></em><strong> =<em> Q<strong><sub>C</sub></strong></em></strong><em><strong> .<em> 100 <span class="Estilo17">atm.s</span></em></strong><em><span class="Estilo17">/</span></em><strong><em><span class="Estilo17">m<strong><em><strong><strong><em><strong><em><strong><sup>3</sup></strong></em></strong></em></strong></strong></em></strong></span></em></strong></em> </p>
+      <p><strong><em>Q<strong><sub>B</sub></strong></em></strong><em><strong> . <em>3</em></strong></em><strong> =<em> Q<strong><sub>C</sub></strong></em></strong></p>
+      </blockquote>
+    <p>Ahora meto esta relaci&oacute;n entre caudales (la misma que hab&iacute;amos anticipado mentalmente) en la ecuaci&oacute;n de continuidad que escrib&iacute; arriba:</p>
+    <blockquote>
+      <p><strong><em>Q<strong><sub>A</sub></strong> </em>=</strong> <strong><em>Q<strong><sub>B</sub></strong> </em></strong> +<strong><em> Q<strong><sub>B</sub></strong></em></strong><em><strong> . <em>3</em></strong></em></p>
+      <p><strong><em>Q<strong><sub>A</sub></strong> </em>=</strong><strong><em> Q<strong><sub>B</sub></strong></em></strong><em><strong> . <em>4</em></strong></em></p>
+      </blockquote>    
+    <p>Despejo <strong><em>Q<strong><sub>B</sub></strong></em></strong> y lo calculo:</p>
+    <blockquote>
+      <p><strong><em>Q<strong><sub>B</sub></strong> </em>=</strong><strong><em> Q<strong><sub>A</sub></strong></em></strong><em><strong> / <em>4</em></strong></em></p>
+      <p><strong><em>Q<strong><sub>B</sub></strong> </em>=</strong><em><strong> 20 </strong></em><em><strong><em><strong><span class="epigrafe">lit</span></strong></em></strong></em>/<em><strong><span class="epigrafe">min</span>  / <em>4</em></strong></em></p>
+      <p><strong><em>Q<strong><sub>B</sub></strong> </em>=</strong><em><strong> 5 </strong></em><em><strong><em><strong><span class="epigrafe">lit</span></strong></em></strong></em>/<em><strong><span class="epigrafe">min</span></strong></em></p>
+      </blockquote>
+    <p>Vamos a la pregunta <strong>b)</strong>, la cuesti&oacute;n de las presiones. Para conocer la diferencia de presi&oacute;n entre la entrada del tubo <strong>A</strong> y la salida del <strong>B</strong> hay varios caminos. Tal vez el que exija menos cuentas consiste en sumar la diferencia de presi&oacute;n producida en el tubo<strong> A</strong> con la diferencia de presi&oacute;n producida en el <strong>B</strong>.</p>
+    <blockquote>
+      <p><strong><em>&Delta;P<strong><sub>AB</sub></strong> </em>=</strong> <strong><em>&Delta;P<strong><sub>A</sub></strong> </em></strong> + <strong><em>&Delta;P<strong><sub>B</sub></strong></em></strong></p>
+      </blockquote>
+    <p>Nuevamente, aplicando la ley de Ohm...</p>
+    <blockquote>
+      <p><strong><em>&Delta;P<strong><sub>AB</sub></strong> </em>=</strong><strong><em> Q<strong><sub>A</sub></strong></em></strong><em><strong> . <em>R<strong><sub>A</sub></strong></em></strong></em> + <strong><em>Q<strong><sub>B</sub></strong></em></strong><em><strong> . <em>R<strong><sub>B</sub></strong></em></strong></em></p>
+      <p><strong><em>&Delta;P<strong><sub>AB</sub></strong> </em>=</strong><em><strong> 20 </strong></em><em><strong><em><strong><span class="epigrafe">lit</span></strong></em></strong></em>/<em><strong><span class="epigrafe">min</span>  .<em> 225 <span class="Estilo17">atm.s</span></em></strong><em><span class="Estilo17">/</span></em><strong><em><span class="Estilo17">m<strong><em><strong><strong><em><strong><em><strong><sup>3</sup></strong></em></strong></em></strong></strong></em></strong></span></em></strong></em> +<em><strong> 5 </strong></em><em><strong><em><strong><span class="epigrafe">lit</span></strong></em></strong></em>/<em><strong><span class="epigrafe">min</span>  .<em> 300 <span class="Estilo17">atm.s</span></em></strong><em><span class="Estilo17">/</span></em><strong><em><span class="Estilo17">m<strong><em><strong><strong><em><strong><em><strong><sup>3</sup></strong></em></strong></em></strong></strong></em></strong></span></em></strong></em></p>
+      </blockquote>
+    <p><em>&iexcl;</em>Qu&eacute; l&iacute;o de unidades<em>!</em> Si quer&eacute;s el resultado en pascales convertimos las atm&oacute;sferas a pascales y unificamos las unidades de volumen y tiempo. Y si quer&eacute;s las respuesta en atm&oacute;sferas s&oacute;lo hace falta unificar las unidades de volumen y de tiempo. Si no te incomoda, primero resuelvo la parte num&eacute;rica:</p>
+    <blockquote>
+      <p><strong><em>&Delta;P<strong><sub>AB</sub></strong> </em>=</strong><em><strong> 4.500 </strong></em><em><strong><em><strong><span class="epigrafe">lit</span></strong></em></strong></em>/<em><strong><span class="epigrafe">min</span> .<em> <span class="Estilo17">atm.s</span></em></strong><em><span class="Estilo17">/</span></em><strong><em><span class="Estilo17">m<strong><em><strong><strong><em><strong><em><strong><sup>3</sup></strong></em></strong></em></strong></strong></em></strong></span></em></strong></em> +<em><strong> 1.500 <em><strong><span class="epigrafe">lit</span></strong></em></strong></em>/<em><strong><span class="epigrafe">min</span> .<em> <span class="Estilo17">atm.s</span></em></strong><em><span class="Estilo17">/</span></em><strong><em><span class="Estilo17">m<strong><em><strong><strong><em><strong><em><strong><sup>3</sup></strong></em></strong></em></strong></strong></em></strong></span></em></strong></em></p>
+      <p><strong><em>&Delta;P<strong><sub>AB</sub></strong> </em>=</strong><em><strong> 6.000 </strong></em><em><strong><em><strong><span class="epigrafe">lit</span></strong></em></strong></em>/<em><strong><span class="epigrafe">min</span> .<em> <span class="Estilo17">atm.s</span></em></strong><em><span class="Estilo17">/</span></em><strong><em><span class="Estilo17">m<strong><em><strong><strong><em><strong><em><strong><sup>3</sup></strong></em></strong></em></strong></strong></em></strong></span></em></strong></em></p>
+      <p><strong><em>&Delta;P<strong><sub>AB</sub></strong> </em>=</strong><em><strong> 6.000 <em><strong><span class="epigrafe">lit</span></strong></em></strong></em>/<em><strong><span class="epigrafe">60 s</span> .<em> <span class="Estilo17">atm.s</span></em></strong><em><span class="Estilo17">/</span></em><strong><em><span class="Estilo17">1.000 lit</span></em></strong></em></p>
+      </blockquote></td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+</tr>
+<tr> 
+  <td height="62" align="center" valign="middle" class="bodytext"><table width="54%" border="0">
+    <tr>
+      <td height="31" align="center" bgcolor="#CCCCCC"><p class="bodytext"><strong><em>&Delta;P<strong><sub>AB</sub></strong> </em>=</strong><em><strong> </strong></em><em><strong><em>0,1 <span class="Estilo17">atm</span></em></strong></em></p></td>
+    </tr>
+  </table></td>
+  <td class="bodytext" width="4">&nbsp;</td>
+  <td class="bodytext" width="86">&nbsp;</td>
+</tr>
+<tr>
+  <td height="117" align="left" valign="middle" class="bodytext"><p>Y si lo quer&iacute;as en pascales:</p>
+    <blockquote>
+      <p><strong><em>&Delta;P<strong><sub>AB</sub></strong> </em>=</strong><em><strong> </strong></em><em><strong><em>10.130 <span class="Estilo17">Pa</span></em></strong></em></p>
+      </blockquote>
+    <p>Tal vez la principal moraleja sea... no apresurarse a hacer cuentas ni pasajes de unidades. Todos esos reemplazos se hacen, si son necesarios, al final del final del final.</p></td>
+  <td align="left" valign="middle" class="bodytext">&nbsp;</td>
+  <td align="left" valign="middle" class="bodytext">&nbsp;</td>
+  </tr>
+
+
+<tr>
+  <td height="30" align="center" bgcolor="#FFFF99" class="bodytext"><table width="460" height="17" border="0" cellpadding="0" cellspacing="0">
+    <tr>
+      <td width="460" class="epigrafe">* Este ejercicio fue tomado del primer examen parcial de biof&iacute;sica del 05/10/12.</td>
+    </tr>
+  </table></td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="32" align="left" class="bodytext"><p><strong>DESAF&Iacute;O</strong>: &iquest;Cu&aacute;nto vale la diferencia de presi&oacute;n en el tubo <strong>C</strong>?</p>    </td>
+  <td class="bodytext">&nbsp;</td>
+  <td width="86" rowspan="3" valign="bottom" class="bodytext"><img src="../cinematica/img_cin/ric_teclado.jpg" alt="teclado ricardo cabrera" width="85" height="130"></td>
+</tr>
+
+<tr>
+  <td height="18" bgcolor="#FFFFFF" class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+  </tr>
+
+<tr> <td align="center" valign="middle" bgcolor="#CCCCCC" class="bodytext"><table width="91%" border="0">
+  <tr>
+    <td class="epigrafe">Algunos derechos reservados. 
+      Se permite su reproducci&oacute;n citando la fuente. Si ten&eacute;s un paciente descompensado hemodin&aacute;micamente no es recomendable apu&ntilde;alarlo por la espalda. &Uacute;ltima actualizaci&oacute;n oct-12. Buenos Aires, Argentina. </td>
+  </tr>
+</table>  </td>
+  <td class="bodytext" width="4">&nbsp;</td>
+  </tr> 
+<tr> <td height="18" class="bodytext">&nbsp;</td><td class="bodytext" width="4">&nbsp;</td>
+<td class="bodytext" width="86">&nbsp;</td>
+</tr> 
+</table></td></tr> </table>
+<img src="img_flu/transparente.gif" width="10" height="20"></td></tr> 
+<tr> <td class="bodytext"><img src="img_flu/transparente.gif" width="600" height="20"></td></tr> 
+</table>
+</body>
+</html>

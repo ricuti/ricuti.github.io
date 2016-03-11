@@ -1,0 +1,182 @@
+<html>
+<head>
+<title>DINAMICA, FUERZAS ELÁSTICAS - Ley de HOOKE, apunte teorico, ejercicios resueltos</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="keywords" content="problemas resueltos, ejercicios resueltos, cbc, fisica, biofisica, dinamica, estatica, nomesalen, no me salen, ricardo cabrera" />
+<meta name="description" content="Ejercicios y problemas resueltos, y apuntes teóricos de Dinámica y Estática" />
+<link rel="stylesheet" href="win_ie.css" />
+<style type="text/css">
+<!--
+.style1 {
+	color: #3F6386;
+	font-weight: bold;
+}
+.Estilo3 {color: #3F6386}
+.Estilo4 {
+	color: #CC0033
+}
+-->
+</style>
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000" alink="#000000" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<table align=center width="600" border="0" cellspacing="0" cellpadding="0"> 
+  <tr bgcolor="#000000" align="right"> 
+<td width="600"><img src="img_din/nombre5.gif" width="369" height="71" /></td>
+  </tr> <tr bgcolor="#BB0000" valign="middle" align="left"> 
+<td class="bodytext" height="20"><TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+  <TR ALIGN="center" CLASS="menuitem">
+    <TD WIDTH="50" height="19" CLASS="menuitem"><A HREF="../../index.html" CLASS="menuitem">&nbsp;<B>home</B>&nbsp;</A></TD>
+    <TD WIDTH="5" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="155" CLASS="menuitem"><strong><a href="index_din.html" class="menuitem">más de dinámica </a> </strong></TD>
+    <TD width="17" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="115" CLASS="menuitem"><strong><a href="../../intro_NMS.html" class="menuitem">otros temas de F&iacute;sica</a></strong></TD>
+    <TD width="10" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="151" CLASS="menuitem"><strong><a href="../../lista_ciruela.html" class="menuitem">lecciones del maestro Ciruela </a></strong></TD>
+    <TD width="10" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="55" CLASS="menuitem"><strong><a href="../../lista_tonterias.html" class="menuitem">tonter&iacute;as </a></strong><a href="../cinematica/index_cinem.html"></a><a href="../energia/index_energia.html" class="menuitem"></a></TD>
+    <TD WIDTH="10" CLASS="menuitem"><a href="../energia/index_energia.html" class="menuitem"></a><FONT COLOR="#000000">|</FONT></TD>
+    <TD WIDTH="22" CLASS="menuitem">&nbsp;<B><FONT FACE="Arial, Helvetica, sans-serif"><A HREF="mailto: ricuti@qi.fcen.uba.ar" CLASS="menuitem">@</A></FONT><A HREF="../../index.html" CLASS="menuitem"></A></B>&nbsp;</TD>
+  </TR>
+</TABLE></td></tr> <tr> <td class="bodytext" height="10"><img src="../cinematica/img_cin/transparente.gif" width="600" height="10" /></td>
+</tr> 
+<tr align="center"> <td height="928"> <table width="561" border="0" cellspacing="0" cellpadding="0"> 
+<tr class="bodytext"> <td colspan="2" valign="top" height="623"> <img src="../cinematica/img_cin/transparente.gif" width="1" height="1" /></td>
+<td valign="top" width="550" height="623"> 
+<table width="597" border="0" cellspacing="0" cellpadding="0"> 
+  <tr> 
+  <td height="73" colspan="2" class="bodytext"><p><span class="titulochicogris"><strong>NO ME SALEN </strong></span><br />
+      <span class="titulochicogris"><strong>APUNTES TE&Oacute;RICOS Y EJERCICIOS RESUELTOS DE F&Iacute;SICA DEL CBC</strong></span><span class="Estilo3"><br>
+      <strong><em>Ley de Hooke</em></strong><br />
+      </span><br /> 
+      </p>    </td>
+  <td class="bodytext" rowspan="2" height="73" width="10">&nbsp;</td><td class="bodytext" colspan="2" height="73" rowspan="2" valign="top" width="85"> 
+<p><img src="img_din/elastic.jpg" alt="¡no me salen!" width="85" height="232" /></p></td></tr> 
+<tr> <td height="191" colspan="2" valign="top" class="bodytext"><P><strong>FUERZAS EL&Aacute;STICAS</strong> - <strong>Ley de HOOKE</strong></P>
+  <P>Empecemos por entender a qu&eacute; se llama un cuerpo el&aacute;stico: es aquel que despu&eacute;s de deformarlo recupera por s&iacute; solo su forma original. Por ejemplo, una pelota de f&uacute;tbol: uno puede aplastarla un poco ejerciendo una fuerza sobre ella (dos fuerzas, en general); a esa fuerza vamos a llamarla fuerza deformante. Cuando uno retira la fuerza deformante la pelota recupera su forma esf&eacute;rica.</P>
+  <P>No siempre los cuerpos el&aacute;sticos se comportan en forma el&aacute;stica en todas direcciones de las deformaciones como el caso de la pelota. En esta lecci&oacute;n vamos a trabajar con cuerpos que se comportan el&aacute;sticamente en una sola direcci&oacute;n (y en ambos sentidos). Se trata de los resortes ideales (en la jerga, simplemente: el&aacute;sticos).</P></td>
+</tr>  
+<tr>
+  <td height="37" colspan="2" align="center" class="bodytext"><img src="img_din/gr_DAT_elast_1.gif" width="80" height="26"></td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext" colspan="2">&nbsp;</td>
+</tr>
+<tr>
+  <td height="182" colspan="2" align="left" class="bodytext"><p>La elasticidad de los resortes se manifiesta en su direcci&oacute;n longitudinal (si lo aplast&aacute;s de costado lo m&aacute;s probable es que te quedes sin resorte). Como te imagin&aacute;s para comprimirlo o estirarlo hay que hacer fuerza en ambos extremos. Pero para entender el funcionamiento de los resortes conviene que experimentemos en un s&oacute;lo extremo, as&iacute; que vamos a apoyarlo contra una pared y ah&iacute; lo pegamos con poxipol 10 minutos (no tenemos todo el d&iacute;a). Trabajaremos s&oacute;lo en el extremo libre.</p>
+    <p>Cuando una fuerza deformante act&uacute;a sobre un el&aacute;stico, el el&aacute;stico responde sobre el cuerpo que lo deforma con una fuerza igual y opuesta. No es que los el&aacute;sticos sean vengativos, sino que, como todos los cuerpos del universo, est&aacute;n obligados a cumplir con la tercera Ley de la Din&aacute;mica: el Principio de Acci&oacute;n y Reacci&oacute;n. A esa fuerza que hacen los el&aacute;sticos se la llama <strong>fuerza el&aacute;stica</strong>.</p></td>
+  <td class="bodytext">&nbsp;</td>
+  <td colspan="2" align="center" class="epigrafe Estilo4"><table width="85" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td align="center" class="epigrafe">un cuerpo pl&aacute;stico <strong>no </strong>recupera su forma original </td>
+    </tr>
+  </table>    </td>
+</tr>
+<tr>
+  <td height="395" colspan="2" align="left" class="bodytext"><table width="100%" border="0">
+    <tr>
+      <td width="49%" height="250" class="bodytext"><img src="img_din/gr_DAT_elast_2.gif" width="232" height="382"></td>
+      <td width="51%" class="bodytext"><p>La fuerza que hace el el&aacute;stico (la fuerza el&aacute;stica, <strong><em><strong><em><strong>F</strong></em><strong><em><strong><sub>e</sub></strong></em></strong></strong></em></strong>) la  represent&eacute; en verde. Y la fuerza deformante, <strong><em><strong><em><strong>F</strong></em><strong><em><strong><sub>d</sub></strong></em></strong></strong></em></strong>, en rosa. </p>
+        <p>Las deformaciones (representadas con flechas negras) se miden siempre desde la posici&oacute;n de la &uacute;ltima espira del resorte cuando no est&aacute; perturbada por fuerzas externas (en la jerga: libre, sin carga, en reposo, y otras expresiones). Hice una marca roja en el piso indicando la posici&oacute;n desde la que medimos la deformaci&oacute;n. </p>
+        <p>Cuanto mayor es la fuerza deformante m&aacute;s se deforma el el&aacute;stico, y tambi&eacute;n mayor es la fuerza el&aacute;stica. El se&ntilde;or Robert Hooke (1635-1703), encontr&oacute; que la deformaci&oacute;n y la fuerza el&aacute;stica eran directamente proporcionales. </p>
+        <blockquote>
+          <p><strong><em><strong><em><strong>F</strong></em><strong><em><strong><sub>e</sub></strong></em></strong> <strong>~</strong> <em>&#916</em>x</strong></em></strong></p>
+        </blockquote>
+        <p>Esto vale tanto para los estiramientos o elongaciones como para las compresiones.</p>
+        <p>La fuerza el&aacute;stica y la deformaci&oacute;n del el&aacute;stico siempre tienen sentidos opuestos. </p></td>
+    </tr>
+  </table></td>
+  <td class="bodytext">&nbsp;</td>
+  <td colspan="2" align="center" class="epigrafe"><img src="img_din/hooke.jpg" width="85" height="107"></td>
+</tr>
+<tr>
+  <td height="67" colspan="2" align="left" class="bodytext">Considerando esto, y considerando que cada resorte en particular se estiraba (o se comprim&iacute;a) de modo diferente a los otros sometidos a una misma fuerza deformante es obvio que el factor de proporcionalidad deb&iacute;a ser una constante que dependiera de cada resorte en particular. El resultado de esto es la Ley de Hooke:</td>
+  <td class="bodytext">&nbsp;</td>
+  <td colspan="2" align="center" class="epigrafe">&nbsp;</td>
+</tr>
+<tr>
+  <td height="45" colspan="2" align="center" class="bodytext"><table width="100%" border="0" bordercolor="#FFFFFF">
+    <tr>
+      <td width="29%" height="31">&nbsp;</td>
+      <td width="42%" align="center" valign="middle" bordercolor="#CCCCCC" bgcolor="#CCCCCC"><strong><em><strong><em><strong>F</strong></em><strong><em><strong><sub>e</sub></strong></em></strong> = <strong>&ndash;</strong> k . <em>&#916</em>x</strong></em></strong></td>
+      <td width="29%">&nbsp;</td>
+    </tr>
+  </table></td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext" colspan="2">&nbsp;</td>
+</tr>
+<tr>
+  <td height="72" colspan="2" class="bodytext"><p>En la que <em><strong>k</strong></em> es la constante el&aacute;stica, un valor que representa a cada resorte, que se mide en <em class="epigrafe"><strong>N</strong>/<strong>m</strong></em> o cualquier otra unidad de fuerza dividida por una unidad de longitud; y es mayor cuanto m&aacute;s duro y robusto sea el resorte, y menor cuanto m&aacute;s flacucho y debilucho sea. M&aacute;s precisamente<em><strong> k</strong></em> representa la fuerza de restituci&oacute;n de cada resorte.</p>    </td>
+  <td class="bodytext">&nbsp;</td>
+  <td width="85" colspan="2" valign="middle" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="146" colspan="2" class="bodytext"><table width="503" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td width="250" height="61" class="bodytext"><img src="img_din/gr_DAT_elast_3.gif" width="250" height="136"></td>
+      <td width="10" class="bodytext">&nbsp;</td>
+      <td width="242" class="bodytext"><p>El gr&aacute;fico nos muestra c&oacute;mo var&iacute;a la fuerza el&aacute;stica en funci&oacute;n de la posici&oacute;n de su &uacute;ltima espira (respecto de la posici&oacute;n de relajamiento). </p>
+        <p>La zona graficada se llama per&iacute;odo el&aacute;stico (si un el&aacute;stico real se lo estira o comprime mucho deja de ser un el&aacute;stico y ten&eacute;s que tirarlo). Baj&oacute;n.</p></td>
+    </tr>
+  </table></td>
+  <td class="bodytext">&nbsp;</td>
+  <td colspan="2" valign="middle" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="105" colspan="2" class="bodytext">Los signos que llevan las fuerzas en las ecuaciones de Newton dependen de la discusi&oacute;n que realices en el <strong>DCL</strong> y del sistema de referencia que arbitrariamente elijas para resolver los ejercicios. A partir de ah&iacute; cada fuerza se comporta como un ente algebraico: no pod&eacute;s volver a cambiarle su signo arbitrariamente. De modo que yo te recomiendo usar la ley de Hooke s&oacute;lo en m&oacute;dulo, <strong><em><strong><em><strong>F</strong></em><strong><em><strong><sub>e</sub></strong></em></strong> = k . <em>&#916</em>x</strong></em></strong>, sin el signo menos, que oscurece m&aacute;s que aclara, induce a error demasiadas veces. Siempre es m&aacute;s pr&aacute;ctico y sencillo trabajar los sentidos de las fuerzas visualmente que anal&iacute;ticamente.</td>
+  <td class="bodytext">&nbsp;</td>
+  <td colspan="2" valign="middle" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="23" colspan="2" align="left" valign="middle" class="bodytext"><span class="bodylinkblack"><strong>CHISMES IMPORTANTES</strong>: </span></td>
+  <td class="bodytext">&nbsp;</td>
+  <td width="85" colspan="2" valign="bottom" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="307" colspan="2" rowspan="2" align="left" valign="middle" class="bodytext"><ul>
+    <li>Los <strong>resortes ideales</strong> se pueden estirar tanto como se precise y comprimir tambi&eacute;n tanto como se necesite, que siempre van a responder con fuerzas el&aacute;sticas hookianas y siempre van a recuperar su longitud ideal. Todo el mundo sabe que los resortes de verdad no cumplen con ese requisito. El rango de deformaciones en el que un resorte de verdad se comporta como uno ideal se denomina <strong>per&iacute;odo el&aacute;stico</strong>. muchos resortes de verdad, a&uacute;n trabajando dentro de su per&iacute;odo el&aacute;stico, se desv&iacute;an considerablemente de la Ley de Hooke: no son <strong>lineales</strong>.</li>
+    <li>En muchos textos, y en varios ejercicios de este sitio, se toma en cuenta la longitud del resorte. Y se distingue la longitud natural, o longitud sin carga, o longitud sin deformaci&oacute;n, <em><strong>l<sub>o</sub></strong></em> , de la longitud que adopta cuando est&aacute; deformado, <em><strong>l</strong></em>; resulta obvio que <strong><em><strong><em>&#916</em>x</strong></em></strong> <strong><em><strong>=</strong></em></strong> <em><strong>l</strong></em> <strong><em><strong><strong>&ndash;</strong></strong></em></strong> <em><strong>l<sub>o</sub></strong></em>.</li>
+    <li>Como la longitud es una magnitud de f&aacute;cil medida los resortes hookianos se convirtieron en el instrumento de medida  de las fuerzas m&aacute;s confiable y seguro. El admin&iacute;culo recibe el nombre de <em><strong>dinam&oacute;metro</strong></em> y consta de un par de ganchos, un extremo del resorte fijo en una regla y el otro extremo con una aguja deslizante sobre la misma regla.</li>
+    <li>Las balanzas a resorte (dinam&oacute;metros) miden fuerzas; en cambio las balazas de brazos o platillos miden masas usando el principio de comparaci&oacute;n. Las balanzas  digitales modernas utilizan una propiedad material llamada <strong>piezoelectricidad</strong>.</li>
+  </ul></td>
+  <td rowspan="2" class="bodytext">&nbsp;</td>
+  <td height="307" colspan="2" align="center" valign="bottom" class="bodytext"><img src="img_din/dinamometro.jpg" width="85" height="163"></td>
+</tr>
+<tr>
+  <td colspan="2" align="center" valign="top" class="epigrafe">dinam&oacute;metro</td>
+</tr>
+<tr>
+  <td height="27" colspan="2" align="left" valign="middle" class="bodytext"><strong>PREGUNTAS CAPCIOSAS</strong>: </td>
+  <td class="bodytext">&nbsp;</td>
+  <td width="85" colspan="2" rowspan="3" valign="bottom" class="bodytext"><img src="img_din/ric_elastic.jpg" width="85" height="125"></td>
+</tr>
+<tr>
+  <td height="57" colspan="2" align="left" valign="middle" class="bodytext"><ul>
+    <li>Si quiero pesarme en la Luna, &iquest;puedo usar una balanza de platillos?, &iquest;puedo utilizar un dinam&oacute;metro? &iquest;Qu&eacute; admin&iacute;culo utilizan los astronautas para medir masas o pesos dentro de la nave espacial? </li>
+    <li>&iquest;Es posible que Robert Hooke haya disputado con Newton la paternidad de la Ley de Gravitaci&oacute;n Universal? &iquest;Ser&aacute; Hooke uno de los gigantes?</li>
+  </ul></td>
+  <td class="bodytext">&nbsp;</td>
+  </tr>
+<tr>
+  <td height="29" colspan="2" align="center" class="bodytext">&nbsp;</td>
+  <td width="10" class="bodytext">&nbsp;</td>
+  </tr>
+
+
+
+
+<tr> <td height="33" colspan="2" align="center" valign="middle" bgcolor="#CCCCCC" class="bodytext"><table width="90%" border="0">
+  <tr>
+    <td class="epigrafe">Algunos derechos reservados. 
+      Se permite su reproducci&oacute;n citando la fuente. &Uacute;ltima actualizaci&oacute;n jun-09. Buenos Aires, Argentina. </td>
+  </tr>
+</table></td>
+  <td class="bodytext" width="10">&nbsp;</td>
+  <td width="85" colspan="2" valign="middle" class="bodytext"><a href="AT_G.html"><img src="img_din/boton.gif" width="85" height="27" border="0"></a></td>
+</tr> 
+</table></td></tr> </table><img src="img_din/transparente.gif" width="20" height="20" /></td>
+</tr> 
+<tr> <td class="bodytext"><img src="../cinematica/img_cin/transparente.gif" width="600" height="20" /></td>
+</tr> 
+</table>
+</body>
+</html>

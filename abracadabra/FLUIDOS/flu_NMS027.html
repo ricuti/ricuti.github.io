@@ -1,0 +1,241 @@
+<html>
+<head>
+<title>MECANICA DE FLUIDOS, NMS027, fisica online, ejercicios resueltos</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="keywords" content="problemas resueltos, ejercicios resueltos, cbc, fisica, biofisica, fluidos, liquidos, gases, bernoulli, poiseuille, viscosidad, ideales, viscosos, humedad, difusion, osmosis, nomesalen, no me salen, ricardo cabrera" />
+<meta name="description" content="Ejercicios y problemas resueltos, y apuntes teóricos de Fluidos, mecanismos de transporte de fluidos" />
+<link rel="stylesheet" href="win_ie.css">
+<style type="text/css">
+<!--
+.style1 {
+	color: #3F6386;
+	font-weight: bold;
+}
+.Estilo3 {color: #3F6386}
+.Estilo16 {font-size: 16px}
+.Estilo5 {font-weight: bold;
+	font-style: italic;
+}
+-->
+</style>
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000" alink="#000000" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<table align=center width="600" border="0" cellspacing="0" cellpadding="0"> 
+  <tr bgcolor="#000000" align="right"> 
+<td><img src="img_flu/nombre5.gif" width="369" height="71"></td></tr> <tr bgcolor="#BB0000" valign="middle" align="left"> 
+<td class="bodytext" height="20"><TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+  <TR ALIGN="center" CLASS="menuitem">
+    <TD WIDTH="44" height="19" CLASS="menuitem"><A HREF="../../index.html" CLASS="menuitem">&nbsp;<B>home</B>&nbsp;</A></TD>
+    <TD WIDTH="5" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="102" CLASS="menuitem"><strong><a href="index_fluidos.html" class="menuitem">m&aacute;s de fluidos </a> </strong></TD>
+    <TD width="5" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="136" CLASS="menuitem"><strong><a href="../../intro_NMS.html" class="menuitem">otros temas de F&iacute;sica</a></strong></TD>
+    <TD width="10" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="173" CLASS="menuitem"><strong><a href="../../lista_ciruela.html" class="menuitem">lecciones del maestro Ciruela </a></strong></TD>
+    <TD width="9" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="68" CLASS="menuitem"><strong><a href="../../lista_tonterias.html" class="menuitem">tonter&iacute;as</a></strong></TD>
+    <TD WIDTH="8" CLASS="menuitem"><a href="../energia/index_energia.html" class="menuitem"></a><FONT COLOR="#000000">|</FONT></TD>
+    <TD WIDTH="40" CLASS="menuitem">&nbsp;<B><FONT FACE="Arial, Helvetica, sans-serif"><A HREF="mailto: ricuti@qi.fcen.uba.ar" CLASS="menuitem">@</A></FONT><A HREF="../../index.html" CLASS="menuitem"></A></B>&nbsp;</TD>
+  </TR>
+</TABLE></td></tr> <tr> <td class="bodytext" height="10"><img src="img_flu/transparente.gif" width="600" height="10"></td>
+</tr> 
+<tr align="center"> <td height="1013"> <table width="600" border="0" cellspacing="0" cellpadding="0"> 
+<tr class="bodytext"> <td colspan="2" valign="top" height="993"> <img src="img_flu/transparente.gif" width="1" height="1"></td>
+<td valign="top" width="596" height="993"> 
+<table width="598" border="0" cellspacing="0" cellpadding="0"> <tr> 
+  <td width="504" height="74" bgcolor="#D7FFFF" class="bodytext"><span class="bodytext"><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>NO ME SALEN<br>
+</strong></span><span class="Estilo3"><em class="bodytext "><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>(<strong>PROBLEMAS RESUELTOS   DE BIOF&Iacute;SICA DEL CBC</strong>)</strong></em></span><br>
+      <span class="titulograndegris Estilo16"><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>FLUIDOS<br>
+      </strong></span><span class="titulograndegris Estilo16"><strong><span class="titulochicogris"><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em></strong></span></strong></span><span class="titulochicogris">HIDROST&Aacute;TICA</span><br> </td>
+  <td class="bodytext" rowspan="3" height="74" width="10">&nbsp;</td>
+  <td class="bodytext" height="74" rowspan="3" valign="top" width="82"> 
+<p><img src="img_flu/cap46.jpg" alt="desesperado" width="85" height="107"></p></td></tr>
+  <tr>
+    <td height="18" bgcolor="#FFFFFF" class="bodytext">&nbsp;</td>
+  </tr> 
+<tr> <td height="62" valign="top" class="bodytext"><table width="100%" border="0">
+  <tr>
+    <td align="left" valign="top" class="bodytext"><strong>Adicional NMS 27* - La resistencia hidrodin&aacute;mica de un conducto cil&iacute;ndrico nuevo es R. Con el uso, el dep&oacute;sito de sedimentos en sus paredes internas hizo que su resistencia valiera 3R. Si se desea conectar un nuevo conducto en paralelo con &eacute;ste de modo que tal conjunto vuelva a tener una resistencia equivalente igual a R, la resistencia hidrodin&aacute;mica del conducto agregado ser&aacute;:</strong></td>
+    </tr>
+</table>
+  </td>
+  </tr>
+<tr>
+  <td align="left" valign="middle" class="bodytext"><p>Este ejercicio es demasiado sencillo. Su complejidad se conjura siendo prolijos en el planteo y con un poco de &aacute;lgebra. Apenas un 20% de los entudiastes evaluados con este ejercicio logr&oacute; responderlo correctamente. Veamos.</p>    </td>
+  <td class="bodytext" height="56">&nbsp;</td>
+  <td class="bodytext" height="56" valign="top">&nbsp;</td>
+</tr>
+<tr>
+  <td height="295" align="left" valign="middle" class="bodytext"><table width="100%" border="0">
+    <tr>
+      <td width="40%" rowspan="3"><img src="img_flu/flu_NMS27_1.gif" alt="Flu&iacute;dos - Ricardo Cabrera" width="180" height="281"></td>
+      <td width="60%" height="170" class="bodytext"><p>Ah&iacute; ten&eacute;s dibujado el conjunto en paralelo: una de las ramas la ocupa el ca&ntilde;o viejo de resistencia <em><strong>3R</strong></em>, y la otra el conducto nuevo cuya resistencia, <em><strong>X</strong></em>, desconocemos.</p>
+        <p>Queremos que la resistencia equivalente del conjunto tenga una resistencia <em><strong>R</strong></em>, como el conducto original, que ya no existe.</p>
+        <p>La ley de agrupaciones de resistencias en paralelo nos dice que:</p>        </td>
+    </tr>
+    <tr>
+      <td height="62" align="center" class="bodytext"><table width="44%" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td width="13%" rowspan="3" align="right" class="bodytext">&nbsp;</td>
+          <td width="19%" align="center" valign="bottom" class="bodytext"><em><strong>1</strong></em><em><strong></strong></em></td>
+          <td width="10%" rowspan="3" align="center" valign="middle" class="bodytext">+</td>
+          <td width="16%" height="18" align="center" valign="bottom" class="bodytext"><em><strong>1</strong></em><em><strong></strong></em></td>
+          <td width="12%" rowspan="3" align="center" valign="middle" class="bodytext"><strong>=</strong></td>
+          <td width="22%" height="18" align="center" valign="bottom" class="bodytext"><strong><em>1</em></strong><em><strong></strong></em></td>
+          <td width="8%" rowspan="3" align="left" valign="middle" class="bodytext"><strong><em><strong><em><strong><strong>&#160;</strong></strong></em></strong></em></strong></td>
+        </tr>
+        <tr>
+          <td align="center" valign="middle" class="epigrafe"><hr align="center" width="100%" style="color:black" size="1" noshade></td>
+          <td height="5" align="center" valign="middle" class="epigrafe"><hr align="center" width="100%" style="color:black" size="1" noshade></td>
+          <td align="center" valign="middle" class="epigrafe"><hr align="center" width="100%" style="color:black" size="1" noshade></td>
+        </tr>
+        <tr>
+          <td align="center" valign="top" class="bodytext"><em><strong><span class="Estilo5">R</span><em><sub>1</sub></em><span class="Estilo5"><sub></sub></span></strong></em></td>
+          <td height="16" align="center" valign="top" class="bodytext"><em><strong><span class="Estilo5">R</span><em><sub>2</sub></em></strong></em></td>
+          <td height="16" align="center" valign="top" class="bodytext"><strong><em><strong><span class="Estilo5">R</span><em><sub>eq</sub></em></strong><span class="epigrafe"></span></em></strong></td>
+        </tr>
+      </table></td>
+    </tr>
+    <tr>
+      <td height="55" align="left" class="bodytext">Y en nuestro caso ser&aacute;:</td>
+    </tr>
+  </table></td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext" valign="top">&nbsp;</td>
+</tr>
+<tr>
+  <td height="58" align="left" valign="middle" class="bodytext">
+    <table width="51%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td width="16%" rowspan="3" align="right" class="bodytext">&nbsp;</td>
+            <td width="16%" align="center" valign="bottom" class="bodytext"><em><strong>1</strong></em><em><strong></strong></em></td>
+            <td width="10%" rowspan="3" align="center" valign="middle" class="bodytext">+</td>
+            <td width="13%" height="18" align="center" valign="bottom" class="bodytext"><em><strong>1</strong></em><em><strong></strong></em></td>
+            <td width="9%" rowspan="3" align="center" valign="middle" class="bodytext"><strong>=</strong></td>
+            <td width="16%" height="18" align="center" valign="bottom" class="bodytext"><strong><em>1</em></strong><em><strong></strong></em></td>
+            <td width="20%" rowspan="3" align="left" valign="middle" class="bodytext"><strong><em><strong><em><strong><strong>&#160;</strong></strong></em></strong></em></strong></td>
+          </tr>
+          <tr>
+            <td align="center" valign="middle" class="epigrafe"><hr align="center" width="100%" style="color:black" size="1" noshade></td>
+            <td height="5" align="center" valign="middle" class="epigrafe"><hr align="center" width="100%" style="color:black" size="1" noshade></td>
+            <td align="center" valign="middle" class="epigrafe"><hr align="center" width="100%" style="color:black" size="1" noshade></td>
+          </tr>
+          <tr>
+            <td align="center" valign="top" class="bodytext"><em><strong><span class="Estilo5">3R</span><span class="Estilo5"><sub></sub></span></strong></em></td>
+            <td height="16" align="center" valign="top" class="bodytext"><em><strong><span class="Estilo5">X</span><em><sub></sub></em></strong></em></td>
+            <td height="16" align="center" valign="top" class="bodytext"><strong><em><strong><span class="Estilo5">R</span></strong></em></strong></td>
+          </tr>
+          </table>
+    </blockquote></td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext" valign="top">&nbsp;</td>
+</tr>
+<tr>
+  <td height="46" class="bodytext"><p>De ah&iacute; despejamos <em><strong>X</strong></em> y listo. <em>&iexcl;</em>Qu&eacute; terrible<em>!</em>, <em>&iexcl;</em>Me quiero morir<em>!</em></p>    </td>
+  <td class="bodytext">&nbsp;</td>
+  <td rowspan="2" align="center" valign="middle" class="bodytext"><img src="img_flu/imposible.jpg" alt="Flu&iacute;dos - Ricardo Cabrera" width="85" height="89"></td>
+</tr>
+<tr>
+  <td height="64" class="bodytext">
+      <table width="54%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td width="16%" rowspan="3" align="right" class="bodytext">&nbsp;</td>
+            <td width="26%" align="center" valign="bottom" class="bodytext"><em><strong>X + 3R</strong></em><em><strong></strong></em></td>
+            <td width="8%" rowspan="3" align="center" valign="middle" class="bodytext"><strong>=</strong></td>
+            <td width="12%" height="18" align="center" valign="bottom" class="bodytext"><strong><em>1</em></strong><em><strong></strong></em></td>
+            <td width="38%" rowspan="3" align="left" valign="middle" class="bodytext"><strong><em><strong><em><strong><strong>&#160;</strong></strong></em></strong></em></strong></td>
+          </tr>
+          <tr>
+            <td height="5" align="center" valign="middle" class="epigrafe"><hr align="center" width="100%" style="color:black" size="1" noshade></td>
+            <td align="center" valign="middle" class="epigrafe"><hr align="center" width="100%" style="color:black" size="1" noshade></td>
+          </tr>
+          <tr>
+            <td align="center" valign="top" class="bodytext"><em><strong><span class="Estilo5">3R</span> . X</strong></em></td>
+            <td height="16" align="center" valign="top" class="bodytext"><strong><em><strong><span class="Estilo5">R</span></strong></em></strong></td>
+          </tr>
+          </table>
+    </blockquote></td>
+  <td class="bodytext">&nbsp;</td>
+  </tr>
+<tr>
+  <td height="59" class="bodytext"><table width="54%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="14%" rowspan="3" align="right" class="bodytext">&nbsp;</td>
+        <td width="19%" rowspan="3" align="center" valign="middle" class="bodytext"><em><strong>X + 3R</strong></em><em><strong></strong></em></td>
+        <td width="7%" rowspan="3" align="center" valign="middle" class="bodytext"><strong>=</strong></td>
+        <td width="26%" height="20" align="center" valign="bottom" class="bodytext"><em><strong><span class="Estilo5">3R</span> . X</strong></em><em><strong></strong></em></td>
+        <td width="34%" rowspan="3" align="left" valign="middle" class="bodytext"><strong><em><strong><em><strong><strong>&#160;</strong></strong></em></strong></em></strong></td>
+      </tr>
+      <tr>
+        <td height="5" align="center" valign="middle" class="epigrafe"><hr align="center" width="100%" style="color:black" size="1" noshade></td>
+      </tr>
+      <tr>
+        <td height="16" align="center" valign="top" class="bodytext"><strong><em><strong><span class="Estilo5">R</span></strong></em></strong></td>
+      </tr>
+    </table>
+  </blockquote></td>
+  <td class="bodytext">&nbsp;</td>
+  <td align="center" valign="middle" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="86" class="bodytext"><blockquote>
+    <p><em><strong>X + 3R</strong></em> <strong>=<em> 3X</em></strong></p>
+    <p><em><strong><br>
+      3R</strong></em> <strong>=<em> 2X</em></strong></p>
+  </blockquote></td>
+  <td class="bodytext">&nbsp;</td>
+  <td align="center" valign="middle" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="59" align="center" class="bodytext"><table width="100%" border="0">
+    <tr>
+      <td width="12%" height="35" bgcolor="#FFFFFF"><p class="bodytext">&nbsp;</p></td>
+      <td width="36%" align="center" bgcolor="#CCCCCC" class="bodytext"><em><strong>3<em><strong>R</strong></em>/2</strong></em></td>
+      <td width="52%" bgcolor="#FFFFFF" class="bodytext"><em><strong><strong>&#160;&#160; &#160;&#160; &#160;&#160; &#160;</strong></strong></em></td>
+    </tr>
+  </table></td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext" valign="top">&nbsp;</td>
+</tr>
+<tr>
+  <td height="92" align="left" class="bodytext"><p>El ejercicio estaba armado como uno de respuesta m&uacute;ltiple. La resistencia equivalente de un paralelo siempre es menor que la m&aacute;s chica de las resistencias que integran el paralelo. Sin embargo muchos estudiantes eligieron respuestas en las que el tubo nuevo, el suplementario, ten&iacute;a un valor menor que <em><strong>R</strong></em>. <em>&iexcl;</em>Cosa e'mandinga<em>!</em></p></td>
+  <td class="bodytext" height="92">&nbsp;</td>
+  <td class="bodytext" height="92" valign="top">&nbsp;</td>
+</tr>  
+<tr> 
+  <td height="27" align="left" bgcolor="#FFFFCC" class="bodytext"><p class="epigrafe">*Este ejercicio perteneci&oacute; al primer  parcial de Biof&iacute;sica tomado el 10 de mayo de 2013 y todos los d&iacute;as hago un esfuerzo enorme por olvidar aquella masacre.</p>    </td>
+  <td class="bodytext" width="10">&nbsp;</td>
+  <td width="82" rowspan="5" class="bodytext"><img src="img_flu/ric_celeste.jpg" alt="Flu&iacute;dos - Ricardo Cabrera" width="85" height="121"></td>
+</tr>
+<tr>
+  <td align="center" valign="middle" class="bodytext">&nbsp;</td>
+  <td align="left" valign="middle" class="bodytext">&nbsp;</td>
+  </tr>
+
+<tr>
+  <td height="28" align="left" class="bodytext"><p><strong>DESAF&Iacute;O</strong>: Si se deseara complementar con dos tubos en paralelo (en lugar de uno) cu&aacute;nto valdr&iacute;an si fueran iguales?</p>    </td>
+  <td class="bodytext">&nbsp;</td>
+  </tr>
+
+<tr>
+  <td height="18" bgcolor="#FFFFFF" class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+  </tr>
+
+<tr> <td align="center" valign="middle" bgcolor="#CCCCCC" class="bodytext"><table width="93%" border="0">
+  <tr>
+    <td class="epigrafe">Algunos derechos reservados. 
+  Se permite su reproducci&oacute;n citando la fuente. Quien no cite la fuente ser&aacute; penado con reclusi&oacute;n en la Ant&aacute;rtida y trabajos forzados. &Uacute;ltima actualizaci&oacute;n may-13. Buenos Aires, Argentina.</td>
+  </tr>
+</table>  </td>
+  <td class="bodytext" width="10">&nbsp;</td>
+  </tr> 
+<tr> <td height="18" class="bodytext">&nbsp;</td><td class="bodytext" width="10">&nbsp;</td>
+<td class="bodytext" width="82">&nbsp;</td>
+</tr> 
+</table></td></tr> </table><img src="img_flu/transparente.gif" width="10" height="20"></td></tr> 
+<tr> <td class="bodytext"><img src="img_flu/transparente.gif" width="600" height="20"></td></tr> 
+</table>
+</body>
+</html>

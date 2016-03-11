@@ -1,0 +1,198 @@
+<html>
+<head>
+<title>Funciones y Análisis matemático, A002, fisica online, ejercicios resueltos</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="keywords" content="problemas resueltos, ejercicios resueltos, cbc, fisica, biofisica, electricidad, magnetismo, electromagnetismo, nomesalen, no me salen, ricardo cabrera" />
+<meta name="description" content="Ejercicios y problemas resueltos, y apuntes teóricos de magnetismo y electromagnetismo" />
+<link rel="stylesheet" href="win_ie.css" />
+<style type="text/css">
+<!--
+.style1 {
+	color: #3F6386;
+	font-weight: bold;
+}
+.Estilo3 {color: #3F6386}
+.Estilo16 {font-size: 16px}
+.Estilo33 {color: #0033FF}
+-->
+</style>
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000" alink="#000000" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<table align=center width="600" border="0" cellspacing="0" cellpadding="0"> 
+  <tr bgcolor="#000000" align="right"> 
+<td width="600"><img src="img_ana/nombre5.gif" width="369" height="71"></td>
+  </tr> <tr bgcolor="#BB0000" valign="middle" align="left"> 
+<td class="bodytext" height="20"><TABLE WIDTH="99%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+  <TR ALIGN="center" CLASS="menuitem">
+    <TD WIDTH="50" height="19" CLASS="menuitem"><A HREF="../../index.html" CLASS="menuitem">&nbsp;<B>home</B>&nbsp;</A></TD>
+    <TD WIDTH="5" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="131" CLASS="menuitem"><strong><a href="index_ana.html" class="menuitem">m&aacute;s de funciones </a> </strong></TD>
+    <TD width="12" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="126" CLASS="menuitem"><strong><a href="../../intro_NMS.html" class="menuitem">otros temas de F&iacute;sica</a></strong></TD>
+    <TD width="16" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="154" CLASS="menuitem"><strong><a href="../../lista_ciruela.html" class="menuitem">lecciones del maestro Ciruela </a></strong></TD>
+    <TD width="14" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="66" CLASS="menuitem"><strong><a href="../../lista_tonterias.html" class="menuitem">tonter&iacute;as</a></strong></TD>
+    <TD WIDTH="10" CLASS="menuitem"><a href="../energia/index_energia.html" class="menuitem"></a><FONT COLOR="#000000">|</FONT></TD>
+    <TD WIDTH="26" CLASS="menuitem">&nbsp;<B><FONT FACE="Arial, Helvetica, sans-serif"><A HREF="mailto: ricuti@qi.fcen.uba.ar" CLASS="menuitem">@</A></FONT><A HREF="../../index.html" CLASS="menuitem"></A></B>&nbsp;</TD>
+  </TR>
+</TABLE></td></tr> <tr> <td class="bodytext" height="8"><img src="img_ana/transparente.gif" width="600" height="9"></td>
+</tr> 
+<tr align="center"> <td height="762"> <table width="599" border="0" cellspacing="0" cellpadding="0"> 
+<tr class="bodytext"> <td colspan="2" valign="top" height="619"> <img src="img_ana/transparente.gif" width="1" height="1"></td>
+<td valign="top" width="597" height="619"> 
+<table width="599" border="0" cellspacing="0" cellpadding="0"> 
+  <tr> 
+  <td height="74" colspan="2" valign="middle" bgcolor="#FFDB4A" class="bodytext"><span class="bodytext"><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>NO ME SALEN<br>
+</strong></span><span class="Estilo3"><em class="bodytext "><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>(EJERCICIOS RESUELTOS Y <strong>APUNTES TE&Oacute;RICOS  DE F&Iacute;SICA</strong>)</strong></em></span><br>
+      <span class="titulograndegris Estilo16"><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>Funciones <br>
+      <em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em></strong></span><br> </td>
+  <td class="bodytext" rowspan="3" height="74" width="4">&nbsp;</td>
+  <td class="bodytext" rowspan="4" valign="top" width="88"> 
+<p><img src="img_ana/cap2.jpg" width="85" height="130"></p></td></tr>
+  <tr>
+    <td height="14" colspan="2" bgcolor="#FFFFFF" class="bodytext">&nbsp;</td>
+  </tr> 
+<tr> <td colspan="2" rowspan="2" class="bodytext"><P><strong>1.1- Indicar cuáles de las siguientes funciones 
+  son lineales.<br>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) <em>f(x) = 0</em><br>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) <em>f(x) = 2x + 3</em><br>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) <em>f(x) = <strong>&mdash;</strong> 1/3 x</em><br>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) <em>f(x) = 5x&sup2; <strong>&mdash;</strong> x</em><br>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; e) <em>f(x) = (x <strong>&mdash;</strong> 1)&sup2; + 3x</em><br>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; f) <em>f(x) = 2x + 3; x</em> ≤<em> 0 y 3 x </em>≥ <em>0</em></strong></P>
+    </td>
+</tr>  
+<tr> <td height="111" align="center" class="bodytext">&nbsp;</td>
+</tr>
+ 
+<tr>
+  <td height="171" colspan="2" align="left" valign="middle" bgcolor="#FFFFFF" class="bodytext"><p>Acordate que se llama función lineal (o también función polinómica de primer grado) a la función de la forma:</p>
+    <blockquote>
+      <p><em><strong>f(x) = a x + b</strong></em></p>
+    </blockquote>    
+    <p>Donde <em><strong>a</strong></em> y<em><strong> b</strong></em> son dos números reales que representan la pendiente (o inclinación de la gráfica) y la ordenada al origen (o término independiente, que es el valor de la función para <em><strong>x = 0</strong></em>) respectivamente.</p>
+    <p>La representación gráfica de una función lineal es siempre una recta no vertical.</p></td>
+  <td class="bodytext">&nbsp;</td>
+  <td width="88" align="center" valign="middle" class="bodytext">&nbsp;</td>
+</tr>
+
+
+
+<tr>
+  <td height="44" colspan="2" align="left" bgcolor="#FFFFFF" class="bodytext"><p><strong>a)</strong> <em><strong>f(x) = 0</strong></em>. Se trata, efectivamente de una función lineal. La pendiente vale <em><strong>0</strong></em> y la ordenada al origen también. <em><strong>a = 0</strong></em> y <em><strong>b = 0</strong></em>. </p>    </td>
+  <td class="bodytext">&nbsp;</td>
+  <td width="88" align="center" valign="middle" class="epigrafe Estilo33"><p>&nbsp;</p>    </td>
+</tr>
+
+<tr>
+  <td width="169" height="130" align="left" valign="middle" bgcolor="#FFFFFF" class="bodytext"><img src="img_ana/gr_ana_002_1.gif" width="150" height="114"></td>
+  <td width="338" align="left" valign="middle" bgcolor="#FFFFFF" class="bodytext"><p>Su representación gráfica es ésta. Cuando la pendiente vale cero, como en este caso, nos encontramos con un subgrupo de las funciones lineales: la <em><strong>función constante</strong></em>.</p>
+    <p>Si el valor de la ordenada al origen fuese distinto de <em><strong>0</strong></em>, las gráficas correspondientes igualmente sería paralelas al exe x, pero más arriba (<em><strong>b&gt;0</strong></em>) o más abajo (<em><strong>b&lt;0</strong></em>).</p></td>
+  <td class="bodytext">&nbsp;</td>
+  <td valign="bottom" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="53" colspan="2" align="left" valign="middle" bgcolor="#FFFFFF" class="bodytext"><strong> b) <em>f(x) = 2x + 3</em></strong>. Obvio que sí. <em><strong>a = 2</strong></em> y <em><strong>b = 3</strong></em>.&nbsp; Caso típico. Mirá el gráfico. Ahí se ve claramente que la ordenada al origen es el valor de la función cuando la variable independiente es nula.</td>
+  <td class="bodytext">&nbsp;</td>
+  <td valign="bottom" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="164" align="left" valign="middle" bgcolor="#FFFFFF" class="bodytext"><img src="img_ana/gr_ana_002_2.gif" width="150" height="114"></td>
+  <td align="left" valign="middle" bgcolor="#FFFFFF" class="bodytext"><p>En cuanto a la inclinación (o pendiente), de la gráfica, si la función es de nímeros reales, o sea, que podríamos representarla así: </p>
+    <blockquote>
+      <p><strong><em>y = 2x + 3</em></strong></p>
+    </blockquote>    
+    <p>entonces conviene que las escalas de los ejes sean idénticas. En ese caso la pendiente te indica cuántas unidades de la función (<em><strong>y</strong></em>) aumenta o disminuyen cada cuántas unidades de la variable independiente (<em><strong>x</strong></em>).</p></td>
+  <td class="bodytext">&nbsp;</td>
+  <td valign="bottom" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="118" colspan="2" align="left" valign="middle" bgcolor="#FFFFFF" class="bodytext"><p>En nuestro gráfico... mirá el triangulito que se forma entre la curva y los ejes. Su altura vale <em><strong>3</strong></em>, luego la base debe medir <em><strong>1,5</strong></em>, ya que <em><strong>a =</strong></em> <em><strong>&#916y</strong></em>/<em><strong>&#916x</strong></em>, <em><strong>a =</strong></em> <em><strong>3 </strong></em>/<em><strong> 1,5</strong></em>, <em><strong>a = 2</strong></em>. </p>
+    <p>Pero si la función fuese real pero no numérica (por ejemplo presión de un fluido en función de la profundidad), o si por el motivo que fuese tenemos una representación gráfica cuyos ejes tienen escalas diferentes, entonces, la inclinación de la gráfica no se debe interpretar geométricamente.</p></td>
+  <td class="bodytext">&nbsp;</td>
+  <td width="88" valign="bottom" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="47" colspan="2" align="left" valign="middle" bgcolor="#FFFFFF" class="bodytext"><strong>c) <em>f(x) = <strong>&mdash;</strong> 1/3</em> x</strong>. Claro que sí, que se trata de una función lineal. Acá <em><strong>a = <em><strong>&mdash;</strong></em> 0,33...</strong></em> y <em><strong>b = 0</strong></em>.</td>
+  <td class="bodytext">&nbsp;</td>
+  <td valign="bottom" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="63" align="left" valign="middle" bgcolor="#FFFFFF" class="bodytext"><img src="img_ana/gr_ana_002_3.gif" width="150" height="112"></td>
+  <td height="63" align="left" valign="middle" bgcolor="#FFFFFF" class="bodytext"><p>Veamos el gráfico. ¿Llegás a darte cuenta si los ejes tienen la misma escala? La respuesta es sí, la misma escala.</p>
+    <p>También podés observar que si <strong><em>a</em></strong>, la pendiente, es negativa, la gráfica es descendente. </p></td>
+  <td class="bodytext">&nbsp;</td>
+  <td valign="bottom" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="85" colspan="2" align="left" valign="middle" bgcolor="#FFFFFF" class="bodytext"><strong>d) <em>f(x) = 5x&sup2; <strong>&mdash;</strong> x</em></strong>. Esta función no es lineal, de acá a la China. Cuando la variable independiente, en este caso <em><strong>x</strong></em>, aparece al menos una vez elevada al cuadrado o a cualquier potencia distinta de <em><strong>1</strong></em> (que es cuando la potencia no se escribe) la función deja de ser lineal y se convierte en una función potencial; en este caso de grado <em><strong>2</strong></em>, o cuadrática.</td>
+  <td class="bodytext">&nbsp;</td>
+  <td valign="bottom" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="125" align="left" valign="middle" bgcolor="#FFFFFF" class="bodytext"><p><img src="img_ana/gr_ana_002_4.gif" width="150" height="113"></p>    </td>
+  <td height="125" align="left" valign="middle" bgcolor="#FFFFFF" class="bodytext">La forma de la gráfica es típica, se trata de una parábola. Con la práctica vas a poder dibujarla a mano alzada (que es lo deseable) y predecir es va para arriba, para abajo, más abierta, más cerrada, más corrida a la izquierda o a la derecha, o perfectamente centrada. Por ahora podés fijarte que si el término independiente u ordenada al origen vale cero... la gráfica deberá cortar el origen de los ejes. </td>
+  <td class="bodytext">&nbsp;</td>
+  <td valign="bottom" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="93" colspan="2" align="left" valign="middle" bgcolor="#FFFFFF" class="bodytext"><strong>e) <em>f(x) = (x <strong>&mdash;</strong> 1)&sup2; + 3x</em></strong>. De acá a la china otra cuadrática. Pero tal vez no te resulte tan fácil de interpretar como la anterior. trata de llevarla (operando algebraicamente) a la forma tradicional: <strong> <em>f(x) = ax&sup2; + bx + c</em></strong><em>.</em> Donde <em><strong>a</strong></em>, <em><strong>b</strong></em> y <em><strong>c</strong></em> son los coeficiente cuadrático, coeficiente lineal y término independiente respectivamente. O sea que los que en la cuadrática llamamos <em><strong>b</strong></em>, en la lineal llamamos <em><strong>a</strong></em>; y lo que en la cuadrática llamamos <em><strong>c</strong></em>, en la lineal <em><strong>b</strong></em>. </td>
+  <td class="bodytext">&nbsp;</td>
+  <td valign="bottom" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="93" align="left" valign="middle" bgcolor="#FFFFFF" class="bodytext"><img src="img_ana/gr_ana_002_5.gif" width="150" height="113"></td>
+  <td height="93" align="left" valign="middle" bgcolor="#FFFFFF" class="bodytext"><p>No es difícil, hacelo vos y llegá a lo mismo que yo:</p>
+    <blockquote>
+      <p><strong><em>f(x) = x&sup2; + x</em></strong><strong><em> + 1</em></strong></p>
+    </blockquote>    <p>Y mirá el gráfico.</p></td>
+  <td class="bodytext">&nbsp;</td>
+  <td valign="bottom" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="93" colspan="2" align="left" valign="middle" bgcolor="#FFFFFF" class="bodytext"><strong>f) <em>f(x) = 2x + 3; x</em> ≤<em> 0 y 3 x </em>≥ <em>0</em></strong>. Bueno, la función es la misma que el caso <strong>b)</strong>, pero los escrito después del punto y coma debe interpretarse de la siguiente manera: </td>
+  <td class="bodytext">&nbsp;</td>
+  <td valign="bottom" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="93" align="left" valign="middle" bgcolor="#FFFFFF" class="bodytext">&nbsp;</td>
+  <td height="93" align="left" valign="middle" bgcolor="#FFFFFF" class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+  <td valign="bottom" class="bodytext">&nbsp;</td>
+</tr>
+
+
+<tr>
+  <td height="53" colspan="2" align="left" valign="middle" bgcolor="#FFFFFF" class="bodytext"><strong>Desaf&iacute;o:</strong> &iquest;Te animás a decirme en qué valor de x tiene su vértice la parábola de la función <strong>d)</strong>?</td>
+  <td class="bodytext">&nbsp;</td>
+  <td width="88" rowspan="4" align="center" valign="bottom" class="bodytext"><strong><em><sub><img src="img_ana/ric_mate.gif" alt="Magnetismo - Ricardo Cabrera" width="85" height="124"></sub></em></strong></td>
+</tr>
+
+<tr>
+  <td height="14" colspan="2" align="left" valign="top" bgcolor="#FFFFFF" class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+  </tr>
+<tr>
+  <td colspan="2" bgcolor="#FFFFFF" class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+  </tr>
+<tr> <td colspan="2" align="center" valign="middle" bgcolor="#CCCCCC" class="bodytext"><table width="94%" border="0">
+  <tr>
+    <td class="epigrafe">Algunos derechos reservados. 
+      Se permite su reproducci&oacute;n citando la fuente. &Uacute;ltima actualizaci&oacute;n mar-16.  Buenos Aires, Argentina.</td>
+  </tr>
+</table>  </td>
+  <td class="bodytext" width="4">&nbsp;</td>
+  </tr> 
+<tr> <td height="18" colspan="2" class="bodytext">&nbsp;</td><td class="bodytext" width="4">&nbsp;</td>
+<td class="bodytext" width="88">&nbsp;</td>
+</tr> 
+</table></td></tr> </table><img src="img_ana/transparente.gif" width="20" height="20"></td>
+</tr> 
+<tr> <td class="bodytext"><img src="img_ana/transparente.gif" width="20" height="20"></td>
+</tr> 
+</table>
+</body>
+</html>

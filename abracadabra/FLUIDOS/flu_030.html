@@ -1,0 +1,179 @@
+<html>
+<head>
+<title>MECANICA DE FLUIDOS, F030, fisica online, ejercicios resueltos</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="keywords" content="problemas resueltos, ejercicios resueltos, cbc, fisica, biofisica, fluidos, liquidos, gases, bernoulli, poiseuille, viscosidad, ideales, viscosos, humedad, difusion, osmosis, nomesalen, no me salen, ricardo cabrera" />
+<meta name="description" content="Ejercicios y problemas resueltos, y apuntes teóricos de Fluidos, mecanismos de transporte de fluidos" />
+<link rel="stylesheet" href="win_ie.css">
+<style type="text/css">
+<!--
+.style1 {
+	color: #3F6386;
+	font-weight: bold;
+}
+.Estilo3 {color: #3F6386}
+.Estilo16 {font-size: 16px}
+.Estilo17 {font-size: 10px}
+-->
+</style>
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000" alink="#000000" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<table align=center width="600" border="0" cellspacing="0" cellpadding="0"> 
+  <tr bgcolor="#000000" align="right"> 
+<td><img src="img_flu/nombre5.gif" width="369" height="71"></td></tr> <tr bgcolor="#BB0000" valign="middle" align="left"> 
+<td class="bodytext" height="20"><TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+  <TR ALIGN="center" CLASS="menuitem">
+    <TD WIDTH="44" height="19" CLASS="menuitem"><A HREF="../../index.html" CLASS="menuitem">&nbsp;<B>home</B>&nbsp;</A></TD>
+    <TD WIDTH="5" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="102" CLASS="menuitem"><strong><a href="index_fluidos.html" class="menuitem">m&aacute;s de fluidos </a> </strong></TD>
+    <TD width="5" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="136" CLASS="menuitem"><strong><a href="../../intro_NMS.html" class="menuitem">otros temas de F&iacute;sica</a></strong></TD>
+    <TD width="10" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="173" CLASS="menuitem"><strong><a href="../../lista_ciruela.html" class="menuitem">lecciones del maestro Ciruela </a></strong></TD>
+    <TD width="9" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="68" CLASS="menuitem"><strong><a href="../../lista_tonterias.html" class="menuitem">tonter&iacute;as</a></strong></TD>
+    <TD WIDTH="8" CLASS="menuitem"><a href="../energia/index_energia.html" class="menuitem"></a><FONT COLOR="#000000">|</FONT></TD>
+    <TD WIDTH="40" CLASS="menuitem">&nbsp;<B><FONT FACE="Arial, Helvetica, sans-serif"><A HREF="mailto: ricuti@qi.fcen.uba.ar" CLASS="menuitem">@</A></FONT><A HREF="../../index.html" CLASS="menuitem"></A></B>&nbsp;</TD>
+  </TR>
+</TABLE></td></tr> <tr> <td class="bodytext" height="19"><img src="img_flu/transparente.gif" width="600" height="20"></td></tr> 
+<tr align="center"> <td height="875"> <table width="600" border="0" cellspacing="0" cellpadding="0"> 
+<tr class="bodytext"> <td valign="top" width="594" height="1638"> 
+<table width="600" border="0" cellspacing="0" cellpadding="0"> 
+  <tr> 
+  <td height="74" colspan="2" bgcolor="#D7FFFF" class="bodytext"><span class="bodytext"><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>NO ME SALEN<br>
+</strong></span><span class="Estilo3"><em class="bodytext "><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>(<strong>PROBLEMAS RESUELTOS   DE BIOF&Iacute;SICA DEL CBC</strong>)</strong></em></span><br>
+      <span class="titulograndegris Estilo16"><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>FLUIDOS<br>
+      </strong></span><br> </td>
+  <td class="bodytext" rowspan="3" height="74" width="4">&nbsp;</td>
+  <td class="bodytext" height="74" rowspan="3" valign="top" width="87"> 
+<p><img src="img_flu/cap4.jpg" alt="desesperado" width="85" height="126"></p></td></tr>
+  <tr>
+    <td height="18" colspan="2" bgcolor="#FFFFFF" class="bodytext">&nbsp;</td>
+  </tr> 
+<tr> <td width="69" height="105" valign="top" class="bodytext"><P><img src="img_flu/BIOFISICA.jpg" width="65" height="90"></P>
+    </td>
+  <td width="440" class="bodytext"><p><strong>30) En un recipiente de 1 litro, en el que previamente se ha hecho vac&iacute;o, se tiene agua
+    l&iacute;quida en equilibrio con su vapor, a 80&deg;C. Si el n&uacute;mero total de moles de la mezcla es 2, &iquest;cu&aacute;ntos moles de agua l&iacute;quida y cu&aacute;ntos moles de vapor hay?<br>
+Datos: Buscando en tablas se encuentra que, a 80&ordm;C, un mol de agua ocupa en estado
+    l&iacute;quido 0,0185 litros, y en estado gaseoso 61,1 litros.</strong></p>    </td>
+</tr>
+<tr>
+  <td height="83" colspan="2" class="bodytext"><p>No le temas, este ejercicio tiene una dificultad f&iacute;sica de nivel -3;  apunta todos los ca&ntilde;ones a investigar si sos capaz de hacer planteos abstractos y traducir el lenguaje coloquial a ecuaciones o relaciones algebraicas. Es s&oacute;lo eso. Intentalo de nuevo sin mi ayuda y despu&eacute;s volv&eacute;, que adem&aacute;s de resolverlo, te hago unas observaciones finales que te pueden resultar interesantes. And&aacute;. </p>    </td>
+  <td class="bodytext" height="83">&nbsp;</td>
+  <td class="bodytext" height="83" valign="top">&nbsp;</td>
+</tr>  
+<tr> 
+  <td height="180" colspan="2" align="center" valign="middle" class="bodytext"><table width="100%" border="0">
+    <tr>
+      <td width="69%" height="167" class="bodytext"><p>Yo siempre me hago un esquemita, &iquest;viste? (me dicen esquem&aacute;tico...) Bueno, voy a llamar <em><strong>x </strong></em>a la cantidad de moles de agua en estado gaseoso, e <em><strong>y</strong></em> a la cantidad de moles de agua en estado l&iacute;quido. Seg&uacute;n el enunciado del problema tenemos que </p>
+        <blockquote>
+          <p><em><strong>x + y = 2 <span class="Estilo17">moles</span></strong></em><em><em>&#160; &#160;&#160; &#160;</em></em><em><em>&#160; &#160;&#160; &#160;</em></em><em><em>&#160;&#160;&#160; &#160;</em></em> <strong>[1]</strong> </p>
+          </blockquote>
+        <p>La parte gaseosa ocupa un volumen <strong><em>V<strong><em><strong><strong><em><strong><em><sub>x</sub></em></strong></em></strong></strong></em></strong></em></strong>, y la parte l&iacute;quida un volumen <strong><em>V<strong><em><strong><strong><em><strong><em><sub>y</sub></em></strong></em></strong></strong></em></strong></em></strong>. Seg&uacute;n el enunciado se cumplir&aacute; que: </p></td>
+      <td width="31%" align="center" valign="middle" class="bodytext"><img src="img_flu/flu_030_1.gif" alt="Flu&iacute;dos - Ricardo Cabrera" width="100" height="141"></td>
+    </tr>
+  </table></td>
+  <td class="bodytext" width="4">&nbsp;</td>
+  <td class="bodytext" width="87">&nbsp;</td>
+</tr>
+<tr>
+  <td colspan="2" align="left" valign="middle" class="bodytext"><blockquote>
+    <p><strong><em>V<sub>x</sub> + V<sub>y</sub>  = 1<span class="Estilo17"> lit </span><em>&#160; &#160;&#160; &#160;</em></em><em><em>&#160; &#160;&#160;  &#160;&#160; &#160;</em></em><em><em>&#160; &#160;&#160; &#160;</em></em> <strong>[2]</strong> </strong></p>
+    </blockquote>    
+    <p>El enunciado aporta algunos datos muy &uacute;tiles, por ejemplo que la relaci&oacute;n entre el volumen que ocupa el vapor a esa temperatura y la cantidad de moles de vapor que haya vale siempre:</p>
+    <blockquote>
+      <p><strong><em>V<sub>x</sub> / x = 61,1 <span class="Estilo17">lit</span></em></strong><em><span class="Estilo17">/</span></em><strong><em><span class="Estilo17">mol </span></em></strong> <strong><em><em>&#160; &#160; <em>&#160;&#160; &#160;</em>&#160; &#160; </em></em> <strong>[3]</strong></strong></p>
+      </blockquote>
+    <p>Y tambi&eacute;n nos da la relaci&oacute;n entre el volumen de agua l&iacute;quida y la cantidad de moles: </p>
+    <blockquote>
+      <p><strong><em>V<sub>y</sub> / y = 0,0185 <span class="Estilo17">lit</span></em></strong><em><span class="Estilo17">/</span></em><strong><em><span class="Estilo17">mol </span></em></strong> <strong><em><em>&#160; &#160; &#160; &#160; </em></em> <strong>[4]</strong></strong></p>
+      </blockquote>
+    <p>En definitiva ten&eacute;s un sistema de cuatro ecuaciones con cuatro inc&oacute;gnitas. <em>&iexcl;</em>4x4<em>! &iexcl;</em>Qu&eacute; miedo... estoy por desmayarme<em>! </em></p>
+    <p>Hay 20.000 formas diferentes de resolver el sistema. Lo importante es que te des cuenta que esto tiene soluci&oacute;n algebraica. Que la parte f&iacute;sica del ejercicio ya la resolviste, que lo que te queda es &aacute;lgebra -no f&iacute;sica-, que pod&eacute;s tardar 5 minutos en resolverlo o 45... pero que lo que falta no debe entorpecer tu comprensi&oacute;n del funcionamiento del universo, que eso es la f&iacute;sica.</p>
+    <p>Dale, te ayudo a resolverlo para que no llores. De la  <strong><strong>[3]</strong></strong> despejo <strong><em>V<sub>x</sub></em></strong>, y de la <strong><strong>[4]</strong></strong> <strong><em>V<sub>y</sub></em></strong>.</p>
+    <blockquote>
+      <p><strong><em>V<sub>x</sub>  = x . 61,1 <span class="Estilo17">lit</span></em></strong><em><span class="Estilo17">/</span></em><strong><em><span class="Estilo17">mol</span></em></strong></p>
+      <p><strong><em>V<sub>y</sub>  = y . 0,0185 <span class="Estilo17">lit</span></em></strong><em><span class="Estilo17">/</span></em><strong><em><span class="Estilo17">mol</span></em></strong></p>
+      </blockquote>
+    <p>meto ambas en la ecuaci&oacute;n <strong><strong>[2]</strong></strong></p>
+    <blockquote>
+      <p><strong><em>x . 61,1 <span class="Estilo17">lit</span></em></strong><em><span class="Estilo17">/</span></em><strong><em><span class="Estilo17">mol</span></em></strong> + <strong><em>y . 0,0185 <span class="Estilo17">lit</span></em></strong><em><span class="Estilo17">/</span></em><strong><em><span class="Estilo17">mol</span></em></strong> <strong>= <em>1<span class="Estilo17">lit</span></em></strong></p>
+      </blockquote>
+    <p>Ya puedo cancelar esos litros. Paso los moles que est&aacute;n dividiendo en el primer miembro, multiplicando al segundo. De la <strong>[1]</strong> despejo <em><strong>y</strong></em>, y lo meto en la anterior:</p>
+    <blockquote>
+      <p><strong><em>x . 61,1 </em></strong> + <strong><em>(2<span class="Estilo17"> mol</span> &ndash; x)  . 0,0185</em></strong> <strong>= <em>1</em></strong><strong><em><span class="Estilo17"> mol</span></em></strong></p>
+      </blockquote>
+    <p>distribuyo el producto en el par&eacute;ntesis; reagrupo y despejo <em><strong>x</strong></em>... </p></td>
+  <td align="left" valign="middle" class="bodytext">&nbsp;</td>
+  <td align="left" valign="middle" class="bodytext">&nbsp;</td>
+  </tr>
+
+<tr>
+  <td height="54" colspan="2" align="center" valign="middle" class="bodytext"><table width="84%" border="0">
+    <tr>
+      <td height="31" bgcolor="#CCCCCC"><p class="bodytext"><strong><strong>&#160;&#160; &#160;&#160; &#160;&#160; &#160;</strong><em>x</em></strong> <strong>= <em>0,0158<span class="Estilo17"> moles</span></em></strong></p></td>
+    </tr>
+  </table></td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="90" colspan="2" align="left" valign="middle" class="bodytext"><p>El resto es pan comido... pero aprovecho la redundancia algebraica para verificar que los resultados sean correctos. Se trata de cantidades muy ajustadas, muy extremas, de modo que si no trabaj&aacute;s con suficientes cifras decimales se te descalabran las sumas y no lleg&aacute;s a verificar nada. En estos casos te aconsejo trabajar con todas las cifras decimales que te permita tu calculadora y redondear s&oacute;lo en los resultados finales para no hacer papelones (*). </p>    </td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="93" colspan="2" align="center" valign="middle" class="bodytext"><table width="85%" border="0">
+    <tr>
+      <td height="76" bgcolor="#CCCCCC"><p class="bodytext"><strong><strong>&#160;&#160; &#160;&#160; &#160;&#160; &#160;</strong><em>y</em></strong> <strong>= <em>1,9842<span class="Estilo17"> moles</span></em></strong></p>
+        <p class="bodytext"><strong><strong>&#160;&#160; &#160;&#160; &#160;&#160; &#160;</strong><em>V<sub>x</sub> = 0,9629 <span class="Estilo17">lit</span></em></strong><strong><em><span class="Estilo17"> </span></em></strong> <strong><em><em>&#160; &#160; &#160; &#160; </em></em> </strong>y<strong><em><span class="Estilo17"> </span></em></strong> <strong><em><em>&#160; &#160; &#160; &#160; </em></em> </strong><strong><em>V<sub>y</sub> = 0,0371 <span class="Estilo17">lit</span></em></strong></p></td>
+    </tr>
+  </table></td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="100" colspan="2" align="left" class="bodytext"><strong>OBSERVACION</strong>: Si record&aacute;s que un mol de agua tiene una masa de 18 gramos, entonces la relaci&oacute;n volumen-moles se puede convertir en una relaci&oacute;n volumen-masa, o masa-volumen... <em>&iexcl;</em>eso es densidad<em>!</em> Y ahora que lo recuerdo la densidad del agua l&iacute;quida es tan conocida como <em>La Cumparsita</em>: <em><strong> &#948; = 1.000 <span class="Estilo17">gr</span></strong><span class="Estilo17">/</span><strong><em><span class="Estilo17">lit</span></em></strong></em>. Pero resulta que a partir del dato del ejercicio (un mol de agua ocupa en estado
+    l&iacute;quido 0,0185 litros) la densidad me da <em><strong>&#948;' = 973 <span class="Estilo17">gr</span></strong><span class="Estilo17">/</span><strong><em><span class="Estilo17">lit</span></em></strong></em><span class="Estilo17"> . </span></td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="90" colspan="2" align="center" bordercolor="#FFFFCC" bgcolor="#FFFFCC" class="epigrafe"><table width="94%" border="0">
+    <tr>
+      <td class="epigrafe">(*) Hac&eacute;s papel&oacute;n cuando expres&aacute;s tus resultados con una cantidad rid&iacute;cula (por exceso) de cifras decimales, in&uacute;tiles, irrisorias, irreales, insignificantes... Tambi&eacute;n hac&eacute;s papel&oacute;n (por defecto) cuando pon&eacute;s menos de las correctas al punto de alterar la parte significativa del resultado. Es todo una ciencia colocar la cantidad correcta de cifras decimales, y no siempre hay un &uacute;nico criterio. En este ejercicio utilic&eacute; el criterio de expresar tantas cifras decimales como el dato m&aacute;s preciso del enunciado. Que te aproveche. </td>
+    </tr>
+  </table>    </td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="70" colspan="2" align="left" class="bodytext"><p><strong>DESAF&Iacute;O</strong>: Explicar la aparente incongruencia de la observaci&oacute;n, hacer una hip&oacute;tesis y verificarla. Una vez logrado, encarar la cuesti&oacute;n similar de la densidad del vapor, que es un poco m&aacute;s dif&iacute;cil, pero que tambi&eacute;n se puede reducir -en este caso- a conceptos generales de gases ideales. </p>    </td>
+  <td class="bodytext">&nbsp;</td>
+  <td width="87" rowspan="3" valign="bottom" class="bodytext"><strong><em><sub><img src="img_flu/ric_fotoric.jpg" alt="Flu&iacute;dos - Ricardo Cabrera" width="85" height="110"></sub></em></strong></td>
+</tr>
+
+<tr>
+  <td height="18" colspan="2" bgcolor="#FFFFFF" class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+  </tr>
+
+<tr> <td height="31" colspan="2" align="center" valign="middle" bgcolor="#CCCCCC" class="bodytext"><table width="451" height="31" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td class="epigrafe">Algunos derechos reservados. 
+  Se permite su reproducci&oacute;n citando la fuente. &Uacute;ltima actualizaci&oacute;n 
+  ene-08. Buenos Aires, Argentina.</td>
+  </tr>
+</table>  </td>
+  <td class="bodytext" width="4">&nbsp;</td>
+  </tr> 
+<tr> <td height="18" colspan="2" class="bodytext">&nbsp;</td><td class="bodytext" width="4">&nbsp;</td>
+<td class="bodytext" width="87">&nbsp;</td>
+</tr> 
+</table></td></tr> </table>
+<img src="img_flu/transparente.gif" width="10" height="20"></td></tr> 
+<tr> <td class="bodytext"><img src="img_flu/transparente.gif" width="600" height="20"></td></tr> 
+</table>
+</body>
+</html>

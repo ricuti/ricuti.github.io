@@ -1,0 +1,218 @@
+<html>
+<head>
+<title>MECANICA DE FLUIDOS, NMS017, fisica online, ejercicios resueltos</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="keywords" content="problemas resueltos, ejercicios resueltos, cbc, fisica, biofisica, fluidos, liquidos, gases, bernoulli, poiseuille, viscosidad, ideales, viscosos, humedad, difusion, osmosis, nomesalen, no me salen, ricardo cabrera" />
+<meta name="description" content="Ejercicios y problemas resueltos, y apuntes teóricos de Fluidos, mecanismos de transporte de fluidos" />
+<link rel="stylesheet" href="win_ie.css">
+<style type="text/css">
+<!--
+.style1 {
+	color: #3F6386;
+	font-weight: bold;
+}
+.Estilo3 {color: #3F6386}
+.Estilo18 {color: #FF0000}
+-->
+</style>
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000" alink="#000000" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<table align=center width="600" border="0" cellspacing="0" cellpadding="0"> 
+  <tr bgcolor="#000000" align="right"> 
+<td><img src="img_flu/nombre5.gif" width="369" height="71"></td>
+  </tr> <tr bgcolor="#BB0000" valign="middle" align="left"> 
+<td class="bodytext" height="20"><TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+  <TR ALIGN="center" CLASS="menuitem">
+    <TD WIDTH="44" height="19" CLASS="menuitem"><A HREF="../../index.html" CLASS="menuitem">&nbsp;<B>home</B>&nbsp;</A></TD>
+    <TD WIDTH="5" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="102" CLASS="menuitem"><strong><a href="index_fluidos.html" class="menuitem">m&aacute;s de fluidos </a> </strong></TD>
+    <TD width="5" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="136" CLASS="menuitem"><strong><a href="../../intro_NMS.html" class="menuitem">otros temas de F&iacute;sica</a></strong></TD>
+    <TD width="10" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="173" CLASS="menuitem"><strong><a href="../../lista_ciruela.html" class="menuitem">lecciones del maestro Ciruela </a></strong></TD>
+    <TD width="9" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="68" CLASS="menuitem"><strong><a href="../../lista_tonterias.html" class="menuitem">tonter&iacute;as</a></strong></TD>
+    <TD WIDTH="8" CLASS="menuitem"><a href="../energia/index_energia.html" class="menuitem"></a><FONT COLOR="#000000">|</FONT></TD>
+    <TD WIDTH="40" CLASS="menuitem">&nbsp;<B><FONT FACE="Arial, Helvetica, sans-serif"><A HREF="mailto: ricuti@qi.fcen.uba.ar" CLASS="menuitem">@</A></FONT><A HREF="../../index.html" CLASS="menuitem"></A></B>&nbsp;</TD>
+  </TR>
+</TABLE></td></tr> <tr> <td class="bodytext" height="8"><img src="img_flu/transparente.gif" width="600" height="8"></td>
+</tr> 
+<tr align="center"> <td height="1512"> <table width="600" border="0" cellspacing="0" cellpadding="0"> 
+<tr class="bodytext"> <td valign="top" width="594" height="1135"> 
+<table width="600" border="0" cellspacing="0" cellpadding="0"> <tr> 
+  <td height="74" valign="middle" bgcolor="#D7FFFF" class="bodytext"><span class="bodytext"><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>NO ME SALEN<br>
+</strong></span><span class="Estilo3"><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em></strong></span><span class="titulograndegris"><strong>EJERCICIOS<strong> RESUELTOS   DE F&Iacute;SICA DEL CBC</strong></strong></span><br>
+      <span class="titulochicogris"><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>FLUIDOS - PRINCIPIO DE ARQU&Iacute;MEDES</strong></span></td>
+  <td class="bodytext" rowspan="3" height="74" width="7">&nbsp;</td>
+  <td class="bodytext" height="74" rowspan="3" valign="top" width="86"> 
+<p><img src="img_flu/cap36.jpg" alt="desesperado" width="85" height="162"></p></td></tr>
+  <tr>
+    <td height="18" bgcolor="#FFFFFF" class="bodytext">&nbsp;</td>
+  </tr> 
+<tr> <td height="129" class="bodytext"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td height="61" class="bodytext"><p><strong>Adicional NMS 17) *Un bloque de granito con forma de paralelep&iacute;pedo, tiene las siguientes dimensiones <em>3 <span class="epigrafe">m</span></em> de alto y <em>1,5 <span class="epigrafe">m</span></em> el lado de la base cuadrada y su densidad vale <em>2,7</em> <em><span class="epigrafe">gr</span></em><span class="epigrafe">/<em>c</em></span><em><span class="epigrafe">m</span><em><em><em><sup>3</sup></em></em></em></em>. Se pide hallar  a) el volumen del paralelep&iacute;pedo; 
+          b) El peso del paralelep&iacute;pedo; 
+          c) la presi&oacute;n que ejerce sobre el piso apotado sobre la cara lateral y 
+          d) la presi&oacute;n que ejerce sobre el piso apoyado sobre la cara menor.</strong></p>
+          <p><strong><em><strong><em><strong><strong>* </strong></strong></em></strong></em></strong><span class="epigrafe">Ejercicio enviado por mi colega y amigo Ra&uacute;l  Marano, de la Universidad de Mendoza.</span></p></td>
+        </tr>
+    </table>    
+    </td>
+  </tr>
+<tr>
+  <td height="125" class="bodytext"><p>Este ejercicio no nos habla de un fluido sino de un s&oacute;lido, pero es excelente para poner en pr&aacute;ctica conceptos (densidad, volumen, presi&oacute;n) que van a ser el pan nuestro de cada d&iacute;a cuando abordemos sistemas fluidos.</p>
+    <p>Lo primero que tenemos que hacer es estar seguros de que sabemos de qu&eacute; estamos hablando. Un paralelep&iacute;pedo... &iquest;sab&eacute;s qu&eacute; es eso? Por las dimensiones que aporta el enunciado podr&iacute;as deducirlo, pero vamos a hacer un esquema que seguramente nos va a resultar muy &uacute;til:</p></td>
+  <td width="7" class="bodytext">&nbsp;</td>
+  <td width="86" align="center" valign="middle" class="bodytext"><span class="epigrafe Estilo18"><br>
+    </span></td>
+</tr>
+<tr>
+  <td height="257" class="bodytext"><table width="508" height="281" border="0" cellpadding="0" cellspacing="0">
+    <tr>
+      <td width="207" rowspan="2" class="bodytext"><img src="img_flu/flu_NMS17_1.gif" alt="Flu&iacute;dos - Ricardo Cabrera" width="192" height="254"></td>
+      <td width="301" height="194" class="bodytext"><p>Creo que el nombre correcto es paralelep&iacute;pedo rectangular... pero da igual, vos ya entendiste correctamente la forma.</p>
+        <p>Pues bien, arranquemos con el volumen: todo cuerpo geom&eacute;trico de secci&oacute;n constante se calcula de la misma manera: superficie de la base por altura. O m&aacute;s particularmente, en este caso: lado por lado por lado (que es lo mismo).</p>
+        <blockquote>
+          <p><em><strong>Vol =</strong></em> <strong><em>1,5 <span class="epigrafe">m</span></em></strong> . <strong><em>1,5 <span class="epigrafe">m</span></em></strong> . <strong><em>3 <span class="epigrafe">m</span></em></strong></p>
+        </blockquote></td>
+    </tr>
+    <tr>
+      <td class="bodytext"><table width="299" height="33" border="0" cellpadding="0" cellspacing="0">
+        <tr>
+          <td width="39" class="epigrafe">&nbsp;</td>
+          <td width="224" align="center" bgcolor="#CCCCCC" class="epigrafe"><em><strong>Vol =</strong></em> <span class="bodytext"><strong><em>6,75</em></strong></span><strong><em> m<em><em><em><sup>3</sup></em></em></em></em></strong></td>
+          <td width="36" class="epigrafe">&nbsp;</td>
+        </tr>
+      </table></td>
+    </tr>
+  </table></td>
+  <td class="bodytext">&nbsp;</td>
+  <td align="center" valign="middle" class="bodytext"><table width="85" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td align="center" class="epigrafe"><p>&nbsp;</p>          </td>
+      </tr>
+    </table></td>
+</tr>  
+
+<tr>
+  <td height="226" align="left" class="bodytext"><p>Vamos con la cuesti&oacute;n del peso: sabemos que el peso es el producto entre la masa y la aceleraci&oacute;n de la gravedad, y que la densidad es el cociente entre la masa y el volumen.</p>
+    <p>Saquemos primero la masa (ya que la densidad es dato del enunciado).</p>
+    <blockquote>
+      <p><em><strong>m = &#948; . Vol =</strong></em> <strong><em>2,7</em> <em><span class="epigrafe">gr</span></em></strong><span class="epigrafe">/</span><strong><span class="epigrafe"><em>c</em></span><em><span class="epigrafe">m</span><em><em><em><sup>3</sup></em></em></em></em></strong> . <em><strong><span class="epigrafe"> <strong><em>6,75 m<em><em><em><sup>3</sup></em></em></em></em></strong></span> = </strong></em><strong><em>2.700<span class="epigrafe"> kg</span></em></strong><span class="epigrafe">/</span><strong><em><span class="epigrafe">m</span><em><em><em><sup>3</sup></em></em></em></em></strong> . <em><strong> <span class="bodytext"><strong><em>6,75</em></strong></span><span class="epigrafe"><strong><em> m<em><em><em><sup>3</sup></em></em></em></em></strong></span> = </strong></em></p>
+      <p><em><strong>m =</strong></em> <em><strong>18.225 </strong></em><strong><em><span class="epigrafe">kg</span></em></strong></p>
+      </blockquote>
+    <p>Por lo tanto el peso...</p>
+    <blockquote>
+      <p><em><strong>P = m . g =</strong></em> <em><strong>18.225 </strong></em><strong><em><span class="epigrafe">kg</span></em></strong> .  <em><strong><em><strong>10 <em><strong><span class="epigrafe">m</span></strong></em></strong></em></strong></em><span class="epigrafe">/</span><em><strong><em><strong><span class="epigrafe">s</span></strong></em></strong></em><em><strong><sup>2</sup></strong></em></p>
+    </blockquote></td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext"><table width="85" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td height="139" align="center" class="epigrafe"><p class="Estilo18">Acordate que<br>
+        <br> 
+        <strong><em>1kg<br>
+      </em></strong>es igual a <em><strong>1.000 gr</strong></em></p>
+        <p class="Estilo18">y que<br>
+          <br>
+                <em><strong>1<strong><em>m<em><em><em><sup>3<br>
+                </sup></em></em></em></em></strong></strong></em>es igual a<br>
+                <em><strong>1.000.000 </strong></em><strong><em>cm<em><em><em><sup>3</sup></em></em></em></em></strong></p>        </td>
+    </tr>
+  </table></td>
+</tr>
+<tr>
+  <td height="63" align="left" valign="middle" class="bodytext"><table width="507" height="33" border="0" cellpadding="0" cellspacing="0">
+    <tr>
+      <td width="39" class="epigrafe">&nbsp;</td>
+      <td width="224" align="center" bgcolor="#CCCCCC" class="epigrafe"><span class="bodytext"><em><strong>P = 182.250</strong></em></span><em><strong> </strong></em><strong><em>N</em></strong></td>
+      <td width="244" class="epigrafe">&nbsp;</td>
+    </tr>
+  </table></td>
+  <td class="bodytext">&nbsp;</td>
+  <td align="center" class="epigrafe"><p class="Estilo18">&nbsp;</p>    </td>
+  </tr>
+<tr>
+  <td height="168" align="left" class="bodytext"><p>Ahora viene el asunto de las presiones. La presi&oacute;n es el cociente entre la fuerza y la superficie en la que se aplica la fuerza... algo as&iacute; como: c&oacute;mo se <em>reparte</em> la fuerza. Si el bloque se apoya acostado, la superficie sobre la que se reparte su fuerza peso hay que dividirla por el &aacute;rea de una de las caras laterales, <em><strong>A<sub>L</sub></strong></em> , (son todas iguales).</p>
+    <blockquote>
+      <p><em><strong>A<sub>L</sub></strong></em> <strong><em>= lado x lado = 1,5 <span class="epigrafe">m</span></em></strong> . <strong><em>3 <span class="epigrafe">m</span></em></strong> <strong><em>= 4,5 <span class="epigrafe">m</span></em></strong><em><strong><sup>2</sup></strong></em></p>
+    </blockquote>    
+    <p>Por lo tanto la presi&oacute;n acostado, <em><strong>Pr<sub>A</sub></strong></em>, valdr&aacute;:</p>
+    <blockquote>
+      <p><em><strong>Pr<sub>A</sub></strong></em> <strong><em>= P /</em></strong> <em><strong>A<sub>L</sub></strong></em></p>
+      <p><em><strong>Pr<sub>A</sub></strong></em> <strong><em>= </em></strong><span class="epigrafe"><em class="bodytext"><strong>182.250 </strong></em><strong><em>N</em></strong></span> <em><strong>/</strong></em><strong><em> 4,5 <span class="epigrafe">m</span></em></strong><em><strong><sup>2</sup></strong></em></p>
+    </blockquote></td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="51" align="center" class="bodytext"><table width="507" height="33" border="0" cellpadding="0" cellspacing="0">
+    <tr>
+      <td width="39" class="epigrafe">&nbsp;</td>
+      <td width="224" align="center" bgcolor="#CCCCCC" class="epigrafe"><em><strong>Pr<sub>A</sub> = <span class="bodytext">40.500</span></strong></em> <strong><em>Pa</em></strong></td>
+      <td width="244" class="epigrafe">&nbsp;</td>
+    </tr>
+  </table></td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="126" align="left" class="bodytext"><p>An&aacute;logamente la presi&oacute;n sobre la base, <em><strong>Pr<sub>B</sub></strong></em> (estando el bloque paradito) valdr&aacute;:</p>
+    <blockquote>
+      <p><em><strong>Pr<sub>B</sub></strong></em> <strong><em>= P /</em></strong> <em><strong>A<sub>B</sub></strong></em></p>
+      <p><em><strong>Pr<sub>B</sub></strong></em> <strong><em>= </em></strong><span class="epigrafe"><em class="bodytext"><strong>182.250 </strong></em><strong><em>N</em></strong></span> <em><strong>/</strong></em> <strong><em>1,5 <span class="epigrafe">m</span></em></strong> . <strong><em>1,5 <span class="epigrafe">m</span></em></strong></p>
+      <p><em><strong>Pr<sub>B</sub></strong></em> <strong><em>= </em></strong><span class="epigrafe"><em class="bodytext"><strong>182.250 </strong></em><strong><em>N</em></strong></span> <em><strong>/</strong></em><strong><em> 2,25 </em></strong><strong><em><span class="epigrafe">m</span></em></strong><em><strong><sup>2</sup></strong></em></p>
+    </blockquote>    </td>
+  <td class="bodytext">&nbsp;</td>
+  <td align="center" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="47" align="left" class="bodytext"><table width="507" height="33" border="0" cellpadding="0" cellspacing="0">
+    <tr>
+      <td width="39" class="epigrafe">&nbsp;</td>
+      <td width="224" align="center" bgcolor="#CCCCCC" class="epigrafe"><span class="bodytext"><em><strong>P</strong></em></span><em><strong>r<sub>B</sub> =<span class="bodylinkblack"> 81.000</span></strong></em> <strong><em>Pa</em></strong></td>
+      <td width="244" class="epigrafe">&nbsp;</td>
+    </tr>
+  </table></td>
+  <td class="bodytext">&nbsp;</td>
+  <td align="center" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="58" align="left" class="bodytext">Fijate que la presi&oacute;n de la cara de menor superficie es el doble que la presi&oacute;n de la cara de mayor superficie. Justamente el doble, debido a que las &aacute;reas son una el doble de la otra. Cuanto m&aacute;s chica el &aacute;rea, mayor la presi&oacute;n. </td>
+  <td class="bodytext">&nbsp;</td>
+  <td width="86" rowspan="5" valign="bottom" class="bodytext"><strong><em><sub><img src="img_flu/ricuti.jpg" alt="Flu&iacute;dos - Ricardo Cabrera" width="85" height="116"></sub></em></strong></td>
+</tr>
+
+
+<tr>
+  <td rowspan="2" bgcolor="#FFFFFF" class="bodytext"><p class="bodytext"><strong>Desaf&iacute;o</strong>: &iquest;Con qu&eacute; fuerza habr&aacute; que sostener al bloque de granito si se halla totalmente sumergido en agua?</p>    </td>
+  <td height="18" class="bodytext">&nbsp;</td>
+  </tr>
+
+<tr>
+  <td height="23" class="bodytext">&nbsp;</td>
+  </tr>
+<tr>
+  <td bgcolor="#FFFFFF" class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+  </tr>
+
+<tr> <td height="43" align="center" valign="middle" bgcolor="#CCCCCC" class="bodytext"><table width="92%" border="0">
+  <tr>
+    <td class="epigrafe">Algunos derechos reservados. 
+  Se permite su reproducci&oacute;n citando la fuente leg&iacute;tima, o sea, este sitio. Alguna gente  cree que los bloques de granito estan llenos de pus; <em>&iexcl;</em>qu&eacute; ingenuos<em>!</em>... <em>&iexcl;</em>ser&iacute;an mucho m&aacute;s livianos<em>!</em> &Uacute;ltima actualizaci&oacute;n 
+  nov-11. Buenos Aires, Argentina. </td>
+  </tr>
+</table>  </td>
+  <td class="bodytext" width="7">&nbsp;</td>
+  </tr> 
+<tr> <td height="18" class="bodytext">&nbsp;</td><td class="bodytext" width="7">&nbsp;</td>
+<td class="bodytext" width="86">&nbsp;</td>
+</tr> 
+</table></td></tr> </table>
+<img src="img_flu/transparente.gif" width="10" height="20"></td></tr> 
+<tr> <td class="bodytext"><img src="img_flu/transparente.gif" width="600" height="20"></td></tr> 
+</table>
+</body>
+</html>

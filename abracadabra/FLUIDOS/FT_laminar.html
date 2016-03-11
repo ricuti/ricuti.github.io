@@ -1,0 +1,149 @@
+<html>
+<head>
+<title>Ricardo Cabrera, MECANICA DE FLUIDOS, FLUJO LAMINAR, FLUJO TURBULENTO</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="keywords" content="problemas resueltos, ejercicios resueltos, cbc, fisica, biofisica, fluidos, liquidos, gases, bernoulli, poiseuille, viscosidad, ideales, viscosos, humedad, difusion, osmosis, nomesalen, no me salen, ricardo cabrera" />
+<meta name="description" content="Ejercicios y problemas resueltos, y apuntes teóricos de Fluidos, mecanismos de transporte de fluidos" />
+<link rel="stylesheet" href="win_ie.css">
+<style type="text/css">
+<!--
+.style1 {
+	color: #3F6386;
+	font-weight: bold;
+}
+.Estilo3 {color: #3F6386}
+.Estilo16 {font-size: 16px}
+-->
+</style>
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000" alink="#000000" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<table align=center width="600" border="0" cellspacing="0" cellpadding="0"> 
+  <tr bgcolor="#000000" align="right"> 
+<td><img src="img_flu/nombre5.gif" width="369" height="71"></td></tr> <tr bgcolor="#BB0000" valign="middle" align="left"> 
+<td class="bodytext" height="20"><TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+  <TR ALIGN="center" CLASS="menuitem">
+    <TD WIDTH="44" height="19" CLASS="menuitem"><A HREF="../../index.html" CLASS="menuitem">&nbsp;<B>home</B>&nbsp;</A></TD>
+    <TD WIDTH="5" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="102" CLASS="menuitem"><strong><a href="index_fluidos.html" class="menuitem">m&aacute;s de fluidos </a> </strong></TD>
+    <TD width="5" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="136" CLASS="menuitem"><strong><a href="../../intro_NMS.html" class="menuitem">otros temas de F&iacute;sica</a></strong></TD>
+    <TD width="10" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="173" CLASS="menuitem"><strong><a href="../../lista_ciruela.html" class="menuitem">lecciones del maestro Ciruela </a></strong></TD>
+    <TD width="9" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="68" CLASS="menuitem"><strong><a href="../../lista_tonterias.html" class="menuitem">tonter&iacute;as</a></strong></TD>
+    <TD WIDTH="8" CLASS="menuitem"><a href="../energia/index_energia.html" class="menuitem"></a><FONT COLOR="#000000">|</FONT></TD>
+    <TD WIDTH="40" CLASS="menuitem">&nbsp;<B><FONT FACE="Arial, Helvetica, sans-serif"><A HREF="mailto: ricuti@qi.fcen.uba.ar" CLASS="menuitem">@</A></FONT><A HREF="../../index.html" CLASS="menuitem"></A></B>&nbsp;</TD>
+  </TR>
+</TABLE></td></tr> <tr> <td class="bodytext" height="19"><img src="img_flu/transparente.gif" width="600" height="20"></td></tr> 
+<tr align="center"> <td height="1320"> <table width="600" border="0" cellspacing="0" cellpadding="0"> 
+<tr class="bodytext"> <td colspan="2" valign="top" height="551"> <img src="img_flu/transparente.gif" width="1" height="1"></td>
+<td valign="top" width="594" height="551"> 
+<table width="589" border="0" cellspacing="0" cellpadding="0"> <tr> 
+  <td height="74" bgcolor="#D7FFFF" class="bodytext"><span class="bodytext"><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>NO ME SALEN<br>
+</strong></span><span class="Estilo3"><em class="bodytext "><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>(<strong>LECCIONES TEORICAS  DE BIOF&Iacute;SICA DEL CBC</strong>)</strong></em></span><br>
+      <span class="titulograndegris Estilo16"><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>FLUIDOS REALES <br>
+      </strong></span><span class="titulochicogris"><strong> <em><strong><em><strong><strong>&#160; &#160; </strong></strong></em></strong></em>HIDRODINAMICA - FLUJO LAMINAR, FLUJO TURBULENTO </strong></span><span class="Estilo3"><br>
+      </span><br> </td>
+  <td class="bodytext" rowspan="3" height="74" width="6">&nbsp;</td>
+  <td class="bodytext" colspan="2" height="74" rowspan="3" valign="top" width="87"> 
+<p><img src="img_flu/cap14.jpg" alt="desesperado" width="85" height="122"></p></td></tr>
+  <tr>
+    <td height="18" bgcolor="#FFFFFF" class="bodytext">&nbsp;</td>
+  </tr> 
+<tr> <td height="76" class="bodytext"><p>Resulta que las mol&eacute;culas que componen un <strong>fluido real</strong> no se hallan ordenadas entre s&iacute;... y menos lo est&aacute;n cuando avanzan en una corriente. No s&oacute;lo avanzan en el sentido de la corriente... tambi&eacute;n tienen libertad de desplazarse transversalmente. De modo que si pudi&eacute;semos ver la trayectoria de algunas cuantas mol&eacute;culas para darnos cuenta de c&oacute;mo est&aacute; avanzando el fluido encontrar&iacute;amos cosas de este estilo: </p>
+    </td>
+  </tr>  
+<tr> 
+  <td height="125" align="center" valign="middle" class="bodytext"><img src="img_flu/FT_lam_1.gif" alt="Flu&iacute;dos - Ricardo Cabrera" width="420" height="100">       
+&#10;</td>
+  <td class="bodytext" width="6">&nbsp;</td>
+  <td class="bodytext" colspan="2" width="87"><p>&nbsp;</p>
+    <p>&nbsp;</p></td>
+</tr>
+<tr>
+  <td height="24" align="left" valign="middle" class="bodytext"><p>El estilo de la izquierda, m&aacute;s ordenado, se llama <strong>laminar</strong>; el de la derecha, m&aacute;s desordenado, <strong>turbulento</strong>. Esas trayectorias reciben el nombre de <strong>l&iacute;neas de corriente</strong>, y tienen su importancia operativa... ya vas a ver.</p>
+    <p>El flujo turbulento no es muy eficiente en el uso de la energ&iacute;a... gran parte se va en choques, reflujos, remolinos, aceleraciones y frenadas. La f&iacute;sica de los fluidos turbulentos es bastante complicada y suele requerir de cantidades considerables de c&oacute;mputo. No es para nosotros. </p>
+    <p>El flujo laminar es m&aacute;s predecible, y existen varias leyes que describen su comportamiento. Su nombre obedece a que las mol&eacute;culas parecen desplazarse en l&aacute;minas de igual velocidad, que se envuelven unas a otras en forma conc&eacute;ntrica: </p></td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext" colspan="2">&nbsp;</td>
+</tr>
+<tr>
+  <td height="150" align="center" valign="middle" class="bodytext"><img src="img_flu/FT_lam_2.gif" alt="Flu&iacute;dos - Ricardo Cabrera" width="300" height="110"></td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext" colspan="2">&nbsp;</td>
+</tr>
+<tr>
+  <td height="81" align="left" class="bodytext">La l&aacute;mina m&aacute;s externa es la m&aacute;s lenta, debido a que est&aacute; en contacto con la pared del conducto, y el rozamiento la frena. La l&aacute;mina siguiente -hacia el centro- se desplaza un poco m&aacute;s r&aacute;pido; y as&iacute; hasta el centro, donde se halla la columna m&aacute;s veloz de la corriente. Se puede deducir sin demasiada dificultad que las velocidades de las l&aacute;minas se distribuyen en forma cuadr&aacute;tica: ac&aacute; te muestro un esquema de un corte longitudinal de una manguera mientras circula un fluido real en forma laminar: </td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext" colspan="2">&nbsp;</td>
+</tr>
+<tr>
+  <td height="148" align="center" valign="middle" class="bodytext"><img src="img_flu/FT_lam_3.gif" alt="Flu&iacute;dos - Ricardo Cabrera" width="250" height="119"></td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext" colspan="2">&nbsp;</td>
+</tr>
+<tr>
+  <td align="left" class="bodytext">las flechitas -que nadie se ofender&iacute;a si las llamaras vectores- representan la velocidad de las mol&eacute;culas de fluido ubicadas en sus respectivas l&aacute;minas. Cuando hablemos de la<strong> velocidad del fluido</strong> nos estaremos refiriendo a un promedio de todas las velocidades de todas las l&aacute;minas. Cuanto m&aacute;s viscoso sea un fluido mayor ser&aacute; la diferencia de velocidad entre l&aacute;minas. Y cuanto m&aacute;s se aproxime a cero la viscosidad del fluido menor diferencia de velocidad habr&aacute; entre sus mol&eacute;culas. En una situaci&oacute;n extrema -ideal- la velocidad de todas las mol&eacute;culas es id&eacute;ntica.</td>
+  <td class="bodytext">&nbsp;</td>
+  <td colspan="2" class="bodytext">&nbsp;</td>
+</tr>
+ 
+<tr>
+  <td height="25" align="left" bgcolor="#FFFFFF" class="bodytext"><p><strong>CHISMES IMPORTANTES</strong>: </p>    </td>
+  <td class="bodytext">&nbsp;</td>
+  <td colspan="2" class="bodytext">&nbsp;</td>
+</tr>
+
+<tr>
+  <td height="18" bgcolor="#FFFFFF" class="bodytext"><ul>
+      <li>En el sistema cardiovascular del cuerpo humano (y de casi todos los otros bichos del mundo) los flujos sangu&iacute;neos son laminares, salvo en el coraz&oacute;n, en el que debido a la forma de las cavidades y a las aceleraciones que el m&uacute;sculo card&iacute;aco le impone al fluido se mueve de modo turbulento. </li>
+      <li>En los libros de texto se suele olvidar una propiedad interesante de los fluidos que diferencia a los dos tipos b&aacute;sicos de flujo y que tiene enorme importancia para la cl&iacute;nica. Mi maestro, Don Ciruela, no se olvid&oacute;, y <a href="../../Lecciones_del_maestro_ciruela/tensiometro.html">aqu&iacute;</a> te lo cuenta. </li>
+      <li>En general el avance laminar se asocia con velocidades lentas y el flujo turbulento con velocidades altas. Rara vez encontrar&aacute;s corrientes turbulentas en r&iacute;os de llanura, en cambio es lo m&aacute;s frecuente en r&iacute;os de monta&ntilde;a. </li>
+      <li>El concepto de <strong>fluido estacionario</strong> se aplica a los diferentes comportamientos del fluido en el transcurrir del  tiempo, para una &uacute;nica posici&oacute;n. Si tenemos un circuito con una corriente hidr&aacute;ulica en la que debido a ensanchamientos y angostamientos la velocidad es diferente en distintas posiciones... pero ninguna de ellas cambia durante el tiempo: eso es un flujo estacionario. </li>
+  </ul>    </td>
+  <td class="bodytext">&nbsp;</td>
+  <td colspan="2" class="bodytext">&nbsp;</td>
+</tr>
+
+<tr>
+  <td height="26" valign="bottom" bgcolor="#FFFFFF" class="bodytext"><strong>PREGUNTAS CAPCIOSAS: </strong></td>
+  <td class="bodytext">&nbsp;</td>
+  <td width="87" colspan="2" rowspan="2" valign="bottom" class="bodytext"><img src="img_flu/ric_perf.jpg" alt="Flu&iacute;dos - Ricardo Cabrera" width="85" height="104"></td>
+</tr>
+
+<tr>
+  <td height="18" align="left" bgcolor="#FFFFFF" class="bodytext"><ul>
+    <li>&iquest;Por qu&eacute; entre dos cosas que avanzan flotando en un r&iacute;o, la que va por el centro se mueve m&aacute;s r&aacute;pido que la que circula cerca de la orilla? </li>
+    <li>&iquest;Por qu&eacute; a&uacute;n cuando dos balsas avancen por el medio de un r&iacute;o la que va m&aacute;s pesada avanza m&aacute;s lento que la m&aacute;s liviana? </li>
+  </ul></td>
+  <td class="bodytext">&nbsp;</td>
+  </tr>
+<tr>
+  <td bgcolor="#FFFFFF" class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+  <td width="87" colspan="2" valign="bottom" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td bgcolor="#FFFFFF" class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+  <td width="87" colspan="2" valign="bottom" class="bodytext">&nbsp;</td>
+</tr>
+<tr> <td align="center" valign="middle" bgcolor="#CCCCCC" class="bodytext"><table width="89%" border="0">
+  <tr>
+    <td class="epigrafe">Algunos derechos reservados. 
+      Se permite su reproducci&oacute;n citando la fuente. &Uacute;ltima actualizaci&oacute;n sep-07. Buenos Aires, Argentina. </td>
+  </tr>
+</table>
+  </td>
+  <td class="bodytext" width="6">&nbsp;</td>
+  <td width="87" colspan="2" valign="bottom" class="bodytext"><a href="FT_resistencias.html"><img src="img_flu/boton.gif" width="85" height="27" border="0"></a></td>
+</tr> 
+<tr> <td class="bodytext">&nbsp;</td><td class="bodytext" width="6">&nbsp;</td>
+<td class="bodytext" colspan="2" width="87">&nbsp;</td>
+</tr> 
+</table></td></tr> </table><img src="img_flu/transparente.gif" width="10" height="20"></td></tr> 
+<tr> <td class="bodytext"><img src="img_flu/transparente.gif" width="600" height="20"></td></tr> 
+</table>
+</body>
+</html>

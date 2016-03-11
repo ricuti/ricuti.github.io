@@ -1,0 +1,202 @@
+<html>
+<head>
+<title>MECANICA DE FLUIDOS, NMS041, fisica online, ejercicios resueltos</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="keywords" content="problemas resueltos, ejercicios resueltos, cbc, fisica, biofisica, fluidos, liquidos, gases, bernoulli, poiseuille, viscosidad, ideales, viscosos, humedad, difusion, osmosis, nomesalen, no me salen, ricardo cabrera" />
+<meta name="description" content="Ejercicios y problemas resueltos, y apuntes teóricos de Fluidos, mecanismos de transporte de fluidos" />
+<link rel="stylesheet" href="win_ie.css">
+<style type="text/css">
+<!--
+.style1 {
+	color: #3F6386;
+	font-weight: bold;
+}
+.Estilo3 {color: #3F6386}
+.Estilo18 {color: #FF0000}
+.Estilo26 {font-family: "Times New Roman", Times, serif;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 16px;
+}
+.Estilo17 {font-size: 10px}
+-->
+</style>
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000" alink="#000000" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<table align=center width="600" border="0" cellspacing="0" cellpadding="0"> 
+  <tr bgcolor="#000000" align="right"> 
+<td><img src="img_flu/nombre5.gif" width="369" height="71"></td>
+  </tr> <tr bgcolor="#BB0000" valign="middle" align="left"> 
+<td class="bodytext" height="20"><TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+  <TR ALIGN="center" CLASS="menuitem">
+    <TD WIDTH="44" height="19" CLASS="menuitem"><A HREF="../../index.html" CLASS="menuitem">&nbsp;<B>home</B>&nbsp;</A></TD>
+    <TD WIDTH="5" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="102" CLASS="menuitem"><strong><a href="index_fluidos.html" class="menuitem">m&aacute;s de fluidos </a> </strong></TD>
+    <TD width="5" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="136" CLASS="menuitem"><strong><a href="../../intro_NMS.html" class="menuitem">otros temas de F&iacute;sica</a></strong></TD>
+    <TD width="10" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="173" CLASS="menuitem"><strong><a href="../../lista_ciruela.html" class="menuitem">lecciones del maestro Ciruela </a></strong></TD>
+    <TD width="9" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="68" CLASS="menuitem"><strong><a href="../../lista_tonterias.html" class="menuitem">tonter&iacute;as</a></strong></TD>
+    <TD WIDTH="8" CLASS="menuitem"><a href="../energia/index_energia.html" class="menuitem"></a><FONT COLOR="#000000">|</FONT></TD>
+    <TD WIDTH="40" CLASS="menuitem">&nbsp;<B><FONT FACE="Arial, Helvetica, sans-serif"><A HREF="mailto: ricuti@qi.fcen.uba.ar" CLASS="menuitem">@</A></FONT><A HREF="../../index.html" CLASS="menuitem"></A></B>&nbsp;</TD>
+  </TR>
+</TABLE></td></tr> <tr> <td class="bodytext" height="8"><img src="img_flu/transparente.gif" width="600" height="8"></td>
+</tr> 
+<tr align="center"> <td height="1046"> <table width="600" border="0" cellspacing="0" cellpadding="0"> 
+<tr class="bodytext"> <td valign="top" width="594" height="970"> 
+<table width="600" border="0" cellspacing="0" cellpadding="0"> <tr> 
+  <td height="74" valign="middle" bgcolor="#D7FFFF" class="bodytext"><span class="bodytext"><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>NO ME SALEN<br>
+</strong></span><span class="Estilo3"><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em></strong></span><span class="titulograndegris"><strong>EJERCICIOS<strong> RESUELTOS   DE F&Iacute;SICA DEL CBC</strong></strong></span><br>
+      <span class="titulochicogris"><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>FLUIDOS</strong></span></td>
+  <td class="bodytext" rowspan="3" height="74" width="7">&nbsp;</td>
+  <td class="bodytext" height="74" rowspan="3" valign="top" width="86"> 
+<p><img src="img_flu/cap59.jpg" alt="desesperado" width="85" height="113"></p></td></tr>
+  <tr>
+    <td height="18" bgcolor="#FFFFFF" class="bodytext">&nbsp;</td>
+  </tr> 
+<tr> 
+  <td height="49" class="bodytext"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td width="64%" height="42" valign="top" class="bodytext"><p><strong><em>Adicional NMS</em></strong> <strong>43* - Por un caño horizontal de diámetro constante circula un fluido viscoso, incompresible y en régimen estacionario. Comparando valores de caudal, velocidad y de presión, se verifica que:<br>
+      </strong></p>        </td>
+      <td width="36%" align="center" valign="middle" class="bodytext"><img src="img_flu/flu_NMS43_1.gif" width="170" height="22"></td>
+    </tr>
+    <tr>
+      <td height="63" colspan="2" valign="middle" class="bodytext"><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a) Q1 = Q2 ; v1 = v2 ; P1 &lt; P2 	    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) Q1 = Q2 ; v1 = v2 ; P1 &gt; P2<br>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) Q1 = Q2 ; v1 &gt; v2 ; P1 &gt; P2    	   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d) Q1 &lt; Q2 ; v1 = v2 ; P1 &gt; P2<br>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; e) Q1 = Q2 ; v1 = v2 ; P1 = P2	   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; f) Q1 &gt; Q2 ; v1 = v2 ; P1 &lt; P2 </strong></td>
+      </tr>
+    
+    
+  </table>    </td>
+</tr>
+<tr>
+  <td height="14" align="center" class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+  <td align="center" valign="middle" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="43" align="center" bgcolor="#FFFF99" class="bodytext"><table width="74%" height="12" border="0" cellpadding="0" cellspacing="0">
+    <tr>
+      <td class="epigrafe">* Este ejercicio perteneci&oacute; al  examen final de Biof&iacute;sica tomado el 23 de junio de 2010. Para ver el tema completo hacé clic <a href="../../Docencia/53-F-2010-1.pdf" target="_blank">acá</a>.</td>
+    </tr>
+  </table></td>
+  <td class="bodytext">&nbsp;</td>
+  <td align="center" valign="middle" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="413" align="left" class="bodytext"><p>En todo examen bien diseñado la dificultad de los ejercicios es dispar, y van desde un ejercicio recontra súper fácil, pasando por varios de dificultad moderada, hasta alguno sólo para einstencitos. Éste que resuelvo acá, es el extremo de la pavada, el regalo, al que sólo le falta el moño.</p>
+    <p>No puedo hacer ningún desarrollo, no hay nada que calcular. Pero voy a nombrar y destacar los principios que llevan a la solución.</p>
+    <ul>
+      <li>El principio de continuidad nos indica que <strong>todo lo que entra sale</strong>, o sea que mientras la conducción del fluido no tenga afluentes derivaciones, ramificaciones, pinchaduras el caudal en la entrada es igual al caudal en la salida, sin importar la forma del conducto.<br>  
+          <br>  
+          <strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Q1 = Q2<br>
+          <br>
+          </strong></li>
+      <li>El caudal siempre es igual al producto entre la sección del caño y la velocidad del fluido:<br>  
+          <br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong>&nbsp; Q = S . v</strong><br>  
+        <br>
+        Y siendo la sección constante, la velocidad también es constante. Por lo tanto:<br>  
+        <br>  
+        <strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; v1 = v2<br>
+        <br>
+        </strong></li>
+      <li>La caracterización más palmaria de la viscosidad consiste, justamente, en la disminución de la presión a medida que el fluido avanza. Eso es lo que describe con precisión la Ley de Ohm - Poiseuille:<br>
+        </li>
+    </ul>    </td>
+  <td class="bodytext">&nbsp;</td>
+  <td align="center" valign="middle" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="60" align="left" class="bodytext"><table width="100%" height="43" border="0" cellpadding="0" cellspacing="0">
+    <tr>
+      <td width="26%" rowspan="3" align="right" class="bodytext"><em><strong><strong><em><strong>&#916</strong>Pr</em></strong></strong></em> <strong>= <em>Q</em> </strong></td>
+      <td width="2%" rowspan="3" class="bodytext">&nbsp;</td>
+      <td width="11%" height="23" align="center" valign="bottom" class="bodytext"><strong><em>8</em></strong> <em class="Estilo26"><strong>&eta;</strong></em><em><strong><strong><em><strong> &#916</strong>x</em></strong></strong></em></td>
+      <td width="61%" rowspan="3" class="bodytext">&nbsp;</td>
+    </tr>
+    <tr>
+      <td height="2" align="center" valign="middle" class="epigrafe"><hr align="center" width="100%" style="color:black" size="1" noshade></td>
+    </tr>
+    <tr>
+      <td height="0" align="center" valign="top" class="bodytext"><em><strong><strong><span class="Estilo26">&pi;</span></strong> r<sup>4</sup><span class="Estilo17"></span></strong></em></td>
+    </tr>
+  </table></td>
+  <td width="7" class="bodytext">&nbsp;</td>
+  <td width="86" align="center" valign="middle" class="bodytext"><p class="epigrafe Estilo18">&nbsp;</p>    </td>
+</tr>
+<tr>
+  <td height="67" align="left" class="bodytext"><table width="100%" height="67" border="0" cellpadding="0" cellspacing="0">
+    <tr>
+      <td width="9%" class="bodytext">&nbsp;</td>
+      <td width="91%" class="bodytext">Si hay viscosidad disminuye la presión. Claro que la presión también puede variar por otros motivos: cambios de altura o cambios de velocidad, o sea, no en nuestro caso, en el que lo único que influye a la presión es la viscosidad, el <em>rozamiento</em> al fluir que le quita energía al fluido. O sea...</td>
+    </tr>
+  </table>    </td>
+  <td class="bodytext">&nbsp;</td>
+  <td align="center" valign="middle" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="30" align="left" class="bodytext"><blockquote>
+    <blockquote>
+      <p><strong>P1 &gt; P2</strong></p>
+    </blockquote>
+  </blockquote></td>
+  <td class="bodytext">&nbsp;</td>
+  <td align="center" valign="middle" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="30" align="left" class="bodytext">Si buscamos la opción que reúne las tres conclusiones, aparece al toque:</td>
+  <td class="bodytext">&nbsp;</td>
+  <td align="center" valign="middle" class="bodytext">&nbsp;</td>
+</tr>
+
+  
+<tr>
+  <td height="65" align="center" class="bodytext"><table width="102%" border="0">
+    <tr>
+      <td width="9%" height="38" align="center" bgcolor="#FFFFFF"><p class="bodytext">&nbsp;</p></td>
+      <td width="52%" align="center" bgcolor="#CCCCCC" class="bodytext"><strong>Q1 = Q2 ; v1 = v2 ; P1 &gt; P2</strong></td>
+      <td width="39%" align="center" bgcolor="#FFFFFF" class="epigrafe">opci&oacute;n b)</td>
+    </tr>
+  </table></td>
+  <td class="bodytext">&nbsp;</td>
+  <td align="center" class="epigrafe Estilo18"><p>&nbsp;</p>    </td>
+</tr>
+<tr>
+  <td height="14" align="left" class="bodytext"><p>También es cierto que la facilidad es un arma de doble filo: muchos estudiantes le erran al resultado pensando &quot;no podía ser tan fácil, pensé que había alguna trampa&quot;. Vos no te cortes.<br>
+  </p>    
+    </td>
+  <td class="bodytext">&nbsp;</td>
+  <td align="center" class="epigrafe"><p class="Estilo18">&nbsp;</p></td>
+</tr>
+
+
+
+
+<tr>
+  <td height="53" bgcolor="#FFFFFF" class="bodytext"><strong>DESAF&Iacute;O</strong>: Qué habría que cambiar en el enunciado para que la respuesta correcta fuese la <strong>a)</strong>.</td>
+  <td class="bodytext">&nbsp;</td>
+  <td width="86" rowspan="2" valign="bottom" class="bodytext"><strong><em><sub><img src="img_flu/ricuti.jpg" alt="Flu&iacute;dos - Ricardo Cabrera" width="85" height="116"></sub></em></strong></td>
+</tr>
+
+<tr> <td height="45" align="center" valign="middle" bgcolor="#CCCCCC" class="bodytext"><table width="92%" border="0">
+  <tr>
+    <td class="epigrafe">Algunos derechos reservados. 
+  Se permite su reproducci&oacute;n citando la fuente. <em>No me salen</em> es la única colección de ejercicios resueltos producido con normas internacionales de calidad y asepsia. &Uacute;ltima actualizaci&oacute;n 
+  jul-14. Buenos Aires, Argentina. </td>
+  </tr>
+</table>  </td>
+  <td class="bodytext" width="7">&nbsp;</td>
+  </tr> 
+<tr> <td height="18" class="bodytext">&nbsp;</td><td class="bodytext" width="7">&nbsp;</td>
+<td class="bodytext" width="86">&nbsp;</td>
+</tr> 
+</table></td></tr> </table>
+<img src="img_flu/transparente.gif" width="10" height="20"></td></tr> 
+<tr> <td class="bodytext"><img src="img_flu/transparente.gif" width="600" height="20"></td></tr> 
+</table>
+</body>
+</html>
