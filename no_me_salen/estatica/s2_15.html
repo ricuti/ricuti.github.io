@@ -1,0 +1,176 @@
+<html>
+<head>
+<title>ESTATICA, S215, fisica online, ejercicios resueltos</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="keywords" content="problemas resueltos, ejercicios resueltos, cbc, fisica, biofisica, dinamica, estatica, nomesalen, no me salen, ricardo cabrera" />
+<meta name="description" content="Ejercicios y problemas resueltos, y apuntes teóricos de Dinámica y Estática" />
+<link rel="stylesheet" href="../DINAMICA/win_ie.css">
+<style type="text/css">
+<!--
+.Estilo1 {
+	font-size: 10px;
+	font-style: italic;
+	font-weight: bold;
+}
+.Estilo16 {font-size: 16px}
+.Estilo3 {color: #3F6386}
+-->
+</style>
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000" alink="#000000" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<table align=center width="600" border="0" cellspacing="0" cellpadding="0"> 
+  <tr bgcolor="#000000" align="right"> 
+<td><img src="../estatica/img_est/nombre5.gif" width="369" height="71"></td>
+  </tr> <tr bgcolor="#BB0000" valign="middle" align="left"> 
+<td class="bodytext" height="20"><TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+  <TR ALIGN="center" CLASS="menuitem">
+    <TD WIDTH="50" height="19" CLASS="menuitem"><A HREF="../../index.html" CLASS="menuitem">&nbsp;<B>home</B>&nbsp;</A></TD>
+    <TD WIDTH="5" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="155" CLASS="menuitem"><strong><a href="../estatica/index_din_est.html" class="menuitem">más de estática </a> </strong></TD>
+    <TD width="10" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="122" CLASS="menuitem"><strong><a href="../../intro_NMS.html" class="menuitem">otros temas de F&iacute;sica</a></strong></TD>
+    <TD width="10" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="151" CLASS="menuitem"><strong><a href="../../lista_ciruela.html" class="menuitem">lecciones del maestro Ciruela </a></strong></TD>
+    <TD width="10" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="55" CLASS="menuitem"><strong><a href="../../lista_tonterias.html" class="menuitem">tonter&iacute;as </a></strong><a href="../CINEMATICA/index_cinem.html"></a><a href="../ENERGIA/index_energia.html" class="menuitem"></a></TD>
+    <TD WIDTH="10" CLASS="menuitem"><a href="../ENERGIA/index_energia.html" class="menuitem"></a><FONT COLOR="#000000">|</FONT></TD>
+    <TD WIDTH="22" CLASS="menuitem">&nbsp;<B><FONT FACE="Arial, Helvetica, sans-serif"><A HREF="mailto: ricuti@qi.fcen.uba.ar" CLASS="menuitem">@</A></FONT><A HREF="../../index.html" CLASS="menuitem"></A></B>&nbsp;</TD>
+  </TR>
+</TABLE></td></tr> <tr> <td class="bodytext" height="19"><img src="../CINEMATICA/img_cin/transparente.gif" width="600" height="20"></td></tr> 
+<tr align="center"> <td height="1719"> <table width="600" border="0" cellspacing="0" cellpadding="0"> 
+<tr class="bodytext"> <td colspan="2" valign="top" height="1922"> <img src="../CINEMATICA/img_cin/transparente.gif" width="1" height="1"></td>
+<td valign="top" width="596" height="1922"> 
+<table width="589" border="0" cellspacing="0" cellpadding="0"> <tr> 
+  <td height="73" colspan="2" valign="top" bgcolor="#FFDB4A" class="bodytext"><p><strong><em><strong><em><strong><strong><br>
+&#160; &#160;</strong></strong></em></strong></em>NO ME SALEN<br>
+  </strong><span class="Estilo3"><em class="bodytext "><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>(EJERCICIOS RESUELTOS Y <strong>APUNTES TE&Oacute;RICOS  DE F&Iacute;SICA</strong>)</strong></em></span><br>
+  <span class="titulograndegris Estilo16"><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>Estática</strong></span></p>    </td>
+  <td class="bodytext" rowspan="3" height="73" width="9">&nbsp;</td><td class="bodytext" colspan="2" height="73" rowspan="3" valign="top" width="90"> 
+<p><img src="../estatica/img_est/cap7.jpg" alt="¡no me salen!" width="85" height="108"></p></td></tr>
+  <tr>
+    <td height="14" colspan="2" valign="top" class="bodytext">&nbsp;</td>
+  </tr> 
+<tr> <td colspan="2" valign="top" class="bodytext"><table width="100%" border="0">
+  <tr>
+    <td width="14%" height="104" valign="top" class="bodytext"><img src="../estatica/img_est/fis03.jpg" width="65" height="92"></td>
+    <td width="46%" valign="top" class="bodytext"><strong>2.15- Hallar el centro de gravedad de los cuerpos
+  a y b, los mismos est&aacute;n construidos por
+      cubos iguales y homog&eacute;neos y de 10 cm de arista.</strong></td>
+    <td width="40%" class="bodytext"><img src="../estatica/img_est/gr_s2_15_1.gif" width="190" height="100"></td>
+  </tr>
+</table>
+</td>
+</tr>  
+<tr>
+  <td height="232" colspan="2" class="bodytext"><p>Hay decenas de maneras diferentes de resolver cada uno de los problemas planteados. Yo voy a resolver de varias maneras uno s&oacute;lo de ellos, el de la izquierda, el cuerpo en forma de <em>L</em>.</p>
+    <p>Convengamos algunas cuestiones previamente. Todos los cuerpos, y estos dos tambi&eacute;n, son volum&eacute;tricos, es decir, ocupan un volumen: su masa est&aacute; distribuida en todo un volumen y su descripci&oacute;n requiere un sistema tridimensional. Sin embargo en muchos casos -&eacute;ste es uno de ellos- podemos desentendernos del espesor del cuerpo, que es uniforme y tratarlo como bidimensional. Si logramos hallar la posicion del centro de masa en ese espacio bidimensional, bueno, sabremos interpretar que en realidad se halla no en una cara superficial sino en el  medio de su espesor.</p>
+    <p>Para que no nos distraiga demasiado esa cuesti&oacute;n de la tercera dimensi&oacute;n ( el espesor) hice los esquemas con los que acompa&ntilde;o los razonamientos en este ejercicio delgados ... los represent&eacute; de grosor despreciable.   </p>
+    <p>Llamar&eacute; <strong><em>u</em></strong> a la masa de un cubito simple y lo tomar&eacute; como unidad de masa (de todos modos se cancela). Y obviar&eacute; la unidad de longitud , <span class="Estilo1">dm</span>, en aras de ser m&aacute;s sint&eacute;tico. </p>
+    <p>Vamos al desarrollo: cuando un cuerpo de composici&oacute;n homog&eacute;nea no tiene forma sim&eacute;trica como para localizar su centro de masa con criterios geom&eacute;tricos, una posibilidad es fraccionarlo (mentalmente) en porciones tales que cada una de ellas s&iacute; posea  centro de masa identificable. </p></td>
+  <td width="9" rowspan="3" class="bodytext">&nbsp;</td>
+  <td class="bodytext" colspan="2">&nbsp;</td>
+</tr>
+<tr>
+  <td height="468" colspan="2" class="bodytext"><table width="502" height="468" border="0">
+    <tr>
+      <td height="180" colspan="2" valign="middle" class="bodytext"><img src="../estatica/img_est/gr_s2_15_2.gif" width="230" height="178"></td>
+      <td width="222" align="left" valign="middle" class="bodytext"><p>Por ejemplo: con un corte vertical  fraccionemos la <em>L</em> en dos rect&aacute;ngulos. Cada uno de ellos posee su centro de masa en el centro del geom&eacute;trico (es este ejercicio no hace falta, pero si no ten&eacute;s referencias suficientes hall&aacute;s el centro de un rect&aacute;ngulo en donde se cruzan las diagonales). Y cada uno tiene una masa de 8 unidades (<em><strong>8u</strong></em>).</p>
+        <p>Pongamos un <strong>SR</strong> cualquiera y busquemos el centro de masa. </p>        </td>
+    </tr>
+    <tr>
+      <td height="280" colspan="3" align="left" valign="top" class="bodytext"><p>La coordenada <em><strong>x</strong></em> del centro de masa es:</p>
+        <blockquote>
+          <p> <em><strong>x<sub>G </sub>=</strong></em> <strong><strong><em>8u</em> . </strong></strong><em><strong><em><strong>1 + </strong></em><strong>8u . </strong></strong><em><strong><em><strong>4 </strong></em></strong></em><strong>/ 16u </strong></em> </p>
+          <p><em><strong>x<sub>G </sub>=</strong></em><em><strong> 40<strong>u </strong></strong><strong>/ 16u</strong></em></p>
+          <p><em><strong>x<sub>G </sub>= </strong><strong>2,5</strong></em></p>
+          </blockquote>
+        <p>Y la coordenada<em><strong> y</strong></em>: </p>
+        <blockquote>
+          <p><em><strong>y<sub>G </sub>=</strong></em> <strong><strong><em>8u</em> . </strong></strong><em><strong><em><strong>2 + </strong></em><strong>8u . </strong></strong><em><strong><em><strong>1 </strong></em></strong></em><strong>/ 16u </strong></em> </p>
+          <p><em><strong>y<sub>G </sub>=</strong></em><em><strong> 24 <strong>u </strong></strong><strong>/ 16u</strong></em></p>
+          <p><em><strong>y<sub>G </sub>= </strong><strong>1,5</strong></em></p>
+          </blockquote>
+        <p>O sea que el centro de masa de la <em>L</em> est&aacute; ah&iacute; donde te dibuj&eacute; un puntito rojo. </p></td>
+      </tr>
+    
+    
+  </table></td>
+  <td class="bodytext" colspan="2">&nbsp;</td>
+</tr>
+<tr>
+  <td width="250" colspan="2" rowspan="2" class="bodytext">Tambi&eacute;n pod&iacute;a haber cortado la L con un corte horizontal, y as&iacute; obten&iacute;a otros dos rect&aacute;ngulos diferentes: uno de 4 unidades de masa y el otro de 12. Mir&aacute;: </td>
+  <td width="90" colspan="2" rowspan="2" class="epigrafe"><div align="center"></div></td>
+</tr>
+<tr>
+  <td height="45" class="bodytext">&nbsp;</td>
+</tr>
+
+
+<tr>
+  <td height="18" colspan="2" align="left" valign="top" class="bodytext"><table width="502" height="309" border="0">
+    <tr>
+      <td height="273" colspan="2" valign="middle" class="bodytext"><img src="../estatica/img_est/gr_s2_15_3.gif" width="230" height="180"></td>
+      <td width="245" align="left" valign="middle" class="bodytext"><p>La coordenada <em><strong>x</strong></em> del centro de masa, con este nuevo encuadre ser&iacute;a:</p>
+          <p> <em><strong><strong><em><strong><strong>&#160;&#160; &#160;&#160; </strong></strong></em></strong>x<sub>G </sub>=</strong></em> <strong><strong><em>4u</em> . </strong></strong><em><strong><em><strong>1 + </strong></em><strong>12u . </strong></strong><em><strong><em><strong>3 </strong></em></strong></em><strong>/ 16u </strong></em> </p>
+          <p><em><strong><strong><em><strong><strong>&#160;&#160; &#160;&#160; </strong></strong></em></strong>x<sub>G </sub>=</strong></em><em><strong> 40<strong>u </strong></strong><strong>/ 16u</strong></em></p>
+          <p><em><strong><strong><em><strong><strong>&#160;&#160; &#160;&#160; </strong></strong></em></strong>x<sub>G </sub>= </strong><strong>2,5</strong></em></p>
+          <p>Y la coordenada<em><strong> y</strong></em>: </p>
+          <p><em><strong><strong><em><strong><strong>&#160;&#160; &#160;&#160; </strong></strong></em></strong>y<sub>G </sub>=</strong></em> <strong><strong><em>4u</em> . </strong></strong><em><strong><em><strong>3 + 12</strong></em><strong>u . </strong></strong><em><strong><em><strong>1 </strong></em></strong></em><strong>/ 16u </strong></em> </p>
+          <p><em><strong><strong><em><strong><strong>&#160;&#160; &#160;&#160; </strong></strong></em></strong>y<sub>G </sub>=</strong></em><em><strong> 24 <strong>u </strong></strong><strong>/ 16u</strong></em></p>
+          <p><em><strong><strong><em><strong><strong>&#160;&#160; &#160;&#160; </strong></strong></em></strong>y<sub>G </sub>= </strong><strong>1,5</strong></em></p></td>
+    </tr>
+    <tr>
+      <td height="16" colspan="3" align="left" valign="top" class="bodytext"><p>Son las mismas coordenadas que hab&iacute;amos hallado antes. Pero todav&iacute;a voy a hacer un nuevo intento con otro tipo de corte: uno m&uacute;ltiple. </p></td>
+    </tr>
+  </table></td>
+  <td class="bodytext">&nbsp;</td>
+  <td colspan="2" valign="bottom" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="31" colspan="2" align="left" valign="top" class="bodytext"><table width="502" height="495" border="0">
+    <tr>
+      <td height="195" colspan="2" valign="middle" class="bodytext"><img src="../estatica/img_est/gr_s2_15_4.gif" width="230" height="177"></td>
+      <td width="245" align="left" valign="middle" class="bodytext"><p>Ahora tenemos que hallar el centro de masa de un grupo de cuatro cuerpos, todos de igual masa, de 4 unidades cada uno, distribuidos como lo ves en el esquema. </p>          </td>
+    </tr>
+    <tr>
+      <td height="44" colspan="3" align="left" valign="top" class="bodytext"><p>La coordenada <em><strong>x</strong></em> del centro de masa, con este nuevo encuadre ser&iacute;a:</p>
+        <blockquote>
+          <p> <em><strong>x<sub>G </sub>=</strong></em> <strong><strong><em>4u</em> . </strong></strong><em><strong><em><strong>1 + </strong></em><strong><strong><em>4u</em> . </strong></strong><em><strong><em><strong>1 +</strong></em></strong></em><strong><em> 4u</em> . </strong></strong><em><strong><em><strong>3 +</strong></em></strong></em><strong><strong> 4u . </strong></strong><em><strong><em><strong>5 </strong></em></strong></em><strong>/ 16u </strong></em> </p>
+          <p><em><strong>x<sub>G </sub>=</strong></em><em><strong> 40<strong>u </strong></strong><strong>/ 16u</strong></em></p>
+          <p><em><strong>x<sub>G </sub>= </strong><strong>2,5</strong></em></p>
+        </blockquote>
+        <p>Y la coordenada<em><strong> y</strong></em>: </p>
+        <blockquote>
+          <p><em><strong>y<sub>G </sub>=</strong></em> <strong><strong><em>4u</em> . </strong></strong><em><strong><em><strong>1 + <strong><em>4u</em> . </strong></strong><em><strong><em><strong>1</strong></em></strong></em><strong> <em><strong>+ <strong><em>4u</em> . </strong></strong><em><strong><em><strong>1</strong></em></strong></em></em> + 4 </strong></em><strong>u . </strong></strong><em><strong><em><strong>3 </strong></em></strong></em><strong>/ 16u </strong></em> </p>
+          <p><em><strong>y<sub>G </sub>=</strong></em><em><strong> 24 <strong>u </strong></strong><strong>/ 16u</strong></em></p>
+          <p><em><strong>y<sub>G </sub>= </strong><strong>1,5</strong></em></p>
+        </blockquote>        <p>O sea: cortemos como cortemos y reunamos como reunamos llegamos -como corresponde- al mismo resultado. </p></td>
+    </tr>
+  </table></td>
+  <td class="bodytext">&nbsp;</td>
+  <td colspan="2" valign="bottom" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="89" colspan="2" align="left" valign="middle" class="bodytext">Podr&iacute;a seguir haciendo cortes y m&aacute;s cortes... el sentido del esfuerzo que nos tomamos no fue solamente mostrarte que el centro de masa es uno s&oacute;lo independientemente de c&oacute;mo lo halles... el sentido fue acercarte al significado &uacute;ltimo de la idea de centro de masa: <em>la localizaci&oacute;n ponderada, el promedio ponderado de masa</em>. (Me puse a hablar en chino). </td>
+  <td class="bodytext">&nbsp;</td>
+  <td width="90" colspan="2" valign="bottom" class="bodytext">&nbsp;</td>
+</tr>
+
+<tr>
+  <td height="96" colspan="2" class="bodytext"><strong>DESAFIO: </strong>Volver a encontrar las posiciones anteriores pero trabajando con un <strong>SR</strong> tal que la posici&oacute;n (0;0)  se halle alejada del cuerpo. </td>
+  <td class="bodytext">&nbsp;</td>
+  <td width="90" colspan="2" rowspan="2" valign="bottom" class="bodytext"><img src="../estatica/img_est/ric_celeste.jpg" width="85" height="121"></td>
+</tr> 
+<tr> <td colspan="2" bgcolor="#CCCCCC" class="bodytext"><blockquote>
+  <p><span class="epigrafe">Todos los derechos reservados. 
+    Se permite su reproducci&oacute;n citando la fuente. &Uacute;ltima actualizaci&oacute;n may-08. Buenos Aires, Argentina. </span></p>
+</blockquote></td>
+  <td class="bodytext" width="9">&nbsp;</td>
+  </tr> 
+</table></td></tr> </table><img src="../estatica/img_est/transparente.gif" width="20" height="20"></td>
+</tr> 
+<tr> <td class="bodytext"><img src="../CINEMATICA/img_cin/transparente.gif" width="600" height="20"></td></tr> 
+</table>
+</body>
+</html>
