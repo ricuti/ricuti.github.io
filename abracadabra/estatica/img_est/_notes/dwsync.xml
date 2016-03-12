@@ -3,16 +3,8 @@
 <file name="cavendish.gif" server="neuro.qi.fcen.uba.ar" local="128055587780000000" remote="125963982730000000" />
 <file name="nombre5.gif" server="neuro.qi.fcen.uba.ar" local="128060834000000000" remote="125963986670000000" />
 <file name="pommes.jpg" server="neuro.qi.fcen.uba.ar" local="128055587820000000" remote="125963986700000000" />
-<file name="gr_DAT_G_1.gif" server="neuro.qi.fcen.uba.ar" local="128888626140000000" remote="125963984910000000" />
-<file name="gr_DAT_G_2.gif" server="neuro.qi.fcen.uba.ar" local="128889650420000000" remote="125963984910000000" />
 <file name="hooke.jpg" server="neuro.qi.fcen.uba.ar" local="128891299400000000" remote="125963986610000000" />
 <file name="dinamometro.jpg" server="neuro.qi.fcen.uba.ar" local="128891367550000000" remote="125963982770000000" />
-<file name="gr_DAT_roz_1.gif" server="neuro.qi.fcen.uba.ar" local="128896273100000000" remote="125963984950000000" />
-<file name="gr_DAT_roz_2.gif" server="neuro.qi.fcen.uba.ar" local="128889666530000000" remote="125963984960000000" />
-<file name="gr_DAT_roz_3.gif" server="neuro.qi.fcen.uba.ar" local="128889710490000000" remote="125963984970000000" />
-<file name="gr_DAT_leyes_1.gif" server="neuro.qi.fcen.uba.ar" local="128894640870000000" remote="125963984920000000" />
-<file name="gr_DAT_leyes_2.gif" server="neuro.qi.fcen.uba.ar" local="128894667120000000" remote="125963984930000000" />
-<file name="gr_DAT_leyes_3.gif" server="neuro.qi.fcen.uba.ar" local="128894666810000000" remote="125963984930000000" />
 <file name="mach.jpg" server="neuro.qi.fcen.uba.ar" local="128894800680000000" remote="125963986630000000" />
 <file name="gr_s1_01_1.gif" server="neuro.qi.fcen.uba.ar" local="128896283450000000" remote="125963985850000000" />
 <file name="gr_s1_01_2.gif" server="neuro.qi.fcen.uba.ar" local="128896283970000000" remote="125963985860000000" />
@@ -32,7 +24,6 @@
 <file name="gr_s2_10_2.gif" server="neuro.qi.fcen.uba.ar" local="128100701940000000" remote="125963986130000000" />
 <file name="reposo.jpg" server="neuro.qi.fcen.uba.ar" local="129024374550000000" remote="125963986710000000" />
 <file name="atoms.jpg" server="neuro.qi.fcen.uba.ar" local="129057984590000000" remote="125963982470000000" />
-<file name="gr_DAT_roz2_1.gif" server="neuro.qi.fcen.uba.ar" local="129057974670000000" remote="125963984940000000" />
 <file name="cap1.jpg" server="neuro.qi.fcen.uba.ar" local="129074275620000000" remote="125963982520000000" />
 <file name="cap10.jpg" server="neuro.qi.fcen.uba.ar" local="129074281760000000" remote="125963982520000000" />
 <file name="cap11.jpg" server="neuro.qi.fcen.uba.ar" local="129074282190000000" remote="125963982530000000" />
