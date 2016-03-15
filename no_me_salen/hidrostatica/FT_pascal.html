@@ -1,0 +1,177 @@
+<html>
+<head>
+<title>Ricardo Cabrera, MECANICA DE FLUIDOS, ejercicios resueltos</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="keywords" content="problemas resueltos, ejercicios resueltos, cbc, fisica, biofisica, fluidos, liquidos, gases, bernoulli, poiseuille, viscosidad, ideales, viscosos, humedad, difusion, osmosis, nomesalen, no me salen, ricardo cabrera" />
+<meta name="description" content="Ejercicios y problemas resueltos, y apuntes teóricos de Fluidos, mecanismos de transporte de fluidos" />
+<link rel="stylesheet" href="win_ie.css">
+<style type="text/css">
+<!--
+.style1 {
+	color: #3F6386;
+	font-weight: bold;
+}
+.Estilo3 {color: #3F6386}
+.Estilo16 {font-size: 16px}
+-->
+</style>
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000" alink="#000000" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<table align=center width="600" border="0" cellspacing="0" cellpadding="0"> 
+  <tr bgcolor="#000000" align="right"> 
+<td><table width="100%">
+  <tr>
+    <td align="left" valign="top"><a href="FT_pascal_en.html"><img src="img_hstat/english.gif" alt="english version" width="25" height="12" border="1"></a></td>
+    <td width="62%"><img src="img_hstat/nombre5.gif" width="369" height="71"></td>
+  </tr>
+</table></td>
+  </tr> <tr bgcolor="#BB0000" valign="middle" align="left"> 
+<td class="bodytext" height="20"><TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+  <TR ALIGN="center" CLASS="menuitem">
+    <TD WIDTH="44" height="19" CLASS="menuitem"><A HREF="../../index.html" CLASS="menuitem">&nbsp;<B>home</B>&nbsp;</A></TD>
+    <TD WIDTH="5" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="113" CLASS="menuitem"><strong><a href="index_hstat.html" class="menuitem">m&aacute;s de hidrostática</a> </strong></TD>
+    <TD width="10" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="125" CLASS="menuitem"><strong><a href="../../intro_NMS.html" class="menuitem">otros temas de F&iacute;sica</a></strong></TD>
+    <TD width="10" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="173" CLASS="menuitem"><strong><a href="../../lista_ciruela.html" class="menuitem">lecciones del maestro Ciruela </a></strong></TD>
+    <TD width="9" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="68" CLASS="menuitem"><strong><a href="../../lista_tonterias.html" class="menuitem">tonter&iacute;as</a></strong></TD>
+    <TD WIDTH="8" CLASS="menuitem"><a href="../energia/index_energia.html" class="menuitem"></a><FONT COLOR="#000000">|</FONT></TD>
+    <TD WIDTH="40" CLASS="menuitem">&nbsp;<B><FONT FACE="Arial, Helvetica, sans-serif"><A HREF="mailto: ricuti@qi.fcen.uba.ar" CLASS="menuitem">@</A></FONT><A HREF="../../index.html" CLASS="menuitem"></A></B>&nbsp;</TD>
+  </TR>
+</TABLE></td></tr> <tr> <td class="bodytext" height="19"><img src="img_hstat/transparente.gif" width="600" height="20"></td></tr> 
+<tr align="center"> <td height="1323"> <table width="600" border="0" cellspacing="0" cellpadding="0"> 
+<tr class="bodytext"> <td valign="top" width="594" height="1514"> 
+<table width="600" border="0" cellspacing="0" cellpadding="0"> <tr> 
+  <td width="510" height="74" bgcolor="#D7FFFF" class="bodytext"><span class="bodytext"><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>NO ME SALEN<br>
+</strong></span><span class="Estilo3"><em class="bodytext "><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>(<strong>LECCIONES TEORICAS  DE BIOF&Iacute;SICA DEL CBC</strong>)</strong></em></span><br>
+      <span class="titulograndegris Estilo16"><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>FLUIDOS<br>
+      </strong></span><span class="titulochicogris"><strong> <em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>HIDROSTATICA - PRINCIPIO DE PASCAL - PRENSA HIDRAULICA </strong></span><span class="Estilo3"><br>
+      </span><br> </td>
+  <td class="bodytext" rowspan="3" height="74" width="10">&nbsp;</td>
+  <td class="bodytext" colspan="2" height="74" rowspan="3" valign="top" width="86"> 
+<p><img src="img_hstat/cap16.jpg" alt="desesperado" width="85" height="128"></p></td></tr>
+  <tr>
+    <td height="18" bgcolor="#FFFFFF" class="bodytext">&nbsp;</td>
+  </tr> 
+<tr> <td height="84" class="bodytext"><P><strong>PRINCIPIO DE PASCAL </strong><br>
+  Blaise Pascal (1623-1662) estableci&oacute; &ndash;y desde entonces  l&iacute;quidos y gases le obedecen- que toda presi&oacute;n aplicada a un fluido confinado  en un recipiente se transmite sin reducci&oacute;n a todos los puntos del fluido y a  las paredes del recipiente que lo contiene.</P>
+    <P>Observemos el tubo de la figura: tiene un fluido cualquiera adentro y agujeros cerrados con corchitos. </P></td>
+  </tr>  
+<tr> 
+  <td height="103" align="center" class="bodytext"><img src="img_hstat/FT_pascal.gif" alt="Flu&iacute;dos - Ricardo Cabrera" width="200" height="96"></td>
+  <td class="bodytext" width="10">&nbsp;</td>
+  <td class="bodytext" colspan="2" width="86">&nbsp;</td>
+</tr>
+<tr>
+  <td height="81" align="left" class="bodytext"><p>Si hici&eacute;semos una fuerte y r&aacute;pida presi&oacute;n sobre  el corchito de la izquierda ser&iacute;a l&oacute;gico pensar que el de la derecha &ndash;y s&oacute;lo el  de la derecha- saldr&iacute;a disparado. Pero no; salen disparados los seis corchitos por  igual: el de la derecha, los de arriba y los de abajo. La diferencia de presi&oacute;n  se transmiti&oacute; a todas partes y direcciones por igual.</p>    </td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext" colspan="2">&nbsp;</td>
+</tr>
+<tr>
+  <td height="59" align="center" valign="middle" bgcolor="#99FF66" class="bodytext"><table width="83%" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td class="bodytext"><em><strong>La presi&oacute;n ejercida en un punto de un fluido incompresible se transmite con igual intensidad a todos los puntos del fluido.</strong></em></td>
+    </tr>
+  </table></td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext" colspan="2">&nbsp;</td>
+</tr>
+<tr>
+  <td height="150" align="left" class="bodytext"><p>Fijate que eso no indica que en todos los puntos del fluido exista la misma presi&oacute;n. Significa que si, por ejemplo, aumento en <em><strong>100 <span class="epigrafe">Pa</span></strong></em> la presi&oacute;n en un punto, tambi&eacute;n aumentar&aacute; en <em><strong>100 <span class="epigrafe">Pa</span></strong></em> en todos los otros puntos; si en un punto hab&iacute;a <em><strong>5000 <span class="epigrafe">Pa</span></strong></em>, ahora habr&aacute; <em><strong>5100 <span class="epigrafe">Pa</span></strong></em>; si en otro punto hab&iacute;a <em><strong>3750</strong></em>, ahora habr&aacute;<em><strong> 3850</strong></em>.</p>
+    <p> La l&oacute;gica de los fluidos es diferente a la  l&oacute;gica de los s&oacute;lidos. Para describir un s&oacute;lido lo primero que damos es la  masa; para un fluido, la densidad. Los s&oacute;lidos transmiten fuerzas; los fluidos,  presiones.</p></td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext" colspan="2">&nbsp;</td>
+</tr>
+<tr>
+  <td height="85" align="left" class="bodytext"><p><strong>PRENSA  HIDRAULICA</strong><br>
+   El principio de Pascal tiene una  aplicaci&oacute;n pr&aacute;ctica recontra pr&aacute;ctica: la <strong>prensa  hidr&aacute;ulica</strong>. Consiste en un recipiente cerrado con dos &eacute;mbolos. Un &eacute;mbolo es  una superficie deslizante dentro de un tubo: un pist&oacute;n. Uno de los &eacute;mbolos es  de secci&oacute;n peque&ntilde;a (el <strong>1</strong>) y el otro, grande (el <strong>2</strong>). </p>    </td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext" colspan="2">&nbsp;</td>
+</tr>
+<tr>
+  <td height="235" align="center" class="bodytext"><table width="102%" height="198" border="0">
+    <tr>
+      <td width="55%" bgcolor="#FFFFFF" class="bodytext"><p>Aplicando una fuerza, <strong><em>F<strong><sub>1</sub></strong></em></strong>, sobre el &eacute;mbolo  peque&ntilde;o, se obtiene una fuerza mayor, <strong><em>F<strong><sub>2</sub></strong></em></strong>, en el &eacute;mbolo mayor. O sea: la prensa hidr&aacute;ulica es un multiplicador de fuerzas. La explicaci&oacute;n de su funcionamiento es sencill&iacute;sima. </p>
+        <p>Pongamos los dos &eacute;mbolos a la misma  altura. Entonces, por aplicaci&oacute;n del principio general de la hidrost&aacute;tica,  garantizamos que entre los &eacute;mbolos no habr&aacute; diferencia de presi&oacute;n. Luego aplicamos una fuerza de intensidad <strong><em>F<strong><sub>1</sub></strong></em></strong> en el &eacute;mbolo angosto. La  fuerza <strong><em>F<strong><sub>1</sub></strong></em></strong> se reparte en un  &aacute;rea peque&ntilde;a, <em><strong>S<sub>1</sub></strong></em>. Queda  entonces definida la presi&oacute;n<em><strong> P<sub>1</sub></strong></em>. </p></td>
+      <td width="45%" align="right" bgcolor="#FFFFFF" class="bodytext"><img src="img_hstat/FT_prensa_2.gif" alt="Flu&iacute;dos - Ricardo Cabrera" width="200" height="218"></td>
+    </tr>
+  </table>    </td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext" colspan="2">&nbsp;</td>
+</tr>
+<tr>
+  <td height="280" align="left" class="bodytext"><p>Pascal, a su vez, garantiza que en el otro &eacute;mbolo la presi&oacute;n ser&aacute; la misma. O sea:</p>
+    <blockquote>
+      <p><em><strong>P<sub>1</sub> </strong></em><strong>=</strong> <em><strong>P<sub>2</sub></strong></em></p>
+      <p><strong><em>F<strong><sub>1</sub></strong></em></strong> / <em><strong>S<sub>1</sub></strong></em> <strong>=</strong> <strong><em>F<strong><sub>2</sub></strong></em></strong> / <em><strong>S<sub>2</sub></strong></em></p>
+      </blockquote>    
+    <p>la que a nosotros nos interesa es </p>
+    <blockquote>
+      <p><strong><em>F<strong><sub>2 </sub></strong></em></strong>= <strong><em>F<strong><sub>1</sub></strong></em></strong>  . ( <em><strong>S<sub>2 </sub></strong></em>/ <em><strong>S<sub>1</sub></strong></em>)</p>
+      </blockquote>    
+    <p>De modo  que la fuerza resultante <strong><em>F<strong><sub>2</sub></strong></em></strong>, ser&aacute; (<em><strong> S<sub>2 </sub></strong></em>/ <em><strong>S<sub>1</sub></strong></em>) veces mayor que  <strong><em>F<strong><sub>1</sub></strong></em></strong>. Cuanto m&aacute;s grande sea la secci&oacute;n del &eacute;mbolo grande respecto de la secci&oacute;n del &eacute;mbolo finito mayor va a ser el factor de multiplicaci&oacute;n de la fuerza. Por ejemplo, si la secci&oacute;n <strong>2</strong> es <em><strong>100</strong></em> veces mayor que la secci&oacute;n <strong>1</strong> (una relaci&oacute;n t&iacute;pica), entonces la fuerza <strong>2</strong> es <em><strong>100</strong></em> veces m&aacute;s grande que la <strong>1</strong>. </p>
+    <p>Para fijar los conceptos discutidos en esta lecci&oacute;n te recomiendo ir a <a href="flu_NMS018.html" target="_blank">este ejercicio</a>.</p></td>
+  <td class="bodytext">&nbsp;</td>
+  <td colspan="2" class="bodytext">&nbsp;</td>
+</tr>
+
+<tr>
+  <td align="center" valign="middle" class="bodytext"><table width="100%" border="0">
+    <tr>
+      <td width="69%" class="bodytext"><p><strong>CHISMES IMPORTANTES</strong>: </p>        </td>
+      <td width="31%" rowspan="2"><img src="img_hstat/FT_brazo.jpg" alt="Flu&iacute;dos - Ricardo Cabrera" width="150" height="125"></td>
+    </tr>
+    <tr>
+      <td height="117" class="bodytext"><ul>
+        <li>No es el &uacute;nico multiplicador de fuerzas que existe, pero la prensa hidr&aacute;ulica es el multiplicador preferido por la industria y por la mec&aacute;nica en general. Cr&iacute;quets, brazos mec&aacute;nicos, elevadores, estampadoras, movimientos robotizados, frenos de autos y direcci&oacute;n asistida... todo lo que vos imagines que utiliza la industria se mueve con fuerzas que salen de prensas hidr&aacute;ulicas. </li>
+      </ul></td>
+    </tr>
+  </table>    </td>
+  <td class="bodytext">&nbsp;</td>
+  <td colspan="2" class="bodytext">&nbsp;</td>
+</tr>
+
+
+
+<tr>
+  <td height="18" bgcolor="#FFFFFF" class="bodytext"><strong>PREGUNTAS CAPCIOSAS</strong></td>
+  <td class="bodytext">&nbsp;</td>
+  <td width="86" colspan="2" valign="bottom" class="bodytext">&nbsp;</td>
+</tr>
+
+<tr>
+  <td height="18" align="left" bgcolor="#FFFFFF" class="bodytext"><ul>
+    <li>&iquest;Por qu&eacute; el principio de Pascal parece no afectarse por el principio de la hidrost&aacute;tica? &iquest;No deber&iacute;a haber diferencias de presi&oacute;n debido a la diferencia de alturas entre &eacute;mbolos o corchitos? </li>
+    <li>&iquest;Qu&eacute; es un fluido hidr&aacute;ulico, como el l&iacute;quido de frenos?</li>
+    <li>Si en el &eacute;mbolo angosto, por acci&oacute;n de la fuerza <strong><em>F<strong><sub>1</sub></strong></em></strong>, se desplaza un volumen de l&iacute;quido <em><strong>V</strong></em> (por ejemplo: 36,5 ml)... -&iquest;qu&eacute; volumen se desplaza en el &eacute;mbolo grande haciendo una fuerza <strong><em>F<strong><sub>2</sub></strong></em></strong>? &iquest;Cu&aacute;l de los dos pistones debe realizar un recorrido mayor? &iquest;Cu&aacute;nto mayor? </li>
+  </ul></td>
+  <td class="bodytext">&nbsp;</td>
+  <td width="86" colspan="2" valign="bottom" class="bodytext"><strong><em><sub><img src="img_hstat/ric_fotoric.jpg" alt="Flu&iacute;dos - Ricardo Cabrera" width="85" height="110"></sub></em></strong></td>
+</tr>
+<tr>
+  <td bgcolor="#FFFFFF" class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+  <td width="86" colspan="2" valign="bottom" class="bodytext">&nbsp;</td>
+</tr>
+
+<tr> <td align="center" valign="middle" bgcolor="#CCCCCC" class="bodytext"><table width="89%" border="0">
+  <tr>
+    <td class="epigrafe">Algunos derechos reservados. 
+      Se permite su reproducci&oacute;n citando la fuente. &Uacute;ltima actualizaci&oacute;n sep-07. Buenos Aires, Argentina. </td>
+  </tr>
+</table>  </td>
+  <td class="bodytext" width="10">&nbsp;</td>
+  <td width="86" colspan="2" valign="bottom" class="bodytext"><a href="FT_atmosf.html"><a href="FT_atmosf.html"><img src="img_hstat/boton.gif" width="85" height="27" border="0"></a></a></td>
+</tr> 
+<tr> <td height="18" class="bodytext">&nbsp;</td><td class="bodytext" width="10">&nbsp;</td>
+<td class="bodytext" colspan="2" width="86">&nbsp;</td>
+</tr> 
+</table></td></tr> </table>
+<img src="img_hstat/transparente.gif" width="10" height="20"></td></tr> 
+<tr> <td class="bodytext"><img src="img_hstat/transparente.gif" width="600" height="20"></td></tr> 
+</table>
+</body>
+</html>

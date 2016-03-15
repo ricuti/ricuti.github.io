@@ -1,0 +1,278 @@
+<html>
+<head>
+<title> MECANICA DE FLUIDOS, PRESION ATMOSFERICA - EXPERIMENTO DE TORRICELLI</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="keywords" content="problemas resueltos, ejercicios resueltos, cbc, fisica, biofisica, fluidos, liquidos, gases, bernoulli, poiseuille, viscosidad, ideales, viscosos, humedad, difusion, osmosis, nomesalen, no me salen, ricardo cabrera" />
+<meta name="description" content="Ejercicios y problemas resueltos, y apuntes teóricos de Fluidos, mecanismos de transporte de fluidos" />
+<link rel="stylesheet" href="win_ie.css">
+<style type="text/css">
+<!--
+.style1 {
+	color: #3F6386;
+	font-weight: bold;
+}
+.Estilo3 {color: #3F6386}
+.Estilo16 {font-size: 16px}
+.Estilo19 {font-size: 10px; font-weight: bold; font-style: italic; }
+.Estilo24 {font-size: 10px}
+.Estilo25 {font-style: italic; font-size: 10px;}
+.Estilo27 {color: #FF0000}
+.Estilo28 {font-size: 9px}
+.Estilo30 {font-style: italic; font-size: 9px; }
+.Estilo31 {font-size: 9px; font-weight: bold; font-style: italic; }
+-->
+</style>
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000" alink="#000000" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<table align=center width="600" border="0" cellspacing="0" cellpadding="0"> 
+  <tr bgcolor="#000000" align="right"> 
+<td><img src="img_hstat/nombre5.gif" width="369" height="71"></td></tr> <tr bgcolor="#BB0000" valign="middle" align="left"> 
+<td class="bodytext" height="20"><TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+  <TR ALIGN="center" CLASS="menuitem">
+    <TD WIDTH="44" height="19" CLASS="menuitem"><A HREF="../../index.html" CLASS="menuitem">&nbsp;<B>home</B>&nbsp;</A></TD>
+    <TD WIDTH="5" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="113" CLASS="menuitem"><strong><a href="index_hstat.html" class="menuitem">m&aacute;s de hidrostática</a> </strong></TD>
+    <TD width="10" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="125" CLASS="menuitem"><strong><a href="../../intro_NMS.html" class="menuitem">otros temas de F&iacute;sica</a></strong></TD>
+    <TD width="10" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="173" CLASS="menuitem"><strong><a href="../../lista_ciruela.html" class="menuitem">lecciones del maestro Ciruela </a></strong></TD>
+    <TD width="9" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="68" CLASS="menuitem"><strong><a href="../../lista_tonterias.html" class="menuitem">tonter&iacute;as</a></strong></TD>
+    <TD WIDTH="8" CLASS="menuitem"><a href="../energia/index_energia.html" class="menuitem"></a><FONT COLOR="#000000">|</FONT></TD>
+    <TD WIDTH="40" CLASS="menuitem">&nbsp;<B><FONT FACE="Arial, Helvetica, sans-serif"><A HREF="mailto: ricuti@qi.fcen.uba.ar" CLASS="menuitem">@</A></FONT><A HREF="../../index.html" CLASS="menuitem"></A></B>&nbsp;</TD>
+  </TR>
+</TABLE></td></tr> <tr> <td class="bodytext" height="19"><img src="img_hstat/transparente.gif" width="600" height="20"></td></tr> 
+<tr align="center"> <td height="2187"> <table width="600" border="0" cellspacing="0" cellpadding="0"> 
+<tr class="bodytext"> <td valign="top" width="594" height="1972"> 
+<table width="600" border="0" cellspacing="0" cellpadding="0"> <tr> 
+  <td width="500" height="74" bgcolor="#D7FFFF" class="bodytext"><span class="bodytext"><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>NO ME SALEN<br>
+</strong></span><span class="Estilo3"><em class="bodytext "><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>(<strong>LECCIONES TEORICAS  DE BIOF&Iacute;SICA DEL CBC</strong>)</strong></em></span><br>
+      <span class="titulograndegris Estilo16"><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>FLUIDOS<br>
+      </strong></span><span class="titulochicogris"><strong> <em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>HIDROSTATICA - PRESION ATMOSFERICA - TORRICELLI </strong></span><span class="Estilo3"><br>
+      </span><br> </td>
+  <td class="bodytext" rowspan="3" height="74" width="14">&nbsp;</td>
+  <td class="bodytext" colspan="2" height="74" rowspan="3" valign="top" width="86"> 
+<p><img src="img_hstat/cap1.jpg" alt="desesperado" width="85" height="129"></p></td></tr>
+  <tr>
+    <td height="18" bgcolor="#FFFFFF" class="bodytext">&nbsp;</td>
+  </tr> 
+<tr> <td height="84" class="bodytext"><P><strong>PRESION  ATMOSFERICA</strong><br>
+  &ldquo;Vivimos en el fondo de un oc&eacute;ano de  aire&rdquo;. La frase de Evangelista Torricelli (1608-1647), matem&aacute;tico y f&iacute;sico italiano disc&iacute;pulo de  Galileo Galilei, es  enormemente descriptiva (Evangelista era el nombre de pila... Torricelli  probablemente fuera ateo). El aire es un fluido gaseoso que nos rodea, nos  envuelve y nos presiona. Se extiende sobre toda superficie de la Tierra constituyendo  la atm&oacute;sfera que se eleva hasta una altura de unos <em><strong>20</strong></em> kil&oacute;metros. No tiene un  l&iacute;mite definido: a <em><strong>40 <span class="Estilo24">km</span></strong></em> de altura todav&iacute;a pueden encontrarse algunas mol&eacute;culas  perdidas. Se compone de una mezcla de gases, principalmente nitr&oacute;geno, ox&iacute;geno,  di&oacute;xido de carbono, vapor de agua y algunos otros muy minoritarios.</P>
+    <P>Nosotros no nos damos cuenta de que  el aire que nos rodea nos presiona enormemente, porque nuestro cuerpo est&aacute;  construido a presi&oacute;n: la misma presi&oacute;n adentro que afuera de nuestra piel.  Galileo se hab&iacute;a dado cuenta del fen&oacute;meno con razonamientos muy sutiles, pero  nunca hab&iacute;a podido hacer una medici&oacute;n concluyente.</P>
+    <P>El primero en medir el valor de la  presi&oacute;n que la atm&oacute;sfera imprime a la superficie terrestre y a todo bicho que  camine sobre ella, fue  Torricelli. </P>
+    </td>
+</tr>  
+<tr> <td height="371" align="center" class="bodytext"><table width="100%" border="0">
+  <tr>
+    <td width="54%" height="297" class="bodytext"><p>El experimento (famoso) que le permiti&oacute;  tal haza&ntilde;a consisti&oacute; en un simple tubo de vidrio de 1 metro de largo  aproximadamente (el largo del tubo importa muy poco), cerrado en una punta y lleno de mercurio. Lo invirti&oacute; tapando   el extremo abierto para no derramar mercurio y lo introdujo boca  abajo en un recipiente ancho igualmente lleno de mercurio (se ve que el  mercurio no costaba antes lo que cuesta ahora). La superficie de la columna  mercurial descendi&oacute; llenando un poco m&aacute;s el recipiente inferior... pero s&oacute;lo un  poco. En el tubo permaneci&oacute; -sin descender m&aacute;s- una columna de  mercurio de 760 mm de altura.</p>
+      <p>Como en el extremo superior no hab&iacute;a nada antes, Torricelli dedujo  que tampoco hab&iacute;a nada  despu&eacute;s:  ese espacio que dej&oacute; arriba el mercurio quedaba -literalmente- vac&iacute;o.</p>
+      <p>Sorprendido con el resultado repiti&oacute; el experimento con otros tubos de diferentes grosores y alturas. El resultado fue siempre el mismo. </p></td>
+    <td width="3%">&nbsp;</td>
+    <td width="43%" align="right"><img src="img_hstat/FT_torr.gif" alt="Flu&iacute;dos - Ricardo Cabrera" width="200" height="329"></td>
+  </tr>
+</table></td>
+<td class="bodytext" width="14">&nbsp;</td>
+  <td width="86" colspan="2" valign="bottom" class="epigrafe"><p>En un tubo de menos de 76 cm el mercurio no descender&iacute;a nada, ni un mil&iacute;metro, por lo tanto un tubo as&iacute; no sirve para este experimento. </p>
+    <p>En cambio, mientras sea suficientemen- te largo, el ancho no tiene ninguna importancia.</p>
+    <p>&nbsp;</p></td>
+</tr>
+<tr>
+  <td height="85" align="left" class="bodytext"><p>La interpretaci&oacute;n es que la columna  de 760 mm de mercurio pesa tanto como la columna de aire de 20 km. El mercurio  que hay en el recipiente funciona como una balanza. </p>
+    <p>El c&aacute;lculo del valor de la presi&oacute;n no es complicado. Usando el principo general de la hidrost&aacute;tica se comparan dos puntos dentro del mercurio: uno de ellos en la superficie que est&aacute; al aire, y el otro a la misma altura que el anterior, pero bajo la columna. </p></td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext" colspan="2">&nbsp;</td>
+</tr>
+<tr>
+  <td height="317" align="left" class="bodytext"><table width="100%" border="0">
+    <tr>
+      <td width="55%" height="127" class="bodytext"><p>Seg&uacute;n el principio general:</p>
+        <blockquote>
+          <p><em><strong>P<sub>A</sub> </strong></em><strong>=</strong> <em><strong>P<sub>B</sub></strong></em> </p>
+          </blockquote>
+        <p>La presi&oacute;n en <strong>A</strong> es debida a la atm&oacute;sfera. Y la presi&oacute;n en <strong>B</strong> obedece exclusivamente a la columna de mercurio, ya que sobre <strong>C</strong> no hay <strong>nada</strong> haciendo presi&oacute;n... <em><strong>P<sub>C</sub> </strong></em><strong>=</strong><em><strong> 0</strong></em>. Luego: </p>
+        <blockquote>
+          <p><em><strong>P<sub>B</sub> </strong></em><strong>=</strong> <em><strong>&#961;<sub>Hg</sub> .  h </strong></em></p>
+          </blockquote>
+        <p><em><strong><em><strong><strong>&#160; &#160;&#160; &#160;&#160; &#160;&#160;</strong></strong></em>P<sub>B</sub></strong></em> <strong>=</strong> <em><strong>133.280 <span class="Estilo19">N</span></strong><span class="Estilo25">/</span><strong><span class="Estilo19">m<sup>3</sup></span> 0,76 <span class="Estilo24">m</span></strong></em></p>
+        <blockquote>
+          <p><em><strong>P<sub>B</sub> </strong></em><strong>=</strong> <em><strong>101.300 <span class="Estilo24">Pa</span> </strong></em></p>
+          </blockquote>
+        <p>Medir la presi&oacute;n atmosf&eacute;rica ac&aacute; en la superficie de la Tierra, en el 1600 y pico... fue una verdadera proeza. </p></td>
+      <td width="2%">&nbsp;</td>
+      <td width="43%" align="right"><img src="img_hstat/FT_torr2.gif" alt="Flu&iacute;dos - Ricardo Cabrera" width="200" height="287"></td>
+    </tr>
+  </table></td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext" colspan="2"><p>&nbsp;</p>
+    <p align="center" class="epigrafe Estilo27"><em><strong>peso espec&iacute;fico del mercurio<br>
+      <br>
+    </strong></em><em><strong>&#961;<sub>Hg</sub>=<br>
+          <br>
+      133.280<span class="Estilo28"> <em><strong>N</strong></em></span></strong><span class="Estilo30">/</span><span class="Estilo28"><strong><em><strong>m<sup>3</sup></strong></em><em><strong><sup></sup></strong></em></strong></span><strong><span class="Estilo19"><sup><br>
+      <br>
+      <br>
+      ...</sup></span></strong></em></p>
+    <p align="center" class="epigrafe Estilo27"><em><strong>densidad del mercurio</strong></em><br>
+        <br>
+          <em><strong><em><strong>&#948;</strong></em><sub>Hg</sub>=<br>
+            <br>
+      136.000<span class="Estilo28"> kg</span></strong><span class="Estilo30">/</span><span class="Estilo28"><strong><em><strong>m</strong></em></strong></span><strong><span class="Estilo31"><sup>3</sup></span></strong></em></p>
+    </td>
+</tr>
+<tr>
+  <td height="68" align="left" class="bodytext"><p>Sin embargo a Torricelli no le fue sencillo convencer a la gente, por dos motivos: el primero es que el valor es enorme. Imaginate una mesa cuadrada de un metro de lado, o sea <em><strong>1</strong></em> <em><strong><span class="Estilo19">m&sup2;</span></strong></em>... <em>&iexcl;&iexcl;</em>la atm&oacute;sfera le est&aacute; haciendo una fuerza de <em><strong>101.300 <span class="Estilo24">N</span></strong>!! &iexcl;</em>La misma fuerza que le har&iacute;a una pila de diez autos<em>!</em> </p>
+    <p>El segundo motivo es que la idea de vac&iacute;o (el espacio que queda arriba de la columna de mercurio) no fue aceptada f&aacute;cilmente por la humanidad.  </p>
+    <p>Por razones clim&aacute;ticas la presi&oacute;n de la atm&oacute;sfera sobre  la superficie terrestre no es constante. A veces la columna de mercurio se  suspende a 761, 763, &oacute; 759 mm de Hg. <em>&iexcl;</em>El experimento tiene sensibilidad para  medir  variaciones de presi&oacute;n<em>!</em> Pues entonces nada m&aacute;s pr&aacute;ctico que  adoptarlo como unidad de medida de presi&oacute;n. As&iacute;,<strong><em> 760 <span class="Estilo24">mmHg</span></em></strong><em> </em>es la presi&oacute;n normal de la atm&oacute;sfera (<strong><em>760 <span class="Estilo24">mmHg</span> </em>= <em>1 <span class="Estilo24">atm</span></em></strong>).</p>
+    <p>A alguien tambi&eacute;n se le ocurri&oacute; armar una escala de presiones medidas en atm&oacute;sferas, tomando el <strong>cero</strong> en el vac&iacute;o y el <strong>1</strong> en la superficie terrestre. Todav&iacute;a hay muchas m&aacute;s escalas de presi&oacute;n... pero por suerte van quedando unas pocas: </p></td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext" colspan="2">&nbsp;</td>
+</tr>
+<tr>
+  <td height="191" align="left" class="bodytext"><table border="1" cellspacing="0" cellpadding="0">
+    <tr>
+      <td colspan="7" class="bodytext"><h5 align="center">UNIDADES COMUNES DE PRESION Y SUS CONVERSIONES </h5></td>
+    </tr>
+    <tr>
+      <td width="45" class="bodytext"><p class="Estilo24"><strong><em>atm</em></strong></p></td>
+      <td width="74" class="bodytext"><p align="center"><em>1</em></p></td>
+      <td width="83" class="bodytext"><p align="center"><em>76</em></p></td>
+      <td width="70" class="bodytext"><p align="center"><em>760</em></p></td>
+      <td width="64" class="bodytext"><p align="center"><strong><em>101.300</em></strong></p></td>
+      <td width="66" class="bodytext"><p align="center"><em>1.013</em></p></td>
+      <td width="78" class="bodytext"><p align="center"><em>14,69</em></p></td>
+    </tr>
+    <tr>
+      <td width="45" class="bodytext"><p class="Estilo24"><strong><em>cmHg</em></strong></p></td>
+      <td width="74" class="bodytext"><p align="center"><em>1 / 76</em></p></td>
+      <td width="83" class="bodytext"><p align="center"><em>1</em></p></td>
+      <td width="70" class="bodytext"><p align="center"><em>10</em></p></td>
+      <td width="64" class="bodytext"><p align="center"><strong><em>1.333</em></strong></p></td>
+      <td width="66" class="bodytext"><p align="center"><em>13,33</em></p></td>
+      <td width="78" class="bodytext"><p align="center"><em>0,19331 </em></p></td>
+    </tr>
+    <tr>
+      <td width="45" class="bodytext"><p class="Estilo24"><strong><em>mmHg</em></strong></p></td>
+      <td width="74" class="bodytext"><p align="center"><em>1 / 760</em></p></td>
+      <td width="83" class="bodytext"><p align="center"><em>0,1</em></p></td>
+      <td width="70" class="bodytext"><p align="center"><em>1</em></p></td>
+      <td width="64" class="bodytext"><p align="center"><strong><em>133</em></strong></p></td>
+      <td width="66" class="bodytext"><p align="center"><em>1,33</em></p></td>
+      <td width="78" class="bodytext"><p align="center"><em>0,01933 </em></p></td>
+    </tr>
+    <tr>
+      <td width="45" class="bodytext"><p class="Estilo24"><strong><em>Pa</em></strong></p></td>
+      <td width="74" class="bodytext"><p align="center"><em>1/101.300</em></p></td>
+      <td width="83" class="bodytext"><p align="center"><em>1/1.333</em></p></td>
+      <td width="70" class="bodytext"><p align="center"><em>0,0075</em></p></td>
+      <td width="64" class="bodytext"><p align="center"><strong><em>1</em></strong></p></td>
+      <td width="66" class="bodytext"><p align="center"><em>0,01</em></p></td>
+      <td width="78" class="bodytext"><p align="center"><em>1 / 6.895</em></p></td>
+    </tr>
+    <tr>
+      <td width="45" class="bodytext"><p class="Estilo24"><strong><em>hPa</em></strong></p></td>
+      <td width="74" class="bodytext"><p align="center"><em>1 / 1.013</em></p></td>
+      <td width="83" class="bodytext"><p align="center"><em>7,51879</em></p></td>
+      <td width="70" class="bodytext"><p align="center"><em>0,75188</em></p></td>
+      <td width="64" class="bodytext"><p align="center"><strong><em>100</em></strong></p></td>
+      <td width="66" class="bodytext"><p align="center"><em>1</em></p></td>
+      <td width="78" class="bodytext"><p align="center"><em>1 / 68,95</em></p></td>
+    </tr>
+    <tr>
+      <td width="45" class="bodytext"><p class="Estilo24"><strong><em>PSI</em></strong></p></td>
+      <td width="74" class="bodytext"><p align="center"><em>0,06806</em></p></td>
+      <td width="83" class="bodytext"><p align="center"><em>5,17 </em></p></td>
+      <td width="70" class="bodytext"><p align="center"><em>51,73 </em></p></td>
+      <td width="64" class="bodytext"><p align="center"><strong><em>6.895</em></strong></p></td>
+      <td width="66" class="bodytext"><p align="center"><em>68,95</em></p></td>
+      <td width="78" class="bodytext"><p align="center"><em>1</em></p></td>
+    </tr>
+    <tr>
+      <td width="45" class="bodytext"><p><strong>&nbsp;</strong></p></td>
+      <td width="74" class="bodytext"><p align="center" class="Estilo24"><strong><em>atm</em></strong></p></td>
+      <td width="83" class="bodytext"><p align="center" class="Estilo24"><strong><em>cmHg </em></strong></p></td>
+      <td width="70" class="bodytext"><p align="center" class="Estilo24"><strong><em>mmHg</em></strong><br>
+      </p></td>
+      <td width="64" class="bodytext"><p align="center" class="Estilo24"><strong><em>Pa</em></strong></p></td>
+      <td width="66" class="bodytext"><p align="center" class="Estilo24"><strong><em>hPa</em></strong><br>
+      </p></td>
+      <td width="78" class="bodytext"><p align="center" class="Estilo24"><em><strong>PSI</strong></em></p></td>
+    </tr>
+    <tr>
+      <td colspan="7" class="bodytext"><p class="Estilo24"><strong>Nota</strong>: Los valores en negrita, expresados en <strong><em>Pa</em></strong>, son los necesarios    para hacer c&aacute;lculos en las unidades del sistema internacional (<strong>SI</strong>). <strong><em>PSI</em></strong> = libras/pulgada<em><strong>&sup2;</strong></em>.</p></td>
+    </tr>
+  </table>  </td>
+  <td class="bodytext">&nbsp;</td>
+  <td colspan="2" class="bodytext">&nbsp;</td>
+</tr>
+
+<tr>
+  <td height="31" align="left" class="bodytext"><p><strong>CHISMES IMPORTANTES</strong><strong>:</strong></p>    </td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext" colspan="2">&nbsp;</td>
+</tr> 
+<tr>
+  <td height="209" align="left" bgcolor="#FFFFFF" class="bodytext"><ul>
+    <li>Como en todo fluido, la presi&oacute;n disminuye a medida que ascendemos. En el caso de la atm&oacute;sfera disminuye a raz&oacute;n de <strong><em>1 <span class="Estilo24">mmHg</span></em></strong> cada 10 metros, m&aacute;s o menos. (Cuanto m&aacute;s ascendemos menos disminuye, porque la densidad del aire tambi&eacute;n va disminuyendo: la atm&oacute;sfera no tiene densidad constante).</li>
+    <li>La atm&oacute;sfera es como una c&aacute;scara de la Tierra, pero es tan delgada en comparaci&oacute;n con la circunferencia terrestre que si tuvieras que representarla a escala junto con el Planeta ser&iacute;a imposible: a&uacute;n el l&aacute;piz m&aacute;s finito ser&iacute;a m&aacute;s grueso que la atm&oacute;sfera.</li>
+    <li> Un buzo a diez metros de profundidad tiene una sobrepresi&oacute;n de <em><strong>1 <span class="Estilo24">atm</span></strong></em> en su cuerpo (incluidos los pulmones). Si emerge desde esa profundidad conteniendo la respiraci&oacute;n sufrir&aacute; da&ntilde;os pulmonares severos. Todo buzo sabe que <STRONG>no </STRONG>debe contener la respiraci&oacute;n mientras   sube hacia la superficie.</li>
+    <li>En un pasado no muy lejano la informaci&oacute;n meteorol&oacute;gica sobre la presi&oacute;n atmosf&eacute;rica se informaba en <em>milibares</em>. </li>
+  </ul>    </td>
+  <td class="bodytext">&nbsp;</td>
+  <td colspan="2" class="bodytext">&nbsp;</td>
+</tr>
+
+
+<tr>
+  <td height="157" align="center" valign="middle" bgcolor="#FFFFFF" class="bodytext"><img src="img_hstat/milibares.jpg" alt="Flu&iacute;dos - Ricardo Cabrera" width="500" height="147"></td>
+  <td class="bodytext">&nbsp;</td>
+  <td colspan="2" valign="bottom" class="bodytext">&nbsp;</td>
+</tr>
+
+<tr>
+  <td height="35" bgcolor="#FFFFFF" class="bodytext"><strong>PREGUNTAS CAPCIOSAS:</strong></td>
+  <td class="bodytext">&nbsp;</td>
+  <td width="86" colspan="2" valign="bottom" class="bodytext">&nbsp;</td>
+</tr>
+
+<tr>
+  <td rowspan="2" align="left" bgcolor="#FFFFFF" class="bodytext"><ul>
+    <li>&iquest;C&oacute;mo funcionan las ventosas, esas que usan los vidrieros y levantan vidrios de m&aacute;s de 20 kilos? </li>
+    <li>Un ser humano adulto es una bolsa de piel de <em><strong>2</strong></em> <em><strong><span class="Estilo19">m&sup2;</span></strong></em>, de modo que la atm&oacute;sfera lo comprime con una fuerza de <em><strong>202.600 <span class="Estilo24">N</span></strong></em>. &iquest;C&oacute;mo no nos  achicharramos?</li>
+    <li>Como la presi&oacute;n atmosf&eacute;rica disminuye <strong><em>1 <span class="Estilo24">mmHg</span></em></strong> cada 10 metros, se puede calcular que a 7.600 metros la presi&oacute;n ser&iacute;a cero, o sea: se acab&oacute; la atm&oacute;sfera. Pero todos saben que todav&iacute;a queda algo de aire hasta los 20.000 metros, y m&aacute;s. &iquest;Qu&eacute; es lo que est&aacute; fallando en este razonamiento?</li>
+    <li>&iquest;Por qu&eacute; los aviones Jumbo tienen  ventanitas muy chiquitas y las avionetas las tienen m&aacute;s grandes?</li>
+    <li> &iquest;Por qu&eacute; cuando subimos a la monta&ntilde;a  se nos apunan los o&iacute;dos? &iquest;Por qu&eacute; el gu&iacute;a de monta&ntilde;a nos recomienda hacer lo  mismo que antes contamos que hac&iacute;an los buzos... eso de Don Eustaquio? &iquest;Por  qu&eacute;, si no, nos convidan un chicle?</li>
+    <li>&iquest;Si la sangre en mis arterias tiene  una presi&oacute;n entre <em><strong>7</strong></em> y <em><strong>14</strong></em> <strong><em><span class="Estilo24">cmHg</span></em></strong> y afuera de mi piel hay una presi&oacute;n de <em><strong>76</strong></em> <strong><em><span class="Estilo24">cmHg</span></em></strong>,  por qu&eacute; cuando me pincho sale sangre en lugar de entrar aire?</li>
+    <li>C&oacute;mo puede ser que una mesa de <em><strong>1</strong></em> <em><strong><span class="Estilo19">m&sup2;</span></strong></em> de mala calidad pueda soportar el peso de la atm&oacute;sfera, equivalente al de una pila de 10 autos medianos?</li>
+    <li>&iquest;Podr&iacute;a funcionar una aspiradora en la Luna?  </li>
+  </ul></td>
+  <td rowspan="2" class="bodytext">&nbsp;</td>
+  <td width="86" height="157" colspan="2" valign="top" class="bodytext"><img src="img_hstat/FT_ventosa.gif" alt="Flu&iacute;dos - Ricardo Cabrera" width="85" height="98"></td>
+</tr>
+<tr>
+  <td width="86" colspan="2" valign="bottom" class="bodytext"><strong><em><sub><img src="img_hstat/ric_fotoric.jpg" alt="Flu&iacute;dos - Ricardo Cabrera" width="85" height="110"></sub></em></strong></td>
+</tr>
+<tr>
+  <td bgcolor="#FFFFFF" class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+  <td width="86" colspan="2" valign="bottom" class="bodytext">&nbsp;</td>
+</tr>
+
+<tr> <td height="42" align="center" valign="middle" bgcolor="#CCCCCC" class="bodytext"><table width="93%" border="0">
+  <tr>
+    <td class="epigrafe">Algunos derechos reservados. 
+      Agradezco a Nahir Bakirdji&aacute;n por el env&iacute;o de una errata. Se permite su reproducci&oacute;n citando la fuente. &Uacute;ltima actualizaci&oacute;n sep-07. Buenos Aires, Argentina. </td>
+  </tr>
+</table>  </td>
+  <td class="bodytext" width="14">&nbsp;</td>
+  <td width="86" colspan="2" valign="bottom" class="bodytext"><a href="FT_tubo.html"><img src="img_hstat/boton.gif" width="85" height="27" border="0"></a></td>
+</tr> 
+<tr> <td class="bodytext">&nbsp;</td><td class="bodytext" width="14">&nbsp;</td>
+<td class="bodytext" colspan="2" width="86">&nbsp;</td>
+</tr> 
+</table></td></tr> </table>
+<img src="img_hstat/transparente.gif" width="10" height="20"></td></tr> 
+<tr> <td class="bodytext"><img src="img_hstat/transparente.gif" width="600" height="20"></td></tr> 
+</table>
+</body>
+</html>

@@ -1,0 +1,224 @@
+<html>
+<head>
+<title>MECANICA DE FLUIDOS, NMS008, fisica online, ejercicios resueltos</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="keywords" content="problemas resueltos, ejercicios resueltos, cbc, fisica, biofisica, fluidos, liquidos, gases, bernoulli, poiseuille, viscosidad, ideales, viscosos, humedad, difusion, osmosis, nomesalen, no me salen, ricardo cabrera" />
+<meta name="description" content="Ejercicios y problemas resueltos, y apuntes teóricos de Fluidos, mecanismos de transporte de fluidos" />
+<link rel="stylesheet" href="win_ie.css">
+<style type="text/css">
+<!--
+.style1 {
+	color: #3F6386;
+	font-weight: bold;
+}
+.Estilo3 {color: #3F6386}
+.Estilo16 {font-size: 16px}
+.Estilo33 {font-size: 10px}
+.Estilo18 {font-size: 10}
+.Estilo38 {font-style: italic}
+.Estilo39 {color: #FF0000}
+.Estilo41 {font-size: 10px; font-style: italic; }
+.Estilo26 {font-family: "Times New Roman", Times, serif;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 16px;
+}
+-->
+</style>
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000" alink="#000000" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<table align=center width="600" border="0" cellspacing="0" cellpadding="0"> 
+  <tr bgcolor="#000000" align="right"> 
+<td><img src="img_hdinam/nombre5.gif" width="369" height="71"></td></tr> <tr bgcolor="#BB0000" valign="middle" align="left"> 
+<td class="bodytext" height="20"><TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+  <TR ALIGN="center" CLASS="menuitem">
+    <TD WIDTH="43" height="19" CLASS="menuitem"><A HREF="../../index.html" CLASS="menuitem">&nbsp;<B>home</B>&nbsp;</A></TD>
+    <TD WIDTH="5" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="119" CLASS="menuitem"><strong><a href="index_hdinam.html" class="menuitem">más de hidrodinámica </a> </strong></TD>
+    <TD width="9" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="127" CLASS="menuitem"><strong><a href="../../intro_NMS.html" class="menuitem">otros temas de F&iacute;sica</a></strong></TD>
+    <TD width="10" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="160" CLASS="menuitem"><strong><a href="../../lista_ciruela.html" class="menuitem">lecciones del maestro Ciruela </a></strong></TD>
+    <TD width="8" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="67" CLASS="menuitem"><strong><a href="../../lista_tonterias.html" class="menuitem">tonter&iacute;as</a></strong></TD>
+    <TD WIDTH="7" CLASS="menuitem"><a href="../energia/index_energia.html" class="menuitem"></a><FONT COLOR="#000000">|</FONT></TD>
+    <TD WIDTH="48" CLASS="menuitem">&nbsp;<B><FONT FACE="Arial, Helvetica, sans-serif"><A HREF="mailto: ricuti@qi.fcen.uba.ar" CLASS="menuitem">@</A></FONT><A HREF="../../index.html" CLASS="menuitem"></A></B>&nbsp;</TD>
+  </TR>
+</TABLE></td></tr> <tr> <td class="bodytext" height="10"><p><img src="img_hdinam/transparente.gif" width="600" height="8"></td>
+</tr> 
+<tr align="center"> <td height="1725"> <table width="600" border="0" cellspacing="0" cellpadding="0"> 
+<tr class="bodytext"> <td colspan="2" valign="top" height="952"> <p><img src="img_hdinam/transparente.gif" width="1" height="1"></td>
+<td valign="top" width="596" height="952"> 
+<table width="600" border="0" cellspacing="0" cellpadding="0"> <tr> 
+  <td height="74" bgcolor="#D7FFFF" class="bodytext"><span class="bodytext"><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>NO ME SALEN<br>
+</strong></span><span class="Estilo3"><em class="bodytext "><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>(<strong>PROBLEMAS RESUELTOS   DE BIOF&Iacute;SICA DEL CBC</strong>)</strong></em></span><br>
+      <span class="titulograndegris Estilo16"><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>FLUIDOS<br>
+      </strong></span><br> </td>
+  <td class="bodytext" rowspan="3" height="74" width="6">&nbsp;</td>
+  <td width="87" height="74" rowspan="3" align="center" valign="top" class="bodytext"> 
+<p><img src="img_hdinam/cap31.jpg" alt="desesperado" width="85" height="110"></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p class="epigrafe">Para resolver este ejercicio te puede ayudar resolver previamente este otro, <a href="flu_NMS008.html" target="_blank">el 7</a>.</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p></td></tr>
+  <tr>
+    <td height="18" bgcolor="#FFFFFF" class="bodytext">&nbsp;</td>
+  </tr> 
+<tr> <td height="265" valign="top" class="bodytext"><table width="505" border="0">
+  <tr>
+    <td height="154" colspan="2" align="left" valign="top" class="bodytext"><p><strong class="bodytext">Ad. NMS 08)* </strong><strong>- A un paciente en un hospital se le efect&uacute;a una transfusi&oacute;n de sangre a   trav&eacute;s
+      de una vena del brazo. El m&eacute;dico quiere suministrarle 500 cm3   en 20 minutos y
+      utilizar una aguja de 40 mm de longitud y radio   interior 0,5 mm. La presi&oacute;n
+      intravenosa manom&eacute;trica del paciente es de   15 mm de Hg. La bolsa con sangre
+      se cuelga a cierta altura por   encima del brazo de modo que la presi&oacute;n manom&eacute;trica
+      a la entrada de   la aguja sea la adecuada.
+      La viscosidad de la sangre a (37&ordm;C) es de   2,1&nbsp; mili Pa.s. Determine:
+      a) la presi&oacute;n manom&eacute;trica a la   entrada de la aguja, 
+      b) la altura a la que hay que colocar la bolsa y, c) la velocidad media a la que entra la   sangre en la vena.</strong></p></td>
+    </tr>
+  <tr>
+    <td width="45%" height="155" align="left" valign="middle"><p class="bodytext">Bien, bien... que no cunda el p&aacute;nico... mientras el paciente se recupera nosotros hacemos la cuentas.</p>
+      <p class="bodytext">Pasemos en limpio algunos datos. La presi&oacute;n en la bolsa, <em><strong>P<sub>B</sub></strong></em> es la de la atm&oacute;sfera. La presi&oacute;n en la vena, <em><strong>P<sub>V</sub></strong></em>, es dato del ejercicio (adem&aacute;s todos los humanos, m&aacute;s o menos, tienen el mismo valor... aunque entres a la guardia en coma). La presi&oacute;n en la aguja, <em><strong>P<sub>A</sub></strong></em>, tiene que ser un poco mayor que en la vena para lograr vencer la resistencia hidrodin&aacute;mica y entrar al torrente sangu&iacute;neo, veremos cu&aacute;nto.</p></td>
+    <td width="55%" align="center" valign="middle"><p><img src="img_hdinam/flu_NMS08_1.gif" alt="Flu&iacute;dos - Ricardo Cabrera" width="260" height="175"></td>
+  </tr>
+</table>  
+  </td>
+  </tr>
+<tr>
+  <td align="left" valign="middle" class="bodytext"><p>Ac&aacute; tenemos una ensalada de unidades... as&iacute; que voy a ir pasando todo al sistema m&eacute;trico... es lo m&aacute;s as&eacute;ptico. </p>
+    <blockquote>
+      <p><em><strong>P<sub>B</sub></strong></em> <strong>=</strong> <em><strong>0 <span class="Estilo33">mmHg</span></strong></em> <strong>=</strong> <em><strong>0 <span class="Estilo33">Pa</span></strong></em></p>
+      <p><em><strong>P<sub>A</sub></strong></em> <strong>=</strong><em><strong> &#948;<sub>S</sub> . g . h = ?</strong></em></p>
+      <p><em><strong>P<sub>V</sub></strong></em> <strong>=</strong> <em><strong>15 <span class="Estilo33">mmHg</span></strong></em> <strong>=</strong> <em><strong>2.000 <span class="Estilo33">Pa</span></strong></em></p>
+    </blockquote>
+    <p>Como te puse ah&iacute;, la presi&oacute;n en <strong>A</strong> ser&aacute; igual a la densidad de la sangre que es casi igual a la del agua (<em><strong>&#948;<sub>S</sub></strong></em> <em><strong>= 1,06</strong></em> . <span class="Estilo33"><em><strong>10</strong></em></span><em><strong><strong><sup>3</sup></strong></strong></em> <em><strong><span class="Estilo33">kg/</span><span class="Estilo18"><span class="Estilo33">m</span><strong><sup>3</sup></strong></span></strong></em>), por la gravedad, por la altura a la que se coloque la bolsa... que ya la averiguaremos.</p>
+    <p>El tordo quiere que la sangre entre con un caudal (vamos a suponerlo constante) de: </p>
+    <blockquote>
+      <p><span class="Estilo38"><strong>Q =</strong> <strong> 500</strong></span><em><strong> <span class="Estilo18"><span class="Estilo33">cm</span><strong><sup>3</sup></strong></span>/20 <span class="Estilo33">min</span> = </strong></em><span class="Estilo38"><strong> 4,17 </strong></span><em><strong> <span class="Estilo18"><span class="Estilo33">. <em><strong>10<strong><sup>-7</sup></strong></strong></em> m</span><strong><sup>3</sup></strong></span></strong>/<strong><span class="Estilo33">s</span> </strong></em></p>
+    </blockquote>
+    <p>La resistencia hidrodin&aacute;mica que hay que vencer nos la da Poiseuille:</p>
+    <blockquote>
+      <p><em><strong>R = (8</strong></em>/<strong><span class="Estilo26">&pi;</span><em>)</em></strong> <em><strong>&eta;</strong></em> <em><strong>l / r<strong><sup>4</sup></strong></strong></em> <em><strong>= </strong></em></p>
+      <p><em><strong>R = </strong></em><em><strong> (8</strong></em>/<strong><span class="Estilo26">&pi;</span><em>)</em></strong><em> <strong>2,1</strong></em><strong>&nbsp; <em><strong><em><strong><span class="Estilo33">10</span><strong><sup>-3</sup></strong></strong></em></strong></em> <span class="Estilo41">Pa.s </span></strong><em><strong>. 40 <em><strong><em><strong><span class="Estilo33">10</span><strong><sup>-3</sup><span class="Estilo41">m</span></strong></strong></em></strong></em> / (0,5 <em><strong><em><strong><span class="Estilo33">10</span><strong><sup>-3</sup><span class="Estilo41">m</span></strong></strong></em></strong></em>)<strong><sup>4</sup></strong></strong></em> <strong>=</strong></p>
+      <p><em><strong>R = 3,424</strong></em> <strong><em><strong><em><strong><span class="Estilo33">10</span><strong><sup>9</sup></strong></strong></em></strong></em> <span class="Estilo41">Pa.s</span></strong>.<em><strong><em><strong><em><strong><strong><span class="Estilo41">m</span></strong><em><strong><em><strong><strong><sup>-3</sup></strong></strong></em></strong></em></strong></em></strong></em></strong></em></p>
+      </blockquote>
+    <p>La diferencia de presi&oacute;n que logra vencer esa resistencia produciendo el caudal que calculamos antes, nos lo da la Ley de Ohm:</p>
+    <blockquote>
+      <p><strong><em>&Delta;P = Q . R</em></strong></p>
+      <p><strong><em>&Delta;P =  </em><span class="Estilo38"><strong> 4,17 </strong></span><em><strong> <span class="Estilo18"><span class="Estilo33">. <em><strong>10<strong><sup>-7</sup></strong></strong></em> m</span><strong><sup>3</sup></strong></span></strong></em></strong><em></em><strong><em><strong><span class="Estilo33">s</span><em><strong><em><strong><em><strong><em><strong><em><strong><strong><sup>-1</sup></strong></strong></em></strong></em></strong></em></strong></em></strong></em> </strong> . <strong>3,424</strong></em> <strong><em><strong><em><strong><span class="Estilo33">10</span><strong><sup>9</sup></strong></strong></em></strong></em> <span class="Estilo41">Pa.s</span></strong>.<em><strong><em><strong><em><strong><strong><span class="Estilo41">m</span></strong><em><strong><em><strong><strong><sup>-3</sup></strong></strong></em></strong></em></strong></em></strong></em></strong></em></strong></p>
+      <p><strong><em>&Delta;P = </em><span class="Estilo38"><strong> 1.427 </strong></span><strong><em> </em><span class="Estilo41">Pa</span></strong></strong> <strong><em>= </em><span class="Estilo38"><strong> 1,427 </strong></span><strong><em> <strong><em><strong><em><strong><span class="Estilo33">10</span><strong><sup>3</sup></strong></strong></em></strong></em></strong> </em><span class="Estilo41">Pa</span></strong></strong></p>
+      </blockquote>
+    <p>esa diferencia de presi&oacute;n no es otra que la que entre la entrada y la salida de la aguja, o sea: <em><strong>P<sub>A</sub></strong></em><em><strong><strong> &ndash;</strong></strong></em> <em><strong>P<sub>V </sub></strong></em>.</p>
+    <blockquote>
+      <p><em><strong><em>&Delta;P =</em> P<sub>A</sub></strong></em><em><strong><strong> &ndash;</strong></strong></em> <em><strong>P<sub>V</sub></strong></em> <strong>=</strong> <strong><span class="Estilo38"><strong>1,427 </strong></span><strong><em> <strong><em><strong><em><strong><span class="Estilo33">10</span><strong><sup>3</sup></strong></strong></em></strong></em></strong> </em><span class="Estilo41">Pa</span></strong></strong></p>
+    </blockquote>
+    <p>O sea que la presi&oacute;n en la entrada de la aguja tiene que ser <strong><span class="Estilo38"><strong>1.427 </strong></span><strong><em> </em><span class="Estilo41">Pa</span></strong></strong> m&aacute;s alta que en la vena:</p>
+    <blockquote>
+      <p><em><strong>P<sub>A</sub></strong></em> <strong>= </strong><strong><span class="Estilo38"><strong>1,427 </strong></span><strong><em> <strong><em><strong><em><strong><span class="Estilo33">10</span><strong><sup>3</sup></strong></strong></em></strong></em></strong> </em><span class="Estilo41">Pa</span></strong></strong><strong><span class="Estilo38"><strong> + 2 </strong></span><strong><em> . <strong><em><strong><em><strong><span class="Estilo33">10</span><strong><sup>3</sup></strong></strong></em></strong></em></strong> </em><span class="Estilo41">Pa</span></strong></strong></p>
+    </blockquote></td>
+  <td class="bodytext" height="0">&nbsp;</td>
+  <td align="center" valign="top" class="bodytext"><p class="epigrafe Estilo39">&nbsp;</p>
+    <p class="epigrafe Estilo39"><br>
+      </p>
+    <p class="epigrafe Estilo39">Acordate que<br>
+      <strong><em>101.300 Pa</em></strong><br>
+      equivale a<br>
+      <strong><em>760 mmHg</em></strong><br>
+      y con esa igualdad hac&eacute;s reglas de 3 simple.</p></td>
+</tr>
+<tr>
+  <td height="55" align="center" valign="middle" bgcolor="#FFFFFF" class="epigrafe"><table width="507" height="36" border="0">
+    <tr>
+      <td width="35" height="28" valign="middle" class="bodytext">&nbsp;</td>
+      <td width="363" align="center" bordercolor="#FFFFFF" bgcolor="#CCCCCC" class="bodytext"><p><em><strong>P<sub>A</sub></strong></em> <strong>= <em>3</em><span class="Estilo38"><strong>,427 </strong></span><strong><em> <strong><em><strong><em><strong><span class="Estilo33">10</span><strong><sup>3</sup></strong></strong></em></strong></em></strong> </em><span class="Estilo41">Pa</span></strong></strong></p></td>
+      <td width="95" align="center" class="bodytext">&nbsp;</td>
+    </tr>
+  </table></td>
+  <td class="bodytext" height="55">&nbsp;</td>
+  <td class="bodytext" height="55" valign="middle">&nbsp;</td>
+</tr>
+<tr>
+  <td height="0" class="bodytext"><p>Para saber la altura a la que hay que colocar la bolsa...</p>
+    <blockquote>
+      <p><em><strong>h </strong></em> <strong>=</strong><em><strong> P<sub>A</sub> / &#948;<sub>S</sub> . g</strong></em></p>
+      <p><em><strong>h </strong></em> <strong>=</strong><em><strong> <em>3</em><span class="Estilo38"><strong>,427 </strong></span><strong><em> <strong><em><strong><em><strong><span class="Estilo33">10</span><strong><sup>3</sup></strong></strong></em></strong></em></strong> </em><span class="Estilo41">Pa</span></strong> / 1,06</strong></em> . <span class="Estilo33"><em><strong>10</strong></em></span><em><strong><strong><sup>3</sup></strong></strong></em> <em><strong><span class="Estilo33">kg/</span><span class="Estilo18"><span class="Estilo33">m</span><strong><sup>3</sup></strong></span></strong></em><em><strong>. 10 </strong></em><em><strong><span class="Estilo33">m/</span><span class="Estilo18"><span class="Estilo33">s</span><strong><sup>2</sup></strong></span></strong></em></p>
+    </blockquote></td>
+  <td class="bodytext" height="85">&nbsp;</td>
+  <td class="bodytext" height="85" valign="middle">&nbsp;</td>
+</tr>
+<tr>
+  <td height="51" class="bodytext"><table width="507" height="36" border="0">
+    <tr>
+      <td width="35" height="28" valign="middle" class="bodytext">&nbsp;</td>
+      <td width="363" align="center" bordercolor="#FFFFFF" bgcolor="#CCCCCC" class="bodytext"><p><em><strong>h </strong></em> <strong>=</strong><em><strong> <em>0</em><span class="Estilo38"><strong>,32</strong></span></strong></em><em><strong> </strong></em><em><strong><span class="Estilo33">m</span></strong></em></p></td>
+      <td width="95" align="center" class="bodytext">&nbsp;</td>
+    </tr>
+  </table></td>
+  <td class="bodytext" height="51">&nbsp;</td>
+  <td class="bodytext" height="51" valign="middle">&nbsp;</td>
+</tr>
+<tr>
+  <td class="bodytext"><p>La velocidad con que entra la sangre la calculamos con la relaci&oacute;n: <em><strong>Q = S v</strong></em> (a veces llamada <em>continuidad</em>).</p>
+    <blockquote>
+      <p><em><strong>v = Q/S = Q/</strong></em><strong><span class="Estilo26">&pi;</span></strong><em><strong> r<strong><sup>2</sup></strong></strong></em></p>
+      <p><em><strong>v =  </strong></em><span class="Estilo38"><strong> 4,17 </strong></span><em><strong> <span class="Estilo18"><span class="Estilo33">. <em><strong>10<strong><sup>-7</sup></strong></strong></em> m</span><strong><sup>3</sup></strong></span></strong>/<strong><span class="Estilo33">s</span> /</strong></em><strong><span class="Estilo26"> &pi;</span></strong><strong><em> (<strong>0,5 <em><strong><em><strong><span class="Estilo33">10</span><strong><sup>-3</sup><span class="Estilo41">m</span></strong></strong></em></strong></em></strong>)<strong><strong><sup>2</sup></strong></strong></em></strong></p>
+    </blockquote></td>
+  <td class="bodytext" height="113">&nbsp;</td>
+  <td class="bodytext" height="113" valign="middle">&nbsp;</td>
+</tr>
+<tr>
+  <td height="56" class="bodytext"><table width="507" height="36" border="0">
+    <tr>
+      <td width="35" height="28" valign="middle" class="bodytext">&nbsp;</td>
+      <td width="363" align="center" bordercolor="#FFFFFF" bgcolor="#CCCCCC" class="bodytext"><p><em><strong>v </strong></em> <strong>=</strong><em><strong> <em>0</em><span class="Estilo38"><strong>,53</strong></span></strong></em><em><strong> </strong></em><em><strong><span class="Estilo33">m</span></strong>/<strong><span class="Estilo33">s</span></strong></em></p></td>
+      <td width="95" align="center" class="bodytext">&nbsp;</td>
+    </tr>
+  </table>    </td>
+  <td class="bodytext">&nbsp;</td>
+  <td valign="middle" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="49" class="bodytext">Y reci&eacute;n despu&eacute;s de todo esto te acord&aacute;s que el chab&oacute;n era AB rh(-) y te olvidaste de dec&iacute;rselo a la enfermera.</td>
+  <td class="bodytext">&nbsp;</td>
+  <td valign="middle" class="bodytext">&nbsp;</td>
+</tr>
+
+<tr>
+  <td height="41" align="center" valign="middle" bgcolor="#FFFF66" class="bodytext"><table width="91%" height="22" border="0">
+    <tr>
+      <td class="epigrafe">*Ejercicio tomado en el examen parcial.</td>
+    </tr>
+  </table>  </td>
+  <td width="6" class="bodytext">&nbsp;</td>
+  <td width="87" class="bodytext">&nbsp;</td>
+</tr>
+
+
+<tr>
+  <td height="63" align="left" class="bodytext"><p><strong>DESAF&Iacute;O</strong>: &iquest;Qu&eacute; valores cambiar&iacute;an si la aguja tuviese un di&aacute;metro doble?</p>    </td>
+  <td class="bodytext">&nbsp;</td>
+  <td width="87" rowspan="2" valign="bottom" class="bodytext"><p><img src="img_hdinam/ric_081.jpg" alt="Flu&iacute;dos - Ricardo Cabrera" width="85" height="109"></td>
+</tr>
+
+
+<tr> <td height="46" align="center" valign="middle" bgcolor="#CCCCCC" class="bodytext"><table width="92%" border="0">
+  <tr>
+    <td class="epigrafe">Algunos derechos reservados. 
+      Se permite su reproducci&oacute;n citando la fuente. &Uacute;ltima actualizaci&oacute;n may-10. Buenos Aires, Argentina. </td>
+  </tr>
+</table>  </td>
+  <td class="bodytext" width="6">&nbsp;</td>
+  </tr> 
+<tr> <td height="18" class="bodytext">&nbsp;</td><td class="bodytext" width="6">&nbsp;</td>
+<td class="bodytext" width="87">&nbsp;</td>
+</tr> 
+</table></td></tr> </table><p><img src="img_hdinam/transparente.gif" width="10" height="20"></td></tr> 
+<tr> <td class="bodytext"><p><img src="img_hdinam/transparente.gif" width="600" height="20"></td></tr> 
+</table>
+</body>
+</html>

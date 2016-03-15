@@ -1,0 +1,189 @@
+<html>
+<head>
+<title>MECANICA DE FLUIDOS, NMS041, fisica online, ejercicios resueltos</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="keywords" content="problemas resueltos, ejercicios resueltos, cbc, fisica, biofisica, fluidos, liquidos, gases, bernoulli, poiseuille, viscosidad, ideales, viscosos, humedad, difusion, osmosis, nomesalen, no me salen, ricardo cabrera" />
+<meta name="description" content="Ejercicios y problemas resueltos, y apuntes teóricos de Fluidos, mecanismos de transporte de fluidos" />
+<link rel="stylesheet" href="win_ie.css">
+<style type="text/css">
+<!--
+.style1 {
+	color: #3F6386;
+	font-weight: bold;
+}
+.Estilo3 {color: #3F6386}
+.Estilo18 {color: #FF0000}
+-->
+</style>
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000" alink="#000000" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<table align=center width="600" border="0" cellspacing="0" cellpadding="0"> 
+  <tr bgcolor="#000000" align="right"> 
+<td><img src="img_hstat/nombre5.gif" width="369" height="71"></td>
+  </tr> <tr bgcolor="#BB0000" valign="middle" align="left"> 
+<td class="bodytext" height="20"><TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+  <TR ALIGN="center" CLASS="menuitem">
+    <TD WIDTH="44" height="19" CLASS="menuitem"><A HREF="../../index.html" CLASS="menuitem">&nbsp;<B>home</B>&nbsp;</A></TD>
+    <TD WIDTH="5" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="113" CLASS="menuitem"><strong><a href="index_hstat.html" class="menuitem">m&aacute;s de hidrostática</a> </strong></TD>
+    <TD width="10" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="125" CLASS="menuitem"><strong><a href="../../intro_NMS.html" class="menuitem">otros temas de F&iacute;sica</a></strong></TD>
+    <TD width="10" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="173" CLASS="menuitem"><strong><a href="../../lista_ciruela.html" class="menuitem">lecciones del maestro Ciruela </a></strong></TD>
+    <TD width="9" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="68" CLASS="menuitem"><strong><a href="../../lista_tonterias.html" class="menuitem">tonter&iacute;as</a></strong></TD>
+    <TD WIDTH="8" CLASS="menuitem"><a href="../energia/index_energia.html" class="menuitem"></a><FONT COLOR="#000000">|</FONT></TD>
+    <TD WIDTH="40" CLASS="menuitem">&nbsp;<B><FONT FACE="Arial, Helvetica, sans-serif"><A HREF="mailto: ricuti@qi.fcen.uba.ar" CLASS="menuitem">@</A></FONT><A HREF="../../index.html" CLASS="menuitem"></A></B>&nbsp;</TD>
+  </TR>
+</TABLE></td></tr> <tr> <td class="bodytext" height="8"><img src="img_hstat/transparente.gif" width="600" height="8"></td>
+</tr> 
+<tr align="center"> <td height="662"> <table width="600" border="0" cellspacing="0" cellpadding="0"> 
+<tr class="bodytext"> <td valign="top" width="594" height="642"> 
+<table width="600" border="0" cellspacing="0" cellpadding="0"> <tr> 
+  <td height="74" colspan="2" valign="middle" bgcolor="#D7FFFF" class="bodytext"><span class="bodytext"><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>NO ME SALEN<br>
+</strong></span><span class="Estilo3"><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em></strong></span><span class="titulograndegris"><strong>EJERCICIOS<strong> RESUELTOS   DE F&Iacute;SICA DEL CBC</strong></strong></span><br>
+      <span class="titulochicogris"><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>FLUIDOS</strong></span></td>
+  <td class="bodytext" rowspan="3" height="74" width="7">&nbsp;</td>
+  <td class="bodytext" height="74" rowspan="3" valign="top" width="86"> 
+<p><img src="img_hstat/cap57.jpg" alt="desesperado" width="85" height="112"></p></td></tr>
+  <tr>
+    <td height="18" colspan="2" bgcolor="#FFFFFF" class="bodytext">&nbsp;</td>
+  </tr> 
+<tr> 
+  <td height="49" colspan="2" class="bodytext"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td height="42" colspan="2" valign="top" class="bodytext"><p><strong><em>Adicional NMS</em></strong> <strong>21* - La figura muestra la presi&oacute;n (P) en dos recipientes (A y B) de secciones uniformes que contienen l&iacute;quidos en equilibrio, en funci&oacute;n de la altura (h) medida desde el fondo. <br>
+      </strong></p>        </td>
+      </tr>
+    <tr>
+      <td width="56%" height="129" valign="top" class="bodytext"><strong>Se puede asegurar que: <br>
+        a) A contiene m&aacute;s volumen que B <br>
+b) A tiene menor secci&oacute;n que B <br>
+c) A contiene m&aacute;s peso de l&iacute;quido que B <br>
+d) la densidad del l&iacute;quido A es menor que la del B <br>
+e) las densidades de ambos l&iacute;quidos son iguales <br>
+f) el l&iacute;quido A es m&aacute;s denso que el B</strong></td>
+      <td width="44%" align="center" valign="middle" class="bodytext"><img src="img_hstat/flu_NMS41_1.gif" width="180" height="125"></td>
+    </tr>
+    
+    
+  </table>    </td>
+</tr>
+<tr>
+  <td height="14" colspan="2" align="center" class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+  <td align="center" valign="middle" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="32" colspan="2" align="center" bgcolor="#FFFF99" class="bodytext"><table width="92%" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td class="epigrafe">* Este ejercicio form&oacute; parte del 2do. examen parcial  de F&iacute;sica del CBC tomado el 17 de junio de 2014. Para ver el tema de examen completo hacer click <a href="../../Docencia/03_2P_1C_2014_1.pdf" target="_blank">ac&aacute;</a>.</td>
+    </tr>
+  </table></td>
+  <td class="bodytext">&nbsp;</td>
+  <td align="center" valign="middle" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="14" colspan="2" align="center" class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+  <td align="center" valign="middle" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="14" colspan="2" class="bodytext"><p>Obviamente en este ejercicio hay que poner todo el esfuerzo en la interpretaci&oacute;n del gr&aacute;fico. A primera vista parece un engendro diab&oacute;lico... pero no lo es. Prest&aacute; atenci&oacute;n.</p>
+    <p>Para comenzar esa interpretaci&oacute;n te propongo analiza uno s&oacute;lo de los gr&aacute;ficos (son iguales cualitativamente).</p></td>
+  <td width="7" class="bodytext">&nbsp;</td>
+  <td width="86" align="center" valign="middle" class="bodytext"><p class="epigrafe Estilo18">&nbsp;</p>    </td>
+</tr>
+<tr>
+  <td width="283" height="168" class="bodytext"><p>Destaqu&eacute; dos puntos. En el fondo la presi&oacute;n en ese l&iacute;quido es la m&aacute;s alta. A medida que vamos ascendiendo (que va aumentando la altura, o si vos quer&eacute;s: disminuyendo la profundidad) la presi&oacute;n va disminuyendo... hasta llegar a la superficie.</p>
+    <p>Si la escala de presiones fuese relativa, el valor de la presi&oacute;n al llegar a la superficie deber&iacute;a ser cero (la curva deber&iacute;a intersectar el eje de la altura). Pero se ve que el autor del gr&aacute;fico eligi&oacute; la escala absoluta. Entonces ah&iacute; la presi&oacute;n debe valer <em><strong>1 <span class="epigrafe">atm</span></strong></em>.</p></td>
+  <td width="224" align="center" valign="middle" class="bodytext"><img src="img_hstat/flu_NMS41_2.gif" width="180" height="122"></td>
+  <td class="bodytext">&nbsp;</td>
+  <td align="center" valign="middle" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="81" colspan="2" class="bodytext"><p>Si seguimos ascendiendo (ahora ya fuera del l&iacute;quido) la presi&oacute;n se mantiene constante ya que en el aire hay que ascender mucho, mucho, para detectar cambios de presi&oacute;n.</p>
+    <p>Ahora ya podemos comparar los dos gr&aacute;ficos:</p></td>
+  <td class="bodytext">&nbsp;</td>
+  <td align="center" valign="middle" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="171" class="bodytext"><p>Medidos desde la misma posici&oacute;n, se ve que la superficie del l&iacute;quido <strong>A</strong> est&aacute; m&aacute;s arriba que la del l&iacute;quido <strong>B</strong> (<strong><em><strong><em><strong><strong><em><strong><em><strong><em><strong><strong><em><strong><strong>h<em><strong><em><strong><strong><em><strong><strong><em><strong><em><strong><strong><em><strong><em><strong><em><strong><strong><em><strong><em><strong><em><strong><strong><em><strong><strong><sub>A</sub></strong></strong></em></strong></strong></em></strong></em></strong></em></strong></strong></em></strong></em></strong></em></strong></strong></em></strong></em></strong></strong></em></strong></strong></em></strong></em></strong></strong></em></strong></strong></em></strong></em></strong></em></strong></strong></em></strong> &gt; <strong><em><strong><strong><em><strong><em><strong><em><strong><strong><em><strong><strong>h<em><strong><em><strong><strong><em><strong><strong><em><strong><em><strong><strong><em><strong><em><strong><em><strong><strong><em><strong><em><strong><em><strong><strong><em><strong><strong><sub>B</sub></strong></strong></em></strong></strong></em></strong></em></strong></em></strong></strong></em></strong></em></strong></em></strong></strong></em></strong></em></strong></strong></em></strong></strong></em></strong></em></strong></strong></em></strong></strong></em></strong></em></strong></em></strong></strong></em></strong></em></strong>). O sea, que la primera conclusi&oacute;n que podemos sacar es que la columna de l&iacute;quido de <strong>A</strong> es mayor que la columna de l&iacute;quido de <strong>B</strong>.</p>
+    <p>Esta conclusi&oacute;n se corrobora comparando las presiones en el fondo de ambos l&iacute;quidos. Si la columna de l&iacute;quido de <strong>A</strong> es mayor que la de <strong>B</strong>, la presi&oacute;n en el fondo en <strong>A</strong> es mayor que la presi&oacute;n en el fondo en <strong>B </strong>(<strong><em><strong><em><strong><strong><em><strong><em><strong><em><strong><strong><em><strong><strong>P<em><strong><em><strong><strong><em><strong><strong><em><strong><em><strong><strong><em><strong><em><strong><em><strong><strong><em><strong><em><strong><em><strong><strong><em><strong><strong><sub>fA</sub></strong></strong></em></strong></strong></em></strong></em></strong></em></strong></strong></em></strong></em></strong></em></strong></strong></em></strong></em></strong></strong></em></strong></strong></em></strong></em></strong></strong></em></strong></strong></em></strong></em></strong></em></strong></strong></em></strong> &gt; <strong><em><strong><strong><em><strong><em><strong><em><strong><strong><em><strong><strong>P<em><strong><em><strong><strong><em><strong><strong><em><strong><em><strong><strong><em><strong><em><strong><em><strong><strong><em><strong><em><strong><em><strong><strong><em><strong><strong><sub>fB</sub></strong></strong></em></strong></strong></em></strong></em></strong></em></strong></strong></em></strong></em></strong></em></strong></strong></em></strong></em></strong></strong></em></strong></strong></em></strong></em></strong></strong></em></strong></strong></em></strong></em></strong></em></strong></strong></em></strong></em></strong>). Eso ocurre, s&iacute;, pero tambi&eacute;n es necesario aclarar que eso ocurre cuando las densidades de los l&iacute;quidos son iguales.</p></td>
+  <td height="171" align="center" valign="middle" class="bodytext"><img src="img_hstat/flu_NMS41_3.gif" width="180" height="144"></td>
+  <td class="bodytext">&nbsp;</td>
+  <td align="center" valign="middle" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="41" colspan="2" class="bodytext">Eso nos lleva al siguiente razonamiento. La pendiente de las curvas representa a la densidad de cada l&iacute;quido:</td>
+  <td class="bodytext">&nbsp;</td>
+  <td align="center" valign="middle" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="41" class="bodytext"><p>Ac&aacute; vemos dos l&iacute;quidos (rojo y verde): en una misma variaci&oacute;n de altura, el rojo disminuye mucho su presi&oacute;n y el verde disminuye mucho menos. </p>
+    <p>Eso es justamente lo que describe el principio general de la hidrost&aacute;tica:</p>
+    <blockquote>
+      <p><em><strong>&Delta;Pr = <em><strong>&mdash;</strong></em> &#948; . g . &Delta;h</strong></em></p>
+      </blockquote>
+    <p>Luego, si los l&iacute;quidos fuesen id&eacute;nticos o si tienen la misma densidad, la inclinaci&oacute;n de las curvas deben ser iguales, o sea, sus gr&aacute;ficas paralelas.</p></td>
+  <td height="41" align="center" valign="middle" class="bodytext"><img src="img_hstat/flu_NMS41_4.gif" width="180" height="133"></td>
+  <td class="bodytext">&nbsp;</td>
+  <td align="center" valign="middle" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="51" colspan="2" class="bodytext">Con todo el an&aacute;lisis que hicimos ya estamos en condiciones de elegir la &uacute;nica proposici&oacute;n correcta:</td>
+  <td class="bodytext">&nbsp;</td>
+  <td align="center" valign="middle" class="bodytext">&nbsp;</td>
+</tr>  
+
+<tr>
+  <td height="52" colspan="2" align="center" class="bodytext"><table width="102%" border="0">
+    <tr>
+      <td width="9%" height="46" align="center" bgcolor="#FFFFFF"><p class="bodytext">&nbsp;</p></td>
+      <td width="52%" align="center" bgcolor="#CCCCCC" class="bodytext"><strong>las densidades de ambos<br>
+        l&iacute;quidos son iguales </strong></td>
+      <td width="39%" align="center" bgcolor="#FFFFFF" class="epigrafe">opci&oacute;n e)</td>
+    </tr>
+  </table></td>
+  <td class="bodytext">&nbsp;</td>
+  <td align="center" class="epigrafe Estilo18"><p>&nbsp;</p>    </td>
+</tr>
+<tr>
+  <td height="312" colspan="2" align="left" class="bodytext"><p>De todos modos analic&eacute;moslas a todas... no dejan de ser buenos distractores.</p>
+    <p><strong>a) A contiene m&aacute;s volumen que B</strong>. Macanas... sabemos que <strong>A</strong> es m&aacute;s profundo que <strong>B</strong>, pero el recipiente <strong>A</strong> podr&iacute;a ser un tubito delgado y el <strong>B</strong> un tacho enorme. Los recipientes tienen secci&oacute;n uniforme, pero no tienen por qu&eacute; ser iguales entre s&iacute;.</p>
+    <p><strong> b) A tiene menor secci&oacute;n que B.</strong> Pamplinas. Las secciones de los recipientes no tienen ninguna afectaci&oacute;n sobre las presiones en el seno de los l&iacute;quidos. </p>
+    <p><strong> c) A contiene m&aacute;s peso de l&iacute;quido que B. </strong>Maligna. El peso depende del volumen... ya lo descartamos.</p>
+    <p> Y las &uacute;ltimas tres son consideraciones sobre la densidad, y la correcta invalida a las otras dos. Cart&oacute;n lleno.</p>
+    <p>Cuando uno logra finalmente entender e interpretar cabalmente un gr&aacute;fico le resulta extra&ntilde;o que antes le pareciera confuso, enigm&aacute;tico o cr&iacute;ptico. Es casi parad&oacute;jico. Lo que eso nos dice es que nunca hay que renunciar a hacer el esfuerzo de entenderlos, hablan un idioma muy sencillo y no podemos arrugar. Siempre est&aacute;n a nuestro alcance.</p></td>
+  <td class="bodytext">&nbsp;</td>
+  <td align="center" class="epigrafe"><p class="Estilo18">&nbsp;</p></td>
+</tr>
+
+
+
+
+<tr>
+  <td height="53" colspan="2" bgcolor="#FFFFFF" class="bodytext"><strong>DESAF&Iacute;O</strong>: Hacer un esquema de los dos recipientes.</td>
+  <td class="bodytext">&nbsp;</td>
+  <td width="86" rowspan="2" valign="bottom" class="bodytext"><strong><em><sub><img src="img_hstat/ricuti.jpg" alt="Flu&iacute;dos - Ricardo Cabrera" width="85" height="116"></sub></em></strong></td>
+</tr>
+
+<tr> <td height="45" colspan="2" align="center" valign="middle" bgcolor="#CCCCCC" class="bodytext"><table width="92%" border="0">
+  <tr>
+    <td class="epigrafe">Algunos derechos reservados. 
+  Se permite su reproducci&oacute;n citando la fuente leg&iacute;tima, o sea, este sitio. &Uacute;ltima actualizaci&oacute;n 
+  jun-14. Buenos Aires, Argentina. </td>
+  </tr>
+</table>  </td>
+  <td class="bodytext" width="7">&nbsp;</td>
+  </tr> 
+<tr> <td height="18" colspan="2" class="bodytext">&nbsp;</td><td class="bodytext" width="7">&nbsp;</td>
+<td class="bodytext" width="86">&nbsp;</td>
+</tr> 
+</table></td></tr> </table>
+<img src="img_hstat/transparente.gif" width="10" height="20"></td></tr> 
+<tr> <td class="bodytext"><img src="img_hstat/transparente.gif" width="600" height="20"></td></tr> 
+</table>
+</body>
+</html>

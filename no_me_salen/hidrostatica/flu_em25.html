@@ -1,0 +1,121 @@
+<html>
+<head>
+<title>MECANICA DE FLUIDOS, EM25, fisica online, ejercicios resueltos</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="keywords" content="problemas resueltos, ejercicios resueltos, cbc, fisica, biofisica, fluidos, liquidos, gases, bernoulli, poiseuille, viscosidad, ideales, viscosos, humedad, difusion, osmosis, nomesalen, no me salen, ricardo cabrera" />
+<meta name="description" content="Ejercicios y problemas resueltos, y apuntes teóricos de Fluidos, mecanismos de transporte de fluidos" />
+<link rel="stylesheet" href="win_ie.css">
+<style type="text/css">
+<!--
+.style1 {
+	color: #3F6386;
+	font-weight: bold;
+}
+.Estilo3 {color: #3F6386}
+.Estilo16 {font-size: 16px}
+.Estilo32 {font-weight: bold; font-size: 11px;}
+.Estilo33 {font-size: 10px}
+-->
+</style>
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000" alink="#000000" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<table align=center width="600" border="0" cellspacing="0" cellpadding="0"> 
+  <tr bgcolor="#000000" align="right"> 
+<td><img src="img_hstat/nombre5.gif" width="369" height="71"></td></tr> <tr bgcolor="#BB0000" valign="middle" align="left"> 
+<td class="bodytext" height="20"><TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+  <TR ALIGN="center" CLASS="menuitem">
+    <TD WIDTH="44" height="19" CLASS="menuitem"><A HREF="../../index.html" CLASS="menuitem">&nbsp;<B>home</B>&nbsp;</A></TD>
+    <TD WIDTH="5" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="113" CLASS="menuitem"><strong><a href="index_hstat.html" class="menuitem">m&aacute;s de hidrostática</a> </strong></TD>
+    <TD width="10" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="125" CLASS="menuitem"><strong><a href="../../intro_NMS.html" class="menuitem">otros temas de F&iacute;sica</a></strong></TD>
+    <TD width="10" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="173" CLASS="menuitem"><strong><a href="../../lista_ciruela.html" class="menuitem">lecciones del maestro Ciruela </a></strong></TD>
+    <TD width="9" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="68" CLASS="menuitem"><strong><a href="../../lista_tonterias.html" class="menuitem">tonter&iacute;as</a></strong></TD>
+    <TD WIDTH="8" CLASS="menuitem"><a href="../energia/index_energia.html" class="menuitem"></a><FONT COLOR="#000000">|</FONT></TD>
+    <TD WIDTH="40" CLASS="menuitem">&nbsp;<B><FONT FACE="Arial, Helvetica, sans-serif"><A HREF="mailto: ricuti@qi.fcen.uba.ar" CLASS="menuitem">@</A></FONT><A HREF="../../index.html" CLASS="menuitem"></A></B>&nbsp;</TD>
+  </TR>
+</TABLE></td></tr> <tr> <td class="bodytext" height="19"><img src="img_hstat/transparente.gif" width="600" height="20"></td></tr> 
+<tr align="center"> <td height="578"> <table width="600" border="0" cellspacing="0" cellpadding="0"> 
+<tr class="bodytext"> <td colspan="2" valign="top" height="558"> <img src="img_hstat/transparente.gif" width="1" height="1"></td>
+<td valign="top" width="594" height="558"> 
+<table width="601" border="0" cellspacing="0" cellpadding="0"> 
+  <tr> 
+  <td height="74" colspan="2" bgcolor="#D7FFFF" class="bodytext"><span class="bodytext"><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>NO ME SALEN<br>
+</strong></span><span class="Estilo3"><em class="bodytext "><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>(<strong>PROBLEMAS RESUELTOS   DE BIOF&Iacute;SICA DEL CBC</strong>)</strong></em></span><br>
+      <span class="titulograndegris Estilo16"><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>FLUIDOS<br>
+      </strong></span><br> </td>
+  <td class="bodytext" rowspan="3" height="74" width="10">&nbsp;</td>
+  <td class="bodytext" height="74" rowspan="3" valign="top" width="85"> 
+<p><img src="img_hstat/cap13.jpg" alt="desesperado" width="85" height="85"></p></td></tr>
+  <tr>
+    <td height="18" colspan="2" bgcolor="#FFFFFF" class="bodytext">&nbsp;</td>
+  </tr> 
+<tr> <td width="74" height="98" valign="top" class="bodytext"><P><img src="img_hstat/BIOFISICA.jpg" width="65" height="90"></P>
+    </td>
+  <td width="438" class="bodytext"><table width="100%" border="0">
+    <tr>
+      <td height="86" valign="top" class="bodytext"><span class="Estilo32">EM25) A presi&oacute;n atmosf&eacute;rica el contenido de O2 en el aire es de 21% aproximadamente. Si se
+        respira ese aire, la presi&oacute;n parcial de ox&iacute;geno en el aire que ingresa por las fosas<br>
+        nasales es alrededor de:<br>
+        <em><em>&#160; &#160;&#160; &#160;</em></em><em><em>&#160; </em></em>a) 1 atm <em><em>&#160; &#160;&#160; &#160;<em>&#160; &#160;</em></em></em><em><em>&#160; </em></em>b) 2,1 atm <em><em>&#160; &#160;&#160; &#160;</em></em><em><em>&#160; </em></em>c) 0,1 atm <br>
+        <em><em>&#160; &#160;&#160; &#160;</em></em><em><em>&#160; </em></em>        d) 0,2 atm <em><em>&#160; &#160;&#160; &#160;</em></em><em><em>&#160; </em></em>e) 0,5 atm <em><em>&#160; &#160;&#160; &#160;</em></em><em><em>&#160; </em></em>f) 1,5 atm
+      </span></td>
+      </tr>
+    
+  </table>  </td>
+</tr>
+<tr>
+  <td height="162" colspan="2" class="bodytext"><p>Claro, el 21% ese del enunciado... no te aclaran si se trata de un porcentual en masa, en moles, en presi&oacute;n parcial... Por suerte tambi&eacute;n dice <em>aproximadamente</em>, lo cual nos habilita a interpretarlo como querramos, ya que de cualquiera de las formas posibles el valor correcto se acerca mucho a ese 21. </p>
+    <p>Si admitimos que el ox&iacute;geno ejerce el 21% de la presi&oacute;n total, su presi&oacute;n parcial ser&aacute;:</p>
+    <blockquote>
+      <p><em><strong>PP<sub>O2  </sub> = 0,21. P<sub>TOT</sub> </strong></em></p>
+      <p><em><strong>PP<sub>O2 </sub> = 0,21. 1 <span class="Estilo33">atm</span> </strong></em></p>
+    </blockquote></td>
+  <td class="bodytext" height="162">&nbsp;</td>
+  <td class="bodytext" height="162" valign="middle"><img src="img_hstat/pulmon.jpg" alt="Flu&iacute;dos - Ricardo Cabrera" width="85" height="140"></td>
+</tr>
+<tr>
+  <td height="66" colspan="2" align="center" class="bodytext"><table width="104%" height="45" border="0">
+    <tr>
+      <td height="31" valign="middle" bgcolor="#CCCCCC"><p class="bodytext"><span class="Estilo32"><em><strong><strong>&#160;&#160; &#160;&#160; &#160;&#160; &#160;</strong>PP<sub>O2 </sub> = 0,21 <span class="Estilo33">atm</span> </strong></em>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span>respuesta <strong>d)</strong></p></td>
+    </tr>
+  </table></td>
+  <td class="bodytext" height="66">&nbsp;</td>
+  <td class="bodytext" height="66" valign="top">&nbsp;</td>
+</tr>  
+<tr> 
+  <td colspan="2" align="left" class="bodytext">&nbsp;</td>
+  <td width="10" class="bodytext">&nbsp;</td>
+  <td width="85" class="bodytext">&nbsp;</td>
+</tr>
+
+<tr>
+  <td height="32" colspan="2" align="left" class="bodytext"><p><strong>DESAF&Iacute;O</strong>: &iquest;Cu&aacute;nto valdr&iacute;a la presi&oacute;n parcial del ox&iacute;geno si la presi&oacute;n total fuese de 4 atm&oacute;sferas? </p>    </td>
+  <td class="bodytext">&nbsp;</td>
+  <td width="85" rowspan="3" valign="bottom" class="bodytext"><img src="img_hstat/ric_perf.jpg" alt="Flu&iacute;dos - Ricardo Cabrera" width="85" height="104"></td>
+</tr>
+
+<tr>
+  <td height="18" colspan="2" bgcolor="#FFFFFF" class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+  </tr>
+
+<tr> <td colspan="2" align="center" valign="middle" bgcolor="#CCCCCC" class="bodytext"><table width="91%" border="0">
+  <tr>
+    <td height="33" class="epigrafe">Algunos derechos reservados. 
+      Se permite su reproducci&oacute;n citando la fuente. Quien violase esta condici&oacute;n, ser&aacute; acusado de violaci&oacute;n y tentativa de homicidio en concurso real o virtual, con costas y accesorias. &Uacute;ltima actualizaci&oacute;n sep-08. Buenos Aires, Argentina.</td>
+  </tr>
+</table>  </td>
+  <td class="bodytext" width="10">&nbsp;</td>
+  </tr> 
+<tr> <td height="18" colspan="2" class="bodytext">&nbsp;</td><td class="bodytext" width="10">&nbsp;</td>
+<td class="bodytext" width="85">&nbsp;</td>
+</tr> 
+</table></td></tr> </table><img src="img_hstat/transparente.gif" width="10" height="20"></td></tr> 
+<tr> <td class="bodytext"><img src="img_hstat/transparente.gif" width="600" height="20"></td></tr> 
+</table>
+</body>
+</html>

@@ -1,0 +1,190 @@
+<html>
+<head>
+<title>MECANICA DE FLUIDOS, F025, fisica online, ejercicios resueltos</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="keywords" content="problemas resueltos, ejercicios resueltos, cbc, fisica, biofisica, fluidos, liquidos, gases, bernoulli, poiseuille, viscosidad, ideales, viscosos, humedad, difusion, osmosis, nomesalen, no me salen, ricardo cabrera" />
+<meta name="description" content="Ejercicios y problemas resueltos, y apuntes teóricos de Fluidos, mecanismos de transporte de fluidos" />
+<link rel="stylesheet" href="win_ie.css">
+<style type="text/css">
+<!--
+.style1 {
+	color: #3F6386;
+	font-weight: bold;
+}
+.Estilo3 {color: #3F6386}
+.Estilo16 {font-size: 16px}
+.Estilo17 {font-size: 10px}
+.Estilo18 {color: #FF0000}
+-->
+</style>
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000" alink="#000000" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<table align=center width="600" border="0" cellspacing="0" cellpadding="0"> 
+  <tr bgcolor="#000000" align="right"> 
+<td><img src="img_hdinam/nombre5.gif" width="369" height="71" /></td></tr> <tr bgcolor="#BB0000" valign="middle" align="left"> 
+<td class="bodytext" height="20"><TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+  <TR ALIGN="center" CLASS="menuitem">
+    <TD WIDTH="43" height="19" CLASS="menuitem"><A HREF="../../index.html" CLASS="menuitem">&nbsp;<B>home</B>&nbsp;</A></TD>
+    <TD WIDTH="5" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="119" CLASS="menuitem"><strong><a href="index_hdinam.html" class="menuitem">más de hidrodinámica </a> </strong></TD>
+    <TD width="9" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="127" CLASS="menuitem"><strong><a href="../../intro_NMS.html" class="menuitem">otros temas de F&iacute;sica</a></strong></TD>
+    <TD width="10" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="160" CLASS="menuitem"><strong><a href="../../lista_ciruela.html" class="menuitem">lecciones del maestro Ciruela </a></strong></TD>
+    <TD width="8" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="67" CLASS="menuitem"><strong><a href="../../lista_tonterias.html" class="menuitem">tonter&iacute;as</a></strong></TD>
+    <TD WIDTH="7" CLASS="menuitem"><a href="../energia/index_energia.html" class="menuitem"></a><FONT COLOR="#000000">|</FONT></TD>
+    <TD WIDTH="48" CLASS="menuitem">&nbsp;<B><FONT FACE="Arial, Helvetica, sans-serif"><A HREF="mailto: ricuti@qi.fcen.uba.ar" CLASS="menuitem">@</A></FONT><A HREF="../../index.html" CLASS="menuitem"></A></B>&nbsp;</TD>
+  </TR>
+</TABLE></td></tr> <tr> <td class="bodytext" height="19"><p><img src="img_hdinam/transparente.gif" width="600" height="20" /></td></tr> 
+<tr align="center"> <td height="1042"> <table width="600" border="0" cellspacing="0" cellpadding="0"> 
+<tr class="bodytext"> <td colspan="2" valign="top" height="886"> <p><img src="img_hdinam/transparente.gif" width="1" height="1" /></td>
+<td valign="top" width="594" height="886"> 
+<table width="589" border="0" cellspacing="0" cellpadding="0"> <tr> 
+  <td height="74" colspan="2" bgcolor="#D7FFFF" class="bodytext"><span class="bodytext"><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>NO ME SALEN<br />
+</strong></span><span class="Estilo3"><em class="bodytext "><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>(<strong>PROBLEMAS RESUELTOS   DE BIOF&Iacute;SICA DEL CBC</strong>)</strong></em></span><br />
+      <span class="titulograndegris Estilo16"><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>FLUIDOS<br />
+      </strong></span><br /> </td>
+  <td class="bodytext" rowspan="3" height="74" width="6">&nbsp;</td>
+  <td class="bodytext" height="74" rowspan="3" valign="top" width="87"> 
+<p><img src="img_hdinam/cap18.jpg" alt="desesperado" width="85" height="121" /></p></td></tr>
+  <tr>
+    <td height="18" colspan="2" bgcolor="#FFFFFF" class="bodytext">&nbsp;</td>
+  </tr> 
+<tr> <td width="71" height="105" valign="top" class="bodytext"><p><img src="img_hdinam/BIOFISICA.jpg" width="65" height="90" /></P>
+    </td>
+  <td width="425" class="bodytext"><p><strong>25) Un tanque contiene 0,2 m3 de ox&iacute;geno a 25 atm y 25&deg;C. Suponiendo que en esas
+    condiciones el ox&iacute;geno se comportase como un gas ideal:<br />
+a) &iquest;cu&aacute;ntos moles de ox&iacute;geno habr&iacute;a en el tanque?;<br />
+b) &iquest;cu&aacute;nto pesar&iacute;a el ox&iacute;geno contenido en el tanque?;<br />
+c) &iquest;cu&aacute;l ser&iacute;a la presi&oacute;n si la temperatura se aumentara hasta 250&deg;C?;<br />
+d) aceptando que un criterio emp&iacute;rico para tratar a un gas como ideal es que su
+    densidad sea inferior a 1 mol/lt, &iquest;es buena la suposici&oacute;n efectuada?</strong></p>    </td>
+</tr>
+<tr>
+  <td height="150" colspan="2" class="bodytext"><p>Se trata, casi, de un repaso liviano de las leyes de los gases ideales (o sea, esos que no tienen olor). Para conocer la cantidad de moles, <em><strong>n</strong></em>, que integra un gas aplicamos la famosa ecuaci&oacute;n de estado:</p>
+    <blockquote>
+      <p><em><strong>Pr . V = n . R . T  </strong></em></p>
+      </blockquote>
+    <p>de donde</p>
+    <blockquote>
+      <p><em><strong>n = Pr . V  / R . T </strong></em></p>
+      </blockquote></td>
+  <td width="6" class="bodytext">&nbsp;</td>
+  <td width="87" align="center" valign="middle" class="epigrafe Estilo18">acordate<br>
+    que las operaciones de la <strong>ecuaci&oacute;n de estado</strong> deben plantearse con la escla de temperaturas absolutas</td>
+</tr>  
+
+<tr>
+  <td height="55" colspan="2" align="left" valign="middle" class="bodytext"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td width="13%" rowspan="3" align="right" class="bodytext"><em><strong>n</strong><strong> </strong></em><strong><em>= </em></strong></td>
+      <td width="3%" rowspan="3" align="right" class="bodytext">&nbsp;</td>
+      <td width="36%" height="20" align="center" valign="bottom" class="bodytext" style="line-height: 60%;" font><em><strong>25 <span class="Estilo17">atm</span> . 200 <span class="Estilo17">lit</span></strong></em></td>
+      <td width="48%" rowspan="3" align="center" class="bodytext">&nbsp;</td>
+    </tr>
+    <tr>
+      <td align="center" class="bodytext"><hr align="center" width="100%" style="color:black" size="1" noshade></td>
+    </tr>
+    <tr>
+      <td height="21" align="center" valign="top" class="bodytext" style="line-height: 60%;" font><em><strong>298 <span class="Estilo17">K . </span>0,082 <span class="Estilo17">lit.atm</span></strong><span class="Estilo17">/</span><strong><span class="Estilo17">mol.K</span></strong></em></td>
+    </tr>
+  </table></td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="55" colspan="2" align="left" valign="middle" class="bodytext"><table width="507" height="36" border="0">
+    <tr>
+      <td width="35" height="28" valign="middle" class="bodytext">&nbsp;</td>
+      <td width="257" align="left" bordercolor="#FFFFFF" bgcolor="#CCCCCC" class="bodytext"><p><em><strong><strong>&#160;&#160; &#160;&#160; &#160;&#160; &#160;</strong>n = 205 <span class="epigrafe">moles </span></strong></em></p></td>
+      <td width="201" align="center" class="bodytext">&nbsp;</td>
+    </tr>
+  </table></td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="102" colspan="2" align="left" valign="middle" class="bodytext"><p>La pregunta siguiente es t&iacute;pica para un almacenero, ya que se responde aplicando la regla de tres, la regla del almacenero.</p>
+    <blockquote>
+      <p><em><strong>1 <span class="Estilo17">mol</span><span class="Estilo10"><strong><em><strong><strong>&#160;&#160; &#160;&#160; <em><strong><strong> &#160;&#160; </strong></strong></em><em><strong><strong> &#160;&#160; </strong></strong></em><em><strong><strong> &#160;</strong></strong></em>&#160;</strong></strong></em></strong></span></strong></em><strong><span class="Estilo10">&rarr;</span></strong><em><strong><span class="Estilo10"><strong><em><strong><strong> &#160;&#160; &#160;&#160; &#160;</strong></strong></em></strong></span> </strong></em> <em><strong>32 <span class="Estilo17">gr</span></strong></em></p>
+      <p><em><strong>205 <span class="Estilo17">moles</span><span class="Estilo10"><strong><em><strong><strong>&#160;&#160; &#160;&#160; &#160;</strong></strong></em></strong></span></strong></em><strong><span class="Estilo10">&rarr;</span></strong><em><strong><span class="Estilo10"><strong><em><strong><strong> &#160;&#160; &#160;&#160; &#160;</strong></strong></em></strong></span> </strong></em> <em><strong>X<span class="Estilo17"></span></strong></em></p>
+    </blockquote></td>
+  <td height="102" align="left" valign="middle" class="bodytext">&nbsp;</td>
+  <td height="102" align="center" valign="middle" class="epigrafe Estilo18">estoy utilizando<br>
+    <em><strong>P</strong></em><br>
+    para peso y<br>
+    <em><strong>Pr</strong></em><br>
+    para presi&oacute;n</td>
+  </tr>
+
+<tr>
+  <td height="60" colspan="2" align="center" valign="middle" class="bodytext"><table width="507" height="36" border="0">
+      <tr>
+        <td width="35" height="28" valign="middle" class="bodytext">&nbsp;</td>
+        <td width="261" align="left" bordercolor="#FFFFFF" bgcolor="#CCCCCC" class="bodytext"><p><em><strong><strong>&#160;&#160; &#160;&#160; &#160;&#160; &#160;</strong>P = </strong></em><em><strong> 6.560 <span class="Estilo17">grf</span><span class="Estilo17"> </span></strong></em><em><strong> = </strong></em><em><strong> 6,56 <span class="Estilo17">kgf</span><span class="Estilo17"> </span></strong></em></p></td>
+        <td width="197" align="center" class="bodytext">&nbsp;</td>
+      </tr>
+    </table></td>
+  <td class="bodytext">&nbsp;</td>
+  <td rowspan="2" class="bodytext"><p><img src="img_hdinam/oxigeno.jpg" alt="Flu&iacute;dos - Ricardo Cabrera" width="85" height="148" /></td>
+</tr>
+
+<tr>
+  <td colspan="2" align="left" valign="middle" class="bodytext"><p>La tercera pregunta se resuelve con la Ley de Charles-Gay Lussac (voy a llamar <strong>2</strong> al segundo estado y <strong>1</strong> al anterior): </p>
+    <blockquote>
+      <p><strong><em>Pr<sub>2</sub> = Pr<sub>1</sub> . T<sub>2</sub> / T<sub>1</sub></em></strong></p>
+      <p><strong><em>Pr<sub>2</sub> = </em></strong><strong><em> <strong>25 <span class="Estilo17">atm</span></strong> . <strong>523 <span class="Estilo17">K</span></strong> / <strong>298 <span class="Estilo17">K</span></strong></em></strong></p>
+    </blockquote>    </td>
+  <td class="bodytext">&nbsp;</td>
+  </tr>
+
+<tr>
+  <td height="52" colspan="2" align="left" valign="middle" class="bodytext"><table width="507" height="36" border="0">
+    <tr>
+      <td width="35" height="28" valign="middle" class="bodytext">&nbsp;</td>
+      <td width="261" align="left" bordercolor="#FFFFFF" bgcolor="#CCCCCC" class="bodytext"><p><em><strong><strong>&#160;&#160; &#160;&#160; &#160;&#160; &#160;</strong><em>Pr<sub>2</sub> = </em></strong><strong><em> <strong>43,9 <span class="Estilo17">atm</span></strong></em></strong><strong><span class="Estilo17"> </span></strong></em></p></td>
+      <td width="197" align="center" class="bodytext">&nbsp;</td>
+    </tr>
+  </table></td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="47" colspan="2" align="left" valign="middle" class="bodytext">Para la &uacute;ltima pregunta no te voy a ayudar, pero te dar&aacute;s cuenta de que estamos muy cerca del l&iacute;mite. </td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+</tr>
+
+<tr>
+  <td height="67" colspan="2" align="left" class="bodytext"><p><strong>DESAF&Iacute;O</strong>: &iquest;Qu&eacute; respuestas cambiar&iacute;an si en lugar de tratarse de un tanque de ox&iacute;geno se tratase de un tanque de aire? Otra cosa: tengo la triste sospecha de que algunos lectores m&iacute;os no aceptan los desaf&iacute;os. Yo s&eacute; que a veces son m&aacute;s para que los docentes los trabajen en clase que para los chicos, que est&aacute;n ansiosos por un examen... pero igualmente tengo ideado un castigo por incumplimiento: los que ni siquiera leen el desaf&iacute;o se van a perder la yapa, las lecciones que vendr&aacute;n coladas a manera de despedida... mir&aacute; &eacute;sta, que tom&eacute; del sitio de mi amigo Jorge Aliaga.</p>
+    <blockquote>
+      <p><em>Todos los inteligentes se reponen de un fracaso, pero ning&uacute;n tonto se repone de un &eacute;xito. </em></p>
+    </blockquote>    </td>
+  <td class="bodytext">&nbsp;</td>
+  <td width="87" rowspan="3" valign="bottom" class="bodytext"><strong><em><sub><p><img src="img_hdinam/ric_fotoric.jpg" alt="Flu&iacute;dos - Ricardo Cabrera" width="85" height="110" /></sub></em></strong></td>
+</tr>
+
+<tr>
+  <td height="18" colspan="2" bgcolor="#FFFFFF" class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+  </tr>
+
+<tr> <td height="64" colspan="2" align="center" valign="middle" bgcolor="#CCCCCC" class="bodytext"><table width="400" height="31" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td class="epigrafe">Algunos derechos reservados. 
+  Se permite su reproducci&oacute;n citando la fuente. Agradezco a 
+  Jer&oacute;nimo Fabiani por el env&iacute;o de una errata. &Uacute;ltima actualizaci&oacute;n abr-08. Buenos Aires, Argentina. </td>
+  </tr>
+</table>  </td>
+  <td class="bodytext" width="6">&nbsp;</td>
+  </tr> 
+<tr> <td height="18" colspan="2" class="bodytext">&nbsp;</td><td class="bodytext" width="6">&nbsp;</td>
+<td class="bodytext" width="87">&nbsp;</td>
+</tr> 
+</table></td></tr> </table><p><img src="img_hdinam/transparente.gif" width="10" height="20" /></td></tr> 
+<tr> <td class="bodytext"><p><img src="img_hdinam/transparente.gif" width="600" height="20" /></td></tr> 
+</table>
+</body>
+</html>

@@ -1,0 +1,204 @@
+<html>
+<head>
+<title>MECANICA DE FLUIDOS, NMS024, fisica online, ejercicios resueltos</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="keywords" content="problemas resueltos, ejercicios resueltos, cbc, fisica, biofisica, fluidos, liquidos, gases, bernoulli, poiseuille, viscosidad, ideales, viscosos, humedad, difusion, osmosis, nomesalen, no me salen, ricardo cabrera" />
+<meta name="description" content="Ejercicios y problemas resueltos, y apuntes teóricos de Fluidos, mecanismos de transporte de fluidos" />
+<link rel="stylesheet" href="win_ie.css">
+<style type="text/css">
+<!--
+.style1 {
+	color: #3F6386;
+	font-weight: bold;
+}
+.Estilo3 {color: #3F6386}
+.Estilo16 {font-size: 16px}
+-->
+</style>
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000" alink="#000000" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<table align=center width="600" border="0" cellspacing="0" cellpadding="0"> 
+  <tr bgcolor="#000000" align="right"> 
+<td><img src="img_hdinam/nombre5.gif" width="369" height="71"></td>
+  </tr> <tr bgcolor="#BB0000" valign="middle" align="left"> 
+<td class="bodytext" height="20"><TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+  <TR ALIGN="center" CLASS="menuitem">
+    <TD WIDTH="44" height="19" CLASS="menuitem"><A HREF="../../index.html" CLASS="menuitem">&nbsp;<B>home</B>&nbsp;</A></TD>
+    <TD WIDTH="5" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="122" CLASS="menuitem"><strong><a href="index_hdinam.html" class="menuitem">m&aacute;s de hidrodinámica </a> </strong></TD>
+    <TD width="10" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="116" CLASS="menuitem"><strong><a href="../../intro_NMS.html" class="menuitem">otros temas de F&iacute;sica</a></strong></TD>
+    <TD width="10" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="173" CLASS="menuitem"><strong><a href="../../lista_ciruela.html" class="menuitem">lecciones del maestro Ciruela </a></strong></TD>
+    <TD width="9" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="68" CLASS="menuitem"><strong><a href="../../lista_tonterias.html" class="menuitem">tonter&iacute;as</a></strong></TD>
+    <TD WIDTH="8" CLASS="menuitem"><a href="../energia/index_energia.html" class="menuitem"></a><FONT COLOR="#000000">|</FONT></TD>
+    <TD WIDTH="40" CLASS="menuitem">&nbsp;<B><FONT FACE="Arial, Helvetica, sans-serif"><A HREF="mailto: ricuti@qi.fcen.uba.ar" CLASS="menuitem">@</A></FONT><A HREF="../../index.html" CLASS="menuitem"></A></B>&nbsp;</TD>
+  </TR>
+</TABLE></td></tr> <tr> <td class="bodytext" height="11"><img src="img_hdinam/transparente.gif" width="20" height="20"></td>
+</tr> 
+<tr align="center"> <td height="875"> <table width="600" border="0" cellspacing="0" cellpadding="0"> 
+<tr class="bodytext"> <td valign="top" width="594" height="860"> 
+<table width="600" border="0" cellspacing="0" cellpadding="0"> <tr> 
+  <td height="74" colspan="3" bgcolor="#D7FFFF" class="bodytext"><span class="bodytext"><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>NO ME SALEN<br>
+</strong></span><span class="Estilo3"><em class="bodytext "><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>(<strong>PROBLEMAS RESUELTOS   DE BIOF&Iacute;SICA DEL CBC</strong>)</strong></em></span><br>
+      <span class="titulograndegris Estilo16"><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>FLUIDOS<br>
+      </strong></span><em class="bodytext "><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em></strong></em><strong class="titulochicogris">HUMEDAD RELATIVA</strong><br> </td>
+  <td class="bodytext" rowspan="3" height="74" width="4">&nbsp;</td>
+  <td class="bodytext" height="74" rowspan="3" valign="top" width="86"> 
+<p><img src="img_hdinam/cap43.jpg" alt="desesperado" width="85" height="121"></p></td></tr>
+  <tr>
+    <td height="18" colspan="3" bgcolor="#FFFFFF" class="bodytext">&nbsp;</td>
+  </tr> 
+<tr> <td width="123" height="105" valign="top" class="bodytext"><table width="120" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td height="25" colspan="2" align="right" bgcolor="#CCCCCC" class="epigrafe"><em><strong>T (&deg;C)</strong></em></td>
+    <td width="13" align="left" bgcolor="#CCCCCC" class="epigrafe">&nbsp;</td>
+    <td height="25" colspan="2" align="left" bgcolor="#CCCCCC" class="epigrafe"><em><strong>P<sub>sat</sub> (kPa)</strong></em></td>
+  </tr>
+  <tr>
+    <td width="45" height="16" align="right" bgcolor="#CCCCCC" class="epigrafe"><em><strong>0</strong></em></td>
+    <td width="13" align="left" bgcolor="#CCCCCC" class="epigrafe">&nbsp;</td>
+    <td align="left" bgcolor="#CCCCCC" class="epigrafe">&nbsp;</td>
+    <td width="13" align="left" bgcolor="#CCCCCC" class="epigrafe">&nbsp;</td>
+    <td width="62" height="16" align="left" bgcolor="#CCCCCC" class="epigrafe"><em><strong>0,612</strong></em></td>
+  </tr>
+  <tr>
+    <td height="16" align="right" bgcolor="#CCCCCC" class="epigrafe"><em><strong>5</strong></em></td>
+    <td align="left" bgcolor="#CCCCCC" class="epigrafe">&nbsp;</td>
+    <td align="left" bgcolor="#CCCCCC" class="epigrafe">&nbsp;</td>
+    <td align="left" bgcolor="#CCCCCC" class="epigrafe">&nbsp;</td>
+    <td height="16" align="left" bgcolor="#CCCCCC" class="epigrafe"><em><strong>0,871</strong></em></td>
+  </tr>
+  <tr>
+    <td height="16" align="right" bgcolor="#CCCCCC" class="epigrafe"><em><strong>8</strong></em></td>
+    <td align="left" bgcolor="#CCCCCC" class="epigrafe">&nbsp;</td>
+    <td align="left" bgcolor="#CCCCCC" class="epigrafe">&nbsp;</td>
+    <td align="left" bgcolor="#CCCCCC" class="epigrafe">&nbsp;</td>
+    <td height="16" align="left" bgcolor="#CCCCCC" class="epigrafe"><em><strong>1,072</strong></em></td>
+  </tr>
+  <tr>
+    <td height="16" align="right" bgcolor="#CCCCCC" class="epigrafe"><em><strong>11</strong></em></td>
+    <td align="left" bgcolor="#CCCCCC" class="epigrafe">&nbsp;</td>
+    <td align="left" bgcolor="#CCCCCC" class="epigrafe">&nbsp;</td>
+    <td align="left" bgcolor="#CCCCCC" class="epigrafe">&nbsp;</td>
+    <td height="16" align="left" bgcolor="#CCCCCC" class="epigrafe"><em><strong>1,312</strong></em></td>
+  </tr>
+  <tr>
+    <td height="16" align="right" bgcolor="#CCCCCC" class="epigrafe"><em><strong>14</strong></em></td>
+    <td align="left" bgcolor="#CCCCCC" class="epigrafe">&nbsp;</td>
+    <td align="left" bgcolor="#CCCCCC" class="epigrafe">&nbsp;</td>
+    <td align="left" bgcolor="#CCCCCC" class="epigrafe">&nbsp;</td>
+    <td height="16" align="left" bgcolor="#CCCCCC" class="epigrafe"><em><strong>1,598</strong></em></td>
+  </tr>
+  <tr>
+    <td height="16" align="right" bgcolor="#CCCCCC" class="epigrafe"><em><strong>17</strong></em></td>
+    <td align="left" bgcolor="#CCCCCC" class="epigrafe">&nbsp;</td>
+    <td align="left" bgcolor="#CCCCCC" class="epigrafe">&nbsp;</td>
+    <td align="left" bgcolor="#CCCCCC" class="epigrafe">&nbsp;</td>
+    <td height="16" align="left" bgcolor="#CCCCCC" class="epigrafe"><em><strong>1,938</strong></em></td>
+  </tr>
+</table>  </td>
+  <td width="10" valign="top" class="bodytext">&nbsp;</td>
+  <td width="377" align="left" bgcolor="#FFFFFF" class="bodytext"><p><strong>AD NMS 24)* Cierta madrugada en Buenos Aires la temperatura   era 11&ordm;C con una humedad relativa del 81,7%. &iquest;A qu&eacute; temperatura se   comenzar&aacute;n a empa&ntilde;ar los vidrios?</strong></p>
+    <p class="epigrafe"><strong>Usar la tabla de presi&oacute;n de vapor saturado adjunta.</strong></p></td>
+</tr>
+<tr>
+  <td height="79" colspan="3" valign="middle" class="bodytext">Se trata de un ejercicio cl&aacute;sico, t&iacute;pico, casi de aplicaci&oacute;n inmediata, del concepto de humedad relativa, en el que en lugar de utilizar la definici&oacute;n cl&aacute;sica de humedad relativa, se utiliza su equivalente que hace uso del concepto de<em><strong> temperatura de roc&iacute;o</strong></em>.</td>
+  <td class="bodytext" height="79">&nbsp;</td>
+  <td class="bodytext" height="79" valign="top">&nbsp;</td>
+</tr>
+<tr>
+  <td height="55" colspan="3" valign="middle" class="bodytext"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td width="9%" align="center" class="bodytext">&nbsp;</td>
+      <td width="12%" rowspan="2" align="right" class="bodytext"><strong><em>Hr </em>=</strong></td>
+      <td width="33%" align="center" class="bodytext"><em><strong><u>&nbsp;&nbsp;&nbsp;presi&oacute;n vap.(T roc&iacute;o)&nbsp;&nbsp;</u></strong></em></td>
+      <td width="28%" rowspan="2" align="center" class="bodytext">&nbsp;</td>
+      <td width="18%" align="center" class="bodytext">&nbsp;</td>
+    </tr>
+    <tr>
+      <td height="14" align="center" valign="top" class="bodytext">&nbsp;</td>
+      <td align="center" valign="top" class="bodytext"><em><strong> presi&oacute;n  vap. (T amb)<em><em><em><em><sub></sub></em></em></em></em></strong></em></td>
+      <td align="center" valign="top" class="bodytext">&nbsp;</td>
+    </tr>
+  </table></td>
+  <td class="bodytext" height="55">&nbsp;</td>
+  <td class="bodytext" height="55" valign="top">&nbsp;</td>
+</tr>
+<tr>
+  <td colspan="3" rowspan="3" valign="middle" class="bodytext"><p>Que dice que la humedad relativa es el cociente entre la presi&oacute;n de vapor saturado que se corresponde a la temperatura de roc&iacute;o, y la presi&oacute;n de vapor saturado que se corresponde a la temperatura ambiente. </p>
+    <p>La temperatura de roc&iacute;o es la temperatura a la cual la humedad ambiente alcanza la saturaci&oacute;n, o sea el 100 % de humedad relativa.</p>
+    <p>Todo esto parece un trabalengua, pero vos dedicate a aplicar la definici&oacute;n que m&aacute;s temprano que tarde te caer&aacute; la ficha. Pensalo como sigue:</p>
+    <p>Cualquiera que sea la humedad relativa ambiente presente en un lugar a cierta temperatura, si la temperatura comienza a descender, la humedad relativa aumenta. Si el proceso de descenso de la temperatura contin&uacute;a llega un momento en que la humedad relativa alcanza el 100%, y en ese momento empieza la condensaci&oacute;n. Es un fen&oacute;meno bastante habitual durante las madrugadas en las que desciende la temperatura. A ese valor de temperatura se lo llama temperatura de roc&iacute;o.</p>
+    <p>En este ejercicio tenemos dos de las tres variables presentes en la f&oacute;rmula: <em><strong>Hr = </strong></em><strong>81,7%</strong>, y presi&oacute;n de vapor a la temperatura ambiente (lo sacamos de la tabla) <em><strong>presi&oacute;n  vap. (T amb)</strong></em> <strong>=</strong> <em><strong>1,312</strong></em> <em class="epigrafe"><strong>kPa</strong></em>. Despejemos la presi&oacute;n de vapor en la temperatura de roc&iacute;o:</p>
+    <blockquote>
+      <p><em><strong>presi&oacute;n vap. <sub>(T roc&iacute;o) </sub>= Hr .</strong></em> <em><strong>presi&oacute;n vap. <sub>(T amb)</sub></strong></em></p>
+      <p><em><strong>presi&oacute;n vap. <sub>(T roc&iacute;o) </sub>= 0,817 . </strong></em><em><strong>1,312</strong></em> <em class="epigrafe"><strong>kPa</strong></em></p>
+      <p><em><strong>presi&oacute;n vap. <sub>(T roc&iacute;o) </sub>= </strong></em><em><strong>1,072</strong></em> <em class="epigrafe"><strong>kPa</strong></em></p>
+      </blockquote>
+    <p>Volvemos a la tabla y nos fijamos a qu&eacute; temperatura esa presi&oacute;n de vapor saturar&iacute;a el ambiente...</p>    </td>
+  <td class="bodytext" height="42">&nbsp;</td>
+  <td rowspan="3" valign="top" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td class="bodytext" height="42">&nbsp;</td>
+  </tr>
+<tr>
+  <td class="bodytext" height="49">&nbsp;</td>
+  </tr>  
+<tr> 
+  <td height="54" colspan="3" align="center" valign="middle" class="bodytext"><table width="45%" border="0">
+    <tr>
+      <td height="31" align="center" bgcolor="#CCCCCC"><p class="bodytext"><em><strong>T<sub>(roc&iacute;o)</sub> </strong></em><strong><em>= </em></strong><em><strong>8</strong></em> <em><strong>&deg;C</strong></em></p></td>
+    </tr>
+  </table></td>
+  <td class="bodytext" width="4">&nbsp;</td>
+  <td class="bodytext" width="86">&nbsp;</td>
+</tr>
+<tr>
+  <td height="47" colspan="3" align="left" valign="middle" class="bodytext"><p>Si la temperatura bajase a un valor menor a <em><strong>0</strong></em> <em><strong>&deg;C</strong></em> estar&iacute;amos en presencia de una helada.</p></td>
+  <td align="left" valign="middle" class="bodytext">&nbsp;</td>
+  <td align="left" valign="middle" class="bodytext">&nbsp;</td>
+  </tr>
+
+<tr>
+  <td height="30" colspan="3" align="center" bgcolor="#FFFF99" class="bodytext"><table width="437" height="17" border="0" cellpadding="0" cellspacing="0">
+    <tr>
+      <td class="epigrafe">* Este ejercicio formaba parte del examen parcial tomado el 18-jun-09</td>
+    </tr>
+  </table></td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="32" colspan="3" align="left" class="bodytext"><p><strong>DESAF&Iacute;O</strong>: Si la humedad relativa ambiente de la ma&ntilde;ana hubiera sido del 70% &iquest;cu&aacute;l ser&iacute;a la temperatura de roc&iacute;o?<em><strong></strong></em></p>    </td>
+  <td class="bodytext">&nbsp;</td>
+  <td width="86" rowspan="3" valign="bottom" class="bodytext"><img src="../cinematica/img_cin/ric_teclado.jpg" alt="teclado ricardo cabrera" width="85" height="130"></td>
+</tr>
+
+<tr>
+  <td height="18" colspan="3" bgcolor="#FFFFFF" class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+  </tr>
+
+<tr> <td colspan="3" align="center" valign="middle" bgcolor="#CCCCCC" class="bodytext"><table width="91%" border="0">
+  <tr>
+    <td class="epigrafe">Algunos derechos reservados. 
+      Se permite su reproducci&oacute;n citando la fuente. Se recomienda fervientemente su lectura en bibliotecas, escuelas, clubes, reuniones de consorcios. &Uacute;ltima actualizaci&oacute;n nov-12. Buenos Aires, Argentina. </td>
+  </tr>
+</table>  </td>
+  <td class="bodytext" width="4">&nbsp;</td>
+  </tr> 
+<tr> <td height="18" colspan="3" class="bodytext">&nbsp;</td><td class="bodytext" width="4">&nbsp;</td>
+<td class="bodytext" width="86">&nbsp;</td>
+</tr> 
+</table></td></tr> </table>
+<img src="img_hdinam/transparente.gif" width="20" height="20"></td>
+</tr> 
+<tr> <td class="bodytext"><img src="img_hdinam/transparente.gif" width="20" height="20"></td>
+</tr> 
+</table>
+</body>
+</html>

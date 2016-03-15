@@ -1,0 +1,288 @@
+<html>
+<head>
+<title>Ricardo Cabrera, MECANICA DE FLUIDOS, INDICE, ejercicios resueltos</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="keywords" content="problemas resueltos, ejercicios resueltos, cbc, fisica, biofisica, fluidos, liquidos, gases, bernoulli, poiseuille, viscosidad, ideales, viscosos, humedad, difusion, osmosis, nomesalen, no me salen, ricardo cabrera" />
+<meta name="description" content="Ejercicios y problemas resueltos, y apuntes teóricos de Fluidos, mecanismos de transporte de fluidos" />
+<link rel="stylesheet" href="win_ie.css">
+<style type="text/css">
+<!--
+.style1 {
+	color: #3F6386;
+	font-weight: bold;
+}
+.Estilo3 {color: #3F6386}
+.Estilo16 {font-size: 16px}
+.Estilo36 {font-size: 11px}
+.Estilo17 {font-size: 10px}
+.Estilo39 {color: #0099CC}
+.Estilo12 {font-size: 12;
+	color: #FFFFFF;
+}
+-->
+</style>
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000" alink="#000000" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<table align=center width="605" border="0" cellspacing="0" cellpadding="0"> 
+  <tr bgcolor="#000000" align="right"> 
+<td width="605"><table width="100%">
+  <tr>
+    <td width="6%" align="left" valign="top" class="bodytext">&nbsp;</td>
+    <td width="4%" align="left" valign="middle" class="bodytext"><a href="../../mis_libros.html" target="_blank"><p><img src="img_hdinam/juno1ch.jpg" width="20" height="30" border="0"></a></td>
+    <td width="1%" align="left" valign="middle" class="bodytext">&nbsp;</td>
+    <td width="29%" align="left" valign="middle" class="bodytext"><a href="../../mis_libros.html" target="_blank" class="Estilo12"><em>&iexcl;</em>APARECI&Oacute;<br>
+MI NOVELA<em class="bodytext">!</em></a></td>
+    <td width="60%" class="bodytext"><p><img src="img_hdinam/nombre5.gif" width="369" height="71"></td>
+  </tr>
+</table></td>
+  </tr> <tr bgcolor="#BB0000" valign="middle" align="left"> 
+<td class="bodytext" height="20"><TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+  <TR ALIGN="center" CLASS="menuitem">
+    <TD WIDTH="90" height="19" CLASS="menuitem"><A HREF="../../index.html" CLASS="menuitem">&nbsp;<B>home</B>&nbsp;</A></TD>
+    <TD WIDTH="5" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="150" CLASS="menuitem"><strong><a href="../../intro_NMS.html" class="menuitem">otros temas de F&iacute;sica </a></strong></TD>
+    <TD width="9" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="190" CLASS="menuitem"><strong><a href="../../lista_ciruela.html" class="menuitem">lecciones del maestro Ciruela </a></strong></TD>
+    <TD width="23" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="86" CLASS="menuitem"><strong><a href="../../lista_tonterias.html" class="menuitem">tonter&iacute;as</a></strong></TD>
+    <TD WIDTH="20" CLASS="menuitem"><a href="../energia/index_energia.html" class="menuitem"></a><FONT COLOR="#000000">|</FONT></TD>
+    <TD WIDTH="28" CLASS="menuitem">&nbsp;<B><FONT FACE="Arial, Helvetica, sans-serif"><A HREF="mailto: ricuti@qi.fcen.uba.ar" CLASS="menuitem">@</A></FONT><A HREF="../../index.html" CLASS="menuitem"></A></B>&nbsp;</TD>
+  </TR>
+</TABLE></td></tr> <tr> <td class="bodytext" height="10"><p><img src="img_hdinam/transparente.gif" width="600" height="10"></td>
+</tr> 
+<tr align="center"> <td height="412"> <table width="605" border="0" cellspacing="0" cellpadding="0"> 
+<tr class="bodytext"> <td colspan="2" valign="top" height="2046"> <p><img src="img_hdinam/transparente.gif" width="1" height="1"></td>
+<td valign="top" width="603" height="2046"> 
+<table width="603" border="0" cellspacing="0" cellpadding="0"> 
+  <tr> 
+  <td width="507" height="74" valign="middle" bgcolor="#D7FFFF" class="bodytext"><span class="bodytext"><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>NO ME SALEN<br>
+</strong></span><span class="Estilo3"><em class="bodytext "><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>(<strong>APUNTES TEORICOS Y EJERCICIOS DE BIOF&Iacute;SICA</strong>)</strong></em></span><br>
+      <span class="titulograndegris Estilo16"><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>HIDRODINÁMICA Y MECANISMOS DE TRANSPORTE</strong></span><span class="Estilo3"><br>
+      </span><br> </td>
+  <td class="bodytext" rowspan="11" height="74" width="10">&nbsp;</td>
+  <td class="bodytext" colspan="2" valign="top" width="86"> 
+<p><img src="img_hdinam/cap5.jpg" alt="desesperado" width="85" height="118"></p></td></tr>
+  <tr>
+    <td height="27" bgcolor="#FFFFFF" class="bodytext"><strong><em><strong><em><strong><strong>APUNTES TEORICOS</strong></strong></em></strong></em></strong></td>
+    <td class="bodytext" colspan="2" valign="top" width="86">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="27" bgcolor="#FFFFFF" class="bodytext"><table width="506" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="26" height="75" class="bodytext">&nbsp;</td>
+        <td width="480" class="bodytext"><p><a href="FT_ideales.html">HIDRODINAMICA - FLUIDOS REALES, FLUIDOS IDEALES</a> <br>
+                          <a href="FT_caudal.html">HIDRODINAMICA - CAUDAL - PRINCIPIO DE CONTINUIDAD<br>
+                          </a><a href="FT_capilares.html">HIDRODINAMICA - CAUDAL EN LAS RAMIFICACIONES</a><br>
+                          <a href="FT_bernouille.html">HIDRODINAMICA - PRINCIPIO DE BERNOULLI</a> <br>
+                          <a href="FT_viscosos.html">HIDRODINAMICA - FLUIDOS VISCOSOS O REALES</a><br>
+                          <a href="FT_laminar.html">HIDRODINAMICA - FLUJO LAMINAR, FLUJO TURBULENTO</a><br>
+                          <a href="FT_resistencias.html">HIDRODINAMICA - ASOCIACION DE RESISTENCIAS</a> <br>
+                          <a href="FT_potencia.html">HIDRODINAMICA - POTENCIA</a> <br>
+                          <a href="FT_sistema.html">HIDRODINAMICA - SISTEMA CARDIOVASCULAR HUMANO</a> <br>
+                          <a href="FT_gases.html">GASES</a> <br>
+                          <a href="FT_humedad.html">HUMEDAD RELATIVA AMBIENTE</a> <br>
+                          <a href="FT_difusion.html">MECANISMOS DE TRANSPORTE - DIFUSION</a> <br>
+                          <a href="FT_osmosis.html">MECANISMOS DE TRANSPORTE - OSMOSIS</a></p>
+          </td>
+      </tr>
+    </table></td>
+    <td width="86" colspan="2" rowspan="2" valign="top" class="bodytext"><table width="83" height="56" border="0" cellpadding="0" cellspacing="0">
+      <tr>
+        <td align="center" class="epigrafe"><span class="Estilo39">Los ejercicio marcados (*) est&aacute;n repetidos debido a que forman parte de la gu&iacute;a de estudios de diferentes cursos.</span></td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td bgcolor="#FFFFFF" class="bodytext">&nbsp;</td>
+    </tr>
+  
+  <tr>
+    <td height="27" bgcolor="#FFFFFF" class="bodytext"><strong><em><em>EJERCICIOS HIDRODINAMICA</em></em></strong></td>
+    <td class="bodytext" colspan="2" valign="top" width="86">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="27" bgcolor="#FFFFFF" class="bodytext"><table width="506" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="26" height="75" class="bodytext">&nbsp;</td>
+        <td width="480" class="bodytext"><a href="flu_011.html">11) El caudal medio de la sangre que circula en un tramo...</a><strong> <br>
+        </strong><a href="flu_012.html">12) La aorta se ramifica en arterias que se van haciendo...</a><strong><em><em>&#160;</em></em></strong><br>        <a href="flu_013.html">13) Curiosidades de Bernoulli.</a> <br>        <a href="flu_014.html">14) &iquest;Cu&aacute;l es el trabajo requerido para bombear 1,4 m3 de agua por un tubo...</a> <br>        <a href="flu_015.html">15) Un l&iacute;quido de densidad 1 kg/lt se mueve a raz&oacute;n de 3 mm/seg...</a> <br>        <a href="flu_016.html">16) Por un ca&ntilde;o horizontal de secci&oacute;n variable fluye un l&iacute;quido...</a> <br>        <a href="flu_017.html">17) Se llena una manguera con nafta y se cierra por...</a> <br>        <a href="flu_018.html">18) Por una tuber&iacute;a con un &aacute;rea de  secci&oacute;n transversal de...</a> <br>        <a href="flu_019.html">19) Se tiene un recipiente de secci&oacute;n cuadrada mucho mayor que 1 cm&sup2;...</a> <br>        <a href="flu_020.html">20) Por un tubo horizontal con un di&aacute;metro interior de 1,2 mm...</a> <br>        <a href="flu_021.html">21) Cuando se establece una diferencia de presi&oacute;n de 0,5 atm...</a> <br>        <a href="flu_022.html">22)<span class="Estilo36"> En una persona adulta en reposo el caudal sangu&iacute;neo suele ser de...</span></a><span class="Estilo36"> <br>
+        <a href="flu_023.html">23) Encontrar la resistencia equivalente que presentan tres ca&ntilde;os...</a><br>
+        <a href="flu_024.html">24) Un esquema muy simplificado de la circulaci&oacute;n sist&eacute;mica...</a> <br>
+            </span><a href="flu_em02.html">EM2) Para un tubo horizontal de secci&oacute;n variable<em><em>...</em></em></a><em><em><br>
+            </em></em><a href="flu_em04.html">EM4) Por dos ca&ntilde;os cil&iacute;ndricos A y B, de igual longitud circula agua<em><em>...</em></em></a><em><em> <br>
+            </em></em><a href="flu_em05.html">EM5)<span class="Estilo36"> Por un ca&ntilde;o horizontal fluye un l&iacute;quido de viscosidad insignificante...</span></a> <br>
+<span class="Estilo36"><a href="flu_em06.html">EM6) Se oprime el &eacute;mbolo de una jeringa de modo que por la aguja sale...</a> </span><br><a href="flu_em07.html">EM7) Se dispone de tres ca&ntilde;os cuyas resistencias...</a> <br>
+<a href="flu_em14.html"><em><strong></strong></em>EM14) Una secci&oacute;n de ca&ntilde;er&iacute;a, por donde circula un fluido viscoso, est&aacute;...</a><br>
+<a href="flu_em16.html">EM16) Un ca&ntilde;o horizontal de 5 cm&sup2; de secci&oacute;n, que transporta agua...</a><br><a href="flu_em17.html">EM17) En una instalaci&oacute;n de agua en la que no puede...</a> <br>
+<span class="Estilo36"><a href="flu_em18.html">EM18) Un ca&ntilde;o de 4 cm&sup2; de secci&oacute;n por el que fluye un l&iacute;quido</a></span>...<br><a href="flu_em19.html">EM19) Un l&iacute;quido de viscosidad insignificante fluye por un ca&ntilde;o horizontal...</a> <br><a href="flu_em21.html">EM21) &iquest;Qu&eacute; fuerza produce un viento de 120 km/h sobre un techo...</a> <br>
+<span class="Estilo36"><a href="flu_em23.html">EM23) Un tanque de agua de 6.000 litros de capacidad se encuentra a 20 m</a></span>... <br><span class="Estilo36"><a href="flu_em24.html">EM24) Dos ca&ntilde;os id&eacute;nticos conectados en serie presentan</a></span><a href="flu_em24.html">...</a> <br><a href="flu_NMS004.html"><em>NMS</em>04)  Un tubo de 4 cm<em><em><em><em><em><em><em><em><em><em>&sup2;</em></em></em></em></em></em></em></em></em></em> de secci&oacute;n transversal conduce l&iacute;quido...</a> <br><a href="flu_NMS006.html"><em>NMS</em>06) Una canilla tiene una secci&oacute;n de 2 cm<em>&sup2;</em> y por ella circula agua con...</a><br>
+<a href="flu_NMS007.html"><em>NMS</em>07) Dos tanques contienen un l&iacute;quido viscoso hasta diferentes alturas...<br>
+</a><a href="flu_NMS008.html"><em>NMS</em>08) A un paciente en un hospital se le efect&uacute;a una transfusi&oacute;n de sangre...</a> <br>
+<a href="flu_NMS009.html"><em>NMS</em>09)  Tres conductos horizontales, de igual longitud y &aacute;rea...</a> <br>
+<span class="Estilo36"><a href="flu_NMS012.html"><em>NMS</em>12) Tres ca&ntilde;os id&eacute;nticos conectados dos en serie</a></span><a href="flu_NMS012.html">...</a> <br><a href="flu_NMS015.html"><em>NMS</em>15) Un l&iacute;quido de densidad 1,8 kg/lt y viscosidad...</a> <br><a href="flu_NMS022.html"><em>NMS</em>22) Una peque&ntilde;a arteria tiene una longitud de 0,11 cm...</a> <br><a href="flu_NMS023.html"><em>NMS</em>23) Por  un tubo horizontal (A) de resistencia hidrodin&aacute;mica R=225 atm.seg...</a><br><a href="flu_NMS025.html"><em>NMS</em>25) &iquest;Cu&aacute;nto vale la potencia de una cascada de agua...</a> <br><a href="flu_NMS027.html"><em>NMS</em>27) La resistencia hidrodin&aacute;mica de un conducto cil&iacute;ndrico nuevo es R...</a><br><a href="flu_NMS031.html"><em>NMS</em>31) La ca&ntilde;er&iacute;a representada en la figura tiene  una secci&oacute;n...</a> <br><a href="flu_NMS033.html"><em>NMS</em>33) Cuál es la fuerza neta sobre las alas  de un avión...</a> <br>
+<a href="flu_NMS035.html"><em>NMS</em>35) Una bomba hidr&aacute;ulica entrega 1 W de potencia a un circuito...</a> <br>
+<a href="flu_NMS039.html"><em>NMS</em>39) Un fluido no viscoso circula por un conducto de secci&oacute;n variable...</a> <br>
+<a href="flu_NMS040.html"><em>NMS</em>40) La potencia de un coraz&oacute;n es de 1,2 w. Si la viscosidad...</a> <br>
+<a href="flu_NMS042.html"><em>NMS</em>42) Considerando que la potencia de un corazón es de 1,2W...</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br>
+<a href="flu_NMS043.html"><em>NMS</em>43) Por un caño horizontal de diámetro constante...</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+      </tr>
+    </table></td>
+    <td class="bodytext" colspan="2" valign="top" width="86"><table width="83" height="56" border="0" cellpadding="0" cellspacing="0">
+      <tr>
+        <td align="center" class="epigrafe"><a href="flu_desafios.html" target="_blank">Respuestas a los <em><strong>desaf&iacute;os</strong></em>.</a></td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td height="27" bgcolor="#FFFFFF" class="bodytext"><em><strong>EJERCICIOS DE GASES Y HUMEDAD RELATIVA</strong></em></td>
+    <td class="bodytext" colspan="2" valign="top" width="86">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="27" bgcolor="#FFFFFF" class="bodytext"><table width="506" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="26" height="75" class="bodytext">&nbsp;</td>
+        <td width="480" class="bodytext"><span class="Estilo36"><a href="flu_025.html">25) Un tanque contiene 0,2 m3 de ox&iacute;geno a 25 atm y 25&deg;C...</a><em> <em><br>
+        </em></em><a href="flu_026.html">26) Una persona respira aire enriquecido con ox&iacute;geno...</a><em><em> <br>
+        </em></em><a href="flu_027.html">27) En un sal&oacute;n de 300 m3 la presi&oacute;n del aire se mantiene constante a 1 atm<em><em>...</em></em></a><em><em> <br>
+        </em></em><a href="flu_028.html">28) La composici&oacute;n del aire a nivel del mar, en gramos/litro, es</a>... <br>
+        <a href="flu_029.html">29) Un cilindro de 30 cm3 est&aacute; comunicado con un recipiente...</a> <br>
+        <a href="flu_030.html">30) En un recipiente de 1 litro, en el que previamente se ha hecho vac&iacute;o...</a></span><br>
+        <span class="Estilo36"><a href="flu_031.html">31) Responda sobre la base a la observaci&oacute;n del gr&aacute;fico...</a><em><em> <br>
+        </em></em><a href="flu_032.html">32) Un recipiente con agua l&iacute;quida est&aacute; en contacto con aire atmosf&eacute;rico...</a> </span><br>
+        <a href="flu_033.html">33) <span class="Estilo36">En una habitaci&oacute;n de 60 m3 y que contiene aire seco a 25 &deg;C...<br>
+        </span></a><a href="flu_034.html">34) Una masa de aire est&aacute; a 5&deg;C y tiene una humedad relativa del 25 %...</a><em><em> <br>
+        </em></em><a href="flu_035.html">35) Si la fraccci&oacute;n molar del vapor del agua en el aire es..</a><br>
+        <a href="flu_em08.html">EM8) Un gas ideal est&aacute; en recipiente cerrado de 0,25 lt y...</a><br>
+        <a href="flu_em09.html">EM9) &iquest;Qu&eacute; le pasar&iacute;a a un gas ideal en un dep&oacute;sito de volumen...</a><br>
+        <a href="flu_em10.html">EM10) Si se respira aire atmosf&eacute;rico con un 21 % de ox&iacute;geno a...</a> <br>
+        <a href="flu_em11.html">EM11) &iquest;Cu&aacute;l es la ventaja de las ollas a presi&oacute;n?</a> <br>
+        <a href="flu_em12.html">EM12) Un d&iacute;a en que la humedad relativa ambiente es del 70%...</a><br>
+        <a href="flu_em13.html">EM13) Dos moles de gas A y tres moles de gas B forman una mezcla...</a> <br>
+        <a href="flu_em15.html">EM15) En un d&iacute;a caluroso y h&uacute;medo (70% de humedad relativa)...</a><br>
+        <a href="flu_em22.html">EM22) Un d&iacute;a en el que la temperatura es de 30&deg;C...</a><br>
+        <span class="Estilo36"><a href="flu_em25.html">EM25) A presi&oacute;n atmosf&eacute;rica el contenido de O2 en el aire</a></span><a href="flu_em25.html">...</a> <br>
+        <a href="flu_NMS001.html"><em>NMS</em>01) En un recipiente se introduce aire a presi&oacute;n atmosf&eacute;rica...</a> <br>
+        <a href="flu_NMS020.html"><em>NMS</em>20) Una ma&ntilde;ana de invierno el Servicio Meteorol&oacute;gico  Nacional...</a><br>
+        <a href="flu_NMS024.html"><em>NMS</em>24) Cierta madrugada en Bs As la temperatura   era 11&ordm;C con una humedad...</a> </td>
+      </tr>
+    </table></td>
+    <td class="bodytext" colspan="2" valign="top" width="86"><table width="83" height="56" border="0" cellpadding="0" cellspacing="0">
+      <tr>
+        <td align="center" class="epigrafe"><a href="flu_desafios.html" target="_blank">Respuestas a los <em><strong>desaf&iacute;os</strong></em>.</a></td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td height="27" bgcolor="#FFFFFF" class="bodytext"><em><strong>EJERCICIOS DE MECANISMOS DE TRANSPORTE</strong><em></em><strong>&#160; &#160;&#160;</strong></em></td>
+    <td class="bodytext" colspan="2" valign="top" width="86">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="27" bgcolor="#FFFFFF" class="bodytext"><table width="506" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="26" height="75" class="bodytext">&nbsp;</td>
+        <td width="480" class="bodytext"><a href="transp_001.html">tr1) Se tiene una soluci&oacute;n acuosa de 5 g de az&uacute;car...</a>&#160; &#160;&#160;<em><em> <br>
+        </em></em><a href="transp_002.html">tr2) &iquest;Cu&aacute;ntos mililitros de soluci&oacute;n 1 M de cloruro de sodio...</a> <em><em><br>
+        </em></em><a href="transp_003.html">tr3) Se agrega un grano de sal (NaCl) en un litro de agua destilada...</a> <em><em><br>
+        </em></em><a href="transp_004.html">tr4) Un recipiente con una soluci&oacute;n de pepsina en agua de concentraci&oacute;n...</a><em><strong><br>
+</strong></em><a href="transp_005.html">tr5) Una membrana de 0,3 mm de espesor separa dos soluciones de glucosa...</a> <br><a href="transp_006.html">tr6) Calcular la permeabilidad de una membrana biol&oacute;gica de <em>5 x 10</em><sup>-4</sup><em> <span class="Estilo17">cm</span></em> de...</a><br><a href="transp_008.html">tr8) Se tiene un recipiente que contiene una soluci&oacute;n 0,1M de NaCl...</a> <br><a href="transp_009.html">tr9) En tres embudos invertidos, tapados con membranas...</a><br><a href="transp_010.html">tr10) &iquest;Cu&aacute;l es la presi&oacute;n osm&oacute;tica, en atm, de una soluci&oacute;n de 20 g/lt de...</a><strong> <em><em><br>
+</em></em></strong><a href="transp_011.html">tr11) El plasma sangu&iacute;neo contiene 45 g/lt de alb&uacute;mina...</a><strong><em><em><br>
+</em></em></strong><a href="transp_012.html">tr12) Una soluci&oacute;n 0,15 molar de ClNa es isot&oacute;nica con el plasma sangu&iacute;neo...</a> <strong><em><em><br>
+</em></em></strong><a href="transp_013.html">tr13) Suponiendo que el agua de mar es una disoluci&oacute;n acuosa 0,2 molar...</a><strong> <em><em><br>
+</em></em></strong><a href="transp_014.html">tr14) &iquest;Qu&eacute; trabajo deben realizar los ri&ntilde;ones para eliminar 200 litros...</a><strong><em><em> <br>
+</em></em></strong><a href="transp_015.html">tr15) &iquest;Cu&aacute;l es la presi&oacute;n osm&oacute;tica de una soluci&oacute;n de &aacute;cido sulf&uacute;rico...</a><strong><em><em><br>
+</em></em></strong><a href="transp_016.html">tr16) Determine el costo para desalinizar por &oacute;smosis inversa...</a><strong> <br>
+</strong><a href="transp_em01.html">trEM1) &iquest;Cu&aacute;l de las afirmaciones siguientes es la &uacute;nica correcta?...</a><strong> <em><em><br>
+</em></em></strong><a href="transp_em02.html">trEM2) El coeficiente de difusi&oacute;n de un soluto en agua es 9 x 10<sup>-11</sup> m&sup2; s<sup>-1</sup>...</a> <br><a href="transp_em03.html">trEM3) El coeficiente de difusi&oacute;n de un soluto en agua es 9 x 10<sup>-11</sup> m&sup2; s<sup>-1</sup>...</a> <br><a href="transp_em04.html">trEM4) Una membrana celular de <em>8</em> <span class="Estilo17"><em>nm</em></span> de espesor tiene...</a> <br><a href="transp_em05.html">trEM5) Dos recipientes iguales contienen 1 litro de agua cada uno...</a> <br><a href="transp_em06.html">trEM6) &iquest;Qu&eacute; temperatura aproximada tiene una soluci&oacute;n de 90 g de az&uacute;car...</a> <br><a href="transp_em07.html">trEM7) A los lados de una membrana semipermeable hay dos compartimientos...</a> <br><a href="transp_em08.html">trEM8) La diferencia de presi&oacute;n osm&oacute;tica entre ambos lados de una membrana...</a><br><a href="transp_em09.html">trEM9) A trav&eacute;s de una membrana semipermeable...</a><em><strong> <br>
+</strong></em><a href="transp_em10.html">trEM10) Se tomaron algunas c&eacute;lulas vegetales...</a><br><a href="transp_em11.html">trEM11) La diferencia de presi&oacute;n osm&oacute;tica a trav&eacute;s de una membrana...</a><em><strong> <br>
+</strong></em><a href="transp_em12.html">trEM12) Un tubo horizontal cerrado en ambos extremos con un &eacute;mbolo poroso...</a><br><a href="transp_em13.html">trEM13) La diferencia de presi&oacute;n osm&oacute;tica existente entre ambas caras...</a> <br><a href="transp_em14.html">trEM14) En el plasma sangu&iacute;neo hay globulina y alb&uacute;mina con una...</a> <br><a href="transp_em15.html">trEM15) Si la temperatura de las soluciones que se encuentran a ambos lados...</a><br><a href="transp_ad01.html">tr<em>NMS</em>01) El cilindro de la figura, de secci&oacute;n 1 cm<em>&sup2;, </em> tiene a la izquierda...</a> <br><a href="transp_ad02.html">tr<em>NMS</em>02) Una membrana semipermeable divide dos soluciones...</a> <br><a href="transp_ad03.html">tr<em>NMS</em>03) Dos recipientes iguales contienen 3 litros cada uno de soluci&oacute;n de agua...</a><br>
+<a href="transp_ad04.html">tr<em>NMS</em>04) Se tienen dos recipientes (A y B) con soluciones de plasma sangu&iacute;neo...</a>&nbsp;<br>
+<a href="transp_ad05.html">tr<em>NMS</em>05) Dos soluciones de sal en agua de diferentes concentraciones...</a> &nbsp; </td>
+      </tr>
+    </table></td>
+    <td class="bodytext" colspan="2" valign="top" width="86"><table width="83" height="56" border="0" cellpadding="0" cellspacing="0">
+      <tr>
+        <td align="center" class="epigrafe"><a href="flu_desaf_tr.html">Respuestas a los <em><strong>desaf&iacute;os</strong></em> de mecanismos de transporte</a></td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td rowspan="2" bgcolor="#FFFFFF" class="bodytext">&nbsp;</td>
+    <td width="86" colspan="2" rowspan="2" valign="top" class="bodytext"><p><br>
+    </p>      </td>
+  </tr>
+   
+  
+  <tr>
+    <td height="14" align="center" class="bodytext">&nbsp;</td>
+    </tr>
+  
+
+ 
+<tr>
+  <td height="14" valign="bottom" bgcolor="#FFFFFF" class="bodytext"><strong><em><em>&#160; &#160;&#160; &#160;</em></em></strong></td>
+  <td class="bodytext">&nbsp;</td>
+  <td width="86" colspan="2" rowspan="6" class="bodytext"><strong><em><sub><p><img src="img_hdinam/ric_fotoric.jpg" alt="Flu&iacute;dos - Ricardo Cabrera" width="85" height="110"></sub></em></strong></td>
+</tr>
+<tr>
+  <td height="14" valign="bottom" bgcolor="#FFFFFF" class="bodytext"><p><img src="img_hdinam/transparente.gif" width="505" height="14"></td>
+  <td class="bodytext">&nbsp;</td>
+</tr>
+
+<tr>
+  <td height="44" align="center" bgcolor="#FFFFCC" class="bodytext"><table width="94%" border="0">
+    <tr>
+      <td class="epigrafe">Si los ejercicios y apuntes <em>No me salen</em> te resultaron &uacute;tiles y amenos, pod&eacute;s comentarlo en alg&uacute;n foro de discusi&oacute;n acad&eacute;mica. As&iacute;, m&aacute;s estudiantes podr&aacute;n acceder a ellos. Si vos pod&eacute;s y quer&eacute;s traducir al ingl&eacute;s, entr&aacute; <a href="../miscelanea/voluntario.html">ac&aacute;</a>. Gracias.</td>
+    </tr>
+  </table></td>
+  <td class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td bgcolor="#FFFFFF" class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+  </tr>
+<tr>
+  <td bgcolor="#FFFFFF" class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+  </tr>
+<tr> <td rowspan="2" align="center" valign="middle" bgcolor="#CCCCCC" class="bodytext">
+  <table width="97%" border="0">
+    <tr>
+      <td height="50"><span class="epigrafe">Algunos  derechos reservados. 
+        Se permite su reproducci&oacute;n citando la fuente. 
+        El contenido de este sitio se halla sometido a las condiciones de uso de la licencia especificada en este <a href="../../licencia.html">AVISO LEGAL</a>. 
+        &Uacute;ltima actualizaci&oacute;n dic-15. Buenos Aires, Argentina. </span></td>
+    </tr>
+  </table>
+  </blockquote></td>
+  <td class="bodytext" width="10">&nbsp;</td>
+</tr> 
+<tr> <td width="10" height="18" class="bodytext">&nbsp;</td>
+<td width="86" colspan="2" align="center" valign="middle" bgcolor="#CCCCCC" class="bodytext"><table width="85" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td height="31" align="center" valign="middle"><!-- Start of StatCounter Code for Default Guide -->
+<script type="text/javascript">
+var sc_project=10595522; 
+var sc_invisible=0; 
+var sc_security="1b3ec94d"; 
+var scJsHost = (("https:" == document.location.protocol) ?
+"https://secure." : "http://www.");
+document.write("<sc"+"ript type='text/javascript' src='" +
+scJsHost+
+"statcounter.com/counter/counter.js'></"+"script>");
+</script>
+<noscript><div class="statcounter"><a title="shopify visitor
+statistics" href="http://statcounter.com/shopify/"
+target="_blank"><img class="statcounter"
+src="http://c.statcounter.com/10595522/0/1b3ec94d/0/"
+alt="shopify visitor statistics"></a></div></noscript>
+<!-- End of StatCounter Code for Default Guide --></td>
+  </tr>
+</table></td>
+</tr> 
+</table></td></tr> </table><p><img src="img_hdinam/transparente.gif" width="10" height="20"></td></tr> 
+<tr> <td class="bodytext"><p><img src="img_hdinam/transparente.gif" width="527" height="14"></td>
+</tr> 
+</table>
+</body>
+</html>

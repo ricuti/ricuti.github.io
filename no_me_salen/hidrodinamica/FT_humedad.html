@@ -1,0 +1,384 @@
+<html>
+<head>
+<title>Ricardo Cabrera, MECANICA DE FLUIDOS, HUMEDAD RELATIVA</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="keywords" content="problemas resueltos, ejercicios resueltos, cbc, fisica, biofisica, fluidos, liquidos, gases, bernoulli, poiseuille, viscosidad, ideales, viscosos, humedad, difusion, osmosis, nomesalen, no me salen, ricardo cabrera" />
+<meta name="description" content="Ejercicios y problemas resueltos, y apuntes teóricos de Fluidos, mecanismos de transporte de fluidos" />
+<link rel="stylesheet" href="win_ie.css">
+<style type="text/css">
+<!--
+.style1 {
+	color: #3F6386;
+	font-weight: bold;
+}
+.Estilo3 {color: #3F6386}
+.Estilo16 {font-size: 16px}
+.Estilo17 {
+	font-size: 10px;
+	font-style: italic;
+	font-weight: bold;
+}
+.Estilo18 {font-size: 10px}
+.Estilo19 {font-style: italic}
+-->
+</style>
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000" alink="#000000" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<table align=center width="600" border="0" cellspacing="0" cellpadding="0"> 
+  <tr bgcolor="#000000" align="right"> 
+<td><img src="img_hdinam/nombre5.gif" width="369" height="71"></td></tr> <tr bgcolor="#BB0000" valign="middle" align="left"> 
+<td class="bodytext" height="20"><TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+  <TR ALIGN="center" CLASS="menuitem">
+    <TD WIDTH="43" height="19" CLASS="menuitem"><A HREF="../../index.html" CLASS="menuitem">&nbsp;<B>home</B>&nbsp;</A></TD>
+    <TD WIDTH="5" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="119" CLASS="menuitem"><strong><a href="index_hdinam.html" class="menuitem">más de hidrodinámica </a> </strong></TD>
+    <TD width="9" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="127" CLASS="menuitem"><strong><a href="../../intro_NMS.html" class="menuitem">otros temas de F&iacute;sica</a></strong></TD>
+    <TD width="10" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="160" CLASS="menuitem"><strong><a href="../../lista_ciruela.html" class="menuitem">lecciones del maestro Ciruela </a></strong></TD>
+    <TD width="8" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="67" CLASS="menuitem"><strong><a href="../../lista_tonterias.html" class="menuitem">tonter&iacute;as</a></strong></TD>
+    <TD WIDTH="7" CLASS="menuitem"><a href="../energia/index_energia.html" class="menuitem"></a><FONT COLOR="#000000">|</FONT></TD>
+    <TD WIDTH="48" CLASS="menuitem">&nbsp;<B><FONT FACE="Arial, Helvetica, sans-serif"><A HREF="mailto: ricuti@qi.fcen.uba.ar" CLASS="menuitem">@</A></FONT><A HREF="../../index.html" CLASS="menuitem"></A></B>&nbsp;</TD>
+  </TR>
+</TABLE></td></tr> <tr> <td class="bodytext" height="11"><p><img src="img_hdinam/transparente.gif" width="600" height="11"></td>
+</tr> 
+<tr align="center"> <td height="3181"> <table width="600" border="0" cellspacing="0" cellpadding="0"> 
+<tr class="bodytext"> <td valign="top" width="594" height="2588"> 
+<table width="600" border="0" cellspacing="0" cellpadding="0"> 
+  <tr> 
+  <td width="510" height="74" bgcolor="#D7FFFF" class="bodytext"><span class="bodytext"><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>NO ME SALEN<br>
+</strong></span><span class="Estilo3"><em class="bodytext "><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>(<strong>LECCIONES TEORICAS  DE BIOF&Iacute;SICA DEL CBC</strong>)</strong></em></span><br>
+      <span class="titulograndegris Estilo16"><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>FLUIDOS<br>
+      </strong></span><span class="titulochicogris"><strong> <em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>HUMEDAD RELATIVA AMBIENTE </strong></span><span class="Estilo3"><br>
+      </span><br> </td>
+  <td class="bodytext" rowspan="3" height="74" width="10">&nbsp;</td>
+  <td class="bodytext" colspan="2" height="74" rowspan="3" valign="top" width="86"> 
+<p><img src="img_hdinam/cap10.jpg" alt="desesperado" width="85" height="107"></p></td></tr>
+  <tr>
+    <td height="18" bgcolor="#FFFFFF" class="bodytext">&nbsp;</td>
+  </tr> 
+<tr> <td height="356" class="bodytext"><p><strong>EQUILIBRIO LIQUIDO-VAPOR &ndash; PRESION DE VAPOR<br>
+</strong>Todos los  l&iacute;quidos se evaporan: algunos m&aacute;s r&aacute;pido, otros m&aacute;s lentamente. De los primeros  decimos que son vol&aacute;tiles, como el alcohol. Vamos a estudiar este fen&oacute;meno en particular para el agua y la humedad, con  un poco m&aacute;s de detalle.</p>
+    <p> Supongamos  un recipiente cerrado en el que hay aire seco (absolutamente seco, sin una sola mol&eacute;cula de agua volando) y en el que se  introduce un poco de agua. Mir&aacute; la ilustraci&oacute;n. </p>
+    <p><strong>a)</strong> Inmediatamente algunas  mol&eacute;culas de agua traspasan la superficie y salen volando, pasando al estado  gaseoso e integrando una fase nueva: el vapor (este proceso se llama  evaporaci&oacute;n). Los numeritos representan la cantidad (hipot&eacute;tica) de mol&eacute;culas que est&aacute;n volando (en el inicio no hay ninguna, acordate que en el recipiente hab&iacute;a aire <strong>seco</strong>). </p>
+    <p><strong>b)</strong> Le siguen m&aacute;s y m&aacute;s mol&eacute;culas que pasan de la fase l&iacute;quida a la  fase gaseosa. Algunas mol&eacute;culas retornan a la fase l&iacute;quida (eso es la  condensaci&oacute;n); al principio pocas, porque no hab&iacute;a muchas volando en la fase gaseosa. </p>
+    <p><strong>c)</strong> A medida que la fase  vapor se va poblando de m&aacute;s y m&aacute;s mol&eacute;culas, la velocidad de retorno va  creciendo, hasta que se iguala con la velocidad de despegue y se alcanza un  equilibrio din&aacute;mico. Supongamos que en ese momento hay 60 mol&eacute;culas en la fase gaseosa. </p>
+    <p><strong>d)</strong> La misma cantidad de mol&eacute;culas que pasan del estado  l&iacute;quido al estado gaseoso, pasan del gaseoso al l&iacute;quido. Si 7 mol&eacute;culas nuevas se evaporan, otras 7 se condensan. Aunque dejemos pasar dos horas... seguir&aacute; habiendo 60 mol&eacute;culas en la fase gaseosa. Es lo que se llama un equilibrio din&aacute;mico. </p></td>
+  </tr>  
+<tr> 
+  <td height="137" align="center" class="bodytext"><p><img src="img_hdinam/FT_humedad.gif" alt="Flu&iacute;dos - Ricardo Cabrera" width="470" height="120"></td>
+  <td class="bodytext" width="10">&nbsp;</td>
+  <td class="bodytext" colspan="2" width="86">&nbsp;</td>
+</tr>
+<tr>
+  <td height="99" align="left" class="bodytext"><p>La presi&oacute;n parcial de la humedad en  la fase gaseosa de agua que parti&oacute; de cero alcanz&oacute; un valor constante. Este  valor se llama <strong>presi&oacute;n de vapor</strong> <strong>de saturaci&oacute;n</strong>, y s&oacute;lo depende de la temperatura a la que se  realiza el experimento. Por ejemplo, si el mismo experimento lo hubi&eacute;semos realizado un d&iacute;a m&aacute;s caluroso, en lugar de alcanzar el equilibrio en 60 mol&eacute;culas, lo habr&iacute;a alcanzado en -por ejemplo- 85. Ac&aacute; ten&eacute;s un gr&aacute;fico que cuenta lo mismo que el experimento que te acabo de narrar. </p>    </td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext" colspan="2">&nbsp;</td>
+</tr>
+<tr>
+  <td height="86" align="left" class="bodytext"><table width="100%" border="0">
+    <tr>
+      <td width="48%"><p><img src="img_hdinam/FT_humedad_7.gif" alt="Flu&iacute;dos - Ricardo Cabrera" width="220" height="120"></td>
+      <td width="52%" class="bodytext"><p>La cantidad de mol&eacute;culas que ten&eacute;s en la fase gaseosa va aumentando a medida que transcurre el tiempo (curva celeste). Y se aproxima asint&oacute;ticamente a un valor constante, que no va a superar. Cuando llega a ese estado decimos que el volumen se halla <strong>saturado</strong>.</p>
+        <p>Si el experimento ocurre a una temperatura mayor (<strong><em>T<strong><em><strong><strong><em><strong><em><sub>2</sub></em></strong><span class="Estilo19"><sub> </sub></span></em></strong></strong></em></strong></em></strong><em><strong>&gt; </strong></em><strong><em>T<strong><em><strong><strong><em><strong><em><sub>1</sub></em></strong></em></strong></strong></em></strong></em></strong>) la cantidad de mol&eacute;culas en la saturaci&oacute;n ser&aacute; mayor (curva verde). </p></td>
+    </tr>
+  </table></td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext" colspan="2">&nbsp;</td>
+</tr>
+<tr>
+  <td height="108" align="left" class="bodytext">Los valores alcanzados en la saturaci&oacute;n son muy robustos. Y a todos los experimentadores les dan los mismos valores: las cantidades en la saturaci&oacute;n son siempre los mismos y dependen exclusivamente de la temperatura. Es sorprendente que sea independiente de la presi&oacute;n total que haya en el recipiente debido a la presencia de otros gases: las mol&eacute;culas de vapor de agua se comportan como si fueran lo &uacute;nico que existe en el universo. Esas cantidades de vapor en el momento de la saturaci&oacute;n est&aacute;n consignados en tablas como &eacute;sta: </td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext" colspan="2">&nbsp;</td>
+</tr>
+<tr>
+  <td height="438" align="left" class="bodytext"><table width="100%" border="0">
+    <tr>
+      <td width="48%" height="252" align="left" valign="middle" bordercolor="#000000" bgcolor="#FFFFFF" class="bodytext"><table width="220" border="1" cellpadding="0" cellspacing="0">
+        <tr>
+          <td height="35" colspan="3" valign="top" bgcolor="#FFFFFF" class="bodytext"><p align="center"><strong>Presi&oacute;n de vapor de agua a    diferentes temperaturas</strong></p></td>
+        </tr>
+        <tr>
+          <td width="67" height="21" valign="top" bgcolor="#FFFFFF" class="bodytext"><p align="right"><em><strong>T</strong></em> (<span class="Estilo17">&deg;C</span>) </p></td>
+          <td width="77" align="left" valign="middle" bgcolor="#FFFFFF" class="bodytext"><p><strong><em><strong><em><strong><strong>&#160;&#160; &#160;</strong></strong></em></strong>P</em></strong>    (<span class="Estilo17">atm</span>)</p></td>
+          <td width="68" align="left" valign="middle" bgcolor="#FFFFFF" class="bodytext"><strong><em><strong><em><strong><strong>&#160;&#160; &#160;</strong></strong></em></strong>P</em></strong> (<span class="Estilo17">kPa</span>)</td>
+        </tr>
+        <tr>
+          <td width="67" align="right" valign="top" bgcolor="#FFFFFF" class="bodytext"><p>0<strong><em><strong><em><strong><strong>&#160; &#160;&#160; &#160;</strong></strong></em></strong></em></strong></p></td>
+          <td width="77" valign="top" bgcolor="#FFFFFF" class="bodytext"><p><strong><em><strong><em><strong><strong>&#160;&#160; &#160;</strong></strong></em></strong></em></strong>0,00626</p></td>
+          <td width="68" valign="top" bgcolor="#FFFFFF" class="bodytext"><strong><em><strong><em><strong><strong>&#160;&#160; &#160;</strong></strong></em></strong></em></strong>0,612</td>
+        </tr>
+        <tr>
+          <td width="67" align="right" valign="top" bgcolor="#FFFFFF" class="bodytext"><p>5<strong><em><strong><em><strong><strong>&#160; &#160;&#160; &#160;</strong></strong></em></strong></em></strong></p></td>
+          <td width="77" valign="top" bgcolor="#FFFFFF" class="bodytext"><p><strong><em><strong><em><strong><strong>&#160;&#160; &#160;</strong></strong></em></strong></em></strong>0,00856</p></td>
+          <td width="68" valign="top" bgcolor="#FFFFFF" class="bodytext"><strong><em><strong><em><strong><strong>&#160;&#160; &#160;</strong></strong></em></strong></em></strong>0,871</td>
+        </tr>
+        <tr>
+          <td width="67" align="right" valign="top" bgcolor="#FFFFFF" class="bodytext"><p>10<strong><em><strong><em><strong><strong>&#160; &#160;&#160; &#160;</strong></strong></em></strong></em></strong></p></td>
+          <td width="77" valign="top" bgcolor="#FFFFFF" class="bodytext"><p><strong><em><strong><em><strong><strong>&#160;&#160; &#160;</strong></strong></em></strong></em></strong>0,0121</p></td>
+          <td width="68" valign="top" bgcolor="#FFFFFF" class="bodytext"><strong><em><strong><em><strong><strong>&#160;&#160; &#160;</strong></strong></em></strong></em></strong>1,226</td>
+        </tr>
+        <tr>
+          <td width="67" align="right" valign="top" bgcolor="#FFFFFF" class="bodytext"><p>15<strong><em><strong><em><strong><strong>&#160; &#160;&#160; &#160;</strong></strong></em></strong></em></strong></p></td>
+          <td width="77" valign="top" bgcolor="#FFFFFF" class="bodytext"><p><strong><em><strong><em><strong><strong>&#160;&#160; &#160;</strong></strong></em></strong></em></strong>0,0168</p></td>
+          <td width="68" valign="top" bgcolor="#FFFFFF" class="bodytext"><strong><em><strong><em><strong><strong>&#160;&#160; &#160;</strong></strong></em></strong></em></strong>1,70</td>
+        </tr>
+        <tr>
+          <td width="67" align="right" valign="top" bgcolor="#FFFFFF" class="bodytext"><p>20<strong><em><strong><em><strong><strong>&#160; &#160;&#160; &#160;</strong></strong></em></strong></em></strong></p></td>
+          <td width="77" valign="top" bgcolor="#FFFFFF" class="bodytext"><p><strong><em><strong><em><strong><strong>&#160;&#160; &#160;</strong></strong></em></strong></em></strong>0,0230</p></td>
+          <td width="68" valign="top" bgcolor="#FFFFFF" class="bodytext"><strong><em><strong><em><strong><strong>&#160;&#160; &#160;</strong></strong></em></strong></em></strong>2,33</td>
+        </tr>
+        <tr>
+          <td align="right" valign="top" bgcolor="#FFFFFF" class="bodytext"><p>25<strong><em><strong><em><strong><strong>&#160; &#160;&#160; &#160;</strong></strong></em></strong></em></strong></p></td>
+          <td valign="top" bgcolor="#FFFFFF" class="bodytext"><p><strong><em><strong><em><strong><strong>&#160;&#160; &#160;</strong></strong></em></strong></em></strong>0,0313</p></td>
+          <td valign="top" bgcolor="#FFFFFF" class="bodytext"><strong><em><strong><em><strong><strong>&#160;&#160; &#160;</strong></strong></em></strong></em></strong>3,17</td>
+        </tr>
+        <tr>
+          <td width="67" align="right" valign="top" bgcolor="#FFFFFF" class="bodytext"><p>30<strong><em><strong><em><strong><strong>&#160; &#160;&#160; &#160;</strong></strong></em></strong></em></strong></p></td>
+          <td width="77" valign="top" bgcolor="#FFFFFF" class="bodytext"><p><strong><em><strong><em><strong><strong>&#160;&#160; &#160;</strong></strong></em></strong></em></strong>0,0418</p></td>
+          <td width="68" valign="top" bgcolor="#FFFFFF" class="bodytext"><strong><em><strong><em><strong><strong>&#160;&#160; &#160;</strong></strong></em></strong></em></strong>4,24</td>
+        </tr>
+        <tr>
+          <td width="67" align="right" valign="top" bgcolor="#FFFFFF" class="bodytext"><p>37<strong><em><strong><em><strong><strong>&#160; &#160;&#160; &#160;</strong></strong></em></strong></em></strong></p></td>
+          <td width="77" valign="top" bgcolor="#FFFFFF" class="bodytext"><p><strong><em><strong><em><strong><strong>&#160;&#160; &#160;</strong></strong></em></strong></em></strong>0,0621</p></td>
+          <td width="68" valign="top" bgcolor="#FFFFFF" class="bodytext"><strong><em><strong><em><strong><strong>&#160;&#160; &#160;</strong></strong></em></strong></em></strong>6,29</td>
+        </tr>
+        <tr>
+          <td width="67" align="right" valign="top" bgcolor="#FFFFFF" class="bodytext"><p>40<strong><em><strong><em><strong><strong>&#160; &#160;&#160; &#160;</strong></strong></em></strong></em></strong></p></td>
+          <td width="77" valign="top" bgcolor="#FFFFFF" class="bodytext"><p><strong><em><strong><em><strong><strong>&#160;&#160; &#160;</strong></strong></em></strong></em></strong>0,0728</p></td>
+          <td width="68" valign="top" bgcolor="#FFFFFF" class="bodytext"><strong><em><strong><em><strong><strong>&#160;&#160; &#160;</strong></strong></em></strong></em></strong>7,38</td>
+        </tr>
+        <tr>
+          <td width="67" align="right" valign="top" bgcolor="#FFFFFF" class="bodytext"><p>60<strong><em><strong><em><strong><strong>&#160; &#160;&#160; &#160;</strong></strong></em></strong></em></strong></p></td>
+          <td width="77" valign="top" bgcolor="#FFFFFF" class="bodytext"><p><strong><em><strong><em><strong><strong>&#160;&#160; &#160;</strong></strong></em></strong></em></strong>0,196</p></td>
+          <td width="68" valign="top" bgcolor="#FFFFFF" class="bodytext"><strong><em><strong><em><strong><strong>&#160;&#160;</strong></strong></em></strong></em></strong>19,94</td>
+        </tr>
+        <tr>
+          <td width="67" align="right" valign="top" bgcolor="#FFFFFF" class="bodytext"><p>80<strong><em><strong><em><strong><strong>&#160; &#160;&#160; &#160;</strong></strong></em></strong></em></strong></p></td>
+          <td width="77" valign="top" bgcolor="#FFFFFF" class="bodytext"><p><strong><em><strong><em><strong><strong>&#160;&#160; &#160;</strong></strong></em></strong></em></strong>0,466</p></td>
+          <td width="68" valign="top" bgcolor="#FFFFFF" class="bodytext"><strong><em><strong><em><strong><strong>&#160;&#160;</strong></strong></em></strong></em></strong>47,35</td>
+        </tr>
+        <tr>
+          <td width="67" align="right" valign="top" bgcolor="#FFFFFF" class="bodytext"><p>100<strong><em><strong><em><strong><strong>&#160; &#160;&#160; &#160;</strong></strong></em></strong></em></strong></p></td>
+          <td width="77" valign="top" bgcolor="#FFFFFF" class="bodytext"><p><strong><em><strong><em><strong><strong>&#160;&#160; &#160;</strong></strong></em></strong></em></strong>1,00</p></td>
+          <td width="68" valign="top" bgcolor="#FFFFFF" class="bodytext"> <strong><em><strong><em><strong><strong>&#160;</strong></strong></em></strong></em></strong>101,3</td>
+        </tr>
+        <tr>
+          <td align="right" valign="top" bgcolor="#FFFFFF" class="bodytext"><p>120<strong><em><strong><em><strong><strong>&#160; &#160;&#160; &#160;</strong></strong></em></strong></em></strong></p></td>
+          <td valign="top" bgcolor="#FFFFFF" class="bodytext"><p><strong><em><strong><em><strong><strong>&#160;&#160; &#160;</strong></strong></em></strong></em></strong>1,96</p></td>
+          <td valign="top" bgcolor="#FFFFFF" class="bodytext"><strong><em><strong><em><strong><strong>&#160;</strong></strong></em></strong></em></strong>198,5</td>
+        </tr>
+        <tr>
+          <td align="right" valign="top" bgcolor="#FFFFFF" class="bodytext"><p>130<strong><em><strong><em><strong><strong>&#160; &#160;&#160; &#160;</strong></strong></em></strong></em></strong></p></td>
+          <td valign="top" bgcolor="#FFFFFF" class="bodytext"><p><strong><em><strong><em><strong><strong>&#160;&#160; &#160;</strong></strong></em></strong></em></strong>2,67</p></td>
+          <td valign="top" bgcolor="#FFFFFF" class="bodytext"><strong><em><strong><em><strong><strong>&#160;</strong></strong></em></strong></em></strong>270,1</td>
+        </tr>
+      </table></td>
+      <td width="52%" rowspan="2" align="left" valign="middle" bordercolor="#ECE9D8" class="bodytext"><p>Notemos algunas cosas: </p>
+        <p>En la escala de temperaturas elegida  hay m&aacute;s detalle entre 0 y 30 grados ya que son las temperaturas ambientales  comunes, y los valores consignados tienen importancia para establecer la humedad  del ambiente. </p>
+        <p>La temperatura 37 grados est&aacute; consignada porque es la temperatura  corporal, y a veces la de la piel (habitualmente es m&aacute;s fr&iacute;a); la transpiraci&oacute;n  (b&aacute;sicamente agua) se evapora a la temperatura de la piel. </p>
+        <p>A <em><strong>100&ordm;<span class="Estilo18">C</span></strong></em> la  presi&oacute;n de vapor es <em><strong>1 <span class="Estilo18">atm</span></strong></em>. Eso quiere decir que a 100 grados toda la masa  l&iacute;quida pasa a la fase gaseosa, a la atm&oacute;sfera... <em>&iexcl;</em>como si el agua entrara en  ebullici&oacute;n<em>!</em> (mmm, eso ya lo sab&iacute;amos).</p>
+        <p>Y entonces, a <em><strong>2 <span class="Estilo18">atm</span></strong></em>, el agua hierve a <em><strong>120&ordm;<span class="Estilo18">C</span></strong></em> (como en el autoclave). </p>
+        <p>En el gr&aacute;fico de presiones de vapor lo &uacute;nico que hice fue llevar los valores de   la tabla, de modo que ambos -tabla y gr&aacute;fico- sirven tambi&eacute;n como tabla o   gr&aacute;fico de puntos de ebullici&oacute;n. Eso quiere decir que a diferentes presiones la   temperatura de ebullici&oacute;n no va a ser la misma.</p>        </td>
+    </tr>
+    <tr>
+      <td height="166" align="left" class="bodytext"><p><img src="img_hdinam/FT_humedad_2.gif" width="220" height="142"></td>
+    </tr>
+  </table></td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext" colspan="2">&nbsp;</td>
+</tr>
+<tr>
+  <td height="295" align="left" class="bodytext"><p><strong>IMPORTANTE: </strong><br>
+Supongamos que estamos en la  etapa <strong>d)</strong> del experimento, es decir, la presi&oacute;n de vapor ya fue alcanzada en la  temperatura en la que estemos trabajando. &iquest;Qu&eacute; pasar&iacute;a si a&ntilde;adi&eacute;ramos un poco  de vapor extra con una jeringa? Inmediatamente aumentar&iacute;a la velocidad de  retorno a la fase l&iacute;quida (condensaci&oacute;n) y se restablecer&iacute;a la presi&oacute;n de vapor  al valor de tabla. La condensaci&oacute;n puede ocurrir no s&oacute;lo en la superficie del  l&iacute;quido sino tambi&eacute;n en las paredes del recipiente, o en cualquier parte. O sea  que <strong>la presi&oacute;n de vapor establece el m&aacute;ximo  de vapor que puede coexistir con la fase l&iacute;quida, pero puede haber menos.</strong></p>
+    <p><strong>HUMEDAD RELATIVA AMBIENTE</strong><br>
+      La humedad relativa ambiente  (<em><strong>Hr</strong></em>) indica no s&oacute;lo que el locutor de la radio se qued&oacute; sin tema, sino <strong>qu&eacute; porcentaje de vapor est&aacute; presente en el  ambiente en relaci&oacute;n con el m&aacute;ximo permitido para la temperatura de ese día</strong>, o  sea, cu&aacute;nto hay respecto de lo m&aacute;ximo que podr&iacute;a haber. </p>
+    <p>Por ejemplo: el d&iacute;a del experimento de la ilustraci&oacute;n de arriba, en la etapa <strong>b)</strong> la humedad relativa adentro del recipiente era 50%; y en la etapa <strong>c)</strong> era 75%. Ref&aacute;cil.</p>
+    <p>De modo que:</p>    </td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext" colspan="2">&nbsp;</td>
+</tr>
+<tr>
+  <td height="75" align="left" class="bodytext"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="21%" rowspan="3" align="right" class="bodytext"><strong><em>Hr </em>=</strong></td>
+        <td width="2%" rowspan="3" class="bodytext">&nbsp;</td>
+        <td width="39%" height="0" align="center" valign="bottom" class="bodytext"><em><strong>&nbsp;masa de vapor presente</strong></em></td>
+        <td width="5%" rowspan="3" align="center" valign="middle" class="bodytext">&nbsp;</td>
+        <td width="5%" height="0" align="center" valign="bottom" class="bodytext">&nbsp;</td>
+        <td width="28%" rowspan="3" align="left" valign="middle" class="bodytext">&nbsp;</td>
+      </tr>
+      <tr>
+        <td height="2" align="center" valign="middle" class="epigrafe"><hr align="center" width="100%" style="color:black" size="1" noshade></td>
+        <td align="center" valign="middle" class="epigrafe"></td>
+      </tr>
+      <tr>
+        <td height="0" align="center" valign="top" class="bodytext"><em><strong>m&aacute;xima masa de vapor (T)</strong></em></td>
+        <td height="0" align="center" valign="top" class="bodytext">&nbsp;</td>
+      </tr>
+    </table>
+    </td>
+  <td class="bodytext">&nbsp;</td>
+  <td colspan="2" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="79" align="left" class="bodytext"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="21%" rowspan="3" align="right" class="bodytext"><strong><em>Hr </em>=</strong></td>
+        <td width="2%" rowspan="3" class="bodytext">&nbsp;</td>
+        <td width="41%" height="0" align="center" valign="bottom" class="bodytext"><em><strong>&nbsp;presi&oacute;n de vapor presente</strong></em></td>
+        <td width="3%" rowspan="3" align="center" valign="middle" class="bodytext">&nbsp;</td>
+        <td width="5%" height="0" align="center" valign="bottom" class="bodytext">&nbsp;</td>
+        <td width="28%" rowspan="3" align="left" valign="middle" class="bodytext">&nbsp;</td>
+      </tr>
+      <tr>
+        <td height="2" align="center" valign="middle" class="epigrafe"><hr align="center" width="100%" style="color:black" size="1" noshade></td>
+        <td align="center" valign="middle" class="epigrafe"></td>
+      </tr>
+      <tr>
+        <td height="0" align="center" valign="top" class="bodytext"><em><strong>m&aacute;xima presi&oacute;n de vapor (T)</strong></em></td>
+        <td height="0" align="center" valign="top" class="bodytext">&nbsp;</td>
+      </tr>
+    </table>
+    </td>
+  <td class="bodytext">&nbsp;</td>
+  <td colspan="2" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td align="left" class="bodytext"><p>A la <em>presi&oacute;n de vapor</em> tambi&eacute;n se la llama <em>presi&oacute;n de vapor  saturado</em>, que indica -de mejor manera- que se trata de un m&aacute;ximo y que no admite  m&aacute;s vapor y que todo exceso o a&ntilde;adido ser&aacute; condensado. Como ya sab&eacute;s es un valor que depende de la temperatura: es el valor que figura en la tabla. </p>
+    <p><strong>TEMPERATURA DE ROCIO</strong><br>
+      Hagamos de nuevo el experimento pero  al rev&eacute;s. Supongamos que tenemos un recipiente cerrado que contiene una cierta  cantidad de vapor, menor que la m&aacute;xima permitida por la saturaci&oacute;n: digamos  humedad relativa igual al 60%. Ahora disminuyamos lentamente la temperatura.  Como el recipiente es cerrado la cantidad de vapor no var&iacute;a, pero al bajar la  temperatura disminuye la cantidad m&aacute;xima soportada por el recipiente y por lo  tanto aumenta la humedad relativa. Pasa de 60% a 80%... y si sigue disminuyendo  la temperatura, sigue aumentando la humedad relativa. Y si continuamos enfriando el ambiente llegar&aacute; el momento en que la humedad relativa alcance el 100%: llegar&aacute; el momento  en que la cantidad de vapor encerrada sea igual a la m&aacute;xima admitida por el  ambiente interno. A esa temperatura se la denomina <strong>temperatura de roc&iacute;o (<em>T<span class="Estilo18">roc&iacute;o</span></em>)</strong>.  Una d&eacute;cima de grado menos y ya se empiezan a formar gotitas de roc&iacute;o en las  paredes del recipiente.</p>
+    <p>&iquest;Qu&eacute; pas&oacute;? Pas&oacute; que al seguir  disminuyendo la temperatura, la cantidad de vapor que hab&iacute;a en el recipiente se  hizo mayor que la tolerada y comenz&oacute; a condensarse en min&uacute;sculas gotas.</p>    <p>La temperatura de roc&iacute;o sirve  tambi&eacute;n para conocer la humedad relativa</p>    </td>
+  <td class="bodytext">&nbsp;</td>
+  <td colspan="2" class="bodytext">&nbsp;</td>
+</tr>
+
+
+<tr>
+  <td height="63" align="left" class="bodytext"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td width="14%" rowspan="3" align="right" class="bodytext"><strong><em>Hr </em>=</strong></td>
+      <td width="2%" rowspan="3" class="bodytext">&nbsp;</td>
+      <td width="32%" height="0" align="center" valign="bottom" class="bodytext"><em><strong>&nbsp;presi&oacute;n vap. <sub>(T roc&iacute;o)</sub></strong></em></td>
+      <td width="5%" rowspan="3" align="center" valign="middle" class="bodytext">&nbsp;</td>
+      <td width="19%" height="0" align="center" valign="bottom" class="bodytext">&nbsp;</td>
+      <td width="28%" rowspan="3" align="left" valign="middle" class="bodytext">&nbsp;</td>
+    </tr>
+    <tr>
+      <td height="2" align="center" valign="middle" class="epigrafe"><hr align="center" width="100%" style="color:black" size="1" noshade></td>
+      <td align="center" valign="middle" class="epigrafe"></td>
+    </tr>
+    <tr>
+      <td height="0" align="center" valign="top" class="bodytext"><em><strong>presi&oacute;n  vap. <sub>(T amb)</sub></strong></em></td>
+      <td height="0" align="center" valign="top" class="bodytext">&nbsp;</td>
+    </tr>
+  </table></td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext" colspan="2">&nbsp;</td>
+</tr>
+<tr>
+  <td height="155" align="left" class="bodytext"><p><strong>OTRA CUESTI&Oacute;N IMPORTANTE</strong></p>
+    <p>Fijate que todo lo dicho hasta ac&aacute; es independiente de la presi&oacute;n (y la cantidad de aire) en el medio. La humedad relativa -y la humedad de saturaci&oacute;n- es un fen&oacute;meno que s&oacute;lo concierne a la humedad (o sea, a las mol&eacute;culas de agua) y a la temperatura. No interviene ni el espacio que ocupa ni las otras mol&eacute;culas presentes en ese espacio. En los ejercicios sobre humedad obtendr&iacute;amos los mismos resultados si el fen&oacute;meno ocurre en el aire, en el vac&iacute;o, en el gas metano o en una mezcla de gases t&oacute;xicos. </p></td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext" colspan="2">&nbsp;</td>
+</tr>
+<tr>
+  <td height="47" align="left" class="bodytext"><p><strong>CHISMES IMPORTANTES </strong></p>    </td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext" colspan="2">&nbsp;</td>
+</tr> 
+<tr>
+  <td align="left" bgcolor="#FFFFFF" class="bodytext"><ul>
+    <li>En La Paz, Bolivia, a 3.600 metros sobre el nivel del mar, la  presi&oacute;n atmosf&eacute;rica suele ser menor que <em><strong>760 <span class="Estilo18">mmHg</span></strong></em>, y el agua hierve a menos de<br>  
+      <em><strong>100 <span class="Estilo18">&deg;C</span></strong></em>. Las comidas tardan m&aacute;s  en cocinarse o tienen otro sabor. Por el contrario, la olla a presi&oacute;n (cosa de  abuelas) gracias a su tapa herm&eacute;tica alcanza f&aacute;cilmente las <em><strong>2</strong></em> atm&oacute;sferas, y el  agua hierve a <em><strong>120 <span class="Estilo18">&deg;C</span></strong></em>, con lo que la comida tarda mucho menos en cocinarse y  obtiene otro sabor.</li>
+    <li>En los hospitales se usa una olla a presi&oacute;n de 30 litros o m&aacute;s,  llamada <strong>autoclave</strong>, que sirve para esterilizar todo lo que sea menester (menos term&oacute;metros, of course).</li>
+    <li>Un modo sencillo de medir la  humedad  relativa ambiente es de esta manera: miran el term&oacute;metro de la pared, que por  ejemplo indica <em><strong>20</strong></em> grados. Despu&eacute;s toman una jarrita de acero inoxidable llena  de agua y le van echando cubitos de hielo adentro para enfriarla. Van  controlando la temperatura del agua con un term&oacute;metro y van mirando la  superficie exterior de la jarra atentamente. En determinado momento observan  que la superficie se empa&ntilde;a. Ah&iacute; leen el term&oacute;metro. La lectura es, por  ejemplo, <em><strong>5</strong></em> grados. Luego buscan la tabla de presiones de vapor de agua y se  fijan los valores para esas dos temperaturas. Despu&eacute;s hacen esta cuentita:<br>
+    </li>
+    </ul>    </td>
+  <td class="bodytext">&nbsp;</td>
+  <td colspan="2" class="bodytext">&nbsp;</td>
+</tr>
+
+
+<tr>
+  <td height="66" bgcolor="#FFFFFF" class="bodytext"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="14%" rowspan="3" align="right" class="bodytext"><strong><em>Hr </em>=</strong></td>
+        <td width="2%" rowspan="3" class="bodytext">&nbsp;</td>
+        <td width="32%" height="0" align="center" valign="bottom" class="bodytext"><em><strong>&nbsp;presi&oacute;n vap. <sub>(T roc&iacute;o)</sub></strong></em></td>
+        <td width="5%" rowspan="3" align="center" valign="middle" class="bodytext"><strong>=</strong></td>
+        <td width="19%" height="0" align="center" valign="bottom" class="bodytext"><em><strong>&nbsp;0,00856</strong></em><em><strong></strong></em></td>
+        <td width="28%" rowspan="3" align="left" valign="middle" class="bodytext"><strong><em><strong><em><strong><strong>&#160;</strong></strong></em></strong></em></strong><em><strong>= 0,37 = 37%</strong></em></td>
+      </tr>
+      <tr>
+        <td height="2" align="center" valign="middle" class="epigrafe"><hr align="center" width="100%" style="color:black" size="1" noshade></td>
+        <td align="center" valign="middle" class="epigrafe"><hr align="center" width="100%" style="color:black" size="1" noshade></td>
+      </tr>
+      <tr>
+        <td height="0" align="center" valign="top" class="bodytext"><em><strong>presi&oacute;n  vap. <sub>(T amb)</sub></strong></em></td>
+        <td height="0" align="center" valign="top" class="bodytext"><em><strong>0,0230</strong></em></td>
+      </tr>
+    </table></td>
+  <td class="bodytext">&nbsp;</td>
+  <td width="86" colspan="2" valign="bottom" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="59" bgcolor="#FFFFFF" class="bodytext"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td width="9%">&nbsp;</td>
+      <td width="91%" class="bodytext">En los servicios meteorol&oacute;gicos se mide la humedad relativa con un artefacto llamado psicr&oacute;metro, que posee dos term&oacute;metros, uno de bulbo seco y otro h&uacute;medo, y que tambi&eacute;n utiliza la propiedad de la temperatura de roc&iacute;o. </td>
+    </tr>
+  </table>    </td>
+  <td class="bodytext">&nbsp;</td>
+  <td colspan="2" valign="bottom" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="35" valign="bottom" bgcolor="#FFFFFF" class="bodytext"><strong>PREGUNTAS CAPCIOSAS</strong></td>
+  <td class="bodytext">&nbsp;</td>
+  <td colspan="2" valign="bottom" class="bodytext">&nbsp;</td>
+</tr>
+
+<tr>
+  <td height="204" align="left" bgcolor="#FFFFFF" class="bodytext"><ul>
+    <li>&iquest;Por qu&eacute; a  la tarde, cuando baja el sol y la temperatura, el pasto se moja sin que la vecina  lo riegue?</li>
+    <li>&iquest;Por qu&eacute; a la ma&ntilde;ana tempranito,  cuando la temperatura disminuy&oacute; tanto, suelen encontrarse los autos estacionados  todos ba&ntilde;ados de roc&iacute;o?</li>
+    <li>&iquest;Por qu&eacute; es tan sofocante el verano  en Buenos Aires, y en Canc&uacute;n -en bermudas y con temperaturas m&aacute;s elevadas- uno se  siente menos acalorado?</li>
+    <li>&iquest;Por qu&eacute; se empa&ntilde;a el vidrio cuando  le soplamos el aliento?</li>
+    <li>&iquest;Por qu&eacute; cuando sacamos las botellas  de la heladera se mojan por fuera y mam&aacute; protesta porque no pusimos los  posavasos?</li>
+    <li>&iquest;Por qu&eacute; los d&iacute;as de mucho fr&iacute;o parece que ech&aacute;ramos humo por la nariz?</li>
+    <li>&iquest;Por qu&eacute; se ve el chorrito de vapor que sale de la pava hirviendo, si la humedad es totalmente transparente? </li>
+    <li>&iquest;De qu&eacute; est&aacute;n hechas las nubes? Si de humedad fuera... &iquest;no tendr&iacute;an que ser transparentes?</li>
+  </ul></td>
+  <td class="bodytext">&nbsp;</td>
+  <td width="86" colspan="2" valign="bottom" class="bodytext"><strong><em><sub><p><img src="img_hdinam/ric_fotoric.jpg" alt="Flu&iacute;dos - Ricardo Cabrera" width="85" height="110"></sub></em></strong></td>
+</tr>
+<tr>
+  <td bgcolor="#FFFFFF" class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+  <td width="86" colspan="2" valign="bottom" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td bgcolor="#FFFFFF" class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+  <td width="86" colspan="2" valign="bottom" class="bodytext">&nbsp;</td>
+</tr>
+<tr> <td align="center" valign="middle" bgcolor="#CCCCCC" class="bodytext"><table width="89%" border="0">
+  <tr>
+    <td class="epigrafe">Algunos derechos reservados. 
+      Se permite su reproducci&oacute;n citando la fuente. &Uacute;ltima actualizaci&oacute;n sep-07. Buenos Aires, lo que mata es la humedad. </td>
+  </tr>
+</table>  </td>
+  <td class="bodytext" width="10">&nbsp;</td>
+  <td width="86" colspan="2" valign="bottom" class="bodytext"><a href="transp_006.html"><p><img src="img_hdinam/boton.gif" width="85" height="27" border="0"></a></td>
+</tr> 
+<tr> <td class="bodytext">&nbsp;</td><td class="bodytext" width="10">&nbsp;</td>
+<td class="bodytext" colspan="2" width="86">&nbsp;</td>
+</tr> 
+</table></td></tr> </table>
+<p><img src="img_hdinam/transparente.gif" width="10" height="20"></td></tr> 
+<tr> <td class="bodytext"><p><img src="img_hdinam/transparente.gif" width="600" height="20"></td></tr> 
+</table>
+</body>
+</html>

@@ -1,0 +1,176 @@
+<html>
+<head>
+<title>MECANICA DE FLUIDOS, F007, fisica online, ejercicios resueltos</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="keywords" content="problemas resueltos, ejercicios resueltos, cbc, fisica, biofisica, fluidos, liquidos, gases, bernoulli, poiseuille, viscosidad, ideales, viscosos, humedad, difusion, osmosis, nomesalen, no me salen, ricardo cabrera" />
+<meta name="description" content="Ejercicios y problemas resueltos, y apuntes teóricos de Fluidos, mecanismos de transporte de fluidos" />
+<link rel="stylesheet" href="win_ie.css">
+<style type="text/css">
+<!--
+.style1 {
+	color: #3F6386;
+	font-weight: bold;
+}
+.Estilo3 {color: #3F6386}
+.Estilo16 {font-size: 16px}
+.Estilo17 {font-size: 10px}
+.Estilo18 {font-size: 10}
+.Estilo38 {font-style: italic}
+-->
+</style>
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000" alink="#000000" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<table align=center width="600" border="0" cellspacing="0" cellpadding="0"> 
+  <tr bgcolor="#000000" align="right"> 
+<td><img src="img_hstat/nombre5.gif" width="369" height="71"></td></tr> <tr bgcolor="#BB0000" valign="middle" align="left"> 
+<td class="bodytext" height="20"><TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+  <TR ALIGN="center" CLASS="menuitem">
+    <TD WIDTH="44" height="19" CLASS="menuitem"><A HREF="../../index.html" CLASS="menuitem">&nbsp;<B>home</B>&nbsp;</A></TD>
+    <TD WIDTH="5" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="113" CLASS="menuitem"><strong><a href="index_hstat.html" class="menuitem">m&aacute;s de hidrostática</a> </strong></TD>
+    <TD width="10" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="125" CLASS="menuitem"><strong><a href="../../intro_NMS.html" class="menuitem">otros temas de F&iacute;sica</a></strong></TD>
+    <TD width="10" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="173" CLASS="menuitem"><strong><a href="../../lista_ciruela.html" class="menuitem">lecciones del maestro Ciruela </a></strong></TD>
+    <TD width="9" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="68" CLASS="menuitem"><strong><a href="../../lista_tonterias.html" class="menuitem">tonter&iacute;as</a></strong></TD>
+    <TD WIDTH="8" CLASS="menuitem"><a href="../energia/index_energia.html" class="menuitem"></a><FONT COLOR="#000000">|</FONT></TD>
+    <TD WIDTH="40" CLASS="menuitem">&nbsp;<B><FONT FACE="Arial, Helvetica, sans-serif"><A HREF="mailto: ricuti@qi.fcen.uba.ar" CLASS="menuitem">@</A></FONT><A HREF="../../index.html" CLASS="menuitem"></A></B>&nbsp;</TD>
+  </TR>
+</TABLE></td></tr> <tr> <td class="bodytext" height="11"><img src="img_hstat/transparente.gif" width="600" height="8"></td>
+</tr> 
+<tr align="center"> <td height="1260"> <table width="600" border="0" cellspacing="0" cellpadding="0"> 
+<tr class="bodytext"> <td valign="top" width="594" height="1192"> 
+<table width="600" border="0" cellspacing="0" cellpadding="0"> <tr> 
+  <td height="74" colspan="2" valign="middle" bgcolor="#D7FFFF" class="bodytext"><span class="bodytext"><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>NO ME SALEN<br>
+</strong></span><span class="Estilo3"><em class="bodytext "><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>(<strong>PROBLEMAS RESUELTOS   DE BIOF&Iacute;SICA DEL CBC</strong>)</strong></em></span><br>
+      <span class="titulograndegris Estilo16"><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>FLUIDOS<br>
+      <strong><span class="titulochicogris"><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em></strong></span></strong><span class="titulochicogris">HIDROST&Aacute;TICA</span></strong></span></td>
+  <td class="bodytext" rowspan="3" height="74" width="7">&nbsp;</td>
+  <td class="bodytext" height="74" rowspan="3" valign="top" width="86"> 
+<p><img src="img_hstat/cap2.jpg" alt="desesperado" width="85" height="130"></p></td></tr>
+  <tr>
+    <td height="18" colspan="2" bgcolor="#FFFFFF" class="bodytext">&nbsp;</td>
+  </tr> 
+<tr> <td width="72" height="84" class="bodytext"><P><img src="img_hstat/BIOFISICA.jpg" width="65" height="90"></P>
+    </td>
+  <td width="435" class="bodytext"><p><strong>7) &iquest;A qu&eacute; altura con respecto al brazo debe colocarse una bolsa de suero (densidad 1
+    kg/lt) para que el l&iacute;quido entre a la vena? (presi&oacute;n sangu&iacute;nea en la vena 10 mmHg).</strong></p>    </td>
+</tr>
+<tr>
+  <td height="60" colspan="2" class="bodytext"><p>-Enfermera: &iquest;para qu&eacute; me pone la bolsita tan alta si con mucho menos alcanza? &iquest;Es que no le ense&ntilde;aron el <strong>Principio General de la Hidrost&aacute;tica</strong>?<br>
+    -La verdad que no. Pero el motivo es que...<br>
+  </p>    </td>
+  <td width="7" class="bodytext">&nbsp;</td>
+  <td width="86" align="center" valign="middle" class="bodytext"><br></td>
+</tr>  
+
+<tr>
+  <td height="59" colspan="2" align="center" class="bodytext"><table width="100%" border="0">
+    <tr>
+      <td width="53%" height="39"><img src="img_hstat/flu_007_1.gif" alt="Flu&iacute;dos - Ricardo Cabrera" width="260" height="175"></td>
+      <td width="47%"><p class="bodytext">Pensemos el problema: la enfermera quiere que el suero entre en mi cuerpo. De modo que la presi&oacute;n en la aguja, <em><strong>P<sub>A</sub></strong></em>, debe ser por lo menos igual (y un poquito mayor) que la presi&oacute;n en mi vena, <em><strong>P<sub>V</sub></strong></em>. </p>
+        <p class="bodytext">La situaci&oacute;n l&iacute;mite estar&aacute; dada por:</p>
+        <blockquote>
+          <p class="bodytext"><em><strong>P<sub>A</sub></strong></em> <em><strong>=</strong></em> <em><strong>P<sub>V</sub></strong></em></p>
+          </blockquote>
+        <p class="bodytext">Hasta aqu&iacute; no parece haber demasiada ciencia.</p></td>
+    </tr>
+  </table></td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td colspan="2" align="left" class="bodytext"><p>Ahora... la presi&oacute;n en la aguja va a estar gobernada por la altura de la bolsa, ya que todo el suero -no importa la forma del recipiente (en este caso una bolsa y un tubo)- respeta el <strong>Principio General de la Hidrost&aacute;tica</strong>, y a mayor profundidad, mayor presi&oacute;n. Doy por hecho que te diste cuenta de que si la bolsa se coloca m&aacute;s arriba, la aguja queda m&aacute;s abajo (respecto de la superficie libre del suero), o sea: a mayor profundidad.</p>
+    <p>Si tomamos como presi&oacute;n en la superficie del suero, o sea, la presi&oacute;n en la bolsa, <em><strong>P<sub>B</sub></strong></em>, igual a la presi&oacute;n atmosf&eacute;rica (<em><strong>0</strong></em> en la escala manom&eacute;trica en la que est&aacute; expresada la presi&oacute;n de la vena), entonces nos queda:</p>
+    <blockquote>
+      <p><em><strong>P<sub>A</sub></strong></em><strong> =</strong> <em><strong>&#948; . g . h</strong></em></p>
+      <p><em><strong>10 <span class="Estilo17">mmHg</span></strong></em><strong> =</strong> <em><strong>1<span class="epigrafe"> kg</span></strong><span class="epigrafe">/</span><strong><span class="epigrafe">lt</span> . 10 <span class="Estilo17">m</span></strong><span class="Estilo17">/</span><strong><span class="Estilo17">s</span>&sup2; . h</strong></em></p>
+      </blockquote>    
+    <p>Momento, tenemos una ensalada de unidades. Uniformemos la cosa.</p>    
+    <blockquote>
+      <p><em><strong>1.333 <span class="Estilo17">Pa</span></strong></em><strong> =</strong> <em><strong>1.000 <span class="Estilo17">kg</span></strong><span class="Estilo18">/</span><strong><span class="Estilo17">m</span>&sup3; . 10 <span class="Estilo17">m</span></strong><span class="Estilo17">/</span><strong><span class="Estilo17">s</span>&sup2;</strong></em> <em><strong>. h</strong></em></p>
+      </blockquote>
+    <p>Ahora s&iacute;, despejemos <em><strong>h</strong></em>, y calculemos.</p>
+    </td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="66" colspan="2" align="center" class="bodytext"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td width="4%" rowspan="3" align="right" class="bodytext">&nbsp;</td>
+      <td width="3%" rowspan="3" class="bodytext">&nbsp;</td>
+      <td width="5%" rowspan="3" align="center" valign="middle" class="bodytext"><em><strong>h</strong></em><em><strong></strong></em></td>
+      <td width="3%" rowspan="3" align="center" valign="middle" class="bodytext"><strong>=</strong></td>
+      <td width="35%" height="0" align="center" valign="bottom" class="bodytext"><em><strong>1.333 <span class="Estilo17">Pa</span></strong></em><em><strong></strong></em></td>
+      <td width="50%" rowspan="3" align="left" valign="middle" class="bodytext"><strong><em><strong><em><strong><strong>&#160;</strong></strong></em></strong></em></strong></td>
+    </tr>
+    <tr>
+      <td height="2" align="center" valign="middle" class="epigrafe"><hr align="center" width="100%" style="color:black" size="1" noshade></td>
+    </tr>
+    <tr>
+      <td height="14" align="center" valign="top" class="bodytext"><em><strong>1.000<span class="Estilo17"> kg</span></strong><span class="Estilo18">/</span><strong><span class="Estilo17">m</span>&sup3; . 10 <span class="Estilo17">m</span></strong><span class="Estilo17">/</span><strong><span class="Estilo17">s</span>&sup2;</strong></em></td>
+    </tr>
+  </table></td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="55" colspan="2" align="center" class="bodytext"><table width="80%" border="0">
+    <tr>
+      <td height="36" bgcolor="#CCCCCC"><p class="bodytext"><em><strong><strong>&#160;&#160; &#160;&#160; &#160;&#160; &#160;</strong></strong></em><em><strong>h</strong></em><strong> =</strong><em><strong> 0,1333</strong></em><em><strong><span class="Estilo17"> m</span></strong></em></p></td>
+    </tr>
+  </table></td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="51" colspan="2" align="left" class="bodytext"><p>O sea, apenas m&aacute;s arriba de 13 cent&iacute;metros alcanzaba. Lo sab&iacute;a, <em>&iexcl;</em>enfermera ignorante<em>!</em><br>
+    -No se enoje se&ntilde;or, es que le estoy pasando veneno y no quiero que se d&eacute; cuenta.</p>    </td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+  </tr>
+<tr>
+  <td height="14" colspan="2" align="center" class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="133" colspan="2" align="left" class="bodytext"><p><strong>Observaci&oacute;n</strong>: &iquest;C&oacute;mo pod&iacute;amos saber que la presi&oacute;n en la superficie libre del suero, o sea en la bolsa, o sea en la atm&oacute;sfera val&iacute;a cero, es decir, estaba dada en escala relativa? Bien, los valores posibles son <em><strong>0 <span class="Estilo17">mmHg</span></strong></em> (escala relativa) o <em><strong>760 <span class="Estilo17">mmHg</span></strong></em> (escala absoluta). Cualquiera sabe que adentro del cuerpo hay una presi&oacute;n mayor que afuera del cuerpo, ya que si nos pinchamos sale sangre, no entra aire. De modo que si el dato que en la vena hay una presi&oacute;n de<em><strong> 10 <span class="Estilo17">mmHg</span></strong></em> ese dato pertenece a la escala relativa. Si nos hubieran dado el dato de la presi&oacute;n en la vena en escala absoluta habr&iacute;an dicho: presi&oacute;n sangu&iacute;nea en la vena = <em><strong>770 <span class="Estilo17">mmHg</span></strong></em>.</p>    </td>
+  <td class="bodytext">&nbsp;</td>
+  <td width="86" rowspan="5" valign="bottom" class="bodytext"><strong><em><sub><img src="img_hstat/ric_fotoric.jpg" alt="Flu&iacute;dos - Ricardo Cabrera" width="85" height="110"></sub></em></strong></td>
+</tr>
+
+<tr>
+  <td height="79" colspan="2" bgcolor="#FFFFFF" class="bodytext"><p><strong>DESAFÍO</strong>: Como ver&aacute;s m&aacute;s adelante, la velocidad de ingreso del suero a la vena depende de la diferencia de presi&oacute;n. Cuanto mayor es la diferencia m&aacute;s veloz es la velocidad de ingreso. Pero lo que hace la enfermera en la guardia es otra cosa: pone la bolsa bastante m&aacute;s alto (m&aacute;s o menos <em><strong><span class="Estilo38"><strong>1</strong></span></strong></em><em><strong> </strong></em><em><strong><span class="Estilo17">m</span></strong></em> arriba del paciente) para que la velocidad no est&eacute; limitada en la aguja, y regula el flujo con un regulador de caudal justo abajo de la bolsa, en general de goteo visible. &iquest;Si cada gota del goteo tiene  10 microlitros, cu&aacute;ntas gotas cada 30 segundos debe dejar pasar la enfermera para suministrar 1 lit de suero por d&iacute;a<strong></strong>?</p>    </td>
+  <td class="bodytext">&nbsp;</td>
+  </tr>
+
+<tr>
+  <td height="18" colspan="2" align="left" bgcolor="#FFFFFF" class="bodytext"><p>&nbsp;</p></td>
+  <td class="bodytext">&nbsp;</td>
+  </tr>
+<tr>
+  <td colspan="2" bgcolor="#FFFFFF" class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+  </tr>
+
+<tr> <td colspan="2" align="center" valign="middle" bgcolor="#CCCCCC" class="bodytext"><table width="90%" border="0">
+  <tr>
+    <td class="epigrafe">Algunos derechos reservados. 
+  Se permite su reproducci&oacute;n citando la fuente. est&aacute; prohibido sacar los brazos fuera de las ventanillas. &Uacute;ltima actualizaci&oacute;n sep-09. Buenos Aires, Argentina. </td>
+  </tr>
+</table>  </td>
+  <td class="bodytext" width="7">&nbsp;</td>
+  </tr> 
+<tr> <td height="18" colspan="2" class="bodytext">&nbsp;</td><td class="bodytext" width="7">&nbsp;</td>
+<td class="bodytext" width="86">&nbsp;</td>
+</tr> 
+</table></td></tr> </table>
+<img src="img_hstat/transparente.gif" width="10" height="20"></td></tr> 
+<tr> <td class="bodytext"><img src="img_hstat/transparente.gif" width="600" height="20"></td></tr> 
+</table>
+</body>
+</html>

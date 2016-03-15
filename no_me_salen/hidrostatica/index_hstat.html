@@ -1,0 +1,266 @@
+<html>
+<head>
+<title>Ricardo Cabrera, MECANICA DE FLUIDOS, INDICE, ejercicios resueltos</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="keywords" content="problemas resueltos, ejercicios resueltos, cbc, fisica, biofisica, fluidos, liquidos, gases, bernoulli, poiseuille, viscosidad, ideales, viscosos, humedad, difusion, osmosis, nomesalen, no me salen, ricardo cabrera" />
+<meta name="description" content="Ejercicios y problemas resueltos, y apuntes teóricos de Fluidos, mecanismos de transporte de fluidos" />
+<link rel="stylesheet" href="win_ie.css">
+<style type="text/css">
+<!--
+.style1 {
+	color: #3F6386;
+	font-weight: bold;
+}
+.Estilo3 {color: #3F6386}
+.Estilo16 {font-size: 16px}
+.Estilo39 {color: #0099CC}
+.Estilo12 {font-size: 12;
+	color: #FFFFFF;
+}
+.Estilo17 {font-size: 10px}
+-->
+</style>
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000" alink="#000000" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<table align=center width="605" border="0" cellspacing="0" cellpadding="0"> 
+  <tr bgcolor="#000000" align="right"> 
+<td width="605"><table width="100%">
+  <tr>
+    <td width="6%" align="left" valign="top" class="bodytext">&nbsp;</td>
+    <td width="4%" align="left" valign="middle" class="bodytext"><a href="../../mis_libros.html" target="_blank"><img src="img_hstat/juno1ch.jpg" width="20" height="30" border="0"></a></td>
+    <td width="1%" align="left" valign="middle" class="bodytext">&nbsp;</td>
+    <td width="29%" align="left" valign="middle" class="bodytext"><a href="../../mis_libros.html" target="_blank" class="Estilo12"><em>&iexcl;</em>APARECI&Oacute;<br>
+MI NOVELA<em class="bodytext">!</em></a></td>
+    <td width="60%" class="bodytext"><img src="img_hstat/nombre5.gif" width="369" height="71"></td>
+  </tr>
+</table></td>
+  </tr> <tr bgcolor="#BB0000" valign="middle" align="left"> 
+<td class="bodytext" height="20"><TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+  <TR ALIGN="center" CLASS="menuitem">
+    <TD WIDTH="90" height="19" CLASS="menuitem"><A HREF="../../index.html" CLASS="menuitem">&nbsp;<B>home</B>&nbsp;</A></TD>
+    <TD WIDTH="5" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="150" CLASS="menuitem"><strong><a href="../../intro_NMS.html" class="menuitem">otros temas de F&iacute;sica </a></strong></TD>
+    <TD width="9" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="190" CLASS="menuitem"><strong><a href="../../lista_ciruela.html" class="menuitem">lecciones del maestro Ciruela </a></strong></TD>
+    <TD width="23" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="86" CLASS="menuitem"><strong><a href="../../lista_tonterias.html" class="menuitem">tonter&iacute;as</a></strong></TD>
+    <TD WIDTH="20" CLASS="menuitem"><a href="../energia/index_energia.html" class="menuitem"></a><FONT COLOR="#000000">|</FONT></TD>
+    <TD WIDTH="28" CLASS="menuitem">&nbsp;<B><FONT FACE="Arial, Helvetica, sans-serif"><A HREF="mailto: ricuti@qi.fcen.uba.ar" CLASS="menuitem">@</A></FONT><A HREF="../../index.html" CLASS="menuitem"></A></B>&nbsp;</TD>
+  </TR>
+</TABLE></td></tr> <tr> <td class="bodytext" height="10"><img src="img_hstat/transparente.gif" width="600" height="10"></td>
+</tr> 
+<tr align="center"> <td height="412"> <table width="605" border="0" cellspacing="0" cellpadding="0"> 
+<tr class="bodytext"> <td colspan="2" valign="top" height="1306"> <img src="img_hstat/transparente.gif" width="1" height="1"></td>
+<td valign="top" width="603" height="1306"> 
+<table width="603" border="0" cellspacing="0" cellpadding="0"> 
+  <tr> 
+  <td width="507" height="74" valign="middle" bgcolor="#D7FFFF" class="bodytext"><span class="bodytext"><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>NO ME SALEN<br>
+</strong></span><span class="Estilo3"><em class="bodytext "><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>(<strong>APUNTES TEORICOS Y EJERCICIOS DE BIOF&Iacute;SICA</strong>)</strong></em></span><br>
+      <span class="titulograndegris Estilo16"><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>HIDROSTÁTICA</strong></span><span class="Estilo3"><br>
+      </span><br> </td>
+  <td class="bodytext" rowspan="6" height="74" width="10">&nbsp;</td>
+  <td class="bodytext" colspan="2" valign="top" width="86"> 
+<p><img src="img_hstat/cap5.jpg" alt="desesperado" width="85" height="118"></p></td></tr>
+  <tr>
+    <td height="27" bgcolor="#FFFFFF" class="bodytext"><strong><em><strong><em><strong><strong>APUNTES TEORICOS</strong></strong></em></strong></em></strong></td>
+    <td class="bodytext" colspan="2" valign="top" width="86">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="27" bgcolor="#FFFFFF" class="bodytext"><table width="506" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="26" height="75" class="bodytext">&nbsp;</td>
+        <td width="480" class="bodytext"><a href="FT_introduc.html" class="bodylinkblack">GENERALIDADES</a><br>
+                    <a href="FT_densidad.html" class="bodylinkblack">DENSIDAD Y PESO ESPECIFICO</a><br>
+                        <a href="FT_areas_vol.html" class="bodylinkblack">AREAS Y VOLUMENES</a><br>
+                        <a href="FT_presion.html" class="bodylinkblack">PRESION</a><br>
+                        <a href="FT_ppio_gral.html" class="bodylinkblack"> PRINCIPIO GENERAL DE LA HIDROST&Aacute;TICA</a><br>
+                        <a href="FT_pascal.html" class="bodylinkblack"> PRINCIPIO DE PASCAL - PRENSA HIDRAULICA</a> <br>
+                          <span class="bodylinkblack"><a href="FT_atmosf.html" class="bodylinkblack"> PRESION ATMOSFERICA - TORRICELLI</a></span><a href="FT_atmosf.html"><br>
+</a><span class="bodylinkblack"><a href="FT_tubo.html" class="bodylinkblack">TUBO EN &quot;U&quot;</a></span><a href="FT_tubo.html"><br>
+</a><span class="bodylinkblack"><a href="FT_baromet.html" class="bodylinkblack">PRESION ABSOLUTA Y RELATIVA</a></span><a href="FT_baromet.html"><br>
+</a><a href="FT_arquimedes.html" class="bodylinkblack"> FLOTACION - PRINCIPIO DE ARQUIMEDES<br>
+</a><br></td>
+      </tr>
+    </table></td>
+    <td class="bodytext" colspan="2" valign="top" width="86"><table width="83" height="56" border="0" cellpadding="0" cellspacing="0">
+      <tr>
+        <td align="center" class="epigrafe"><span class="Estilo39">Los ejercicio marcados (*) est&aacute;n repetidos debido a que forman parte de la gu&iacute;a de estudios de diferentes cursos.</span></td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td height="27" bgcolor="#FFFFFF" class="bodytext"><strong><em><em>EJERCICIOS HIDROST&Aacute;TICA</em></em></strong></td>
+    <td class="bodytext" colspan="2" valign="top" width="86">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="27" bgcolor="#FFFFFF" class="bodytext"><table width="506" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="26" height="75" class="bodytext">&nbsp;</td>
+        <td width="480" class="bodytext"><p> <a href="hstat_001.html" class="bodylinkblack">H1 - Las suelas de los zapatos de una persona de 70 kilos tienen un &aacute;rea de(*)...</a>&nbsp;&nbsp;&nbsp;<br>
+              <a href="hstat_002.html" class="bodylinkblack">H2 - A 150 metros de profundidad en el fondo
+  del mar...</a>&nbsp;&nbsp;&nbsp;&nbsp;  <br>
+  <a href="hstat_003.html" class="bodylinkblack">H3 - Si la altura del agua dentro de una bañera
+  es de 25 cm y el tapón...</a>&nbsp;&nbsp;&nbsp; <br>
+  <a href="hstat_004.html" class="bodylinkblack">H4 - Un recipiente de vidrio contiene mercurio
+  hasta una altura de 10 cm...</a>&nbsp;&nbsp;&nbsp;&nbsp; <br>
+  <a href="hstat_005.html" class="bodylinkblack">H5<em> -</em> Si la parte superior de su cabeza tiene un &aacute;rea de 100 cm<em><strong><em><strong><span class="Estilo17">&sup2;</span></strong></em></strong></em>...</a>&nbsp;&nbsp;<br>
+  <a href="hstat_006.html" class="bodylinkblack">H6 - Dos vasos A y B contienen agua en equilibrio(*)<em>.<em>..</em></em></a>  &nbsp; <br>
+  <a href="hstat_007.html" class="bodylinkblack">H7<em> - </em> En 1646 Pascal realiz&oacute; el experimento del barril...</a>&nbsp;&nbsp;&nbsp; <br>
+  <a href="hstat_008.html" class="bodylinkblack">H8 - En el tubo en U abierto como se muestra en la figura...</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br>
+  <a href="hstat_009.html" class="bodylinkblack">H9 - El tubo en forma de U
+      mostrado en la figura contiene tres líquidos...</a>&nbsp;&nbsp;&nbsp; <br>
+      <a href="hstat_010.html" class="bodylinkblack">H10 - El sistema que se
+      muestra en la figura contiene 
+mercurio hasta...</a>&nbsp;&nbsp;&nbsp;&nbsp;<br>
+<a href="hstat_011.html"class="bodylinkblack">H11 - El tubo de la figura est&aacute; cerrado por el extremo de la ampolla...</a>&nbsp; &nbsp;&nbsp; <br>
+<a href="hstat_012.html" class="bodylinkblack">H12 - Los di&aacute;metros de los &eacute;mbolos grande y peque&ntilde;o de un elevador(*)...</a>&nbsp;&nbsp;&nbsp;&nbsp; <br>
+<a href="hstat_013.html" class="bodylinkblack">H13 - Calcular el empuje que experimenta un
+  cuerpo que flota sobre...</a>&nbsp;&nbsp;&nbsp; <br>
+  <a href="hstat_014.html" class="bodylinkblack">H14 - Un cuerpo cuelga del techo mediante un hilo...</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br>
+  <a href="hstat_015.html" class="bodylinkblack">H15 - Un objeto c&uacute;bico de dimensi&oacute;n L= 0,6 m de lado...</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br>
+  <a href="hstat_016.html" class="bodylinkblack">H16 - Arqu&iacute;medes y el problema de la corona del rey...</a>&nbsp;&nbsp; &nbsp; <br>
+  <a href="hstat_017.html" class="bodylinkblack">H17 - Un cuerpo tiene un peso aparente de 800 N sumergido...</a>&nbsp;&nbsp;&nbsp; <br>
+  <a href="hstat_018.html" class="bodylinkblack">H18 - Se quiere dise&ntilde;ar un globo aerost&aacute;tico que pueda levantar...</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong><em><em><br>
+  </em></em></strong><a href="hstat_019.html" class="bodylinkblack">H19 - Calcular el volumen que se encuentra sumergido en un barco...</a><strong> &nbsp;&nbsp; </strong><br>
+  <a href="hstat_020.html" class="bodylinkblack">H20 - En la figura un cubo de arista
+              1 cm y densidad <em>&#948;</em>c...</a>&nbsp;&nbsp;&nbsp; <br>
+              <a href="hstat_p01.html" class="bodylinkblack">Pregunta 1 - Dos vasos de vidrio rectos, de diferentes 
+              secciones...</a>&nbsp;&nbsp; &nbsp;&nbsp; <br>
+              <a href="hstat_p02.html" class="bodylinkblack">Pregunta 2 - Un pequeño pedazo de acero está pegado a
+              un bloque...</a>&nbsp;&nbsp;&nbsp;&nbsp; <br>
+              <a href="hstat_p03.html" class="bodylinkblack">Pregunta 3 - El plomo tiene una densidad mayor que el 
+              hierro...</a>&nbsp;&nbsp;&nbsp;&nbsp; <br>
+              <a href="hstat_p04.html" class="bodylinkblack">Pregunta 4 - Una chica está parada sobre una pista de 
+              nieve...</a>&nbsp;&nbsp;&nbsp;&nbsp; <br>
+              <a href="hstat_p05.html" class="bodylinkblack">Pregunta 5 - ¿Cuál de las siguientes condiciones debe 
+              cumplirse...</a>&nbsp;&nbsp;&nbsp;&nbsp; <br>
+              <a href="flu_001.html">BIO 1) Obtener las siguientes presiones habituales en las unidades pedidas<em><em>...</em></em></a><em><em> <br>
+              </em></em><a href="flu_002.html">BIO 2) Las suelas de los zapatos de una persona de 70 kilos...</a><em> <em><br>
+              </em></em><a href="flu_003.html">BIO 3) En cada uno de los siguientes recipientes que contienen<em><em>...</em></em></a><em><em>&nbsp; <br>
+              </em></em><a href="flu_004.html">BIO 4) Dos vasos A y B contienen agua en equilibrio(*)<em>.<em>..</em></em></a><em><em> <br>
+              </em></em><a href="flu_005.html">BIO 5) Los di&aacute;metros de los &eacute;mbolos grande y peque&ntilde;o de un elevador(*)...</a><strong> <br>
+                      </strong><a href="flu_006.html">BIO 6) Discusiones.</a><strong><br>
+                                </strong><a href="flu_007.html">BIO 7) &iquest;A qu&eacute; altura con respecto al brazo debe colocarse una bolsa...</a>&nbsp;&nbsp;&nbsp;<br>
+                          <a href="HE_06.html">BIO 8)  Estimar la diferencia de la presi&oacute;n hidrost&aacute;tica &ndash;debida a la sangre-...</a>&nbsp; <strong> <br>
+                                    </strong><a href="flu_009.html">BIO 9) Al desplazarse en ascensor de un piso a otro de un edificio...</a><strong> <br>
+                                              </strong><a href="flu_010.html">BIO 10) En una jeringa el &eacute;mbolo tiene un &aacute;rea de 2,5 cm&sup2; y el l&iacute;quido...</a><strong> <br>
+                                                        </strong><em><em><a href="flu_em01.html">BIO EM1) </a></em></em><a href="flu_em01.html">Un l&iacute;quido se encuentra en equilibrio dentro de un recipiente</a><em><em><a href="flu_em01.html"><em><em>...</em></em></a><br>
+                                                        <a href="flu_em03.html">BIO EM3) </a></em></em><a href="flu_em03.html">Con un intenso esfuerzo de succi&oacute;</a><em><a href="flu_em03.html"><em><em>...</em></em></a><br>
+                                                        </em><span ><a href="flu_NMS002.html"class="bodylinkblack"><em>Adicional 1</em> - Dos l&iacute;quidos inmiscibles se encuentran en equilibrio formando</a><em><a href="flu_NMS002.html"class="bodylinkblack">...</a> <em><br>
+                                                        </em><a href="flu_NMS005.html"class="bodylinkblack"><em>Adicional 2 - </em> Se introducen dos l&iacute;quidos inmiscibles (no se mezclan)...</a><em><em><br>
+                                                        <a href="flu_NMS010.html"class="bodylinkblack"><em>Adicional 3 </em>- La&nbsp;presi&oacute;n&nbsp;en la superficie de un&nbsp;l&iacute;quido desconocido...</a><em><em> <br>
+                                                        <a href="flu_NMS011.html"class="bodylinkblack"><em>Adicional 4 -</em> Se dispone de un tubo en U de ramas iguales y lleno de mercurio...</a><em><em> <br>
+                                                        </em></em><a href="flu_NMS013.html"class="bodylinkblack"><em>Adicional 5 -</em> Se sumerge un cuerpo de forma irregular y material homog&eacute;neo...</a> <strong><br>
+                                                        </strong><a href="flu_NMS014.html"class="bodylinkblack"><em>Adicional 6 -</em> Un cilindro hueco de altura 4L flota en el agua como se muestra...</a> <strong><br>
+                                                        </strong><a href="flu_NMS016.html"class="bodylinkblack"><em>Adicional 7 - </em> Principio de Arqu&iacute;medes, una demostraci&oacute;n pr&aacute;ctica...</a><strong> <br>
+                                                        </strong><a href="flu_NMS017.html"class="bodylinkblack"><em>Adicional 8 - </em>Un bloque de granito con forma de paralelep&iacute;pedo...</a> <br>
+                                                        <a href="flu_NMS018.html"class="bodylinkblack"><em>Adicional 9 - </em>Un recipiente r&iacute;gido de forma ovoide con un di&aacute;metro...</a><strong><br>
+                                                        </strong><a href="flu_NMS019.html"class="bodylinkblack"><em>Adicional 10 - </em> Se mantiene un tubo de ensayo invertido y sumergido en un...</a><br>
+                                                        <a href="flu_NMS021.html"class="bodylinkblack"><em>Adicional 11 - </em> Un cubo de 0,7 m de arista est&aacute; completamente sumergido...</a><br>
+                                                        <a href="flu_NMS026.html"class="bodylinkblack"><em>Adicional 12 - </em> La presi&oacute;n en la superficie de un l&iacute;quido desconocido...</a> <br>
+                                                        <a href="flu_NMS028.html"class="bodylinkblack"><em>Adicional 13 -</em> Se tiene un cilindro vac&iacute;o de 10 cm radio y masa despreciable...</a> <br>
+                                                        <a href="flu_NMS029.html"class="bodylinkblack"><em>Adicional 14 - </em> &iquest;Cu&aacute;nto valdr&iacute;a el espesor de la atm&oacute;sfera si la densidad...</a> <br>
+                                                        <a href="flu_NMS030.html"class="bodylinkblack"><em>Adicional 15 -</em> Hallar la densidad de la kriptonita verde...</a> <br>
+                                                        <a href="flu_NMS032.html"class="bodylinkblack"><em>Adicional 16 - </em> Un bloque de aleaci&oacute;n liviana de volumen...</a> <br>
+                                                        <a href="flu_NMS034.html"class="bodylinkblack"><em>Adicional 17 - </em> Un bloque de hielo flota en el mar. Al pararse un  ping&uuml;ino...</a> <br>
+                                                        <a href="flu_NMS036.html"class="bodylinkblack"><em>Adicional 18 -</em> Un tanque de almacenamiento cil&iacute;ndrico abierto a la atm&oacute;sfera...</a>&nbsp;&nbsp; <br>
+                                                        <a href="flu_NMS037.html"class="bodylinkblack"><em>Adicional 19 - </em> Un tanque de cierto volumen est&aacute; alimentado con dos ca&ntilde;er&iacute;as...</a>&nbsp;&nbsp;&nbsp; <br>
+                                                        <a href="flu_NMS038.html"class="bodylinkblack"><em>Adicional 20 -</em> Se mezcla una cierta masa de la soluci&oacute;n A cuya densidad...</a>&nbsp;&nbsp;&nbsp; <br>
+                                                        <a href="flu_NMS041.html"class="bodylinkblack"><em>Adicional 21 -</em> La figura muestra la presi&oacute;n (P) en dos recipientes...</a>&nbsp;&nbsp;&nbsp;&nbsp;<br>
+                                                        <a href="flu_NMS044.html"class="bodylinkblack"><em>Adicional 22 - </em> Principio de Arqu&iacute;medes, una demostraci&oacute;n pr&aacute;ctica...</a> &nbsp;&nbsp;&nbsp;<br>
+                                                        <a href="flu_NMS045.html"class="bodylinkblack"><em>Adicional 23 -</em> Los dos recientes de la figura, abiertos a la atmósfera...</a>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; <a href="HE_02.html"class="bodylinkblack"><em>Adicional 24</em> - Un recipiente de vidrio contiene mercurio hasta una altura...</a><strong> <br>
+                                                        </strong><a href="HE_08.html"class="bodylinkblack"><em>Adicional 25 -</em> La musculatura (diafragma y m&uacute;sculos intercostales entre otros)...</a><strong><br>
+                                                        </strong><a href="HE_20.html"class="bodylinkblack"><em>Adicional 26 - </em> Un caj&oacute;n rectangular de madera de 60 Kg flota en agua...</a><strong><em><em> <br>
+                                                        </em></em></strong><a href="HE_21.html"class="bodylinkblack"><em>Adicional 27 - </em> En la figura se observa una esfera unida, mediante una cuerda...</a> </span><strong><em><em><br>
+                                                        </em></em></strong></p>
+          </td>
+      </tr>
+    </table></td>
+    <td class="bodytext" colspan="2" valign="top" width="86"><table width="83" height="56" border="0" cellpadding="0" cellspacing="0">
+      <tr>
+        <td align="center" class="epigrafe"><a href="flu_desafios.html" target="_blank">Respuestas a los <em><strong>desaf&iacute;os</strong></em>.</a></td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td rowspan="2" bgcolor="#FFFFFF" class="bodytext"><em><strong>&#160;</strong></em></td>
+    <td width="86" colspan="2" rowspan="2" valign="top" class="bodytext"><p><br>
+    </p></td>
+  </tr>
+  
+
+   
+  <tr>
+    <td height="14" align="center" class="bodytext">&nbsp;</td>
+    </tr>
+  
+
+ 
+<tr>
+  <td height="14" valign="bottom" bgcolor="#FFFFFF" class="bodytext"><strong><em><em>&#160; &#160;&#160; &#160;</em></em></strong></td>
+  <td class="bodytext">&nbsp;</td>
+  <td width="86" colspan="2" rowspan="6" class="bodytext"><strong><em><sub><img src="img_hstat/ric_fotoric.jpg" alt="Flu&iacute;dos - Ricardo Cabrera" width="85" height="110"></sub></em></strong></td>
+</tr>
+<tr>
+  <td height="14" valign="bottom" bgcolor="#FFFFFF" class="bodytext"><img src="img_hstat/transparente.gif" width="505" height="14"></td>
+  <td class="bodytext">&nbsp;</td>
+</tr>
+
+<tr>
+  <td height="44" align="center" bgcolor="#FFFFCC" class="bodytext"><table width="94%" border="0">
+    <tr>
+      <td class="epigrafe">Si los ejercicios y apuntes <em>No me salen</em> te resultaron &uacute;tiles y amenos, pod&eacute;s comentarlo en alg&uacute;n foro de discusi&oacute;n acad&eacute;mica. As&iacute;, m&aacute;s estudiantes podr&aacute;n acceder a ellos. Si vos pod&eacute;s y quer&eacute;s traducir al ingl&eacute;s, entr&aacute; <a href="../miscelanea/voluntario.html">ac&aacute;</a>. Gracias.</td>
+    </tr>
+  </table></td>
+  <td class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td bgcolor="#FFFFFF" class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+  </tr>
+<tr>
+  <td bgcolor="#FFFFFF" class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+  </tr>
+<tr> <td rowspan="2" align="center" valign="middle" bgcolor="#CCCCCC" class="bodytext">
+  <table width="97%" border="0">
+    <tr>
+      <td height="50"><span class="epigrafe">Algunos  derechos reservados. 
+        Se permite su reproducci&oacute;n citando la fuente. 
+        El contenido de este sitio se halla sometido a las condiciones de uso de la licencia especificada en este <a href="../../licencia.html">AVISO LEGAL</a>. 
+        &Uacute;ltima actualizaci&oacute;n mar-16. Buenos Aires, Argentina. </span></td>
+    </tr>
+  </table>
+  </blockquote></td>
+  <td class="bodytext" width="10">&nbsp;</td>
+</tr> 
+<tr> <td width="10" height="18" class="bodytext">&nbsp;</td>
+<td width="86" colspan="2" align="center" valign="middle" bgcolor="#CCCCCC" class="bodytext"><table width="85" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td height="31" align="center" valign="middle"><!-- Start of StatCounter Code for Default Guide -->
+<script type="text/javascript">
+var sc_project=10595522; 
+var sc_invisible=0; 
+var sc_security="1b3ec94d"; 
+var scJsHost = (("https:" == document.location.protocol) ?
+"https://secure." : "http://www.");
+document.write("<sc"+"ript type='text/javascript' src='" +
+scJsHost+
+"statcounter.com/counter/counter.js'></"+"script>");
+</script>
+<noscript><div class="statcounter"><a title="shopify visitor
+statistics" href="http://statcounter.com/shopify/"
+target="_blank"><img class="statcounter"
+src="http://c.statcounter.com/10595522/0/1b3ec94d/0/"
+alt="shopify visitor statistics"></a></div></noscript>
+<!-- End of StatCounter Code for Default Guide --></td>
+  </tr>
+</table></td>
+</tr> 
+</table></td></tr> </table><img src="img_hstat/transparente.gif" width="10" height="20"></td></tr> 
+<tr> <td class="bodytext"><img src="img_hstat/transparente.gif" width="527" height="14"></td>
+</tr> 
+</table>
+</body>
+</html>

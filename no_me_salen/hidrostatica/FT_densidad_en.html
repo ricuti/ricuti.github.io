@@ -1,0 +1,377 @@
+<html>
+<head>
+<title>MECANICA DE FLUIDOS, fluids, fisica online, ejercicios resueltos</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="keywords" content="problemas resueltos, ejercicios resueltos, cbc, fisica, biofisica, fluidos, liquidos, gases, bernoulli, poiseuille, viscosidad, ideales, viscosos, humedad, difusion, osmosis, nomesalen, no me salen, ricardo cabrera" />
+<meta name="description" content="Ejercicios y problemas resueltos, y apuntes teóricos de Fluidos, mecanismos de transporte de fluidos" />
+<link rel="stylesheet" href="win_ie.css">
+<style type="text/css">
+<!--
+.style1 {
+	color: #3F6386;
+	font-weight: bold;
+}
+.Estilo3 {color: #3F6386}
+.Estilo16 {font-size: 16px}
+.Estilo17 {font-size: 10px}
+.Estilo19 {font-size: 10px; font-weight: bold; font-style: italic; }
+.Estilo20 {
+	font-size: 10;
+	font-style: italic;
+	font-weight: bold;
+}
+.Estilo21 {font-weight: bold; font-size: 10px;}
+.Estilo22 {color: #FF0000}
+-->
+</style>
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000" alink="#000000" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<table align=center width="600" border="0" cellspacing="0" cellpadding="0"> 
+  <tr bgcolor="#000000" align="right"> 
+<td><table width="100%">
+  <tr>
+    <td align="left" valign="top"><a href="FT_densidad.html"><img src="img_hstat/espanol.gif" alt="versi&oacute;n en espa&ntilde;ol (argentino)"width="25" height="12" border="0" /></a></td>
+    <td width="62%"><img src="img_hstat/nombre5.gif" width="369" height="71" /></td>
+  </tr>
+</table>
+  </td>
+  </tr> <tr bgcolor="#BB0000" valign="middle" align="left"> 
+<td class="bodytext" height="24"><table width="100%">
+    <tr align="center" valign="middle">
+      <td width="64" class="menuitem"><strong><a href="../../index.html" class="menuitem">home</a></strong></td>
+      <td width="22" class="menuitem"><strong><FONT COLOR="#000000">|</FONT></strong></td>
+      <td width="98" class="menuitem"><strong><a href="index_hstat.html" class="menuitem">fluids</a></strong></td>
+      <td width="15" class="menuitem"><strong><FONT COLOR="#000000">|</FONT></strong></td>
+      <td width="201" class="menuitem"><strong><a href="../../intro_NMS.html" class="menuitem">other topics in physics</a> </strong></td>
+      <td width="5" class="menuitem"><strong><FONT COLOR="#000000">|</FONT></strong></td>
+      <td width="120" class="menuitem"><strong><a href="../miscelanea/miscelanea.html" class="menuitem">miscellany</a></strong></td>
+      <td width="5" class="menuitem"><strong><FONT COLOR="#000000">|</FONT></strong></td>
+      <td width="31" class="menuitem"><strong><a href="mailto: ricuti@qi.fcen.uba.ar" class="menuitem">@</a></strong></td>
+      </tr>
+  </table></td></tr> <tr> <td class="bodytext" height="19"><img src="img_hstat/transparente.gif" width="600" height="20" /></td></tr> 
+<tr align="center"> <td height="1706"> <table width="600" border="0" cellspacing="0" cellpadding="0"> 
+<tr class="bodytext"> <td colspan="2" valign="top" height="1686"> <img src="img_hstat/transparente.gif" width="1" height="1" /></td>
+<td valign="top" width="596" height="1686"> 
+<table width="599" border="0" cellspacing="0" cellpadding="0"> 
+  <tr> 
+  <td width="504" height="74" align="center" valign="middle" bgcolor="#D7FFFF" class="bodytext"><table width="94%">
+    <tr>
+      <td class="bodytext"><strong>NO ME SALEN<br />
+      </strong><span class="Estilo3"><em class="bodytext "><strong>(<strong>THEORETICAL NOTES OF BIOPHYSICS</strong>)</strong></em></span><br />
+      <span class="titulograndegris Estilo16"><strong>FLUIDS<br />
+      </strong></span><span class="titulochicogris"><strong>DENSITY and SPECIFIC WEIGHT </strong></span></td>
+    </tr>
+  </table>    
+    <br /> </td>
+  <td class="bodytext" rowspan="2" height="74" width="6">&nbsp;</td>
+  <td class="bodytext" colspan="2" height="74" rowspan="2" valign="top" width="86"> 
+<p><img src="img_hstat/cap7.jpg" alt="desesperado" width="85" height="108" /></p></td></tr>
+  <tr>
+    <td height="204" bgcolor="#FFFFFF" class="bodytext"><P>One kilo of water occupies a volume of a  liter. Half a kilo occupies half a liter, and the volume occupied by 653.4 liters equals  exactly 635.4 liters.  Apparently, the relation between mass and volume is a constant. </P>
+      <p>But lets choose another totally different  liquid, let's say mercury (which, despite being a metal, is a liquid). In a  liter bottle you can get 13.6   kilograms of mercury. If the bottle had two liters,  you&rsquo;d get 27.2   kilograms and if you had a little bottle of just 0.1 liters, only 1.36 kilograms would  fit. As you see, the quotient between mass and volume, also here, remains  constant. </p>      
+      <p>This is how we can express it for any  liquid:</p></td>
+  </tr> 
+  
+<tr> <td height="24" align="left" class="bodytext"><blockquote>
+  <p><img src="img_hstat/FT_dens_cte_en.gif" width="178" height="24" /></p>
+</blockquote></td>
+<td class="bodytext" width="6">&nbsp;</td>
+  <td class="bodytext" colspan="2" width="86">&nbsp;</td>
+</tr>
+<tr>
+  <td height="94" align="left" class="bodytext"><p>This property is  called <strong><em>density</em></strong> and its defined as the quotient between de mass and the  volume of any given amount of matter. In the case of water, it's worth <strong><em>1  kg/l. </em></strong>The symbol for density is the greek letter <em>rho, <strong>&rho;</strong></em>.&nbsp; </p>    </td>
+  <td class="bodytext">&nbsp;</td>
+  <td colspan="2" class="bodytext">&nbsp;</td>
+</tr>
+
+<tr>
+  <td height="59" align="left" class="bodytext"><table width="100%" border="0">
+    <tr>
+      <td width="9%" height="44">&nbsp;</td>
+      <td width="54%"><img src="img_hstat/FT_densidad_def_en.gif" width="125" height="21" /></td>
+      <td width="2%">&nbsp;</td>
+      <td width="35%"><img src="img_hstat/FT_densidad_sim_en.gif" width="50" height="22" /></td>
+    </tr>
+  </table></td>
+  <td class="bodytext">&nbsp;</td>
+  <td colspan="2" class="epigrafe Estilo22">Sometimes<br /> 
+    I'll use <em><strong>Vol</strong></em> instead of <em><strong>V</strong></em>, for clarity.  </td>
+</tr>
+<tr>
+  <td height="79" align="left" class="bodytext"><p>Each and every substance usually haves a  characteristic density. This is an intrinsic property  since it does not  depend on the amount of what amount of that substance we study. Densities can  be measured in any mass unit over any volume unit. The &ldquo;official&rdquo; ones would  be: </p>    </td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext" colspan="2">&nbsp;</td>
+</tr>
+<tr>
+  <td height="53" align="left" class="bodytext"><table width="100%" border="0">
+    <tr>
+      <td width="21%" rowspan="2" align="right" bordercolor="#ECE9D8" class="bodytext"><img src="img_hstat/FT_densidad_SI_en.gif" width="57" height="23" /></td>
+      <td width="79%" height="23" align="left" valign="bottom" bordercolor="#ECE9D8" class="bodytext">&nbsp;</td>
+    </tr>
+    <tr>
+      <td width="79%" height="21" align="left" valign="top" bordercolor="#ECE9D8" class="bodytext">&nbsp;</td>
+    </tr>
+  </table>    </td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext" colspan="2">&nbsp;</td>
+</tr>
+<tr>
+  <td height="139" align="left" class="bodytext"><p>And all of this below, all very common, are  equal amongst them and 1,000 times bigger than the &ldquo;official&rdquo;: </p>
+    <blockquote>
+      <p class="Estilo20"><span class="Estilo19">kg</span><span class="Estilo21">/</span><span class="Estilo19">l <em><strong><em><strong><strong> &#160;</strong></strong></em></strong></em>=<em><strong><em><strong><strong> &#160;</strong></strong></em></strong></em> kg/dm<sup>3</sup> <em><strong><em><strong><strong> &#160;</strong></strong></em></strong></em>=<em><strong><em><strong><strong> &#160;</strong></strong></em></strong></em> gr/ml <em><strong><em><strong><strong> &#160;</strong></strong></em></strong></em>=<em><strong><em><strong><strong> &#160;</strong></strong></em></strong></em> gr/cm<sup>3</sup> <em><strong><em><strong><strong> &#160;</strong></strong></em></strong></em>=<em><strong><em><strong><strong> &#160;</strong></strong></em></strong></em>  mg/&#956;l <em><strong><em><strong><strong> &#160;</strong></strong></em></strong></em>=<em><strong><em><strong><strong> &#160;</strong></strong></em></strong></em> mg/mm<sup>3</sup></span></p>
+      </blockquote>    
+    <p>If instead of considering the mass, we  consider weight, we can define a new magnitude, <strong><em>specific weight, </em></strong>which is  similar to density. It's symbol is the greek letter <em>gamma,<strong> &gamma;</strong></em>.</p>    </td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext" colspan="2"><pre>&nbsp;</pre>     </td>
+</tr>
+<tr>
+  <td height="59" align="left" class="bodytext"><table width="100%" height="52" border="0">
+    <tr>
+      <td width="44%" height="42" align="right" valign="middle" bordercolor="#ECE9D8" class="bodytext"><img src="img_hstat/FT_peso_esp_def_en.gif" width="161" height="22" /></td>
+      <td width="21%" align="right" bordercolor="#ECE9D8" class="bodytext">&nbsp;</td>
+      <td width="35%" align="left" valign="middle" bordercolor="#ECE9D8" class="bodytext"><img src="img_hstat/FT_peso_esp_sim_en.gif" width="46" height="22" /></td>
+    </tr>
+    
+  </table></td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext" colspan="2">&nbsp;</td>
+</tr>
+<tr>
+  <td height="178" align="left" class="bodytext"><p>If we also remember that the weight of any  given body closet to earth surface is:</p>
+    <blockquote>
+      <p><em><strong>P = m . g </strong></em></p>
+    </blockquote>
+    <p>We can establish a relationship between  density and specific weight:</p>
+    <blockquote>
+      <p><em><strong><em><strong>&gamma;</strong></em> = &#961; . g</strong></em></p>
+      </blockquote>    
+    <p>In the following chart we'll find some  substances of biological relevante and their densities and specific weight. As  you can see, there are not only liquids.</p></td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext" colspan="2">&nbsp;</td>
+</tr>
+<tr>
+  <td height="376" colspan="4" align="left" class="bodytext"><table width="596" border="1" cellpadding="0" cellspacing="0">
+    <tr>
+      <td width="204" height="28" valign="top" class="bodytext"><p>&nbsp;</p></td>
+      <td colspan="2" class="bodytext"><p align="center"><strong>densidty (<em>&rho;</em>)</strong></p></td>
+      <td colspan="3" class="bodytext"><p align="center"><strong>especific weight (<em><strong>&gamma;</strong></em>)</strong></p></td>
+    </tr>
+    <tr>
+      <td width="204" class="bodytext"><p>&nbsp;</p></td>
+      <td class="bodytext"><p align="center"><span class="Estilo19">kg/l</span></p>        </td>
+      <td width="76" class="bodytext"><p align="center"><span class="Estilo19">kg/m<em><strong><sup>3</sup></strong></em></span></p></td>
+      <td class="bodytext"><p align="center"><span class="Estilo19">kgf/l</span></p>        </td>
+      <td width="76" class="bodytext"><p align="center"><span class="Estilo19">kgf/m<em><strong><sup>3</sup></strong></em></span></p></td>
+      <td width="75" class="bodytext"><p align="center"><span class="Estilo19">N/m<em><strong><sup>3</sup></strong></em></span></p></td>
+    </tr>
+    <tr>
+      <td width="204" class="bodytext"><p><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong>Water <span class="Estilo17">(4&deg;C)</span></em></p></td>
+      <td width="76" class="bodytext"><p align="center"><em>1</em></p></td>
+      <td width="76" class="bodytext"><p align="center"><strong><em>1,000</em></strong></p></td>
+      <td width="75" class="bodytext"><p align="center"><em>1</em></p></td>
+      <td width="76" class="bodytext"><p align="center"><em>1,000</em></p></td>
+      <td width="75" class="bodytext"><p align="center"><strong><em>10,000</em></strong></p></td>
+    </tr>
+    <tr>
+      <td width="204" class="bodytext"><p><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong>Seawater  <span class="Estilo17"> (15&deg;C)</span></em></p></td>
+      <td width="76" class="bodytext"><p align="center"><em>1.025</em></p></td>
+      <td width="76" class="bodytext"><p align="center"><strong><em>1,025</em></strong></p></td>
+      <td width="75" class="bodytext"><p align="center"><em>1.025</em></p></td>
+      <td width="76" class="bodytext"><p align="center"><em>1,025</em></p></td>
+      <td width="75" class="bodytext"><p align="center"><strong><em>10,250</em></strong></p></td>
+    </tr>
+    <tr>
+      <td width="204" class="bodytext"><p><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong>Ice</em></p></td>
+      <td width="76" class="bodytext"><p align="center"><em>0.917</em></p></td>
+      <td width="76" class="bodytext"><p align="center"><strong><em>917</em></strong></p></td>
+      <td width="75" class="bodytext"><p align="center"><em>0.917</em></p></td>
+      <td width="76" class="bodytext"><p align="center"><em>917</em></p></td>
+      <td width="75" class="bodytext"><p align="center"><strong><em>9,170</em></strong></p></td>
+    </tr>
+    <tr>
+      <td width="204" class="bodytext"><p><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong>Human blood  <span class="Estilo17">(37&deg;C)</span></em></p></td>
+      <td width="76" class="bodytext"><p align="center"><em>1.06</em></p></td>
+      <td width="76" class="bodytext"><p align="center"><strong><em>1,060</em></strong></p></td>
+      <td width="75" class="bodytext"><p align="center"><em>1.06</em></p></td>
+      <td width="76" class="bodytext"><p align="center"><em>1,060</em></p></td>
+      <td width="75" class="bodytext"><p align="center"><strong><em>10,600</em></strong></p></td>
+    </tr>
+    <tr>
+      <td width="204" class="bodytext"><p><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong>Blood plasma <span class="Estilo17">(37&deg;C)</span></em></p></td>
+      <td width="76" class="bodytext"><p align="center"><em>1.027</em></p></td>
+      <td width="76" class="bodytext"><p align="center"><strong><em>1,027</em></strong></p></td>
+      <td width="75" class="bodytext"><p align="center"><em>1.027</em></p></td>
+      <td width="76" class="bodytext"><p align="center"><em>1,027</em></p></td>
+      <td width="75" class="bodytext"><p align="center"><strong><em>10,270</em></strong></p></td>
+    </tr>
+    <tr>
+      <td width="204" class="bodytext"><p><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong><em>Ethyl a</em>lcohol</em></p></td>
+      <td width="76" class="bodytext"><p align="center"><em>0.8</em></p></td>
+      <td width="76" class="bodytext"><p align="center"><strong><em>800</em></strong></p></td>
+      <td width="75" class="bodytext"><p align="center"><em>0.8</em></p></td>
+      <td width="76" class="bodytext"><p align="center"><em>800</em></p></td>
+      <td width="75" class="bodytext"><p align="center"><strong><em>8,000</em></strong></p></td>
+    </tr>
+    <tr>
+      <td width="204" class="bodytext"><p><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong>Olive oil</em></p></td>
+      <td width="76" class="bodytext"><p align="center"><em>0.92</em></p></td>
+      <td width="76" class="bodytext"><p align="center"><strong><em>920</em></strong></p></td>
+      <td width="75" class="bodytext"><p align="center"><em>0.92</em></p></td>
+      <td width="76" class="bodytext"><p align="center"><em>920</em></p></td>
+      <td width="75" class="bodytext"><p align="center"><strong><em>9,200</em></strong></p></td>
+    </tr>
+    <tr>
+      <td width="204" class="bodytext"><p><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong>Mercury<span class="Estilo17"> (20&deg;C)</span></em></p></td>
+      <td width="76" class="bodytext"><p align="center"><em>13.6</em></p></td>
+      <td width="76" class="bodytext"><p align="center"><strong><em>13,600</em></strong></p></td>
+      <td width="75" class="bodytext"><p align="center"><em>13.6</em></p></td>
+      <td width="76" class="bodytext"><p align="center"><em>13,600</em></p></td>
+      <td width="75" class="bodytext"><p align="center"><strong><em>136,000</em></strong></p></td>
+    </tr>
+    <tr>
+      <td width="204" class="bodytext"><p><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong>Cold air <span class="Estilo17">(0&deg;C, 1 atm)</span></em></p></td>
+      <td width="76" class="bodytext"><p align="center"><em>0.00129</em></p></td>
+      <td width="76" class="bodytext"><p align="center"><strong><em>1.29</em></strong></p></td>
+      <td width="75" class="bodytext"><p align="center"><em>0.00129</em></p></td>
+      <td width="76" class="bodytext"><p align="center"><em>1.29</em></p></td>
+      <td width="75" class="bodytext"><p align="center"><strong><em>12.9</em></strong></p></td>
+    </tr>
+    <tr>
+      <td width="204" class="bodytext"><p><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong><em>Hot</em> air <span class="Estilo17"> (100&deg;C, 1 atm)</span></em></p></td>
+      <td width="76" class="bodytext"><p align="center"><em>0.00095</em></p></td>
+      <td width="76" class="bodytext"><p align="center"><strong><em>0.95</em></strong></p></td>
+      <td width="75" class="bodytext"><p align="center"><em>0.00095</em></p></td>
+      <td width="76" class="bodytext"><p align="center"><em>0.95</em></p></td>
+      <td width="75" class="bodytext"><p align="center"><strong><em>9.5</em></strong></p></td>
+    </tr>
+    <tr>
+      <td width="204" class="bodytext"><p><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong>Earth</em><em> Planet</em></p></td>
+      <td width="76" class="bodytext"><p align="center"><em>5.17</em></p></td>
+      <td width="76" class="bodytext"><p align="center"><strong><em>5,170</em></strong></p></td>
+      <td width="75" class="bodytext"><p align="center"><em>-</em></p></td>
+      <td width="76" class="bodytext"><p align="center"><em>-</em></p></td>
+      <td width="75" class="bodytext"><p align="center"><strong><em>-</em></strong></p></td>
+    </tr>
+    <tr>
+      <td width="204" class="bodytext"><p><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong><em>B</em>alsa</em> <em>wood</em> </p></td>
+      <td width="76" class="bodytext"><p align="center"><em>0.12</em></p></td>
+      <td width="76" class="bodytext"><p align="center"><strong><em>120</em></strong></p></td>
+      <td width="75" class="bodytext"><p align="center"><em>0.12</em></p></td>
+      <td width="76" class="bodytext"><p align="center"><em>120</em></p></td>
+      <td width="75" class="bodytext"><p align="center"><strong><em>1,200</em></strong></p></td>
+    </tr>
+    <tr>
+      <td width="204" class="bodytext"><p><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong>Common wood </em></p></td>
+      <td width="76" class="bodytext"><p align="center"><em>0.7</em></p></td>
+      <td width="76" class="bodytext"><p align="center"><strong><em>700</em></strong></p></td>
+      <td width="75" class="bodytext"><p align="center"><em>0.7</em></p></td>
+      <td width="76" class="bodytext"><p align="center"><em>700</em></p></td>
+      <td width="75" class="bodytext"><p align="center"><strong><em>7,000</em></strong></p></td>
+    </tr>
+    <tr>
+      <td width="204" class="bodytext"><p><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong>Iron</em></p></td>
+      <td width="76" class="bodytext"><p align="center"><em>7,8</em></p></td>
+      <td width="76" class="bodytext"><p align="center"><strong><em>7,800</em></strong></p></td>
+      <td width="75" class="bodytext"><p align="center"><em>7.8</em></p></td>
+      <td width="76" class="bodytext"><p align="center"><em>7,800</em></p></td>
+      <td width="75" class="bodytext"><p align="center"><strong><em>78,000</em></strong></p></td>
+    </tr>
+    <tr>
+      <td class="bodytext"><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong>Plumbum</em></td>
+      <td align="center" class="bodytext"><em>11.4</em></td>
+      <td align="center" class="bodytext"><strong><em>11,400</em></strong></td>
+      <td align="center" class="bodytext"><em>11.4</em></td>
+      <td align="center" class="bodytext"><em>11,400</em></td>
+      <td align="center" class="bodytext"><strong><em>114,000</em></strong></td>
+    </tr>
+    <tr>
+      <td width="204" class="bodytext"><p><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong>Gold</em></p></td>
+      <td width="76" class="bodytext"><p align="center"><em>19.3</em></p></td>
+      <td width="76" class="bodytext"><p align="center"><strong><em>19,300</em></strong></p></td>
+      <td width="75" class="bodytext"><p align="center"><em>19.3</em></p></td>
+      <td width="76" class="bodytext"><p align="center"><em>19,300</em></p></td>
+      <td width="75" class="bodytext"><p align="center"><strong><em>193,000</em></strong></p></td>
+    </tr>
+    <tr>
+      <td colspan="6" align="center" valign="middle" class="bodytext"><table width="92%" border="0">
+        <tr>
+          <td height="39" class="epigrafe"><strong>Notes</strong>: in this chart is used <em><strong>g =    10 m/s&sup2;</strong></em>. To correct te values of specific weight must be multiplied by    <em><strong>0.98</strong></em>. The units and messures in bold belong to the    International Sistem (<strong>SI</strong>) </td>
+        </tr>
+      </table>        </td>
+    </tr>
+  </table></td>
+  </tr>
+<tr>
+  <td height="104" align="left" class="bodytext"><p><strong>COMMENTS:  </strong>look in the chart for the only two gases, hot and cold air. They have a density  of approximately a thousand times lesser than the rest. In many substances  you'll find a temperature indicator; that's because almost every substance  expands as it increases its temperature, increasing its volume as well. In  liquids and solids, this variation is too small to be considered, but not with  gases. When it comes to gases, both temperature and pressure make huge  differences. </p>
+    </td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext" colspan="2">&nbsp;</td>
+</tr> 
+<tr>
+  <td height="46" align="center" bgcolor="#CCFFCC" class="epigrafe"><strong>ATTENTION</strong><br>
+    In latin literature <strong><em>&delta;</em></strong> (<em>delta</em>) is used for density, and   <em><strong>ρ</strong></em> (<em>rho</em>) for specific weight.</td>
+  <td class="bodytext">&nbsp;</td>
+  <td colspan="2" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="37" align="left" bgcolor="#FFFFFF" class="bodytext"><strong>IMPORTANT GOSSIP</strong>: </td>
+  <td class="bodytext">&nbsp;</td>
+  <td colspan="2" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="76" align="left" bgcolor="#FFFFFF" class="bodytext"><ul>
+    <li>The approximate density of the human body is<em><strong> 0,95</strong></em> <span class="Estilo19">kg/dm<em><strong><sup>3</sup></strong></em></span>;   that's why we float so easily on water.<strong></strong> </li>
+    <li>The floating issue  depends on densities, I explain that in the chapter about Archimedes. </li>
+    <li>Many people mistake density with viscosity.  Stay alert. </li>
+  </ul></td>
+  <td class="bodytext">&nbsp;</td>
+  <td colspan="2" class="bodytext">&nbsp;</td>
+</tr>
+
+
+<tr>
+  <td height="30" valign="bottom" bgcolor="#FFFFFF" class="bodytext"><strong>TRICKY QUESTION: </strong></td>
+  <td class="bodytext">&nbsp;</td>
+  <td width="86" colspan="2" rowspan="5" valign="bottom" class="bodytext"><strong><em><sub><img src="img_hstat/ric_fotoric.jpg" alt="Flu&iacute;dos - Ricardo Cabrera" width="85" height="110" /></sub></em></strong></td>
+</tr>
+
+<tr>
+  <td height="73" align="left" bgcolor="#FFFFFF" class="bodytext"><ul>
+    <li>Can you explain the physics behind floating on your back?</li>
+      <li> The fact that water density is worth 1, is a coincidence?</li>
+      <li> Why is it that Earth doesn't have a specific weight?</li>
+  </ul></td>
+  <td class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="58" align="center" bgcolor="#FFFFFF" class="bodytext"><table width="95%" height="25" border="0">
+    <tr>
+      <td bgcolor="#FFFFCC" class="epigrafe"><DIV id="result_box" dir="ltr">Remember that the fractional   expressions (both, operations as the units) must be written with the horizontal   division line. In many parts of this site I write it oblique and the denominator in   the same line, that is not correct, but the <strong>html</strong> does not allow it if it is not   inserting images.</DIV></td>
+    </tr>
+  </table></td>
+  <td class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td bgcolor="#FFFFFF" class="bodytext"><img src="img_hstat/transparente.gif" width="496" height="18" /></td>
+  <td class="bodytext">&nbsp;</td>
+  </tr>
+
+<tr> <td align="center" valign="middle" bgcolor="#CCCCCC" class="bodytext"><table width="89%" border="0">
+  <tr>
+    <td class="epigrafe">Translated by Mat&iacute;as Varela. Some rights  reserved. 
+      Be copied by quoting the source. Last updated   
+      sep-07. Buenos Aires, Argentina. </td>
+  </tr>
+</table>  </td>
+  <td class="bodytext" width="6">&nbsp;</td>
+</tr> 
+<tr> <td height="18" class="bodytext">&nbsp;</td><td class="bodytext" width="6">&nbsp;</td>
+<td class="bodytext" colspan="2" width="86">&nbsp;</td>
+</tr> 
+</table></td></tr> </table><img src="img_hstat/transparente.gif" width="10" height="20" /></td>
+</tr> 
+<tr> <td class="bodytext"><img src="img_hstat/transparente.gif" width="600" height="20" /></td></tr> 
+</table>
+</body>
+</html>

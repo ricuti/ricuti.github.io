@@ -1,0 +1,168 @@
+<html>
+<head>
+<title>MECANICA DE FLUIDOS, F002, fisica online, ejercicios resueltos</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="keywords" content="problemas resueltos, ejercicios resueltos, cbc, fisica, biofisica, fluidos, liquidos, gases, bernoulli, poiseuille, viscosidad, ideales, viscosos, humedad, difusion, osmosis, nomesalen, no me salen, ricardo cabrera" />
+<meta name="description" content="Ejercicios y problemas resueltos, y apuntes teóricos de Fluidos, mecanismos de transporte de fluidos" />
+<link rel="stylesheet" href="win_ie.css">
+<style type="text/css">
+<!--
+.style1 {
+	color: #3F6386;
+	font-weight: bold;
+}
+.Estilo3 {color: #3F6386}
+.Estilo16 {font-size: 16px}
+.Estilo18 {color: #FF0000}
+.Estilo17 {font-size: 10px}
+.Estilo19 {font-size: 10px; font-weight: bold; font-style: italic; }
+-->
+</style>
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000" alink="#000000" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<table align=center width="600" border="0" cellspacing="0" cellpadding="0"> 
+  <tr bgcolor="#000000" align="right"> 
+<td><img src="img_hstat/nombre5.gif" width="369" height="71"></td>
+  </tr> <tr bgcolor="#BB0000" valign="middle" align="left"> 
+<td class="bodytext" height="20"><TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+  <TR ALIGN="center" CLASS="menuitem">
+    <TD WIDTH="44" height="19" CLASS="menuitem"><A HREF="../../index.html" CLASS="menuitem">&nbsp;<B>home</B>&nbsp;</A></TD>
+    <TD WIDTH="5" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="113" CLASS="menuitem"><strong><a href="index_hstat.html" class="menuitem">m&aacute;s de hidrostática</a> </strong></TD>
+    <TD width="10" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="125" CLASS="menuitem"><strong><a href="../../intro_NMS.html" class="menuitem">otros temas de F&iacute;sica</a></strong></TD>
+    <TD width="10" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="173" CLASS="menuitem"><strong><a href="../../lista_ciruela.html" class="menuitem">lecciones del maestro Ciruela </a></strong></TD>
+    <TD width="9" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="68" CLASS="menuitem"><strong><a href="../../lista_tonterias.html" class="menuitem">tonter&iacute;as</a></strong></TD>
+    <TD WIDTH="8" CLASS="menuitem"><a href="../energia/index_energia.html" class="menuitem"></a><FONT COLOR="#000000">|</FONT></TD>
+    <TD WIDTH="40" CLASS="menuitem">&nbsp;<B><FONT FACE="Arial, Helvetica, sans-serif"><A HREF="mailto: ricuti@qi.fcen.uba.ar" CLASS="menuitem">@</A></FONT><A HREF="../../index.html" CLASS="menuitem"></A></B>&nbsp;</TD>
+  </TR>
+</TABLE></td></tr> <tr> <td class="bodytext" height="8"><img src="img_hstat/transparente.gif" width="600" height="8"></td>
+</tr> 
+<tr align="center"> <td height="839"> <table width="600" border="0" cellspacing="0" cellpadding="0"> 
+<tr class="bodytext"> <td valign="top" width="594" height="819"> 
+<table width="600" border="0" cellspacing="0" cellpadding="0"> 
+  <tr> 
+  <td height="74" valign="middle" bgcolor="#FFDB4A" class="bodytext"><span class="bodytext"><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>NO ME SALEN<br>
+</strong></span><span class="Estilo3"><em class="bodytext "><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>(<strong>PROBLEMAS RESUELTOS   DE BIOF&Iacute;SICA DEL CBC</strong>)</strong></em></span><br>
+      <span class="titulograndegris Estilo16"><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>HIDROSTATICA</strong></span><br></td>
+  <td class="bodytext" rowspan="3" height="74" width="7">&nbsp;</td>
+  <td class="bodytext" colspan="2" height="74" rowspan="3" valign="top" width="86"> 
+<p><img src="img_hstat/cap2.jpg" alt="desesperado" width="85" height="130"></p></td></tr>
+  <tr>
+    <td height="18" bgcolor="#FFFFFF" class="bodytext">&nbsp;</td>
+  </tr> 
+<tr> <td height="42" valign="top" class="bodytext"><p><strong>H2 - A 150 metros de profundidad en el fondo
+  del mar, se encuentra una baldosa prehispánica.
+  Considerando que la baldosa tiene forma cuadrada,
+  y que mide 20 cm de lado, calcula la presión
+  y la fuerza que ejerce el agua de mar sobre
+  la baldosa.</strong></p></td>
+  </tr>
+
+<tr>
+  <td height="34" class="bodytext"><em>&iexcl;</em>Oh, pero qu&eacute; ejercicio tan profundo<em>!</em></td>
+  <td class="bodytext">&nbsp;</td>
+  <td colspan="2" align="center" valign="middle" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="151" class="bodytext"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td width="41%" height="149" class="bodytext"><img src="img_hstat/he_01_1.jpg" alt="Flu&iacute;dos - Ricardo Cabrera" width="200" height="149"></td>
+      <td width="59%" class="bodytext"><p>Se trata de una aplicaci&oacute;n directa del Principio General de la Hidrost&aacute;tica, que dice algo as&iacute; como: la diferencia de presi&oacute;n entre dos puntos dentro del seno de un l&iacute;quido, es igual al producto entre la densidad del l&iacute;quido, la aceleraci&oacute;n de la gravedad y la diferencia de profundidad entre esos puntos.</p>
+          <p>De modo que debemos tomar 2 puntos: tomemos uno en la superficie del mar y otro a 150 metros de profundidad que es donde nos interesa.</p></td>
+    </tr>
+  </table></td>
+  <td class="bodytext">&nbsp;</td>
+  <td colspan="2" align="center" valign="middle" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="151" class="bodytext"><blockquote>
+    <p><em><strong>&Delta;Pr = </strong></em><em><strong><em><strong><strong><em><strong><em>&delta;</em></strong></em></strong></strong></em><sub>mar</sub></strong></em> . <em><strong><em><strong><strong><em><strong><em> g . </em></strong></em></strong></strong></em></strong></em><em><strong>&Delta;h</strong></em></p>
+    <p><em><strong>Pr<sub>150m </sub>&mdash;  Pr<sub>0m</sub> = </strong></em><em><strong><em><strong><strong><em><strong><em>&delta;</em></strong></em></strong></strong></em><sub>mar</sub></strong></em> . <em><strong><em><strong><strong><em><strong><em> g . </em></strong></em></strong></strong></em></strong></em><em><strong> (150<span class="epigrafe"> m</span> </strong><span class="epigrafe"><strong></strong></span></em><em><strong>&mdash;</strong></em> <em><strong>0<span class="epigrafe"> m </span>) </strong></em></p>
+    <p><em><strong>Pr<sub>150m </sub>&mdash;  101.300 <span class="epigrafe">Pa</span> = </strong></em><em><strong>1.030 k<span class="epigrafe">g</span></strong></em><span class="epigrafe">/</span><em><strong><span class="epigrafe">m</span><em><strong><sup>3</sup></strong></em> . 10<span class="epigrafe"> m</span></strong></em>/<em><strong><span class="epigrafe">s</span><em><em><strong><em><strong>&sup2;</strong></em></strong></em></em> . (150<span class="epigrafe"> m</span> </strong><span class="epigrafe"><strong></strong></span></em><em><strong>&mdash;</strong></em> <em><strong>0<span class="epigrafe"> m </span>) </strong></em></p>
+    <p><em><strong>Pr<sub>150m</sub></strong></em><strong> = <em>1.025</em></strong> <em><strong><span class="epigrafe">kg</span></strong><span class="epigrafe">/</span><strong><span class="epigrafe">m</span><sup>3</sup></strong><strong> . <em><strong>10 <span class="Estilo17">m</span></strong></em><span class="Estilo17">/</span><em><strong><span class="Estilo17">s&sup2;</span> </strong></em> . <em><strong>150 <span class="Estilo17">m</span></strong></em></strong></em>&nbsp;&nbsp;&nbsp;&nbsp; (*)</p>
+  </blockquote></td>
+  <td width="7" class="bodytext">&nbsp;</td>
+  <td width="86" colspan="2" align="center" valign="middle" class="bodytext"><span class="epigrafe Estilo18"><br>
+    </span></td>
+</tr>  
+
+<tr>
+  <td height="51" align="center" class="bodytext"><table width="101%" border="0">
+    <tr>
+      <td width="17%" height="36"><p class="bodytext">&nbsp;</p></td>
+      <td width="58%" align="center" bgcolor="#CCCCCC"><em><strong>Pr<sub>150m</sub></strong></em> <em><strong>= 1,538 . <span class="epigrafe">10<sup>6</sup></span> <span class="epigrafe">Pa</span></strong><em><strong><em><strong></strong></em></strong></em></em></td>
+      <td width="25%" bgcolor="#FFFFFF">&nbsp;</td>
+    </tr>
+  </table></td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext" colspan="2">&nbsp;</td>
+</tr>
+<tr>
+  <td height="202" align="left" class="bodytext"><p>No te asustes, eso es unas <em><strong>15 <span class="epigrafe">atm</span></strong></em>. O sí. Bueno, como sea, vamos a la segunda pregunta:</p>
+    <p>Para conocer la fuerza recurrimos sencillamente a la definición de presión:</p>
+    <blockquote>
+      <p><em><strong>Pr = F / A</strong></em></p>
+    </blockquote>
+    <p>Donde <em><strong>Pr</strong></em> es la presión, <em><strong>F</strong></em> es la fuerza que estamos buscando y <em><strong>A</strong></em> el área de la baldosa. Vamos a expresar ese área en metros cuadrados para poder operar con la respuesta anterior. No te olvides que <span class="Estilo19">Pa =<em><strong><strong> N/<em><strong><strong><em><strong><strong>m&sup2;</strong></strong></em></strong></strong></em></strong></strong></em></span>, y un cuadrado de <em><strong>20 <span class="epigrafe">cm</span></strong></em> tiene <em><strong>400 <span class="epigrafe">cm</span><em><strong><span class="Estilo17">&sup2;</span></strong></em></strong></em>, o lo que es lo mismo,  <em><strong>0,4 <span class="epigrafe">m</span><em><strong><span class="Estilo17">&sup2;</span></strong></em></strong></em>.</p>
+    <blockquote><em><strong>F =</strong></em> <em><strong>1,538 . <span class="epigrafe">10<sup>6</sup></span><strong class="epigrafe"> N/<em><strong><strong><em><strong><strong>m&sup2;</strong></strong></em></strong></strong></em></strong> </strong></em>. <em><strong>0,4 <span class="epigrafe">m</span><em><strong><span class="Estilo17">&sup2;</span></strong></em></strong></em></blockquote></td>
+  <td colspan="3" class="bodytext">&nbsp;</td>
+  </tr>
+<tr>
+  <td height="51" align="center" class="bodytext"><table width="101%" border="0">
+    <tr>
+      <td width="17%" height="36"><p class="bodytext">&nbsp;</p></td>
+      <td width="58%" align="center" bgcolor="#CCCCCC"><em><strong>F =</strong></em> <em><strong>61.500<span class="epigrafe"><sup></sup></span><strong class="epigrafe"> N</strong></strong></em><em><em><strong><em><strong></strong></em></strong></em></em></td>
+      <td width="25%" bgcolor="#FFFFFF">&nbsp;</td>
+    </tr>
+  </table></td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext" colspan="2">&nbsp;</td>
+</tr>
+<tr>
+  <td height="58" align="left" class="bodytext"><p>O sea, unos 6.000 kilos, mucho más de lo que vos podés hacer con un martillazo... ¿cómo es que la baldosa no se parte? ¿El mar la proteje?</p>    </td>
+  <td class="bodytext">&nbsp;</td>
+  <td width="86" colspan="2" rowspan="6" valign="bottom" class="bodytext"><strong><em><sub><img src="img_hstat/ric_fotoric.jpg" alt="Flu&iacute;dos - Ricardo Cabrera" width="85" height="110"></sub></em></strong></td>
+</tr>
+<tr>
+  <td height="48" align="center" valign="middle" bgcolor="#FFFF66" class="bodytext"><table width="95%" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td class="epigrafe">* En mec&aacute;nica de s&oacute;lidos es aceptable (y com&uacute;n) el redondeo de la aceleraci&oacute;n de la gravedad de 9,8 a 10. Pero en mec&aacute;nica de fluidos lo es mucho menos, de modo que para evitar confusiones, y ante la duda, conviene no hacer el redondeo.</td>
+    </tr>
+  </table>    </td>
+  <td class="bodytext">&nbsp;</td>
+</tr>
+
+<tr>
+  <td rowspan="2" bgcolor="#FFFFFF" class="bodytext"><strong>DESAFÍO</strong>: </td>
+  <td height="18" class="bodytext">&nbsp;</td>
+  </tr>
+
+<tr>
+  <td height="34" class="bodytext">&nbsp;</td>
+  </tr>
+<tr>
+  <td bgcolor="#FFFFFF" class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+  </tr>
+
+<tr> <td align="center" valign="middle" bgcolor="#CCCCCC" class="bodytext"><table width="90%" border="0">
+  <tr>
+    <td class="epigrafe">Algunos derechos reservados. 
+  Se permite su reproducci&oacute;n citando la fuente. &Uacute;ltima actualizaci&oacute;n mar-16. Buenos Aires, Argentina. Vencimiento feb-3048.</td>
+  </tr>
+</table>  </td>
+  <td class="bodytext" width="7">&nbsp;</td>
+  </tr> 
+<tr> <td height="18" class="bodytext">&nbsp;</td><td class="bodytext" width="7">&nbsp;</td>
+<td class="bodytext" colspan="2" width="86">&nbsp;</td>
+</tr> 
+</table></td></tr> </table>
+<img src="img_hstat/transparente.gif" width="10" height="20"></td></tr> 
+<tr> <td class="bodytext"><img src="img_hstat/transparente.gif" width="600" height="20"></td></tr> 
+</table>
+</body>
+</html>

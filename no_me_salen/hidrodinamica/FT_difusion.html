@@ -1,0 +1,228 @@
+<html>
+<head>
+<title>Ricardo Cabrera, MECANISMOS DE TRANSPORTE - DIFUSION</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="keywords" content="problemas resueltos, ejercicios resueltos, cbc, fisica, biofisica, fluidos, liquidos, gases, bernoulli, poiseuille, viscosidad, ideales, viscosos, humedad, difusion, osmosis, nomesalen, no me salen, ricardo cabrera" />
+<meta name="description" content="Ejercicios y problemas resueltos, y apuntes teóricos de Fluidos, mecanismos de transporte de fluidos" />
+<link rel="stylesheet" href="win_ie.css">
+<style type="text/css">
+<!--
+.style1 {
+	color: #3F6386;
+	font-weight: bold;
+}
+.Estilo3 {color: #3F6386}
+.Estilo16 {font-size: 16px}
+.Estilo26 {
+	font-weight: bold;
+	font-style: italic;
+}
+.Estilo27 {font-size: 10px}
+.Estilo28 {color: #FF0000}
+.Estilo19 {font-size: 10px; font-weight: bold; font-style: italic; }
+.Estilo31 {color: #000000}
+.Estilo32 {
+	font-family: "Times New Roman", Times, serif;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 14px;
+}
+.Estilo33 {
+	font-family: "Times New Roman", Times, serif;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 12px;
+}
+-->
+</style>
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000" alink="#000000" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<table align=center width="600" border="0" cellspacing="0" cellpadding="0"> 
+  <tr bgcolor="#000000" align="right"> 
+<td><img src="img_hdinam/nombre5.gif" width="369" height="71" /></td></tr> <tr bgcolor="#BB0000" valign="middle" align="left"> 
+<td class="bodytext" height="20"><TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+  <TR ALIGN="center" CLASS="menuitem">
+    <TD WIDTH="43" height="19" CLASS="menuitem"><A HREF="../../index.html" CLASS="menuitem">&nbsp;<B>home</B>&nbsp;</A></TD>
+    <TD WIDTH="5" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="119" CLASS="menuitem"><strong><a href="index_hdinam.html" class="menuitem">más de hidrodinámica </a> </strong></TD>
+    <TD width="9" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="127" CLASS="menuitem"><strong><a href="../../intro_NMS.html" class="menuitem">otros temas de F&iacute;sica</a></strong></TD>
+    <TD width="10" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="160" CLASS="menuitem"><strong><a href="../../lista_ciruela.html" class="menuitem">lecciones del maestro Ciruela </a></strong></TD>
+    <TD width="8" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="67" CLASS="menuitem"><strong><a href="../../lista_tonterias.html" class="menuitem">tonter&iacute;as</a></strong></TD>
+    <TD WIDTH="7" CLASS="menuitem"><a href="../energia/index_energia.html" class="menuitem"></a><FONT COLOR="#000000">|</FONT></TD>
+    <TD WIDTH="48" CLASS="menuitem">&nbsp;<B><FONT FACE="Arial, Helvetica, sans-serif"><A HREF="mailto: ricuti@qi.fcen.uba.ar" CLASS="menuitem">@</A></FONT><A HREF="../../index.html" CLASS="menuitem"></A></B>&nbsp;</TD>
+  </TR>
+</TABLE></td></tr> <tr> <td class="bodytext" height="19"><p><img src="img_hdinam/transparente.gif" width="600" height="8" /></td>
+</tr> 
+<tr align="center"> <td height="1991"> <table width="600" border="0" cellspacing="0" cellpadding="0"> 
+<tr class="bodytext"> <td valign="top" width="594" height="678"> 
+<table width="600" border="0" cellspacing="0" cellpadding="0"> 
+  <tr> 
+  <td width="509" height="74" bgcolor="#D7FFFF" class="bodytext"><span class="bodytext"><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>NO ME SALEN<br />
+</strong></span><span class="Estilo3"><em class="bodytext "><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>(<strong>LECCIONES TEORICAS  DE BIOF&Iacute;SICA DEL CBC</strong>)</strong></em></span><br />
+      <span class="titulograndegris Estilo16"><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>FLUIDOS<br />
+      </strong></span><span class="titulochicogris"><strong> <em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>MECANISMOS DE TRANSPORTE - DIFUSION </strong></span><span class="Estilo3"><br />
+      </span><br /> </td>
+  <td class="bodytext" rowspan="3" height="74" width="6">&nbsp;</td>
+  <td class="bodytext" colspan="2" height="74" rowspan="3" valign="top" width="85"> 
+<p><img src="img_hdinam/cap8.jpg" alt="desesperado" width="85" height="120" /></p></td></tr>
+  <tr>
+    <td height="18" bgcolor="#FFFFFF" class="bodytext">&nbsp;</td>
+  </tr> 
+<tr> <td height="84" class="bodytext"><P>Nuestros compartimientos internos est&aacute;n intercambiando mol&eacute;culas de todo tipo todo el tiempo. Una de las formas primordiales que usan las  mol&eacute;culas para moverse de un lugar a otro se llama difusi&oacute;n simple, y por obvio que resulte no deja de ser interesante dilucidar de qu&eacute; par&aacute;metros depende y en qu&eacute; medida pueden describir aspectos importantes de nuestra fisiolog&iacute;a.</P>
+    <P>S&iacute;, obvio, dije: imaginate un par de recipientes llenos de agua hasta el mismo nivel y conectados por un tubo horizontal con un robinete (una llave de paso) cerrado. Ahora a uno de los recipientes lo te&ntilde;imos con una tinta verde: trillones de mol&eacute;culas de tinta entran en la soluci&oacute;n... y est&aacute; por comenzar nuestro experimento. </P></td>
+  </tr>  
+<tr> 
+  <td height="468" align="center" class="bodytext"><table width="100%" height="462" border="0">
+    <tr>
+      <td width="55%" height="458" bgcolor="#FFFFFF" class="bodytext"><p>En cuanto abrimos el robinete observamos que se va ti&ntilde;endo el tubo de conexi&oacute;n en forma progresiva, revelando un movimiento desde el tanque lleno de tinta hacia el otro.</p>
+        <p>Este movimiento recibe el nombre de <strong>flujo difusivo</strong>, y est&aacute; motorizado  por la agitaci&oacute;n t&eacute;rmica de las mol&eacute;culas tanto del soluto (las de tinta) como las del solvente (el agua). </p>
+        <p>Si bien la agitaci&oacute;n t&eacute;rmica es un movimiento ca&oacute;tico, su resultado -adem&aacute;s de obvio- es cuantificable y predecible.</p>
+        <p>La migraci&oacute;n de mol&eacute;culas de soluci&oacute;n se pone de manifiesto (en nuestro experimento) porque el agua pura se va ti&ntilde;endo y el agua te&ntilde;ida se va decolorando.</p>
+        <p>Deja de observarse movimiento alguno cuando la coloraci&oacute;n de ambos recipientes es la misma, de donde extraemos que el fen&oacute;meno se extingue cuando la concentraci&oacute;n en ambos recipientes se iguala.</p>
+        <p>Pero antes de finiquitar el asunto podemos preguntarnos c&oacute;mo definir este movimiento y de qu&eacute; variables puede depender.  </p></td>
+      <td width="45%" align="right" bgcolor="#FFFFFF" class="bodytext"><p><img src="img_hdinam/FT_difusion_1.gif" alt="Flu&iacute;dos - Ricardo Cabrera" width="200" height="439" /></td>
+    </tr>
+  </table></td>
+  <td class="bodytext" width="6">&nbsp;</td>
+  <td class="bodytext" colspan="2" width="85">&nbsp;</td>
+</tr>
+<tr>
+  <td height="18" align="left" class="bodytext"><p>Definici&oacute;n: llamamos <strong>flujo difusivo</strong> (que simbolizaremos <em><strong>&phi;</strong></em>) al cociente entre la masa total de mol&eacute;culas de soluto que atraviesan una secci&oacute;n del tubo de conexi&oacute;n y el intervalo de tiempo en que lo atraviesa:</p>
+    <blockquote>
+      <p><span class="Estilo26"><span class="epigrafe Estilo31"><em><strong>&phi;</strong></em></span> = m / &#916t</span> </p>
+      </blockquote>
+    <p>Como el flujo difusivo es el resultado de un fen&oacute;meno ca&oacute;tico y aleatorio en el que las mol&eacute;culas van y vienen en todas las direcciones, habr&aacute; que recordar que  la definici&oacute;n alude al movimiento neto, en un &uacute;nico sentido, desde donde el soluto est&aacute; m&aacute;s concentrado hacia donde se halla m&aacute;s diluido... como indica la flecha.</p>
+    <p>Las unidades para medir el flujo difusivo m&aacute;s utilizadas son</p>
+    <blockquote>
+      <p><strong>[</strong><em><strong>&phi;</strong></em><strong>]</strong><span class="Estilo26"> = <span class="Estilo27">moles / s </span></span>  </p>
+      </blockquote>
+    <p>Y ahora vamos a la segunda pregunta: &iquest;qu&eacute; cosas modifican la velocidad de este movimiento? No es dif&iacute;cil: </p></td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext" colspan="2">&nbsp;</td>
+</tr>
+<tr>
+  <td height="265" align="left" class="bodytext"><table width="100%" border="0">
+    <tr>
+      <td width="55%" class="bodytext"><p>Cuanto mayor sea el &aacute;rea -la secci&oacute;n del tubo por donde viajan las mol&eacute;culas de soluto- mayor ser&aacute; el flujo.</p>
+        <p>Cuanto m&aacute;s largo sea el tubo que conecta los recipientes menor ser&aacute; el flujo.</p>
+        <p>Cuanto mayor sea la concentraci&oacute;n de soluto en el recipiente de tinta... o mejor dicho, cuanto mayor sea la diferencia de concentraci&oacute;n de soluto a lo largo del tubo, mayor ser&aacute; el flujo. </p>
+        <p>Los experimentos confirman que cada uno de estos par&aacute;metros tiene una proporcionalidad simple con  el flujo, pero falta uno. </p></td>
+      <td width="45%" align="right" valign="middle" class="bodytext"><p><img src="img_hdinam/FT_difusion_2.gif" alt="Flu&iacute;dos - Ricardo Cabrera" width="200" height="248" /></td>
+    </tr>
+  </table>    </td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext" colspan="2">&nbsp;</td>
+</tr>
+<tr>
+  <td height="14" align="left" class="bodytext"><p>Cada mol&eacute;cula de soluto tendr&aacute; una movilidad propia que le es caracter&iacute;stica en cada solvente. Algunas (generalmente las m&aacute;s peque&ntilde;as) tendr&aacute;n m&aacute;s movilidad y otras (generalmente las m&aacute;s voluminosas) se mover&aacute;n menos. A esa caracter&iacute;stica se la llama coeficiente de difusi&oacute;n y se simboliza <em><strong>D</strong></em>.<span class="Estilo27"></span></p>
+    <p>Todo lo dicho se puede resumir en una &uacute;nica ecuaci&oacute;n, llamada <strong>Ley de Fick</strong>: </p></td>
+  <td colspan="3" rowspan="5" align="center" class="bodytext"><p class="epigrafe Estilo28"><strong>&iexcl;OJO!</strong><br />
+    Fijate bien, que estas dos letras son diferentes:<br />
+    <em><strong>&phi;</strong></em>,<span class="Estilo33"> &Phi;</span>;<br />
+    la primera es min&uacute;scula; la segunda, may&uacute;scula. </p></td>
+</tr>
+<tr>
+  <td height="56" align="left" class="bodytext"><blockquote>
+    <table width="119" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="29%" rowspan="3" align="center" valign="middle" class="bodytext"><em class="bodytext"><strong>&phi; =</strong></em></td>
+        <td width="71%" height="20" align="center" valign="bottom" class="bodytext"><em><strong><em><strong><strong>&ndash;</strong></strong></em> D . A . <em>&#916c</em><sub></sub></strong></em></td>
+      </tr>
+      <tr>
+        <td height="2" align="center" valign="middle" class="epigrafe"><hr align="center" width="100%" size="1" noshade style="color:black"></td>
+      </tr>
+      <tr>
+        <td height="17" align="center" valign="top" class="bodytext"><strong><em>&#916x</em></strong></td>
+      </tr>
+    </table>
+  </blockquote></td>
+  </tr>
+<tr>
+  <td height="14" align="left" class="bodytext"><p>El signo menos se debe a que el flujo tiene sentido contrario a la diferencia de concentraci&oacute;n, ya que el movimiento neto se produce del lugar de mayor concentraci&oacute;n al de menor concentraci&oacute;n.</p>
+    <p>En muchas oportunidades resulta m&aacute;s pr&aacute;ctica otra magnitud, <strong>densidad de flujo</strong>,  que se simboliza<strong><em> &Phi;</em></strong>, que  podr&iacute;amos definir como la cantidad de flujo por unidad de &aacute;rea. Alcanza con dividir ambos miembros por el &aacute;rea para obtener</p></td>
+  </tr>
+<tr>
+  <td height="53" align="left" class="bodytext"><blockquote>
+    <table width="104" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="36%" rowspan="3" align="center" valign="middle" class="bodytext"><span class="Estilo32">&Phi;</span><em class="bodytext"><strong> =</strong></em></td>
+        <td width="64%" height="20" align="center" valign="bottom" class="bodytext"><em><strong><em><strong><strong>&ndash;</strong></strong></em> D .  <em>&#916c</em><sub></sub></strong></em></td>
+      </tr>
+      <tr>
+        <td height="2" align="center" valign="middle" class="epigrafe"><hr align="center" width="100%" size="1" noshade style="color:black"></td>
+      </tr>
+      <tr>
+        <td height="17" align="center" valign="top" class="bodytext"><strong><em>&#916x</em></strong></td>
+      </tr>
+    </table>
+  </blockquote></td>
+  </tr>
+<tr>
+  <td height="47" align="left" class="bodytext"><p>Y sus unidades ser&aacute;n:</p>
+    <blockquote>
+      <p><strong>[</strong><span class="Estilo32">&Phi;</span><strong>]</strong><span class="Estilo26"> = <span class="Estilo27">moles/<strong><em><strong><span class="Estilo19">m<sup>2</sup></span></strong></em></strong>s </span></span></p>
+      </blockquote></td>
+  </tr>
+<tr>
+  <td height="77" align="left" class="bodytext"><p class="epigrafe"><strong>NOTA</strong>: no hay acuerdo en la bibliograf&iacute;a para designar ni en el nombre ni en el s&iacute;mbolo al <em>flujo difusivo</em> y a la <em>densidad de flujo</em>, de modo que -en la pr&aacute;ctica- se suele interpretar el concepto por las unidades de la magnitud: si aparece dividiendo una unidad de &aacute;rea ha de tratarse de la <em>densidad de flujo</em>; y en caso contrario, ser&aacute; el <em>flujo difusivo</em>. </p>    </td>
+  <td class="bodytext">&nbsp;</td>
+  <td colspan="2" class="bodytext">&nbsp;</td>
+</tr>
+
+
+
+
+<tr>
+  <td height="18" bgcolor="#FFFFFF" class="bodytext"><strong>CHISMES IMPORTANTES</strong>: </td>
+  <td class="bodytext">&nbsp;</td>
+  <td width="85" colspan="2" valign="bottom" class="bodytext"><p>&nbsp;</p>    </td>
+</tr>
+<tr>
+  <td height="123" bgcolor="#FFFFFF" class="bodytext"><ul>
+    <li>La difusi&oacute;n simple puede producirse a trav&eacute;s de una membrana porosa, siempre que los poros no pongan restricciones al pasaje -para un lado y para otro- de la mol&eacute;cula de soluto. Si se da ese caso (que es uno de los m&aacute;s interesantes en la fisiolog&iacute;a) el largo del poro no es otro que <em><strong>&#916x</strong></em>, y adem&aacute;s es igual al espesor de la membrana; la diferencia de concentraci&oacute;n, entonces, es la que existe entre ambos lados de la membrana, y en general el &aacute;rea es la suma de las &aacute;reas de todos los poros (que por lo general son todos iguales) que encontremos en el cachito de membrana que tengamos bajo observaci&oacute;n.</li>
+    <li>A los efectos de predecir el movimiento neto de una mol&eacute;cula, s&oacute;lo interesa la diferencia de concentraci&oacute;n de esa mol&eacute;cula. En cuanto al movimiento del flujo difusivo, cada grupo o tipo de mol&eacute;culas se comporta como si ellas fueran las &uacute;nicas del universo. Comprender esto &uacute;ltimo es imprescindible para entender el mecanismo del impulso nervioso. </li>
+  </ul></td>
+  <td class="bodytext">&nbsp;</td>
+  <td width="85" colspan="2" rowspan="3" valign="bottom" class="bodytext"><p><img src="img_hdinam/ric_bebe.gif" alt="Flu&iacute;dos - Ricardo Cabrera" width="85" height="113" /></td>
+</tr>
+<tr>
+  <td height="37" valign="bottom" bgcolor="#FFFFFF" class="bodytext"><strong>PREGUNTAS CAPCIOSAS:</strong></td>
+  <td class="bodytext">&nbsp;</td>
+  </tr>
+
+<tr>
+  <td height="18" align="left" bgcolor="#FFFFFF" class="bodytext"><ul>
+    <li>&iquest;En qu&eacute; unidades se deber&aacute;n medir los coeficientes de difusi&oacute;n? </li>
+    <li>Los gases disueltos en los l&iacute;quidos corporales (<strong>O<em><em><em><em><sub>2</sub></em></em></em></em></strong>, <strong>CO<em><em><em><em><sub>2</sub></em></em></em></em></strong>, <strong>N<em><em><em><em><sub>2</sub></em></em></em></em></strong>, etc.)... &iquest;difundir&aacute;n libremente a trav&eacute;s de las membranas plasm&aacute;ticas? </li>
+  </ul></td>
+  <td class="bodytext">&nbsp;</td>
+  </tr>
+<tr>
+  <td bgcolor="#FFFFFF" class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+  <td width="85" colspan="2" valign="bottom" class="bodytext">&nbsp;</td>
+</tr>
+
+<tr> <td height="37" align="center" valign="middle" bgcolor="#CCCCCC" class="bodytext"><table width="89%" border="0">
+  <tr>
+    <td class="epigrafe">Algunos derechos reservados. 
+  Se permite su reproducci&oacute;n citando la fuente. &Uacute;ltima actualizaci&oacute;n sep-07. Buenos Aires, Argentina. </td>
+  </tr>
+</table>  </td>
+  <td class="bodytext" width="6">&nbsp;</td>
+  <td width="85" colspan="2" valign="bottom" class="bodytext"><a href="FT_osmosis.html">
+    <p><img src="img_hdinam/boton.gif" width="85" height="27" border="0"></a></td>
+</tr> 
+<tr> <td height="18" class="bodytext">&nbsp;</td><td class="bodytext" width="6">&nbsp;</td>
+<td class="bodytext" colspan="2" width="85">&nbsp;</td>
+</tr> 
+</table></td></tr> </table>
+<p><img src="img_hdinam/transparente.gif" width="10" height="20" /></td></tr> 
+<tr> <td class="bodytext"><p><img src="img_hdinam/transparente.gif" width="600" height="20" /></td></tr> 
+</table>
+</body>
+</html>

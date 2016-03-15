@@ -1,0 +1,383 @@
+<html>
+<head>
+<title>MECANICA DE FLUIDOS, HE18, fisica online, ejercicios resueltos</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="keywords" content="problemas resueltos, ejercicios resueltos, cbc, fisica, biofisica, fluidos, liquidos, gases, bernoulli, poiseuille, viscosidad, ideales, viscosos, humedad, difusion, osmosis, nomesalen, no me salen, ricardo cabrera" />
+<meta name="description" content="Ejercicios y problemas resueltos, y apuntes teóricos de Fluidos, mecanismos de transporte de fluidos" />
+<link rel="stylesheet" href="win_ie.css">
+<style type="text/css">
+<!--
+.style1 {
+	color: #3F6386;
+	font-weight: bold;
+}
+.Estilo3 {color: #3F6386}
+.Estilo16 {font-size: 16px}
+-->
+</style>
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000" alink="#000000" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<table align=center width="600" border="0" cellspacing="0" cellpadding="0"> 
+  <tr bgcolor="#000000" align="right"> 
+<td><img src="img_hstat/nombre5.gif" width="369" height="71"></td></tr> <tr bgcolor="#BB0000" valign="middle" align="left"> 
+<td class="bodytext" height="20"><TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+  <TR ALIGN="center" CLASS="menuitem">
+    <TD WIDTH="44" height="19" CLASS="menuitem"><A HREF="../../index.html" CLASS="menuitem">&nbsp;<B>home</B>&nbsp;</A></TD>
+    <TD WIDTH="5" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="113" CLASS="menuitem"><strong><a href="index_hstat.html" class="menuitem">m&aacute;s de hidrostática</a> </strong></TD>
+    <TD width="10" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="125" CLASS="menuitem"><strong><a href="../../intro_NMS.html" class="menuitem">otros temas de F&iacute;sica</a></strong></TD>
+    <TD width="10" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="173" CLASS="menuitem"><strong><a href="../../lista_ciruela.html" class="menuitem">lecciones del maestro Ciruela </a></strong></TD>
+    <TD width="9" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="68" CLASS="menuitem"><strong><a href="../../lista_tonterias.html" class="menuitem">tonter&iacute;as</a></strong></TD>
+    <TD WIDTH="8" CLASS="menuitem"><a href="../energia/index_energia.html" class="menuitem"></a><FONT COLOR="#000000">|</FONT></TD>
+    <TD WIDTH="40" CLASS="menuitem">&nbsp;<B><FONT FACE="Arial, Helvetica, sans-serif"><A HREF="mailto: ricuti@qi.fcen.uba.ar" CLASS="menuitem">@</A></FONT><A HREF="../../index.html" CLASS="menuitem"></A></B>&nbsp;</TD>
+  </TR>
+</TABLE></td></tr> <tr> <td class="bodytext" height="10"><img src="img_hstat/transparente.gif" width="600" height="8"></td>
+</tr> 
+<tr align="center"> <td height="1752"> <table width="600" border="0" cellspacing="0" cellpadding="0"> 
+<tr class="bodytext"> <td colspan="2" valign="top" height="952"> <img src="img_hstat/transparente.gif" width="1" height="1"></td>
+<td valign="top" width="596" height="952"> 
+<table width="600" border="0" cellspacing="0" cellpadding="0"> <tr> 
+  <td height="74" bgcolor="#FFDB4A" class="bodytext"><span class="bodytext"><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>NO ME SALEN<br>
+</strong></span><span class="Estilo3"><em class="bodytext "><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>(<strong>EJERCICIOS RESUELTOS   DE F&Iacute;SICA DEL CBC</strong>)</strong></em></span><br>
+      <span class="titulograndegris Estilo16"><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>FLUIDOS - HIDROST&Aacute;TICA<br>
+      </strong></span><br> </td>
+  <td class="bodytext" rowspan="3" height="74" width="6">&nbsp;</td>
+  <td width="87" height="74" rowspan="3" align="center" valign="top" class="bodytext"> 
+<p><img src="img_hstat/cap18.jpg" alt="desesperado" width="85" height="121"></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p></td></tr>
+  <tr>
+    <td height="18" bgcolor="#FFFFFF" class="bodytext">&nbsp;</td>
+  </tr> 
+<tr> <td height="165" valign="top" class="bodytext"><table width="100%" border="0">
+  <tr>
+    <td height="93" colspan="2" align="left" valign="top" class="bodytext"><p><strong class="bodytext">Hidrost&aacute;tica 16) </strong><strong>- EL PROBLEMA DE LA CORONA DEL REY:<br>
+      Según la leyenda, el rey Hierón le entregó
+      1 kg de oro a su joyero para la construcción de la
+      corona real. Si bien ese fue el peso de la corona<br>
+      terminada, el rey sospechó que el artesano lo
+      había estafado sustituyendo oro por plata oculta
+      en el interior de la corona. Entonces le encomendó<br>
+      a Arquímedes que dilucidara la cuestión sin
+      dañar la corona.
+      Arquímedes la sumergió en agua y observó que
+      el volumen de líquido desplazado era <em>64,8</em> cm<em><strong><em><strong><em><strong><strong><sup>3</sup></strong></strong></em></strong></em></strong></em>.</strong></p>      </td>
+    </tr>
+  <tr>
+    <td width="7%" height="119" align="left" valign="top" class="bodytext">&nbsp;</td>
+    <td width="93%" align="left" valign="top" class="bodytext"><strong>a) ¿Cuál debería ser el volumen de líquido desplazado
+        por una auténtica corona de oro puro?<br>
+b) ¿Qué cantidad de oro sustituyó el joyero
+        por plata?<br>
+c) En una balanza de brazos iguales se coloca
+        la corona “trucha” de un lado e igual masa de
+        oro del otro. En el aire el sistema está en equilibrio;
+cuando se sumerge en agua se desequilibra.<br>
+¿Qué pesa se debería agregar sobre la barra
+        y en dónde para conseguir equilibrar el sistema?</strong></td>
+  </tr>
+  
+</table>  
+  </td>
+  </tr>
+<tr>
+  <td align="left" valign="middle" class="bodytext"><p>A ver... para que te quede claro: si la corona hubiese sido de oro puro, tendr&iacute;a que haber tenido un volumen esperado, <em><strong> V<sub>esp</sub></strong></em>, de... (dejame que lo deduzca): </p>
+    <blockquote>
+      <p><em><strong>&#948;<sub>cor </sub></strong></em><strong>=</strong> <em><strong>&#948;<sub>oro</sub></strong></em> <strong>=</strong> <em><strong>m / V<sub>esperado</sub></strong></em></p>
+      <p><em><strong>V<sub>esp</sub></strong></em> <strong>=</strong> <em><strong>m</strong></em> <em><strong>/</strong></em> <em><strong>&#948;<sub>oro</sub></strong></em></p>
+      <p><em><strong>V<sub>esp</sub></strong></em> <strong>= <em>1.000 <span class="epigrafe">gr</span></em></strong><em><strong> /</strong></em><strong> <em>19,3 <span class="epigrafe">gr</span></em></strong><span class="epigrafe">/</span><strong><span class="epigrafe"><em>cm<strong><em><strong><em><strong><strong><sup>3</sup></strong></strong></em></strong></em></strong></em></span></strong></p>
+      </blockquote>    
+    <p>Donde <em><strong>&#948;<sub>cor</sub></strong></em> es la densidad de la corona, que si fuera de oro puro tendr&iacute;a que ser igual a la densidad del oro.</p></td>
+  <td class="bodytext" height="182">&nbsp;</td>
+  <td align="center" valign="middle" class="bodytext"><img src="img_hstat/corona.jpg" width="85" height="70"></td>
+</tr>
+<tr>
+  <td height="55" align="center" valign="middle" bgcolor="#FFFFFF" class="epigrafe"><table width="507" height="36" border="0">
+    <tr>
+      <td width="35" height="28" valign="middle" class="bodytext">&nbsp;</td>
+      <td width="210" align="center" bordercolor="#FFFFFF" bgcolor="#CCCCCC" class="bodytext"><p><em><strong>V<sub>esperado</sub></strong></em> <strong>= <em>51,8 <span class="epigrafe">cm</span><strong><em><strong><em><strong><strong><sup>3</sup></strong></strong></em></strong></em></strong></em></strong></p></td>
+      <td width="248" align="center" class="bodytext">&nbsp;</td>
+    </tr>
+  </table></td>
+  <td class="bodytext" height="55">&nbsp;</td>
+  <td class="bodytext" height="55" valign="middle">&nbsp;</td>
+</tr>
+<tr>
+  <td height="55" align="left" valign="middle" bgcolor="#FFFFFF" class="bodylinkblack"><p class="bodytext">Pero el chab&oacute;n le mide el volumen y encuentra que es mayor que el esperado, de modo que deber&iacute;a deducir que la corona est&aacute; hecha de un material menos denso que el oro, o no es maciza, o tiene una mezcla de materiales que, en su conjunto, son menos densos que el oro puro.</p>
+    <p class="bodytext">No tengo idea de c&oacute;mo sospecharon que el material intruso era  plata, pero en ese caso, &iquest;c&oacute;mo podemos hacer para saber qu&eacute; cantidad de plata introdujo el orfebre para reemplazar el oro que se afanaba?</p>
+    <p class="bodytext">Hay razonamientos m&aacute;s simples y directos, pero yo lo voy a hacer con &quot;fuerza bruta&quot;, sin nada de ingenio. Ac&aacute; va. La suma de los pesos (voy a utilizar masas), del oro y de la plata, equivale al peso total de la corona. Y la suma de los vol&uacute;menes, &iacute;dem.</p>
+    <blockquote>
+      <p><em><strong>m<sub>cor</sub></strong></em> <strong>=</strong> <em><strong>m<sub>oro</sub></strong></em> + <em><strong>m<sub>plata</sub></strong></em></p>
+      <p><em><strong>V<sub>cor</sub></strong></em> <strong>=</strong> <em><strong>V<sub>oro</sub></strong></em> + <em><strong>V<sub>plata</sub></strong></em></p>
+    </blockquote>
+    <p>En lugar vol&uacute;menes podemos usar las densidades de cada material:</p></td>
+  <td class="bodytext" height="55">&nbsp;</td>
+  <td class="bodytext" height="55" valign="middle">&nbsp;</td>
+</tr>
+<tr>
+  <td height="55" align="left" valign="middle" bgcolor="#FFFFFF" class="epigrafe"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td width="19%" rowspan="3" align="right" class="bodytext"><em><strong>V<sub>cor</sub></strong></em> <strong>=</strong></td>
+      <td width="2%" rowspan="3" class="bodytext">&nbsp;</td>
+      <td width="11%" height="0" align="center" valign="bottom" class="bodytext"><strong><em>m<sub>oro</sub></em></strong></td>
+      <td width="3%" rowspan="3" align="center" valign="middle" class="bodytext"><strong>+</strong></td>
+      <td width="11%" height="0" align="center" valign="bottom" class="bodytext"><em><strong>m<sub>plata</sub></strong></em></td>
+      <td width="54%" rowspan="3" align="left" valign="middle" class="bodytext">&nbsp;</td>
+    </tr>
+    <tr>
+      <td height="2" align="center" valign="middle" class="epigrafe"><hr align="center" width="100%" style="color:black" size="1" noshade></td>
+      <td align="center" valign="middle" class="epigrafe"><hr align="center" width="100%" style="color:black" size="1" noshade></td>
+    </tr>
+    <tr>
+      <td height="0" align="center" valign="top" class="bodytext"><strong><em><strong>&#948;<sub>oro</sub></strong></em></strong><em><strong> </strong></em></td>
+      <td height="0" align="center" valign="top" class="bodytext"><em><strong><strong>&#948;</strong><sub>plata</sub></strong></em></td>
+    </tr>
+  </table></td>
+  <td class="bodytext" height="55">&nbsp;</td>
+  <td class="bodytext" height="55" valign="middle">&nbsp;</td>
+</tr>
+<tr>
+  <td height="38" align="left" valign="middle" bgcolor="#FFFFFF" class="bodytext">A partir de ac&aacute; es pura &aacute;lgebra, no chilles. En la &uacute;ltima meto la primera y despejo la masa de plata (que es lo mismo que se afan&oacute; de oro).</td>
+  <td class="bodytext" height="38">&nbsp;</td>
+  <td class="bodytext" height="38" valign="middle">&nbsp;</td>
+</tr>
+<tr>
+  <td height="38" align="left" valign="middle" bgcolor="#FFFFFF" class="bodytext"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td width="19%" rowspan="3" align="right" class="bodytext"><em><strong>V<sub>cor</sub></strong></em> <strong>=</strong></td>
+      <td width="2%" rowspan="3" class="bodytext">&nbsp;</td>
+      <td width="22%" height="0" align="center" valign="bottom" class="bodytext"><strong><em><strong>m<sub>cor</sub> &ndash; m<sub>plata</sub></strong></em></strong></td>
+      <td width="4%" rowspan="3" align="center" valign="middle" class="bodytext"><strong>+</strong></td>
+      <td width="14%" height="0" align="center" valign="bottom" class="bodytext"><em><strong>m<sub>plata</sub></strong></em></td>
+      <td width="39%" rowspan="3" align="left" valign="middle" class="bodytext">&nbsp;</td>
+    </tr>
+    <tr>
+      <td height="2" align="center" valign="middle" class="epigrafe"><hr align="center" width="100%" style="color:black" size="1" noshade></td>
+      <td align="center" valign="middle" class="epigrafe"><hr align="center" width="100%" style="color:black" size="1" noshade></td>
+    </tr>
+    <tr>
+      <td height="0" align="center" valign="top" class="bodytext"><strong><em><strong>&#948;<sub>oro</sub></strong></em></strong><em><strong> </strong></em></td>
+      <td height="0" align="center" valign="top" class="bodytext"><em><strong><strong>&#948;</strong><sub>plata</sub></strong></em></td>
+    </tr>
+  </table></td>
+  <td class="bodytext" height="38">&nbsp;</td>
+  <td class="bodytext" height="38" valign="middle">&nbsp;</td>
+</tr>
+<tr>
+  <td height="14" align="left" valign="middle" bgcolor="#FFFFFF" class="bodytext">&nbsp;</td>
+  <td class="bodytext" height="14">&nbsp;</td>
+  <td class="bodytext" height="14" valign="middle">&nbsp;</td>
+</tr>
+<tr>
+  <td height="38" align="left" valign="middle" bgcolor="#FFFFFF" class="bodytext"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td width="19%" rowspan="3" align="right" class="bodytext"><em><strong>V<sub>cor</sub></strong></em> <strong>=</strong></td>
+      <td width="2%" rowspan="3" class="bodytext">&nbsp;</td>
+      <td width="13%" height="0" align="center" valign="bottom" class="bodytext"><strong><em><strong>m<sub>cor</sub></strong></em></strong></td>
+      <td width="4%" rowspan="3" align="center" valign="middle" class="bodytext"><strong><em><strong>&ndash;</strong></em></strong></td>
+      <td width="12%" height="0" align="center" valign="bottom" class="bodytext"><strong><em><strong>m<sub>plata</sub></strong></em></strong></td>
+      <td width="4%" rowspan="3" align="center" valign="middle" class="bodytext"><em><strong>+</strong></em></td>
+      <td width="12%" align="center" valign="bottom" class="bodytext"><em><strong>m<sub>plata</sub></strong></em></td>
+      <td width="34%" rowspan="3" align="left" valign="middle" class="bodytext">&nbsp;</td>
+    </tr>
+    <tr>
+      <td height="2" align="center" valign="middle" class="epigrafe"><hr align="center" width="100%" style="color:black" size="1" noshade></td>
+      <td align="center" valign="middle" class="epigrafe"><hr align="center" width="100%" style="color:black" size="1" noshade></td>
+      <td align="center" valign="middle" class="epigrafe"><hr align="center" width="100%" style="color:black" size="1" noshade></td>
+    </tr>
+    <tr>
+      <td height="0" align="center" valign="top" class="bodytext"><strong><em><strong>&#948;<sub>oro</sub></strong></em></strong><em><strong> </strong></em></td>
+      <td height="0" align="center" valign="top" class="bodytext"><strong><em><strong>&#948;<sub>oro</sub></strong></em></strong></td>
+      <td align="center" valign="top" class="bodytext"><em><strong><strong>&#948;</strong><sub>plata</sub></strong></em></td>
+    </tr>
+  </table></td>
+  <td class="bodytext" height="38">&nbsp;</td>
+  <td class="bodytext" height="38" valign="middle">&nbsp;</td>
+</tr>
+<tr>
+  <td height="14" align="left" valign="middle" bgcolor="#FFFFFF" class="bodytext">&nbsp;</td>
+  <td class="bodytext" height="14">&nbsp;</td>
+  <td class="bodytext" height="14" valign="middle">&nbsp;</td>
+</tr>
+<tr>
+  <td height="38" align="left" valign="middle" bgcolor="#FFFFFF" class="bodytext"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td width="19%" rowspan="3" align="right" class="bodytext"><em><strong>V<sub>cor </sub></strong></em><strong><em><strong>&ndash;</strong></em></strong></td>
+      <td width="2%" rowspan="3" class="bodytext">&nbsp;</td>
+      <td width="13%" height="0" align="center" valign="bottom" class="bodytext"><strong><em><strong>m<sub>cor</sub></strong></em></strong></td>
+      <td width="8%" rowspan="3" align="center" valign="middle" class="bodytext"><strong><em><strong>= <em><strong>&ndash;</strong></em></strong></em></strong></td>
+      <td width="12%" height="0" align="center" valign="bottom" class="bodytext"><strong><em><strong>m<sub>plata</sub></strong></em></strong></td>
+      <td width="3%" rowspan="3" align="center" valign="middle" class="bodytext"><em><strong>+</strong></em></td>
+      <td width="11%" align="center" valign="bottom" class="bodytext"><em><strong>m<sub>plata</sub></strong></em></td>
+      <td width="32%" rowspan="3" align="left" valign="middle" class="bodytext">&nbsp;</td>
+    </tr>
+    <tr>
+      <td height="2" align="center" valign="middle" class="epigrafe"><hr align="center" width="100%" style="color:black" size="1" noshade></td>
+      <td align="center" valign="middle" class="epigrafe"><hr align="center" width="100%" style="color:black" size="1" noshade></td>
+      <td align="center" valign="middle" class="epigrafe"><hr align="center" width="100%" style="color:black" size="1" noshade></td>
+    </tr>
+    <tr>
+      <td height="0" align="center" valign="top" class="bodytext"><strong><em><strong>&#948;<sub>oro</sub></strong></em></strong><em><strong> </strong></em></td>
+      <td height="0" align="center" valign="top" class="bodytext"><strong><em><strong>&#948;<sub>oro</sub></strong></em></strong></td>
+      <td align="center" valign="top" class="bodytext"><em><strong><strong>&#948;</strong><sub>plata</sub></strong></em></td>
+    </tr>
+  </table></td>
+  <td class="bodytext" height="38">&nbsp;</td>
+  <td class="bodytext" height="38" valign="middle">&nbsp;</td>
+</tr>
+<tr>
+  <td height="14" align="left" valign="middle" bgcolor="#FFFFFF" class="bodytext">&nbsp;</td>
+  <td class="bodytext" height="14">&nbsp;</td>
+  <td class="bodytext" height="14" valign="middle">&nbsp;</td>
+</tr>
+<tr>
+  <td height="38" align="left" valign="middle" bgcolor="#FFFFFF" class="bodytext"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td width="19%" rowspan="3" align="right" class="bodytext"><em><strong>V<sub>cor </sub></strong></em><strong><em><strong>&ndash;</strong></em></strong></td>
+      <td width="2%" rowspan="3" class="bodytext">&nbsp;</td>
+      <td width="13%" height="0" align="center" valign="bottom" class="bodytext"><strong><em><strong>m<sub>corona</sub></strong></em></strong></td>
+      <td width="11%" rowspan="3" align="center" valign="middle" class="bodytext"><strong><em><strong>= <em><strong>m<sub>plata</sub></strong></em> </strong></em></strong></td>
+      <td width="20%" height="0" align="center" valign="bottom" class="bodytext"><strong><em><strong><strong>&#948;</strong><em><strong><sub>oro</sub></strong></em></strong><strong><em><strong> &ndash;</strong></em></strong><strong> <strong>&#948;</strong><em><strong><sub>plata</sub></strong></em></strong></em></strong></td>
+      <td width="0%" rowspan="3" align="center" valign="middle" class="bodytext">&nbsp;</td>
+      <td width="35%" rowspan="3" align="left" valign="middle" class="bodytext">&nbsp;</td>
+    </tr>
+    <tr>
+      <td height="2" align="center" valign="middle" class="epigrafe"><hr align="center" width="100%" style="color:black" size="1" noshade></td>
+      <td align="center" valign="middle" class="epigrafe"><hr align="center" width="100%" style="color:black" size="1" noshade></td>
+      </tr>
+    <tr>
+      <td height="0" align="center" valign="top" class="bodytext"><strong><em><strong>&#948;<sub>oro</sub></strong></em></strong><em><strong> </strong></em></td>
+      <td height="0" align="center" valign="top" class="bodytext"><em><strong><strong><em><strong>&#948;<sub>oro</sub></strong></em></strong><em> . <strong><strong>&#948;</strong><sub>plata</sub></strong></em></strong></em></td>
+      </tr>
+  </table></td>
+  <td class="bodytext" height="38">&nbsp;</td>
+  <td class="bodytext" height="38" valign="middle">&nbsp;</td>
+</tr>
+<tr>
+  <td height="14" align="left" valign="middle" bgcolor="#FFFFFF" class="bodytext">&nbsp;</td>
+  <td class="bodytext" height="14">&nbsp;</td>
+  <td class="bodytext" height="14" valign="middle">&nbsp;</td>
+</tr>
+<tr>
+  <td height="38" align="left" valign="middle" bgcolor="#FFFFFF" class="bodytext"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td width="30%" rowspan="3" align="right" class="bodytext"><strong><em><strong>m<sub>plata</sub></strong></em></strong> <strong><em><strong>=</strong></em> (</strong><em><strong>V<sub>cor</sub></strong></em> <strong><em><strong>&ndash;</strong></em> </strong></td>
+      <td width="2%" rowspan="3" class="bodytext">&nbsp;</td>
+      <td width="10%" height="0" align="center" valign="bottom" class="bodytext"><strong><em><strong>m<sub>cor</sub></strong></em></strong></td>
+      <td width="4%" rowspan="3" align="center" valign="middle" class="bodytext"><strong><em><strong>) .<em><strong><em><strong><strong>&#160;</strong></strong></em></strong></em></strong></em></strong></td>
+      <td width="17%" height="0" align="center" valign="bottom" class="bodytext"><em><strong><strong><em><strong>&#948;<sub>oro</sub></strong></em></strong><em> . <strong><strong>&#948;</strong><sub>plata</sub></strong></em></strong></em></td>
+      <td width="26%" rowspan="3" align="center" valign="middle" class="bodytext">&nbsp;</td>
+      <td width="11%" rowspan="3" align="left" valign="middle" class="bodytext">&nbsp;</td>
+    </tr>
+    <tr>
+      <td height="2" align="center" valign="middle" class="epigrafe"><hr align="center" width="100%" style="color:black" size="1" noshade></td>
+      <td align="center" valign="middle" class="epigrafe"><hr align="center" width="100%" style="color:black" size="1" noshade></td>
+    </tr>
+    <tr>
+      <td height="0" align="center" valign="top" class="bodytext"><strong><em><strong>&#948;<sub>oro</sub></strong></em></strong><em><strong> </strong></em></td>
+      <td height="0" align="center" valign="top" class="bodytext"><em><strong><strong><em><strong>&#948;<sub>oro </sub></strong></em></strong><em><strong><em><strong>&ndash;</strong></em></strong> <strong><strong>&#948;</strong><sub>plata</sub></strong></em></strong></em></td>
+    </tr>
+  </table></td>
+  <td class="bodytext" height="38">&nbsp;</td>
+  <td class="bodytext" height="38" valign="middle">&nbsp;</td>
+</tr>
+<tr>
+  <td height="14" align="left" valign="middle" bgcolor="#FFFFFF" class="bodytext">&nbsp;</td>
+  <td class="bodytext" height="14">&nbsp;</td>
+  <td class="bodytext" height="14" valign="middle">&nbsp;</td>
+</tr>
+<tr>
+  <td height="66" class="bodytext"><p>La den sidad del oro vale<strong><em><strong> 19,3</strong></em> <strong><em><span class="epigrafe">gr</span></em></strong></strong><span class="epigrafe">/</span><strong><strong><span class="epigrafe"><em>cm<strong><em><strong><em><strong><strong><sup>3</sup></strong></strong></em></strong></em></strong></em> </span></strong></strong>y la de la pata <strong><em><strong>10,5</strong></em> <strong><em><span class="epigrafe">gr</span></em></strong></strong><span class="epigrafe">/</span><strong><strong><span class="epigrafe"><em>cm<strong><em><strong><em><strong><strong><sup>3</sup></strong></strong></em></strong></em></strong></em></span></strong></strong>.</p>
+    <blockquote>
+      <p><strong><em><strong>m<sub>plata</sub></strong></em></strong> <strong><em><strong>=</strong></em> <em>(</em></strong><em><strong>166 <em> <span class="epigrafe">cm</span><strong><em><strong><em><strong><strong><sup>3</sup></strong></strong></em></strong></em></strong></em> </strong></em><strong><em><strong>&ndash; </strong>129,5 <span class="epigrafe">cm</span><strong><em><strong><em><strong><strong><sup>3</sup></strong></strong></em></strong></em></strong></em></strong><em><strong>)</strong></em> . <em><strong>23,03</strong></em> <strong><em><span class="epigrafe">gr</span></em></strong><span class="epigrafe">/</span><strong><span class="epigrafe"><em>cm<strong><em><strong><em><strong><strong><sup>3</sup></strong></strong></em></strong></em></strong></em></span></strong></p>
+    </blockquote></td>
+  <td class="bodytext" height="66">&nbsp;</td>
+  <td class="bodytext" height="66" valign="middle">&nbsp;</td>
+</tr>
+<tr>
+  <td height="51" class="bodytext"><table width="507" height="36" border="0">
+    <tr>
+      <td width="35" height="28" valign="middle" class="bodytext">&nbsp;</td>
+      <td width="210" align="center" bordercolor="#FFFFFF" bgcolor="#CCCCCC" class="bodytext"><p><strong><em><strong>m<sub>plata</sub></strong></em></strong> <strong><em><strong>=</strong> </em></strong><strong><em>300 <span class="epigrafe">gr</span></em></strong></p></td>
+      <td width="248" align="center" class="epigrafe">qu&eacute; p&iacute;caro</td>
+    </tr>
+  </table></td>
+  <td class="bodytext" height="51">&nbsp;</td>
+  <td class="bodytext" height="51" valign="middle">&nbsp;</td>
+</tr>
+<tr>
+  <td height="51" class="bodytext">Los m&eacute;todos ingeniosos, claro est&aacute;, tienen un &aacute;lgebra mucho m&aacute;s sencilla. Si encontr&aacute;s un camino algebraico m&aacute;s directo que &eacute;ste (sin reemplazos num&eacute;ricos previos, claro est&aacute;) no dejes de mand&aacute;rmelo que as&iacute; cambio el m&iacute;o que se me antoja un poco pesado. Todavía nos falta una pregunta.</td>
+  <td class="bodytext" height="51">&nbsp;</td>
+  <td class="bodytext" height="51" valign="middle">&nbsp;</td>
+</tr>
+<tr>
+  <td height="124" class="bodytext"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td width="51%" height="47" class="bodytext"><p>El mismo peso pero diferente volumen, el lógico que la corona tenga más empuje, luego la balanza se inclina. </p>
+        <p>Para que no se incline hay que añadirle un peso igual al peso de de la diferencia de volumen:</p></td>
+      <td width="49%" class="bodytext"><img src="img_hstat/hstat_16_1.gif" width="250" height="95"></td>
+    </tr>
+  </table></td>
+  <td class="bodytext" height="124">&nbsp;</td>
+  <td class="bodytext" height="124" valign="middle">&nbsp;</td>
+</tr>
+<tr>
+  <td height="124" class="bodytext"><blockquote>
+    <p><em><strong>V<sub>corona</sub></strong></em> <strong>=</strong><strong><em> 51,8 <span class="epigrafe">cm</span><strong><em><strong><em><strong><strong><sup>3</sup></strong></strong></em></strong></em></strong></em></strong></p>
+    <p><em><strong>V<sub>esperado</sub></strong></em> <strong>= <em>51,8 <span class="epigrafe">cm</span><strong><em><strong><em><strong><strong><sup>3</sup></strong></strong></em></strong></em></strong></em></strong></p>
+    <p><em><strong>&#916V</strong></em> <strong>= <em>13 <span class="epigrafe">cm</span><strong><em><strong><em><strong><strong><sup>3</sup></strong></strong></em></strong></em></strong></em></strong></p>
+  </blockquote>
+    <p>Y ese volumen de agua pesa <strong><em>13 <span class="epigrafe">gr</span></em></strong>. Eso sí... la pesita la tenés que agregar arriba en el brazo de la balanza, no colgando de la corona y sumergida.</p></td>
+  <td class="bodytext" height="124">&nbsp;</td>
+  <td class="bodytext" height="124" valign="middle">&nbsp;</td>
+</tr>
+<tr>
+  <td height="56" class="bodytext"><table width="507" height="36" border="0">
+    <tr>
+      <td width="35" height="28" valign="middle" class="bodytext">&nbsp;</td>
+      <td width="210" align="center" bordercolor="#FFFFFF" bgcolor="#CCCCCC" class="bodytext"><p><strong><em><strong>P<sub>añadido</sub></strong></em></strong> <strong><em><strong>=</strong> </em></strong><strong><em>300 <span class="epigrafe">grf</span></em></strong></p></td>
+      <td width="248" align="center" class="epigrafe">&nbsp;</td>
+    </tr>
+  </table></td>
+  <td class="bodytext" height="56">&nbsp;</td>
+  <td class="bodytext" height="56" valign="middle">&nbsp;</td>
+</tr>
+<tr>
+  <td height="475" class="bodytext"><p>Dejame que discuta un poco este ejercicio. La f&aacute;bula de la corona del rey Hier&oacute;n me parece de mala calidad. Primero muchos profesores de F&iacute;sica un poco incautos <em>&iexcl;</em>y muchos libros de F&iacute;sica<em>!</em>, eso es a&uacute;n peor, presentan esta f&aacute;bula como ilustraci&oacute;n del Principio de Arqu&iacute;medes... de cual no dice nada absolutamente. El principio de Arqu&iacute;medes no aparece en esta historia ni en una pizca, ni de oro, ni de plata, ni de agua. </p>
+    <p>Pese a que es muy vistosa por el final (censurado en este ejercicio) que cuenta que exitado por su descubrimiento Arqu&iacute;medes sali&oacute; de la tina  y corri&oacute; por las calles de Siracusa en bolas al grito de<em> &iexcl;</em>eureka, eureka<em>!</em> que en espa&ntilde;ol antiguo significa <em>&iexcl;</em>eureka, eureka<em>!</em>, la f&aacute;bula s&oacute;lo ilustra el descubrimiento de la determinaci&oacute;n de vol&uacute;menes por el m&eacute;todo de desplazamiento: si un cuerpo se sumerge<strong> totalmente</strong> en un l&iacute;quido desplaza un volumen de l&iacute;quido igual al volumen propio. Hace 2400 a&ntilde;os, este descubrimiento pod&iacute;a poner feliz a cualquiera... pero<strong> no es</strong> el Principio de Arqu&iacute;medes. Si se exit&oacute; tanto al descubrir este m&eacute;todo de medir vol&uacute;menes no alcanzo a imaginarme c&oacute;mo habr&aacute; festejado al descubrir el principio que lleva su nombre.</p>
+    <p>Por otro lado no alcanzo a entender por qu&eacute; Hieron II sospech&oacute; que la substituci&oacute;n de material se har&iacute;a con plata, y no con cualquier otro metal  o material (incluso m&aacute;s barato que la plata). Mis conocimientos de orfebrer&iacute;a hel&eacute;nica no son suficientemente id&oacute;neos para despejar esta duda. Pero incluso pienso que el orfebre pod&iacute;a ser no s&oacute;lo honesto sino tambi&eacute;n pr&aacute;ctico y creativo, al fabricar una corona de oro hueca, mucho m&aacute;s voluminosa, vistosa y ornamental... y sin substraer un solo y miserable gramo de oro al desconfiado rey, con el &uacute;nico costo -claro est&aacute;- de disminuir la densidad de la corona, algo que nadie m&aacute;s que el rey pod&iacute;a notar (eso si tuviera mucha sensibilidad en el cuero cabelludo). Pamplinas.</p>
+    <p>Por &uacute;ltimo, a&uacute;n cuando parte de esta historia fuese cierta, en vida de Arqu&iacute;medes no hab&iacute;a instrumentos necesarios para medir con suficiente precisi&oacute;n el l&iacute;quido desplazado por la corona. O sea, esta leyenda se hace agua por todos lados, no logra mantenerse a flote por m&aacute;s Arqu&iacute;medes que la sostenga. Prefiero suponer que tal orfebre no fue degollado y cargo con un muerto menos en mi conciencia humana.</p>    </td>
+  <td width="6" class="bodytext">&nbsp;</td>
+  <td width="87" align="center" valign="middle" class="bodytext"><img src="img_hstat/eureka.JPG" alt="Flu&iacute;dos - Ricardo Cabrera" width="85" height="225"></td>
+</tr>
+
+
+
+<tr>
+  <td height="42" align="left" class="bodytext"><p><strong>DESAF&Iacute;O</strong>: &iquest;Qu&eacute; vol&uacute;menes de oro y plata (escondida) conformaban la corona?</p>    </td>
+  <td class="bodytext">&nbsp;</td>
+  <td width="87" rowspan="2" valign="bottom" class="bodytext"><img src="img_hstat/ric_081.jpg" alt="Flu&iacute;dos - Ricardo Cabrera" width="85" height="109"></td>
+</tr>
+
+
+<tr> <td height="46" align="center" valign="middle" bgcolor="#CCCCCC" class="bodytext"><table width="92%" border="0">
+  <tr>
+    <td class="epigrafe">Algunos derechos reservados. 
+      Se permite su reproducci&oacute;n citando la fuente. &Uacute;ltima actualizaci&oacute;n jun-11. Buenos Aires, Argentina. </td>
+  </tr>
+</table>  </td>
+  <td class="bodytext" width="6">&nbsp;</td>
+  </tr> 
+<tr> <td height="18" class="bodytext">&nbsp;</td><td class="bodytext" width="6">&nbsp;</td>
+<td class="bodytext" width="87">&nbsp;</td>
+</tr> 
+</table></td></tr> </table><img src="img_hstat/transparente.gif" width="10" height="20"></td></tr> 
+<tr> <td class="bodytext"><img src="img_hstat/transparente.gif" width="600" height="20"></td></tr> 
+</table>
+</body>
+</html>

@@ -1,0 +1,211 @@
+<html>
+<head>
+<title>Ricardo Cabrera, MECANICA DE FLUIDOS, HIDROSTATICA - PRESION</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="keywords" content="problemas resueltos, ejercicios resueltos, cbc, fisica, biofisica, fluidos, liquidos, gases, bernoulli, poiseuille, viscosidad, ideales, viscosos, humedad, difusion, osmosis, nomesalen, no me salen, ricardo cabrera" />
+<meta name="description" content="Ejercicios y problemas resueltos, y apuntes teóricos de Fluidos, mecanismos de transporte de fluidos" />
+<link rel="stylesheet" href="win_ie.css">
+<style type="text/css">
+<!--
+.style1 {
+	color: #3F6386;
+	font-weight: bold;
+}
+.Estilo3 {color: #3F6386}
+.Estilo16 {font-size: 16px}
+.Estilo19 {font-size: 10px; font-weight: bold; font-style: italic; }
+.Estilo24 {font-size: 10px}
+.Estilo25 {color: #FF0000}
+-->
+</style>
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000" alink="#000000" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<table align=center width="600" border="0" cellspacing="0" cellpadding="0"> 
+  <tr bgcolor="#000000" align="right"> 
+<td width="600"><img src="img_hstat/nombre5.gif" width="369" height="71"></td>
+  </tr> <tr bgcolor="#BB0000" valign="middle" align="left"> 
+<td class="bodytext" height="20"><TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+  <TR ALIGN="center" CLASS="menuitem">
+    <TD WIDTH="44" height="19" CLASS="menuitem"><A HREF="../../index.html" CLASS="menuitem">&nbsp;<B>home</B>&nbsp;</A></TD>
+    <TD WIDTH="5" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="113" CLASS="menuitem"><strong><a href="index_hstat.html" class="menuitem">m&aacute;s de hidrostática</a> </strong></TD>
+    <TD width="10" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="125" CLASS="menuitem"><strong><a href="../../intro_NMS.html" class="menuitem">otros temas de F&iacute;sica</a></strong></TD>
+    <TD width="10" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="173" CLASS="menuitem"><strong><a href="../../lista_ciruela.html" class="menuitem">lecciones del maestro Ciruela </a></strong></TD>
+    <TD width="9" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="68" CLASS="menuitem"><strong><a href="../../lista_tonterias.html" class="menuitem">tonter&iacute;as</a></strong></TD>
+    <TD WIDTH="8" CLASS="menuitem"><a href="../energia/index_energia.html" class="menuitem"></a><FONT COLOR="#000000">|</FONT></TD>
+    <TD WIDTH="40" CLASS="menuitem">&nbsp;<B><FONT FACE="Arial, Helvetica, sans-serif"><A HREF="mailto: ricuti@qi.fcen.uba.ar" CLASS="menuitem">@</A></FONT><A HREF="../../index.html" CLASS="menuitem"></A></B>&nbsp;</TD>
+  </TR>
+</TABLE></td></tr> <tr> <td class="bodytext" height="19"><img src="img_hstat/transparente.gif" width="600" height="20"></td></tr> 
+<tr align="center"> <td height="2084"> <table width="586" border="0" cellspacing="0" cellpadding="0"> 
+<tr class="bodytext"> <td colspan="2" valign="top" height="1942"> <img src="img_hstat/transparente.gif" width="1" height="1"></td>
+<td valign="top" width="583" height="1942"> 
+<table width="592" border="0" cellspacing="0" cellpadding="0"> <tr> 
+  <td width="502" height="74" bgcolor="#D7FFFF" class="bodytext"><span class="bodytext"><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>NO ME SALEN<br>
+</strong></span><span class="Estilo3"><em class="bodytext "><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>(<strong>LECCIONES TEORICAS  DE BIOF&Iacute;SICA DEL CBC</strong>)</strong></em></span><br>
+      <span class="titulograndegris Estilo16"><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>FLUIDOS<br>
+      </strong></span><span class="titulochicogris"><strong> <em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>HIDROSTATICA - PRINCIPIO  GENERAL DE LA HIDROSTATICA </strong></span><span class="Estilo3"><br>
+      </span><br> </td>
+  <td class="bodytext" rowspan="3" height="74" width="10">&nbsp;</td>
+  <td class="bodytext" colspan="2" height="74" rowspan="3" valign="top" width="86"> 
+<p><img src="img_hstat/cap19.jpg" alt="desesperado" width="85" height="111"></p></td></tr>
+  <tr>
+    <td height="18" bgcolor="#FFFFFF" class="bodytext"><img src="img_hstat/transparente.gif" width="502" height="19"></td>
+  </tr> 
+<tr> <td height="14" class="bodytext"><P>Tambi&eacute;n lo llaman <em>principio fundamental de la hidrost&aacute;tica</em>. Ya lo ver&aacute;s m&aacute;s adelante, es un caso particular del principio de Bernoulli, de modo que estamos en presencia de un principio de conservaci&oacute;n de la energ&iacute;a. Ten&eacute;s mi autorizaci&oacute;n de olvidarte de todo lo que te acabo de contar, y arranquemos la lecci&oacute;n reci&eacute;n en el siguiente rengl&oacute;n.</P>
+    </td>
+  </tr>  
+<tr>
+  <td align="left" class="bodytext"><p>&nbsp;</p>    </td>
+  <td width="10" align="left" class="bodytext">&nbsp;</td>
+  <td width="86" colspan="2" class="bodytext">&nbsp;</td>
+</tr>
+
+<tr>
+  <td height="59" align="left" class="bodytext"><table width="100%" border="0">
+    <tr>
+      <td width="64%" height="127" class="bodytext"><p><strong>PRINCIPIO  GENERAL DE LA HIDROSTATICA<br>
+      </strong>Si tenemos un tanque lleno de un l&iacute;quido cualquiera, se observa que seg&uacute;n a qu&eacute; profundidad abramos una ventanita el chorrito de l&iacute;quido sale con m&aacute;s o menos fuerza, lo cual nos permite inferir que la presi&oacute;n debe ser m&aacute;s grande a mayores profundidades.</p>
+        <p>Efectivamente, es f&aacute;cil demostrar (y figura en casi todos los textos de f&iacute;sica de mec&aacute;nica de fluidos) que </p></td>
+      <td width="2%">&nbsp;</td>
+      <td width="34%"><img src="img_hstat/FT_pres_ppio.gif" alt="Flu&iacute;dos - Ricardo Cabrera" width="162" height="128"></td>
+    </tr>
+  </table></td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext" colspan="2">&nbsp;</td>
+</tr>
+<tr>
+  <td height="65" align="center" valign="middle" class="bodytext"><table width="85%" height="54" border="0">
+    <tr>
+      <td bgcolor="#FFFFCC" class="bodytext">&nbsp;</td>
+      <td bgcolor="#FFFFCC" class="bodytext"><strong>la presi&oacute;n en un punto cualquiera de un  l&iacute;quido en reposo es directamente proporcional a la densidad del l&iacute;quido y a la  profundidad a la que se halla el punto. </strong></td>
+    </tr>
+  </table>    </td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext" colspan="2">&nbsp;</td>
+</tr>
+<tr>
+  <td height="313" align="left" class="bodytext"><p>Esa expresi&oacute;n  del recuadro  se conoce como <strong>Principio general de la hidrost&aacute;tica</strong>, y simb&oacute;licamente se expresar&iacute;a de esta manera: </p>
+    <blockquote>
+      <p><em><strong>Pr = &#948; . g</strong></em> <em><strong>. h </strong></em></p>
+      </blockquote>
+    <p>O, lo que es lo mismo:</p>
+    <blockquote>
+      <p><em><strong>Pr = &rho;</strong></em> <em><strong>. h </strong></em></p>
+    </blockquote>
+    <p>donde <em><strong>Pr</strong></em> es la presi&oacute;n, <em><strong>&#948;</strong></em> es la densidad del l&iacute;quido, <em><strong>&rho;</strong></em> es el peso espec&iacute;fico del fluido, <em><strong>g</strong></em> es la aceleraci&oacute;n de la gravedad y <em><strong>h</strong></em> es la profundidad (medida desde la parte superior del l&iacute;quido y hacia abajo) a la que se establece la presi&oacute;n. </p>
+    <p>Como  toda proposici&oacute;n f&iacute;sica, se trata de una aproximaci&oacute;n a la realidad. Para que  esto funcione hay que suponer que la densidad del l&iacute;quido se mantiene constante  entre los puntos considerados (lo cual no es del todo absurdo ya que, como  te dije antes, los l&iacute;quidos son pr&aacute;cticamente incompresibles) y a&uacute;n cuando  haya cambios de temperatura. </p>
+    <p>Una consecuencia inmediata del principio es que dos puntos a igual profundidad en un mismo l&iacute;quido en reposo, se hallar&aacute;n sometidos a la misma presi&oacute;n.</p>
+    <p>Podemos darle una vuelta m&aacute;s a esta tuerca y utilizarla para expresar la diferencia de presi&oacute;n entre dos puntos situados a diferentes profundidades:  </p></td>
+  <td class="bodytext">&nbsp;</td>
+  <td colspan="2" align="center" valign="top" class="epigrafe Estilo25"><p>&nbsp;</p>
+    <table width="85" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td align="center" class="epigrafe"><p><em><strong>&rho; = &#948; . g</strong></em></p>
+          <p><em><strong>peso espec&iacute;fico es igual a densidad por gravedad</strong></em></p>
+          <p>(eso est&aacute; explicado <a href="FT_densidad.html" target="_blank">ac&aacute;</a>)</p></td>
+    </tr>
+  </table></td>
+</tr>
+<tr>
+  <td height="47" align="center" class="bodytext"><table width="25%" height="34" border="0">
+    <tr>
+      <td height="30" align="center" bgcolor="#FFFF66" class="bodytext"><em><strong>&Delta;Pr = &rho; &Delta;h</strong></em></td>
+      </tr>
+  </table></td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext" colspan="2">&nbsp;</td>
+</tr>
+<tr>
+  <td height="133" align="left" class="bodytext"><p>Ejemplo:
+hallar la diferencia de presi&oacute;n entre la  superficie y el fondo de una piscina de agua de <em><strong>4</strong></em> metros de profundidad.</p>
+    <blockquote>
+      <h3 class="bodytext"><em><strong>&Delta;Pr = 10.000 <span class="Estilo24">N</span>/<span class="Estilo19">m</span><em>&sup3;</em> . 4 <span class="Estilo24">m</span></strong></em></h3>
+      <h3 class="bodytext"><em>&Delta;Pr = 40.000<span class="Estilo24"> Pa</span> = 400 <span class="Estilo24">hPa</span></em></h3>
+      </blockquote>
+    <p>Si quer&eacute;s reforzar las ideas de estas primeras dos lecciones, te recomiendo empezar por <a href="flu_NMS017.html" target="_blank">este ejercicio</a>.</p>
+    <p><strong>CHISMES IMPORTANTES</strong>:</p></td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext" colspan="2">&nbsp;</td>
+</tr> 
+<tr>
+  <td align="left" bgcolor="#FFFFFF" class="bodytext"><ul>
+    <li> Llama  la atenci&oacute;n que la presi&oacute;n en el seno de un l&iacute;quido sea independiente de la  amplitud del recipiente, o de la cantidad de l&iacute;quido, o de la anchura de la  columna (son tres modos de plantear lo mismo), y que s&oacute;lo dependa de la  profundidad. Sin embargo, existe la misma presi&oacute;n en el fondo de un tubo  vertical lleno de agua de <em><strong>15</strong></em> metros de largo y <em><strong>5</strong></em> <span class="Estilo24"><em><strong>cm</strong></em></span> de di&aacute;metro que en el fondo  de un lago de <em><strong>15</strong></em> metros de profundidad.<br>
+      <br>
+    </li>
+    <li> Las partes m&aacute;s sensibles  de nuestro cuerpo (a la presi&oacute;n)  son los t&iacute;mpanos, las membranas que separan el o&iacute;do externo del o&iacute;do medio. A  medida que nos sumergimos en la piscina el agua presiona m&aacute;s y m&aacute;s sobre nuestros  t&iacute;mpanos produci&eacute;ndonos incomodidad y dolor. <br>
+      Mir&aacute; este ejemplo: &iquest;Qu&eacute; fuerza  hace  el agua a <em><strong>4</strong></em> metros de profundidad sobre nuestros t&iacute;mpanos sabiendo que tienen un &aacute;rea de <em><strong>3</strong></em> <span class="epigrafe"><em><strong>cm</strong></em></span><span class="Estilo19">&sup2;</span>? <br>
+      Seg&uacute;n la  definici&oacute;n de presi&oacute;n:<em> fuerza  = presi&oacute;n</em> . <em>&aacute;rea</em><br>
+      <br>
+      <em><strong><em><strong><em><strong><strong>&#160; &#160;&#160; &#160;</strong></strong></em></strong></em>F  = 40.000 Pa&nbsp; . 0,0003 <span class="Estilo19">m<sup>2<br>
+      </sup></span><em><strong><em><strong><strong>&#160; &#160;&#160; &#160;</strong></strong></em></strong></em></strong></em><strong><em>F = 12 N</em></strong> </li>
+    </ul>    
+    <blockquote>
+      <p>Por suerte tenemos c&oacute;mo hacer una  presi&oacute;n adicional desde el interior del o&iacute;do para equilibrar la fuerza que nos  hace el agua. Los buceadores conocen muy bien la t&eacute;cnica: soplan fuerte con las  fosas nasales obturadas, el aire se abre paso por unos conductos que conectan la  garganta con el o&iacute;do medio -las trompas de Eustaquio-, y empuja el lado interior  de los t&iacute;mpanos compensando la presi&oacute;n del agua.</p>
+    </blockquote>
+    <ul>
+      <li>
+        <p>Podr&iacute;amos suponer que la presi&oacute;n en la superficie de la piscina fuera cero (en todo caso ser&iacute;a un cero arbitrario, de referencia). En ese  caso el <strong><em>&Delta;Pr </em></strong>se transforma directamente en<em> <strong>Pr</strong>. </em>Y  la  presi&oacute;n en el fondo de la piscina ser&iacute;a de <strong><em>400  <span class="Estilo24">hPa</span></em></strong>. Los instrumentos para medir presiones llamados <strong>man&oacute;metros</strong> utilizan, justamente, ese cero arbitrario sin importar cu&aacute;nto vale -verdaderamente- la presi&oacute;n afuera de la pileta. Para no olvidarnos de que esto es una convenci&oacute;n arbitraria, vamos a llamar a un  resultado as&iacute;: <strong>presi&oacute;n manom&eacute;trica</strong>.  <a href="FT_baromet.html">M&aacute;s adelante vuelvo sobre esto</a>.</p>
+      </li>
+      <li>
+        <p>El bicho humano es b&iacute;pedo desde  hace relativamente poco: unos 10 millones de a&ntilde;os, lo que -evolutivamente  hablando- es bien poco. Pasar del cuadrupedalismo al bipedalismo implica serios  problemas no s&oacute;lo anat&oacute;micos sino tambi&eacute;n fisiol&oacute;gicos. Ser cuadr&uacute;pedo implica  en t&eacute;rminos generales ser horizontal. Y b&iacute;pedo, ser vertical. La diferencia de  altura se multiplica por cinco, y por lo tanto <em>&iexcl;</em>la diferencia de presi&oacute;n  tambi&eacute;n<em>!</em> La anatom&iacute;a humana debi&oacute; hacer importantes cambios para soportar  diferencias de presi&oacute;n de sangre. <br>
+          Gran parte de la respuesta adaptativa recae  sobre las paredes de las ca&ntilde;er&iacute;as -arterias y venas- y el coraz&oacute;n. Las arterias tienen una capacidad asombrosa (de la que te hablo m&aacute;s adelante) de regular la presi&oacute;n de la sangre. Pero a&uacute;n as&iacute; la presi&oacute;n en  las piernas es tan grande que toda la fuerza del coraz&oacute;n no alcanza para  bombear el l&iacute;quido y lograr el retorno venoso en penoso ascenso desde las  profundidades de los pies.<br>
+          A la altura  de los muslos, las venas femorales poseen unas valvulitas que adem&aacute;s de impedir  el descenso &ndash;el reflujo&ndash; de la sangre ayudan a seguir subiendo. Tambi&eacute;n hay en tobillos y plantas de los pies.<br>
+          Por eso a los pacientes card&iacute;acos se les  recomienda efectuar largas caminatas diarias.  El  masajeo que los m&uacute;sculos largos del muslo hacen sobre las v&aacute;lvulas femorales  al caminar efect&uacute;en una suerte de orde&ntilde;e de sangre, un bombeo mec&aacute;nico, que ayuda al  retorno venoso y alivia al coraz&oacute;n.</p>
+      </li>
+      <li>Por &uacute;ltimo, siempre es conveniente tener presente la <strong>Ley de Miller</strong>:      <em>no se puede saber la profundidad de un charco hasta que no se ha  metido el pie</em>.</li>
+    </ul></td>
+  <td class="bodytext">&nbsp;</td>
+  <td colspan="2" class="bodytext">&nbsp;</td>
+</tr>
+
+
+<tr>
+  <td height="30" valign="bottom" bgcolor="#FFFFFF" class="bodytext"><strong>PREGUNTAS CAPCIOSAS</strong></td>
+  <td class="bodytext">&nbsp;</td>
+  <td width="86" colspan="2" valign="bottom" class="bodytext">&nbsp;</td>
+</tr>
+
+<tr>
+  <td height="152" align="left" bgcolor="#FFFFFF" class="bodytext"><ul><li>&iquest;Por qu&eacute; cuando la enfermera nos mide la  presi&oacute;n arterial toma nuestro antebrazo y no nuestra pantorrilla? </li>
+    <li>&iquest;Por qu&eacute; la bolsita de suero est&aacute;  unos <em><strong>70 cm</strong></em> por arriba de la cama del paciente?</li>
+    <li>&iquest;Por qu&eacute; la bolsita de transfusi&oacute;n  est&aacute; apenas un poco por debajo de la camilla del donante?</li>
+    <li>&iquest;Por qu&eacute; es m&aacute;s confortable ba&ntilde;arse  en la casa de mi t&iacute;o que vive en el segundo piso de una torre de 25, que en mi  casa que es un PH al fondo?</li>
+    <li>&iquest;Por qu&eacute; los submarinos tienen  claraboyas muy chiquititas?</li>
+    </ul></td>
+  <td class="bodytext">&nbsp;</td>
+  <td width="86" colspan="2" rowspan="2" valign="bottom" class="bodytext"><strong><em><sub><strong><em><sub><strong><em><sub><strong><em><sub><img src="img_hstat/ric_fotoric.jpg" alt="Flu&iacute;dos - Ricardo Cabrera" width="85" height="110"></sub></em></strong></sub></em></strong></sub></em></strong></sub></em></strong></td>
+</tr>
+<tr>
+  <td height="55" align="center" bordercolor="#000000" bgcolor="#FFFFCC" class="epigrafe"><table width="97%" height="25" border="0">
+      <tr>
+        <td class="epigrafe">Vos acordate que las expresiones fraccionarias (tanto las operaciones como las de unidades) se escriben con la raya de divisi&oacute;n horizontal. En muchas partes de este sitio las escribo oblicuas y con el denominador en el mismo rengl&oacute;n; eso no es correcto, pero el lenguaje <strong>html</strong> no ofrece otra cosa si no es insertando im&aacute;genes.</td>
+      </tr>
+    </table></td>
+  <td class="bodytext">&nbsp;</td>
+  </tr>
+<tr>
+  <td bgcolor="#FFFFFF" class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+  <td width="86" colspan="2" valign="bottom" class="bodytext">&nbsp;</td>
+</tr>
+<tr> <td align="center" valign="middle" bgcolor="#CCCCCC" class="bodytext"><table width="89%" border="0">
+  <tr>
+    <td class="epigrafe">Algunos derechos reservados. 
+      Se permite su reproducci&oacute;n citando la fuente. &Uacute;ltima actualizaci&oacute;n sep-07. Buenos Aires, Argentina. </td>
+  </tr>
+</table>  </td>
+  <td class="bodytext" width="10">&nbsp;</td>
+  <td width="86" colspan="2" valign="bottom" class="bodytext"><a href="FT_pascal.html"><img src="img_hstat/boton.gif" width="85" height="27" border="0"></a></td>
+</tr> 
+<tr> <td class="bodytext">&nbsp;</td><td class="bodytext" width="10">&nbsp;</td>
+<td class="bodytext" colspan="2" width="86">&nbsp;</td>
+</tr> 
+</table></td></tr> </table><img src="img_hstat/transparente.gif" width="10" height="20"></td></tr> 
+<tr> <td class="bodytext"><img src="img_hstat/transparente.gif" width="600" height="20"></td></tr> 
+</table>
+</body>
+</html>
