@@ -36,11 +36,6 @@
 <file name="flu_004.html" server="neuro.qi.fcen.uba.ar" local="130427536956953432" remote="126062545570000000" />
 <file name="flu_NMS010.html" server="neuro.qi.fcen.uba.ar" local="130427550327742455" remote="126062558950000000" />
 <file name="flu_NMS011.html" server="neuro.qi.fcen.uba.ar" local="130427550349270492" remote="126062558970000000" />
-<file name="HE_08.html" server="neuro.qi.fcen.uba.ar" local="130427562654103947" remote="126062571260000000" />
-<file name="HE_20.html" server="neuro.qi.fcen.uba.ar" local="130427562760028132" remote="126062571370000000" />
-<file name="HE_21.html" server="neuro.qi.fcen.uba.ar" local="130427562768764147" remote="126062571380000000" />
-<file name="HE_06.html" server="neuro.qi.fcen.uba.ar" local="130427562645211932" remote="126062571260000000" />
-<file name="HE_02.html" server="neuro.qi.fcen.uba.ar" local="130437159495121656" remote="126072168960000000" />
 <file name="flu_NMS013.html" server="neuro.qi.fcen.uba.ar" local="130427550387958560" remote="126062559010000000" />
 <file name="flu_NMS014.html" server="neuro.qi.fcen.uba.ar" local="130427550410890600" remote="126062559030000000" />
 <file name="flu_NMS016.html" server="neuro.qi.fcen.uba.ar" local="130427550443962658" remote="126062559060000000" />
@@ -53,16 +48,7 @@
 <file name="flu_NMS021.html" server="neuro.qi.fcen.uba.ar" local="130427553072099240" remote="126062561690000000" />
 <file name="FT_ppio_gral.html" server="neuro.qi.fcen.uba.ar" local="130436238395104724" remote="126071247660000000" />
 <file name="flu_NMS026.html" server="neuro.qi.fcen.uba.ar" local="130427553153531382" remote="126062561770000000" />
-<file name="flu_NMS028.html" server="neuro.qi.fcen.uba.ar" local="130427553183951435" remote="126062561800000000" />
-<file name="flu_NMS029.html" server="neuro.qi.fcen.uba.ar" local="130427553198147460" remote="126062561810000000" />
-<file name="flu_NMS030.html" server="neuro.qi.fcen.uba.ar" local="130427553208443478" remote="126062561820000000" />
 <file name="flu_006.html" server="neuro.qi.fcen.uba.ar" local="130472316600784223" remote="126107328680000000" />
-<file name="flu_NMS032.html" server="neuro.qi.fcen.uba.ar" local="130427553237459528" remote="126062561850000000" />
-<file name="flu_NMS034.html" server="neuro.qi.fcen.uba.ar" local="130427553258675565" remote="126062561870000000" />
-<file name="flu_NMS036.html" server="neuro.qi.fcen.uba.ar" local="130427553292371624" remote="126062561910000000" />
 <file name="FT_areas_vol.html" server="neuro.qi.fcen.uba.ar" local="130427555754055916" remote="126062564400000000" />
-<file name="flu_NMS038.html" server="neuro.qi.fcen.uba.ar" local="130442932730241049" remote="126077942730000000" />
-<file name="flu_NMS037.html" server="neuro.qi.fcen.uba.ar" local="130427553306879649" remote="126062561920000000" />
 <file name="flu_003.html" server="neuro.qi.fcen.uba.ar" local="130437015737378956" remote="126072025520000000" />
-<file name="flu_NMS041.html" server="neuro.qi.fcen.uba.ar" local="130476932978743165" remote="126111945390000000" />
 </dwsync>

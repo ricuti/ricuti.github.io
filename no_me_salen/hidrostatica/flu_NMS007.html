@@ -1,0 +1,175 @@
+<html>
+<head>
+<title>MECANICA DE FLUIDOS, NMS016, fisica online, ejercicios resueltos</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="keywords" content="problemas resueltos, ejercicios resueltos, cbc, fisica, biofisica, fluidos, liquidos, gases, bernoulli, poiseuille, viscosidad, ideales, viscosos, humedad, difusion, osmosis, nomesalen, no me salen, ricardo cabrera" />
+<meta name="description" content="Ejercicios y problemas resueltos, y apuntes teóricos de Fluidos, mecanismos de transporte de fluidos" />
+<link rel="stylesheet" href="win_ie.css">
+<style type="text/css">
+<!--
+.style1 {
+	color: #3F6386;
+	font-weight: bold;
+}
+.Estilo3 {color: #3F6386}
+.Estilo18 {color: #FF0000}
+-->
+</style>
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000" alink="#000000" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<table align=center width="600" border="0" cellspacing="0" cellpadding="0"> 
+  <tr bgcolor="#000000" align="right"> 
+<td><img src="img_hstat/nombre5.gif" width="369" height="71"></td>
+  </tr> <tr bgcolor="#BB0000" valign="middle" align="left"> 
+<td class="bodytext" height="20"><TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+  <TR ALIGN="center" CLASS="menuitem">
+    <TD WIDTH="44" height="19" CLASS="menuitem"><A HREF="../../index.html" CLASS="menuitem">&nbsp;<B>home</B>&nbsp;</A></TD>
+    <TD WIDTH="5" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="113" CLASS="menuitem"><strong><a href="index_hstat.html" class="menuitem">m&aacute;s de hidrostática</a> </strong></TD>
+    <TD width="10" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="125" CLASS="menuitem"><strong><a href="../../intro_NMS.html" class="menuitem">otros temas de F&iacute;sica</a></strong></TD>
+    <TD width="10" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="173" CLASS="menuitem"><strong><a href="../../lista_ciruela.html" class="menuitem">lecciones del maestro Ciruela </a></strong></TD>
+    <TD width="9" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="68" CLASS="menuitem"><strong><a href="../../lista_tonterias.html" class="menuitem">tonter&iacute;as</a></strong></TD>
+    <TD WIDTH="8" CLASS="menuitem"><a href="../energia/index_energia.html" class="menuitem"></a><FONT COLOR="#000000">|</FONT></TD>
+    <TD WIDTH="40" CLASS="menuitem">&nbsp;<B><FONT FACE="Arial, Helvetica, sans-serif"><A HREF="mailto: ricuti@qi.fcen.uba.ar" CLASS="menuitem">@</A></FONT><A HREF="../../index.html" CLASS="menuitem"></A></B>&nbsp;</TD>
+  </TR>
+</TABLE></td></tr> <tr> <td class="bodytext" height="8"><img src="img_hstat/transparente.gif" width="600" height="8"></td>
+</tr> 
+<tr align="center"> <td height="720"> <table width="600" border="0" cellspacing="0" cellpadding="0"> 
+<tr class="bodytext"> <td valign="top" width="594" height="1135"> 
+<table width="600" border="0" cellspacing="0" cellpadding="0"> <tr> 
+  <td height="74" valign="middle" bgcolor="#D7FFFF" class="bodytext"><span class="bodytext"><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>NO ME SALEN<br>
+</strong></span><span class="Estilo3"><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em></strong></span><span class="titulograndegris"><strong>EJERCICIOS<strong> RESUELTOS   DE F&Iacute;SICA DEL CBC</strong></strong></span><br>
+      <span class="titulochicogris"><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>FLUIDOS - PRINCIPIO DE ARQU&Iacute;MEDES</strong></span></td>
+  <td class="bodytext" rowspan="3" height="74" width="7">&nbsp;</td>
+  <td class="bodytext" height="74" rowspan="3" valign="top" width="86"> 
+<p><img src="img_hstat/cap16.jpg" alt="desesperado" width="85" height="128"></p></td></tr>
+  <tr>
+    <td height="18" bgcolor="#FFFFFF" class="bodytext">&nbsp;</td>
+  </tr> 
+<tr> <td height="68" class="bodytext"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td height="61" class="bodytext"><p><strong>Adicional NMS 7 *</strong><strong>Principio de Arqu&iacute;medes, una demostraci&oacute;n pr&aacute;ctica muy original.</strong></p>
+          <p><strong><em><strong><em><strong><strong>* </strong></strong></em></strong></em></strong><span class="epigrafe">Adaptado del libro <em>F&iacute;sica Elemental I</em>, de J. S. Fern&aacute;ndez y E. E. Galloni, Ed. Nigar, Buenos Aires, 1954, (p 215).</span></p></td>
+        </tr>
+    </table>    
+    </td>
+  </tr>
+<tr>
+  <td height="36" class="bodytext"><p>El principio de Arqu&iacute;medes es muy simple y claro. Sin embargo si no hacemos un esfuerzo por internalizarlo, suele caer en el olvido o la confusi&oacute;n. Dice as&iacute;:</p>    </td>
+  <td width="7" class="bodytext">&nbsp;</td>
+  <td width="86" align="center" valign="middle" class="bodytext"><span class="epigrafe Estilo18"><br>
+    </span></td>
+</tr>
+<tr>
+  <td height="88" align="center" class="bodytext"><table width="93%" height="64" border="0">
+    <tr>
+      <td width="2%" height="60" bgcolor="#FFFFCC" class="bodytext">&nbsp;</td>
+      <td width="98%" bgcolor="#FFFFCC" class="bodytext"><em><strong>Todo cuerpo sumergido total o  parcialmente en un fluido recibe de &eacute;ste una fuerza vertical hacia arriba llamada  empuje que es igual al peso del fluido desalojado. (E = P<sub>ld</sub>) </strong></em></td>
+    </tr>
+  </table></td>
+  <td class="bodytext">&nbsp;</td>
+  <td align="center" valign="middle" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="52" class="bodytext">En este experimento que encontr&eacute; en un libro maravilloso aparece claramente reflejado el sentido de esas palabras. Si lo segu&iacute;s paso a paso, y lo entend&eacute;s, nunca vas a olvidar el Principio ni lo vas a confundir.</td>
+  <td class="bodytext">&nbsp;</td>
+  <td align="center" valign="middle" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="171" class="bodytext"><table width="508" height="36" border="0" cellpadding="0" cellspacing="0">
+    <tr>
+      <td width="272" class="bodytext"><img src="img_hstat/flu_NMS16_1.gif" alt="Flu&iacute;dos - Ricardo Cabrera" width="264" height="151"></td>
+      <td width="236" class="bodytext"><p>Mir&aacute; lo que tenemos: una balanza de platillos. En el platillo derecho hay un vaso vac&iacute;o, <strong>A</strong>, y un cuerpo cualquiera y deforme, pero de esos que se hunden en el agua, <strong>B</strong>. En el platillo izquierdo hay una pesa que compensa exactamente el peso de <strong>A</strong> + <strong>B</strong>. El sistema est&aacute; en perfecto equilibrio.</p>
+        <p>Adem&aacute;s tenemos -porque lo vamos a usar dentro de un ratito:</p></td>
+    </tr>
+  </table></td>
+  <td class="bodytext">&nbsp;</td>
+  <td align="center" valign="middle" class="bodytext"><table width="85" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td align="center" class="epigrafe"><p><span class="Estilo18"><a href="../../Lecciones_del_maestro_ciruela/balanza.html" target="_blank">&iquest;Ten&eacute;s idea c&oacute;mo funciona una balanza de platillos?</a></span></p>
+          <p><span class="Estilo18"><a href="../../Lecciones_del_maestro_ciruela/balanza.html">100 d&oacute;lares a que no.</a></span></p></td>
+      </tr>
+    </table></td>
+</tr>  
+
+<tr>
+  <td height="55" align="left" class="bodytext">Un vaso grandote de agua lleno hasta el tope (que no le cabe ni una sola gota m&aacute;s de agua) y otro vasito vac&iacute;o, <strong>C</strong>, a la espera.</td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="47" align="left" valign="middle" class="bodytext"><table width="508" height="36" border="0" cellpadding="0" cellspacing="0">
+    <tr>
+      <td width="272" class="bodytext"><img src="img_hstat/flu_NMS16_2.gif" alt="Flu&iacute;dos - Ricardo Cabrera" width="201" height="158"></td>
+      <td width="236" class="bodytext"><p>Ahora introducimos el cuerpo <strong>B</strong> dentro del vaso lleno... y pasan dos cosas. Primero: el cuerpo <strong>B</strong> recibe el empuje que predice Arqu&iacute;medes, por lo tanto el conjunto <strong>A + B</strong> recibe una fuerza hacia arriba y la balanza se desequilibra.</p>
+        <p>Segundo: al sumergirse el cuerpo <strong>B</strong> en el vaso lleno desplaza una cantidad de agua igual a su propio volumen. Y el vaso rebasa por el piquito de la derecha.</p></td>
+    </tr>
+  </table>    </td>
+  <td class="bodytext">&nbsp;</td>
+  <td align="center" class="epigrafe"><p class="Estilo18">&nbsp;</p>    </td>
+  </tr>
+<tr>
+  <td height="71" align="left" class="bodytext"><p>Esa cantidad de agua desplazada por el cuerpo <strong>B</strong> la recogemos en el vaso <strong>C</strong>, sin perder ni una sola gota. Lo pusimos antes (no somos tontos).</p>
+    <p>El agua recogida en el vaso <strong>C</strong> la vertimos &iacute;ntegramente en el vaso <strong>A</strong>... </p></td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="51" align="center" class="bodytext"><table width="508" height="36" border="0" cellpadding="0" cellspacing="0">
+    <tr>
+      <td width="272" class="bodytext"><img src="img_hstat/flu_NMS16_3.gif" alt="Flu&iacute;dos - Ricardo Cabrera" width="221" height="151"></td>
+      <td width="236" class="bodytext"><p><em>&iexcl;</em>Y el equilibrio se restablece<em>!</em> <em>&iexcl;</em>Con precisi&oacute;n absoluta<em>!</em>... <em>&iexcl;</em>Magia<em>!</em>... <em>&iexcl;</em>Es el Principio de Arqu&iacute;medes<em>!</em></p>
+        <p>Fijate que en esta situaci&oacute;n final el empuje sigue actuando sobre el cuerpo <strong>B</strong>. La balanza deber&iacute;a seguir desequilibrada... Pero no, porque se ha agregado el el platillo derecho el <strong>peso del agua que desplaz&oacute; el cuerpo sumergido</strong>.</p></td>
+    </tr>
+  </table></td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="47" align="left" class="bodytext"><p>O sea, esa fuerza <em>peso del l&iacute;quido desalojado</em> equilibra exactamente al <em>empuje</em>. En m&oacute;dulo, son iguales. <em><strong>(E = P<sub>ld</sub>)</strong></em></p>
+    <p>En <a href="flu_NMS022.html" target="_blank">este otro ejercicio</a> tenés otra manipulación ingeniosa que te muestra la veracidad del principio de Arquímedes, pero en esta oportunidad, para un cuerpo que flota.</p></td>
+  <td class="bodytext">&nbsp;</td>
+  <td align="center" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="14" align="center" class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+  <td width="86" rowspan="5" valign="bottom" class="bodytext"><strong><em><sub><img src="img_hstat/ricuti.jpg" alt="Flu&iacute;dos - Ricardo Cabrera" width="85" height="116"></sub></em></strong></td>
+</tr>
+
+
+<tr>
+  <td rowspan="2" bgcolor="#FFFFFF" class="bodytext"><p class="bodytext"><strong>Desaf&iacute;o</strong>: hacer los diagramas de cuerpo libre para cada cuerpo en cada situaci&oacute;n. Y escribir las ecuaciones de Newton y Arqu&iacute;medes para la &uacute;ltima.</p>    </td>
+  <td height="18" class="bodytext">&nbsp;</td>
+  </tr>
+
+<tr>
+  <td height="23" class="bodytext">&nbsp;</td>
+  </tr>
+<tr>
+  <td bgcolor="#FFFFFF" class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+  </tr>
+
+<tr> <td height="43" align="center" valign="middle" bgcolor="#CCCCCC" class="bodytext"><table width="92%" border="0">
+  <tr>
+    <td class="epigrafe">Algunos derechos reservados. 
+  Se permite su reproducci&oacute;n citando la fuente leg&iacute;tima, o sea, este sitio. &Uacute;ltima actualizaci&oacute;n 
+  nov-11. Buenos Aires, Argentina. </td>
+  </tr>
+</table>  </td>
+  <td class="bodytext" width="7">&nbsp;</td>
+  </tr> 
+<tr> <td height="18" class="bodytext">&nbsp;</td><td class="bodytext" width="7">&nbsp;</td>
+<td class="bodytext" width="86">&nbsp;</td>
+</tr> 
+</table></td></tr> </table>
+<img src="img_hstat/transparente.gif" width="10" height="20"></td></tr> 
+<tr> <td class="bodytext"><img src="img_hstat/transparente.gif" width="600" height="20"></td></tr> 
+</table>
+</body>
+</html>
