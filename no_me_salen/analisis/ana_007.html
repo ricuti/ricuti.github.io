@@ -59,9 +59,9 @@
     <td height="14" bgcolor="#FFFFFF" class="bodytext">&nbsp;</td>
   </tr> 
 <tr> <td rowspan="2" valign="middle" class="bodytext"><p><strong>2.7 - ¿Con qué rapidez baja el nivel del agua contenida 
-  en un depósito cilíndrico, de radio R = 2 m, 
+  en un depósito cilíndrico, de radio <em>R = 2 <span class="epigrafe">m</span></em>, 
   si se está vaciando uniformemente a razón de 
-  3000 litros por minuto?<br>
+  <em>3000</em> litros por minuto?<br>
 </strong></p>
     </td>
   </tr>  
@@ -69,8 +69,17 @@
 </tr>
  
 <tr>
-  <td height="522" align="left" valign="middle" bgcolor="#FFFFFF" class="bodytext"><p>Bien, con un poco de conocimiento de geometría e ingenio el ejercicio sale sin necesidad de herramientas de análisis matemático. De todos modos vamos a formalizarlo con esas herramientas, ya que el objetivo es que te familiarices con ellas. Acá va:</p>
-    <p>El volumen, <em><strong>V</strong></em>, del contenido en el cilindro se puede expresar como el producto de su sección (<span class="Estilo26">&pi;</span><em><strong>.R<em>&sup2;</em></strong></em>) por su altura (o nivel) que llamaremos <em><strong>x</strong></em> porque es una variable. Y el volumen depende de esa variable.</p>
+  <td height="56" align="left" valign="middle" bgcolor="#FFFFFF" class="bodytext"><p>Bien, con un poco de conocimiento de geometría e ingenio el ejercicio sale sin necesidad de herramientas de análisis matemático. De todos modos vamos a formalizarlo con esas herramientas, ya que el objetivo es que te familiarices con ellas. Acá va:</p>    </td>
+  <td class="bodytext">&nbsp;</td>
+  <td align="center" valign="middle" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="130" align="center" valign="middle" bgcolor="#FFFFFF" class="bodytext"><img src="img_ana/deposito.jpg" width="250" height="113"></td>
+  <td class="bodytext">&nbsp;</td>
+  <td align="center" valign="middle" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="14" align="left" valign="middle" bgcolor="#FFFFFF" class="bodytext"><p>El volumen, <em><strong>V</strong></em>, del contenido en el cilindro se puede expresar como el producto de su sección (<span class="Estilo26">&pi;</span><em><strong>.R<em>&sup2;</em></strong></em>) por su altura (o nivel) que llamaremos <em><strong>x</strong></em> porque es una variable. Y el volumen depende de esa variable.</p>
     <blockquote>
       <p><em><strong>V(x) = </strong></em><span class="Estilo26">&pi;</span><em><strong>.R<em>&sup2;</em></strong></em>. <em><strong>x</strong></em></p>
     </blockquote>
@@ -80,16 +89,16 @@
     </blockquote>
     <p>Ahora bien, <em><strong>dV </strong></em>es un <em>diferencial de volumen</em> (un pequeñito cambio de volumen) y <em><strong>dx </strong></em>un <em>diferencial de nivel</em> (un pequeñito cambio de nivel). Por pequeñitos que sean se pueden manejar algebraicamente como cualquier factor.</p>
     <blockquote>
-      <p><em><strong>dV = </strong></em><span class="Estilo26">&pi;</span><em><strong>.R<em>&sup2;</em></strong></em>.<em><strong><span class="bodytext">d</span>x</strong></em></p>
+      <p><em><strong>dV = </strong></em><span class="Estilo26">&pi;</span><em><strong>.R<em>&sup2;</em></strong></em>.<em><strong>dx</strong></em></p>
     </blockquote>
     <p>Si dividimos por el pequeño intervalo de tiempo <em><strong>dt</strong></em> en el que se vacía una pequeña cantidad de volumen,<em><strong> dV</strong></em>, lo que obtenemos son las derivadas respecto del tiempo, o sea, las velocidades:</p>
     <blockquote>
-      <p><em><strong>dV/dt = </strong></em><span class="Estilo26">&pi;</span><em><strong>.R<em>&sup2;</em></strong></em>.<em><strong><span class="bodytext"> d</span>x</strong></em><em><strong>/dt</strong></em></p>
-      </blockquote>
+      <p><em><strong>dV/dt = </strong></em><span class="Estilo26">&pi;</span><em><strong>.R<em>&sup2;</em></strong></em>.<em><strong> dx</strong></em><em><strong>/dt</strong></em></p>
+    </blockquote>
     <p>La velocidad de vaciado (variación de volumen respecto del tiempo) es un dato del ejercicio: <em><strong>dV/dt</strong></em> <strong><em>= 3 <span class="epigrafe">m</span>&sup3;</em></strong><em><span class="epigrafe">/</span></em><strong><em><span class="epigrafe">min</span></em></strong>. Lo mismo que el radio: <strong><em>2 <span class="epigrafe">m</span></em></strong>. </p>
-    <p>Y si metemos eso en la igualdad anterior y despejamos la velocidad del cambio de nivel, <em><strong><span class="bodytext">      d</span>x</strong></em><em><strong>/dt</strong></em>. </p>
+    <p>Y si metemos eso en la igualdad anterior y despejamos la velocidad del cambio de nivel, <em><strong> dx</strong></em><em><strong>/dt</strong></em>. </p>
     <blockquote>
-      <p><em><strong><em><strong><span class="bodytext">d</span>x/dt =</strong> (3 <span class="epigrafe">m</span>&sup3;</em></strong><em><span class="epigrafe">/</span></em><strong><em><span class="epigrafe">min</span></em></strong></em><span class="bodytext"><em><strong>) / </strong></em></span><strong><em>2 <span class="epigrafe">m</span>&sup2;</em></strong></p>
+      <p><em><strong><em><strong>dx/dt =</strong> (3 <span class="epigrafe">m</span>&sup3;</em></strong><em><span class="epigrafe">/</span></em><strong><em><span class="epigrafe">min</span></em></strong></em><em><strong>) / </strong></em><strong><em>2 <span class="epigrafe">m</span>&sup2;</em></strong></p>
     </blockquote></td>
   <td class="bodytext">&nbsp;</td>
   <td align="center" valign="middle" class="bodytext">&nbsp;</td>
@@ -108,14 +117,9 @@
 <tr>
   <td align="left" valign="middle" bgcolor="#FFFFFF" class="bodytext">&nbsp;</td>
   <td class="bodytext">&nbsp;</td>
-  <td align="center" valign="middle" class="bodytext">&nbsp;</td>
-</tr>
-
-<tr>
-  <td align="left" valign="middle" bgcolor="#FFFFFF" class="bodytext">&nbsp;</td>
-  <td class="bodytext">&nbsp;</td>
   <td width="87" align="center" valign="middle" class="bodytext"><p>&nbsp;</p></td>
 </tr>
+
 
 
 
@@ -154,5 +158,6 @@
 <tr> <td class="bodytext"><img src="img_ana/transparente.gif" width="20" height="20"></td>
 </tr> 
 </table>
+<img src="img_ana/deposito.jpg" width="250" height="113">
 </body>
 </html>
