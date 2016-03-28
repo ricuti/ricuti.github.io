@@ -13,7 +13,6 @@
 <file name="cadNMS_22.html" server="neuro.qi.fcen.uba.ar" local="130425139628512734" remote="126060148070000000" />
 <file name="cadNMS_22_en.html" server="neuro.qi.fcen.uba.ar" local="129867585312665702" remote="126060148080000000" />
 <file name="AC_metodo_no_me_salen_en.html" server="neuro.qi.fcen.uba.ar" local="130424891641295516" remote="126059900050000000" />
-<file name="c2_06.html" server="neuro.qi.fcen.uba.ar" local="130424910175875633" remote="126059922590000000" />
 <file name="AC_SIGNO.html" server="neuro.qi.fcen.uba.ar" local="130438112082130339" remote="126073121640000000" />
 <file name="c4_02.html" server="neuro.qi.fcen.uba.ar" local="130424928583358481" remote="126059936990000000" />
 <file name="AC_graficos.html" server="neuro.qi.fcen.uba.ar" local="130424891551070355" remote="126059899960000000" />
@@ -29,8 +28,6 @@
 <file name="AC_vector_5.html" server="neuro.qi.fcen.uba.ar" local="130424891813035339" remote="126059900220000000" />
 <file name="AC_mod_ec_hor.html" server="neuro.qi.fcen.uba.ar" local="130424891681327806" remote="126059900090000000" />
 <file name="cadNMS_04.html" server="neuro.qi.fcen.uba.ar" local="130425111854433733" remote="126060145100000000" />
-<file name="cadNMS_09.html" server="neuro.qi.fcen.uba.ar" local="130425111904346587" remote="126060145150000000" />
-<file name="cadNMS_26.html" server="neuro.qi.fcen.uba.ar" local="130425139685265980" remote="126060148130000000" />
 <file name="c4_10.html" server="neuro.qi.fcen.uba.ar" local="130424928700575186" remote="126059937110000000" />
 <file name="AC_MOV_REL.html" server="neuro.qi.fcen.uba.ar" local="130468375297811166" remote="126103387100000000" />
 <file name="AC_usar_ec_hor.html" server="neuro.qi.fcen.uba.ar" local="130424891778413359" remote="126059900190000000" />
@@ -57,10 +54,6 @@
 <file name="BIO_cMem04.html" server="neuro.qi.fcen.uba.ar" local="130424898873389168" remote="126059907280000000" />
 <file name="BIO_cMem25.html" server="neuro.qi.fcen.uba.ar" local="130424898881559635" remote="126059907290000000" />
 <file name="c1_01.html" server="neuro.qi.fcen.uba.ar" local="130424908139669169" remote="126059916590000000" />
-<file name="c2_01.html" server="neuro.qi.fcen.uba.ar" local="130424910076339940" remote="126059922530000000" />
-<file name="c2_03.html" server="neuro.qi.fcen.uba.ar" local="130440540083454650" remote="126075549790000000" />
-<file name="c2_05.html" server="neuro.qi.fcen.uba.ar" local="130424910166895120" remote="126059922580000000" />
-<file name="c2_07.html" server="neuro.qi.fcen.uba.ar" local="130424910184506127" remote="126059922600000000" />
 <file name="c3_03.html" server="neuro.qi.fcen.uba.ar" local="130424914250278676" remote="126059922670000000" />
 <file name="c3_04.html" server="neuro.qi.fcen.uba.ar" local="130424914265989574" remote="126059922680000000" />
 <file name="c3_05.html" server="neuro.qi.fcen.uba.ar" local="130424914281940487" remote="126059922690000000" />
@@ -94,10 +87,8 @@
 <file name="cadNMS_07.html" server="neuro.qi.fcen.uba.ar" local="130425111883355387" remote="126060145120000000" />
 <file name="cadNMS_10.html" server="neuro.qi.fcen.uba.ar" local="130425111912987082" remote="126060145170000000" />
 <file name="cadNMS_11.html" server="neuro.qi.fcen.uba.ar" local="130425136739077468" remote="126060145180000000" />
-<file name="cadNMS_12.html" server="neuro.qi.fcen.uba.ar" local="130425136750268108" remote="126060145190000000" />
 <file name="cadNMS_13.html" server="neuro.qi.fcen.uba.ar" local="130425136761508751" remote="126060145200000000" />
 <file name="cadNMS_14.html" server="neuro.qi.fcen.uba.ar" local="130425136774299483" remote="126060145210000000" />
-<file name="cadNMS_15.html" server="neuro.qi.fcen.uba.ar" local="130425136783890031" remote="126060145220000000" />
 <file name="cadNMS_16.html" server="neuro.qi.fcen.uba.ar" local="130425136792470522" remote="126060145230000000" />
 <file name="cadNMS_17.html" server="neuro.qi.fcen.uba.ar" local="130425136801591044" remote="126060145240000000" />
 <file name="cadNMS_18.html" server="neuro.qi.fcen.uba.ar" local="130425136817091930" remote="126060145260000000" />
@@ -110,7 +101,6 @@
 <file name="c1_05.html" server="neuro.qi.fcen.uba.ar" local="130424908224874042" remote="126059916630000000" />
 <file name="c1_06.html" server="neuro.qi.fcen.uba.ar" local="130429958556122372" remote="126064967370000000" />
 <file name="win_ie.css" server="neuro.qi.fcen.uba.ar" local="128252925320000000" remote="125971651100000000" />
-<file name="cadNMS_27.html" server="neuro.qi.fcen.uba.ar" local="130425139701066884" remote="126060148140000000" />
 <file name="cadNMS_28.html" server="neuro.qi.fcen.uba.ar" local="130425139713787612" remote="126060148150000000" />
 <file name="cadNMS_29.html" server="neuro.qi.fcen.uba.ar" local="130425139726858359" remote="126060148160000000" />
 <file name="c3_25.html" server="neuro.qi.fcen.uba.ar" local="130424926301157947" remote="126059934720000000" />
@@ -156,9 +146,7 @@
 <file name="cad_03.html" server="neuro.qi.fcen.uba.ar" local="130425025239466894" remote="126060111980000000" />
 <file name="cad_04.html" server="neuro.qi.fcen.uba.ar" local="130425103551238817" remote="126060111990000000" />
 <file name="cad_07.html" server="neuro.qi.fcen.uba.ar" local="130425103574440144" remote="126060112020000000" />
-<file name="cad_09.html" server="neuro.qi.fcen.uba.ar" local="130425103597271450" remote="126060112040000000" />
 <file name="cad_10.html" server="neuro.qi.fcen.uba.ar" local="130425103606071953" remote="126060112050000000" />
-<file name="cad_11.html" server="neuro.qi.fcen.uba.ar" local="130425103614602441" remote="126060112050000000" />
 <file name="cad_15.html" server="neuro.qi.fcen.uba.ar" local="130425103623252936" remote="126060112070000000" />
 <file name="cadNMS_41.html" server="neuro.qi.fcen.uba.ar" local="130425142925041285" remote="126060151360000000" />
 <file name="cadNMS_08.html" server="neuro.qi.fcen.uba.ar" local="130425111895666091" remote="126060145140000000" />
@@ -168,7 +156,6 @@
 <file name="cadNMS_43.html" server="neuro.qi.fcen.uba.ar" local="130425142948292615" remote="126060151390000000" />
 <file name="cadNMS_44.html" server="neuro.qi.fcen.uba.ar" local="130425142963133464" remote="126060151410000000" />
 <file name="cadNMS_45.html" server="neuro.qi.fcen.uba.ar" local="130425142988344906" remote="126060151430000000" />
-<file name="cadNMS_46.html" server="neuro.qi.fcen.uba.ar" local="130425142997715442" remote="126060151440000000" />
 <file name="cadNMS_47.html" server="neuro.qi.fcen.uba.ar" local="130425143007105979" remote="126060151450000000" />
 <file name="AC_esq_enigma.html" server="neuro.qi.fcen.uba.ar" local="130424891512208133" remote="126059899920000000" />
 <file name="cadNMS_48.html" server="neuro.qi.fcen.uba.ar" local="130425143017146553" remote="126060151450000000" />
@@ -180,10 +167,6 @@
 <file name="c4_08.html" server="neuro.qi.fcen.uba.ar" local="130424928668523352" remote="126059937090000000" />
 <file name="c3_02_a.html" server="neuro.qi.fcen.uba.ar" local="130424914234947799" remote="126059922650000000" />
 <file name="c3_21b.html" server="neuro.qi.fcen.uba.ar" local="130424926261925703" remote="126059934670000000" />
-<file name="cadNMS_52.html" server="neuro.qi.fcen.uba.ar" local="130425143064959288" remote="126060151500000000" />
-<file name="cadNMS_53.html" server="neuro.qi.fcen.uba.ar" local="130425143073899799" remote="126060151510000000" />
-<file name="cadNMS_54.html" server="neuro.qi.fcen.uba.ar" local="130425143082350283" remote="126060151520000000" />
-<file name="cadNMS_51.html" server="neuro.qi.fcen.uba.ar" local="130425143052638583" remote="126060151490000000" />
 <file name="cadNMS_55.html" server="neuro.qi.fcen.uba.ar" local="130425143091160786" remote="126060151530000000" />
 <file name="AC_vector_7.html" server="neuro.qi.fcen.uba.ar" local="130424891834896589" remote="126059900240000000" />
 <file name="cadNMS_56.html" server="neuro.qi.fcen.uba.ar" local="130425143104321539" remote="126060151540000000" />
@@ -204,11 +187,9 @@
 <file name="000problema.html" server="neuro.qi.fcen.uba.ar" local="130328972686139022" remote="125963973900000000" />
 <file name="cadNMS_59.html" server="neuro.qi.fcen.uba.ar" local="130425143141133645" remote="126060151580000000" />
 <file name="cadNMS_60.html" server="neuro.qi.fcen.uba.ar" local="130425143154304398" remote="126060151590000000" />
-<file name="cadNMS_61.html" server="neuro.qi.fcen.uba.ar" local="130425143162814885" remote="126060151600000000" />
 <file name="cadNMS_62.html" server="neuro.qi.fcen.uba.ar" local="130425143181505954" remote="126060151620000000" />
 <file name="cadNMS_63.html" server="neuro.qi.fcen.uba.ar" local="130425143196136791" remote="126060151630000000" />
 <file name="cadNMS_64.html" server="neuro.qi.fcen.uba.ar" local="130425143209297544" remote="126060151650000000" />
-<file name="c2_02.html" server="neuro.qi.fcen.uba.ar" local="130425017561917764" remote="126060026230000000" />
 <file name="BIO_cMem24.html" server="neuro.qi.fcen.uba.ar" local="130435240197110498" remote="126070249380000000" />
 <file name="cadNMS_02.html" server="neuro.qi.fcen.uba.ar" local="130438108924949759" remote="126073119490000000" />
 <file name="cadNMS_65.html" server="neuro.qi.fcen.uba.ar" local="130442039689720225" remote="126077049550000000" />
