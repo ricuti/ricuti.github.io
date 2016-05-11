@@ -1,0 +1,194 @@
+<html>
+<head>
+<title>El ABC de las derivadas, fisica online, ejercicios resueltos</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="keywords" content="problemas resueltos, ejercicios resueltos, cbc, fisica, biofisica, electricidad, magnetismo, electromagnetismo, nomesalen, no me salen, ricardo cabrera" />
+<meta name="description" content="Ejercicios y problemas resueltos, y apuntes teóricos de magnetismo y electromagnetismo" />
+<link rel="stylesheet" href="win_ie.css" />
+<style type="text/css">
+<!--
+.style1 {
+	color: #3F6386;
+	font-weight: bold;
+}
+.Estilo3 {color: #3F6386}
+.Estilo16 {font-size: 16px}
+.Estilo53 {LINE-HEIGHT: 15px; font-family: Verdana, Arial, sans-serif; font-size: 12; }
+-->
+</style>
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000" alink="#000000" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<table align=center width="600" border="0" cellspacing="0" cellpadding="0"> 
+  <tr bgcolor="#000000" align="right"> 
+<td width="600"><img src="img_ana/nombre5.gif" width="369" height="71"></td>
+  </tr> <tr bgcolor="#BB0000" valign="middle" align="left"> 
+<td class="bodytext" height="20"><TABLE WIDTH="99%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+  <TR ALIGN="center" CLASS="menuitem">
+    <TD WIDTH="50" height="19" CLASS="menuitem"><A HREF="../../index.html" CLASS="menuitem">&nbsp;<B>home</B>&nbsp;</A></TD>
+    <TD WIDTH="5" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="131" CLASS="menuitem"><strong><a href="index_ana.html" class="menuitem">m&aacute;s de funciones </a> </strong></TD>
+    <TD width="12" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="126" CLASS="menuitem"><strong><a href="../../intro_NMS.html" class="menuitem">otros temas de F&iacute;sica</a></strong></TD>
+    <TD width="16" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="154" CLASS="menuitem"><strong><a href="../../lista_ciruela.html" class="menuitem">lecciones del maestro Ciruela </a></strong></TD>
+    <TD width="14" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="66" CLASS="menuitem"><strong><a href="../../lista_tonterias.html" class="menuitem">tonter&iacute;as</a></strong></TD>
+    <TD WIDTH="10" CLASS="menuitem"><a href="../energia/index_energia.html" class="menuitem"></a><FONT COLOR="#000000">|</FONT></TD>
+    <TD WIDTH="26" CLASS="menuitem">&nbsp;<B><FONT FACE="Arial, Helvetica, sans-serif"><A HREF="mailto: ricuti@qi.fcen.uba.ar" CLASS="menuitem">@</A></FONT><A HREF="../../index.html" CLASS="menuitem"></A></B>&nbsp;</TD>
+  </TR>
+</TABLE></td></tr> <tr> <td class="bodytext" height="8"><img src="img_ana/transparente.gif" width="600" height="9"></td>
+</tr> 
+<tr align="center"> <td height="541"> <table width="599" border="0" cellspacing="0" cellpadding="0"> 
+<tr class="bodytext"> <td colspan="2" valign="top" height="551"> <img src="img_ana/transparente.gif" width="1" height="1"></td>
+<td valign="top" width="597" height="551"> 
+<table width="599" border="0" cellspacing="0" cellpadding="0"> 
+  <tr> 
+  <td height="74" valign="middle" bgcolor="#FFDB4A" class="bodytext"><span class="bodytext"><strong><em><strong><em><strong><strong><br>
+    &#160; &#160;</strong></strong></em></strong></em>NO ME SALEN<br>
+</strong></span><span class="Estilo3"><em class="bodytext "><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>(EJERCICIOS RESUELTOS Y <strong>APUNTES TE&Oacute;RICOS  DE F&Iacute;SICA</strong>)</strong></em></span><br>
+      <span class="titulograndegris Estilo16"><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>Análisis matemático <br>
+      <em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em></strong></span><br> </td>
+  <td class="bodytext" rowspan="4" height="74" width="4">&nbsp;</td>
+  <td width="87" rowspan="2" valign="top" class="bodytext"><p><img src="img_ana/cap3.jpg" width="85" height="120"></p></td></tr>
+  <tr>
+    <td rowspan="2" valign="middle" class="bodytext"><em><strong>El ABC de las derivadas</strong></em></td>
+  </tr>
+  <tr>
+    <td width="87" rowspan="2" valign="top" class="bodytext">&nbsp;</td>
+  </tr> 
+<tr> 
+  <td rowspan="2" valign="top" class="bodytext"><p>Con las derivadas podemos construir un mundo, dos o tres cursos enteros de derivadas en una carrera de matemática, o física, o ingeniería. Pero también con muy poquito, con un ABC, podés cubrir el 90% de lo que se requiere de ellas, por ejemplo, para hacer un curso completo de Física General. Acá te voy a enseñar ese ABC.</p>
+    <p>Como te conté en la lección anterior la derivada de cualquier función se halla resolviendo esta fórmula:</p>    </td>
+  </tr>  
+<tr> <td height="77" align="center" class="bodytext">&nbsp;</td>
+  <td class="bodytext" valign="top" width="87">&nbsp;</td>
+</tr>
+ 
+<tr>
+  <td height="48" align="left" valign="middle" bgcolor="#FFFFFF" class="bodytext"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td width="16%" rowspan="3" align="right" class="Estilo53" ><strong><em>y'<span class="epigrafe">(x)</span> =</em></strong></td>
+      <td width="9%" align="center" valign="bottom" class="bodytext" font style="line-height: 10%;"><em><strong>lím</strong></em></td>
+      <td width="2%" rowspan="3" align="right" valign="middle" class="bodytext Estilo16">&nbsp;</td>
+      <td width="6%" height="18" align="center" valign="bottom" class="bodytext"font style="line-height: 10%; "><em><strong>&#916y</strong></em></td>
+      <td width="67%" rowspan="3" align="left" valign="middle" class="bodytext Estilo16">&nbsp;</td>
+    </tr>
+    <tr>
+      <td align="center" valign="middle" class="bodytext"><hr align="center" width="100%" style="color:white" size="1" noshade></td>
+      <td height="5" align="center" valign="middle" class="bodytext"><hr align="center" width="100%" style="color:black" size="1" noshade></td>
+    </tr>
+    <tr>
+      <td align="center" valign="top" class="epigrafe" font style="line-height: 10%; "><em><strong>&#916x</strong></em><span class="Estilo10">&rarr;</span><em><strong>0</strong></em></td>
+      <td height="16" align="center" valign="top" class="bodytext" font style="line-height: 10%; "><em><strong>&#916x</strong></em></td>
+    </tr>
+  </table></td>
+  <td class="bodytext">&nbsp;</td>
+  <td align="center" valign="middle" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="1375" align="left" valign="middle" bgcolor="#FFFFFF" class="bodytext"><p>Aplicándola se encuentra que aparecen reglas constantes de derivación fáciles de aplicar, automáticas y confiables que te eximen de realizar esa operación cada vez que necesites encontrar una derivada. Acá van esas reglas:</p>
+    <p><strong>Función potencial</strong>. </p>
+    <p>Suponete que tenés una función potenciál como ésta:</p>
+    <blockquote>
+      <p><strong><em>y<span class="epigrafe">(x)</span> = 4 x</em></strong><strong><em>&sup3;</em></strong></p>
+      </blockquote>
+    <p>Si resolvés la derivada usando la expresión del límite hallás:</p>
+    <blockquote>
+      <p><strong><em>y'<span class="epigrafe">(x)</span> =</em></strong> <strong><em>12 x&sup2;</em></strong></p>
+      </blockquote>
+    <p>Probá hacerlo, no es muy difícil. Y tenés un ejemplo de ésto <a href="ana_001.html" target="_blank">acá</a>. La cuestión es que se puede generalizar el resultado para cualquier función potencial: </p>
+    <blockquote>
+      <p><strong><em>y<span class="epigrafe">(x)</span> = c x<sup>n</sup></em></strong></p>
+      </blockquote>
+    <p>Donde<em><strong> c</strong></em> es un coeficiente cualquiera (una constante) y<em><strong> n</strong></em> la potencia (un número natural). Entonces:</p>
+    <blockquote>
+      <p><strong><em>y'<span class="epigrafe">(x)</span> =</em></strong> <strong><em>c n  x<sup>(n-1)</sup></em></strong></p>
+      </blockquote>
+    <p>Aprovechá para verificar que se cumple hasta para <em>casos</em> <em>raros</em>, cuando <em><strong>n</strong></em> vale <em><strong>1</strong></em> o <em><strong>0</strong></em>.</p>
+    <p><em><strong>Funciones que son suma de funciones</strong></em></p>
+    <p>Sponete que tenés una función que consiste en la suma (o resta) de otras funciones (llamémoslas <em><strong>f</strong></em>,<em><strong> g</strong></em>, <em><strong>h</strong></em>...):</p>
+    <blockquote>
+      <p><strong><em>y<span class="epigrafe">(x)</span> =</em></strong> <strong><em>f<span class="epigrafe">(x)</span> +</em></strong>  <strong><em>g<span class="epigrafe">(x)</span> +</em></strong>  <strong><em>h<span class="epigrafe">(x)</span>...</em></strong></p>
+      </blockquote>
+    <p>La derivada de esa función es igual a la suma (o resta si corresponde) de las derivadas de cada una de las funciones que aparecen en la suma:</p>
+    <blockquote>
+      <p><strong><em>y'<span class="epigrafe">(x)</span> =</em></strong> <strong><em>f<span class="epigrafe">'(x)</span> +</em></strong> <strong><em>g<span class="epigrafe">'(x)</span> +</em></strong> <strong><em>h'<span class="epigrafe">(x)</span>...</em></strong></p>
+      </blockquote>
+    <p><strong>Funcion polinomial</strong></p>
+    <p>Si combinamos las dos reglas anteriores ya cubrís el 90% de los requerimientos de análisis matemáticos de derivación de un curso de física general. Por ejemplo, si tenés esta función:</p>
+    <blockquote>
+      <p><strong><em>y<span class="epigrafe">(x)</span> =</em></strong> <strong><em>3 x<sup>5</sup> + 12 x<sup>3</sup> − 5 x<sup>2</sup> + 7</em></strong><strong><em><span class="epigrafe"></span></em></strong></p>
+      </blockquote>
+    <p>Su derivada será:</p>
+    <blockquote>
+      <p><strong><em>y<span class="epigrafe">(x)</span> =</em></strong> <strong><em>15 x<sup>4</sup> + 36 x<sup>2</sup> − 10 x</em></strong></p>
+      </blockquote>
+    <p><strong>Funciones trigonométricas</strong></p>
+    <p>Si querés hallar las derivadas de las funciones trigonométricas (seno, coseno, tangente, cotangente...) tenés que conocer y manejar las relaciones entre funciones trigonométricas, que son muchas y no te aportan nada importante para tu crecimiento personal a menos que te vayas a dedicar a la matemática. Que te baste con recordar las dos principales: </p>
+    <blockquote>
+      <p><strong><em>y<span class="epigrafe">(x)</span> =</em></strong> <em><strong>cos x&nbsp;</strong></em>&nbsp;&nbsp;&nbsp; entonces&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong><em>y'<span class="epigrafe">(x)</span> =</em></strong> <strong><em>− </em></strong><em><strong>sen x</strong></em></p>
+      <p><strong><em>y<span class="epigrafe">(x)</span> =</em></strong> <em><strong>sen x&nbsp;</strong></em>&nbsp;&nbsp;&nbsp; entonces&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong><em>y'<span class="epigrafe">(x)</span> =</em></strong> <em><strong>cos x</strong></em></p>
+      </blockquote>
+    <p><strong>Cómo sigue esta historia</strong></p>
+    <p>Con lo de esta lección te alcanza y sobra, como ya te dije, para encarar un curso de fisica general nivel universitario (función real de una sola variable). Cuando necesites avanzar tendrás que encarar estos asuntos: </p>
+    <ul>
+      <li>derivada de un producto de funciones</li>
+      <li>derivada de un cociente de funciones</li>
+      <li>derivada de una función compuesta</li>
+      </ul>
+    <p>Para cada uno de estos asuntos hay reglas sencillas que te permiten resolver la derivación sin sobresaltos. Pero no te apures, hay tiempo. Antes de llegar a esas necesidades tenés que aprender lo fundamental: qué es lo que nos cuenta una derivada, qué significa, qué nos permite descubrir, cómo se relaciona con las propiedades físicas del fenómeno que describe la función original (la primitiva), qué provecho podemos extraerle... etcétera. Eso es lo que importa.</p>
+    <p>De hecho para suplir tu ingnorancia en análisis matemático (y la mía, y la de cualquier otra persona) disponemos de calculadoras, programas y aplicaciones de celular al alcance de cualquier mortal que resuelven nuestros problemas casi inmediatamente y sin equivocarse. Yo estoy usando éste http://experymente.blogspot.com.ar, pero hay decenas, tenés que buscar y adoptar alguno. Derivan, integran, calculan, grafican... hacen de todo... pero necesitás un tiempo mínimo para conocerlo y aprender a usarlo. En general son sencillícimos y amigables. </p>
+    </td>
+  <td class="bodytext">&nbsp;</td>
+  <td width="87" align="center" valign="middle" class="bodytext"><p>&nbsp;</p></td>
+</tr>
+
+<tr>
+  <td height="27" align="left" valign="middle" bgcolor="#FFFFFF" class="bodytext"><strong>Chismes importantes</strong></td>
+  <td class="bodytext">&nbsp;</td>
+  <td align="center" valign="middle" class="bodytext">&nbsp;</td>
+</tr>
+
+
+
+
+
+
+
+
+<tr>
+  <td height="15" align="left" valign="middle" bgcolor="#FFFFFF" class="bodytext"><ul>
+    <li>En casi todas las aplicaciones de cómputo la potencia se escribe así: <strong><em>x<sup>n</sup></em></strong> <strong>=</strong> <em><strong>x^n</strong></em></li>
+    <li>Todas las aplicaiones que conozco usan notaciones en inglés. Por ejemplo en lugar de escribir <em><strong>sen</strong></em> (seno) tenés que tipear <em><strong>sin</strong></em>. El separador decimal es el punto, no la coma.</li>
+  </ul></td>
+  <td class="bodytext">&nbsp;</td>
+  <td width="87" rowspan="4" align="center" valign="bottom" class="bodytext"><strong><em><sub><img src="img_ana/ric_mate.gif" alt="Magnetismo - Ricardo Cabrera" width="85" height="124"></sub></em></strong></td>
+</tr>
+
+<tr>
+  <td height="14" align="left" valign="top" bgcolor="#FFFFFF" class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+  </tr>
+<tr>
+  <td bgcolor="#FFFFFF" class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+  </tr>
+<tr> <td align="center" valign="middle" bgcolor="#CCCCCC" class="bodytext"><table width="94%" border="0">
+  <tr>
+    <td class="epigrafe">Algunos derechos reservados. 
+      Se permite su reproducci&oacute;n citando la fuente. &Uacute;ltima actualizaci&oacute;n may-16.  Buenos Aires, Argentina.</td>
+  </tr>
+</table>  </td>
+  <td class="bodytext" width="4">&nbsp;</td>
+  </tr> 
+<tr> <td height="18" class="bodytext">&nbsp;</td><td class="bodytext" width="4">&nbsp;</td>
+<td class="bodytext" width="87">&nbsp;</td>
+</tr> 
+</table></td></tr> </table><img src="img_ana/transparente.gif" width="20" height="20"></td>
+</tr> 
+<tr> <td class="bodytext"><img src="img_ana/transparente.gif" width="20" height="20"></td>
+</tr> 
+</table>
+</body>
+</html>
