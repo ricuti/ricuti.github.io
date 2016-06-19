@@ -56,18 +56,19 @@
   <tr>
     <td height="18" bgcolor="#FFFFFF" class="bodytext">&nbsp;</td>
   </tr> 
-<tr> <td height="179" class="bodytext"><p><strong>RESISTENCIA HIDRODINAMICA</strong><br />
-Ahora le toca el turno a los fluidos reales.  Te voy a presentar dos nuevos conceptos con un ejemplo muy sencillo: imaginemos  una jeringa cargada con agua primero y con dulce de leche despu&eacute;s. En ambos  casos queremos expulsar los l&iacute;quidos lo m&aacute;s r&aacute;pido posible. Con el agua no hay  problema; un poco de fuerza y ya sale. Con el dulce de leche hay problemas: la  fuerza que hay que hacer en el &eacute;mbolo es grande, y a&uacute;n as&iacute; sale muy lentamente.  Ahora lavemos bien la jeringa antes de guardarla (mentalmente) y analicemos la  cuesti&oacute;n.</p>
+<tr> <td height="179" class="bodytext"><p class="titulograndegris"><strong>Ley de Ohm y ley de Poiseuille</strong></p>
+    <p><strong>RESISTENCIA HIDRODINAMICA</strong><br />
+      Ahora le toca el turno a los fluidos reales.  Te voy a presentar dos nuevos conceptos con un ejemplo muy sencillo: imaginemos  una jeringa cargada con agua primero y con dulce de leche despu&eacute;s. En ambos  casos queremos expulsar los l&iacute;quidos lo m&aacute;s r&aacute;pido posible. Con el agua no hay  problema; un poco de fuerza y ya sale. Con el dulce de leche hay problemas: la  fuerza que hay que hacer en el &eacute;mbolo es grande, y a&uacute;n as&iacute; sale muy lentamente.  Ahora lavemos bien la jeringa antes de guardarla (mentalmente) y analicemos la  cuesti&oacute;n.</p>
     <p> Queda claro que el nuevo fen&oacute;meno que aparece  es el de la resistencia al movimiento del fluido. Como veremos esta resistencia  es cuantificable, y por ahora la llamaremos simplemente <strong><em>R</em></strong>, <strong>resistencia hidrodin&aacute;mica</strong>.</p>
     </td>
   </tr>  
 <tr>
   <td height="56" align="center" class="bodytext"><table width="100%" border="0" cellspacing="0" cellpadding="0">
     <tr>
-      <td width="75%" class="bodytext"><p>Tambi&eacute;n resulta obvio que no todos los fluidos  tienen la misma resistencia hidrodin&aacute;mica. Y que cuanto mayor es &eacute;sta mayor  tendr&aacute; que ser la fuerza que hagamos para empujarlo por la jeringa. En fluidos  no hablamos de fuerzas sino de presi&oacute;n. Hasta ahora qu&eacute; tenemos: que a mayor  resistencia hidrodin&aacute;mica mayor presi&oacute;n hay que hacer en el &eacute;mbolo: <strong><em>&Delta;P </em></strong>es proporcional a<em> <strong>R</strong>.</em></p>
+      <td width="77%" class="bodytext"><p>Tambi&eacute;n resulta obvio que no todos los fluidos  tienen la misma resistencia hidrodin&aacute;mica. Y que cuanto mayor es &eacute;sta mayor  tendr&aacute; que ser la fuerza que hagamos para empujarlo por la jeringa. En fluidos  no hablamos de fuerzas sino de presi&oacute;n. Hasta ahora qu&eacute; tenemos: que a mayor  resistencia hidrodin&aacute;mica mayor presi&oacute;n hay que hacer en el &eacute;mbolo: <strong><em>&Delta;P </em></strong>es proporcional a<em> <strong>R</strong>.</em></p>
         <p>Si fu&eacute;ramos capaces de hacer exactamente la  misma fuerza en los dos casos (agua y dulce de leche), &iquest;cu&aacute;l ser&iacute;a la diferencia? L&oacute;gico,  a igual presi&oacute;n lo que cambiar&iacute;a ser&iacute;a  el caudal con el que sale cada  fluido: el m&aacute;s resistente (el dulce), poco caudal y el menos resistente (el  agua), mucho caudal. Entonces, <strong><em>R</em></strong> y <strong><em>Q</em></strong> son inversamente proporcionales.
           Podemos juntar los dos razonamientos recontraintuitivos en una sola y sencilla  ecuaci&oacute;n:</p></td>
-      <td width="25%" align="right"><p><img src="img_hdinam/jeringa.jpg" alt="Flu&iacute;dos - Ricardo Cabrera" width="106" height="233"></td>
+      <td width="23%" align="right"><p><img src="img_hdinam/jeringa.jpg" alt="Flu&iacute;dos - Ricardo Cabrera" width="106" height="233"></td>
     </tr>
   </table></td>
   <td class="bodytext">&nbsp;</td>
@@ -137,26 +138,32 @@ Ahora le toca el turno a los fluidos reales.  Te voy a presentar dos nuevos conc
 
 <tr>
   <td height="178" align="left" class="bodytext"><p>Te las escrib&iacute; de todas las maneras posibles.</p>
-    <p>Ahora bien, de qu&eacute;  depende la resistencia hidrodin&aacute;mica. Supongamos que tenemos que desagotar un  tanque de agua. La tarea ser&aacute; m&aacute;s r&aacute;pida si lo hacemos por un ca&ntilde;o grueso que  por uno finito, y tambi&eacute;n por uno corto que por uno largo. Parece obvio que la  resistencia aumente cuanto m&aacute;s finito y m&aacute;s largo sea el tubo. &iexcl;Ah! Y tambi&eacute;n  depende del tipo de fluido que est&eacute; circulando (agua, dulce de leche, aceite,  aire...) </p>
+    <p>Ahora bien, de qu&eacute;  depende la resistencia hidrodin&aacute;mica. Supongamos que tenemos que desagotar un  tanque de agua. La tarea ser&aacute; m&aacute;s r&aacute;pida si lo hacemos por un ca&ntilde;o grueso que  por uno finito, y tambi&eacute;n por uno corto que por uno largo. Parece obvio que la  resistencia aumente cuanto m&aacute;s finito y m&aacute;s largo sea el tubo. <em>&iexcl;</em>Ah<em>!</em> Y tambi&eacute;n  depende del tipo de fluido que est&eacute; circulando (agua, dulce de leche, aceite,  aire...) </p>
     <p>La propiedad de los fluidos que tiene que ver con su resistencia a  circular por un ca&ntilde;o o por donde sea se llama (ya lo hab&iacute;amos dicho) <strong>viscosidad</strong>, que se simboliza con la  letra griega min&uacute;scula terrorista  <em>eta</em>, <em class="Estilo26"><strong>&eta;</strong></em>. Resumamos todo en una ecuaci&oacute;n: </p>    </td>
   <td class="bodytext">&nbsp;</td>
   <td class="bodytext" colspan="2">&nbsp;</td>
 </tr>
 <tr>
-  <td height="67" align="left" valign="middle" class="bodytext"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <td height="67" align="left" valign="middle" class="bodytext"><table width="506" border="0" cellspacing="0" cellpadding="0">
     <tr>
-      <td width="15%" rowspan="3" align="right" class="bodytext"><em><strong><strong><em>R</em></strong></strong></em> <strong>=</strong></td>
-      <td width="2%" rowspan="3" class="bodytext">&nbsp;</td>
-      <td width="13%" height="0" align="center" valign="bottom" class="bodytext"><strong><em>8</em><span class="Estilo26">&pi;</span></strong> <em class="Estilo26"><strong>&eta;</strong></em> <em><strong>l</strong></em></td>
-      <td width="70%" rowspan="3" class="bodytext">&nbsp;</td>
+      <td width="149" height="47">&nbsp;</td>
+      <td width="197" align="center" valign="middle" bgcolor="#FFFF99" class="bodytext"><table width="71%" height="31" border="0" cellpadding="0" cellspacing="0">
+          <tr>
+            <td width="36%" rowspan="3" align="right" class="bodytext"><em><strong><strong><em>R</em></strong></strong></em> <strong>=</strong></td>
+            <td width="5%" rowspan="3" class="bodytext">&nbsp;</td>
+            <td width="47%" height="0" align="center" valign="bottom" class="bodytext"><strong><em>8<em><strong><strong><span class="Estilo26">&pi;</span></strong></strong></em></em></strong> <em class="Estilo26"><strong>&eta;</strong></em> <em><strong>l</strong></em></td>
+            <td width="12%" rowspan="3" class="bodytext">&nbsp;</td>
+          </tr>
+          <tr>
+            <td height="2" align="center" valign="middle" class="epigrafe"><hr align="center" width="100%" style="color:black" size="1" noshade></td>
+          </tr>
+          <tr>
+            <td height="0" align="center" valign="top" class="bodytext"><em><strong>S<sup>2</sup><span class="Estilo17"></span></strong></em></td>
+          </tr>
+      </table></td>
+      <td width="160">&nbsp;</td>
     </tr>
-    <tr>
-      <td height="2" align="center" valign="middle" class="epigrafe"><hr align="center" width="100%" style="color:black" size="1" noshade></td>
-    </tr>
-    <tr>
-      <td height="0" align="center" valign="top" class="bodytext"><em><strong>S<sup>2</sup><span class="Estilo17"></span></strong></em></td>
-    </tr>
-  </table>    </td>
+  </table></td>
   <td class="bodytext">&nbsp;</td>
   <td class="bodytext" colspan="2">&nbsp;</td>
 </tr>
@@ -166,20 +173,26 @@ Ahora le toca el turno a los fluidos reales.  Te voy a presentar dos nuevos conc
   <td class="bodytext" colspan="2">&nbsp;</td>
 </tr>
 <tr>
-  <td height="66" align="left" valign="middle" class="bodytext"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <td height="66" align="left" valign="middle" class="bodytext"><table width="506" border="0" cellspacing="0" cellpadding="0">
     <tr>
-      <td width="15%" rowspan="3" align="right" class="bodytext"><em><strong><strong><em>R</em></strong></strong></em> <strong>=</strong></td>
-      <td width="2%" rowspan="3" class="bodytext">&nbsp;</td>
-      <td width="13%" height="0" align="center" valign="bottom" class="bodytext"><strong><em>8</em></strong> <em class="Estilo26"><strong>&eta;</strong></em> <em><strong>l</strong></em></td>
-      <td width="70%" rowspan="3" class="bodytext">&nbsp;</td>
+      <td width="149" height="47">&nbsp;</td>
+      <td width="197" align="center" valign="middle" bgcolor="#FFFF99" class="bodytext"><table width="71%" height="31" border="0" cellpadding="0" cellspacing="0">
+        <tr>
+          <td width="36%" rowspan="3" align="right" class="bodytext"><em><strong><strong><em>R</em></strong></strong></em> <strong>=</strong></td>
+          <td width="5%" rowspan="3" class="bodytext">&nbsp;</td>
+          <td width="47%" height="0" align="center" valign="bottom" class="bodytext"><strong><em>8</em></strong> <em class="Estilo26"><strong>&eta;</strong></em> <em><strong>l</strong></em></td>
+          <td width="12%" rowspan="3" class="bodytext">&nbsp;</td>
+        </tr>
+        <tr>
+          <td height="2" align="center" valign="middle" class="epigrafe"><hr align="center" width="100%" style="color:black" size="1" noshade></td>
+        </tr>
+        <tr>
+          <td height="0" align="center" valign="top" class="bodytext"><em><strong><strong><span class="Estilo26">&pi;</span></strong> r<sup>4</sup><span class="Estilo17"></span></strong></em></td>
+        </tr>
+      </table></td>
+      <td width="160">&nbsp;</td>
     </tr>
-    <tr>
-      <td height="2" align="center" valign="middle" class="epigrafe"><hr align="center" width="100%" style="color:black" size="1" noshade></td>
-    </tr>
-    <tr>
-      <td height="0" align="center" valign="top" class="bodytext"><em><strong><strong><span class="Estilo26">&pi;</span></strong> r<sup>4</sup><span class="Estilo17"></span></strong></em></td>
-    </tr>
-  </table>    </td>
+  </table></td>
   <td class="bodytext">&nbsp;</td>
   <td class="bodytext" colspan="2">&nbsp;</td>
 </tr>
@@ -228,7 +241,7 @@ Ahora le toca el turno a los fluidos reales.  Te voy a presentar dos nuevos conc
       <td width="180" valign="middle" class="bodytext"><p align="center">1,792 x 10<em><strong><sup>-3</sup></strong></em> </p></td>
     </tr>
     <tr>
-      <td width="241" height="22" valign="middle" class="bodytext"><p align="right">Agua (20&deg;C)&nbsp; </p></td>
+      <td width="241" height="22" valign="middle" class="bodytext"><p align="right">Agua (20&deg;C) </p></td>
       <td width="180" valign="middle" class="bodytext"><p align="center">1,005 x 10<em><strong><sup>-3</sup></strong></em></p></td>
     </tr>
     <tr>
@@ -282,7 +295,7 @@ Ahora le toca el turno a los fluidos reales.  Te voy a presentar dos nuevos conc
 </tr>
 
 <tr>
-  <td height="18" bgcolor="#FFFFFF" class="bodytext"><ul>
+  <td height="216" bgcolor="#FFFFFF" class="bodytext"><ul>
       <li>El saber  popular confunde viscosidad con densidad. Cree  que son la misma cosa o que por lo menos van de la mano: &quot;a mayor densidad mayor  viscosidad&quot; y viceversa. Y en verdad son propiedades que describen cosas  totalmente diferentes y adem&aacute;s son absolutamente independientes. El aceite de m&aacute;quina, por ejemplo, es menos  denso que el agua y varias veces m&aacute;s viscoso. El mercurio es <em><strong>13 </strong></em>veces m&aacute;s  denso que el agua y sin embargo a <em><strong>0<span class="Estilo17">&deg;C</span></strong></em>  es un poco menos viscoso. </li>
       <li>Los expertos en materiales dicen (cr&eacute;anlo o no) que el  vidrio es un fluido, en especial, un l&iacute;quido, que parece s&oacute;lido simplemente  porque su viscosidad es alt&iacute;sima. Parece ser que se han encontrado relojes  antiqu&iacute;simos cuyos vidrios vistos de canto, est&aacute;n adelgazados en la parte  superior y engordados en la inferior, o sea, tomando la forma de una gota.  Cuando se mira la estructura at&oacute;mica del vidrio con un microscopio electr&oacute;nico  se ve que efectivamente parece un l&iacute;quido detenido en el tiempo.</li>
       </ul>    </td>
