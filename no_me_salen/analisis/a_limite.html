@@ -1,0 +1,562 @@
+<html>
+<head>
+<title>Derivadas y Análisis matemático, fisica online, ejercicios resueltos</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="keywords" content="problemas resueltos, ejercicios resueltos, cbc, fisica, biofisica, electricidad, magnetismo, electromagnetismo, nomesalen, no me salen, ricardo cabrera" />
+<meta name="description" content="Ejercicios y problemas resueltos, y apuntes teóricos de magnetismo y electromagnetismo" />
+<link rel="stylesheet" href="win_ie.css" />
+<style type="text/css">
+<!--
+.style1 {
+	color: #3F6386;
+	font-weight: bold;
+}
+.Estilo3 {color: #3F6386}
+.Estilo16 {font-size: 16px}
+.Estilo53 {LINE-HEIGHT: 15px; font-family: Verdana, Arial, sans-serif; font-size: 12; }
+.Estilo54 {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 14px;
+}
+.Estilo25 {font-family: Verdana, Arial, sans-serif}
+.Estilo26 {	font-family: "Times New Roman", Times, serif;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 16px;
+}
+-->
+</style>
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000" alink="#000000" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<table align=center width="600" border="0" cellspacing="0" cellpadding="0"> 
+  <tr bgcolor="#000000" align="right"> 
+<td width="600"><img src="img_ana/nombre5.gif" width="369" height="71"></td>
+  </tr> <tr bgcolor="#BB0000" valign="middle" align="left"> 
+<td class="bodytext" height="20"><TABLE WIDTH="99%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+  <TR ALIGN="center" CLASS="menuitem">
+    <TD WIDTH="50" height="19" CLASS="menuitem"><A HREF="../../index.html" CLASS="menuitem">&nbsp;<B>home</B>&nbsp;</A></TD>
+    <TD WIDTH="5" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="131" CLASS="menuitem"><strong><a href="index_ana.html" class="menuitem">m&aacute;s de funciones </a> </strong></TD>
+    <TD width="12" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="126" CLASS="menuitem"><strong><a href="../../intro_NMS.html" class="menuitem">otros temas de F&iacute;sica</a></strong></TD>
+    <TD width="16" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="154" CLASS="menuitem"><strong><a href="../../lista_ciruela.html" class="menuitem">lecciones del maestro Ciruela </a></strong></TD>
+    <TD width="14" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="66" CLASS="menuitem"><strong><a href="../../lista_tonterias.html" class="menuitem">tonter&iacute;as</a></strong></TD>
+    <TD WIDTH="10" CLASS="menuitem"><a href="../energia/index_energia.html" class="menuitem"></a><FONT COLOR="#000000">|</FONT></TD>
+    <TD WIDTH="26" CLASS="menuitem">&nbsp;<B><FONT FACE="Arial, Helvetica, sans-serif"><A HREF="mailto: ricuti@qi.fcen.uba.ar" CLASS="menuitem">@</A></FONT><A HREF="../../index.html" CLASS="menuitem"></A></B>&nbsp;</TD>
+  </TR>
+</TABLE></td></tr> <tr> <td class="bodytext" height="8"><img src="img_ana/transparente.gif" width="600" height="9"></td>
+</tr> 
+<tr align="center"> <td height="541"> <table width="599" border="0" cellspacing="0" cellpadding="0"> 
+<tr class="bodytext"> <td colspan="2" valign="top" height="551"> <img src="img_ana/transparente.gif" width="1" height="1"></td>
+<td valign="top" width="597" height="551"> 
+<table width="599" border="0" cellspacing="0" cellpadding="0"> 
+  <tr> 
+  <td height="74" valign="middle" bgcolor="#FFDB4A" class="bodytext"><span class="bodytext"><strong><em><strong><em><strong><strong><br>
+    &#160; &#160;</strong></strong></em></strong></em>NO ME SALEN<br>
+</strong></span><span class="Estilo3"><em class="bodytext "><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>(EJERCICIOS RESUELTOS Y <strong>APUNTES TE&Oacute;RICOS  DE F&Iacute;SICA</strong>)</strong></em></span><br>
+      <span class="titulograndegris Estilo16"><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>Análisis matemático <br>
+      <em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em></strong></span><br> </td>
+  <td class="bodytext" rowspan="4" height="74" width="4">&nbsp;</td>
+  <td width="87" rowspan="2" valign="top" class="bodytext"><p><img src="img_ana/cap3.jpg" width="85" height="120"></p></td></tr>
+  <tr>
+    <td rowspan="2" valign="middle" class="bodytext"><em><strong>Límite</strong></em></td>
+  </tr>
+  <tr>
+    <td width="87" rowspan="2" valign="top" class="bodytext">&nbsp;</td>
+  </tr> 
+<tr> 
+  <td rowspan="2" valign="top" class="bodytext"><p>La noción de límite es súper sencilla y no tenés que tenerle miedo, pero es tan abstracta que no es sencilla de definir. Yo te voy a dar una definición burda, grosera, matemáticamente reprochable, vergonzosa:</p>
+    <blockquote>
+      <p><em><strong>El límite es una aproximación infinita. </strong></em></p>
+    </blockquote>    
+    <p>No te olvides de que esta definición que te acabo de dar es un secreto entre vos y yo, no andes divulgándola por ahí.</p>
+    <p>Te doy un ejemplo: aproximate tanto como puedas al número <em><strong>3</strong></em>. Tu respuesta:</p>
+    <blockquote>
+      <p><em><strong>2</strong></em></p>
+      </blockquote>
+    <p>No está mal, pero aproximate más, vos podés:</p>
+    <blockquote>
+      <p><em><strong>2,7</strong></em></p>
+      </blockquote>
+    <p>Más, no tengas miedo:</p>
+    <blockquote>
+      <p><em><strong>2,99</strong></em></p>
+      </blockquote>
+    <p>Bien, dale más:</p>
+    <blockquote>
+      <p><em><strong>2,999976</strong></em></p>
+      </blockquote>
+    <p>Perfecto... aproximate más:</p>
+    <blockquote>
+      <p><em><strong>2,999999999999999</strong></em></p>
+      </blockquote>
+    <p>Excelente, dale un cacho más:</p>
+    <blockquote>
+      <p><em><strong>2,9999999999999999999999999999999999</strong></em></p>
+      </blockquote>
+    <p>Está claro que esta aproximación es infinita, ¿no es cierto? Bien, eso es operar con límites, y este viaje mental que acabamos de realizar se puede representar simbólicamente así:</p></td>
+  </tr>  
+<tr> <td height="285" align="center" class="bodytext">&nbsp;</td>
+  <td class="bodytext" valign="top" width="87">&nbsp;</td>
+</tr>
+ 
+<tr>
+  <td height="48" align="left" valign="middle" bgcolor="#FFFFFF" class="bodytext"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td width="7%" rowspan="3" align="right" class="Estilo53" >&nbsp;</td>
+      <td width="8%" height="18" align="center" valign="bottom" class="bodytext" style="line-height: 10%;" font><em><strong>lím</strong></em></td>
+      <td width="85%" rowspan="3" align="left" valign="middle" class="bodytext"><em><strong>x</strong></em></td>
+    </tr>
+    <tr>
+      <td height="5" align="center" valign="middle" class="bodytext"><hr align="center" width="100%" style="color:white" size="1" noshade></td>
+      </tr>
+    <tr>
+      <td height="16" align="center" valign="top" class="epigrafe" style="line-height: 10%; " font><em><strong>x</strong></em><span class="Estilo10">&rarr;</span><em><strong>3</strong></em></td>
+      </tr>
+  </table></td>
+  <td class="bodytext">&nbsp;</td>
+  <td align="center" valign="middle" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="66" align="left" valign="middle" bgcolor="#FFFFFF" class="bodytext"><p>Y se lee así: límite para <em><strong>x</strong></em> tendiendo a <em><strong>3</strong></em> de<em><strong> x</strong></em>. O así: límite de <em><strong>x</strong></em> para <em><strong>x</strong></em> tendiendo a <em><strong>3</strong></em>.</p>
+    <p>A veces (pero no siempre) podemos <em><strong>resolver</strong></em> los límites. En nuestro ejemplo es muy sencillo:</p></td>
+  <td class="bodytext">&nbsp;</td>
+  <td align="center" valign="middle" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="50" align="left" valign="middle" bgcolor="#FFFFFF" class="bodytext"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td width="7%" rowspan="3" align="right" class="Estilo53" >&nbsp;</td>
+      <td width="8%" height="18" align="center" valign="bottom" class="bodytext" style="line-height: 10%;" font><em><strong>lím</strong></em></td>
+      <td width="85%" rowspan="3" align="left" valign="middle" class="bodytext"><em><strong>x = 3</strong></em></td>
+    </tr>
+    <tr>
+      <td height="5" align="center" valign="middle" class="bodytext"><hr align="center" width="100%" style="color:white" size="1" noshade></td>
+    </tr>
+    <tr>
+      <td height="16" align="center" valign="top" class="epigrafe" style="line-height: 10%; " font><em><strong>x</strong></em><span class="Estilo10">&rarr;</span><em><strong>3</strong></em></td>
+    </tr>
+  </table></td>
+  <td class="bodytext">&nbsp;</td>
+  <td align="center" valign="middle" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="102" align="left" valign="middle" class="bodytext"><p>Me imagino que ya estarás pensando que esto es un pavada atómica. Bueno, sí. Y entonces ¿para qué sirve?</p>
+    <p>Una de las utilidades (tiene muchas varias) es que nos permite hacer operaciones prohibidas, por ejemplo: dividir por cero (la calculadora no te lo permite, ¿no es cierto?). Mirá este ejemplo:</p></td>
+  <td class="bodytext">&nbsp;</td>
+  <td align="center" valign="middle" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="33" align="left" valign="middle" bgcolor="#FFFFFF" class="bodytext"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td width="7%" rowspan="3" align="right" class="Estilo53" >&nbsp;</td>
+      <td width="9%" height="18" align="center" valign="bottom" class="bodytext" style="line-height: 10%;" font><em><strong>lím</strong></em></td>
+      <td width="84%" rowspan="3" align="left" valign="middle" class="bodytext"><em><strong>1/x </strong></em></td>
+    </tr>
+    <tr>
+      <td height="5" align="center" valign="middle" class="bodytext"><hr align="center" width="100%" style="color:white" size="1" noshade></td>
+    </tr>
+    <tr>
+      <td height="16" align="center" valign="top" class="epigrafe" style="line-height: 10%; " font><em><strong>x</strong></em><span class="Estilo10">&rarr;</span><em><strong>0</strong></em></td>
+    </tr>
+  </table></td>
+  <td class="bodytext">&nbsp;</td>
+  <td width="87" align="center" valign="middle" class="bodytext"><p>&nbsp;</p></td>
+</tr>
+<tr>
+  <td height="89" align="left" valign="middle" bgcolor="#FFFFFF" class="bodytext"><p>Esa operación sí se puede hacer, porque acordate que el<em> límite </em>es la &quot;aproximación infinita&quot;. Ya no estás dividiendo por <em><strong>0</strong></em> sino que estás dividiendo por <em><strong>0,001</strong></em>, <em><strong>0,00001</strong></em>... etcétera. A lo largo de esa aproximación interminable la operación es lícita y tu calculadora te daría la respuesta sin titubear.</p>
+    <p>Ahora también podríamos resover ese límite... bueno, a medias.</p>    </td>
+  <td class="bodytext">&nbsp;</td>
+  <td align="center" valign="middle" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="27" align="left" valign="middle" bgcolor="#FFFFFF" class="bodytext"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td width="7%" rowspan="3" align="right" class="Estilo53" >&nbsp;</td>
+      <td width="9%" height="18" align="center" valign="bottom" class="bodytext" style="line-height: 10%;" font><em><strong>lím</strong></em></td>
+      <td width="84%" rowspan="3" align="left" valign="middle" class="bodytext"><em><strong>1/x = </strong></em><strong>&infin; </strong></td>
+    </tr>
+    <tr>
+      <td height="5" align="center" valign="middle" class="bodytext"><hr align="center" width="100%" style="color:white" size="1" noshade></td>
+    </tr>
+    <tr>
+      <td height="16" align="center" valign="top" class="epigrafe" style="line-height: 10%; " font><em><strong>x</strong></em><span class="Estilo10">&rarr;</span><em><strong>0</strong></em></td>
+    </tr>
+  </table></td>
+  <td class="bodytext">&nbsp;</td>
+  <td align="center" valign="middle" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="179" align="left" valign="middle" bgcolor="#FFFFFF" class="bodytext"><p>A medias, porque <strong>&infin;</strong> (infinito) no es un número, pero al menos es una noción numérica bastante intuitiva (no me hagas que entre en ese laberinto, plis).</p>
+    <p>Tal vez la importancia fundamental del límite es que permite (a veces) resolver cocientes en los que tanto el numerador como el denominador tienden a cero, sobre todo si tanto el numerador como el denominador están relacionados entre sí por una función. Por ejemplo si quisiéramos resover este cociente: <em><strong>y/x</strong></em>, donde: <em><strong>y = 2x + 5</strong></em>, cuando <em><strong>x</strong></em> se aproxima infinitamente a cero.</p>    
+    <p>Fijate que cuando<em><strong> x<sub>o</sub> = 0</strong></em>, <em><strong>y<sub>o</sub> = 5</strong></em>. (El subíndice indica que esos dos valores se corresponden entre sí). Entonces:</p></td>
+  <td class="bodytext">&nbsp;</td>
+  <td align="center" valign="middle" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="38" align="left" valign="middle" bgcolor="#FFFFFF" class="bodytext"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td width="7%" rowspan="3" align="right" class="Estilo53" >&nbsp;</td>
+      <td width="9%" height="18" align="center" valign="bottom" class="bodytext" style="line-height: 10%;" font><em><strong>lím</strong></em></td>
+      <td width="84%" rowspan="3" align="left" valign="middle" class="bodytext"><em><strong>x =</strong></em> <strong><em>0 </em></strong></td>
+    </tr>
+    <tr>
+      <td height="5" align="center" valign="middle" class="bodytext"><hr align="center" width="100%" style="color:white" size="1" noshade></td>
+    </tr>
+    <tr>
+      <td height="16" align="center" valign="top" class="epigrafe" style="line-height: 10%; " font><em><strong>x</strong></em><span class="Estilo10">&rarr;</span><em><strong>x<sub>o</sub></strong></em></td>
+    </tr>
+  </table></td>
+  <td class="bodytext">&nbsp;</td>
+  <td align="center" valign="middle" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="24" align="left" valign="middle" bgcolor="#FFFFFF" class="bodytext">Y</td>
+  <td class="bodytext">&nbsp;</td>
+  <td align="center" valign="middle" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="38" align="left" valign="middle" bgcolor="#FFFFFF" class="bodytext"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td width="7%" rowspan="3" align="right" class="Estilo53" >&nbsp;</td>
+      <td width="9%" height="18" align="center" valign="bottom" class="bodytext" style="line-height: 10%;" font><em><strong>lím</strong></em></td>
+      <td width="84%" rowspan="3" align="left" valign="middle" class="bodytext"><em><strong>y =</strong></em> <strong><em>5 </em></strong></td>
+    </tr>
+    <tr>
+      <td height="5" align="center" valign="middle" class="bodytext"><hr align="center" width="100%" style="color:white" size="1" noshade></td>
+    </tr>
+    <tr>
+      <td height="16" align="center" valign="top" class="epigrafe" style="line-height: 10%; " font><em><strong>y</strong></em><span class="Estilo10">&rarr;</span><em><strong>y<sub>o</sub></strong></em></td>
+    </tr>
+  </table></td>
+  <td class="bodytext">&nbsp;</td>
+  <td align="center" valign="middle" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="26" align="left" valign="middle" bgcolor="#FFFFFF" class="bodytext">O lo que es lo mismo:</td>
+  <td class="bodytext">&nbsp;</td>
+  <td align="center" valign="middle" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="38" align="left" valign="middle" bgcolor="#FFFFFF" class="bodytext"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td width="7%" rowspan="3" align="right" class="Estilo53" >&nbsp;</td>
+      <td width="13%" height="18" align="center" valign="bottom" class="bodytext" style="line-height: 10%;" font><em><strong>lím</strong></em></td>
+      <td width="80%" rowspan="3" align="left" valign="middle" class="bodytext"><em><strong>(x <em>−</em> x<sub>o</sub>)  =</strong></em> <strong><em>0 </em></strong></td>
+    </tr>
+    <tr>
+      <td height="5" align="center" valign="middle" class="bodytext"><hr align="center" width="100%" style="color:white" size="1" noshade></td>
+    </tr>
+    <tr>
+      <td height="16" align="center" valign="top" class="epigrafe" style="line-height: 10%; " font><em><strong>(x -</strong></em><span class="Estilo10"><em><strong> x<sub>o</sub>)</strong></em>&rarr;</span><em><strong>0</strong></em></td>
+    </tr>
+  </table></td>
+  <td class="bodytext">&nbsp;</td>
+  <td align="center" valign="middle" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="21" align="left" valign="middle" bgcolor="#FFFFFF" class="bodytext">Y</td>
+  <td class="bodytext">&nbsp;</td>
+  <td align="center" valign="middle" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="38" align="left" valign="middle" bgcolor="#FFFFFF" class="bodytext"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td width="7%" rowspan="3" align="right" class="Estilo53" >&nbsp;</td>
+      <td width="13%" height="18" align="center" valign="bottom" class="bodytext" style="line-height: 10%;" font><em><strong>lím</strong></em></td>
+      <td width="80%" rowspan="3" align="left" valign="middle" class="bodytext"><em><strong>(y <em>−</em> y<sub>o</sub>)  =</strong></em> <strong><em>0 </em></strong></td>
+    </tr>
+    <tr>
+      <td height="5" align="center" valign="middle" class="bodytext"><hr align="center" width="100%" style="color:white" size="1" noshade></td>
+    </tr>
+    <tr>
+      <td height="16" align="center" valign="top" class="epigrafe" style="line-height: 10%; " font><em><strong>(y -</strong></em><span class="Estilo10"><em><strong> y<sub>o</sub>)</strong></em>&rarr;</span><em><strong>0</strong></em></td>
+    </tr>
+  </table></td>
+  <td class="bodytext">&nbsp;</td>
+  <td align="center" valign="middle" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="25" align="left" valign="middle" bgcolor="#FFFFFF" class="bodytext">Entonces:</td>
+  <td class="bodytext">&nbsp;</td>
+  <td align="center" valign="middle" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="38" align="left" valign="middle" bgcolor="#FFFFFF" class="bodytext"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td width="6%" rowspan="3" align="right" class="Estilo53" >&nbsp;</td>
+      <td width="18%" height="18" align="center" valign="bottom" class="bodytext" style="line-height: 10%;" font><em><strong>lím</strong></em></td>
+      <td width="13%" align="center" valign="bottom" class="bodytext" style="line-height: 10%;" font><em><strong>(y <em>−</em> y<sub>o</sub>)</strong></em></td>
+      <td width="63%" rowspan="3" align="left" valign="middle" class="bodytext">&nbsp;</td>
+    </tr>
+    <tr>
+      <td height="5" align="center" valign="middle" class="bodytext"><hr align="center" width="100%" style="color:white" size="1" noshade></td>
+      <td align="center" valign="middle" class="bodytext"><hr align="center" width="100%" style="color:black" size="1" noshade></td>
+    </tr>
+    <tr>
+      <td height="16" align="center" valign="top" class="epigrafe" style="line-height: 10%; " font><em><strong>(x -</strong></em><span class="Estilo10"><em><strong> x<sub>o</sub>)</strong></em>&rarr;</span><em><strong>0</strong></em></td>
+      <td align="center" valign="top" class="epigrafe" style="line-height: 10%; " font><em class="bodytext"><strong>(x <em>−</em> x<sub>o</sub>)</strong></em></td>
+    </tr>
+  </table></td>
+  <td class="bodytext">&nbsp;</td>
+  <td align="center" valign="middle" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="96" align="left" valign="middle" bgcolor="#FFFFFF" class="bodytext">Fijate que ese cociente es del tipo <em><strong>0/0</strong></em>, ya que cuando <em><strong>x</strong></em> tiende a <em><strong>x<sub>o</sub></strong></em> al mismo tiempo<em><strong> y</strong></em> tiende a <em><strong>y<sub>o</sub></strong></em>. Y ya vimos que ambos límites tienden a cero. La operación <em><strong>0/0</strong></em> ya sabés que está prohibida, y que es imposible, y que está indeterminada, y quinientas maldiciones más... Pero si hacemos la división <em>durante</em> la aproximación infinita... <em>¡</em>no hay nada que lo impida<em>! </em>Puedo seguir operando algebraicamente sin temor a represalias: </td>
+  <td class="bodytext">&nbsp;</td>
+  <td align="center" valign="middle" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="24" align="left" valign="middle" bgcolor="#FFFFFF" class="bodytext"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td width="6%" rowspan="3" align="right" class="Estilo53" >&nbsp;</td>
+      <td width="18%" height="18" align="center" valign="bottom" class="bodytext" style="line-height: 10%;" font><em><strong>lím</strong></em></td>
+      <td width="29%" align="center" valign="bottom" class="bodytext" style="line-height: 10%;" font><em><strong>(2x + 5) </strong></em><em class="bodytext"><strong><em>−</em></strong></em><em><strong> (2x</strong></em><em class="bodytext"><strong><sub>o</sub></strong></em><em><strong> + 5)</strong></em></td>
+      <td width="47%" rowspan="3" align="left" valign="middle" class="bodytext">&nbsp;</td>
+    </tr>
+    <tr>
+      <td height="5" align="center" valign="middle" class="bodytext"><hr align="center" width="100%" style="color:white" size="1" noshade></td>
+      <td align="center" valign="middle" class="bodytext"><hr align="center" width="100%" style="color:black" size="1" noshade></td>
+    </tr>
+    <tr>
+      <td height="16" align="center" valign="top" class="epigrafe" style="line-height: 10%; " font><em><strong>(x -</strong></em><span class="Estilo10"><em><strong> x<sub>o</sub>)</strong></em>&rarr;</span><em><strong>0</strong></em></td>
+      <td align="center" valign="top" class="epigrafe" style="line-height: 10%; " font><em class="bodytext"><strong>(x <em>−</em> x<sub>o</sub>)</strong></em></td>
+    </tr>
+  </table></td>
+  <td class="bodytext">&nbsp;</td>
+  <td align="center" valign="middle" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="14" align="left" valign="middle" bgcolor="#FFFFFF" class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+  <td align="center" valign="middle" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="24" align="left" valign="middle" bgcolor="#FFFFFF" class="bodytext"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td width="6%" rowspan="3" align="right" class="Estilo53" >&nbsp;</td>
+      <td width="18%" height="18" align="center" valign="bottom" class="bodytext" style="line-height: 10%;" font><em><strong>lím</strong></em></td>
+      <td width="29%" align="center" valign="bottom" class="bodytext" style="line-height: 10%;" font><em><strong>(2x + 5 <em>−</em> 2x</strong></em><em class="bodytext"><strong><sub>o</sub></strong></em><em><strong> <em>−</em> 5)</strong></em></td>
+      <td width="47%" rowspan="3" align="left" valign="middle" class="bodytext">&nbsp;</td>
+    </tr>
+    <tr>
+      <td height="5" align="center" valign="middle" class="bodytext"><hr align="center" width="100%" style="color:white" size="1" noshade></td>
+      <td align="center" valign="middle" class="bodytext"><hr align="center" width="100%" style="color:black" size="1" noshade></td>
+    </tr>
+    <tr>
+      <td height="16" align="center" valign="top" class="epigrafe" style="line-height: 10%; " font><em><strong>(x -</strong></em><span class="Estilo10"><em><strong> x<sub>o</sub>)</strong></em>&rarr;</span><em><strong>0</strong></em></td>
+      <td align="center" valign="top" class="epigrafe" style="line-height: 10%; " font><em class="bodytext"><strong>(x <em>−</em> x<sub>o</sub>)</strong></em></td>
+    </tr>
+  </table></td>
+  <td class="bodytext">&nbsp;</td>
+  <td align="center" valign="middle" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="14" align="left" valign="middle" bgcolor="#FFFFFF" class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+  <td align="center" valign="middle" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="24" align="left" valign="middle" bgcolor="#FFFFFF" class="bodytext"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td width="6%" rowspan="3" align="right" class="Estilo53" >&nbsp;</td>
+      <td width="18%" height="18" align="center" valign="bottom" class="bodytext" style="line-height: 10%;" font><em><strong>lím</strong></em></td>
+      <td width="18%" align="center" valign="bottom" class="bodytext" style="line-height: 10%;" font><em><strong>(2x  <em>−</em> 2x</strong></em><em class="bodytext"><strong><sub>o</sub></strong></em><em><strong>)</strong></em></td>
+      <td width="58%" rowspan="3" align="left" valign="middle" class="bodytext">&nbsp;</td>
+    </tr>
+    <tr>
+      <td height="5" align="center" valign="middle" class="bodytext"><hr align="center" width="100%" style="color:white" size="1" noshade></td>
+      <td align="center" valign="middle" class="bodytext"><hr align="center" width="100%" style="color:black" size="1" noshade></td>
+    </tr>
+    <tr>
+      <td height="16" align="center" valign="top" class="epigrafe" style="line-height: 10%; " font><em><strong>(x -</strong></em><span class="Estilo10"><em><strong> x<sub>o</sub>)</strong></em>&rarr;</span><em><strong>0</strong></em></td>
+      <td align="center" valign="top" class="epigrafe" style="line-height: 10%; " font><em class="bodytext"><strong>(x <em>−</em> x<sub>o</sub>)</strong></em></td>
+    </tr>
+  </table></td>
+  <td class="bodytext">&nbsp;</td>
+  <td align="center" valign="middle" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="14" align="left" valign="middle" bgcolor="#FFFFFF" class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+  <td align="center" valign="middle" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="24" align="left" valign="middle" bgcolor="#FFFFFF" class="bodytext"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td width="6%" rowspan="3" align="right" class="Estilo53" >&nbsp;</td>
+      <td width="18%" height="18" align="center" valign="bottom" class="bodytext" style="line-height: 10%;" font><em><strong>lím</strong></em></td>
+      <td width="18%" align="center" valign="bottom" class="bodytext" style="line-height: 10%;" font><em><strong>2 (x <em>−</em>x</strong></em><em class="bodytext"><strong><sub>o</sub></strong></em><em><strong>)</strong></em></td>
+      <td width="58%" rowspan="3" align="left" valign="middle" class="bodytext">&nbsp;</td>
+    </tr>
+    <tr>
+      <td height="5" align="center" valign="middle" class="bodytext"><hr align="center" width="100%" style="color:white" size="1" noshade></td>
+      <td align="center" valign="middle" class="bodytext"><hr align="center" width="100%" style="color:black" size="1" noshade></td>
+    </tr>
+    <tr>
+      <td height="16" align="center" valign="top" class="epigrafe" style="line-height: 10%; " font><em><strong>(x -</strong></em><span class="Estilo10"><em><strong> x<sub>o</sub>)</strong></em>&rarr;</span><em><strong>0</strong></em></td>
+      <td align="center" valign="top" class="epigrafe" style="line-height: 10%; " font><em class="bodytext"><strong>(x <em>−</em> x<sub>o</sub>)</strong></em></td>
+    </tr>
+  </table></td>
+  <td class="bodytext">&nbsp;</td>
+  <td align="center" valign="middle" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="67" align="left" valign="middle" bgcolor="#FFFFFF" class="bodytext">Acordate que estamos dentro del límite, dento de la suceción infinita de aproximaciones, de modo que aunque <em><strong>x </strong></em>y  <em class="bodytext"><strong>x<sub>o </sub></strong></em>sean muy parecidos entre sí... la resta no vale cero, entonces no estamos dividiendo por cero y podemos seguir adelante... pues, podemos simplificar el cociente: </td>
+  <td class="bodytext">&nbsp;</td>
+  <td align="center" valign="middle" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="24" align="left" valign="middle" bgcolor="#FFFFFF" class="bodytext"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td width="7%" rowspan="3" align="right" class="Estilo53" >&nbsp;</td>
+      <td width="14%" height="18" align="center" valign="bottom" class="bodytext" style="line-height: 10%;" font><em><strong>lím</strong></em></td>
+      <td width="79%" rowspan="3" align="left" valign="middle" class="bodytext"><em><strong>2</strong></em></td>
+    </tr>
+    <tr>
+      <td height="5" align="center" valign="middle" class="bodytext"><hr align="center" width="100%" style="color:white" size="1" noshade></td>
+      </tr>
+    <tr>
+      <td height="16" align="center" valign="top" class="epigrafe" style="line-height: 10%; " font><em><strong>(x -</strong></em><span class="Estilo10"><em><strong> x<sub>o</sub>)</strong></em>&rarr;</span><em><strong>0</strong></em></td>
+      </tr>
+  </table></td>
+  <td class="bodytext">&nbsp;</td>
+  <td align="center" valign="middle" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="26" align="left" valign="middle" bgcolor="#FFFFFF" class="bodytext">El número <em><strong>2</strong></em> es una constante, no depende ni de <em><strong>y</strong></em> ni de <em><strong>x</strong></em> ni de nadie. De modo que:</td>
+  <td class="bodytext">&nbsp;</td>
+  <td align="center" valign="middle" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="53" align="left" valign="middle" bgcolor="#FFFFFF" class="bodytext"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td width="7%" rowspan="3" align="right" class="Estilo53" >&nbsp;</td>
+      <td width="14%" height="18" align="center" valign="bottom" class="bodytext" style="line-height: 10%;" font><em><strong>lím</strong></em></td>
+      <td width="79%" rowspan="3" align="left" valign="middle" class="bodytext"><em><strong>2 = 2</strong></em></td>
+    </tr>
+    <tr>
+      <td height="5" align="center" valign="middle" class="bodytext"><hr align="center" width="100%" style="color:white" size="1" noshade></td>
+    </tr>
+    <tr>
+      <td height="16" align="center" valign="top" class="epigrafe" style="line-height: 10%; " font><em><strong>(x -</strong></em><span class="Estilo10"><em><strong> x<sub>o</sub>)</strong></em>&rarr;</span><em><strong>0</strong></em></td>
+    </tr>
+  </table></td>
+  <td class="bodytext">&nbsp;</td>
+  <td align="center" valign="middle" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="53" align="left" valign="middle" bgcolor="#FFFFFF" class="bodytext"><p><strong>Diferenciales</strong>. Esas restas que tienden a cero, se llaman <em>diferenciales</em>, o <em>infinitésimos</em> (cuando yo estudiaba los llamábamos <em>pendejésimos</em>), y solemos identificarlos con la letra <em><strong>d</strong></em> o <em><strong>∂</strong></em>.</p>
+    <p>Podemos simbolizarlo así:</p></td>
+  <td class="bodytext">&nbsp;</td>
+  <td align="center" valign="middle" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="53" align="left" valign="middle" bgcolor="#FFFFFF" class="bodytext"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td width="7%" rowspan="3" align="right" class="Estilo53" >&nbsp;</td>
+      <td width="15%" height="18" align="center" valign="bottom" class="bodytext" style="line-height: 10%;" font><em><strong>lím</strong></em></td>
+      <td width="14%" rowspan="3" align="left" valign="middle" class="bodytext"><em><strong>(x <em>−</em> x<sub>o</sub>)  =</strong></em></td>
+      <td width="13%" align="center" valign="bottom" class="bodytext" style="line-height: 10%;" font><em><strong>lím</strong></em></td>
+      <td width="38%" rowspan="3" align="left" valign="middle" class="bodytext"><em><strong>&#916x</strong></em> <strong>= <em><strong>dx = <em><strong>∂x</strong></em></strong></em></strong></td>
+      <td width="13%" rowspan="3" align="left" valign="middle" class="bodytext">&nbsp;</td>
+    </tr>
+    <tr>
+      <td height="5" align="center" valign="middle" class="bodytext"><hr align="center" width="100%" style="color:white" size="1" noshade></td>
+      <td align="center" valign="middle" class="bodytext"><hr align="center" width="100%" style="color:white" size="1" noshade></td>
+    </tr>
+    <tr>
+      <td height="16" align="center" valign="top" class="epigrafe" style="line-height: 10%; " font><em><strong>(x -</strong></em><span class="Estilo10"><em><strong> x<sub>o</sub>)</strong></em>&rarr;</span><em><strong>0</strong></em></td>
+      <td align="center" valign="top" class="epigrafe" style="line-height: 10%; " font><em><strong>(x -</strong></em><span class="Estilo10"><em><strong> x<sub>o</sub>)</strong></em>&rarr;</span><em><strong>0</strong></em></td>
+    </tr>
+  </table></td>
+  <td class="bodytext">&nbsp;</td>
+  <td align="center" valign="middle" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="53" align="left" valign="middle" bgcolor="#FFFFFF" class="bodytext">De modo que tenés que tener en cuenta que cuando operás con un diferencial estás operando con un límite. El diferencial <em>tiende</em> a cero.... pero no vale cero. Podés dividir por un diferencial y no vas preso.</td>
+  <td class="bodytext">&nbsp;</td>
+  <td align="center" valign="middle" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="27" align="left" valign="middle" bgcolor="#FFFFFF" class="bodytext"><strong>Chismes importantes</strong></td>
+  <td class="bodytext">&nbsp;</td>
+  <td align="center" valign="middle" class="bodytext">&nbsp;</td>
+</tr>
+
+
+
+
+
+
+
+
+<tr>
+  <td height="15" align="left" valign="middle" bgcolor="#FFFFFF" class="bodytext"><ul>
+    <li>Los matemáticos tienen una definición (matemática) de límite. A menos que vayas a estudiar matemática no creo que te interese mucho, pero acá está:<br>
+    </li>
+    </ul></td>
+  <td class="bodytext">&nbsp;</td>
+  <td width="87" rowspan="6" align="center" valign="bottom" class="bodytext"><strong><em><sub><img src="img_ana/ric_mate.gif" alt="Magnetismo - Ricardo Cabrera" width="85" height="124"></sub></em></strong></td>
+</tr>
+
+<tr>
+  <td height="14" align="left" valign="top" bgcolor="#FFFFFF" class="bodytext"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td width="7%" rowspan="3" align="right" class="Estilo53" >&nbsp;</td>
+      <td width="9%" height="18" align="center" valign="bottom" class="bodytext" style="line-height: 10%;" font><em><strong>lím</strong></em></td>
+      <td width="84%" rowspan="3" align="left" valign="middle" class="bodytext"><em><strong><span class="Estilo54">f</span><span class="epigrafe">(x) = L </span></strong></em><strong><span class="epigrafe">⇔</span></strong> ∀<strong><em><span class="Estilo25">&epsilon;</span></em></strong> &gt; 0 ∃<span class="Estilo26">&delta;</span> &gt;<em><strong>0 / 0 &lt; &#124; x <em>−</em> c &#124; &lt; <span class="Estilo26">&delta;</span> </strong></em><strong><span class="Estilo10">&rarr;</span></strong><em><strong> &#124;<span class="Estilo54"> f</span><span class="epigrafe">(x) </span><em>− </em>L &#124; &lt; <em><span class="Estilo25">&epsilon;</span></em></strong></em></td>
+    </tr>
+    <tr>
+      <td height="5" align="center" valign="middle" class="bodytext"><hr align="center" width="100%" style="color:white" size="1" noshade></td>
+    </tr>
+    <tr>
+      <td height="16" align="center" valign="top" class="epigrafe" style="line-height: 10%; " font><em><strong>x</strong></em><span class="Estilo10">&rarr;</span><em><strong>c<sub></sub></strong></em></td>
+    </tr>
+  </table></td>
+  <td class="bodytext">&nbsp;</td>
+  </tr>
+<tr>
+  <td height="153" align="left" valign="top" bgcolor="#FFFFFF" class="bodytext"><table width="507" height="159" border="0" cellpadding="0" cellspacing="0">
+    <tr>
+      <td width="44" height="159">&nbsp;</td>
+      <td width="463" class="bodytext"><p>El símbolo ∀ significa <em>para cualquier</em>, o <em>para todo</em>. El símbolo ∃ significa <em>existe</em>. Entonces la definición se lee así: El ímite de una función de <em><strong>x </strong></em>para <em><strong>x</strong></em> tendiendo a un valor cualquiera, <em><strong>c</strong></em>, vale<em><strong> L</strong></em> sí y sólo si para cualquier <strong><em>&epsilon; </em></strong>mayor que cero existe un <em><strong>&delta;</strong></em>  que también es mayor que cero tal que si la diferencia en valor absoluto entre <em><strong>x</strong></em> y <em><strong>c</strong></em> es menor que <em><strong>&delta;</strong></em> esi implica que la diferencia en módulo entre la función de <em><strong>x</strong></em> y el límite (<em><strong>L</strong></em>) es menor que <strong><em>&epsilon;</em></strong>.</p>
+        <p>Ahora en criollo: <em><strong>L</strong></em> es el límite de una función de <em><strong>x</strong></em> cuando <em><strong>x</strong></em> tiende a <em><strong>c</strong></em>, siempre que se puede hallar para cada ocasión valor de <em><strong>x</strong></em> cercano a <em><strong>c</strong></em> tal que el valor de <em><strong><span class="Estilo54">f</span><span class="epigrafe">(x)</span></strong></em> sea tan cercano a <em><strong>L</strong></em> como se quiera.</p></td>
+    </tr>
+  </table>    
+    </td>
+  <td class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="95" align="left" valign="top" bgcolor="#FFFFFF" class="bodytext"><ul>
+    <li>La operación con límites es la base del calculo infinitesimal, o cálculo diferencial, o sencillamente cálculo. </li>
+    <li>Uno de los límites más importantes para la física es el límite tendiendo a cero del cociente incremental de una función, también llamado: derivada.</li>
+    <li>Los límites tienen su propia álgebra. Tampoco debés temerle ya que es sumamente fácil e intuitiva (al menos para las cuatro operaciones básicas).</li>
+  </ul></td>
+  <td class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td bgcolor="#FFFFFF" class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+  </tr>
+<tr> <td align="center" valign="middle" bgcolor="#CCCCCC" class="bodytext"><table width="94%" border="0">
+  <tr>
+    <td height="36" class="epigrafe">Algunos derechos reservados. 
+      Se permite su reproducci&oacute;n citando la fuente. &Uacute;ltima actualizaci&oacute;n ago-16.  Buenos Aires, Argentina.</td>
+  </tr>
+</table>  </td>
+  <td class="bodytext" width="4">&nbsp;</td>
+  </tr> 
+<tr> <td height="18" class="bodytext">&nbsp;</td><td class="bodytext" width="4">&nbsp;</td>
+<td class="bodytext" width="87">&nbsp;</td>
+</tr> 
+</table></td></tr> </table><img src="img_ana/transparente.gif" width="20" height="20"></td>
+</tr> 
+<tr> <td class="bodytext"><img src="img_ana/transparente.gif" width="20" height="20"></td>
+</tr> 
+</table>
+ </body>
+</html>
