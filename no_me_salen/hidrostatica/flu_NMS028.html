@@ -1,0 +1,178 @@
+<html>
+<head>
+<title>MECANICA DE FLUIDOS, HE21, fisica online, ejercicios resueltos</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="keywords" content="problemas resueltos, ejercicios resueltos, cbc, fisica, biofisica, fluidos, liquidos, gases, bernoulli, poiseuille, viscosidad, ideales, viscosos, humedad, difusion, osmosis, nomesalen, no me salen, ricardo cabrera" />
+<meta name="description" content="Ejercicios y problemas resueltos, y apuntes teóricos de Fluidos, mecanismos de transporte de fluidos" />
+<link rel="stylesheet" href="win_ie.css">
+<style type="text/css">
+<!--
+.style1 {
+	color: #3F6386;
+	font-weight: bold;
+}
+.Estilo3 {color: #3F6386}
+.Estilo18 {color: #FF0000}
+.Estilo26 {font-family: "Times New Roman", Times, serif;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 16px;
+}
+.Estilo25 {font-family: Verdana, Arial, sans-serif}
+.Estilo45 {	font-size: xx-large;
+	font-family: Verdana, Arial, sans-serif;
+}
+-->
+</style>
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000" alink="#000000" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<table align=center width="600" border="0" cellspacing="0" cellpadding="0"> 
+  <tr bgcolor="#000000" align="right"> 
+<td><img src="img_hstat/nombre5.gif" width="369" height="71"></td>
+  </tr> <tr bgcolor="#BB0000" valign="middle" align="left"> 
+<td class="bodytext" height="20"><TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+  <TR ALIGN="center" CLASS="menuitem">
+    <TD WIDTH="44" height="19" CLASS="menuitem"><A HREF="../../index.html" CLASS="menuitem">&nbsp;<B>home</B>&nbsp;</A></TD>
+    <TD WIDTH="5" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="113" CLASS="menuitem"><strong><a href="index_hstat.html" class="menuitem">m&aacute;s de hidrostática</a> </strong></TD>
+    <TD width="10" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="125" CLASS="menuitem"><strong><a href="../../intro_NMS.html" class="menuitem">otros temas de F&iacute;sica</a></strong></TD>
+    <TD width="10" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="173" CLASS="menuitem"><strong><a href="../../lista_ciruela.html" class="menuitem">lecciones del maestro Ciruela </a></strong></TD>
+    <TD width="9" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="68" CLASS="menuitem"><strong><a href="../../lista_tonterias.html" class="menuitem">tonter&iacute;as</a></strong></TD>
+    <TD WIDTH="8" CLASS="menuitem"><a href="../energia/index_energia.html" class="menuitem"></a><FONT COLOR="#000000">|</FONT></TD>
+    <TD WIDTH="40" CLASS="menuitem">&nbsp;<B><FONT FACE="Arial, Helvetica, sans-serif"><A HREF="mailto: ricuti@qi.fcen.uba.ar" CLASS="menuitem">@</A></FONT><A HREF="../../index.html" CLASS="menuitem"></A></B>&nbsp;</TD>
+  </TR>
+</TABLE></td></tr> <tr> <td class="bodytext" height="8"><img src="img_hstat/transparente.gif" width="600" height="8"></td>
+</tr> 
+<tr align="center"> <td height="1100"> <table width="600" border="0" cellspacing="0" cellpadding="0"> 
+<tr class="bodytext"> <td valign="top" width="594" height="700"> 
+<table width="600" border="0" cellspacing="0" cellpadding="0"> <tr> 
+  <td height="74" valign="middle" bgcolor="#D7FFFF" class="bodytext"><span class="bodytext"><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>NO ME SALEN<br>
+</strong></span><span class="Estilo3"><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em></strong></span><span class="titulograndegris"><strong>EJERCICIOS<strong> RESUELTOS   DE F&Iacute;SICA DEL CBC</strong></strong></span><br>
+      <span class="titulochicogris"><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>FLUIDOS - PRINCIPIO DE ARQU&Iacute;MEDES</strong></span></td>
+  <td class="bodytext" rowspan="3" height="74" width="7">&nbsp;</td>
+  <td class="bodytext" height="74" rowspan="3" valign="top" width="86"> 
+<p><img src="img_hstat/cap17.jpg" alt="desesperado" width="85" height="111"></p></td></tr>
+  <tr>
+    <td height="18" bgcolor="#FFFFFF" class="bodytext">&nbsp;</td>
+  </tr> 
+<tr> 
+  <td height="80" class="bodytext"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td width="78%" class="bodytext"><p><strong><em>NMS </em>28) Una capa de aceite de densidad <em>800</em> <span class="epigrafe"><em>kg</em></span></strong><span class="epigrafe"><em>/</em></span><strong><span class="epigrafe"><em>m</em></span><em><span class="epigrafe">&sup3;</span></em> flota sobre un volumen de agua de densidad <em>1.000</em> <span class="epigrafe"><em>kg</em></span></strong><span class="epigrafe"><em>/</em></span><strong><span class="epigrafe"><em>m</em></span><em><span class="epigrafe">&sup3;</span></em>. Un bloque flota en la interfaz aceite-agua con 1/4 de su volumen en el aceite y 3/4 de su volumen en el agua, como muestra la figura. Entonces, la densidad del bloque vale (en <span class="epigrafe"><em>kg</em></span></strong><span class="epigrafe"><em>/</em></span><strong><span class="epigrafe"><em>m</em></span><em><span class="epigrafe">&sup3;</span></em>):</strong></p>
+        <p><strong>
+          &nbsp; a) 200&nbsp;&nbsp;&nbsp; b) 850&nbsp;&nbsp;&nbsp; c) 950&nbsp;&nbsp;&nbsp; d) 1050&nbsp;&nbsp;&nbsp; e) 1500&nbsp;&nbsp;&nbsp; e) 1800</strong></p></td>
+      <td width="22%" class="bodytext"><img src="img_hstat/he_28_1.gif" alt="Flu&iacute;dos - Ricardo Cabrera" width="120" height="141"></td>
+    </tr>
+  </table>    </td>
+</tr>
+<tr>
+  <td height="94" class="bodytext"><p>Muys sencillo ejercicio... pero si no tenés idea de nada de nada de nada, al menos tenés que pensar que si el bloque tuviese una densidad mayor que la del agua se iría al fondo, y si tuviese una densidad menos que la del aceite flotaría arriba de todo. De modo que sólo tendrías que tirar la monedita entre los únicos dos valores intermedios entre las densidades del agua y el aceite. ¿No?</p>
+    <p>Bueno... hagámoslo bien.</p>
+    <p>Lo primero que tenemos que hacer es un diagrama de cuerpo libre del cuerpo que está flotando:</p></td>
+  <td width="7" class="bodytext">&nbsp;</td>
+  <td width="86" align="center" valign="middle" class="bodytext"><p class="epigrafe Estilo18">&nbsp;</p>    </td>
+</tr>  
+
+<tr>
+  <td height="261" align="center" class="bodytext"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td width="22%" height="252" class="bodytext"><img src="img_hstat/he_28_2.gif" alt="Flu&iacute;dos - Ricardo Cabrera" width="100" height="237"></td>
+      <td width="78%" class="bodytext"><p>El cuerpo recibe dos empujes: uno que le provoca el aceite, <em><strong>E<sub>ac</sub></strong></em>, y otro el agua <em><strong>E<sub>ag</sub></strong></em>. Y la ecuación que describe el equilibrio será:</p>
+        <blockquote>
+          <p><em><strong>P<sub></sub></strong></em> <strong>=</strong> <em><strong>E<sub>ac</sub></strong></em> + <em><strong>E<sub>ag</sub><em><strong><strong>&#160; &#160;</strong><em><strong><strong>&#160; &#160; </strong></strong></em><strong> &#160;</strong></strong></em></strong></em><strong>[1]</strong></p>
+          </blockquote>
+        <p>Y lo que dice Arquímedes sobre los empujes es: </p>
+        <blockquote>
+          <p><em><strong>E<sub>ac</sub></strong></em> <strong>=</strong> <em><strong> <em><strong><em><strong><strong><em><strong><em><strong><em><strong><strong><em><span class="Estilo25">&rho;</span></em></strong></strong></em></strong></em><sub>ac</sub> . g . &frac14; V</strong></em></strong></strong></em></strong></em></strong></em></p>
+          <p><em><strong>E<sub>ag</sub></strong></em> <strong>=</strong> <em><strong> <em><strong><em><strong><strong><em><strong><em><strong><em><strong><strong><em><span class="Estilo25">&rho;</span></em></strong></strong></em></strong></em><sub>ag</sub> . g . &frac34; V</strong></em></strong></strong></em></strong></em></strong></em></p>
+          </blockquote>
+        <p>Y por la definición de densidad, tendremos:</p>
+        <blockquote>
+          <p><em><strong>P</strong></em> <strong>=</strong> <em><strong> <em><strong><em><strong><strong><em><strong><em><strong><em><strong><strong><em><span class="Estilo25">&rho;</span></em></strong></strong></em></strong></em><sub>cpo</sub> . g .  V</strong></em></strong></strong></em></strong></em></strong></em></p>
+          </blockquote>
+        <p>Donde  <em><strong> <em><strong><em><strong><strong><em><strong><em><strong><em><strong><strong><em><span class="Estilo25">&rho;</span></em></strong></strong></em></strong></em><sub>cpo</sub></strong></em></strong></strong></em></strong></em></strong></em> es la densidad del cuerpo que flota.</p></td>
+    </tr>
+  </table></td>
+  <td class="bodytext">&nbsp;</td>
+  <td align="center" class="epigrafe Estilo18"><p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p></td>
+</tr>
+<tr>
+  <td height="230" align="left" class="bodytext"><p>Si metemos estas 3 ecuaciones en la <strong>[1]</strong>, nos queda:</p>
+    <blockquote>     
+      <p><em><strong> <em><strong><em><strong><strong><em><strong><em><strong><em><strong><strong><em><span class="Estilo25">&rho;</span></em></strong></strong></em></strong></em><sub>cpo</sub> . g .  V</strong></em></strong></strong></em></strong></em></strong></em> <strong>= </strong> <em><strong> <em><strong><em><strong><strong><em><strong><em><strong><em><strong><strong><em><span class="Estilo25">&rho;</span></em></strong></strong></em></strong></em><sub>ac</sub> . g . &frac14; V</strong></em></strong></strong></em></strong></em></strong></em> +  <em><strong> <em><strong><em><strong><strong><em><strong><em><strong><em><strong><strong><em><span class="Estilo25">&rho;</span></em></strong></strong></em></strong></em><sub>ag</sub> . g . &frac34; V</strong></em></strong></strong></em></strong></em></strong></em></p>
+      </blockquote>
+    <p>Ahora fijate que tanto la gravedad como el volumen aparecen multiplicando en todos los términos de ambos membros, de modo que los podemos cancelar. Y nos queda:</p>
+    <blockquote>
+      <p><em><strong><em><strong><em><strong><strong><em><strong><em><strong><em><strong><strong><em><span class="Estilo25">&rho;</span></em></strong></strong></em></strong></em><sub>cpo</sub></strong></em></strong></strong></em></strong></em></strong></em> <strong>= <em><strong><em><strong><em><strong><strong><em><strong>&frac14;</strong></em></strong></strong></em></strong></em></strong></em></strong> <em><strong> <em><strong><em><strong><strong><em><strong><em><strong><em><strong><strong><em><span class="Estilo25">&rho;</span></em></strong></strong></em></strong></em><sub>ac</sub></strong></em></strong></strong></em></strong></em></strong></em> + <em><strong> <em><strong><em><strong><strong><em><strong><em><strong><em><strong><strong><em><strong><em><strong><em><strong><strong><em><strong>&frac34;</strong></em></strong></strong></em></strong></em></strong><span class="Estilo25"> &rho;</span></em></strong></strong></em></strong></em><sub>ag</sub></strong></em></strong></strong></em></strong></em></strong></em></p>
+      </blockquote>
+    <p>Hacemos las cuentas...</p>
+    <blockquote>
+      <p><em><strong><em><strong><em><strong><strong><em><strong><em><strong><em><strong><strong><em><span class="Estilo25">&rho;</span></em></strong></strong></em></strong></em><sub>cpo</sub></strong></em></strong></strong></em></strong></em></strong></em> <strong>= <em><strong><em><strong><em><strong><strong><em><strong>&frac14;</strong></em></strong></strong></em></strong></em></strong></em> <em>800</em> <span class="epigrafe"><em>kg</em></span></strong><span class="epigrafe"><em>/</em></span><strong><span class="epigrafe"><em>m</em></span><em><span class="epigrafe">&sup3;</span></em></strong> + <em><strong> <em><strong><em><strong><strong><em><strong><em><strong><em><strong><strong><em><strong><em><strong><em><strong><strong><em><strong>&frac34;</strong></em></strong></strong></em></strong></em></strong></em></strong></strong></em></strong></em> 1.000 <span class="epigrafe"><em>kg</em></span></strong><span class="epigrafe"><em>/</em></span><strong><span class="epigrafe"><em>m</em></span><em><span class="epigrafe">&sup3;</span></em></strong></em></strong></strong></em></strong></em></strong></em></p>
+    </blockquote></td>
+  <td class="bodytext">&nbsp;</td>
+  <td align="center" class="epigrafe">&nbsp;</td>
+</tr>
+<tr>
+  <td height="14" align="center" class="bodytext"><table width="102%" border="0">
+    <tr>
+      <td width="9%" height="36" align="center" bgcolor="#FFFFFF"><p class="bodytext">&nbsp;</p></td>
+      <td width="41%" align="center" bgcolor="#CCCCCC" class="bodytext"><em><strong><em><strong><em><strong><strong><em><strong><em><strong><em><strong><strong><em><span class="Estilo25">&rho;</span></em></strong></strong></em></strong></em><sub>cpo</sub></strong></em></strong></strong></em></strong></em></strong></em> <strong>= <em>950</em> <span class="epigrafe"><em>kg</em></span></strong><span class="epigrafe"><em>/</em></span><strong><span class="epigrafe"><em>m</em></span><em><span class="epigrafe">&sup3;</span></em></strong></td>
+      <td width="50%" align="center" bgcolor="#FFFFFF" class="bodytext">&nbsp;</td>
+    </tr>
+  </table></td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="50" align="left" class="bodytext"><p>Viste que dio un valor intermedio.</p></td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="53" align="center" bgcolor="#F3DA73" class="bodytext"><table width="470" border="0">
+    <tbody>
+      <tr>
+        <td height="25" class="epigrafe">Este ejercicio formó parte del final de Física tomado el 4 de agosto de 2017.</td>
+      </tr>
+    </tbody>
+  </table></td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext"><p class="Estilo18">&nbsp;</p></td>
+</tr>
+
+<tr>
+  <td height="14" align="left" class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+</tr>
+
+<tr>
+  <td height="53" bgcolor="#FFFFFF" class="bodytext"><strong>DESAF&Iacute;O</strong>: ¿Qué densidad debería tener el bloque para flotar justo por la mitad?</td>
+  <td class="bodytext">&nbsp;</td>
+  <td width="86" rowspan="2" valign="bottom" class="bodytext"><strong><em><sub><img src="img_hstat/ricuti.jpg" alt="Flu&iacute;dos - Ricardo Cabrera" width="85" height="116"></sub></em></strong></td>
+</tr>
+
+<tr> <td height="45" align="center" valign="middle" bgcolor="#CCCCCC" class="bodytext"><table width="92%" border="0">
+  <tr>
+    <td class="epigrafe">Algunos derechos reservados. 
+  Se permite su reproducci&oacute;n citando la fuente leg&iacute;tima, o sea, este sitio. &Uacute;ltima actualizaci&oacute;n 
+  ago-17. Buenos Aires, Argentina. </td>
+  </tr>
+</table>  </td>
+  <td class="bodytext" width="7">&nbsp;</td>
+  </tr> 
+<tr> <td height="18" class="bodytext">&nbsp;</td><td class="bodytext" width="7">&nbsp;</td>
+<td class="bodytext" width="86">&nbsp;</td>
+</tr> 
+</table></td></tr> </table>
+<img src="img_hstat/transparente.gif" width="10" height="20"></td></tr> 
+<tr> <td class="bodytext"><img src="img_hstat/transparente.gif" width="600" height="20"></td></tr> 
+</table>
+</body>
+</html>
