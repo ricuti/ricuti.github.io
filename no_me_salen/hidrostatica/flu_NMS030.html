@@ -1,0 +1,166 @@
+<html>
+<head>
+<title>MECANICA DE FLUIDOS, HE21, fisica online, ejercicios resueltos</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="keywords" content="problemas resueltos, ejercicios resueltos, cbc, fisica, biofisica, fluidos, liquidos, gases, bernoulli, poiseuille, viscosidad, ideales, viscosos, humedad, difusion, osmosis, nomesalen, no me salen, ricardo cabrera" />
+<meta name="description" content="Ejercicios y problemas resueltos, y apuntes teóricos de Fluidos, mecanismos de transporte de fluidos" />
+<link rel="stylesheet" href="win_ie.css">
+<style type="text/css">
+<!--
+.style1 {
+	color: #3F6386;
+	font-weight: bold;
+}
+.Estilo3 {color: #3F6386}
+.Estilo18 {color: #FF0000}
+.Estilo26 {font-family: "Times New Roman", Times, serif;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 16px;
+}
+.Estilo25 {font-family: Verdana, Arial, sans-serif}
+.Estilo45 {	font-size: xx-large;
+	font-family: Verdana, Arial, sans-serif;
+}
+-->
+</style>
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000" alink="#000000" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<table align=center width="600" border="0" cellspacing="0" cellpadding="0"> 
+  <tr bgcolor="#000000" align="right"> 
+<td><img src="img_hstat/nombre5.gif" width="369" height="71"></td>
+  </tr> <tr bgcolor="#BB0000" valign="middle" align="left"> 
+<td class="bodytext" height="20"><TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+  <TR ALIGN="center" CLASS="menuitem">
+    <TD WIDTH="44" height="19" CLASS="menuitem"><A HREF="../../index.html" CLASS="menuitem">&nbsp;<B>home</B>&nbsp;</A></TD>
+    <TD WIDTH="5" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="113" CLASS="menuitem"><strong><a href="index_hstat.html" class="menuitem">m&aacute;s de hidrostática</a> </strong></TD>
+    <TD width="10" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="125" CLASS="menuitem"><strong><a href="../../intro_NMS.html" class="menuitem">otros temas de F&iacute;sica</a></strong></TD>
+    <TD width="10" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="173" CLASS="menuitem"><strong><a href="../../lista_ciruela.html" class="menuitem">lecciones del maestro Ciruela </a></strong></TD>
+    <TD width="9" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="68" CLASS="menuitem"><strong><a href="../../lista_tonterias.html" class="menuitem">tonter&iacute;as</a></strong></TD>
+    <TD WIDTH="8" CLASS="menuitem"><a href="../energia/index_energia.html" class="menuitem"></a><FONT COLOR="#000000">|</FONT></TD>
+    <TD WIDTH="40" CLASS="menuitem">&nbsp;<B><FONT FACE="Arial, Helvetica, sans-serif"><A HREF="mailto: ricuti@qi.fcen.uba.ar" CLASS="menuitem">@</A></FONT><A HREF="../../index.html" CLASS="menuitem"></A></B>&nbsp;</TD>
+  </TR>
+</TABLE></td></tr> <tr> <td class="bodytext" height="8"><img src="img_hstat/transparente.gif" width="600" height="8"></td>
+</tr> 
+<tr align="center"> <td height="972"> <table width="600" border="0" cellspacing="0" cellpadding="0"> 
+<tr class="bodytext"> <td valign="top" width="594" height="700"> 
+<table width="600" border="0" cellspacing="0" cellpadding="0"> <tr> 
+  <td height="74" valign="middle" bgcolor="#D7FFFF" class="bodytext"><span class="bodytext"><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>NO ME SALEN<br>
+</strong></span><span class="Estilo3"><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em></strong></span><span class="titulograndegris"><strong>EJERCICIOS<strong> RESUELTOS   DE F&Iacute;SICA DEL CBC</strong></strong></span><br>
+      <span class="titulochicogris"><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>FLUIDOS - PRINCIPIO DE ARQU&Iacute;MEDES</strong></span></td>
+  <td class="bodytext" rowspan="3" height="74" width="7">&nbsp;</td>
+  <td class="bodytext" height="74" rowspan="3" valign="top" width="86"> 
+<p><img src="img_hstat/cap17.jpg" alt="desesperado" width="85" height="111"></p></td></tr>
+  <tr>
+    <td height="18" bgcolor="#FFFFFF" class="bodytext">&nbsp;</td>
+  </tr> 
+<tr> 
+  <td height="134" class="bodytext"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td width="73%" class="bodytext"><p><strong><em>NMS </em>30)* En un recipiente se colocan dos líquidos inmiscibles de densidades </strong><em><strong><em><strong><em><strong><strong><em><strong><em><strong><em><strong><strong><em><span class="Estilo25">&rho;</span></em></strong></strong></em></strong></em><sub>A</sub></strong></em></strong></strong></em></strong></em></strong></em> <strong><em>y</em></strong> <em><strong><em><strong><em><strong><strong><em><strong><em><strong><em><strong><strong><em><span class="Estilo25">&rho;</span></em></strong></strong></em></strong></em><sub>B</sub></strong></em></strong></strong></em></strong></em></strong></em> <em><strong>=&nbsp; 3</strong></em> <em><strong><em><strong><em><strong><strong><em><strong><em><strong><em><strong><strong><em><span class="Estilo25">&rho;</span></em></strong></strong></em></strong></em><sub>A</sub></strong></em></strong></strong></em></strong></em></strong></em>. <strong>Siendo sus alturas <em>h<strong><em><strong><em><strong><strong><em><strong><sub>A</sub></strong></em></strong></strong></em></strong></em></strong> = h<strong><em><strong><em><strong><strong><em><strong><sub>B</sub></strong></em></strong></strong></em></strong></em></strong></em>. Entonces, la presión manométrica en el fondo del recipiente vale: &nbsp; </strong></p>
+        <blockquote>
+          <p><strong>
+            a) <em>h<strong><em><strong><em><strong><strong><em><strong><sub>A</sub><em><strong><em><strong><strong><em><span class="Estilo25"> &rho;</span></em></strong></strong></em></strong></em><sub>A </sub></strong></em></strong></strong></em></strong></em></strong>g </em>&nbsp;&nbsp;&nbsp; b) <em>2</em> <em>h<strong><em><strong><em><strong><strong><em><strong><sub>A</sub><em><strong><em><strong><strong><em><span class="Estilo25"> &rho;</span></em></strong></strong></em></strong></em><sub>A </sub></strong></em></strong></strong></em></strong></em></strong>g&nbsp;</em>&nbsp;&nbsp; c) <em>2</em> <em>h<strong><em><strong><em><strong><strong><em><strong><em><strong><em><strong><strong><em><strong><sub>B</sub></strong><span class="Estilo25"> &rho;</span><strong><sub>B</sub></strong></em></strong></strong></em></strong></em> </strong></em></strong></strong></em></strong></em></strong>g</em></strong></p>
+          <p><strong> d)  <em>4</em> <em>h<strong><em><strong><em><strong><strong><em><strong><em><strong><em><strong><strong><em><strong><sub>B</sub></strong><span class="Estilo25"> &rho;</span><strong><sub>B </sub></strong></em></strong></strong></em></strong></em></strong></em></strong></strong></em></strong></em></strong>g</em>&nbsp;&nbsp;&nbsp;&nbsp; e) <em>h<strong><em><strong><em><strong><strong><em><strong><em><strong><em><strong><strong><em><strong><sub>B</sub></strong><span class="Estilo25"> &rho;</span><strong><sub>B </sub></strong></em></strong></strong></em></strong></em></strong></em></strong></strong></em></strong></em></strong>g</em>&nbsp;&nbsp;&nbsp; e) <em>4</em> <em>h<strong><em><strong><em><strong><strong><em><strong><em><strong><em><strong><strong><em><strong><sub>A</sub></strong><span class="Estilo25"> &rho;</span><strong><sub>A</sub></strong></em></strong></strong></em></strong></em></strong></em></strong></strong></em></strong></em></strong> g</em>&nbsp;</strong></p>
+        </blockquote>        </td>
+      <td width="27%" align="right" class="bodytext"><img src="img_hstat/he_30_1.gif" alt="Flu&iacute;dos - Ricardo Cabrera" width="120" height="111"></td>
+    </tr>
+  </table>    </td>
+</tr>
+<tr>
+  <td height="350" class="bodytext"><p>Muy sencillo ejercicio... Presión manométrica significa que la presión arriba de todo, en contacto con el aire, vale cero (es una convención útil, nada más). <em><strong>Pr<sub>o</sub> = 0</strong></em>. Llamé<em><strong> o</strong></em> a la superficie libre,<em><strong> i </strong></em>a la interface entre ambos líquidos y<em><strong> f </strong></em>al fondo.. Entonces la diferencia de presión entre el punto (<em><strong>o</strong></em>) y el fondo del líquido <strong>A</strong> (en<strong><em> i</em></strong>) vale:</p>
+    <blockquote>
+      <p><strong><em><strong><em><strong>&#916;</strong></em></strong>Pr<strong><em><strong><em><strong><strong><em><strong><sub>oi</sub></strong></em></strong></strong></em></strong></em></strong> = P<strong><em><strong><em><strong><strong><em><strong><sub>i</sub></strong></em></strong></strong></em></strong></em></strong> &ndash; 0 =</em></strong> <strong><em>h<strong><em><strong><em><strong><strong><em><strong><sub>A</sub><em><strong><em><strong><strong><em><span class="Estilo25"> &rho;</span></em></strong></strong></em></strong></em><sub>A </sub></strong></em></strong></strong></em></strong></em></strong>g</em></strong></p>
+      <p><strong><em>P<strong><em><strong><em><strong><strong><em><strong><sub>i</sub></strong></em></strong></strong></em></strong></em></strong>  =</em></strong> <strong><em>h<strong><em><strong><em><strong><strong><em><strong><sub>A</sub><em><strong><em><strong><strong><em><span class="Estilo25"> &rho;</span></em></strong></strong></em></strong></em><sub>A </sub></strong></em></strong></strong></em></strong></em></strong>g</em></strong></p>
+    </blockquote>
+    <p>Habrás notado que se trata de una aplicación directa y sencilla del principio general de la hidrostática. Ahora vamos al fondo:</p>
+    <blockquote>
+      <p><strong><em><strong><em><strong>&#916;</strong></em></strong>Pr<strong><em><strong><em><strong><strong><em><strong><sub>if</sub></strong></em></strong></strong></em></strong></em></strong> = Pr<strong><em><strong><em><strong><strong><em><strong><sub>f</sub></strong></em></strong></strong></em></strong></em></strong>  &ndash; Pr<strong><em><strong><em><strong><strong><em><strong><sub>i</sub></strong></em></strong></strong></em></strong></em></strong> =</em></strong> <strong><em>h<strong><em><strong><em><strong><strong><em><strong><sub>B</sub><em><strong><em><strong><strong><em><span class="Estilo25"> &rho;</span></em></strong></strong></em></strong></em><sub>B </sub></strong></em></strong></strong></em></strong></em></strong>g</em></strong></p>
+    </blockquote>
+    <p>De ahí despejo <strong><em>P<strong><em><strong><em><strong><strong><em><strong><sub>f</sub></strong></em></strong></strong></em></strong></em></strong></em></strong>...</p>
+    <blockquote>
+      <p><strong><em>Pr<strong><em><strong><em><strong><strong><em><strong><sub>f</sub></strong></em></strong></strong></em></strong></em></strong> =</em></strong> <strong><em>h<strong><em><strong><em><strong><strong><em><strong><sub>B</sub><em><strong><em><strong><strong><em><span class="Estilo25"> &rho;</span></em></strong></strong></em></strong></em><sub>B </sub></strong></em></strong></strong></em></strong></em></strong>g </em></strong><strong><em>+ Pr<strong><em><strong><em><strong><strong><em><strong><sub>i</sub></strong></em></strong></strong></em></strong></em></strong></em></strong></p>
+      <p><strong><em>Pr<strong><em><strong><em><strong><strong><em><strong><sub>f</sub></strong></em></strong></strong></em></strong></em></strong> =</em></strong> <strong><em>h<strong><em><strong><em><strong><strong><em><strong><sub>B</sub><em><strong><em><strong><strong><em><span class="Estilo25"> &rho;</span></em></strong></strong></em></strong></em><sub>B </sub></strong></em></strong></strong></em></strong></em></strong>g </em></strong><strong><em>+ <strong><em>h<strong><em><strong><em><strong><strong><em><strong><sub>A</sub><em><strong><em><strong><strong><em><span class="Estilo25"> &rho;</span></em></strong></strong></em></strong></em><sub>A </sub></strong></em></strong></strong></em></strong></em></strong>g</em></strong></em></strong></p>
+      </blockquote>
+    <p>Y acá reemplazo las relaciones que plantea el enunciado: <em><strong><em><strong><em><strong><strong><em><strong><em><strong><em><strong><strong><em><span class="Estilo25">&rho;</span></em></strong></strong></em></strong></em><sub>B</sub></strong></em></strong></strong></em></strong></em></strong></em> <em><strong>=&nbsp; 3</strong></em> <em><strong><em><strong><em><strong><strong><em><strong><em><strong><em><strong><strong><em><span class="Estilo25">&rho;</span></em></strong></strong></em></strong></em><sub>A</sub></strong></em></strong></strong></em></strong></em></strong></em> y <strong> <em>h<strong><em><strong><em><strong><strong><em><strong><sub>A</sub></strong></em></strong></strong></em></strong></em></strong> = h<strong><em><strong><em><strong><strong><em><strong><sub>B</sub></strong></em></strong></strong></em></strong></em></strong></em></strong>.</p>
+    <blockquote>
+      <p><strong><em>Pr<strong><em><strong><em><strong><strong><em><strong><sub>f</sub></strong></em></strong></strong></em></strong></em></strong> =</em></strong> <strong><em>h<strong><em><strong><em><strong><strong><em><strong><sub>A</sub> 3</strong></em> <em><strong><em><strong><em><strong><strong><em><strong><em><strong><em><strong><strong><em><span class="Estilo25">&rho;</span></em></strong></strong></em></strong></em><sub>A</sub></strong></em></strong></strong></em></strong></em> </strong></em></strong></strong></em></strong></em></strong>g </em></strong><strong><em>+ <strong><em>h<strong><em><strong><em><strong><strong><em><strong><sub>A</sub><em><strong><em><strong><strong><em><span class="Estilo25"> &rho;</span></em></strong></strong></em></strong></em><sub>A </sub></strong></em></strong></strong></em></strong></em></strong>g</em></strong></em></strong></p>
+    </blockquote>
+    <p>De donde resulta:</p></td>
+  <td width="7" class="bodytext">&nbsp;</td>
+  <td width="86" align="center" valign="middle" class="bodytext"><p class="epigrafe Estilo18">en <br>
+      <strong><em>No me salen</em></strong><br>
+    y a recomendación del INTI la densidad se simboliza <em><strong><em><strong><em><strong><strong><em><strong><em><strong><em><strong><strong><em><span class="Estilo25">&rho;</span></em></strong></strong></em></strong></em></strong></em></strong></strong></em></strong></em></strong></em></p>    <p class="Estilo18">Y a la presión la simbolizo <em><strong>Pr</strong></em> para facilitar la lectura</p></td>
+</tr>  
+
+<tr>
+  <td height="68" align="center" class="bodytext"><table width="102%" border="0">
+    <tr>
+      <td width="9%" height="36" align="center" bgcolor="#FFFFFF"><p class="bodytext">&nbsp;</p></td>
+      <td width="41%" align="center" bgcolor="#CCCCCC" class="bodytext"><strong><em>Pr<strong><em><strong><em><strong><strong><em><strong><sub>f</sub></strong></em></strong></strong></em></strong></em></strong> = </em></strong><em><strong><em>4</em> <em>h<strong><em><strong><em><strong><strong><em><strong><em><strong><em><strong><strong><em><strong><sub>A</sub></strong><span class="Estilo25"> &rho;</span><strong><sub>A</sub></strong></em></strong></strong></em></strong></em></strong></em></strong></strong></em></strong></em></strong> g</em>&nbsp; </strong></em></td>
+      <td width="50%" align="center" bgcolor="#FFFFFF" class="epigrafe">respuesta e)</td>
+    </tr>
+  </table></td>
+  <td class="bodytext">&nbsp;</td>
+  <td align="center" class="epigrafe Estilo18"><p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p></td>
+</tr>
+<tr>
+  <td align="left" class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+  <td align="center" class="epigrafe">&nbsp;</td>
+</tr>
+<tr>
+  <td height="50" align="left" class="bodytext"><p>Era un regalo, solo le faltaba el moñito.</p></td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="53" align="center" bgcolor="#F3DA73" class="bodytext"><table width="470" border="0">
+    <tbody>
+      <tr>
+        <td height="25" align="center" class="epigrafe">*Este ejercicio formó parte del final de Física tomado el 28 de julio de 2017.<br>
+          Para ver el examen completo haga click <a href="../../docencia/03-FIN-ago-2017.pdf" target="_blank">acá</a>.</td>
+      </tr>
+    </tbody>
+  </table></td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext"><p class="Estilo18">&nbsp;</p></td>
+</tr>
+
+<tr>
+  <td height="14" align="left" class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+</tr>
+
+<tr>
+  <td height="53" bgcolor="#FFFFFF" class="bodytext"><strong>DESAF&Iacute;O</strong>: ¿Y si <strong><em>3 h<strong><em><strong><em><strong><strong><em><strong><sub>A</sub></strong></em></strong></strong></em></strong></em></strong> = h<strong><em><strong><em><strong><strong><em><strong><sub>B</sub></strong></em></strong></strong></em></strong></em></strong></em></strong> ?</td>
+  <td class="bodytext">&nbsp;</td>
+  <td width="86" rowspan="2" valign="bottom" class="bodytext"><strong><em><sub><img src="img_hstat/ricuti.jpg" alt="Flu&iacute;dos - Ricardo Cabrera" width="85" height="116"></sub></em></strong></td>
+</tr>
+
+<tr> <td height="45" align="center" valign="middle" bgcolor="#CCCCCC" class="bodytext"><table width="92%" border="0">
+  <tr>
+    <td class="epigrafe">Algunos derechos reservados. 
+  Se permite su reproducci&oacute;n citando la fuente leg&iacute;tima, o sea, este sitio. &Uacute;ltima actualizaci&oacute;n 
+  ago-17. Buenos Aires, Argentina. </td>
+  </tr>
+</table>  </td>
+  <td class="bodytext" width="7">&nbsp;</td>
+  </tr> 
+<tr> <td height="18" class="bodytext">&nbsp;</td><td class="bodytext" width="7">&nbsp;</td>
+<td class="bodytext" width="86">&nbsp;</td>
+</tr> 
+</table></td></tr> </table>
+<img src="img_hstat/transparente.gif" width="10" height="20"></td></tr> 
+<tr> <td class="bodytext"><img src="img_hstat/transparente.gif" width="600" height="20"></td></tr> 
+</table>
+</body>
+</html>

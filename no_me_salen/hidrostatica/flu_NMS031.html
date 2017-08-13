@@ -1,0 +1,189 @@
+<html>
+<head>
+<title>MECANICA DE FLUIDOS, HE21, fisica online, ejercicios resueltos</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="keywords" content="problemas resueltos, ejercicios resueltos, cbc, fisica, biofisica, fluidos, liquidos, gases, bernoulli, poiseuille, viscosidad, ideales, viscosos, humedad, difusion, osmosis, nomesalen, no me salen, ricardo cabrera" />
+<meta name="description" content="Ejercicios y problemas resueltos, y apuntes teóricos de Fluidos, mecanismos de transporte de fluidos" />
+<link rel="stylesheet" href="win_ie.css">
+<style type="text/css">
+<!--
+.style1 {
+	color: #3F6386;
+	font-weight: bold;
+}
+.Estilo3 {color: #3F6386}
+.Estilo18 {color: #FF0000}
+.Estilo26 {font-family: "Times New Roman", Times, serif;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 16px;
+}
+.Estilo25 {font-family: Verdana, Arial, sans-serif}
+.Estilo45 {	font-size: xx-large;
+	font-family: Verdana, Arial, sans-serif;
+}
+-->
+</style>
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000" alink="#000000" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<table align=center width="600" border="0" cellspacing="0" cellpadding="0"> 
+  <tr bgcolor="#000000" align="right"> 
+<td><img src="img_hstat/nombre5.gif" width="369" height="71"></td>
+  </tr> <tr bgcolor="#BB0000" valign="middle" align="left"> 
+<td class="bodytext" height="20"><TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+  <TR ALIGN="center" CLASS="menuitem">
+    <TD WIDTH="44" height="19" CLASS="menuitem"><A HREF="../../index.html" CLASS="menuitem">&nbsp;<B>home</B>&nbsp;</A></TD>
+    <TD WIDTH="5" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="113" CLASS="menuitem"><strong><a href="index_hstat.html" class="menuitem">m&aacute;s de hidrostática</a> </strong></TD>
+    <TD width="10" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="125" CLASS="menuitem"><strong><a href="../../intro_NMS.html" class="menuitem">otros temas de F&iacute;sica</a></strong></TD>
+    <TD width="10" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="173" CLASS="menuitem"><strong><a href="../../lista_ciruela.html" class="menuitem">lecciones del maestro Ciruela </a></strong></TD>
+    <TD width="9" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="68" CLASS="menuitem"><strong><a href="../../lista_tonterias.html" class="menuitem">tonter&iacute;as</a></strong></TD>
+    <TD WIDTH="8" CLASS="menuitem"><a href="../energia/index_energia.html" class="menuitem"></a><FONT COLOR="#000000">|</FONT></TD>
+    <TD WIDTH="40" CLASS="menuitem">&nbsp;<B><FONT FACE="Arial, Helvetica, sans-serif"><A HREF="mailto: ricuti@qi.fcen.uba.ar" CLASS="menuitem">@</A></FONT><A HREF="../../index.html" CLASS="menuitem"></A></B>&nbsp;</TD>
+  </TR>
+</TABLE></td></tr> <tr> <td class="bodytext" height="8"><img src="img_hstat/transparente.gif" width="600" height="8"></td>
+</tr> 
+<tr align="center"> <td height="972"> <table width="600" border="0" cellspacing="0" cellpadding="0"> 
+<tr class="bodytext"> <td valign="top" width="594" height="700"> 
+<table width="600" border="0" cellspacing="0" cellpadding="0"> <tr> 
+  <td height="74" colspan="2" valign="middle" bgcolor="#D7FFFF" class="bodytext"><span class="bodytext"><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>NO ME SALEN<br>
+</strong></span><span class="Estilo3"><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em></strong></span><span class="titulograndegris"><strong>EJERCICIOS<strong> RESUELTOS   DE F&Iacute;SICA DEL CBC</strong></strong></span><br>
+      <span class="titulochicogris"><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>FLUIDOS - PRINCIPIO DE ARQU&Iacute;MEDES</strong></span></td>
+  <td class="bodytext" rowspan="3" height="74" width="7">&nbsp;</td>
+  <td class="bodytext" height="74" rowspan="3" valign="top" width="88"> 
+<p><img src="img_hstat/cap17.jpg" alt="desesperado" width="85" height="111"></p></td></tr>
+  <tr>
+    <td height="18" colspan="2" bgcolor="#FFFFFF" class="bodytext">&nbsp;</td>
+  </tr> 
+<tr> 
+  <td height="134" colspan="2" class="bodytext"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td height="158" class="bodytext"><p><strong><em>NMS </em>31)* Un globo aerostático esférico de radio<em> 6 <span class="epigrafe">m</span></em> sostiene una carga de <em>200 <span class="epigrafe">kg</span></em> (desprecie la masa de la tela del globo y el empuje sobre la carga). El aire caliente en su interior tiene una densidad de <em>0,94</em> <em class="epigrafe">kg/m&sup3;</em> mientras que el aire exterior, más frío tiene una densidad de <em>1,10</em> <em class="epigrafe">kg/m&sup3;</em>. Entonces, considerando un sistema positivo hacia arriba, el globo se mueve verticalmente con una aceleración aproximada (en <em><strong> <span class="epigrafe">m</span></strong><span class="epigrafe">/</span><strong><span class="epigrafe">s</span></strong></em><strong><em>&sup2;</em></strong>) de:</strong></p>
+        <blockquote>
+          <p><strong>
+            <em>a) 0,52&nbsp;&nbsp;&nbsp;&nbsp; b) &ndash;0,52&nbsp;&nbsp;&nbsp;&nbsp; c) 1,7</em></strong><em>&nbsp; &nbsp; <strong>&nbsp; d) <em>&ndash;</em>0,64&nbsp;&nbsp;&nbsp;&nbsp; e) 7,42&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; e) <em>&ndash;</em>2,71</strong></em><strong>&nbsp;</strong></p>
+          </blockquote>
+        <p><strong class="epigrafe">Volumen de una esfera:</strong> <em><strong>V<em><strong><em><strong><em><strong><strong><em><strong><sub>e</sub></strong></em></strong></strong></em></strong></em></strong></em> = <span class="epigrafe">(4/3)</span> <span class="Estilo26"> &pi;</span> R<em>&sup3;</em></strong></em></p>
+        Arrancamos con un DCL:</td>
+      </tr>
+  </table>    </td>
+</tr>
+<tr>
+  <td width="211" height="389" class="bodytext"><p><img src="img_hstat/flu_NMS31_1.gif" width="189" height="357" alt=""/></p></td>
+  <td width="294" class="bodytext"><p>Sobre el globo actúan dos fuerzas: el empuje, E, y el peso total, <em><strong>Pt</strong></em>, integrado por el aire del interior del globo, <em><strong>Pg</strong></em>, la carga, <em><strong>Pc</strong></em> y la tela, que despreciaremos.</p>
+    <p>Y se cumplirá Newton, que dice:</p>
+    <blockquote>
+      <p><strong><em>E &ndash; Pt = m . a</em></strong></p>
+      </blockquote>
+    <p>Discriminando el peso:</p>
+    <blockquote>
+      <p><strong><em>E &ndash; Pg &ndash; Pc = m . a</em></strong></p>
+      </blockquote>
+    <p>Ahora vamos por partes para encontrar el valor de cada término.</p>
+    <p>El empuje está dado por arquímedes, que dice que es igual al volumen del fluido desalojado (el aire frío).</p>
+    <blockquote>
+      <p><strong><em>E = <span class="Estilo25">&rho;</span><sub>af </sub> g V</em></strong></p>
+    </blockquote>
+    <p>Donde <strong><em><span class="Estilo25">&rho;</span><sub>af </sub></em></strong> es la densidad del aire frío y <em><strong>V</strong></em> es el volumen de la esfera que ya calculamos:</p></td>
+  <td width="7" rowspan="2" class="bodytext">&nbsp;</td>
+  <td width="88" rowspan="2" align="center" valign="middle" class="bodytext"><p class="epigrafe Estilo18">en <br>
+      <strong><em>No me salen</em></strong><br>
+    y a recomendación del INTI la densidad se simboliza <em><strong><em><strong><em><strong><strong><em><strong><em><strong><em><strong><strong><em><span class="Estilo25">&rho;</span></em></strong></strong></em></strong></em></strong></em></strong></strong></em></strong></em></strong></em></p></td>
+</tr>
+<tr>
+  <td height="175" colspan="2" class="bodytext"><blockquote>
+    <p><em><strong>V<em><strong><em><strong><em><strong><strong><em><strong><sub>e</sub></strong></em></strong></strong></em></strong></em></strong></em> = <span class="epigrafe">(4/3)</span> <span class="Estilo26"> &pi;</span> R<em>&sup3;</em></strong></em> <em><strong>= <span class="epigrafe">(4/3)</span> <span class="Estilo26"> &pi;</span> (6 <span class="epigrafe">m</span>)<em>&sup3;</em></strong></em></p>
+    <p><em><strong>V<em><strong><em><strong><em><strong><strong><em><strong><sub>e</sub></strong></em></strong></strong></em></strong></em></strong></em> =</strong></em> <em><strong>904</strong></em> <em><strong> <span class="epigrafe">m</span><em>&sup3;</em></strong></em></p>
+  </blockquote>
+    <p>De modo que el empuje vale:</p>
+    <blockquote>
+      <p><strong><em>E = <sub></sub> 1,10</em> <em class="epigrafe">kg/m&sup3; </em><em>10 <strong><span class="epigrafe">m</span></strong><span class="epigrafe">/</span><strong><span class="epigrafe">s</span></strong></em><strong><em>&sup2;</em> </strong><em><strong>904</strong></em> <em><strong> <span class="epigrafe">m</span><em>&sup3;</em></strong></em></strong></p>
+      <p><strong><em>E = <sub></sub> 9.948</em> <em class="epigrafe">N</em></strong></p>
+      </blockquote>
+    <p>Ahora vamos con el peso del globo, simplemente aplicando la definición de densidad:</p>
+    <blockquote>
+      <p><strong><em>Pg</em></strong> <strong>=</strong> <strong><em><strong><em><strong><em><strong><strong><em><strong><em><strong><em><strong><strong><em><span class="Estilo25">&rho;</span></em></strong></strong></em></strong></em><sub>ac </sub></strong></em></strong></strong></em></strong></em></strong>g</em></strong> <em><strong>V</strong></em><strong></strong></p>
+      <p><strong><em>Pg</em></strong> <strong>= </strong><strong><em>0,94</em> <em class="epigrafe">kg/m&sup3; </em><em>10 <strong><span class="epigrafe">m</span></strong><span class="epigrafe">/</span><strong><span class="epigrafe">s</span></strong></em><strong><em>&sup2; </em></strong><em><strong>904</strong></em> <em><strong> <span class="epigrafe">m</span><em>&sup3;</em></strong></em></strong><strong></strong></p>
+      <p><strong><em>Pg</em></strong> <strong>= </strong><strong><em>8.498</em> <em class="epigrafe">N</em></strong></p>
+      </blockquote>
+    <p>Para obtener el peso total le sumamos los<em><strong> 2.000 <span class="epigrafe">N</span></strong></em> de la carga. </p>
+    <blockquote>
+      <p><strong><em>Pt</em></strong> <strong>= </strong><strong><em>10.498</em> <em class="epigrafe">N</em></strong></p>
+    </blockquote>
+    <p>Y la masa total es igual a peso total dividido la aceleración de la gravedad.</p>
+    <blockquote>
+      <p><strong><em>m</em></strong> <strong>= </strong><strong><em>1.050</em> <em class="epigrafe">N</em></strong></p>
+      </blockquote>
+    <p>Ahora metemos todos los números en la ecuación y calculamos la aceleración:</p></td>
+</tr>  
+
+<tr>
+  <td height="68" colspan="2" align="center" class="bodytext"><table width="102%" border="0">
+    <tr>
+      <td width="9%" height="36" align="center" bgcolor="#FFFFFF"><p class="bodytext">&nbsp;</p></td>
+      <td width="41%" align="center" bgcolor="#CCCCCC" class="bodytext"><strong><em>a<strong><em><strong><em><strong><strong><em><strong><sub></sub></strong></em></strong></strong></em></strong></em></strong> = </em></strong><strong><em>&ndash; 0,52</em></strong><em><strong><em><strong><span class="epigrafe">m</span></strong><span class="epigrafe">/</span><strong><span class="epigrafe">s</span></strong></em><strong><em>&sup2;</em></strong> </strong></em></td>
+      <td width="50%" align="center" bgcolor="#FFFFFF" class="epigrafe">respuesta b)</td>
+    </tr>
+  </table></td>
+  <td class="bodytext">&nbsp;</td>
+  <td align="center" class="epigrafe Estilo18"><p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p></td>
+</tr>
+<tr>
+  <td colspan="2" align="left" class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+  <td align="center" class="epigrafe">&nbsp;</td>
+</tr>
+<tr>
+  <td height="50" colspan="2" align="left" class="bodytext"><p>&nbsp;</p></td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="53" colspan="2" align="center" bgcolor="#F3DA73" class="bodytext"><table width="470" border="0">
+    <tbody>
+      <tr>
+        <td height="25" align="center" class="epigrafe">*Este ejercicio formó parte del final de Física tomado el 28 de julio de 2017.<br>
+          Para ver el examen completo haga click <a href="../../docencia/03-FIN-ago-2017.pdf" target="_blank">acá</a>.</td>
+      </tr>
+    </tbody>
+  </table></td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext"><p class="Estilo18">&nbsp;</p></td>
+</tr>
+
+<tr>
+  <td height="14" colspan="2" align="left" class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+</tr>
+
+<tr>
+  <td height="53" colspan="2" bgcolor="#FFFFFF" class="bodytext"><strong>DESAF&Iacute;O</strong>: ¿El globo sube o baja? </td>
+  <td class="bodytext">&nbsp;</td>
+  <td width="88" rowspan="2" valign="bottom" class="bodytext"><strong><em><sub><img src="img_hstat/ricuti.jpg" alt="Flu&iacute;dos - Ricardo Cabrera" width="85" height="116"></sub></em></strong></td>
+</tr>
+
+<tr> <td height="45" colspan="2" align="center" valign="middle" bgcolor="#CCCCCC" class="bodytext"><table width="92%" border="0">
+  <tr>
+    <td class="epigrafe">Algunos derechos reservados. 
+  Se permite su reproducci&oacute;n citando la fuente leg&iacute;tima, o sea, este sitio. &Uacute;ltima actualizaci&oacute;n 
+  ago-17. Buenos Aires, Argentina. </td>
+  </tr>
+</table>  </td>
+  <td class="bodytext" width="7">&nbsp;</td>
+  </tr> 
+<tr> <td height="18" colspan="2" class="bodytext">&nbsp;</td><td class="bodytext" width="7">&nbsp;</td>
+<td class="bodytext" width="88">&nbsp;</td>
+</tr> 
+</table></td></tr> </table>
+<img src="img_hstat/transparente.gif" width="10" height="20"></td></tr> 
+<tr> <td class="bodytext"><img src="img_hstat/transparente.gif" width="600" height="20"></td></tr> 
+</table>
+</body>
+</html>
