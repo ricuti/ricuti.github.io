@@ -1,0 +1,321 @@
+<html>
+<head>
+<title>DINAMICA, dN4.23, fisica online, ejercicios resueltos</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="keywords" content="problemas resueltos, ejercicios resueltos, cbc, fisica, biofisica, dinamica, estatica, nomesalen, no me salen, ricardo cabrera" />
+<meta name="description" content="Ejercicios y problemas resueltos, y apuntes teóricos de Dinámica y Estática" />
+<link rel="stylesheet" href="win_ie.css" />
+<style type="text/css">
+<!--
+.Estilo1 {font-size: 10px}
+.Estilo3 {
+	font-size: 10px;
+	font-weight: bold;
+	font-style: italic;
+}
+.Estilo13 {	color: #000000;
+	font-style: italic;
+	font-weight: bold;
+}
+.Estilo14 {color: #3F6386}
+.Estilo26 {	font-family: "Times New Roman", Times, serif;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 16px;
+}
+.Estilo131 {font-size: 10px}
+.Estilo141 {font-size: 11px}
+.Estilo25 {font-family: Verdana, Arial, sans-serif}
+-->
+</style>
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000" alink="#000000" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<table align=center width="600" border="0" cellspacing="0" cellpadding="0"> 
+  <tr bgcolor="#000000" align="right"> 
+<td><img src="img_din/nombre5.gif" width="369" height="71" /></td>
+  </tr> <tr bgcolor="#BB0000" valign="middle" align="left"> 
+<td class="bodytext" height="20"><TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+  <TR ALIGN="center" CLASS="menuitem">
+    <TD WIDTH="50" height="19" CLASS="menuitem"><A HREF="../../index.html" CLASS="menuitem">&nbsp;<B>home</B>&nbsp;</A></TD>
+    <TD WIDTH="5" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="155" CLASS="menuitem"><strong><a href="index_din.html" class="menuitem">más de dinámica </a> </strong></TD>
+    <TD width="17" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="115" CLASS="menuitem"><strong><a href="../../intro_NMS.html" class="menuitem">otros temas de F&iacute;sica</a></strong></TD>
+    <TD width="10" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="151" CLASS="menuitem"><strong><a href="../../lista_ciruela.html" class="menuitem">lecciones del maestro Ciruela </a></strong></TD>
+    <TD width="10" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="55" CLASS="menuitem"><strong><a href="../../lista_tonterias.html" class="menuitem">tonter&iacute;as </a></strong><a href="../cinematica/index_cin.html"></a><a href="../energia/index_energia.html" class="menuitem"></a></TD>
+    <TD WIDTH="10" CLASS="menuitem"><a href="../energia/index_energia.html" class="menuitem"></a><FONT COLOR="#000000">|</FONT></TD>
+    <TD WIDTH="22" CLASS="menuitem">&nbsp;<B><FONT FACE="Arial, Helvetica, sans-serif"><A HREF="mailto: ricuti@qi.fcen.uba.ar" CLASS="menuitem">@</A></FONT><A HREF="../../index.html" CLASS="menuitem"></A></B>&nbsp;</TD>
+  </TR>
+</TABLE></td></tr> <tr> <td class="bodytext" height="9"><img src="../cinematica/img_cin/transparente.gif" width="600" height="9" /></td></tr> 
+<tr align="center"> <td height="1077"> <table width="600" border="0" cellspacing="0" cellpadding="0"> 
+<tr class="bodytext"> <td valign="top" width="594" height="1057"> 
+<table width="600" border="0" cellspacing="0" cellpadding="0"> <tr> 
+  <td height="73" valign="top" class="bodytext"><span class="catastrofegris"><strong>NO ME SALEN </strong></span><br />
+      <span class="titulograndegris"><strong>PROBLEMAS RESUELTOS DE F&Iacute;SICA DEL CBC</strong></span><br />
+      <span class="Estilo14"><span class="Estilo13">(Leyes de Newton, gravitación)</span></span><br /> </td>
+  <td class="bodytext" rowspan="2" height="73" width="10">&nbsp;</td><td class="bodytext" colspan="2" height="73" rowspan="2" valign="top" width="85"> 
+<p><img src="img_din/cap4.jpg" alt="¡no me salen!" width="85" height="126" /></p></td></tr> 
+<tr> <td height="110" valign="top" class="bodytext"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="15%" height="92" valign="top"><img src="img_din/fis03.jpg" width="65" height="92"></td>
+    <td width="85%" valign="top" class="bodytext"><p><strong>NMS 4.23*</strong> <strong>- El primer satélite artificial (Sputnik 1) orbitaba la Tierra 
+      con un período de aproximadamente 96 minutos.<br>
+     &nbsp;&nbsp;&nbsp; a) Determinar la relación entre el radio de dicha órbita y la<br>
+      de un satélite geoestacionario como el ARSAT-1.<br>
+     &nbsp;&nbsp;&nbsp; b) Determinar la relación entre las velocidades v de ambos<br>
+      satélites.</strong></p></td>
+  </tr>
+  <tr>
+    <td height="18" colspan="2" valign="middle"><p>&nbsp;</p></td>
+    </tr>
+</table></td>
+</tr>  
+<tr>
+  <td height="109" class="bodytext"><p>Hay decenas de maneras diferentes de resolver este ejercicio. Y plantea algo tan sencillo que me vas a permitir la licencia de resolverlo sin un esquema. </p>
+    <p>Empecemos encontrando una expresión que relacione el período de  órbita con su radio. La única fuerza que actúa sobre el satélite es la atracción gravitatoria terrestre. Luego:</p></td>
+  <td rowspan="3" class="bodytext">&nbsp;</td>
+  <td colspan="2" rowspan="3" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="38" align="center" valign="middle" class="bodytext"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td width="7%" rowspan="3" align="center" class="bodytext">&nbsp;</td>
+      <td width="7%" rowspan="3" align="right" class="bodytext"><em><strong><em><strong><em><strong><em><strong><em><strong>F<em><strong><em><strong><em><strong><em><strong><em><strong><sub>G</sub></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em> =</strong></em></strong></em></strong></em></strong></em></td>
+      <td width="2%" rowspan="3" align="center" class="bodytext">&nbsp;</td>
+      <td width="17%" height="19" align="center" valign="bottom" class="bodytext" style="line-height: 60%;" font ><em><strong><em><strong>G . <em>M</em> . m</strong></em></strong></em></td>
+      <td width="32%" rowspan="3" align="center" class="bodytext">&nbsp;</td>
+      <td width="1%" rowspan="3" align="center" class="bodytext">&nbsp;</td>
+      <td width="13%" rowspan="3" align="center" class="bodytext">&nbsp;</td>
+      <td width="21%" rowspan="3" align="center" class="bodytext">&nbsp;</td>
+    </tr>
+    <tr>
+      <td align="center" class="bodytext"><hr align="center" width="100%" style="color:black" size="1" noshade></td>
+      </tr>
+    <tr>
+      <td height="18" align="center" valign="top" class="bodytext" style="line-height: 60%;" font ><em><strong><em><strong><em><strong><em><strong><em><strong><em><strong>R</strong></em></strong></em></strong></em></strong></em>²</strong></em></strong></em></td>
+      </tr>
+  </table></td>
+</tr>
+<tr>
+  <td height="188" class="bodytext"><p>Donde <em><strong><em><strong>F<em><strong><em><strong><em><strong><em><strong><sub>G</sub></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em> es la fuerza gravitatoria entre el satélite y la Tierra, <em><strong>G</strong></em> es la constante de gravitación universal,<strong><em> M</em></strong> la masa de la Tierra,<em><strong> m</strong></em> la del satélite y <em><strong>R</strong></em> es el radio de la órbita (lógicamente medida desde el centro de la Tierra).</p>
+    <p>Por otro lado el satélite (el que sea) se mueve aproximadamente con un <strong>MCU</strong>**, de modo que tiene una aceleración centrípeta:</p>
+    <blockquote>
+      <p><em><strong><em><strong>F<em><strong><em><strong><em><strong><em><strong><sub>G</sub></strong></em></strong></em></strong></em></strong></em></strong></em> </strong></em><em><strong>= <em><strong>m</strong></em></strong></em> <em><strong>a<em><strong><em><strong><em><strong><em><strong><em><strong><sub>c</sub></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em><strong></strong></p>
+    </blockquote>
+    <p>Que se puede expresar de esta manera:    </p></td>
+</tr>
+<tr>
+  <td height="18" class="bodytext"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td width="7%" rowspan="3" align="center" class="bodytext">&nbsp;</td>
+      <td width="6%" rowspan="3" align="right" class="bodytext"><em><strong><em><strong>F<em><strong><em><strong><em><strong><em><strong><sub>G </sub></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em><em><strong>= </strong></em></td>
+      <td width="3%" rowspan="3" align="center" class="bodytext">&nbsp;</td>
+      <td width="17%" height="19" align="center" valign="bottom" class="bodytext" style="line-height: 60%;" font ><em><strong>m 4 <span class="Estilo26">&pi;</span><em><strong>²</strong></em> R</strong></em></td>
+      <td width="32%" rowspan="3" align="center" class="bodytext">&nbsp;</td>
+      <td width="1%" rowspan="3" align="center" class="bodytext">&nbsp;</td>
+      <td width="13%" rowspan="3" align="center" class="bodytext">&nbsp;</td>
+      <td width="21%" rowspan="3" align="center" class="bodytext">&nbsp;</td>
+    </tr>
+    <tr>
+      <td align="center" class="bodytext"><hr align="center" width="100%" style="color:black" size="1" noshade></td>
+    </tr>
+    <tr>
+      <td height="18" align="center" valign="top" class="bodytext" style="line-height: 60%;" font ><em><strong><em><strong>T²</strong></em></strong></em></td>
+    </tr>
+  </table></td>
+  <td class="bodytext">&nbsp;</td>
+  <td colspan="2" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="54" class="bodytext"><p>Donde <em><strong>T</strong></em> es el período de rotación. Si igualamos ambas ecuaciones (y cancelamos la masa del satélite) nos queda:</p></td>
+  <td width="10" class="bodytext">&nbsp;</td>
+  <td colspan="2" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="44" class="bodytext"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td width="7%" rowspan="3" align="center" class="bodytext">&nbsp;</td>
+      <td width="12%" height="19" align="center" valign="bottom" class="bodytext" font style="line-height: 60%;" ><em><strong><em><strong>G . <em>M</em></strong></em></strong></em></td>
+      <td width="4%" rowspan="3" align="center" class="bodytext"><em><strong>=</strong></em></td>
+      <td width="13%" align="center" valign="bottom" class="bodytext" style="line-height: 60%;" font><em><strong>4 <span class="Estilo26">&pi;</span><em><strong>²</strong></em> R</strong></em></td>
+      <td width="41%" rowspan="3" align="center" class="bodytext">&nbsp;</td>
+      <td width="23%" rowspan="3" align="center" class="bodytext">&nbsp;</td>
+    </tr>
+    <tr>
+      <td align="center" class="bodytext"><hr align="center" width="100%" style="color:black" size="1" noshade></td>
+      <td align="center" class="bodytext"><hr align="center" width="100%" style="color:black" size="1" noshade></td>
+      </tr>
+    <tr>
+      <td height="18" align="center" valign="top" class="bodytext" font style="line-height: 60%;" ><em><strong><em><strong>R²</strong></em></strong></em></td>
+      <td align="center" valign="top" class="bodytext" font style="line-height: 60%;"><em><strong><em><strong>T²</strong></em></strong></em></td>
+      </tr>
+  </table></td>
+  <td width="10" class="bodytext">&nbsp;</td>
+  <td colspan="2" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="30" class="bodytext"><p>O lo que es lo mismo:</p></td>
+  <td width="10" class="bodytext">&nbsp;</td>
+  <td colspan="2" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="40" class="bodytext"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td width="7%" rowspan="3" align="center" class="bodytext">&nbsp;</td>
+      <td width="6%" rowspan="3" align="right" class="bodytext"><em><strong><em><strong>T²</strong></em> </strong></em><em><strong>= </strong></em></td>
+      <td width="3%" rowspan="3" align="center" class="bodytext">&nbsp;</td>
+      <td width="10%" height="19" align="center" valign="bottom" class="bodytext" style="line-height: 60%;" font ><em><strong> 4 <span class="Estilo26">&pi;</span><em><strong>²</strong></em></strong></em></td>
+      <td width="6%" rowspan="3" align="center" class="bodytext"><span class="bodytext" style="line-height: 60%;"><em><strong>R<em>&sup3;</em></strong></em></span></td>
+      <td width="34%" rowspan="3" align="center" class="bodytext">&nbsp;</td>
+      <td width="13%" rowspan="3" align="center" class="bodytext">&nbsp;</td>
+      <td width="21%" rowspan="3" align="center" class="bodytext">&nbsp;</td>
+    </tr>
+    <tr>
+      <td align="center" class="bodytext"><hr align="center" width="100%" style="color:black" size="1" noshade></td>
+    </tr>
+    <tr>
+      <td height="18" align="center" valign="top" class="bodytext" style="line-height: 60%;" font ><em><strong><em><strong>G . <em>M</em></strong></em></strong></em></td>
+    </tr>
+  </table></td>
+  <td width="10" class="bodytext">&nbsp;</td>
+  <td colspan="2" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="59" class="bodytext">Expresión que suele llamarse Tercera Ley de Kepler, pero que en realidad se formuló de esta manera (para un par de satélites <em><strong>1</strong></em> y <em><strong>2</strong></em>, que bien pueden ser los nuestros):</td>
+  <td width="10" class="bodytext">&nbsp;</td>
+  <td colspan="2" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="45" class="bodytext"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td width="7%" rowspan="3" align="center" class="bodytext">&nbsp;</td>
+      <td width="12%" height="19" align="center" valign="bottom" class="bodytext" font style="line-height: 60%;" ><em><strong><em><strong>T<em><strong><em><strong><em><strong><em><strong><em><strong><sub>1</sub></strong></em></strong></em></strong></em></strong></em></strong></em>²</strong></em></strong></em></td>
+      <td width="4%" rowspan="3" align="center" class="bodytext"><em><strong>=</strong></em></td>
+      <td width="13%" align="center" valign="bottom" class="bodytext" style="line-height: 60%;" font><em><strong><em><strong>T<em><strong><em><strong><em><strong><em><strong><em><strong><sub>2</sub></strong></em></strong></em></strong></em></strong></em></strong></em>²</strong></em></strong></em></td>
+      <td width="41%" rowspan="3" align="center" class="bodytext">&nbsp;</td>
+      <td width="23%" rowspan="3" align="center" class="bodytext">&nbsp;</td>
+    </tr>
+    <tr>
+      <td align="center" class="bodytext"><hr align="center" width="100%" style="color:black" size="1" noshade></td>
+      <td align="center" class="bodytext"><hr align="center" width="100%" style="color:black" size="1" noshade></td>
+    </tr>
+    <tr>
+      <td height="18" align="center" valign="top" class="bodytext" font style="line-height: 60%;" ><em><strong><em><strong>R<em><strong><em><strong><em><strong><em><strong><em><strong><sub>1</sub></strong></em></strong></em></strong></em></strong></em></strong></em><em>&sup3;</em></strong></em></strong></em></td>
+      <td align="center" valign="top" class="bodytext" font style="line-height: 60%;"><em><strong><em><strong>R<em><strong><em><strong><em><strong><em><strong><em><strong><sub>2</sub></strong></em></strong></em></strong></em></strong></em></strong></em><em>&sup3;</em></strong></em></strong></em></td>
+    </tr>
+  </table></td>
+  <td width="10" class="bodytext">&nbsp;</td>
+  <td colspan="2" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="118" class="bodytext"><p>Con lo que podemos conocer la relación entre los radios si conocemos los períodos. Y los tenemos. El período del Sputnik es de 96 minutos (lo indica el enunciado), o sea <em><strong>5.760 <span class="epigrafe">s</span></strong></em>. Y el del ARSAT también lo tenemos porque siendo geoestacionario su período vale 24 horas, o sea, <em><strong>86.400 <span class="epigrafe">s</span></strong></em>.</p>
+    <p>Elevamos esos dos números al cuadrado y al cociente le extraemos la raíz cúbica:</p></td>
+  <td width="10" class="bodytext">&nbsp;</td>
+  <td colspan="2" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="70" align="left" valign="middle" class="bodytext"><table width="504" height="36" border="0">
+    <tr>
+      <td width="31" height="28" valign="middle">&nbsp;</td>
+      <td width="232" align="center" bordercolor="#FFFFFF" bgcolor="#CCCCCC" class="bodytext"><em><strong><em><strong><em><strong>R<em><strong><em><strong><em><strong><em><strong><em><strong><sub>2</sub></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em><em><strong> =</strong></em></strong></em></strong></em> <em><strong><em><strong> 6,1<em><em><em><em><em><sup></sup></em></em></em></em></em><em><strong> R<em><strong><em><strong><em><strong><em><strong><em><strong><sub>1</sub></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></td>
+      <td width="227" align="center" class="epigrafe">a)</td>
+    </tr>
+  </table></td>
+  <td width="10" class="bodytext">&nbsp;</td>
+  <td class="bodytext" colspan="2">&nbsp;</td>
+</tr>
+<tr>
+  <td height="149" class="bodytext"><p>O sea, el ARSAT orbita 6,1 veces más lejos del centro de la Tierra que lo que lo hacía el Sputnik. (Para más datos, y aunque eso no te lo pide el ejercicio, la órbita del Sputnik estaba a unos 600 km de altura y el del ARSAT se encuentra a unos 36.000 km de la superficie terrestre).</p>
+    <p>La relación de velocidades la obtenemos operando exactamente de la misma manera que lo hicimos hasta aquí, pero en lugar de expresar la aceleración centrípeta en función del período lo hacemos en función de la velocidad de traslación:</p></td>
+  <td width="10" class="bodytext">&nbsp;</td>
+  <td class="bodytext" colspan="2">&nbsp;</td>
+</tr>
+<tr>
+  <td height="47" class="bodytext"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td width="7%" rowspan="3" align="center" class="bodytext">&nbsp;</td>
+      <td width="12%" height="19" align="center" valign="bottom" class="bodytext" font style="line-height: 60%;" ><em><strong><em><strong>G . <em>M</em></strong></em></strong></em></td>
+      <td width="4%" rowspan="3" align="center" class="bodytext"><em><strong>=</strong></em></td>
+      <td width="8%" align="center" valign="bottom" class="bodytext" style="line-height: 60%;" font><em><strong>v<span class="Estilo26"></span><em><strong>²</strong></em></strong></em></td>
+      <td width="46%" rowspan="3" align="center" class="bodytext">&nbsp;</td>
+      <td width="23%" rowspan="3" align="center" class="bodytext">&nbsp;</td>
+    </tr>
+    <tr>
+      <td align="center" class="bodytext"><hr align="center" width="100%" style="color:black" size="1" noshade></td>
+      <td align="center" class="bodytext"><hr align="center" width="100%" style="color:black" size="1" noshade></td>
+    </tr>
+    <tr>
+      <td height="18" align="center" valign="top" class="bodytext" font style="line-height: 60%;" ><em><strong><em><strong>R²</strong></em></strong></em></td>
+      <td align="center" valign="top" class="bodytext" font style="line-height: 60%;"><em><strong>R</strong></em></td>
+    </tr>
+  </table></td>
+  <td width="10" class="bodytext">&nbsp;</td>
+  <td class="bodytext" colspan="2">&nbsp;</td>
+</tr>
+<tr>
+  <td height="173" class="bodytext"><p>O sea:</p>
+    <blockquote>
+      <p><em><strong><em><strong>G . <em>M</em></strong></em></strong></em><strong><em> = </em></strong><em><strong>v<span class="Estilo26"></span><em><strong>²</strong></em></strong></em> . <em><strong>R</strong></em> </p>
+      </blockquote>
+    <p>Y al estilo Kepler:</p>
+    <blockquote>
+      <p><em><strong>v<span class="Estilo26"></span><em><strong><em><strong><em><strong><em><strong><em><strong><em><strong><em><strong><em><strong><sub>1</sub></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em>²</strong></em></strong></em> . <em><strong>R<em><strong><em><strong><em><strong><em><strong><em><strong><em><strong><em><strong><sub>1</sub></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em> <strong><em>= </em></strong><em><strong>v<em><strong><em><strong><em><strong><em><strong><em><strong><em><strong><sub>2</sub></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em><span class="Estilo26"></span><em><strong>²</strong></em></strong></em> . <em><strong>R<em><strong><em><strong><em><strong><em><strong><em><strong><em><strong><sub>2</sub></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></p>
+      </blockquote>
+    <p>Como ya tenemos la relación entre los radios de órbita...</p></td>
+  <td width="10" class="bodytext">&nbsp;</td>
+  <td class="bodytext" colspan="2">&nbsp;</td>
+</tr>
+<tr>
+  <td height="68" class="bodytext"><table width="504" height="36" border="0">
+    <tr>
+      <td width="31" height="28" valign="middle">&nbsp;</td>
+      <td width="232" align="center" bordercolor="#FFFFFF" bgcolor="#CCCCCC" class="bodytext"><em><strong><em><strong><em><strong>v<em><strong><em><strong><em><strong><em><strong><em><strong><sub>1</sub></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em><em><strong> =</strong></em></strong></em></strong></em> <em><strong><em><strong> 2,5<em><em><em><em><em><sup></sup></em></em></em></em></em><em><strong> v<em><strong><em><strong><em><strong><em><strong><em><strong><sub>2</sub></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></td>
+      <td width="227" align="center" class="epigrafe">b)</td>
+    </tr>
+  </table></td>
+  <td width="10" class="bodytext">&nbsp;</td>
+  <td class="bodytext" colspan="2">&nbsp;</td>
+</tr>
+<tr>
+  <td height="39" class="bodytext">O sea, el Sputnik era 2,5 veces más veloz que un geoestacionario.</td>
+  <td width="10" class="bodytext">&nbsp;</td>
+  <td class="bodytext" colspan="2">&nbsp;</td>
+</tr>
+<tr>
+  <td height="44" align="center" bgcolor="#F3DA73" class="bodytext"><table width="470" border="0">
+    <tbody>
+      <tr>
+        <td height="25" align="center" class="epigrafe">*Este ejercicio formó parte del segundo examen parcial de Física tomado el 10 de noviembre de 2017. 
+          Para ver el examen completo haga click <a href="../../docencia/03-2P-2017-2c-a.pdf" target="_blank">acá</a>.</td>
+      </tr>
+    </tbody>
+  </table></td>
+  <td width="10" class="bodytext">&nbsp;</td>
+  <td width="85" colspan="2" rowspan="3" valign="bottom" class="bodytext"><img src="img_din/ric_mate.gif" width="85" height="124" /></td>
+</tr>
+
+<tr>
+  <td height="103" align="left" valign="middle" class="bodytext"><p class="epigrafe">** En particular el Sputnik giraba en una órbita bastante elíptica; la distancia más alejada de la Tierra era de 939 km y la más cercana 215. Sin embargo, a los fines de cálculos sencillos, podemos aproximarlo a una órbita circular de 600 km de altura. </p>
+    <p><strong>DESAFIO: </strong>¿Cuánto valen esas velocidades?</p></td>
+  <td class="bodytext">&nbsp;</td>
+</tr>
+ 
+<tr> <td height="48" align="center" valign="middle" bgcolor="#CCCCCC" class="bodytext"><table width="96%" border="0">
+      <tr>
+        <td class="epigrafe">Algunos derechos reservados. 
+  Se permite su reproducci&oacute;n citando la fuente, o sea: de d&oacute;nde est&aacute; afanado. &Uacute;ltima actualizaci&oacute;n nov-17. Buenos Aires, Argentina. </td>
+      </tr>
+    </table>
+    </td>
+  <td class="bodytext" width="10">&nbsp;</td></tr> 
+</table></td></tr> </table>
+<img src="img_din/transparente.gif" width="20" height="20" /></td>
+</tr> 
+<tr> <td height="20" class="bodytext"><img src="../cinematica/img_cin/transparente.gif" width="600" height="20" /></td>
+</tr> 
+</table>
+</body>
+</html>
