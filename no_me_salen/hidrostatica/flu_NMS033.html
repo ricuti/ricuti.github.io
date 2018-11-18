@@ -1,0 +1,237 @@
+<html>
+<head>
+<title>MECANICA DE FLUIDOS, NMS011, fisica online, ejercicios resueltos</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="keywords" content="problemas resueltos, ejercicios resueltos, cbc, fisica, biofisica, fluidos, liquidos, gases, bernoulli, poiseuille, viscosidad, ideales, viscosos, humedad, difusion, osmosis, nomesalen, no me salen, ricardo cabrera" />
+<meta name="description" content="Ejercicios y problemas resueltos, y apuntes teóricos de Fluidos, mecanismos de transporte de fluidos" />
+<link rel="stylesheet" href="win_ie.css">
+<style type="text/css">
+<!--
+.style1 {
+	color: #3F6386;
+	font-weight: bold;
+}
+.Estilo3 {color: #3F6386}
+.Estilo16 {font-size: 16px}
+.Estilo33 {font-size: 10px}
+.Estilo39 {color: #FF0000}
+.Estilo25 {font-family: Verdana, Arial, sans-serif}
+-->
+</style>
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000" alink="#000000" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<table align=center width="600" border="0" cellspacing="0" cellpadding="0"> 
+  <tr bgcolor="#000000" align="right"> 
+<td><img src="img_hstat/nombre5.gif" width="369" height="71"></td></tr> <tr bgcolor="#BB0000" valign="middle" align="left"> 
+<td class="bodytext" height="20"><TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+  <TR ALIGN="center" CLASS="menuitem">
+    <TD WIDTH="44" height="19" CLASS="menuitem"><A HREF="../../index.html" CLASS="menuitem">&nbsp;<B>home</B>&nbsp;</A></TD>
+    <TD WIDTH="5" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="113" CLASS="menuitem"><strong><a href="index_hstat.html" class="menuitem">m&aacute;s de hidrostática</a> </strong></TD>
+    <TD width="10" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="125" CLASS="menuitem"><strong><a href="../../intro_NMS.html" class="menuitem">otros temas de F&iacute;sica</a></strong></TD>
+    <TD width="10" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="173" CLASS="menuitem"><strong><a href="../../lista_ciruela.html" class="menuitem">lecciones del maestro Ciruela </a></strong></TD>
+    <TD width="9" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="68" CLASS="menuitem"><strong><a href="../../lista_tonterias.html" class="menuitem">tonter&iacute;as</a></strong></TD>
+    <TD WIDTH="8" CLASS="menuitem"><a href="../energia/index_energia.html" class="menuitem"></a><FONT COLOR="#000000">|</FONT></TD>
+    <TD WIDTH="40" CLASS="menuitem">&nbsp;<B><FONT FACE="Arial, Helvetica, sans-serif"><A HREF="mailto: ricuti@gmail.com" CLASS="menuitem">@</A></FONT><A HREF="../../index.html" CLASS="menuitem"></A></B>&nbsp;</TD>
+  </TR>
+</TABLE></td></tr> <tr> <td class="bodytext" height="10"><img src="img_hstat/transparente.gif" width="600" height="8"></td>
+</tr> 
+<tr align="center"> <td height="557"> <table width="600" border="0" cellspacing="0" cellpadding="0"> 
+<tr class="bodytext"> <td colspan="2" valign="top" height="1084"> <img src="img_hstat/transparente.gif" width="1" height="1"></td>
+<td valign="top" width="596" height="1084"> 
+<table width="600" border="0" cellspacing="0" cellpadding="0"> 
+  <tr> 
+  <td height="64" bgcolor="#D7FFFF" class="bodytext"><span class="bodytext"><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>NO ME SALEN<br>
+</strong></span><span class="Estilo3"><em class="bodytext "><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>(<strong>PROBLEMAS RESUELTOS   DE BIOF&Iacute;SICA DEL CBC</strong>)</strong></em></span><br>
+      <span class="titulograndegris Estilo16"><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>FLUIDOS<br>
+      </strong></span><br> </td>
+  <td class="bodytext" rowspan="3" width="6">&nbsp;</td>
+  <td width="87" rowspan="3" align="center" valign="top" class="bodytext"> 
+<p><img src="img_hstat/cap23.jpg" alt="desesperado" width="85" height="114"></p>
+<p>&nbsp;</p></td></tr>
+  <tr>
+    <td height="14" bgcolor="#FFFFFF" class="bodytext">&nbsp;</td>
+  </tr> 
+<tr> <td height="83" valign="top" class="bodytext"><table width="507" height="110" border="0">
+  <tr>
+    <td width="323" height="106" align="left" valign="top" class="bodytext"><p><strong class="bodytext">NMS 33</strong><strong>* - En un tubo en U como el de la figura, se colocan dos líquidos inmiscibles de densidades <em><strong><em><strong><em><strong><strong><em><span class="Estilo25">&rho;</span></em></strong></strong></em></strong></em><sub>1</sub></strong></em> <strong>=</strong> <em><strong>1,2 <span class="epigrafe">g</span></strong></em><span class="epigrafe">/</span><em><strong><span class="epigrafe">cm</span><em>&sup3;</em></strong></em></strong> <strong>y</strong> <strong> <em><strong><em><strong><em><strong><strong><em><span class="Estilo25">&rho;</span></em></strong></strong></em></strong></em><sub>2</sub></strong></em> <strong>=</strong> <em><strong>2,6 <span class="epigrafe">g</span></strong></em><span class="epigrafe">/</span><em><strong><span class="epigrafe">cm</span><em>&sup3;</em></strong></em></strong>.</p>
+      <p><strong>a) Ambas ramas se encuentran abiertas a la atmósfera, donde la presión es <em>101.325 <span class="epigrafe">Pa</span></em>, y cuando se alcanza el equilibrio, el punto A se encuentra<em> 0,5 <span class="epigrafe">m</span></em> por encima del punto B. Calcule la altura de la columna 1.</strong></p>
+      <p><strong>b) En cierto instante se cierra a rama derecha, encerrando un gas sobre el líquido 2. Si la rama izquierda sigue abierta a la atmósfera, se alcanza el equilibrio con los puntos A y B a la misma altura. ¿Qué presión absoluta tiene el gas encerrado en el equilibrio?</strong></p></td>
+    <td width="174" align="center" valign="middle" class="bodytext"><img src="img_hstat/flu_NMS33_1.GIF" width="170" height="189" alt=""/></td>
+    </tr>
+  
+</table>  
+  </td>
+  </tr>
+<tr>
+  <td height="99" valign="middle" class="bodytext"><p>Bonito ejercicio, estos profes sí que son imaginativos para inventar complicaciones...</p>
+    <p>Bien, como ya sabés de sobra (y si no lo sabías es hora de que te pongas las pilas) en todo ejercicio de tubos en U la clave es que prestes atención al nivel en el que los líquidos se tocan, o sea al nivel del punto <strong>C</strong>.</p></td>
+  <td class="bodytext">&nbsp;</td>
+  <td align="center" valign="top" class="bodytext"><p class="epigrafe Estilo39">&nbsp;</p>
+    <p class="epigrafe Estilo39">&nbsp;</p>    </td>
+</tr>
+
+<tr>
+  <td height="126" align="center" valign="middle" bgcolor="#FFFFFF" class="epigrafe"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td width="71%" height="115" class="bodytext"><p>Así queda definido el punto <strong>D</strong> que no podés dudar que se halla a la misma presión que <strong>C</strong> (por estar a la misma profundidad en el líquido <strong>2</strong>).</p>
+        <p>Y como los puntos <strong>A</strong> y <strong>B</strong> también se hallan a la misma presión (la de la atmósfera), entonces podemos concluir que la diferencia de presión en la columna <strong>AC</strong> (la que nos pide el enunciado) es igual a la diferencia de presión en la columna <strong>BD</strong>.</p>
+        <blockquote>
+          <p><em><strong>&Delta;Pr<sub>AC</sub> =</strong></em> <em><strong>&Delta;Pr<sub>BD</sub></strong></em></p>
+        </blockquote></td>
+      <td width="29%" align="right" valign="middle" class="bodytext"><p><img src="img_hstat/flu_NMS33_2.GIF" width="140" height="156" alt=""/></p></td>
+    </tr>
+  </table></td>
+  <td class="bodytext">&nbsp;</td>
+  <td align="center" valign="middle" class="epigrafe Estilo39">&nbsp;</td>
+</tr>
+<tr>
+  <td height="148" align="left" valign="middle" bgcolor="#FFFFFF" class="bodytext"><p>Si para cada columna aplicamos el principio general de la hidrostática, tendremos:</p>
+    <blockquote>
+      <p><em><strong><em><strong>&#961;<sub>1</sub></strong></em> . g . &Delta;h<sub>AC</sub></strong></em><strong> = </strong><em><strong><em><strong>&#961;<sub>2</sub></strong></em> . g . &Delta;h<sub>BD</sub></strong></em></p>
+      </blockquote>
+    <p>Y, como ves, tenemos dos incógnitas, pero hay un dato que todavía no usamos: que la columna del líquido <strong>1</strong> es <em><strong>0,5 <span class="epigrafe">m</span></strong></em> mayor que la columna del líquido <strong>2</strong>...</p>
+    <blockquote>
+      <p><em><strong>&Delta;h<sub>AC</sub></strong></em> <strong>=</strong> <em><strong>&Delta;h<sub>BD</sub></strong></em> <em><strong>+ 0,5 <span class="epigrafe">m</span></strong></em></p>
+    </blockquote></td>
+  <td class="bodytext">&nbsp;</td>
+  <td align="center" valign="middle" class="epigrafe Estilo39">&nbsp;</td>
+</tr>
+<tr>
+  <td height="293" align="left" valign="middle" bgcolor="#FFFFFF" class="bodytext"><p>El resto es aburridísima álgebra: de la segunda ecuación despejo <em><strong>&Delta;h<sub>BD</sub></strong></em> y eso lo meto en la primera. (También cancelo la aceleración de la gravedad).</p>
+    <blockquote>
+      <p><em><strong>&Delta;h<sub>BD</sub></strong></em> <strong>=</strong> <em><strong>&Delta;h<sub>AC</sub></strong></em> <em><strong><em><strong>&mdash;</strong></em> 0,5 <span class="epigrafe">m</span></strong></em></p>
+      <p><em><strong><em><strong>&#961;<sub>1</sub></strong></em> .  &Delta;h<sub>AC</sub></strong></em><strong> = </strong><em><strong><em><strong>&#961;<sub>2</sub></strong></em> . (&Delta;h<sub>AC</sub></strong></em> <em><strong><em><strong>&mdash;</strong></em> 0,5 <span class="epigrafe">m</span></strong></em><em><strong>)<sub></sub></strong></em></p>
+      </blockquote>
+    <p>Distribuyo, despejo y calculo:</p>
+    <blockquote>
+      <p><em><strong><em><strong>&#961;<sub>1</sub></strong></em> .  &Delta;h<sub>AC</sub></strong></em><em><strong><em><strong> &mdash;</strong></em></strong></em><strong> </strong><em><strong><em><strong>&#961;<sub>2</sub></strong></em> . &Delta;h<sub>AC</sub></strong></em> <em><strong>= <em><strong>&mdash;</strong></em> <em><strong>&#961;<sub>2</sub></strong></em> . 0,5 <span class="epigrafe">m</span></strong></em></p>
+      <p><em><strong>&Delta;h<sub>AC</sub></strong></em><em><strong><em><strong> ( <em><strong>&#961;<sub>1</sub></strong></em> &mdash;</strong></em></strong></em><strong> </strong><em><strong><em><strong>&#961;<sub>2</sub></strong></em>) </strong></em> <em><strong>= <em><strong>&mdash;</strong></em> <em><strong>&#961;<sub>2</sub></strong></em> . 0,5 <span class="epigrafe">m</span></strong></em></p>
+      <p><em><strong>&Delta;h<sub>AC</sub> = <em><strong><em><strong>&mdash;</strong></em> &#961;<sub>2</sub></strong></em> . 0,5 <span class="epigrafe">m</span></strong></em> <em><strong>/ </strong></em><strong></strong><em><strong><em><strong>( <em><strong>&#961;<sub>1</sub></strong></em> &mdash;</strong></em></strong></em> <em><strong><em><strong>&#961;<sub>2</sub></strong></em> )</strong></em></p>
+      <p><em><strong>&Delta;h<sub>AC</sub> = <em><strong>&mdash;</strong></em> <em><strong>2,6 <span class="epigrafe">g</span></strong></em><span class="epigrafe">/</span><em><strong><span class="epigrafe">cm</span><em>&sup3;</em></strong></em>. 0,5 <span class="epigrafe">m</span></strong></em> <em><strong>/ </strong></em><strong></strong><em><strong><em><strong><em><strong>&mdash;</strong></em> 1,4 <span class="epigrafe">g</span></strong></em><span class="epigrafe">/</span><em><strong><span class="epigrafe">cm</span><em>&sup3;</em></strong></em></strong></em></p>
+    </blockquote></td>
+  <td class="bodytext">&nbsp;</td>
+  <td align="center" valign="middle" class="epigrafe">&nbsp;</td>
+</tr>
+<tr>
+  <td height="60" align="left" valign="middle" bgcolor="#FFFFFF" class="epigrafe"><table width="507" height="36" border="0">
+    <tr>
+      <td width="35" height="28" valign="middle" class="bodytext">&nbsp;</td>
+      <td width="240" align="center" bordercolor="#FFFFFF" bgcolor="#CCCCCC" class="bodytext"><p><em><strong>&Delta;h<sub>AC</sub> =</strong></em><em><strong> </strong></em><em><strong>0,93 m</strong></em></p></td>
+      <td width="218" align="center" class="bodytext">&nbsp;</td>
+    </tr>
+  </table></td>
+  <td class="bodytext">&nbsp;</td>
+  <td align="center" valign="middle" class="epigrafe Estilo39">&nbsp;</td>
+</tr>
+<tr>
+  <td height="73" align="left" valign="middle" bgcolor="#FFFFFF" class="bodytext"><p>Fue dificilísimo, ¿no? Vamos al ítem <strong>b)</strong>. Te darás cuenta que es un nuevo ejercicio, casi independiente del anterior. Hagamos un nuevo esquema que aclare la situación... sabés que en física es casi imposible comunicarse sin una figura.    </p></td>
+  <td class="bodytext">&nbsp;</td>
+  <td align="center" valign="middle" class="epigrafe Estilo39"><p>&nbsp;</p>
+    <p>&nbsp;</p>
+    </td>
+</tr>
+<tr>
+  <td height="150" align="left" valign="middle" bgcolor="#FFFFFF" class="epigrafe"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td width="71%" height="115" class="bodytext"><p>Antes que nada analicemos un poquito esta nueva situación. La columna de la derecha se cerró y atrapó un gas (lo sombreé en verde), <em>¡</em>que tiene que hallarse a una presión menor que la atmosférica<em>!</em> Eso es obvio, ya que si el punto <strong>B</strong> ascendió para quedar a la misma altura que <strong>A</strong>... <em>¡</em>es como si hubiésemos succionado<em>!</em>, o sea, aplicado una menor presión que lo que había antes, que era una atmósfera.</p>
+        <p>Otra cuestión obvia es que la columna<strong> AC</strong> no cambió su longitud y es la misma que calculamos en el ítem anterior, ya que los líquidos son incompresibles. Si no te das cuenta de esas cuestiones estás frito. Además revela que no tuviste infancia y no jugaste con agua, mangueritas y frasquitos como hicieron tus padres, tus abuelos, tus bisabuelos, tus tatarabuelos, etcétera.        </p></td>
+      <td width="29%" align="right" valign="middle" class="bodytext"><p><img src="img_hstat/flu_NMS33_3.GIF" width="145" height="155" alt=""/></p></td>
+    </tr>
+  </table></td>
+  <td class="bodytext">&nbsp;</td>
+  <td align="center" valign="middle" class="epigrafe"><p class="Estilo39">&nbsp;</p></td>
+</tr>
+<tr>
+  <td height="568" align="left" valign="middle" bgcolor="#FFFFFF" class="bodylinkblack"><p>El nivel del punto <strong>C</strong> tetermina un nuevo punto sobre la rama derecha que llamé <strong>D'</strong>. Y ahora tenemos:</p>
+    <blockquote>
+      <p><em><strong>&Delta;h<sub>AC</sub></strong></em> <strong>=</strong> <em><strong>&Delta;h<sub>BD'</sub></strong></em></p>
+      <p><em><strong>Pr<sub>C</sub></strong></em> <strong>=</strong> <em><strong>Pr<sub>D'</sub></strong></em></p>
+      </blockquote>
+    <p>Aplicando nuevamente el principio general en cada rama...</p>
+    <blockquote>
+      <p><em><strong>Pr<sub>C</sub> <em><strong><em><strong>&mdash;</strong></em></strong></em> Pr<sub>A</sub> =</strong></em> <em><strong><em><strong>&#961;<sub>1</sub></strong></em> . g . &Delta;h<sub>AC</sub></strong></em></p>
+      <p><em><strong>Pr<sub>D'</sub> <em><strong><em><strong>&mdash;</strong></em></strong></em> Pr<sub>B</sub> =</strong></em> <em><strong><em><strong>&#961;<sub>2</sub></strong></em> . g . &Delta;h<sub>BD'</sub></strong></em></p>
+      </blockquote>
+    <p>Y bueno... creo que ya está. Basta con despejar la presión en <strong>B</strong> que es la de nuestro gas enrarecido... </p>
+    <blockquote>
+      <p><em><strong>Pr<sub>C </sub>= Pr<sub>A</sub> +</strong></em> <em><strong><em><strong>&#961;<sub>1</sub></strong></em> . g . &Delta;h<sub>AC</sub></strong></em></p>
+      <p><em><strong>Pr<sub>D' </sub>= Pr<sub>B</sub> +</strong></em> <em><strong><em><strong>&#961;<sub>2</sub></strong></em> . g . &Delta;h<sub>BD'</sub></strong></em></p>
+      </blockquote>
+    <p>Igualamos los segundos miembros (recordá que ahora las alturas son iguales):</p>
+    <blockquote>
+      <p><em><strong>Pr<sub>B</sub> +</strong></em> <em><strong><em><strong>&#961;<sub>2</sub></strong></em> . g . &Delta;h<sub>AC</sub></strong></em><em><strong> = </strong></em><em><strong>Pr<sub>A</sub> +</strong></em> <em><strong><em><strong>&#961;<sub>1</sub></strong></em> . g . &Delta;h<sub>AC</sub></strong></em></p>
+      </blockquote>
+    <p>Y despejamos <em><strong>Pr<sub>B</sub></strong></em></p>
+    <blockquote>
+      <p><em><strong>Pr<sub>B</sub> = Pr<sub>A</sub> + </strong></em><em><strong>g . &Delta;h<sub>AC</sub><em><strong> ( <em><strong>&#961;<sub>1</sub></strong></em> <em><strong><em><strong>&mdash;</strong></em></strong></em> &#961;<sub>2 </sub></strong></em></strong></em><strong><em>)</em></strong>      </p>
+    </blockquote>
+    <p>Como no se cancelan, la unidades de las densidades habrá que expresarlas en unidades internacionales:</p>
+    <blockquote>
+      <p><em><strong>Pr<sub>B</sub> = 101325 <span class="epigrafe">Pa</span><em><strong><em><strong><em><strong> +</strong></em></strong></em></strong></em>  10 <span class="epigrafe">m</span></strong><span class="epigrafe">/</span><strong><span class="epigrafe">s</span><em>&sup2;</em> . 0,93 m<em><strong> . ( <em><strong><em><strong><em><strong>&mdash;</strong></em></strong></em></strong></em>1400 <span class="epigrafe">kg</span></strong></em></strong><span class="epigrafe">/</span><strong><em><strong><span class="epigrafe">m</span><em>&sup3;</em></strong></em></strong></em><strong><em>)</em></strong></p>
+    </blockquote></td>
+  <td class="bodytext">&nbsp;</td>
+  <td align="center" valign="middle" class="epigrafe"><p class="Estilo39">&nbsp;</p>
+    <p class="Estilo39">&nbsp;</p></td>
+</tr>
+<tr>
+  <td height="57" align="center" valign="middle" bgcolor="#FFFFFF" class="epigrafe"><table width="507" height="36" border="0">
+    <tr>
+      <td width="35" height="28" valign="middle" class="bodytext">&nbsp;</td>
+      <td width="240" align="center" bordercolor="#FFFFFF" bgcolor="#CCCCCC" class="bodytext"><p><em><strong>Pr<sub>B</sub> = 88305 Pa<em><strong><em><strong><em><strong> </strong></em></strong></em></strong></em></strong></em></p></td>
+      <td width="218" align="center" class="bodytext">&nbsp;</td>
+    </tr>
+  </table></td>
+  <td class="bodytext" height="57">&nbsp;</td>
+  <td height="57" align="center" valign="middle" class="epigrafe">&nbsp;</td>
+</tr>
+<tr>
+  <td height="57" align="left" valign="middle" bgcolor="#FFFFFF" class="bodytext">Como ves, es menor que la presión atmosférica. Cualquier número mayor que la presión atmosférica resutaría inadmisible.</td>
+  <td class="bodytext" height="57">&nbsp;</td>
+  <td height="57" align="center" valign="middle" class="epigrafe">&nbsp;</td>
+</tr>
+<tr>
+  <td height="14" class="bodytext"><p>&nbsp;</p>    </td>
+  <td class="bodytext">&nbsp;</td>
+  <td valign="middle" class="bodytext">&nbsp;</td>
+</tr>
+
+
+<tr>
+  <td height="41" align="center" valign="middle" bgcolor="#F7F7C9" class="bodytext"><table width="97%" height="22" border="0">
+    <tr>
+      <td class="epigrafe">*Ejercicio que perteneció al segundo examen parcial tomado en noviembre de 2018.</td>
+    </tr>
+  </table>  </td>
+  <td width="6" class="bodytext">&nbsp;</td>
+  <td width="87" class="bodytext">&nbsp;</td>
+</tr>
+
+
+<tr>
+  <td height="63" align="left" class="bodytext"><p><strong>DESAF&Iacute;O</strong>: ¿Cuál sería tu conclusión si al encerrar un gas en la rama derecha la diferencia de alturas fuera mayor que los 0,5 metros iniciales?</p>    </td>
+  <td class="bodytext">&nbsp;</td>
+  <td width="87" rowspan="2" valign="bottom" class="bodytext"><img src="img_hstat/ricuti.jpg" alt="Flu&iacute;dos - Ricardo Cabrera" width="85" height="116"></td>
+</tr>
+
+
+<tr> <td height="46" align="center" valign="middle" bgcolor="#CCCCCC" class="bodytext"><table width="92%" border="0">
+  <tr>
+    <td class="epigrafe">Algunos derechos reservados. 
+      Se permite su reproducci&oacute;n citando la fuente. &Uacute;ltima actualizaci&oacute;n nov-18. Buenos Aires, Argentina. </td>
+  </tr>
+</table>  </td>
+  <td class="bodytext" width="6">&nbsp;</td>
+  </tr> 
+<tr> <td height="18" class="bodytext">&nbsp;</td><td class="bodytext" width="6">&nbsp;</td>
+<td class="bodytext" width="87">&nbsp;</td>
+</tr> 
+</table></td></tr> </table><img src="img_hstat/transparente.gif" width="10" height="20"></td></tr> 
+<tr> <td class="bodytext"><img src="img_hstat/transparente.gif" width="600" height="20"></td></tr> 
+</table>
+</body>
+</html>
