@@ -1,0 +1,200 @@
+<html>
+<head>
+<title>MECANICA DE FLUIDOS, NMS034, fisica online, ejercicios resueltos</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="keywords" content="problemas resueltos, ejercicios resueltos, cbc, fisica, biofisica, fluidos, liquidos, gases, bernoulli, poiseuille, viscosidad, ideales, viscosos, humedad, difusion, osmosis, nomesalen, no me salen, ricardo cabrera" />
+<meta name="description" content="Ejercicios y problemas resueltos, y apuntes teóricos de Fluidos, mecanismos de transporte de fluidos" />
+<link rel="stylesheet" href="win_ie.css">
+<style type="text/css">
+<!--
+.style1 {
+	color: #3F6386;
+	font-weight: bold;
+}
+.Estilo3 {color: #3F6386}
+.Estilo18 {color: #FF0000}
+.Estilo26 {font-family: "Times New Roman", Times, serif;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 16px;
+}
+-->
+</style>
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000" alink="#000000" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<table align=center width="600" border="0" cellspacing="0" cellpadding="0"> 
+  <tr bgcolor="#000000" align="right"> 
+<td><img src="img_hstat/nombre5.gif" width="369" height="71"></td>
+  </tr> <tr bgcolor="#BB0000" valign="middle" align="left"> 
+<td class="bodytext" height="20"><TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+  <TR ALIGN="center" CLASS="menuitem">
+    <TD WIDTH="44" height="19" CLASS="menuitem"><A HREF="../../index.html" CLASS="menuitem">&nbsp;<B>home</B>&nbsp;</A></TD>
+    <TD WIDTH="5" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="113" CLASS="menuitem"><strong><a href="index_hstat.html" class="menuitem">m&aacute;s de hidrostática</a> </strong></TD>
+    <TD width="10" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="125" CLASS="menuitem"><strong><a href="../../intro_NMS.html" class="menuitem">otros temas de F&iacute;sica</a></strong></TD>
+    <TD width="10" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="173" CLASS="menuitem"><strong><a href="../../lista_ciruela.html" class="menuitem">lecciones del maestro Ciruela </a></strong></TD>
+    <TD width="9" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="68" CLASS="menuitem"><strong><a href="../../lista_tonterias.html" class="menuitem">tonter&iacute;as</a></strong></TD>
+    <TD WIDTH="8" CLASS="menuitem"><a href="../energia/index_energia.html" class="menuitem"></a><FONT COLOR="#000000">|</FONT></TD>
+    <TD WIDTH="40" CLASS="menuitem">&nbsp;<B><FONT FACE="Arial, Helvetica, sans-serif"><A HREF="mailto: ricuti@gmail.com" CLASS="menuitem">@</A></FONT><A HREF="../../index.html" CLASS="menuitem"></A></B>&nbsp;</TD>
+  </TR>
+</TABLE></td></tr> <tr> <td class="bodytext" height="8"><img src="img_hstat/transparente.gif" width="600" height="8"></td>
+</tr> 
+<tr align="center"> <td height="720"> <table width="600" border="0" cellspacing="0" cellpadding="0"> 
+<tr class="bodytext"> <td valign="top" width="594" height="700"> 
+<table width="600" border="0" cellspacing="0" cellpadding="0"> <tr> 
+  <td height="74" valign="middle" bgcolor="#FFDB4A" class="bodytext"><span class="bodytext"><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>NO ME SALEN<br>
+</strong></span><span class="Estilo3"><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em></strong></span><span class="titulograndegris"><strong>EJERCICIOS<strong> RESUELTOS   DE F&Iacute;SICA DEL CBC</strong></strong></span><br>
+      <span class="titulochicogris"><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>FLUIDOS - PRINCIPIO DE ARQU&Iacute;MEDES</strong></span></td>
+  <td class="bodytext" rowspan="3" height="74" width="7">&nbsp;</td>
+  <td class="bodytext" height="74" rowspan="3" valign="top" width="86"> 
+<p><img src="img_hstat/cap15.jpg" alt="desesperado" width="85" height="131"></p></td></tr>
+  <tr>
+    <td height="18" bgcolor="#FFFFFF" class="bodytext">&nbsp;</td>
+  </tr> 
+<tr> <td height="111" class="bodytext"><P><strong><em>NMS</em> 34*) Un bloque cúbico, macizo y homogéneo de 10 cm de arista es colgado del techo mediante un resorte ideal de 25 cm de longitud natural, de manera tal, que en el equilibrio la longitud del resorte es de 45 cm. Se sumerge al cubo en un recipiente con agua, y al alcanzar nuevamente el equilibrio, el 75% de su volumen queda dentro de dicho liquido. Si la longitud del resorte en estas condiciones es 35 cm. Calcule la densidad del bloque</strong></P>
+    </td>
+  </tr>
+<tr>
+  <td height="31" bgcolor="#F5E88C" class="epigrafe">* Este ejercicio formó parte del 2do. examen parcial de mi materia tomado el 16 de noviembre de 2018&nbsp;en Ciudad Universitaria.</td>
+  <td class="bodytext">&nbsp;</td>
+  <td align="center" valign="middle" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="382" class="bodytext"><p>Bueno, bueno... no te abatates ni te abatatos ni te abatatas. Es sencillito pero hay que ser muy prolijo. Como siempre vamos a reemplazar los datos numéricos en la última instancia, nunca antes. <em></em></p>
+    <p>Además tenés que tener en claro que<a href="../dinamica/AT_elastic.html" target="_blank"> las fuerzas que hacen los elásticos </a>equivalen al producto entre la constante elástica, <em><strong>k</strong></em>, y la deformación, <em><strong>&#916x</strong></em>. De modo que cuando sostiene al cuerpo en el aires hará una fuerza que llamaremos <em><strong>F<sub>e1</sub></strong></em> y cuando sostiene al cuerpo semisumergido hará una fuerza menos que llamaremos <em><strong>F<sub>e2</sub></strong></em>.</p>
+    <blockquote>
+      <p><em><strong> F<sub>e1</sub></strong></em> <em><strong>= k </strong></em>. <em><strong>&#916x</strong></em><em><strong><sub>1</sub></strong></em></p>
+      <p><em><strong>F<sub>e2</sub></strong></em> <em><strong>= k </strong></em>. <em><strong>&#916x</strong></em><em><strong><sub>2</sub></strong></em></p>
+    </blockquote>
+    <p>Donde los estiramientos valdrán:</p>
+    <blockquote>
+      <p> <em><strong>&#916x<sub>1</sub> = 0,2 <span class="epigrafe">m</span></strong></em></p>
+      <p><em><strong>&#916x<sub>2</sub> = 0,1 <span class="epigrafe">m</span></strong></em></p>
+      </blockquote>
+    <p>Ya que las deformaciones se calculan fácilmente restando la longitud del resorte estando deformado menos la longitud  del resorte sin deformar (la longitud natural). Todas estas cuestiones nada tienen que ver con la hidrostática pero si no las tenés claras, la resolución fracasa. Ahora sí, vamos a la hidrostática empezando, como siempre, por Newton.</p></td>
+  <td width="7" class="bodytext">&nbsp;</td>
+  <td width="86" align="center" valign="middle" class="bodytext"><span class="epigrafe Estilo18"><br>
+    </span></td>
+</tr>  
+
+<tr>
+  <td height="420" align="center" class="bodytext"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td width="28%" height="171" align="center" class="bodytext"><img src="img_hstat/gr_HE_N034_1.gif" alt="Flu&iacute;dos - Ricardo Cabrera" width="100" height="159"></td>
+      <td width="2%" class="bodytext">&nbsp;</td>
+      <td width="70%" class="bodytext"><p>Ac&aacute; est&aacute; el cuerpo colgando del techo y en el aire. Esta situaci&oacute;n la llamar&eacute; <strong>1</strong>. Las dos &uacute;nicas fuerzas que act&uacute;an sobre &eacute;l son la fuerza elástica inicial, <em><strong>F<sub>e1</sub></strong></em><em><strong><sub></sub></strong></em>, y el peso, <em><strong>P</strong></em>. Como el cuerpo est&aacute; en equilibrio, podemos asegurar que:</p>
+        <blockquote>
+          <p><em><strong> P =</strong></em>&nbsp;<em><strong>F<sub>e1</sub></strong></em>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="epigrafe">(Newton)</span></p>
+          </blockquote>
+        <p><em></em></p></td>
+    </tr>
+    <tr>
+      <td height="58" colspan="3" class="bodytext">Ahora viene la situaci&oacute;n <strong>2</strong>, en la que ese mismo cuerpo se sumerge en agua y deja una porción al aire y otra sumergida.</td>
+      </tr>
+    <tr>
+      <td height="171" align="center" class="bodytext"><img src="img_hstat/gr_HE_N034_2.gif" alt="Flu&iacute;dos - Ricardo Cabrera" width="105" height="169"></td>
+      <td class="bodytext">&nbsp;</td>
+      <td class="bodytext"><p>Ahora las fuerzas que act&uacute;an son tres: la nueva tensi&oacute;n que hace el hilo, el peso del cuerpo (<em>&iexcl;</em>que no cambia<em>!</em>) y el empuje que recibe del agua tal como predijo Arqu&iacute;medes.</p>
+        <blockquote>
+          <p><em><strong> P = F<sub>e2</sub> </strong></em><em><strong>+ E </strong></em>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="epigrafe">(Newton)</span></p>
+          </blockquote>
+        <p>El peso del cuerpo no cambia (ese es un negocio entre el planeta Tierra y el cuerpo, en nada le afecta estar sumergido del todo o poquito o nada).</p></td>
+    </tr>
+  </table></td>
+  <td class="bodytext">&nbsp;</td>
+  <td align="center" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="840" align="left" class="bodytext"><p>El peso espec&iacute;fico,<strong><span class="Estilo26"> &gamma;</span></strong>, es el cociente entre el peso y el volumen. Además es el producto entre la densidad y la gravedad: <strong><span class="Estilo26">&gamma;</span></strong> <strong>=</strong> <em><strong><em><strong>&#961;</strong></em> . g</strong></em> . Entonces el peso es igual al producto entre el peso espec&iacute;fico y el volumen. Podemos expresarlo así:</p>
+    <blockquote>
+      <p><em><strong>P = <em><strong>&#961;</strong></em><sub>cpo</sub> . g . V</strong></em>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="epigrafe">(def. de peso específico)</span></p>
+      </blockquote>
+    <p>Y el empuje, según el principio de arquímedes, es igual al peso del líquido desalojado. Según el enunciado el cuerpo semisumergido desaloja un volumen de agua igual al 75% de su propio volumen, de modo que:</p>
+    <blockquote>
+      <p><em><strong>E = <em><strong>&#961;</strong></em><sub>H20 </sub>. g&nbsp;. 0,75 . V<span class="epigrafe"></span></strong></em>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="epigrafe">(Arquímedes)</span></p>
+    </blockquote>
+    <p>Reescribamos las ecuaciones de Newton reemplazando lo que sabemos de las fuerzas elásticas, el peso y el empuje:</p>
+    <blockquote>
+      <p><em><strong> <em><strong>&#961;</strong></em><sub>cpo</sub> . g . V</strong></em><em><strong> =</strong></em><em><strong> k </strong></em>. <em><strong>&#916x</strong></em><em><strong><sub>1</sub></strong></em></p>
+      <p><em><strong><em><strong>&#961;</strong></em><sub>cpo</sub> . g . V</strong></em><em><strong><span class="epigrafe"></span>  = </strong></em><em><strong>k </strong></em>. <em><strong>&#916x</strong></em><em><strong><sub>2</sub></strong></em><em><strong> + <em><strong>&#961;</strong></em><sub>H20 </sub>. g&nbsp;. 0,75 V</strong></em></p>
+    </blockquote>
+    <p>Y ahora supongo que ya te diste cuenta de que el ejercicio quedó cocinado, porque tenés dos ecuaciones y dos incógnitas: la constante elástica y la densidad de cuerpo, <em><strong>k</strong></em> y <em><strong><em><strong>&#961;</strong></em><sub>cpo</sub></strong></em>. La densidad del agua es un dato conocido aunque el enunciado no te lo diga, </p>
+    <blockquote>
+      <p><em><strong> <em><strong>&#961;</strong></em><sub>H20</sub></strong></em> <strong>= </strong><em><strong>1.000 <span class="epigrafe">kg</span></strong></em><span class="epigrafe">/</span><em><strong><span class="epigrafe">m</span><em><strong><sup>3</sup></strong></em></strong></em><em><strong><em><em><strong><em><strong></strong></em></strong></em></em></strong></em><em><strong><em><em><strong><em><strong></strong></em></strong></em></em></strong></em></p>
+      </blockquote>
+    <p>Bueno, vamos al álgebra, yo te lo hago para que no llores. De la primera ecuación despejamos la constante elástica:</p>
+    <blockquote>
+      <p><em><strong>k = <em><strong>&#961;</strong></em><sub>cpo</sub> . g . V</strong></em><strong><em> /  </em></strong><em><strong>&#916x<sub>1</sub></strong></em></p>
+      </blockquote>
+    <p>Y eso lo metemos en la segunda:</p>
+    <blockquote>
+      <p><em><strong><em><strong> <em><strong>&#961;</strong></em><sub>cpo</sub> . g . V</strong></em></strong></em><em><strong> = </strong></em><em><strong><em><strong>&#961;</strong></em><sub>cpo</sub> . g . V</strong></em><strong><em> . (<strong>&#916x<sub>2</sub></strong> / </em></strong><em><strong>&#916x<sub>1</sub></strong></em><strong><em>)</em></strong> <em><strong>+ <em><strong>&#961;</strong></em><sub>H20 </sub>. g&nbsp;. 0,75 V</strong></em></p>
+      </blockquote>
+    <p>Paso el primer término del segundo miembro al primer miembro:</p>
+    <blockquote>
+      <p><em><strong><em><strong><em><strong>&#961;</strong></em><sub>cpo</sub> . g . V</strong></em></strong></em><strong><em><strong> &mdash;</strong></em></strong><em><strong> <em><strong>&#961;</strong></em><sub>cpo</sub> . g . V</strong></em><strong><em> . (<strong>&#916x<sub>2</sub></strong> / </em></strong><em><strong>&#916x<sub>1</sub></strong></em><strong><em>)</em></strong> <em><strong>= <em><strong>&#961;</strong></em><sub>H20 </sub>. g&nbsp;. 0,75 V</strong></em></p>
+      </blockquote>
+    <p>El cociente <strong><em><strong>&#916x<sub>2</sub></strong> / </em></strong><em><strong>&#916x<sub>1</sub></strong></em> vale <em><strong>0,5</strong></em>, dejame que lo reemplace ahora para mayor claridad. Además la gravedad y el volumen del cuerpo aparecen en todos los términos de modo que los puedo suprimir.</p>
+    <blockquote>
+      <p><em><strong><em><strong><em><strong>&#961;</strong></em><sub>cpo</sub></strong></em></strong></em><strong><em><strong> &mdash;</strong></em></strong><em><strong> <em><strong>&#961;</strong></em><sub>cpo</sub> . 0,5 </strong></em><strong><em></em></strong> <em><strong>= <em><strong>&#961;</strong></em><sub>H20 </sub>. 0,75 </strong></em></p>
+      <p><em><strong><em><strong><em><strong>&#961;</strong></em><sub>cpo</sub></strong></em></strong></em><strong><em><strong> . ( 1 &mdash;</strong></em></strong><em><strong> 0,5) </strong></em><strong><em></em></strong> <em><strong>= <em><strong>&#961;</strong></em><sub>H20 </sub>. 0,75 </strong></em></p>
+      <p><em><strong><em><strong><em><strong>&#961;</strong></em><sub>cpo</sub></strong></em></strong></em><strong><em></em></strong> <em><strong>= <em><strong>&#961;</strong></em><sub>H20 </sub>. 0,75 </strong></em><strong><em>/ </em></strong><em><strong>0,5</strong></em></p>
+      <p><em><strong><em><strong><em><strong>&#961;</strong></em><sub>cpo</sub></strong></em></strong></em><strong><em></em></strong> <em><strong>= <em><strong>&#961;</strong></em><sub>H20 </sub>. 1,5</strong></em><em><strong></strong></em></p>
+      <p><em><strong><em><strong><em><strong>&#961;</strong></em><sub>cpo</sub></strong></em></strong></em><strong><em></em></strong> <em><strong>= 1.000 <span class="epigrafe">kg</span></strong></em><span class="epigrafe">/</span><em><strong><span class="epigrafe">m</span><em><strong><sup>3</sup></strong></em></strong></em><em><strong><em><em><strong><em><strong></strong></em></strong></em></em></strong></em><em><strong><em><em><strong><em><strong></strong></em></strong></em></em> </strong></em><em><strong>. 1,5</strong></em><em><strong></strong></em></p>
+    </blockquote></td>
+  <td class="bodytext">&nbsp;</td>
+  <td align="center" class="epigrafe"><p class="Estilo18">&nbsp;</p></td>
+  </tr>
+<tr>
+  <td height="51" align="center" class="bodytext"><table width="94%" border="0">
+    <tr>
+      <td width="50%" height="36" align="center" bgcolor="#CCCCCC"><p class="bodytext"><em><strong><em><strong>&#961;</strong></em><sub>cpo</sub></strong></em> <em><strong>=</strong></em> <em><strong>1.500 <span class="epigrafe">kg</span></strong></em><span class="epigrafe">/</span><em><strong><span class="epigrafe">m</span><em><strong><sup>3</sup></strong></em></strong></em><em><strong><em><em><strong><em><strong></strong></em></strong></em></em></strong></em><em><strong><em><em><strong><em><strong></strong></em></strong></em></em></strong></em></p></td>
+      <td width="50%" align="center" bgcolor="#FFFFFF" class="epigrafe">&nbsp;</td>
+    </tr>
+  </table></td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td align="left" class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+  <td width="86" rowspan="5" valign="bottom" class="bodytext"><strong><em><sub><img src="img_hstat/ricuti.jpg" alt="Flu&iacute;dos - Ricardo Cabrera" width="85" height="116"></sub></em></strong></td>
+</tr>
+
+
+<tr>
+  <td rowspan="2" bgcolor="#FFFFFF" class="bodytext"><p>No s&oacute;lo me contuve de decir cu&aacute;nto val&iacute;a el peso del cuerpo, tambi&eacute;n evit&eacute; calcular el volumen. &iquest;Hago bien o hago mal? &iquest;Qu&eacute; te parece, y por qu&eacute;?</p>
+    <p><strong>DESAF&Iacute;O</strong>: &iquest;Qu&eacute; ocurrir&iacute;a si el cuerpo tuviese una arista de <em><strong>0,58 <span class="epigrafe">m</span></strong></em>?</p></td>
+  <td height="18" class="bodytext">&nbsp;</td>
+  </tr>
+
+<tr>
+  <td height="23" class="bodytext">&nbsp;</td>
+  </tr>
+<tr>
+  <td bgcolor="#FFFFFF" class="bodytext"><img src="img_hstat/transparente.gif" width="507" height="8"></td>
+  <td class="bodytext">&nbsp;</td>
+  </tr>
+
+<tr> <td align="center" valign="middle" bgcolor="#CCCCCC" class="bodytext"><table width="92%" border="0">
+  <tr>
+    <td class="epigrafe">Algunos derechos reservados. 
+  Se permite su reproducci&oacute;n citando la fuente leg&iacute;tima, o sea, este sitio. &Uacute;ltima actualizaci&oacute;n 
+  dic-18. Buenos Aires, Argentina. </td>
+  </tr>
+</table>  </td>
+  <td class="bodytext" width="7">&nbsp;</td>
+  </tr> 
+<tr> <td height="18" class="bodytext">&nbsp;</td><td class="bodytext" width="7">&nbsp;</td>
+<td class="bodytext" width="86">&nbsp;</td>
+</tr> 
+</table></td></tr> </table>
+<img src="img_hstat/transparente.gif" width="10" height="20"></td></tr> 
+<tr> <td class="bodytext"><img src="img_hstat/transparente.gif" width="600" height="20"></td></tr> 
+</table>
+</body>
+</html>
