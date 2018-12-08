@@ -1,0 +1,358 @@
+<html>
+<head>
+<title>CINEMATICA, apuntes teoricos, MRUV, practica online de fisica</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="keywords" content="problemas resueltos, ejercicios resueltos, cbc, fisica, biofisica, cinematica, MRU, MRUV, tiro oblicuo, movimiento, nomesalen, no me salen, RICARDO CABRERA, ricuti" />
+<meta name="description" content="Ejercicios y problemas resueltos, y apuntes teóricos de Cinemática" />
+<link rel="stylesheet" href="win_ie.css">
+<style type="text/css">
+<!--
+.style1 {
+	color: #3F6386;
+	font-weight: bold;
+}
+.Estilo3 {color: #3F6386}
+.Estilo4 {color: #FF0000}
+.Estilo5 {color: #0000FF}
+.Estilo6 {font-size: 10px}
+.Estilo7 {color: #000000}
+.Estilo37 {font-weight: bold;
+	font-size: 24px;
+	font-family: "Times New Roman", Times, serif;
+}
+.Estilo55 {font-style: italic; font-size: 9px; font-family: "Times New Roman", Times, serif;}
+-->
+</style>
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000" alink="#000000" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<table align=center width="600" border="0" cellspacing="0" cellpadding="0"> 
+  <tr bgcolor="#000000" align="right"> 
+<td><img src="img_cin/nombre5.gif" width="369" height="71" /></td></tr> <tr bgcolor="#BB0000" valign="middle" align="left"> 
+  <td class="bodytext" height="20"><TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+    <TR ALIGN="center" CLASS="menuitem">
+      <TD WIDTH="52" height="19" CLASS="menuitem"><A HREF="../../index.html" CLASS="menuitem">&nbsp;<B>home</B>&nbsp;</A></TD>
+      <TD WIDTH="7" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+      <TD width="118" CLASS="menuitem"><strong><a href="index_cin.html" class="menuitem">m&aacute;s de cinem&aacute;tica</a> </strong></TD>
+      <TD width="15" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+      <TD width="124" CLASS="menuitem"><strong><a href="../../intro_NMS.html" class="menuitem">otros temas de F&iacute;sica</a></strong></TD>
+      <TD width="13" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+      <TD width="169" CLASS="menuitem"><strong><a href="../../lista_ciruela.html" class="menuitem">lecciones del maestro Ciruela </a></strong></TD>
+      <TD width="10" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+      <TD width="59" CLASS="menuitem"><strong><a href="../../lista_tonterias.html" class="menuitem">tonter&iacute;as</a></strong></TD>
+      <TD WIDTH="5" CLASS="menuitem"><a href="../energia/index_energia.html" class="menuitem"></a><FONT COLOR="#000000">|</FONT></TD>
+      <TD WIDTH="30" CLASS="menuitem">&nbsp;<B><FONT FACE="Arial, Helvetica, sans-serif"><A HREF="mailto: ricuti@gmail.com" CLASS="menuitem">@</A></FONT><A HREF="../../index.html" CLASS="menuitem"></A></B>&nbsp;</TD>
+    </TR>
+  </TABLE></td>
+</tr> <tr> <td class="bodytext" height="9"><img src="img_cin/transparente.gif" width="600" height="9" /></td>
+</tr> 
+<tr align="center"> <td height="2390"> <table width="600" border="0" cellspacing="0" cellpadding="0"> 
+<tr class="bodytext"> <td colspan="2" valign="top" height="2089"> <img src="img_cin/transparente.gif" width="1" height="1" /></td>
+<td valign="top" width="596" height="2089"> 
+<table width="593" border="0" cellspacing="0" cellpadding="0"> 
+  <tr> 
+  <td height="45" colspan="2" class="bodytext"><STRONG class="bodytext">NO ME SALEN </STRONG><span class="Estilo3"><BR />
+      </span><span class="titulograndegris"><STRONG>APUNTES TEORICOS DE F&Iacute;SICA Y BIOF&Iacute;SICA DEL CBC</STRONG></span><span class="Estilo3"><STRONG><BR />
+      </STRONG><br />
+      </span><br /> </td>
+  <td class="bodytext" height="45" width="10">&nbsp;</td>
+  <td width="83" colspan="2" rowspan="2" valign="top" class="bodytext"> 
+<p><img src="img_cin/cap1.jpg" alt="manolito" width="85" height="124" /></p></td></tr>
+  <tr>
+    <td height="456" colspan="2" class="bodytext"><p class="bodytext"><strong>Deducción de las ecuaciones horarias de posición y velocidad del MRUV</strong></p>
+      <p>Como te mostré en el apunte anterior, las ecuaciones horarias del <strong>MRUV</strong> son:</p>
+      <blockquote>
+        <p><em><strong><strong><span class="Estilo4">x</span> = <span class="Estilo5">x<sub>o</sub></span> + <span class="Estilo5">v<sub>o</sub></span> ( <span class="Estilo4">t</span> &ndash;<span class="Estilo5"> t<sub>o</sub></span> )</strong> + &frac12; <span class="Estilo5">a</span> . <strong>( <span class="Estilo4">t</span> &ndash; <span class="Estilo5">t<sub>o</sub></span> )</strong>&sup2;</strong></em></p>
+        <p><em><strong><span class="Estilo4">v</span> = <span class="Estilo5">v<SUB>o</SUB></span> + <span class="Estilo5">a</span> ( <span class="Estilo4">t</span> &ndash; <span class="Estilo5">t<SUB>o</SUB></span> )</strong></em></p>
+        </blockquote>
+      <p class="epigrafe">&nbsp;&nbsp;&nbsp; (en rojo las variables en azul las constantes; que distingas eso es lo fundamental)</p>
+      <p>En este apunte te voy a mostrar por dos métodos diferentes de dónde surgen esas expresiones. En ambas tenemos que recordar que la velocidad es la derivada de la función posición y la aceleración es la derivada de la función velocidad. </p>
+      <p>Y como en ambos casos vamos a partir de la característica fundamental del <strong>MRUV</strong>, o sea, que la aceleración es constante,</p>
+      <blockquote>
+        <p><strong><em>a = cte</em></strong></p>
+      </blockquote>
+      <p>para llegar de ahí a la función velocidad y de la función velocidad a la de posición, tenemos que recorrer el camino inverso de la derivación, o sea, la integración.</p>
+      <hr align="LEFT" style="color:blue" width="100%" noshade>
+      <p><strong>Método gráfico</strong></p>
+      <p>Este camino es muy sencillo. Fue justamente Newton quien se dio cuenta que integrar una función era lo mismo que calcular <em>áreas encerradas bajo la curva</em> de esa función.</p></td>
+    <td class="bodytext" height="456" width="10">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="109" colspan="2" align="left" valign="middle" class="bodytext"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="59%" height="159" class="bodytext"><p>De modo que para calcular un cambio de velocidad,  (<strong><em><strong><em> v <strong><strong>&ndash;</strong></strong> v<strong><em><strong><em><strong><em><strong><em><strong><em><strong><em><strong><strong><em><strong><em><strong><em><sub>o </sub></em></strong></em></strong></em></strong></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong>), lo podemos hacer calculando el área encerrada bajo la curva de la aceleración entre los instantes<em><strong> t</strong></em> y <em><strong>t<sub>o</sub></strong></em><strong><em><em><em><em><em><em><em><em><em><em><em><sub></sub></em></em></em></em></em></em></em></em></em></em></em></strong>, donde <em><strong>t<sub>o</sub></strong></em> es un instante de referencia y<em><strong> t</strong></em> es un instante cualquiera (o sea, la variable).</p>
+          <p>Como se trata de un rectángulo hallar el área es una pavada: base por altura. La altura vale <em><strong>a</strong></em> y la base <nobr>( <strong><em><strong><em>t <strong><strong>&ndash;</strong></strong> t<strong><em><strong><em><strong><em><strong><em><strong><em><strong><em><strong><strong><em><strong><em><strong><em><sub>o </sub></em></strong></em></strong></em></strong></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong>)</nobr>. Entonces: </p></td>
+        <td width="41%" align="right" class="bodytext"><p><img src="img_cin/gr_cMRUV2_1.gif" width="189" height="94" /></p></td>
+      </tr>
+    </table></td>
+    <td class="bodytext" height="109">&nbsp;</td>
+    <td colspan="2" valign="top" class="bodytext">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="58" colspan="2" class="bodytext"><blockquote>
+      <p><strong><em><strong><em>v <strong><strong>&ndash;</strong></strong> v<strong><em><strong><em><strong><em><strong><em><strong><em><strong><em><strong><strong><em><strong><em><strong><em><sub>o</sub></em></strong></em></strong></em></strong></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong> <strong>= <em><strong>a</strong></em> (<strong><em><strong><em>t <strong><strong>&ndash;</strong></strong> t<strong><em><strong><em><strong><em><strong><em><strong><em><strong><em><strong><strong><em><strong><em><strong><em><sub>o </sub></em></strong></em></strong></em></strong></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong>)</strong></p>
+    </blockquote>
+      <p>de ahí despejamos la variable <em><strong>v</strong></em> y nos queda:</p></td>
+    <td class="bodytext" height="58">&nbsp;</td>
+    <td colspan="2" valign="top" class="bodytext">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="72" colspan="2" class="bodytext"><table width="517" height="43" border="0">
+      <tr>
+        <td width="31" height="39" valign="middle">&nbsp;</td>
+        <td width="381" align="center" bordercolor="#FFFFFF" bgcolor="#CCCCCC" class="bodytext"><strong><em><strong><em>v</em></strong></em></strong> <strong>= <em><strong><em><strong><em>v<strong><em><strong><em><strong><em><strong><em><strong><em><strong><em><strong><strong><em><strong><em><strong><em><sub>o</sub></em></strong></em></strong></em></strong></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em> + a</strong></em> ( <strong><em><strong><em>t <strong><strong>&ndash;</strong></strong> t<strong><em><strong><em><strong><em><strong><em><strong><em><strong><em><strong><strong><em><strong><em><strong><em><sub>o </sub></em></strong></em></strong></em></strong></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong>)</strong></td>
+        <td width="91" align="center" class="epigrafe">&nbsp;</td>
+      </tr>
+    </table></td>
+    <td class="bodytext" height="72">&nbsp;</td>
+    <td colspan="2" valign="top" class="bodytext">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="46" colspan="2" class="bodytext"><p>Que es lo que esperábamos. Como ves la función velocidad resulta lineal y su gráfica será una recta oblicua:</p></td>
+    <td class="bodytext" height="46">&nbsp;</td>
+    <td colspan="2" valign="top" class="bodytext">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="187" colspan="2" class="bodytext"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="60%" height="159" class="bodytext"><p>Y ahora, nuevamente, para conocer un incremento de posición (un desplazamiento),<em><strong> ( x &ndash; x<sub>o </sub>)</strong></em>, podremos calcular el área encerrada bajo la curva <em><strong>v</strong></em>, entre dos instantes -como antes- <em><strong> t</strong></em> y <em><strong>t<sub>o</sub></strong></em>.</p>
+          <p>Se trata de un área banstante simple, un trapecio, que se calcula como altura media por base. O si vos querés (para hacertela más sencilla lo podemos dividir en dos áreas (mirá la línea punteada) un rectángulo abajo (base por altura) y un triángulo arriba (base por altura sobre 2).</p></td>
+        <td width="40%" align="right" class="bodytext"><p><img src="img_cin/gr_cMRUV2_2.gif" width="189" height="102" /></p>          </td>
+      </tr>
+    </table></td>
+    <td class="bodytext" height="187" width="10">&nbsp;</td>
+    <td colspan="2" valign="top" class="bodytext">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="212" colspan="2" class="bodytext"><blockquote>
+      <p><strong><em><strong><em>x <strong><strong>&ndash;</strong></strong> x<strong><em><strong><em><strong><em><strong><em><strong><em><strong><em><strong><strong><em><strong><em><strong><em><sub>o</sub></em></strong></em></strong></em></strong></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong> <strong>=</strong> (área del rectángulo) + (área del triángulo)</p>
+      <p><strong><em><strong><em>x <strong><strong>&ndash;</strong></strong> x<strong><em><strong><em><strong><em><strong><em><strong><em><strong><em><strong><strong><em><strong><em><strong><em><sub>o</sub></em></strong></em></strong></em></strong></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong> <strong>=</strong> <strong><em><strong><em><strong><em>v<strong><em><strong><em><strong><em><strong><em><strong><em><strong><em><strong><strong><em><strong><em><strong><em><sub>o</sub></em></strong></em></strong></em></strong></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong> <strong>( <strong><em><strong><em>t <strong><strong>&ndash;</strong></strong> t<strong><em><strong><em><strong><em><strong><em><strong><em><strong><em><strong><strong><em><strong><em><strong><em><sub>o </sub></em></strong></em></strong></em></strong></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong>)</strong> + <em><strong>&frac12; </strong></em><em><strong>( <strong></strong></strong></em><strong><em><strong><em>v <strong><strong>&ndash;</strong></strong> v<strong><em><strong><em><strong><em><strong><em><strong><em><strong><em><strong><strong><em><strong><em><strong><em><sub>o </sub></em></strong></em></strong></em></strong></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong><em><strong>)</strong></em><strong></strong><strong> ( <strong><em><strong><em>t <strong><strong>&ndash;</strong></strong> t<strong><em><strong><em><strong><em><strong><em><strong><em><strong><em><strong><strong><em><strong><em><strong><em><sub>o </sub></em></strong></em></strong></em></strong></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong>)</strong></p>
+      </blockquote>
+      <p>Como recordás del desarrollo anterior,</p>
+      <blockquote>
+        <p><strong><em><strong><em>v <strong><strong>&ndash;</strong></strong> v<strong><em><strong><em><strong><em><strong><em><strong><em><strong><em><strong><strong><em><strong><em><strong><em><sub>o</sub></em></strong></em></strong></em></strong></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong> <strong>= <em><strong>a</strong></em> ( <strong><em><strong><em>t <strong><strong>&ndash;</strong></strong> t<strong><em><strong><em><strong><em><strong><em><strong><em><strong><em><strong><strong><em><strong><em><strong><em><sub>o </sub></em></strong></em></strong></em></strong></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong>)</strong></p>
+        </blockquote>
+      <p>Entonces la ecuación la podemos escribir así:</p>
+      <blockquote>
+        <p><strong><em><strong><em>x <strong><strong>&ndash;</strong></strong> x<strong><em><strong><em><strong><em><strong><em><strong><em><strong><em><strong><strong><em><strong><em><strong><em><sub>o</sub></em></strong></em></strong></em></strong></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong> <strong>=</strong> <strong><em><strong><em><strong><em>v<strong><em><strong><em><strong><em><strong><em><strong><em><strong><em><strong><strong><em><strong><em><strong><em><sub>o</sub></em></strong></em></strong></em></strong></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong> <strong>( <strong><em><strong><em>t <strong><strong>&ndash;</strong></strong> t<strong><em><strong><em><strong><em><strong><em><strong><em><strong><em><strong><strong><em><strong><em><strong><em><sub>o </sub></em></strong></em></strong></em></strong></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong>)</strong> + <em><strong>&frac12; </strong></em><strong><em><strong>a</strong></em> ( <strong><em><strong><em>t <strong><strong>&ndash;</strong></strong> t<strong><em><strong><em><strong><em><strong><em><strong><em><strong><em><strong><strong><em><strong><em><strong><em><sub>o </sub></em></strong></em></strong></em></strong></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong>) <em>( </em><strong><em><strong><em>t <strong><strong>&ndash;</strong></strong> t<strong><em><strong><em><strong><em><strong><em><strong><em><strong><em><strong><strong><em><strong><em><strong><em><sub>o </sub></em></strong></em></strong></em></strong></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong><em>)</em></strong></p>
+        </blockquote>
+      <p>Con lo que arribamos a la ecuación que ya conocías:</p>
+      </td>
+    <td class="bodytext" height="212" width="10">&nbsp;</td>
+    <td colspan="2" align="center" valign="middle" class="epigrafe Estilo4"><p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p></td>
+  </tr>
+  <tr>
+    <td height="71" colspan="2" class="bodytext"><table width="517" height="43" border="0">
+      <tr>
+        <td width="31" height="39" valign="middle">&nbsp;</td>
+        <td width="381" align="center" bordercolor="#FFFFFF" bgcolor="#CCCCCC" class="bodytext"><strong><em><strong><strong><em><strong><em><strong><em>x</em></strong> =</em> <strong><em> <strong><strong><em><strong><em><strong><em> x<strong><em><strong><em><strong><em><strong><em><strong><em><strong><em><strong><strong><em><strong><em><strong><em><sub>o</sub></em></strong></em></strong></em></strong></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></strong> + v<strong><em><strong><em><strong><em><strong><em><strong><em><strong><em><strong><strong><em><strong><em><strong><em><sub>o </sub></em></strong></em></strong></em></strong></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong>( t <strong><strong>&ndash;</strong></strong> t<strong><em><strong><em><strong><em><strong><em><strong><em><strong><em><strong><strong><em><strong><em><strong><em><sub>o</sub></em></strong></em></strong></em></strong></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong> ) </em></strong></strong></em></strong></strong></em></strong><strong><em>+ <strong><em><strong><strong><em><strong>&frac12;</strong></em></strong></strong> a</em></strong><strong><em> ( t <strong><strong>&ndash;</strong></strong> t<strong><em><strong><em><strong><em><strong><em><strong><em><strong><em><strong><strong><em><strong><em><strong><em><sub>o </sub></em></strong></em></strong></em></strong></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong>)</em></strong><strong><em><strong>&sup2;</strong></em></strong></em></strong></td>
+        <td width="91" align="center" class="epigrafe">&nbsp;</td>
+      </tr>
+    </table></td>
+    <td class="bodytext" height="71">&nbsp;</td>
+    <td colspan="2" align="center" valign="middle" class="epigrafe">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="18" colspan="2" class="bodytext">&nbsp;</td>
+    <td class="bodytext" height="18">&nbsp;</td>
+    <td colspan="2" align="center" valign="middle" class="epigrafe">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="18" colspan="2" class="bodytext"><hr align="LEFT" style="color:blue" width="100%" noshade></td>
+    <td class="bodytext" height="18">&nbsp;</td>
+    <td colspan="2" align="center" valign="middle" class="epigrafe">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="80" colspan="2" class="bodytext"><p><strong>Método analítico</strong></p>
+      <p>Lo siguiente es lo mismo, pero en lugar de calcular áreas vamos a integrar analíticamente. Claro, tenés que tener ya un entrenamiento previo en análisis matemático (derivación e integración). Sólo lo básico (álgebra de integrales, reglas de integración de función potencial, integral definida y regla de Barrow).</p></td>
+    <td class="bodytext" height="80">&nbsp;</td>
+    <td colspan="2" align="center" valign="top" class="epigrafe"><p><img src="img_cin/transparente.gif" width="11" height="29" /></p>
+      <p>&nbsp;</p></td>
+  </tr>
+  <tr>
+    <td height="150" colspan="2" class="bodytext"><table width="515" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="61%" height="125" align="left" valign="middle" class="bodytext">Consiste en realizar lo mismo que antes, pero en lugar de calcular las áreas de un plumazo, las vamos a dividir en infinitas columnas de base <em><strong>dt</strong></em> y después las sumamos todas sin perdernos ninguna&nbsp;(eso se llama suma integral o simplemente integral).</td>
+        <td width="39%" align="right" class="bodytext"><p><img src="img_cin/gr_cMRUV2_3.gif" width="189" height="97" /></p></td>
+      </tr>
+    </table></td>
+    <td class="bodytext" height="150" width="10">&nbsp;</td>
+    <td colspan="2" align="center" valign="middle" class="epigrafe">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="61" colspan="2" class="bodytext"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="13" rowspan="3" align="center" class="bodytext" >&nbsp;</td>
+        <td width="81" rowspan="3" align="right" class="bodytext" ><strong><em>&nbsp; <strong><em>v <strong><strong>&ndash;</strong></strong> v<strong><em><strong><em><strong><em><strong><em><strong><em><strong><em><strong><strong><em><strong><em><strong><em><sub>o </sub></em></strong></em></strong></em></strong></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong>= </em></strong></td>
+        <td width="25" rowspan="3" align="right" class="bodytext" ><strong><span class="Estilo37">&#8747</span></strong></td>
+        <td width="10" align="center" valign="bottom" class="bodytext" ><strong class="epigrafe"><em>t</em></strong></td>
+        <td width="126" rowspan="3" align="center" class="bodytext" ><em><strong><em>a</em> dt&nbsp;&nbsp; = <em><strong><em>&nbsp; a</em></strong> t + C</em></strong></em></td>
+        <td width="10" rowspan="3" align="center" ><TABLE width="4" height="26" border="0" cellpadding="0" cellspacing="0">
+          <TR>
+            <TD width="10" height="25" bgcolor="#000000"></TD>
+            <TD width="10"><BR></TD>
+          </TR>
+        </TABLE></td>
+        <td width="10" height="8" align="center" valign="bottom" class="Estilo55" style="line-height: 10%;" font><strong class="epigrafe"><em>t</em></strong></td>
+        <td width="242" rowspan="3" align="left" valign="middle" class="bodytext"><em><strong>&nbsp;= <em>&nbsp; a</em></strong> <strong><em>(t <strong><strong>&ndash;</strong></strong> t<strong><em><strong><em><strong><em><strong><em><strong><em><strong><em><strong><strong><em><strong><em><strong><em><sub>o</sub></em></strong></em></strong></em></strong></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong>)</em></strong></em></td>
+      </tr>
+      <tr>
+        <td width="10" align="center" class="bodytext" >&nbsp;</td>
+        <td height="14" align="center" valign="middle" class="bodytext">&nbsp;</td>
+      </tr>
+      <tr>
+        <td width="10" align="center" valign="top" class="bodytext" ><strong class="epigrafe"><em>t<strong><em><strong><em><strong><em><strong><em><strong><em><strong><em><strong><strong><em><strong><em><strong><em><sub>o</sub></em></strong></em></strong></em></strong></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></td>
+        <td height="14" align="center" valign="top" class="bodytext" style="line-height: 10%; " font><strong class="epigrafe"><em>t<strong><em><strong><em><strong><em><strong><em><strong><em><strong><em><strong><strong><em><strong><em><strong><em><sub>o</sub></em></strong></em></strong></em></strong></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></td>
+      </tr>
+    </table></td>
+    <td class="bodytext" height="61" width="10">&nbsp;</td>
+    <td colspan="2" valign="top" class="bodytext">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="25" colspan="2" class="bodytext">Ahora pasamos sumando <strong><em><strong><em>v<strong><em><strong><em><strong><em><strong><em><strong><em><strong><em><strong><strong><em><strong><em><strong><em><sub>o</sub></em></strong></em></strong></em></strong></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong>, y abracadabra...</td>
+    <td class="bodytext" height="25">&nbsp;</td>
+    <td colspan="2" align="center" valign="middle" class="bodytext">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="72" colspan="2" class="bodytext"><table width="517" height="43" border="0">
+      <tr>
+        <td width="31" height="39" valign="middle">&nbsp;</td>
+        <td width="381" align="center" bordercolor="#FFFFFF" bgcolor="#CCCCCC" class="bodytext"><strong><em><strong><em>v</em></strong></em></strong> <strong>= <em><strong><em><strong><em>v<strong><em><strong><em><strong><em><strong><em><strong><em><strong><em><strong><strong><em><strong><em><strong><em><sub>o</sub></em></strong></em></strong></em></strong></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em> + a</strong></em> ( <strong><em><strong><em>t <strong><strong>&ndash;</strong></strong> t<strong><em><strong><em><strong><em><strong><em><strong><em><strong><em><strong><strong><em><strong><em><strong><em><sub>o </sub></em></strong></em></strong></em></strong></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong>)</strong></td>
+        <td width="91" align="center" class="epigrafe">&nbsp;</td>
+      </tr>
+    </table></td>
+    <td class="bodytext" height="72">&nbsp;</td>
+    <td colspan="2" align="center" valign="middle" class="bodytext">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="28" colspan="2" class="bodytext"><p>Para hallar la función posición vamos a hacer lo mismo, es decir integrar la función velocidad:</p></td>
+    <td class="bodytext" height="28" width="10">&nbsp;</td>
+    <td colspan="2" align="center" valign="middle" class="bodytext">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="56" colspan="2" class="bodytext"><table width="515" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="61%" height="125" align="left" valign="middle" class="bodytext">Cada columnita es apenas un rectángulo muy finito, pero un rectángulo al fin, ya que siendo la base tan estrecha (un infinitésimo, una nada) los lados verticales tienen la misma altura.</td>
+        <td width="39%" align="right" class="bodytext"><p><img src="img_cin/gr_cMRUV2_4.gif" width="189" height="107" /></p></td>
+      </tr>
+    </table></td>
+    <td class="bodytext">&nbsp;</td>
+    <td colspan="2" align="center" valign="middle" class="epigrafe">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="56" colspan="2" class="bodytext"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="6" rowspan="3" align="center" class="bodytext" >&nbsp;</td>
+        <td width="84" rowspan="3" align="right" class="bodytext" ><strong><em>&nbsp; <strong><em>x <strong><strong>&ndash;</strong></strong> x<strong><em><strong><em><strong><em><strong><em><strong><em><strong><em><strong><strong><em><strong><em><strong><em><sub>o </sub></em></strong></em></strong></em></strong></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong>= </em></strong></td>
+        <td width="25" rowspan="3" align="right" class="bodytext" ><strong><span class="Estilo37">&#8747</span></strong></td>
+        <td width="10" align="center" valign="bottom" class="bodytext" ><strong class="epigrafe"><em>t</em></strong></td>
+        <td width="356" rowspan="3" align="center" class="bodytext" ><em><strong><strong><em> <strong><em>(v<strong><em><strong><em><strong><em><strong><em><strong><em><strong><em><strong><strong><em><strong><em><strong><em><sub>o</sub></em></strong></em></strong></em></strong></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong> + <strong><em>a </em></strong></em></strong></strong><em> ( </em><strong><strong><em><strong><em>t </em></strong></em></strong><em><strong><em><strong><strong>&ndash;</strong></strong> t<strong><em><strong><em><strong><em><strong><em><strong><em><strong><em><strong><strong><em><strong><em><strong><em><sub>o</sub></em></strong></em></strong></em></strong></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong> )<strong>) dt&nbsp;&nbsp; = <em><strong><em>&nbsp; v<strong><em><strong><em><strong><em><strong><em><strong><em><strong><em><strong><strong><em><strong><em><strong><em><sub>o</sub></em></strong></em></strong></em></strong></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong> t + <strong><em><strong><strong><em><strong>&frac12;</strong></em></strong></strong> a t</em>&sup2;</strong> <strong><em><strong><strong>&ndash;</strong></strong></em></strong> <strong><em><strong><em>a<strong><em><strong><em><strong><em><strong><em><strong><em><strong><em><strong><strong><em><strong><em><strong><em> <strong><em><strong><em>t<strong><em><strong><em><strong><em><strong><em><strong><em><strong><em><strong><strong><em><strong><em><strong><em><sub>o</sub></em></strong></em></strong></em></strong></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong><strong><em><strong><em><strong><em><strong><em><strong><em><strong><em><strong><em><strong><em><strong><em><strong><strong><em><strong><em><strong><em><strong><em><strong><em> t </em></strong></em></strong></em></strong></em></strong></em></strong></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong>+ C</em></strong></em></td>
+        <td width="10" rowspan="3" align="center" ><TABLE width="4" height="26" border="0" cellpadding="0" cellspacing="0">
+          <TR>
+            <TD width="10" height="25" bgcolor="#000000"></TD>
+            <TD width="10"><BR></TD>
+          </TR>
+        </TABLE></td>
+        <td width="10" height="8" align="center" valign="bottom" class="Estilo55" style="line-height: 10%;" font><strong class="epigrafe"><em>t</em></strong></td>
+        <td width="22" rowspan="3" align="left" valign="middle" class="bodytext"><em><strong>&nbsp;<em>&nbsp;</em></strong></em></td>
+      </tr>
+      <tr>
+        <td width="10" align="center" class="bodytext" >&nbsp;</td>
+        <td height="14" align="center" valign="middle" class="bodytext">&nbsp;</td>
+      </tr>
+      <tr>
+        <td width="10" align="center" valign="top" class="bodytext" ><strong class="epigrafe"><em>t<strong><em><strong><em><strong><em><strong><em><strong><em><strong><em><strong><strong><em><strong><em><strong><em><sub>o</sub></em></strong></em></strong></em></strong></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></td>
+        <td height="14" align="center" valign="top" class="bodytext" style="line-height: 10%; " font><strong class="epigrafe"><em>t<strong><em><strong><em><strong><em><strong><em><strong><em><strong><em><strong><strong><em><strong><em><strong><em><sub>o</sub></em></strong></em></strong></em></strong></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></td>
+      </tr>
+    </table></td>
+    <td width="10" class="bodytext">&nbsp;</td>
+    <td width="83" colspan="2" align="center" valign="middle" class="epigrafe">&nbsp;</td>
+  </tr>
+   
+  <tr>
+    <td class="bodytext" colspan="2" height="206"><blockquote>
+      <p><strong><em><strong><em>x <strong><strong>&ndash;</strong></strong> x<strong><em><strong><em><strong><em><strong><em><strong><em><strong><em><strong><strong><em><strong><em><strong><em><sub>o </sub></em></strong></em></strong></em></strong></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong>=</em></strong> <em><strong><em><strong><em> v<strong><em><strong><em><strong><em><strong><em><strong><em><strong><em><strong><strong><em><strong><em><strong><em><sub>o</sub></em></strong></em></strong></em></strong></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong> t<strong><em><strong><em><strong><em><strong><em><strong><em><strong><em><strong><em><strong><em><strong><em><strong><strong><em><strong><em><strong><em><sub>o</sub></em></strong></em></strong></em></strong></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong> + <strong><em><strong><strong><em><strong>&frac12;</strong></em></strong></strong> a t<strong><em><strong><em><strong><em><strong><em><strong><em><strong><em><strong><em><strong><em><strong><em><strong><strong><em><strong><em><strong><em><sub>o</sub></em></strong></em></strong></em></strong></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em>&sup2;</strong> <strong><em><strong><strong>&ndash;</strong></strong></em></strong> <strong><em><strong><em>a<strong><em><strong><em><strong><em><strong><em><strong><em><strong><em><strong><strong><em><strong><em><strong><em> <strong><em><strong><em>t<strong><em><strong><em><strong><em><strong><em><strong><em><strong><em><strong><strong><em><strong><em><strong><em><sub>o</sub><strong><em><strong>&sup2;</strong></em></strong></em></strong></em></strong></em></strong></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong> + C </em></strong></em><em><strong><em><strong><em><strong><strong>&ndash;</strong></strong></em></strong></em></strong></em><em><strong><em><strong><em> v<strong><em><strong><em><strong><em><strong><em><strong><em><strong><em><strong><strong><em><strong><em><strong><em><sub>o</sub></em></strong></em></strong></em></strong></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong> t <strong><em><strong><em><strong><strong>&ndash;</strong></strong></em></strong></em></strong> <strong><em><strong><strong><em><strong>&frac12;</strong></em></strong></strong> a t</em>&sup2;</strong> <strong><em><strong><strong>+</strong></strong></em></strong> <strong><em><strong><em>a<strong><em><strong><em><strong><em><strong><em><strong><em><strong><em><strong><strong><em><strong><em><strong><em> <strong><em><strong><em>t<strong><em><strong><em><strong><em><strong><em><strong><em><strong><em><strong><strong><em><strong><em><strong><em><sub>o</sub></em></strong></em></strong></em></strong></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong><strong><em><strong><em><strong><em><strong><em><strong><em><strong><em><strong><em><strong><em><strong><em><strong><strong><em><strong><em><strong><em><strong><em><strong><em> t </em></strong></em></strong></em></strong></em></strong></em></strong></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong><strong><em><strong><em><strong><strong>&ndash;</strong></strong></em></strong></em></strong> C</em></strong></em></p>
+      <p><strong><em><strong><em>x <strong><strong>&ndash;</strong></strong> x<strong><em><strong><em><strong><em><strong><em><strong><em><strong><em><strong><strong><em><strong><em><strong><em><sub>o </sub></em></strong></em></strong></em></strong></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong>=</em></strong> <em><strong><em><strong><em> v<strong><em><strong><em><strong><em><strong><em><strong><em><strong><em><strong><strong><em><strong><em><strong><em><sub>o</sub></em></strong></em></strong></em></strong></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong> t<strong><em><strong><em><strong><em><strong><em><strong><em><strong><em><strong><em><strong><em><strong><em><strong><strong><em><strong><em><strong><em><sub>o</sub></em></strong></em></strong></em></strong></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong> + <strong><em><strong><strong><em><strong>&frac12;</strong></em></strong></strong> a t<strong><em><strong><em><strong><em><strong><em><strong><em><strong><em><strong><em><strong><em><strong><em><strong><strong><em><strong><em><strong><em><sub>o</sub></em></strong></em></strong></em></strong></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em>&sup2;</strong> <strong><em><strong><strong>&ndash;</strong></strong></em></strong> <strong><em><strong><em>a<strong><em><strong><em><strong><em><strong><em><strong><em><strong><em><strong><strong><em><strong><em><strong><em> <strong><em><strong><em>t<strong><em><strong><em><strong><em><strong><em><strong><em><strong><em><strong><strong><em><strong><em><strong><em><sub>o</sub><strong><em><strong>&sup2; </strong></em></strong></em></strong></em></strong></em></strong></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em><em><strong><em><strong><em><strong><strong>&ndash;</strong></strong></em></strong></em></strong></em><em><strong><em><strong><em> v<strong><em><strong><em><strong><em><strong><em><strong><em><strong><em><strong><strong><em><strong><em><strong><em><sub>o</sub></em></strong></em></strong></em></strong></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong> t <strong><em><strong><em><strong><strong>&ndash;</strong></strong></em></strong></em></strong> <strong><em><strong><strong><em><strong>&frac12;</strong></em></strong></strong> a t</em>&sup2;</strong> <strong><em><strong><strong>+</strong></strong></em></strong> <strong><em><strong><em>a<strong><em><strong><em><strong><em><strong><em><strong><em><strong><em><strong><strong><em><strong><em><strong><em> <strong><em><strong><em>t<strong><em><strong><em><strong><em><strong><em><strong><em><strong><em><strong><strong><em><strong><em><strong><em><sub>o</sub></em></strong></em></strong></em></strong></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong><strong><em><strong><em><strong><em><strong><em><strong><em><strong><em><strong><em><strong><em><strong><em><strong><strong><em><strong><em><strong><em><strong><em><strong><em> t </em></strong></em></strong></em></strong></em></strong></em></strong></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></p>
+      <p><strong><em><strong><em>x <strong><strong>&ndash;</strong></strong> x<strong><em><strong><em><strong><em><strong><em><strong><em><strong><em><strong><strong><em><strong><em><strong><em><sub>o </sub></em></strong></em></strong></em></strong></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong>=</em></strong> <em><strong><em><strong><em> v<strong><em><strong><em><strong><em><strong><em><strong><em><strong><em><strong><strong><em><strong><em><strong><em><sub>o</sub></em></strong></em></strong></em></strong></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong><strong><strong><em><strong><strong><em> ( t <strong><strong>&ndash;</strong></strong> t<strong><em><strong><em><strong><em><strong><em><strong><em><strong><em><strong><strong><em><strong><em><strong><em><sub>o </sub></em></strong></em></strong></em></strong></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong>)</em></strong></strong></em></strong></strong> + <strong><em>a </em></strong><strong><em><strong><em><strong><em><strong><em><strong><em><strong><em><strong><em><strong><em><strong><strong><em><strong><em><strong><em> <strong><em><strong><em>( <strong><em><strong><em><strong><strong><em><strong>&frac12; </strong></em></strong></strong></em></strong></em></strong>t<strong><em><strong><em><strong><em><strong><em><strong><em><strong><em><strong><strong><em><strong><em><strong><em><strong><em><strong>&sup2;</strong></em></strong></em></strong></em></strong></em></strong></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em><em><strong><em><strong><em><strong><em><strong><strong> &ndash;</strong></strong></em></strong></em></strong></em></strong></em><em><strong><em><strong><em><strong><em><strong><em><strong><em><strong><em><strong><em><strong><em><strong><em><strong><strong><em><strong><em><strong><em><sub>&nbsp; </sub><strong><em><strong><em>t<strong><em><strong><em><strong><em><strong><em><strong><em><strong><em><strong><strong><em><strong><em><strong><em><sub>o</sub></em></strong></em></strong></em></strong></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong><strong><em><strong><em><strong><em><strong><em><strong><em><strong><em><strong><em><strong><em><strong><em><strong><strong><em><strong><em><strong><em><strong><em><strong><em> t</em></strong></em></strong></em></strong></em></strong></em></strong></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em>&nbsp; + <em><strong><em><strong><em><strong><em><strong><em><strong><em><strong><em><strong><em><strong><em><strong><em><strong><strong><em><strong><em><strong><em><strong><em><strong><em><strong><em><strong><em><strong><strong><em><strong>&frac12;</strong></em></strong></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em> <em><strong><em><strong><em>t<strong><em><strong><em><strong><em><strong><em><strong><em><strong><em><strong><em><strong><em><strong><em><strong><strong><em><strong><em><strong><em><strong><em><strong><em><strong><em><strong><em><strong><em><strong><em><strong><em><strong><em><strong><strong><em><strong><em><strong><em><sub>o</sub></em></strong></em></strong></em></strong></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em>&sup2;</strong></em></strong></em> <em><strong>)</strong></em><strong></strong></p>
+      <p><strong><em><strong><em>x <strong><strong>&ndash;</strong></strong> x<strong><em><strong><em><strong><em><strong><em><strong><em><strong><em><strong><strong><em><strong><em><strong><em><sub>o </sub></em></strong></em></strong></em></strong></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong>=</em></strong> <em><strong><em><strong><em> v<strong><em><strong><em><strong><em><strong><em><strong><em><strong><em><strong><strong><em><strong><em><strong><em><sub>o</sub></em></strong></em></strong></em></strong></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong><strong><strong><em><strong><strong><em> ( t <strong><strong>&ndash;</strong></strong> t<strong><em><strong><em><strong><em><strong><em><strong><em><strong><em><strong><strong><em><strong><em><strong><em><sub>o</sub></em></strong></em></strong></em></strong></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong> )</em></strong></strong></em></strong></strong> + <strong><em><strong><em><strong><em><strong><em><strong><em><strong><em><strong><em><strong><em><strong><em><strong><em><strong><strong><em><strong><em><strong><em><strong><em><strong><em> <strong><em><strong><em><strong><strong><em><strong>&frac12;</strong></em></strong></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong> a </em></strong><strong><em><strong><em><strong><em><strong><em><strong><em><strong><em><strong><em><strong><em><strong><strong><em><strong><em><strong><em> <strong><em><strong><em>(<strong><em><strong><em><strong><strong><em><strong> </strong></em></strong></strong></em></strong></em></strong>t<strong><em><strong><em><strong><em><strong><em><strong><em><strong><em><strong><strong><em><strong><em><strong><em><strong><em><strong>&sup2;</strong></em></strong></em></strong></em></strong></em></strong></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em><em><strong><em><strong><em><strong><em><strong><strong> &ndash;</strong></strong></em></strong></em></strong></em></strong></em><em><strong><em><strong><em><strong><em><strong><em><strong><em><strong><em><strong><em><strong><em><strong><em><strong><strong><em><strong><em><strong><em> 2 <strong><em><strong><em>t<strong><em><strong><em><strong><em><strong><em><strong><em><strong><em><strong><strong><em><strong><em><strong><em><sub>o</sub></em></strong></em></strong></em></strong></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong><strong><em><strong><em><strong><em><strong><em><strong><em><strong><em><strong><em><strong><em><strong><em><strong><strong><em><strong><em><strong><em><strong><em><strong><em> t</em></strong></em></strong></em></strong></em></strong></em></strong></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em>&nbsp; + <em><strong><em><strong><em>t</em><em><strong><em><strong><em><strong><em><strong><em><strong><em><strong><em><strong><em><strong><em><strong><strong><em><strong><em><strong><em><strong><em><strong><em><strong><em><strong><em><strong><em><strong><em><strong><em><strong><em><strong><strong><em><strong><em><strong><em><sub>o</sub></em></strong></em></strong></em></strong></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em>&sup2;</strong></em></strong></em> <em><strong>)</strong></em><strong></strong></p>
+      <p><strong><em><strong><em>x <strong><strong>&ndash;</strong></strong> x<strong><em><strong><em><strong><em><strong><em><strong><em><strong><em><strong><strong><em><strong><em><strong><em><sub>o </sub></em></strong></em></strong></em></strong></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong>= <strong><strong><em><strong><strong><em>v<strong><em><strong><em><strong><em><strong><em><strong><em><strong><em><strong><strong><em><strong><em><strong><em><sub>o </sub></em></strong></em></strong></em></strong></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong>( t <strong><strong>&ndash;</strong></strong> t<strong><em><strong><em><strong><em><strong><em><strong><em><strong><em><strong><strong><em><strong><em><strong><em><sub>o</sub></em></strong></em></strong></em></strong></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong> ) </em></strong></strong></em></strong></strong>+ <strong><em><strong><strong><em><strong>&frac12;</strong></em></strong></strong> a ( t <strong><strong>&ndash;</strong></strong> t<strong><em><strong><em><strong><em><strong><em><strong><em><strong><em><strong><strong><em><strong><em><strong><em><sub>o </sub></em></strong></em></strong></em></strong></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong>)<strong>&sup2;</strong></em></strong></em></strong></p>
+    </blockquote>
+      <p>Despejamos <em><strong>x</strong></em> y ya:</p></td>
+    <td class="bodytext" height="206">&nbsp;</td>
+    <td class="bodytext" colspan="2" height="206" valign="top">&nbsp;</td>
+  </tr>
+  <tr>
+    <td class="bodytext" colspan="2" height="18"><table width="517" height="43" border="0">
+      <tr>
+        <td width="31" height="39" valign="middle">&nbsp;</td>
+        <td width="381" align="center" bordercolor="#FFFFFF" bgcolor="#CCCCCC" class="bodytext"><strong><em><strong><strong><em><strong><em><strong><em>x</em></strong> =</em> <strong><em> <strong><strong><em><strong><em><strong><em> x<strong><em><strong><em><strong><em><strong><em><strong><em><strong><em><strong><strong><em><strong><em><strong><em><sub>o</sub></em></strong></em></strong></em></strong></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></strong> + v<strong><em><strong><em><strong><em><strong><em><strong><em><strong><em><strong><strong><em><strong><em><strong><em><sub>o </sub></em></strong></em></strong></em></strong></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong>( t <strong><strong>&ndash;</strong></strong> t<strong><em><strong><em><strong><em><strong><em><strong><em><strong><em><strong><strong><em><strong><em><strong><em><sub>o</sub></em></strong></em></strong></em></strong></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong> ) </em></strong></strong></em></strong></strong></em></strong><strong><em>+ <strong><em><strong><strong><em><strong>&frac12;</strong></em></strong></strong> a</em></strong><strong><em> ( t <strong><strong>&ndash;</strong></strong> t<strong><em><strong><em><strong><em><strong><em><strong><em><strong><em><strong><strong><em><strong><em><strong><em><sub>o</sub></em></strong></em></strong></em></strong></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong> )</em></strong><strong><em><strong>&sup2;</strong></em></strong></em></strong></td>
+        <td width="91" align="center" class="epigrafe">&nbsp;</td>
+      </tr>
+    </table></td>
+    <td class="bodytext" height="18">&nbsp;</td>
+    <td class="bodytext" colspan="2" height="18" valign="top">&nbsp;</td>
+  </tr>
+  <tr>
+    <td class="bodytext" colspan="2" height="38"><em>¡</em>Ya la ví tantas veces que me la acuerdo de memoria<em>! </em></td>
+    <td class="bodytext" height="38">&nbsp;</td>
+    <td class="bodytext" colspan="2" height="38" valign="top">&nbsp;</td>
+  </tr>
+  <tr>
+  <td class="bodytext" colspan="2" height="18"><p class="bodylinkblack"><strong>CHISMES IMPORTANTES</strong>: </p>    </td>
+  <td class="bodytext" height="18" width="10">&nbsp;</td>
+  <td class="bodytext" colspan="2" height="18" valign="top">&nbsp;</td>
+</tr>
+<tr>
+  <td class="bodytext" colspan="2" height="68"><ul>
+    <li>Una de las cosas  interesantes del método integral es que permite calcular áreas no geométricas, o sea, que no representes figuras conocidas.</li>
+    <li><strong><em>dt</em></strong>, diferencial de tiempo, significa <em>pequenísimo intervalo</em>... cuánto de pequeño, tanto que es más chico que el menor intervalo que seas capaz de definir. </li>
+  </ul>  </td>
+  <td class="bodytext" height="68">&nbsp;</td>
+  <td class="bodytext" colspan="2" height="68" valign="top">&nbsp;</td>
+</tr>
+<tr>
+  <td class="bodytext" colspan="2" height="18"><strong>PREGUNTAS CAPCIOSAS</strong>: </td>
+  <td class="bodytext" height="18">&nbsp;</td>
+  <td width="83" colspan="2" rowspan="5" valign="top" class="bodytext"><img src="img_cin/ric_teclado.jpg" width="85" height="130" /></td>
+</tr>
+<tr>
+  <td class="bodytext" colspan="2" height="36"><ul>
+    <li>&iquest;Quiénes inventaron el análisis matemático?</li>
+  </ul></td>
+  <td class="bodytext" height="36" width="10">&nbsp;</td>
+  </tr> 
+<tr>
+  <td colspan="2" valign="middle" bgcolor="#FFFFFF" class="epigrafe">&nbsp;</td>
+  <td class="bodytext" height="7" width="10">&nbsp;</td>
+  </tr>
+
+<tr> <td height="30" colspan="2" valign="middle" bgcolor="#FFFFCC" class="epigrafe">Me embola escribir <em><strong>m</strong>/<strong>s</strong></em> (metro sobre segundo) de esa forma, con la raya oblicua. Lo correcto es escribir la <em><strong>m</strong></em> justo arriba de la <em><strong>s</strong></em> y con la raya horizontal. Lo mismo con <em><strong>&frac12;</strong></em>. (M&aacute;s informaci&oacute;n sobre esta cuesti&oacute;n <a href="../miscelanea/advertencias_nms.html" target="_blank">aqu&iacute;</a>).</td>
+  <td class="bodytext" height="30" width="10">&nbsp;</td>
+  </tr> 
+<tr> <td class="bodytext" width="92">&nbsp;</td><td class="bodytext" width="408">&nbsp;</td>
+<td class="bodytext" width="10">&nbsp;</td>
+</tr> 
+<tr> <td colspan="2" align="center" valign="middle" bgcolor="#CCCCCC" class="bodytext"><table width="90%">
+  <tr>
+    <td class="epigrafe">Algunos derechos reservados. 
+Se permite su reproducci&oacute;n citando la fuente. &Uacute;ltima actualizaci&oacute;n dic-18. Buenos Aires, Argentina. </td>
+  </tr>
+</table>  </td>
+  <td class="bodytext" width="10">&nbsp;</td>
+  <td width="83" colspan="2" valign="bottom" class="bodytext">&nbsp;</td>
+</tr> 
+<tr> <td class="bodytext" width="92">&nbsp;</td><td class="bodytext" width="408">&nbsp;</td>
+<td class="bodytext" width="10">&nbsp;</td>
+<td class="bodytext" colspan="2" width="83">&nbsp;</td>
+</tr> 
+</table></td></tr> </table><img src="img_cin/transparente.gif" width="10" height="20" /></td></tr> 
+<tr> <td class="bodytext"><img src="img_cin/transparente.gif" width="600" height="20" /></td></tr> 
+</table>
+</body>
+</html>
