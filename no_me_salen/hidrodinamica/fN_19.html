@@ -1,0 +1,169 @@
+<html>
+<head>
+<title>MECANICA DE FLUIDOS, NMS019, fisica online, ejercicios resueltos</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="keywords" content="problemas resueltos, ejercicios resueltos, cbc, fisica, biofisica, fluidos, liquidos, gases, bernoulli, poiseuille, viscosidad, ideales, viscosos, humedad, difusion, osmosis, nomesalen, no me salen, ricardo cabrera" />
+<meta name="description" content="Ejercicios y problemas resueltos, y apuntes teóricos de Fluidos, mecanismos de transporte de fluidos" />
+<link rel="stylesheet" href="win_ie.css">
+<style type="text/css">
+<!--
+.style1 {
+	color: #3F6386;
+	font-weight: bold;
+}
+.Estilo3 {color: #3F6386}
+.Estilo18 {color: #FF0000}
+.Estilo26 {font-family: "Times New Roman", Times, serif;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 16px;
+}
+.Estilo17 {font-size: 10px}
+.Estilo33 {font-size: 10px}
+.Estilo25 {font-family: Verdana, Arial, sans-serif}
+-->
+</style>
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000" alink="#000000" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<table align=center width="600" border="0" cellspacing="0" cellpadding="0"> 
+  <tr bgcolor="#000000" align="right"> 
+<td><img src="img_hdinam/nombre5.gif" width="369" height="71"></td>
+  </tr> <tr bgcolor="#BB0000" valign="middle" align="left"> 
+<td class="bodytext" height="20"><TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+  <TR ALIGN="center" CLASS="menuitem">
+    <TD WIDTH="43" height="19" CLASS="menuitem"><A HREF="../../index.html" CLASS="menuitem">&nbsp;<B>home</B>&nbsp;</A></TD>
+    <TD WIDTH="5" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="119" CLASS="menuitem"><strong><a href="index_hdinam.html" class="menuitem">más de hidrodinámica </a> </strong></TD>
+    <TD width="9" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="127" CLASS="menuitem"><strong><a href="../../intro_NMS.html" class="menuitem">otros temas de F&iacute;sica</a></strong></TD>
+    <TD width="10" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="160" CLASS="menuitem"><strong><a href="../../lista_ciruela.html" class="menuitem">lecciones del maestro Ciruela </a></strong></TD>
+    <TD width="8" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="67" CLASS="menuitem"><strong><a href="../../lista_tonterias.html" class="menuitem">tonter&iacute;as</a></strong></TD>
+    <TD WIDTH="7" CLASS="menuitem"><a href="../energia/index_energia.html" class="menuitem"></a><FONT COLOR="#000000">|</FONT></TD>
+    <TD WIDTH="48" CLASS="menuitem">&nbsp;<B><FONT FACE="Arial, Helvetica, sans-serif"><A HREF="mailto: ricuti@gmail.com" CLASS="menuitem">@</A></FONT><A HREF="../../index.html" CLASS="menuitem"></A></B>&nbsp;</TD>
+  </TR>
+</TABLE></td></tr> <tr> <td class="bodytext" height="8"><p><img src="img_hdinam/transparente.gif" width="600" height="8"></td>
+</tr> 
+<tr align="center"> <td height="1046"> <table width="600" border="0" cellspacing="0" cellpadding="0"> 
+<tr class="bodytext"> <td valign="top" width="594" height="970"> 
+<table width="600" border="0" cellspacing="0" cellpadding="0"> <tr> 
+  <td height="74" valign="middle" bgcolor="#D7FFFF" class="bodytext"><span class="bodytext"><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>NO ME SALEN<br>
+</strong></span><span class="Estilo3"><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em></strong></span><span class="titulograndegris"><strong>EJERCICIOS<strong> RESUELTOS   DE F&Iacute;SICA DEL CBC</strong></strong></span><br>
+      <span class="titulochicogris"><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>FLUIDOS</strong></span></td>
+  <td class="bodytext" rowspan="3" height="74" width="7">&nbsp;</td>
+  <td class="bodytext" height="74" rowspan="3" valign="top" width="86"> 
+<p><img src="img_hdinam/cap59.jpg" alt="desesperado" width="85" height="113"></p></td></tr>
+  <tr>
+    <td height="18" bgcolor="#FFFFFF" class="bodytext">&nbsp;</td>
+  </tr> 
+<tr> 
+  <td height="49" class="bodytext"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td width="75%" height="42" valign="top" class="bodytext"><p><strong><em>NMS</em></strong> <strong>19* - Se tiene el sistema de caños verticales de la figura por los cuales circula agua -considerada fluido ideal- en régimen estacionario, desde arriba hacia abajo. El caño A tiene 10 <span class="Estilo33">cm<em><strong>&sup2;</strong></em></span> de sección, los caños B tienen 7 <span class="Estilo33">cm<em><strong>&sup2;</strong></em></span> de sección cada uno, y el caño C 12 <span class="Estilo33">cm<em><strong>&sup2;</strong></em></span> de sección. Llamando p<em><strong><em><strong><strong><em><strong><em><sub>A</sub></em></strong></em></strong></strong></em></strong></em>, p<em><strong><em><strong><strong><em><strong><em><sub>B</sub></em></strong></em></strong></strong></em></strong></em> y p<em><strong><em><strong><strong><em><strong><em><sub>C</sub></em></strong></em></strong></strong></em></strong></em> y v<em><strong><em><strong><strong><em><strong><em><sub>A</sub></em></strong></em></strong></strong></em></strong></em>, v<em><strong><em><strong><strong><em><strong><em><sub>B</sub></em></strong></em></strong></strong></em></strong></em>, y v<em><strong><em><strong><strong><em><strong><em><sub>C</sub></em></strong></em></strong></strong></em></strong></em> a las presiones y velocidades medidas en un punto de los caños A, B y C, diga cuáles de estas seis afirmaciones son las únicas dos que pueden asegurarse siempre, independientemente del caudal y la longitud de los caños.<br>
+      </strong></p>        </td>
+      <td width="25%" align="center" valign="middle" class="bodytext"><p><img src="img_hdinam/fN_019_1.gif" width="53" height="150"></td>
+    </tr>
+    <tr>
+      <td height="63" colspan="2" valign="middle" class="bodytext"><p><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a) v<em><strong><em><strong><strong><em><strong><em><sub>B</sub></em></strong></em></strong></strong></em></strong></em> &gt; v<em><strong><em><strong><strong><em><strong><em><sub>A</sub></em></strong></em></strong></strong></em></strong></em>&nbsp;&nbsp;&nbsp;&nbsp; b) v<em><strong><em><strong><strong><em><strong><em><sub>A</sub></em></strong></em></strong></strong></em></strong></em> &gt; v<em><strong><em><strong><strong><em><strong><em><sub>B</sub></em></strong></em></strong></strong></em></strong></em>&nbsp;&nbsp;  c) v<em><strong><em><strong><strong><em><strong><em><sub>B</sub></em></strong></em></strong></strong></em></strong></em> &gt; v<em><strong><em><strong><strong><em><strong><em><sub>C</sub></em></strong></em></strong></strong></em></strong></em> &nbsp; d) p<em><strong><em><strong><strong><em><strong><em><sub>B</sub></em></strong></em></strong></strong></em></strong></em> &gt; p<em><strong><em><strong><strong><em><strong><em><sub>A</sub></em></strong></em></strong></strong></em></strong></em>&nbsp;&nbsp;&nbsp; e) p<em><strong><em><strong><strong><em><strong><em><sub>C</sub></em></strong></em></strong></strong></em></strong></em> &gt; p<em><strong><em><strong><strong><em><strong><em><sub>B</sub></em></strong></em></strong></strong></em></strong></em> &nbsp;&nbsp;&nbsp; f) p<em><strong><em><strong><strong><em><strong><em><sub>A</sub></em></strong></em></strong></strong></em></strong></em> &gt; p<em><strong><em><strong><strong><em><strong><em><sub>B</sub></em></strong></em></strong></strong></em></strong></em></strong></p>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;<strong>1) a) y e)&nbsp; &nbsp;&nbsp;&nbsp; 2) a) y f)&nbsp; &nbsp;&nbsp; 3) c) y f)&nbsp; &nbsp;&nbsp; 4) b) y d)&nbsp; &nbsp;&nbsp; 5) b) y e)&nbsp; &nbsp;&nbsp; 6) c) y d)</strong></p></td>
+      </tr>
+    
+    
+  </table>    </td>
+</tr>
+<tr>
+  <td height="14" align="center" class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+  <td align="center" valign="middle" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="43" align="center" bgcolor="#FFFF99" class="bodytext"><table width="470" border="0">
+    <tbody>
+      <tr>
+        <td height="25" align="center" class="epigrafe">*Este ejercicio formó parte del final de Biofísica tomado el 14 de diciembre de 2018.          Para ver el examen completo haga click</td>
+      </tr>
+    </tbody>
+  </table></td>
+  <td class="bodytext">&nbsp;</td>
+  <td align="center" valign="middle" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="40" align="left" class="bodytext"><p>Qué rebuscados para formular preguntas... ¿con qué necesidad?<br>
+        </p>    </td>
+  <td class="bodytext">&nbsp;</td>
+  <td align="center" valign="middle" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="60" align="left" class="bodytext"><table width="100%" height="150" border="0" cellpadding="0" cellspacing="0">
+    <tr>
+      <td width="75%" height="150" class="bodytext"><p>Tenemos que arrancar con una pequeña aclaración: el tramo <strong>B</strong> de dos caños iguales es equivalente a un único caño cuya área es la suma de ambos, de modo que podemos pensarlo como un caño de <strong><em>14 <span class="Estilo33">cm<strong>&sup2;</strong></span></em></strong>. Demodo que la columna de caños queda formada así.</p>
+        <p>El caño de mayor sección es el <strong>B</strong>, le sigue el <strong>C</strong> y el más finito es el <strong>A</strong>.</p></td>
+      <td width="25%" align="center" class="bodytext"><img src="img_hdinam/fN_019_2.gif" width="53" height="150"></td>
+    </tr>
+  </table></td>
+  <td width="7" class="bodytext">&nbsp;</td>
+  <td width="86" align="center" valign="middle" class="bodytext"><p class="epigrafe Estilo18">&nbsp;</p>    </td>
+</tr>
+<tr>
+  <td height="394" align="left" class="bodytext"><p>Las consideraciones de las velocidades se pueden analizar simplemente con el principio de continuidad:</p>
+    <blockquote>
+      <p><strong>v<em><strong><em><strong><strong><em><strong><em><sub>1</sub></em></strong></em></strong></strong></em></strong></em></strong> <em><strong>S<em><strong><em><strong><strong><em><strong><em><sub>1</sub></em></strong></em></strong></strong></em></strong></em> =</strong></em><strong> v<em><strong><em><strong><strong><em><strong><em><sub>2</sub></em></strong></em></strong></strong></em></strong></em></strong> <em><strong>S<em><strong><em><strong><strong><em><strong><em><sub>2</sub></em></strong></em></strong></strong></em></strong></em></strong></em></p>
+    </blockquote>
+    <p>Que traduciéndolo al criollo nos dice a mayor sección, menor velocidad. teniendo en cuenta las propuestas del enunciado vemos que </p>
+    <blockquote>
+      <p><strong>a) v<em><strong><em><strong><strong><em><strong><em><sub>B</sub></em></strong></em></strong></strong></em></strong></em> &gt; v<em><strong><em><strong><strong><em><strong><em><sub>A</sub></em></strong></em></strong></strong></em></strong></em>&nbsp;</strong>es falsa,<strong> &nbsp;&nbsp;&nbsp; b) v<em><strong><em><strong><strong><em><strong><em><sub>A</sub></em></strong></em></strong></strong></em></strong></em> &gt; v<em><strong><em><strong><strong><em><strong><em><sub>B</sub></em></strong></em></strong></strong></em></strong></em>&nbsp;</strong>es verdadera<strong>&nbsp;  c) v<em><strong><em><strong><strong><em><strong><em><sub>B</sub></em></strong></em></strong></strong></em></strong></em> &gt; v<em><strong><em><strong><strong><em><strong><em><sub>C</sub></em></strong></em></strong></strong></em></strong></em></strong> es falsa.</p>
+      </blockquote>
+    <p>Para analizar las presiones tenemos que recurrir a Bernouille: </p>
+    <blockquote>
+      <p><strong><em>p<span class="epigrafe">r</span> + <strong><em><span class="Estilo25">&rho;</span></em></strong> g h</em></strong> + <strong><em>&frac12; <strong><em><span class="Estilo25">&rho;</span></em></strong> v<strong>&sup2;</strong></em></strong> <em><strong>= cte. </strong></em></p>
+      </blockquote>
+    <p>Analicemos una por una las proposiciones: </p>
+    <p><strong>d) p<em><strong><em><strong><strong><em><strong><em><sub>B</sub></em></strong></em></strong></strong></em></strong></em> &gt; p<em><strong><em><strong><strong><em><strong><em><sub>A</sub></em></strong></em></strong></strong></em></strong></em></strong>, VERDADERA. Fijate el el tramo B tiene menor altura y menor velocidad que el <strong>A</strong>, de modo que para que la la suma de términos sea constante, la presión de <strong>B</strong> tiene que ser mayor que la de <strong>A</strong>.</p>
+    <p><strong>e) p<em><strong><em><strong><strong><em><strong><em><sub>C</sub></em></strong></em></strong></strong></em></strong></em> &gt; p<em><strong><em><strong><strong><em><strong><em><sub>B</sub></em></strong></em></strong></strong></em></strong></em></strong>, dependerá de caudal. <strong>C</strong> está a menor altura que <strong>B</strong>, pero tiene mayor vlocidad. </p>
+    <p><strong> f) p<em><strong><em><strong><strong><em><strong><em><sub>A</sub></em></strong></em></strong></strong></em></strong></em> &gt; p<em><strong><em><strong><strong><em><strong><em><sub>B</sub></em></strong></em></strong></strong></em></strong></em></strong>, FALSO, por lo mismo que la d) es verdadera.</p>
+    <p>De modo que el único par verdadero es: </p></td>
+  <td class="bodytext">&nbsp;</td>
+  <td align="center" valign="middle" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="69" align="left" class="bodytext"><table width="102%" border="0">
+    <tr>
+      <td width="9%" height="38" align="center" bgcolor="#FFFFFF"><p class="bodytext">&nbsp;</p></td>
+      <td width="52%" align="center" bgcolor="#CCCCCC" class="bodytext"><strong> b) y d)</strong></td>
+      <td width="39%" align="center" bgcolor="#FFFFFF" class="epigrafe">opci&oacute;n 4)</td>
+    </tr>
+  </table></td>
+  <td class="bodytext">&nbsp;</td>
+  <td align="center" valign="middle" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="18" align="left" class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+  <td align="center" valign="middle" class="bodytext">&nbsp;</td>
+</tr>
+
+<tr>
+  <td height="53" bgcolor="#FFFFFF" class="bodytext"><strong>DESAF&Iacute;O</strong>: ¿Cuáles serían las respuestas correctas si el agua subiera en lugar de bajar?</td>
+  <td class="bodytext">&nbsp;</td>
+  <td width="86" rowspan="2" valign="bottom" class="bodytext"><strong><em><sub><p><img src="img_hdinam/ricuti.jpg" alt="Flu&iacute;dos - Ricardo Cabrera" width="85" height="116"></sub></em></strong></td>
+</tr>
+
+<tr> <td height="45" align="center" valign="middle" bgcolor="#CCCCCC" class="bodytext"><table width="92%" border="0">
+  <tr>
+    <td class="epigrafe">Algunos derechos reservados. 
+  Se permite su reproducci&oacute;n citando la fuente. <em>No me salen</em> es la única colección de ejercicios resueltos producido con normas internacionales de calidad y asepsia ISO 9006. &Uacute;ltima actualizaci&oacute;n 
+  dic-18. Buenos Aires, Argentina. </td>
+  </tr>
+</table>  </td>
+  <td class="bodytext" width="7">&nbsp;</td>
+  </tr> 
+<tr> <td height="18" class="bodytext">&nbsp;</td><td class="bodytext" width="7">&nbsp;</td>
+<td class="bodytext" width="86">&nbsp;</td>
+</tr> 
+</table></td></tr> </table></td></tr> 
+<tr> <td class="bodytext"><p><img src="img_hdinam/transparente.gif" width="600" height="20"></td></tr> 
+</table>
+</body>
+</html>
