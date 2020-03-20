@@ -1,0 +1,200 @@
+<html>
+<head>
+<title>MECANICA DE FLUIDOS, F001, fisica online, ejercicios resueltos</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="keywords" content="problemas resueltos, ejercicios resueltos, cbc, fisica, biofisica, fluidos, liquidos, gases, bernoulli, poiseuille, viscosidad, ideales, viscosos, humedad, difusion, osmosis, nomesalen, no me salen, ricardo cabrera" />
+<meta name="description" content="Ejercicios y problemas resueltos, y apuntes teóricos de Fluidos, mecanismos de transporte de fluidos" />
+<link rel="stylesheet" href="win_ie.css">
+<style type="text/css">
+<!--
+.style1 {
+	color: #3F6386;
+	font-weight: bold;
+}
+.Estilo3 {color: #3F6386}
+.Estilo16 {font-size: 16px}
+.Estilo18 {color: #FF0000}
+.Estilo1 {font-size: 10px}
+.Estilo17 {font-size: 10px}
+.Estilo26 {font-family: "Times New Roman", Times, serif;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 16px;
+}
+.Estilo261 {font-size: 11px}
+.Estilo19 {font-size: 10px; font-weight: bold; font-style: italic; }
+.Estilo181 {font-size: 10}
+.Estilo25 {font-family: Verdana, Arial, sans-serif}
+.Estilo33 {font-size: 10px}
+-->
+</style>
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000" alink="#000000" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<table align=center width="604" border="0" cellspacing="0" cellpadding="0"> 
+  <tr bgcolor="#000000" align="right"> 
+<td width="604"><img src="img_hstat/nombre5.gif" width="369" height="71"></td>
+  </tr> <tr bgcolor="#BB0000" valign="middle" align="left"> 
+<td class="bodytext" height="20"><TABLE WIDTH="600" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+  <TR ALIGN="center" CLASS="menuitem">
+    <TD WIDTH="44" height="19" CLASS="menuitem"><A HREF="../../index.html" CLASS="menuitem">&nbsp;<B>home</B>&nbsp;</A></TD>
+    <TD WIDTH="5" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="113" CLASS="menuitem"><strong><a href="index_hstat.html" class="menuitem">m&aacute;s de hidrostática</a> </strong></TD>
+    <TD width="10" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="125" CLASS="menuitem"><strong><a href="../../intro_NMS.html" class="menuitem">otros temas de F&iacute;sica</a></strong></TD>
+    <TD width="10" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="173" CLASS="menuitem"><strong><a href="../../lista_ciruela.html" class="menuitem">lecciones del maestro Ciruela </a></strong></TD>
+    <TD width="9" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="68" CLASS="menuitem"><strong><a href="../../lista_tonterias.html" class="menuitem">tonter&iacute;as</a></strong></TD>
+    <TD WIDTH="8" CLASS="menuitem"><a href="../energia/index_energia.html" class="menuitem"></a><FONT COLOR="#000000">|</FONT></TD>
+    <TD WIDTH="40" CLASS="menuitem">&nbsp;<B><FONT FACE="Arial, Helvetica, sans-serif"><A HREF="mailto: ricuti@gmail.com" CLASS="menuitem">@</A></FONT><A HREF="../../index.html" CLASS="menuitem"></A></B>&nbsp;</TD>
+  </TR>
+</TABLE></td></tr> <tr> <td class="bodytext" height="8"><img src="img_hstat/transparente.gif" width="600" height="8"></td>
+</tr> 
+<tr align="center"> <td height="1767"> <table width="599" border="0" cellspacing="0" cellpadding="0"> 
+<tr class="bodytext"> <td valign="top" width="599" height="1720"> 
+<table width="597" border="0" cellspacing="0" cellpadding="0"> <tr> 
+  <td height="74" colspan="2" valign="middle" bgcolor="#D7FFFF" class="bodytext"><span class="bodytext"><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>NO ME SALEN<br>
+</strong></span><span class="Estilo3"><em class="bodytext "><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>(<strong>PROBLEMAS RESUELTOS   DE </strong>BIOF&Iacute;SICA<strong> DEL CBC</strong>)</strong></em></span><br>
+      <span class="titulograndegris Estilo16"><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>FLUIDOS<br>
+      <strong><span class="titulochicogris"><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em></strong></span></strong></strong><span class="titulochicogris">HIDROST&Aacute;TICA</span></span></td>
+  <td class="bodytext" rowspan="3" height="74" width="6">&nbsp;</td>
+  <td class="bodytext" height="74" rowspan="3" valign="top" width="92"> 
+<p><img src="img_hstat/cap1.jpg" alt="desesperado" width="85" height="129"></p></td></tr>
+  <tr>
+    <td height="18" colspan="2" bgcolor="#FFFFFF" class="bodytext"><img src="img_hstat/transparente.gif" width="500" height="5"></td>
+  </tr> 
+<tr> <td width="143" height="70" valign="top" class="bodytext"><P><img src="img_hstat/G20_U2_1ra.gif" width="140" height="45"></P>
+    </td>
+  <td width="357" valign="top" class="bodytext"><p><strong>10- a) La jirafa mide unos 5 m y su corazón está aproximadamente a la mitad de su altura. Tiene
+    una presión manométrica arterial, en reposo y a
+    nivel de la aorta, de 240 y 180 mmHg (sistólica y
+    diastólica) ¿este valor de presión tan alto qué problema
+    hidrostático le resuelve? ¿qué problema le<br>
+    resuelve la piel de las patas que forma un manguito<br>
+    apretado a modo de “medias elásticas”? Estime
+    la presión manométrica arterial en las patas.
+    Aproxime la densidad de la sangre por 1 kg/L.<br>
+    <br>
+    <br>
+  </strong></p>    </td>
+</tr>
+<tr>
+  <td height="70" colspan="2" align="left" valign="middle" class="bodytext"><strong>&nbsp;&nbsp; b)También cuenta con una red de vasos y válvulas
+    en el cuello que previenen el exceso de
+    flujo de sangre al cerebro cuando la jirafa baja su
+    cabeza para tomar agua; estime la diferencia de
+    presión sanguínea que habría en el cerebro debida
+    a la gravedad entre una posición y otra, si no
+    tuviera esta adaptación. </strong></td>
+  <td class="bodytext">&nbsp;</td>
+  <td align="center" valign="middle" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="228" colspan="2" align="left" valign="middle" class="bodytext"><table width="100%" border="0">
+    <tr class="bodytext">
+      <td width="62%" height="226"><img src="img_hstat/G20_10_1.gif" alt="Flu&iacute;dos - Ricardo Cabrera" width="300" height="201"></td>
+      <td width="2%">&nbsp;</td>
+      <td width="36%" valign="top"><strong>&nbsp;&nbsp;&nbsp;
+c) El gráfico adjunto muestra la presión manométrica
+arterial media a nivel del corazón y a
+    nivel del encéfalo en función de la distancia vertical
+    (en posición erecta) entre el corazón y el
+    encéfalo para distintos animales. Identifique qué línea corresponde a la presión
+    a nivel del corazón y qué línea corresponde a la
+    presión a nivel del encéfalo.</strong></td>
+    </tr>
+  </table>    <strong><br>
+  </strong></td>
+  <td class="bodytext">&nbsp;</td>
+  <td align="center" valign="middle" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="679" colspan="2" align="left" valign="middle" class="bodytext"><p><strong>d) Usando los valores del gráfico, justifique el
+valor de la diferencia de presión arterial entre el
+corazón y el encéfalo para cada especie.</strong></p>
+    <p>Todo esto es culpa de Darwin, no me cabe duda. Intentemos alguna respuesta.</p>
+    <p><strong>¿este valor de presión tan alto qué problema
+      hidrostático le resuelve?¿qué problema le
+      resuelve la piel de las patas que forma un manguito
+      apretado a modo de “medias elásticas”? Estime
+      la presión manométrica arterial en las patas.
+      Aproxime la densidad de la sangre por 1 kg/L.</strong> ¿Valor de presión alto? Y sí... nuestro valor medio es de <strong><em>100 <span class="epigrafe">mmHg</span></em></strong> y el de la jirafa más del doble, <strong><em>210 <span class="epigrafe">mmHg</span></em></strong>. O sea que si le pinchás una vena a una jirafa la sangre saldrá con el doble de fuerza que si te pincharas vos, su corazón bombea con el doble de fuerza. Casi con seguridad debe hacer eso para lograr que la sangre ascienda los <em><strong>2,5 <span class="epigrafe">m</span></strong></em> que debe ascender para suministrar el cerebro. (La jirafa te puede parecer muy tonta, pero sin sangre en el cerebro no habría jirafa).</p>
+    <p>Pero esta solución de compromiso genera otro problema adicional, la presión allá abajo, en las patas es tan alto que le revienta los vasos. Para soucionarlo, la jirafa se coloca unas medias elásticas que le comprimen las patas y todos sus tejidos internos, especialmente los vasos. Para estimar la presión en las patas aplicaremos el principio general de la hidrostática:</p>
+    <blockquote>
+      <p><em><strong>&Delta;Pr<sub>c-p</sub> = </strong></em><em><strong>1.060 k<span class="epigrafe">g</span></strong></em><span class="epigrafe">/</span><em><strong><span class="epigrafe">m</span><em><strong><sup>3</sup></strong></em> . 10<span class="epigrafe"> m</span></strong></em>/<em><strong><span class="epigrafe">s</span><em><em><strong><em><strong>&sup2;</strong></em></strong></em></em> . 2,50 </strong><span class="epigrafe"><strong>m</strong></span></em></p>
+      <p><em><strong>&Delta;Pr<sub>c-p</sub> = </strong></em><em><strong>26.500</strong><strong> </strong></em><span class="epigrafe"><em><strong>Pa</strong></em></span> <em><strong>=</strong></em> <em><strong>200 </strong></em><em class="epigrafe"><strong>mmHg</strong></em></p>
+      </blockquote>
+    <p>Ese es el aumento entre el corazón y las patas, y el corrazón ya tenía una presión media de <strong><em>210 <span class="epigrafe">mmHg</span></em></strong>, o sea que en las patas hay una presión media hemostática de <em><strong>400 </strong></em><em class="epigrafe"><strong>mmHg</strong></em>... no habría vasos que aguanten&nbsp;sin las medias elásticas. </p>
+    <p><strong>&nbsp;&nbsp;&nbsp; b)También cuenta con una red de vasos y válvulas
+    en el cuello que previenen el exceso de
+    flujo de sangre al cerebro cuando la jirafa baja su
+    cabeza para tomar agua ; estime la diferencia de
+    presión sanguínea que habría en el cerebro debida
+    a la gravedad entre una posición y otra, si no
+    tuviera esta adaptación. </strong>Bueno, ya vimos que la diferencia de presión entre el corazón y las patas era de aproximadamente <em><strong>200 </strong></em><em class="epigrafe"><strong>mmHg</strong></em>,&nbsp;eso es más o menos lo mismo que hay entre el corazón y el cerebro, que también están distanciados en altura unos <em><strong>2,5 <span class="epigrafe">m</span></strong></em>. O sea que la sangre llega allá arriba con lo mínimo necesario para irrigar de a gotitas (estoy exagerando un poco), pero eso se convierte en un problema cuando la bicha tiene que agachar la cabeza para beber del estanque. Si en el cuello no tuviese esas valvulas de seguridad que evitan el reflujo por gravedad, la presión en el cerebro aumentaría caso de <em><strong>0</strong></em> a <em><strong>200 </strong></em><em class="epigrafe"><strong>mmHg</strong></em> antes del primer sorbo y la pobre jirafa moriría de una ACV o quedaría turulata y habría que internarla en un hospital para jirafas.</p>
+    <p><strong>&nbsp;&nbsp;&nbsp; c) El gráfico adjunto muestra la presión manométrica
+arterial media a nivel del corazón y a
+    nivel del encéfalo en función de la distancia vertical
+    (en posición erecta) entre el corazón y el
+    encéfalo para distintos animales.</strong></p></td>
+  <td class="bodytext">&nbsp;</td>
+  <td align="center" valign="middle" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="232" colspan="2" align="left" valign="middle" class="bodytext"><table width="100%" border="0">
+    <tr class="bodytext">
+      <td width="62%" height="203"><img src="img_hstat/G20_10_1.gif" alt="Flu&iacute;dos - Ricardo Cabrera" width="300" height="201"></td>
+      <td width="2%">&nbsp;</td>
+      <td width="36%" valign="top"><p>Acá está de nuevo. Para empezar vemos que los datos consignados en el gráfico no se corresponden con los volcados en el enunciado y calculados por nosotros... pero bueno, apreciémoslo cualitativamente.</p>
+        <p>Es obvio que la línea superior indica la presión en el corazón y la inferior en el encéfalo. ¿Cuántas veces te tenemos que decir que a mayor profundidad, mayor presión?</p></td>
+    </tr>
+  </table></td>
+  <td width="6" class="bodytext">&nbsp;</td>
+  <td width="92" align="center" valign="middle" class="bodytext"><p class="epigrafe Estilo18"><br>
+      </p></td>
+</tr>  
+
+<tr>
+  <td height="74" colspan="2" align="left" class="bodytext"><p>Para continuar, el gráfico parece sugerir que existe una regla común al reino animal (por llamarlo de alguna manera). Habría que meter en el gráfico un puñado mayor de animales y ver si las curvas siguen <em>fiteando</em> (no sé cómo decirlo en español), si así fuese eso abonaría la hipótesis primera que dimos como respuesta en este ejercicio. </p></td>
+  <td rowspan="3" class="bodytext">&nbsp;</td>
+  <td align="center" class="epigrafe">&nbsp;</td>
+</tr>
+<tr>
+  <td colspan="2" align="left" class="bodytext">&nbsp;</td>
+  <td align="center" class="epigrafe"><p>&nbsp;</p>
+    <p>&nbsp;</p></td>
+</tr>
+<tr>
+  <td colspan="2" rowspan="3" align="left" valign="top" class="bodytext"><strong>PARA SABER MÁS</strong>:</td>
+  <td width="92" rowspan="5" valign="bottom" class="bodytext"><strong><em><sub><img src="img_hstat/jirafa.jpg" alt="Flu&iacute;dos - Ricardo Cabrera" width="85" height="153"></sub></em></strong></td>
+</tr>
+<tr>
+  <td height="18" class="bodytext">&nbsp;</td>
+</tr>
+
+<tr>
+  <td height="18" class="bodytext">&nbsp;</td>
+  </tr>
+<tr>
+  <td colspan="2" bgcolor="#FFFFFF" class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+  </tr>
+
+<tr> <td colspan="2" align="center" valign="middle" bgcolor="#CCCCCC" class="bodytext"><table width="90%" border="0">
+  <tr>
+    <td class="epigrafe">Algunos derechos reservados. 
+  Se permite su reproducci&oacute;n citando la fuente. La Asociaci&oacute;n Internacional de F&iacute;sicos Constructivistas y el Club Boca Juniors recomiendan <strong>NO</strong> utilizar este material did&aacute;ctico por considerarlo altamente pernicioso. &Uacute;ltima actualizaci&oacute;n mar-20. Buenos Aires, Argentina. </td>
+  </tr>
+</table>  </td>
+  <td class="bodytext" width="6">&nbsp;</td>
+  </tr> 
+<tr> <td height="18" colspan="2" class="bodytext">&nbsp;</td><td class="bodytext" width="6">&nbsp;</td>
+<td class="bodytext" width="92">&nbsp;</td>
+</tr> 
+</table></td></tr> </table>
+<img src="img_hstat/transparente.gif" width="10" height="20"></td></tr> 
+<tr> <td class="bodytext"><img src="img_hstat/transparente.gif" width="600" height="20"></td></tr> 
+</table>
+</body>
+</html>

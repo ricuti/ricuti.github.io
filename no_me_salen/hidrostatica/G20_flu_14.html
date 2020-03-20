@@ -1,0 +1,208 @@
+<html>
+<head>
+<title>MECANICA DE FLUIDOS, F001, fisica online, ejercicios resueltos</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="keywords" content="problemas resueltos, ejercicios resueltos, cbc, fisica, biofisica, fluidos, liquidos, gases, bernoulli, poiseuille, viscosidad, ideales, viscosos, humedad, difusion, osmosis, nomesalen, no me salen, ricardo cabrera" />
+<meta name="description" content="Ejercicios y problemas resueltos, y apuntes teóricos de Fluidos, mecanismos de transporte de fluidos" />
+<link rel="stylesheet" href="win_ie.css">
+<style type="text/css">
+<!--
+.style1 {
+	color: #3F6386;
+	font-weight: bold;
+}
+.Estilo3 {color: #3F6386}
+.Estilo16 {font-size: 16px}
+.Estilo18 {color: #FF0000}
+.Estilo1 {font-size: 10px}
+.Estilo17 {font-size: 10px}
+.Estilo26 {font-family: "Times New Roman", Times, serif;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 16px;
+}
+.Estilo261 {font-size: 11px}
+.Estilo19 {font-size: 10px; font-weight: bold; font-style: italic; }
+.Estilo181 {font-size: 10}
+.Estilo25 {font-family: Verdana, Arial, sans-serif}
+.Estilo33 {font-size: 10px}
+-->
+</style>
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000" alink="#000000" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<table align=center width="604" border="0" cellspacing="0" cellpadding="0"> 
+  <tr bgcolor="#000000" align="right"> 
+<td width="604"><img src="img_hstat/nombre5.gif" width="369" height="71"></td>
+  </tr> <tr bgcolor="#BB0000" valign="middle" align="left"> 
+<td class="bodytext" height="20"><TABLE WIDTH="600" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+  <TR ALIGN="center" CLASS="menuitem">
+    <TD WIDTH="44" height="19" CLASS="menuitem"><A HREF="../../index.html" CLASS="menuitem">&nbsp;<B>home</B>&nbsp;</A></TD>
+    <TD WIDTH="5" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="113" CLASS="menuitem"><strong><a href="index_hstat.html" class="menuitem">m&aacute;s de hidrostática</a> </strong></TD>
+    <TD width="10" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="125" CLASS="menuitem"><strong><a href="../../intro_NMS.html" class="menuitem">otros temas de F&iacute;sica</a></strong></TD>
+    <TD width="10" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="173" CLASS="menuitem"><strong><a href="../../lista_ciruela.html" class="menuitem">lecciones del maestro Ciruela </a></strong></TD>
+    <TD width="9" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="68" CLASS="menuitem"><strong><a href="../../lista_tonterias.html" class="menuitem">tonter&iacute;as</a></strong></TD>
+    <TD WIDTH="8" CLASS="menuitem"><a href="../energia/index_energia.html" class="menuitem"></a><FONT COLOR="#000000">|</FONT></TD>
+    <TD WIDTH="40" CLASS="menuitem">&nbsp;<B><FONT FACE="Arial, Helvetica, sans-serif"><A HREF="mailto: ricuti@gmail.com" CLASS="menuitem">@</A></FONT><A HREF="../../index.html" CLASS="menuitem"></A></B>&nbsp;</TD>
+  </TR>
+</TABLE></td></tr> <tr> <td class="bodytext" height="8"><img src="img_hstat/transparente.gif" width="600" height="8"></td>
+</tr> 
+<tr align="center"> <td height="1221"> <table width="599" border="0" cellspacing="0" cellpadding="0"> 
+<tr class="bodytext"> <td valign="top" width="599" height="1201"> 
+<table width="597" border="0" cellspacing="0" cellpadding="0"> <tr> 
+  <td height="74" colspan="2" valign="middle" bgcolor="#D7FFFF" class="bodytext"><span class="bodytext"><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>NO ME SALEN<br>
+</strong></span><span class="Estilo3"><em class="bodytext "><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>(<strong>PROBLEMAS RESUELTOS   DE </strong>BIOF&Iacute;SICA<strong> DEL CBC</strong>)</strong></em></span><br>
+      <span class="titulograndegris Estilo16"><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>FLUIDOS<br>
+      <strong><span class="titulochicogris"><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em></strong></span></strong></strong><span class="titulochicogris">HIDROST&Aacute;TICA</span></span></td>
+  <td class="bodytext" rowspan="3" height="74" width="6">&nbsp;</td>
+  <td class="bodytext" height="74" rowspan="3" valign="top" width="92"> 
+<p><img src="img_hstat/cap1.jpg" alt="desesperado" width="85" height="129"></p></td></tr>
+  <tr>
+    <td height="5" colspan="2" bgcolor="#FFFFFF" class="bodytext"><img src="img_hstat/transparente.gif" width="500" height="5"></td>
+  </tr> 
+<tr> <td width="143" height="56" valign="top" class="bodytext"><P><img src="img_hstat/G20_U2_1ra.gif" width="140" height="45"></P>
+    </td>
+  <td width="357" valign="top" class="bodytext"><p><strong>14- La presión sanguínea se puede medir por<br>
+    un método invasivo llamado canulación. Se<br>
+    inserta en el vaso una cánula que contiene una<br>
+    solución salina con anticoagulante, cuya densidad<br>
+    es <em>1060 kg/m<strong><strong><sup>3</sup></strong></strong></em>, y se conecta a un manómetro<br>
+    de tubo abierto. (Ver Figura 1)<br>
+    <br>
+  </strong></p>    </td>
+</tr>
+<tr>
+  <td height="126" colspan="2" align="center" valign="middle" class="bodytext"><img src="img_hstat/G20_14_1.gif" width="325" height="109"></td>
+  <td class="bodytext">&nbsp;</td>
+  <td align="center" valign="middle" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="238" colspan="2" align="left" valign="middle" class="bodytext"><p><strong>&nbsp;&nbsp;&nbsp; a) ¿Cuál es la altura de la solución <em><strong>h<sub>S</sub></strong></em> cuando se
+mide una presión manométrica venosa de <em>5 mmHg</em>?<br>
+&nbsp;&nbsp;&nbsp;
+b) ¿Cuál debería ser esa altura si se midiera
+una presión manométrica arterial de <em>90 mmHg</em>?;
+¿resultaría práctico?<br>
+&nbsp;&nbsp;&nbsp;
+c) Para presiones arteriales se agrega en el
+tubo también mercurio, cuya densidad es de
+<em>13600 kg/m<strong><em><strong><sup>3</sup></strong></em></strong></em> (ver figura 2). Las medidas de las
+alturas de ambos líquidos en las dos ramas permiten
+medir la presión en el vaso sanguíneo.
+Si <em><strong>h<sub>S</sub></strong></em>= <em>5 cm</em> y <em><strong>h<sub>m</sub></strong></em> = <em>9 cm</em>; calcule la presión
+manométrica de la arteria, expréselo en pascales
+y en mmHg.</strong></p>
+    <p>OK, no hay que asustarse, es simplemente un pinchacito. Vamos con las preguntas.</p>
+    <p><strong>&nbsp;&nbsp;&nbsp; a) ¿Cuál es la altura de la solución <em><strong>h<sub>S</sub></strong></em> cuando se
+mide una presión manométrica venosa de <em>5 mmHg</em>?</strong> La presión dentro de la vena es igual a la presión en el fonde de la columna <em><strong> </strong><strong>h<sub>1</sub></strong></em> y eso lo puede predecir rápidamente el principio general:</p>
+    <blockquote>
+      <p><em><strong>&Delta;pr = </strong></em><em><strong><em>δ<strong><sub>s</sub></strong></em> . g</strong></em><em><strong><em><em><strong><em><strong></strong></em></strong></em></em> . </strong><strong>h<sub>1</sub></strong></em></p>
+      <p><em><strong>h<sub>s</sub> = </strong></em><em><strong><em><strong>&Delta;pr</strong> / δ<strong><sub>s</sub></strong></em> . g</strong></em><em><strong><em><em><strong><em><strong></strong></em></strong></em></em> . </strong></em></p>
+      </blockquote>
+    <p>Pasemos los <strong><em>5 mmHg</em></strong> a pascales, regla de tres simple... <em><strong>666 <span class="epigrafe">Pa</span></strong></em>.</p>
+    <blockquote>
+      <p><em><strong>h<sub>s</sub> = <em><strong>666 <span class="epigrafe">Pa</span></strong> / 1060 <span class="epigrafe">kg</span></em></strong><em><span class="epigrafe">/</span></em><strong><em><span class="epigrafe">m</span><strong><strong><sup>3</sup></strong></strong> </em> . 10<span class="epigrafe"> m</span></strong></em>/<em><strong><span class="epigrafe">s</span><em><em><strong><em><strong>&sup2;</strong></em></strong></em></em></strong></em></p>
+    </blockquote></td>
+  <td class="bodytext">&nbsp;</td>
+  <td align="center" valign="middle" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="60" colspan="2" align="left" valign="middle" class="bodytext"><table width="100%" border="0">
+    <tr>
+      <td width="13%" height="36"><p class="bodytext"><em><strong><strong>&#160;&#160; &#160;&#160; &#160;&#160;</strong></strong></em></p></td>
+      <td width="44%" align="center" bgcolor="#CCCCCC" class="bodytext"><em><strong>h<sub>s</sub> = </strong></em><strong><em>0,063 <span class="epigrafe">m</span></em></strong></td>
+      <td width="43%" bgcolor="#FFFFFF">&nbsp;</td>
+    </tr>
+  </table></td>
+  <td class="bodytext">&nbsp;</td>
+  <td align="center" valign="middle" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="92" colspan="2" align="left" valign="middle" class="bodytext"><p>O sea, unos 63 milímetros. </p>
+    <p><strong>&nbsp;&nbsp;&nbsp;
+b) ¿Cuál debería ser esa altura si se midiera
+una presión manométrica arterial de <em>90 mmHg</em>?;
+¿resultaría práctico?</strong> Por regla de tres simple, si <strong><em>5 mmHg</em></strong> levantan una columna de  63 milímetros,&nbsp;<strong><em>90 mmHg</em></strong> levantarán...</p></td>
+  <td width="6" class="bodytext">&nbsp;</td>
+  <td width="92" align="center" valign="middle" class="bodytext"><p class="epigrafe Estilo18"><br>
+      </p></td>
+</tr>  
+
+<tr>
+  <td height="60" colspan="2" align="left" class="bodytext"><table width="100%" border="0">
+    <tr>
+      <td width="13%" height="36"><p class="bodytext"><em><strong><strong>&#160;&#160; &#160;&#160; &#160;&#160;</strong></strong></em></p></td>
+      <td width="44%" align="center" bgcolor="#CCCCCC" class="bodytext"><em><strong>h<sub>Sb</sub> = </strong></em><strong><em>1,134 <span class="epigrafe">m</span></em></strong></td>
+      <td width="43%" bgcolor="#FFFFFF">&nbsp;</td>
+    </tr>
+  </table></td>
+  <td rowspan="4" class="bodytext">&nbsp;</td>
+  <td align="center" class="epigrafe">&nbsp;</td>
+</tr>
+<tr>
+  <td height="332" colspan="2" align="left" class="bodytext"><p>Nada práctico para llevar a la cama de un paciente. De modo que si en lugar de pinchar una vena decidís pinchar una arteria, agregamos mercurio en la segunda rama del manómetro, y resolvemos el problema como si de un tubo en U se tratara:</p>
+    <p><strong>&nbsp;&nbsp;&nbsp;
+c) Para presiones arteriales se agrega en el
+tubo también mercurio, cuya densidad es de <em>13600 kg/m<strong><em><strong><sup>3</sup></strong></em></strong></em> (ver figura 2). Las medidas de las
+alturas de ambos líquidos en las dos ramas permiten
+medir la presión en el vaso sanguíneo.
+Si <em><strong>h<sub>S</sub></strong></em>= <em>5 cm</em> y <em><strong>h<sub>m</sub></strong></em> = <em>9 cm</em>; calcule la presión
+manométrica de la arteria, expréselo en pascales
+y en mmHg.</strong> Ya sabemos cómo operar, a ver...</p>
+    <p>la presión en el fondo del mercurio vale <strong><em>9 <span class="epigrafe">cmHg (</span><span class="bodytext">11.996</span><span class="epigrafe"> Pa)</span></em></strong>, que es igual a la del fonde de la columna de agua... y cinco centrímetros más arriba valdrá:</p>
+    <blockquote>
+      <p><em><strong>&Delta;pr = </strong></em><em><strong><em>δ<strong><sub>s</sub></strong></em> . g</strong></em><em><strong><em><em><strong><em><strong></strong></em></strong></em></em> . </strong><strong>h<em><strong><sub>sC</sub></strong></em></strong></em></p>
+      <p><em><strong>&Delta;pr = </strong></em><em><strong><em>1060 kg/m<strong><strong><sup>3</sup></strong></strong></em> . 9,8<span class="epigrafe"> m</span></strong></em>/<em><strong><span class="epigrafe">s</span><em><em><strong><em><strong>&sup2;</strong></em></strong></em></em></strong></em><em><strong><em><em><strong><em><strong></strong></em></strong></em></em> . </strong><strong>0,05<span class="epigrafe"> m</span></strong></em></p>
+      <p><em><strong>&Delta;pr = </strong></em><em><strong><em>519 Pa</em></strong></em></p>
+      </blockquote>
+    <p>De modo que -restándole eso a los<strong><em> 11.996<span class="epigrafe"> Pa</span></em></strong><em><strong>-</strong></em> llegamos a <strong><em>11.477<span class="epigrafe"> Pa</span></em></strong>, que en milímetros de mercurio equivalen a:</p></td>
+  <td align="center" class="epigrafe">&nbsp;</td>
+</tr>
+<tr>
+  <td height="60" colspan="2" align="left" class="bodytext"><table width="100%" border="0">
+    <tr>
+      <td width="13%" height="36"><p class="bodytext"><em><strong><strong>&#160;&#160; &#160;&#160; &#160;&#160;</strong></strong></em></p></td>
+      <td width="44%" align="center" bgcolor="#CCCCCC" class="bodytext"><em><strong>pr<em><strong><sub>arteria</sub></strong></em> =<em> 86,1 <span class="epigrafe">mmHg</span></em></strong></em></td>
+      <td width="43%" bgcolor="#FFFFFF">&nbsp;</td>
+    </tr>
+  </table></td>
+  <td align="center" class="epigrafe"><p>&nbsp;</p>
+    <p>&nbsp;</p></td>
+</tr>
+<tr>
+  <td colspan="2" rowspan="3" align="left" valign="top" class="bodytext"><strong>PARA SABER MÁS</strong>: <a href="FT_tubo.html" target="_blank">Acá</a> tenés la teoría y resolución de los tubos en U.</td>
+  <td width="92" rowspan="5" valign="bottom" class="bodytext"><strong><em><sub><img src="img_hstat/ya_va.jpg" alt="Flu&iacute;dos - Ricardo Cabrera" width="85" height="150"></sub></em></strong></td>
+</tr>
+<tr>
+  <td height="18" class="bodytext">&nbsp;</td>
+</tr>
+
+<tr>
+  <td height="18" class="bodytext">&nbsp;</td>
+  </tr>
+<tr>
+  <td colspan="2" bgcolor="#FFFFFF" class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+  </tr>
+
+<tr> <td colspan="2" align="center" valign="middle" bgcolor="#CCCCCC" class="bodytext"><table width="90%" border="0">
+  <tr>
+    <td class="epigrafe">Algunos derechos reservados. 
+  Se permite su reproducci&oacute;n citando la fuente. La Asociaci&oacute;n Internacional de F&iacute;sicos Constructivistas y el Club Boca Juniors recomiendan <strong>NO</strong> utilizar este material did&aacute;ctico por considerarlo altamente pernicioso. &Uacute;ltima actualizaci&oacute;n mar-20. Buenos Aires, Argentina. </td>
+  </tr>
+</table>  </td>
+  <td class="bodytext" width="6">&nbsp;</td>
+  </tr> 
+<tr> <td height="18" colspan="2" class="bodytext">&nbsp;</td><td class="bodytext" width="6">&nbsp;</td>
+<td class="bodytext" width="92">&nbsp;</td>
+</tr> 
+</table></td></tr> </table>
+<img src="img_hstat/transparente.gif" width="10" height="20"></td></tr> 
+<tr> <td class="bodytext"><img src="img_hstat/transparente.gif" width="600" height="20"></td></tr> 
+</table>
+</body>
+</html>

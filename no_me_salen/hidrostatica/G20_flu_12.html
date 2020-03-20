@@ -1,0 +1,175 @@
+<html>
+<head>
+<title>MECANICA DE FLUIDOS, F001, fisica online, ejercicios resueltos</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="keywords" content="problemas resueltos, ejercicios resueltos, cbc, fisica, biofisica, fluidos, liquidos, gases, bernoulli, poiseuille, viscosidad, ideales, viscosos, humedad, difusion, osmosis, nomesalen, no me salen, ricardo cabrera" />
+<meta name="description" content="Ejercicios y problemas resueltos, y apuntes teóricos de Fluidos, mecanismos de transporte de fluidos" />
+<link rel="stylesheet" href="win_ie.css">
+<style type="text/css">
+<!--
+.style1 {
+	color: #3F6386;
+	font-weight: bold;
+}
+.Estilo3 {color: #3F6386}
+.Estilo16 {font-size: 16px}
+.Estilo18 {color: #FF0000}
+.Estilo1 {font-size: 10px}
+.Estilo17 {font-size: 10px}
+.Estilo26 {font-family: "Times New Roman", Times, serif;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 16px;
+}
+.Estilo261 {font-size: 11px}
+.Estilo19 {font-size: 10px; font-weight: bold; font-style: italic; }
+.Estilo181 {font-size: 10}
+.Estilo25 {font-family: Verdana, Arial, sans-serif}
+.Estilo33 {font-size: 10px}
+-->
+</style>
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000" alink="#000000" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<table align=center width="604" border="0" cellspacing="0" cellpadding="0"> 
+  <tr bgcolor="#000000" align="right"> 
+<td width="604"><img src="img_hstat/nombre5.gif" width="369" height="71"></td>
+  </tr> <tr bgcolor="#BB0000" valign="middle" align="left"> 
+<td class="bodytext" height="20"><TABLE WIDTH="600" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+  <TR ALIGN="center" CLASS="menuitem">
+    <TD WIDTH="44" height="19" CLASS="menuitem"><A HREF="../../index.html" CLASS="menuitem">&nbsp;<B>home</B>&nbsp;</A></TD>
+    <TD WIDTH="5" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="113" CLASS="menuitem"><strong><a href="index_hstat.html" class="menuitem">m&aacute;s de hidrostática</a> </strong></TD>
+    <TD width="10" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="125" CLASS="menuitem"><strong><a href="../../intro_NMS.html" class="menuitem">otros temas de F&iacute;sica</a></strong></TD>
+    <TD width="10" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="173" CLASS="menuitem"><strong><a href="../../lista_ciruela.html" class="menuitem">lecciones del maestro Ciruela </a></strong></TD>
+    <TD width="9" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="68" CLASS="menuitem"><strong><a href="../../lista_tonterias.html" class="menuitem">tonter&iacute;as</a></strong></TD>
+    <TD WIDTH="8" CLASS="menuitem"><a href="../energia/index_energia.html" class="menuitem"></a><FONT COLOR="#000000">|</FONT></TD>
+    <TD WIDTH="40" CLASS="menuitem">&nbsp;<B><FONT FACE="Arial, Helvetica, sans-serif"><A HREF="mailto: ricuti@gmail.com" CLASS="menuitem">@</A></FONT><A HREF="../../index.html" CLASS="menuitem"></A></B>&nbsp;</TD>
+  </TR>
+</TABLE></td></tr> <tr> <td class="bodytext" height="8"><img src="img_hstat/transparente.gif" width="600" height="8"></td>
+</tr> 
+<tr align="center"> <td height="1221"> <table width="599" border="0" cellspacing="0" cellpadding="0"> 
+<tr class="bodytext"> <td valign="top" width="599" height="1201"> 
+<table width="597" border="0" cellspacing="0" cellpadding="0"> <tr> 
+  <td height="74" colspan="2" valign="middle" bgcolor="#D7FFFF" class="bodytext"><span class="bodytext"><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>NO ME SALEN<br>
+</strong></span><span class="Estilo3"><em class="bodytext "><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>(<strong>PROBLEMAS RESUELTOS   DE </strong>BIOF&Iacute;SICA<strong> DEL CBC</strong>)</strong></em></span><br>
+      <span class="titulograndegris Estilo16"><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>FLUIDOS<br>
+      <strong><span class="titulochicogris"><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em></strong></span></strong></strong><span class="titulochicogris">HIDROST&Aacute;TICA</span></span></td>
+  <td class="bodytext" rowspan="3" height="74" width="6">&nbsp;</td>
+  <td class="bodytext" height="74" rowspan="3" valign="top" width="92"> 
+<p><img src="img_hstat/cap1.jpg" alt="desesperado" width="85" height="129"></p></td></tr>
+  <tr>
+    <td height="5" colspan="2" bgcolor="#FFFFFF" class="bodytext"><img src="img_hstat/transparente.gif" width="500" height="5"></td>
+  </tr> 
+<tr> <td width="143" height="124" valign="top" class="bodytext"><P><img src="img_hstat/G20_U2_1ra.gif" width="140" height="45"></P>
+    </td>
+  <td width="357" valign="top" class="bodytext"><p><strong>12- Un recipiente cerrado contiene aire a presión<br>
+    atmosférica y está conectado a un manómetro
+    en forma de U que contiene mercurio y cuya
+    otra rama está abierta a la atmósfera. Si se extrae
+    aire del recipiente, cuando la presión en su interior
+    sea 1/4 de atmósfera, el nivel de mercurio en
+    la rama A conectada al recipiente estará, respecto
+    a la rama B abierta (la presión atmosférica es
+    la normal):<br>
+    <br>
+  </strong></p>    </td>
+</tr>
+<tr>
+  <td height="126" colspan="2" align="center" valign="middle" class="bodytext"><table width="100%" border="0">
+    <tr class="bodytext">
+      <td width="56%"><img src="img_hstat/G20_12_1.gif" width="276" height="114"></td>
+      <td width="2%">&nbsp;</td>
+      <td width="42%"><strong>♦ A 57 cm más alto que B<br>
+♦ A 57 cm más bajo que B<br>
+♦ A 19 cm más alto que B<br>
+♦ A 19 cm más bajo que B<br>
+♦ A 76 cm más alto que B<br>
+♦ A a la misma altura que B</strong></td>
+    </tr>
+  </table></td>
+  <td class="bodytext">&nbsp;</td>
+  <td align="center" valign="middle" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="291" colspan="2" align="left" valign="middle" class="bodytext"><p>Este ejercicio es una pavada atómica. Si no sos capaz de orientarte sin ayuda es porque nunca te contaron, ni leíste, el experimento de Torricelli y la medición de la presión atmosférica.&nbsp;En ese caso, estás en un grupo de riesgo. Pero podrás salir fácilmente si hacés un pequeño corte y te leés lo de Torriccelli <a href="FT_atmosf.html" target="_blank">acá</a>.</p>
+    <p>No tiene mucho sentido el dibujo de la izquierda. Ahí pareciera que el gas encerrado en el recipiente tuviera una presión mayor que la atmosférica. Si su presión fuera <em>igual</em> a la atmosférica ambas ramas del tubo en U tendrían la misma altura. Si la rama A se empuja hacia abajo es porque ahí la presión es mayor.</p>
+    <p>Pero si el enunciado dice que la presión en el recipiente es un cuarto de la atmosférica, o sea menor, entonces no cabe duda que la pinta del dispositivo debe ser la de la derecha.</p>
+    <p>Y para conocer la atura de la columna más alta, o sea la de A, basta con saber que una diferencia de presión de una atmósfera produce&nbsp; una columna de mercurio de 76 cm, entonces un cuarto generará una columna de 57 cm (3/4 de la columna para 1 atmósfera).</p></td>
+  <td class="bodytext">&nbsp;</td>
+  <td align="center" valign="middle" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="60" colspan="2" align="left" valign="middle" class="bodytext"><table width="100%" border="0">
+    <tr>
+      <td width="13%" height="36"><p class="bodytext"><em><strong><strong>&#160;&#160; &#160;&#160; &#160;&#160;</strong></strong></em></p></td>
+      <td width="44%" align="center" bgcolor="#CCCCCC" class="bodytext"><strong>♦ A 57 cm más alto que B</strong></td>
+      <td width="43%" bgcolor="#FFFFFF">&nbsp;</td>
+    </tr>
+  </table></td>
+  <td class="bodytext">&nbsp;</td>
+  <td align="center" valign="middle" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="33" colspan="2" align="left" valign="middle" class="bodytext"><p>Si querés una resolución analítica tenés que garantizarme que leíste el experimento de Torricelli.</p>
+    <p>Tomemos dos puntos en la columna A, el superior, S, y el inferior I (en la línea punteada del dibujo). El superior, S se halla a la presión del recipiente, un cuarto de atmósfera. Y el punto inferior se halla a la presión atmosférica, como lo atestigua la columna B, ya que según el prncipio general de la hidrostática: a igual nivel, igual presión.</p>
+    <blockquote><em><strong>&Delta;Pr<sub>SI</sub> = </strong></em><em><strong> <em><strong><span class="Estilo26"> &gamma;</span><sub>Hg</sub></strong></em> . g</strong></em><em><strong><em><em><strong><em><strong></strong></em></strong></em></em> . </strong><strong>h</strong></em> </blockquote>
+    <p>La diferencia de presión es dato: abajo una atmósfera, <em><strong>101.300</strong><strong> </strong></em><span class="epigrafe"><em><strong>Pa</strong></em></span> y arriba un cuarto de atmósfera, <em><strong>25.325</strong><strong> </strong></em><span class="epigrafe"><em><strong>Pa</strong></em></span>. La diferencia es <em><strong>76.000</strong><strong> </strong></em><span class="epigrafe"><em><strong>Pa</strong></em></span>. </p>
+    <blockquote>
+      <p><em><strong>76.000</strong><strong> </strong></em><span class="epigrafe"><em><strong>Pa</strong></em></span><em><strong> = </strong></em><em><strong>13.600 k<span class="epigrafe">g</span></strong></em><span class="epigrafe">/</span><em><strong><span class="epigrafe">m</span><em><strong><sup>3</sup></strong></em> . 9,8<span class="epigrafe"> m</span></strong></em>/<em><strong><span class="epigrafe">s</span><em><em><strong><em><strong>&sup2;</strong></em></strong></em></em> . </strong><strong>h</strong></em></p>
+      </blockquote>
+    <p>De donde </p>
+    <blockquote>
+      <p><em><strong>h</strong></em><strong><em> = 0,57 <span class="epigrafe">m</span></em></strong></p>
+    </blockquote></td>
+  <td width="6" class="bodytext">&nbsp;</td>
+  <td width="92" align="center" valign="middle" class="bodytext"><p class="epigrafe Estilo18"><br>
+      </p></td>
+</tr>  
+
+<tr>
+  <td colspan="2" align="left" class="bodytext">&nbsp;</td>
+  <td rowspan="3" class="bodytext">&nbsp;</td>
+  <td align="center" class="epigrafe">&nbsp;</td>
+</tr>
+<tr>
+  <td height="39" colspan="2" align="left" class="bodytext">&nbsp;</td>
+  <td align="center" class="epigrafe"><p>&nbsp;</p>
+    <p>&nbsp;</p></td>
+</tr>
+<tr>
+  <td colspan="2" rowspan="3" align="left" valign="top" class="bodytext"><strong>PARA SABER MÁS</strong>:</td>
+  <td width="92" rowspan="5" valign="bottom" class="bodytext"><strong><em><sub><img src="img_hstat/ya_va.jpg" alt="Flu&iacute;dos - Ricardo Cabrera" width="85" height="150"></sub></em></strong></td>
+</tr>
+<tr>
+  <td height="18" class="bodytext">&nbsp;</td>
+</tr>
+
+<tr>
+  <td height="18" class="bodytext">&nbsp;</td>
+  </tr>
+<tr>
+  <td colspan="2" bgcolor="#FFFFFF" class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+  </tr>
+
+<tr> <td colspan="2" align="center" valign="middle" bgcolor="#CCCCCC" class="bodytext"><table width="90%" border="0">
+  <tr>
+    <td class="epigrafe">Algunos derechos reservados. 
+  Se permite su reproducci&oacute;n citando la fuente. La Asociaci&oacute;n Internacional de F&iacute;sicos Constructivistas y el Club Boca Juniors recomiendan <strong>NO</strong> utilizar este material did&aacute;ctico por considerarlo altamente pernicioso. &Uacute;ltima actualizaci&oacute;n mar-20. Buenos Aires, Argentina. </td>
+  </tr>
+</table>  </td>
+  <td class="bodytext" width="6">&nbsp;</td>
+  </tr> 
+<tr> <td height="18" colspan="2" class="bodytext">&nbsp;</td><td class="bodytext" width="6">&nbsp;</td>
+<td class="bodytext" width="92">&nbsp;</td>
+</tr> 
+</table></td></tr> </table>
+<img src="img_hstat/transparente.gif" width="10" height="20"></td></tr> 
+<tr> <td class="bodytext"><img src="img_hstat/transparente.gif" width="600" height="20"></td></tr> 
+</table>
+</body>
+</html>
