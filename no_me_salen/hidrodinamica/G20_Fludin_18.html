@@ -1,0 +1,227 @@
+<html>
+<head>
+<title>MECANICA DE FLUIDOS, G20-Fd-01, fisica online, ejercicios resueltos</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="keywords" content="problemas resueltos, ejercicios resueltos, cbc, fisica, biofisica, fluidos, liquidos, gases, bernoulli, poiseuille, viscosidad, ideales, viscosos, humedad, difusion, osmosis, nomesalen, no me salen, ricardo cabrera" />
+<meta name="description" content="Ejercicios y problemas resueltos, y apuntes teóricos de Fluidos, mecanismos de transporte de fluidos" />
+<link rel="stylesheet" href="win_ie.css">
+<style type="text/css">
+<!--
+.style1 {
+	color: #3F6386;
+	font-weight: bold;
+}
+.Estilo3 {color: #3F6386}
+.Estilo16 {font-size: 16px}
+.Estilo26 {	font-family: "Times New Roman", Times, serif;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 16px;
+}
+.Estilo25 {font-family: Verdana, Arial, sans-serif}
+.Estilo12 {font-size: 10px}
+.Estilo15 {color: #000000}
+.Estilo22 {color: #0000FF}
+.Estilo17 {font-size: 10px}
+-->
+</style>
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000" alink="#000000" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<table align=center width="600" border="0" cellspacing="0" cellpadding="0"> 
+  <tr bgcolor="#000000" align="right"> 
+<td><img src="img_hdinam/nombre5.gif" width="369" height="71"></td></tr> <tr bgcolor="#BB0000" valign="middle" align="left"> 
+<td class="bodytext" height="20"><TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+  <TR ALIGN="center" CLASS="menuitem">
+    <TD WIDTH="43" height="19" CLASS="menuitem"><A HREF="../../index.html" CLASS="menuitem">&nbsp;<B>home</B>&nbsp;</A></TD>
+    <TD WIDTH="5" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="119" CLASS="menuitem"><strong><a href="index_hdinam.html" class="menuitem">más de hidrodinámica </a> </strong></TD>
+    <TD width="9" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="127" CLASS="menuitem"><strong><a href="../../intro_NMS.html" class="menuitem">otros temas de F&iacute;sica</a></strong></TD>
+    <TD width="10" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="160" CLASS="menuitem"><strong><a href="../../lista_ciruela.html" class="menuitem">lecciones del maestro Ciruela </a></strong></TD>
+    <TD width="8" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="67" CLASS="menuitem"><strong><a href="../../lista_tonterias.html" class="menuitem">tonter&iacute;as</a></strong></TD>
+    <TD WIDTH="7" CLASS="menuitem"><a href="../energia/index_energia.html" class="menuitem"></a><FONT COLOR="#000000">|</FONT></TD>
+    <TD WIDTH="48" CLASS="menuitem">&nbsp;<B><FONT FACE="Arial, Helvetica, sans-serif"><A HREF="mailto: ricuti@gmail.com" CLASS="menuitem">@</A></FONT><A HREF="../../index.html" CLASS="menuitem"></A></B>&nbsp;</TD>
+  </TR>
+</TABLE></td></tr> <tr> <td class="bodytext" height="8"><p><img src="img_hdinam/transparente.gif" width="600" height="8"></td>
+</tr> 
+<tr align="center"> <td height="1079"> <table width="600" border="0" cellspacing="0" cellpadding="0"> 
+<tr class="bodytext"> <td valign="top" width="594" height="1040"> 
+<table width="600" border="0" cellspacing="0" cellpadding="0"> <tr> 
+  <td height="74" bgcolor="#D7FFFF" class="bodytext"><span class="bodytext"><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>NO ME SALEN<br>
+</strong></span><span class="Estilo3"><em class="bodytext "><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>(<strong>PROBLEMAS RESUELTOS   DE BIOF&Iacute;SICA DEL CBC</strong>)</strong></em></span><br>
+      <span class="titulograndegris Estilo16"><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>FLUIDOS<br>
+      </strong></span><em class="bodytext "><strong><em><strong><em><strong><strong>&#160; &#160; </strong></strong></em></strong></em></strong></em><strong class="titulochicogris">Caudal y continuidad</strong><br> </td>
+  <td class="bodytext" rowspan="3" height="74" width="4">&nbsp;</td>
+  <td class="bodytext" height="74" rowspan="3" valign="top" width="86"> 
+<p><img src="img_hdinam/cap44.jpg" alt="desesperado" width="85" height="143"></p></td></tr>
+  <tr>
+    <td height="18" bgcolor="#FFFFFF" class="bodytext">&nbsp;</td>
+  </tr> 
+<tr> <td height="62" valign="middle" class="bodytext"><table width="100%" border="0">
+  <tr class="bodytext">
+    <td width="28%" height="58" valign="top"><img src="img_hdinam/G20_U2_1ra.gif" width="140" height="45"></td>
+    <td width="2%" valign="top">&nbsp;</td>
+    <td width="70%" valign="top"><strong>18- La sangre sale del corazón a través de la
+      aorta que se ramifica en arterias de menor sección.
+      En el sistema circulatorio, siempre que un vaso
+      tronco se ramifica ocurre que las ramas son de
+      menor sección que el tronco, pero la sección total
+      de las ramas es mayor que la sección del tronco
+      original. Por ejemplo, la sumatoria de las secciones<br>
+      de las arterias es mayor que la sección de la aorta.
+      </strong></td>
+  </tr>
+</table></td>
+  </tr>
+<tr>
+  <td height="586" valign="middle" class="bodytext"><table width="100%" border="0">
+    <tr class="bodytext">
+      <td width="47%"><img src="img_hdinam/G20_Fd_18_1.gif" width="232" height="479"></td>
+      <td width="2%">&nbsp;</td>
+      <td width="51%"><p><strong>Este esquema se repite en la ramificación de arterias,
+      arteriolas y los finísimos capilares que conducen
+      la sangre a los órganos y músculos. Luego
+      sigue un esquema inverso: el flujo pasa desde los
+      capilares a las vénulas, venas menores y venas
+      mayores que llevan de vuelta la sangre al corazón.</strong></p>
+        <p><strong>&nbsp;&nbsp;&nbsp; a) Indique cuál de los tres gráficos representa
+          mejor la sección total de los vasos sanguíneos a lo
+          largo de los distintos sectores del sistema circulatorio.
+          E indique cuál es el gráfico que mejor representa
+          la velocidad de la sangre en los diferente tramos.</strong></p>
+        <p><strong>&nbsp;&nbsp;&nbsp; b) Esta carácteristica del árbol circulatorio,
+    ¿qué implicancia tiene respecto a la velocidad de
+    la sangre a lo largo del circuito? ¿qué ventaja
+    funcional tiene esta estructura?</strong></p>
+        <p><strong> &nbsp;&nbsp;&nbsp; c) Sabiendo que el caudal sanguíneo es, para
+          una persona en reposo, de 5 l/min y los radios disminuyen
+          desde 10 mm para la aorta a 0,008 mm
+          para los capilares y la sección total de los capilares
+          de aproximadamente 2000 cm<em>&sup2;</em>.<br>
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; i) Determinar el número de capilares y el caudal
+          en cada uno de ellos.<br>
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ii) Determinar la velocidad de la sangre en la
+          aorta y en cada uno de los capilares.</strong></p></td>
+    </tr>
+  </table></td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext" valign="middle">&nbsp;</td>
+</tr>
+<tr>
+  <td height="457" align="left" valign="middle" class="bodytext"><p>Mirá, vamos a resolver esa cuestión de los gráficos en último término. Si analizamos las cuestiones cuantitativas previamente, elegir los gráficos correspondientes va a ser una pavada.</p>
+    <p><strong>&nbsp;&nbsp;&nbsp; c) Sabiendo que el caudal sanguíneo es, para
+      una persona en reposo, de 5 L/min y los radios disminuyen
+      desde 10 mm para la aorta a 0,008 mm
+      para los capilares y la sección total de los capilares
+      de aproximadamente 2000 cm<em>&sup2;</em>.</strong> Primero, ese número, <strong><em>5 <span class="epigrafe">L</span></em></strong><em><span class="epigrafe">/</span></em><strong><em><span class="epigrafe">min</span></em></strong>, te lo tenés que grabar de memoria a fuego, lo mismo que su equivalente en unidades internacionales, <strong><em>8,33</em></strong> <em><strong><span class="epigrafe">x10</span></strong></em><span class="epigrafe"><strong><em><sup>-5</sup>m<sup>3</sup></em></strong></span>/<em><strong><span class="epigrafe">s</span></strong></em>, es el caudal sanguínea total humano, si querés, medido a la salida del corazón. Es un caudal medio, ya que supongo que te habrás dado cuenta el caudal real es pulsante. </p>
+    <p>Como el sistema cardiovascular es cerrado, ese caudal se mantiene constante a todo lo largo del sistema. Pero eso no quiere decir que por cada vaso, grande o pequeño pase ese mismo cauda... quiere decir que el caudal&nbsp;se mantiene a lo largo de la sección <strong>sumada</strong> de cada vaso o vasito o sea de cada tramo anatómico-fisiológico por decirlo de alguna manera. Los vasos capilares son muy finitos (de ahí su nombre: finitos como pelos) por cada capilar circula muy poca sangre en comparación con los 5 litros por minuto del&nbsp;corazón. Pero si considerás todos, absolutamente todos los capilares del cuerpo, por ahí, pasa exactamente el mismo caudal que sale del corazón y después de uns minutos vuelve a entrar en el corazón sin pérdida ni ganancia. Acá en este <a href="FT_capilares.html">link</a>, te explico de otra manera ese asunto de cómo ha de considerarse el caudal en los sistemas ramificados.</p>
+    <p><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; i) Determinar el número de capilares y el caudal
+          en cada uno de ellos.</strong> Esto es súpersencillo. El n&uacute;mero de capilares surge  dividiendo la secci&oacute;n capilar total por la secci&oacute;n de un capilar solo. Eso es f&aacute;cil. La secci&oacute;n de un capilar solo no la tenemos, pero tenemos su radio.</p>
+    <blockquote>
+      <p> <em><strong>S<sub>1c</sub></strong></em> <em><strong>=<span class="Estilo26"> &pi; </span><em><strong>r<sub>c</sub>&sup2;</strong></em></strong></em> <em><strong>= <strong>3,14</strong> <em><strong>(8 x 10<sup>-6</sup> <span class="Estilo17">m</span>)&sup2;</strong></em></strong></em></p>
+      <p><em><strong>S<sub>1c</sub></strong></em> <em><strong>= 2<em><strong> x 10<sup>-10</sup> <span class="Estilo17">m</span>&sup2;</strong></em></strong></em></p>
+    </blockquote>
+    <p>Ahora divido ambas secciones. </p>
+    <blockquote>
+      <p><em><strong>#caps = S<sub>Tc</sub> / S<sub>1c</sub></strong></em></p>
+      <p><em><strong>#caps = 2 x 10<sup>-1</sup> <span class="Estilo17">m&sup2;</span> / 2<em><strong> x 10<sup>-10</sup> <span class="Estilo17">m</span>&sup2;</strong></em></strong></em></p>
+    </blockquote></td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext" valign="middle">&nbsp;</td>
+</tr>
+<tr>
+  <td height="57" valign="middle" class="bodytext"><table width="507" height="31" border="0">
+    <tr>
+      <td width="31" height="27" valign="middle">&nbsp;</td>
+      <td width="379" align="center" bordercolor="#FFFFFF" bgcolor="#CCCCCC" class="bodytext"><em class="bodytext"><strong>#caps = 10<sup>9</sup></strong></em> <em class="bodytext"><strong>= 1.000.000.000</strong></em><em> (&iexcl;</em>mil millones<em>!) </em></td>
+      <td width="83" align="center" class="bodytext">&nbsp;</td>
+    </tr>
+  </table></td>
+  <td class="bodytext">&nbsp;</td>
+  <td valign="top" class="bodytext">&nbsp;</td>
+</tr>
+
+<tr>
+  <td height="120" align="left" valign="middle" class="bodytext"><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ii) Determinar la velocidad de la sangre en la
+          aorta y en cada uno de los capilares.</strong> La velocidad en los capilares, tenemos que plicar el principio de continuidad pero aplicado no a un capilar sino a la sección total capilar (caudal en el corazón igual a caudal en la sección total capilar) , que es el dato del enunciado, que ya usamos en el ítem anterior.
+          <blockquote>
+            <p><strong><em>v<strong><sub>1c</sub></strong> = Q<strong><sub>1c </sub></strong>/</em></strong> <em><strong>S<sub>1c</sub></strong></em></p>
+            <p><strong><em>v<strong><sub>1c</sub></strong> = </em></strong><strong><em> Q<strong><sub>c </sub></strong>/</em></strong> <em><strong>S<sub>c</sub></strong></em></p>
+            <p><strong><em>v<strong><sub>1c</sub></strong> = <em><strong> 8,33 x 10<sup>-14</sup> <span class="Estilo17">m&sup3;</span></strong></em></em></strong><em><span class="Estilo17">/</span></em><strong><em><em><strong><span class="Estilo17">s</span></strong></em> /</em></strong> <em><strong>2<em><strong> x 10<sup>-10</sup> <span class="Estilo17">m</span>&sup2;</strong></em></strong></em></p>
+        </blockquote></td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="54" align="center" valign="middle" class="bodytext"><table width="507" height="31" border="0">
+    <tr>
+      <td width="31" height="27" valign="middle">&nbsp;</td>
+      <td width="378" align="center" bordercolor="#FFFFFF" bgcolor="#CCCCCC" class="bodytext"><strong><em>v<strong><sub>1c</sub></strong> = 4,15 x 10<sup>-4</sup> <span class="Estilo17">m</span></em></strong><em><span class="Estilo17">/</span></em><strong><em><span class="Estilo17">s</span></em></strong> <strong><em>= 0,415 <span class="Estilo17">mm</span></em></strong><em><span class="Estilo17">/</span></em><strong><em><span class="Estilo17">s</span></em></strong></td>
+      <td width="84" align="center" class="bodytext">&nbsp;</td>
+    </tr>
+  </table></td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td align="left" valign="middle" class="bodytext"><p>Como ves, en el capilar la sangre se mueve muy lentamente. Y es lo lógico que que es el capilar y no en otro lugar donde la sangre cumple su función fisiológica&nbsp;de intercambios gaseosos y moleculares, procesos que requieren bastante timpo. En el resto del árbol la sangre sólo se desplaza, sólo se mueve de un lado a otro.</p>
+    <p>Vamos con los gráficos.</p></td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td align="center" valign="middle" class="bodytext"><table width="100%" border="0">
+    <tr class="bodytext">
+      <td width="47%" height="481"><img src="img_hdinam/G20_Fd_18_1.gif" width="232" height="479"></td>
+      <td width="2%">&nbsp;</td>
+      <td width="51%"><p>El esquema de arriba te sirve de eso, de esquema. Acordate que los capilares rondan los mil millones.&nbsp; En general se organizan en pequeños glomérulos capilares (al conjunto de glomérulos lo llamamos lecho capilar) y cada glomérulo es alimentado por una arteriola que se ramifica en más o menos mil capilares. O sea, la cosa es un poco más abrupta que lo que indica el gráfico, pero...</p>
+        <p>El de abajo de todo, con forma de valle, bien podría esquematizar la velocidad de circulación en los vasos individuales. La parte de arriba valdría <strong><em><strong><em><strong><strong>0,21 </strong><span class="Estilo15"><strong><span class="Estilo12"> m</span></strong></span></strong></em></strong></em></strong><em><em><span class="Estilo15"><span class="Estilo12">/</span></span></em></em><strong><em><strong><em><strong><span class="Estilo15"><strong><span class="Estilo12"><em><strong><span class="epigrafe">s</span></strong></em></span></strong></span></strong></em></strong></em></strong>&nbsp;(velocidad en la aorta o en la cava) y la del fondo        <strong><em>0,000415 <span class="Estilo17">m</span></em></strong><em><span class="Estilo17">/</span></em><strong><em><span class="Estilo17">s</span></em></strong> (velocidad en un capilar cualquiera).</p>
+        <p>El que le sigue, con forma de montañita, puede representar la sección total de cada etapa fisiológica. Las partes de abajo de la montaña valdrían 3 cm<em><strong><em><strong>&sup2;</strong></em></strong></em> (aorta y cava) y la parte de la cima de la montañita 2000 cm<em><strong><em><strong>&sup2;</strong></em></strong></em> en la sección total capilar.</p>
+        <p>El de arriba, co forma de S invertida puede graficar varias cosas, una de ellas podría ser pa presión de la sangre a lo largo de sistema. Arrancaría en 10 cmHg y terminaría en 0,5 cmHg, ponele.</p></td>
+    </tr>
+  </table></td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td align="center" valign="middle" class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+</tr>
+<tr> 
+  <td align="center" valign="middle" class="bodytext">&nbsp;</td>
+  <td width="4" class="bodytext">&nbsp;</td>
+  <td width="86" class="bodytext">&nbsp;</td>
+</tr>
+
+<tr>
+  <td height="32" align="left" class="bodytext"><p><strong>Para saber más</strong>:&nbsp;<a href="FT_capilares.html" target="_blank">Acá</a> cómo hay que considerar el caudal en las ramificaciones. <a href="FT_sistema.html" target="_blank">Acá</a> un apunte teórico para entender un poco más el sistema cardiovascular mamífero.</p></td>
+  <td class="bodytext">&nbsp;</td>
+  <td width="86" rowspan="3" valign="bottom" class="bodytext"><img src="../cinematica/img_cin/ric_teclado.jpg" alt="teclado ricardo cabrera" width="85" height="130"></td>
+</tr>
+
+<tr>
+  <td height="18" bgcolor="#FFFFFF" class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+  </tr>
+
+<tr> <td align="center" valign="middle" bgcolor="#CCCCCC" class="bodytext"><table width="93%" border="0">
+  <tr>
+    <td class="epigrafe">Algunos derechos reservados. 
+      Se permite su reproducci&oacute;n citando la fuente. Se recomienda fervientemente su lectura en bibliotecas, escuelas, clubes y reuniones de consorcios. &Uacute;ltima actualizaci&oacute;n mar-20. Buenos Aires, Argentina. </td>
+  </tr>
+</table>  </td>
+  <td class="bodytext" width="4">&nbsp;</td>
+  </tr> 
+<tr> <td height="18" class="bodytext">&nbsp;</td><td class="bodytext" width="4">&nbsp;</td>
+<td class="bodytext" width="86">&nbsp;</td>
+</tr> 
+</table></td></tr> </table>
+<p><img src="img_hdinam/transparente.gif" width="10" height="20"></td></tr> 
+<tr> <td class="bodytext"><p><img src="img_hdinam/transparente.gif" width="600" height="20"></td></tr> 
+</table>
+</body>
+</html>
