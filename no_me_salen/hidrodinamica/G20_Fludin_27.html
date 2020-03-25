@@ -1,0 +1,135 @@
+<html>
+<head>
+<title>MECANICA DE FLUIDOS, G20-Fd-01, fisica online, ejercicios resueltos</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="keywords" content="problemas resueltos, ejercicios resueltos, cbc, fisica, biofisica, fluidos, liquidos, gases, bernoulli, poiseuille, viscosidad, ideales, viscosos, humedad, difusion, osmosis, nomesalen, no me salen, ricardo cabrera" />
+<meta name="description" content="Ejercicios y problemas resueltos, y apuntes teóricos de Fluidos, mecanismos de transporte de fluidos" />
+<link rel="stylesheet" href="win_ie.css">
+<style type="text/css">
+<!--
+.style1 {
+	color: #3F6386;
+	font-weight: bold;
+}
+.Estilo3 {color: #3F6386}
+.Estilo16 {font-size: 16px}
+.Estilo26 {	font-family: "Times New Roman", Times, serif;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 16px;
+}
+.Estilo25 {font-family: Verdana, Arial, sans-serif}
+.Estilo12 {font-size: 10px}
+.Estilo15 {color: #000000}
+.Estilo22 {color: #0000FF}
+.Estilo17 {font-size: 10px}
+.Estilo36 {font-weight: bold; font-size: 11px; font-style: italic; }
+.Estilo37 {font-size: 10px}
+.Estilo32 {font-weight: bold; font-size: 11px;}
+.Estilo38 {font-size: 11px}
+.Estilo27 {font-weight: bold}
+.Estilo29 {font-size: 11px; font-style: italic; }
+-->
+</style>
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000" alink="#000000" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<table align=center width="600" border="0" cellspacing="0" cellpadding="0"> 
+  <tr bgcolor="#000000" align="right"> 
+<td><img src="img_hdinam/nombre5.gif" width="369" height="71"></td></tr> <tr bgcolor="#BB0000" valign="middle" align="left"> 
+<td class="bodytext" height="20"><TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+  <TR ALIGN="center" CLASS="menuitem">
+    <TD WIDTH="43" height="19" CLASS="menuitem"><A HREF="../../index.html" CLASS="menuitem">&nbsp;<B>home</B>&nbsp;</A></TD>
+    <TD WIDTH="5" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="119" CLASS="menuitem"><strong><a href="index_hdinam.html" class="menuitem">más de hidrodinámica </a> </strong></TD>
+    <TD width="9" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="127" CLASS="menuitem"><strong><a href="../../intro_NMS.html" class="menuitem">otros temas de F&iacute;sica</a></strong></TD>
+    <TD width="10" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="160" CLASS="menuitem"><strong><a href="../../lista_ciruela.html" class="menuitem">lecciones del maestro Ciruela </a></strong></TD>
+    <TD width="8" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="67" CLASS="menuitem"><strong><a href="../../lista_tonterias.html" class="menuitem">tonter&iacute;as</a></strong></TD>
+    <TD WIDTH="7" CLASS="menuitem"><a href="../energia/index_energia.html" class="menuitem"></a><FONT COLOR="#000000">|</FONT></TD>
+    <TD WIDTH="48" CLASS="menuitem">&nbsp;<B><FONT FACE="Arial, Helvetica, sans-serif"><A HREF="mailto: ricuti@gmail.com" CLASS="menuitem">@</A></FONT><A HREF="../../index.html" CLASS="menuitem"></A></B>&nbsp;</TD>
+  </TR>
+</TABLE></td></tr> <tr> <td class="bodytext" height="8"><p><img src="img_hdinam/transparente.gif" width="600" height="8"></td>
+</tr> 
+<tr align="center"> <td height="1060"> <table width="600" border="0" cellspacing="0" cellpadding="0"> 
+<tr class="bodytext"> <td valign="top" width="594" height="1021"> 
+<table width="600" border="0" cellspacing="0" cellpadding="0"> <tr> 
+  <td height="74" bgcolor="#D7FFFF" class="bodytext"><span class="bodytext"><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>NO ME SALEN<br>
+</strong></span><span class="Estilo3"><em class="bodytext "><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>(<strong>PROBLEMAS RESUELTOS   DE BIOF&Iacute;SICA DEL CBC</strong>)</strong></em></span><br>
+      <span class="titulograndegris Estilo16"><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>FLUIDOS<br>
+      </strong></span><em class="bodytext "><strong><em><strong><em><strong><strong>&#160; &#160; </strong></strong></em></strong></em></strong></em><strong class="titulochicogris">Fluidos ideales</strong><br> </td>
+  <td class="bodytext" rowspan="3" height="74" width="4">&nbsp;</td>
+  <td class="bodytext" height="74" rowspan="3" valign="top" width="86"> 
+<p><img src="img_hdinam/cap44.jpg" alt="desesperado" width="85" height="143"></p></td></tr>
+  <tr>
+    <td height="18" bgcolor="#FFFFFF" class="bodytext">&nbsp;</td>
+  </tr> 
+<tr> <td height="51" valign="middle" class="bodytext"><table width="100%" border="0">
+  <tr class="bodytext">
+    <td width="28%" height="47" valign="top"><img src="img_hdinam/G20_U2_1ra.gif" width="140" height="45"></td>
+    <td width="2%" valign="top">&nbsp;</td>
+    <td width="70%" valign="top"><strong>27-  Una bomba permite regular el caudal circulante de un fluido ideal dentro de una  tubería horizontal que tiene un estrechamiento.</strong></td>
+  </tr>
+</table></td>
+  </tr>
+<tr>
+  <td height="150" valign="middle" class="bodytext"><p><strong>&nbsp;&nbsp;&nbsp; a) ¿La diferencia de presión entre la parte ancha y la parte  angosta depende o no del caudal circulante?<br>
+   &nbsp;&nbsp;&nbsp; b) Si el fluido no circula ¿cuál es la diferencia de presión  entre la parte ancha y la estrecha?<br>
+   &nbsp;&nbsp;&nbsp; c) Si en cierta ocasión aumenta la potencia de la bomba  aumentando el caudal, ¿la diferencia de presión entre la parte ancha y la  estrecha es mayor o menor a la que tenía originalmente.<br>
+   &nbsp;&nbsp;&nbsp; d) Para un caso en que el caudal aumente al doble del valor  que tenía, encuentre la relación entre la nueva y la antigua diferencia de  presión entre la parte ancha y la estrecha.</strong></p></td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext" valign="middle">&nbsp;</td>
+</tr>
+<tr>
+  <td height="148" align="left" valign="middle" bgcolor="#FF0000" class="bodytext"><strong>error planteo potencia</strong></td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext" valign="middle">&nbsp;</td>
+</tr>
+<tr>
+  <td height="456" align="left" valign="middle" class="bodytext"><p>Buenísimo, interesante ejercicio que nos va a hacer  pensar... Todo lo vamos a analizar a la luz del principio de Bernoulli.</p>
+    <p><strong>&nbsp;&nbsp;&nbsp; a) ¿La diferencia de presión entre la parte ancha y la parte  angosta depende o no del caudal circulante?</strong> Como la tubería es horizontal  podemos hacer el análisis prescindiendo de los términos de energía  potencial&nbsp;(aún si no fuera horizontal también podríamos despreciarlo ya  que la comparación la podemos hacer entre el punto de estrechamiento y un punto  justo antes del estrechamiento o justo después, o sea, con una diferencia de altura  despreciable).</p>
+    <blockquote>
+      <p><strong><em><strong><em><strong>&Delta;<strong><em>P <strong><em><strong><em><strong>= </strong></em></strong></em></strong></em></strong> <strong><em>&frac12; <span class="Estilo25">&rho;</span> (v<strong><em><strong><strong><em><strong><em><sub>ancha</sub></em></strong></em></strong></strong></em>&sup2; </strong></em></strong><em>&ndash;</em> <strong><em> v<strong><em><strong><strong><em><strong><em><sub>estrecha</sub></em></strong></em></strong></strong></em>&sup2;</strong></em></strong></strong></em></strong>)</em></strong></p>
+      </blockquote>
+    <p>Y ahí podés ver que la diferencia de presión depende de la diferencia de los cuadrados de las velocidades (cuando la física y el álgebra te resulten más familiar podrás advertir que la diferencia de presión es muy sensible a la velocidad).</p>
+    <p><strong>&nbsp;&nbsp;&nbsp; b) Si el fluido no circula ¿cuál es la diferencia de presión  entre la parte ancha y la estrecha?</strong> En la misma línea de pensamiento, vemos que si la velocidad se anula (el caudal se detiene), la diferencia de presión se hace cero.</p>
+    <p><strong>&nbsp;&nbsp;&nbsp; c) Si en cierta ocasión aumenta la potencia de la bomba  aumentando el caudal, ¿la diferencia de presión entre la parte ancha y la  estrecha es mayor o menor a la que tenía originalmente.</strong> Bueno, acá hay un problema casi filosófico... inesperado. Resulta que si el fluido es ideal el trabajo que hace la bomba es nulo y mantiene una velocidad constante o su trabajo no es nulo y la velocidad del fluido aumenta constantemente. Ambas posibilidades son ridículas y el motivo es que si en un circuito colocamos una bomba es porque el fluido es real y viscoso, y las consideraciones cambian. Por ahora podés no darle mucha importancia a esta pregunta. </p>
+    <p><strong>&nbsp;&nbsp;&nbsp; d) Para un caso en que el caudal aumente al doble del valor  que tenía, encuentre la relación entre la nueva y la antigua diferencia de  presión entre la parte ancha y la estrecha.</strong> Si el caudal aumenta al doble, y como las secciones no cambian, también aumentan al doble las velocidades tanto la de la parte ancha como la de la parte estrecha. Por lo tanto los aumentos al cuadrado van a ser el cuádruple, y su diferencia también. Si te hiciese una demostración algebraica de esto terminarías odiándome y sería una pena. Hagamos otra cosa: inventate una velocidad cualquiera para las velocidades y calculá la diferencia de presión. Acto seguido hacé lo mismo pero con los valores de las velocidades duplicado... y fijate.</p></td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext" valign="middle">&nbsp;</td>
+</tr>
+<tr>
+  <td align="center" valign="middle" class="bodytext">&nbsp;</td>
+  <td width="4" class="bodytext">&nbsp;</td>
+  <td width="86" valign="top" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="32" align="left" class="bodytext"><p><strong>Para saber más</strong>:&nbsp;</p></td>
+  <td class="bodytext">&nbsp;</td>
+  <td width="86" rowspan="3" valign="bottom" class="bodytext"><img src="../cinematica/img_cin/ric_teclado.jpg" alt="teclado ricardo cabrera" width="85" height="130"></td>
+</tr>
+
+<tr>
+  <td height="18" bgcolor="#FFFFFF" class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+  </tr>
+
+<tr> <td align="center" valign="middle" bgcolor="#CCCCCC" class="bodytext"><table width="93%" border="0">
+  <tr>
+    <td class="epigrafe">Algunos derechos reservados. 
+      Se permite su reproducci&oacute;n citando la fuente. Se recomienda fervientemente su lectura en bibliotecas, escuelas, clubes y reuniones de consorcios. &Uacute;ltima actualizaci&oacute;n mar-20. Buenos Aires, Argentina. </td>
+  </tr>
+</table>  </td>
+  <td class="bodytext" width="4">&nbsp;</td>
+  </tr> 
+<tr> <td height="18" class="bodytext">&nbsp;</td><td class="bodytext" width="4">&nbsp;</td>
+<td class="bodytext" width="86">&nbsp;</td>
+</tr> 
+</table></td></tr> </table>
+<p><img src="img_hdinam/transparente.gif" width="10" height="20"></td></tr> 
+<tr> <td class="bodytext"><p><img src="img_hdinam/transparente.gif" width="600" height="20"></td></tr> 
+</table>
+</body>
+</html>

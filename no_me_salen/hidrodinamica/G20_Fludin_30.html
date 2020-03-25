@@ -1,0 +1,251 @@
+<html>
+<head>
+<title>MECANICA DE FLUIDOS, G20-Fd-01, fisica online, ejercicios resueltos</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="keywords" content="problemas resueltos, ejercicios resueltos, cbc, fisica, biofisica, fluidos, liquidos, gases, bernoulli, poiseuille, viscosidad, ideales, viscosos, humedad, difusion, osmosis, nomesalen, no me salen, ricardo cabrera" />
+<meta name="description" content="Ejercicios y problemas resueltos, y apuntes teóricos de Fluidos, mecanismos de transporte de fluidos" />
+<link rel="stylesheet" href="win_ie.css">
+<style type="text/css">
+<!--
+.style1 {
+	color: #3F6386;
+	font-weight: bold;
+}
+.Estilo3 {color: #3F6386}
+.Estilo16 {font-size: 16px}
+.Estilo26 {	font-family: "Times New Roman", Times, serif;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 16px;
+}
+.Estilo25 {font-family: Verdana, Arial, sans-serif}
+.Estilo12 {font-size: 10px}
+.Estilo15 {color: #000000}
+.Estilo22 {color: #0000FF}
+.Estilo17 {font-size: 10px}
+.Estilo36 {font-weight: bold; font-size: 11px; font-style: italic; }
+.Estilo37 {font-size: 10px}
+.Estilo32 {font-weight: bold; font-size: 11px;}
+.Estilo38 {font-size: 11px}
+.Estilo27 {font-weight: bold}
+.Estilo29 {font-size: 11px; font-style: italic; }
+-->
+</style>
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000" alink="#000000" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<table align=center width="600" border="0" cellspacing="0" cellpadding="0"> 
+  <tr bgcolor="#000000" align="right"> 
+<td><img src="img_hdinam/nombre5.gif" width="369" height="71"></td></tr> <tr bgcolor="#BB0000" valign="middle" align="left"> 
+<td class="bodytext" height="20"><TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+  <TR ALIGN="center" CLASS="menuitem">
+    <TD WIDTH="43" height="19" CLASS="menuitem"><A HREF="../../index.html" CLASS="menuitem">&nbsp;<B>home</B>&nbsp;</A></TD>
+    <TD WIDTH="5" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="119" CLASS="menuitem"><strong><a href="index_hdinam.html" class="menuitem">más de hidrodinámica </a> </strong></TD>
+    <TD width="9" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="127" CLASS="menuitem"><strong><a href="../../intro_NMS.html" class="menuitem">otros temas de F&iacute;sica</a></strong></TD>
+    <TD width="10" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="160" CLASS="menuitem"><strong><a href="../../lista_ciruela.html" class="menuitem">lecciones del maestro Ciruela </a></strong></TD>
+    <TD width="8" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="67" CLASS="menuitem"><strong><a href="../../lista_tonterias.html" class="menuitem">tonter&iacute;as</a></strong></TD>
+    <TD WIDTH="7" CLASS="menuitem"><a href="../energia/index_energia.html" class="menuitem"></a><FONT COLOR="#000000">|</FONT></TD>
+    <TD WIDTH="48" CLASS="menuitem">&nbsp;<B><FONT FACE="Arial, Helvetica, sans-serif"><A HREF="mailto: ricuti@gmail.com" CLASS="menuitem">@</A></FONT><A HREF="../../index.html" CLASS="menuitem"></A></B>&nbsp;</TD>
+  </TR>
+</TABLE></td></tr> <tr> <td class="bodytext" height="8"><p><img src="img_hdinam/transparente.gif" width="600" height="8"></td>
+</tr> 
+<tr align="center"> <td height="779"> <table width="600" border="0" cellspacing="0" cellpadding="0"> 
+<tr class="bodytext"> <td valign="top" width="594" height="2225"> 
+<table width="600" border="0" cellspacing="0" cellpadding="0"> <tr> 
+  <td height="74" bgcolor="#D7FFFF" class="bodytext"><span class="bodytext"><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>NO ME SALEN<br>
+</strong></span><span class="Estilo3"><em class="bodytext "><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>(<strong>PROBLEMAS RESUELTOS   DE BIOF&Iacute;SICA DEL CBC</strong>)</strong></em></span><br>
+      <span class="titulograndegris Estilo16"><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>FLUIDOS<br>
+      </strong></span><em class="bodytext "><strong><em><strong><em><strong><strong>&#160; &#160; </strong></strong></em></strong></em></strong></em><strong class="titulochicogris">Fluidos ideales</strong><br> </td>
+  <td class="bodytext" rowspan="3" height="74" width="4">&nbsp;</td>
+  <td class="bodytext" height="74" rowspan="3" valign="top" width="86"> 
+<p><img src="img_hdinam/cap44.jpg" alt="desesperado" width="85" height="143"></p></td></tr>
+  <tr>
+    <td height="18" bgcolor="#FFFFFF" class="bodytext">&nbsp;</td>
+  </tr> 
+<tr> <td height="208" valign="middle" class="bodytext"><table width="100%" border="0">
+  <tr class="bodytext">
+    <td width="28%" height="47" valign="top"><img src="img_hdinam/G20_U2_1ra.gif" width="140" height="45"></td>
+    <td width="2%" rowspan="2" valign="top">&nbsp;</td>
+    <td width="70%" rowspan="2" valign="top"><table width="100%" height="202" border="0">
+      <tr class="bodytext">
+        <td height="198"><strong>30- Se llena una manguera con nafta y se cierra
+          por sus dos extremos. </strong><strong>Se introduce un extremo
+            en un depósito de nafta a 0,3 m por debajo
+            de la superficie y el otro a 0,5 m por debajo del
+            primer extremo y se abren ambos extremos. El tubo tiene una sección
+            transversal interior de área <em><strong>4 x 10<sup>-4</sup> <span class="Estilo17">m&sup2;</span></strong></em>. La densidad de la
+            nafta es <em>680</em></strong><em><strong><span class="Estilo17"> kg m<sup>-3</sup></span></strong></em><strong> y su viscosidad
+              es despreciable. Ambos
+              recipientes están abiertos a la
+              atmósfera. </strong><strong><br>
+             &nbsp;&nbsp;&nbsp; a) ¿Cuál es el caudal inicial
+      del flujo?<br>
+      &nbsp;&nbsp;&nbsp;
+b) ¿Cuál sería el caudal
+      inicial si el tubo tuviera la mitad de radio?<br>
+      &nbsp;&nbsp;&nbsp;
+c) ¿Cuánto vale la presión manométrica en el
+      arco superior de la manguera?</strong></td>
+      </tr>
+      </table></td>
+  </tr>
+  <tr class="bodytext">
+    <td height="152" align="center" valign="top"><img src="img_hdinam/G20_Fd_30_1.gif" width="123" height="150"></td>
+  </tr>
+</table></td>
+  </tr>
+<tr>
+  <td height="57" valign="middle" class="bodytext"><p>El dispositivo se llama sif&oacute;n, y es divertid&iacute;simo: es el sistema con el que se evac&uacute;an  aquellos recipientes que no tienen agujero de desagote y que no se pueden volcar. Si uno sigue el procedimiento descripto en el enunciado, ver&aacute; que por el extremo de afuera de la manguera sale el chorro que desagota al recipiente y contin&uacute;a vaci&aacute;ndolo mientras se cumpla que ese extremo est&eacute; m&aacute;s bajo que el extremo en el interior. S&oacute;lo pensar que el l&iacute;quido avanza por el tramo ascendente hace que parezca m&aacute;gico. Pero es Bernoulli puro.</p>
+    <p>De todos modos el problemita este presenta dos o tres dificultades interesantes.</p></td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext" valign="middle">&nbsp;</td>
+</tr>
+<tr>
+  <td height="248" align="left" valign="middle" class="bodytext"><table width="100%" border="0">
+    <tr>
+      <td width="57%" height="240" class="bodytext"><p><strong>&nbsp;&nbsp;&nbsp; a) ¿Cuál es el caudal inicial
+        del flujo?</strong> La primera es saber elegir los puntos de la corriente que vamos a comparar con la ecuaci&oacute;n de Bernoulli. Est&aacute; claro que el punto <strong>C</strong> debe aparecer, ya que nos piden hallar el caudal y para eso hace falta conocer la velocidad del chorro de salida por la manguera. Pero &iquest;con cu&aacute;l lo comparo, con <strong>B</strong> (ese es el primer impulso) o con <strong>A</strong>? </p>
+        <p>La respuesta es que s&oacute;lo comparando con <strong>A</strong> hallaremos la soluci&oacute;n. Pero en principio no hay c&oacute;mo saberlo: s&oacute;lo la experiencia te lo ir&aacute; ense&ntilde;ando. Si probamos la otra comparaci&oacute;n el problema no sale y listo; no es grave, porque inmediatamente probamos el otro par... y ah&iacute; s&iacute;. </p></td>
+      <td width="43%" align="center"><p><img src="img_hdinam/G20_Fd_30_2.gif" width="171" height="230"></td>
+    </tr>
+    </table></td>
+  <td class="bodytext">&nbsp;</td>
+  <td align="center" valign="middle" class="bodytext"><p><em><strong><strong><em>h<strong><em><strong><strong><em><strong><em><sub>S</sub></em></strong></em></strong></strong></em></strong></em></strong> <em><strong>= 1,2 m</strong></em></strong></em></p>
+    <p><strong><em>h<strong><em><strong><strong><em><strong><em><sub>A</sub></em></strong></em></strong></strong></em></strong></em></strong> <em><strong>= 0,8 m</strong></em></p>
+    <p><strong><em>h<strong><em><strong><strong><em><strong><em><sub>B</sub></em></strong></em></strong></strong></em></strong></em></strong> <em><strong>= 0,5 m</strong></em></p>
+    <p><strong><em>h<strong><em><strong><strong><em><strong><em><sub>C</sub></em></strong></em></strong></strong></em></strong></em></strong> <em><strong>= 0 m</strong></em></p></td>
+</tr>
+<tr>
+  <td height="544" align="left" valign="middle" class="bodytext"><blockquote>
+    <p><strong><em><strong><em><strong><strong><em>p<span class="epigrafe">r</span></em></strong></strong></em></strong><strong><em><strong><strong><em><strong><em><sub>A</sub></em></strong></em></strong></strong></em></strong> + <span class="Estilo25">&rho;</span> g h<strong><em><strong><strong><em><strong><em><sub>A</sub></em></strong></em></strong></strong></em></strong></em></strong> + <strong><em>&frac12; <span class="Estilo25">&rho;</span> v<strong><em><strong><strong><em><strong><em><sub>A</sub></em></strong></em></strong></strong></em></strong><strong>&sup2;</strong></em></strong> <em><strong>= </strong></em><strong><em><strong><em><strong><strong><em>p<span class="epigrafe">r</span></em></strong></strong></em></strong><strong><em><strong><strong><em><strong><em><sub>C </sub></em></strong></em></strong></strong></em></strong>+ <span class="Estilo25">&rho;</span> g h<strong><em><strong><strong><em><strong><em><sub>C</sub></em></strong></em></strong></strong></em></strong></em></strong> + <strong><em>&frac12; <span class="Estilo25">&rho;</span> v<strong><em><strong><strong><em><strong><em><sub>C</sub></em></strong></em></strong></strong></em></strong><strong>&sup2;</strong></em></strong></p>
+  </blockquote>
+    <p>Las presiones en ambos puntos son iguales: en ambas se trata de la presi&oacute;n atmosf&eacute;rica, porque el l&iacute;quido est&aacute; en contacto con el aire; de modo que se cancelan.  Si tomamos el nivel cero en la posici&oacute;n del punto <strong>C</strong>, su energ&iacute;a potencial se anula. Y la altura de <strong>A</strong> es <strong><em>h<strong><em><strong><strong><em><strong><em><sub>A</sub></em></strong></em></strong></strong></em></strong>= 0,5 <span class="Estilo17">m</span></em></strong>, la suma de las dos diferencias de altura del enunciado. Miremos lo que queda: </p>
+    <blockquote>
+      <p><strong><em><strong><em><strong><strong><em><span class="Estilo25">&rho;</span></em></strong></strong></em></strong> g h<strong><em><strong><strong><em><strong><em><sub>A</sub></em></strong></em></strong></strong></em></strong></em></strong> + <strong><em>&frac12; <span class="Estilo25">&rho;</span> v<strong><em><strong><strong><em><strong><em><sub>A</sub></em></strong></em></strong></strong></em></strong><strong>&sup2;</strong></em></strong> <em><strong>= </strong></em><strong><em>&frac12; <span class="Estilo25">&rho;</span> v<strong><em><strong><strong><em><strong><em><sub>C</sub></em></strong></em></strong></strong></em></strong><strong>&sup2;</strong></em></strong></p>
+      <p><strong><em> g h<strong><em><strong><strong><em><strong><em><sub>A</sub></em></strong></em></strong></strong></em></strong></em></strong> + <strong><em>&frac12;  v<strong><em><strong><strong><em><strong><em><sub>A</sub></em></strong></em></strong></strong></em></strong><strong>&sup2;</strong></em></strong> <em><strong>= </strong></em><strong><em>&frac12;  v<strong><em><strong><strong><em><strong><em><sub>C</sub></em></strong></em></strong></strong></em></strong><strong>&sup2;</strong></em></strong></p>
+    </blockquote>
+    <p>Ac&aacute; aparece la segunda dificultad: no tenemos el valor de la velocidad del fluido en <strong>A</strong>, que no es otra cosa que la velocidad con que desciende el nivel de nafta del tanque. Por suerte hiciste este ejercicio, porque en varios otros vas a poder razonar de la misma manera: la velocidad en <strong>A</strong> es despreciable respecto de la velocidad en <strong>C</strong>, de modo que pod&eacute;s tirar todo ese t&eacute;rmino. Como ya s&eacute; que te parece un recurso mentiroso, despu&eacute;s de hacer el problema te voy a demostrar por qu&eacute; es correcto proceder as&iacute;. Vamos de nuevo:</p>
+    <blockquote>
+      <p><strong><em>g h<strong><em><strong><strong><em><strong><em><sub>A</sub></em></strong></em></strong></strong></em></strong></em></strong><em><strong>= </strong></em><strong><em>&frac12;  v<strong><em><strong><strong><em><strong><em><sub>C</sub></em></strong></em></strong></strong></em></strong><strong>&sup2;</strong></em></strong></p>
+    </blockquote>
+    <p>ahora despejamos <strong><em>v<strong><em><strong><strong><em><strong><em><sub>C</sub></em></strong></em></strong></strong></em></strong></em></strong> y calculamos</p>
+    <blockquote>
+      <p><strong><em>v<strong><em><strong><strong><em><strong><em><sub>C</sub></em></strong></em></strong></strong></em></strong></em></strong> <em><strong>= ( </strong></em><strong><em>2  g h<strong><em><strong><strong><em><strong><em><sub>A</sub></em></strong></em></strong></strong></em></strong> )<strong><sup>&frac12;</sup></strong></em></strong></p>
+      <p><strong><em>v<strong><em><strong><strong><em><strong><em><sub>C</sub></em></strong></em></strong></strong></em></strong></em></strong> <em><strong>= ( </strong></em><strong><em>2  . 10 <span class="epigrafe">m</span></em></strong><span class="epigrafe">/</span><strong><em><span class="epigrafe">s</span><strong><sup>2</sup></strong> . 0,8 <span class="epigrafe">m</span></em> <em>)<strong><sup>&frac12;</sup></strong></em></strong></p>
+      <p><em><strong><em>v<strong><em><strong><strong><em><strong><em><sub>C</sub></em></strong></em></strong></strong></em></strong></em></strong> <em><strong>=</strong></em><strong><em><span class="Estilo25"> 4 <span class="Estilo17">m</span></span></em></strong></em><span class="Estilo17">/</span><em><strong><span class="Estilo17">s</span></strong></em></p>
+      </blockquote>
+    <p>Conocida la velocidad y la secci&oacute;n, el caudal es sencillo:</p>
+    <blockquote>
+      <p><strong><em>Q<strong><em><strong><strong><em><strong><em><sub>C</sub></em></strong></em></strong></strong></em></strong> = S<strong><em><strong><strong><em><strong><em><sub>C</sub></em></strong></em></strong></strong></em></strong> . v<strong><em><strong><strong><em><strong><em><sub>C</sub></em></strong></em></strong></strong></em></strong></em></strong><em> <strong> = 4 x 10<sup>-4</sup> <span class="Estilo17">m&sup2;</span></strong></em><strong> .</strong> <em><strong><em><span class="Estilo25">4 <span class="Estilo17">m</span></span></em></strong></em><span class="Estilo17">/</span><em><strong><span class="Estilo17">s</span></strong></em></p>
+    </blockquote></td>
+  <td class="bodytext">&nbsp;</td>
+  <td valign="top" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="63" align="left" valign="middle" class="bodytext"><table width="102%" border="0">
+    <tr>
+      <td width="9%" height="38" align="center" bgcolor="#FFFFFF"><p class="bodytext">&nbsp;</p></td>
+      <td width="52%" align="center" bgcolor="#CCCCCC" class="bodytext"><strong><em>Q<strong><em><strong><strong><em><strong><em><sub>C</sub></em></strong></em></strong></strong></em></strong> =</em></strong><em><strong> </strong></em><em><strong>1,6 x 10<sup>-3</sup></strong></em><em><strong><em><span class="Estilo25"> <span class="Estilo17">m</span></span><strong><sup>3</sup></strong></em></strong></em><span class="Estilo17">/</span><em><strong><span class="Estilo17">s</span></strong></em></td>
+      <td width="39%" align="center" bgcolor="#FFFFFF" class="epigrafe">&nbsp;</td>
+    </tr>
+  </table></td>
+  <td class="bodytext">&nbsp;</td>
+  <td valign="top" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="59" align="left" valign="middle" class="bodytext"><p><strong>&nbsp;&nbsp;&nbsp;
+b) ¿Cuál sería el caudal
+      inicial si el tubo tuviera la mitad de radio?</strong> Si el tubo tiene la mitad del radio, entonces, su sección, <strong><em>S'<strong><em><strong><strong><em><strong><em><sub>C</sub></em></strong></em></strong></strong></em></strong></em></strong>, es la cuarta parte que el tubo original. </p>
+    <blockquote><strong><em>Q'<strong><em><strong><strong><em><strong><em><sub>C</sub></em></strong></em></strong></strong></em></strong> = S'<strong><em><strong><strong><em><strong><em><sub>C</sub></em></strong></em></strong></strong></em></strong> . v<strong><em><strong><strong><em><strong><em><sub>C</sub></em></strong></em></strong></strong></em></strong></em></strong><em> <strong> = 1 x 10<sup>-4</sup> <span class="Estilo17">m&sup2;</span></strong></em><strong> .</strong> <em><strong><em><span class="Estilo25">4 <span class="Estilo17">m</span></span></em></strong></em><span class="Estilo17">/</span><em><strong><span class="Estilo17">s</span></strong></em> </blockquote></td>
+  <td class="bodytext">&nbsp;</td>
+  <td valign="top" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="57" align="center" valign="middle" class="bodytext"><table width="102%" border="0">
+    <tr>
+      <td width="9%" height="38" align="center" bgcolor="#FFFFFF"><p class="bodytext">&nbsp;</p></td>
+      <td width="52%" align="center" bgcolor="#CCCCCC" class="bodytext"><strong><em>Q'<strong><em><strong><strong><em><strong><em><sub>C</sub></em></strong></em></strong></strong></em></strong> =</em></strong><em><strong> </strong></em><em><strong>0,4 x 10<sup>-3</sup></strong></em><em><strong><em><span class="Estilo25"> <span class="Estilo17">m</span></span><strong><sup>3</sup></strong></em></strong></em><span class="Estilo17">/</span><em><strong><span class="Estilo17">s</span></strong></em></td>
+      <td width="39%" align="center" bgcolor="#FFFFFF" class="epigrafe">&nbsp;</td>
+    </tr>
+  </table></td>
+  <td class="bodytext">&nbsp;</td>
+  <td valign="top" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="213" align="left" valign="middle" class="bodytext"><p><strong>&nbsp;&nbsp;&nbsp;
+c) ¿Cuánto vale la presión manométrica en el
+      arco superior de la manguera?</strong> Podemos comparar la altura del tubo con el punto <strong>A</strong> o el <strong>C</strong>. Voy con el <strong>A</strong>.</p>
+    <blockquote>
+      <p><strong><em><strong><em><strong><strong><em>p<span class="epigrafe">r</span></em></strong></strong></em></strong><strong><em><strong><strong><em><strong><em><sub>A</sub></em></strong></em></strong></strong></em></strong> + <span class="Estilo25">&rho;</span> g h<strong><em><strong><strong><em><strong><em><sub>A</sub></em></strong></em></strong></strong></em></strong></em></strong> + <strong><em>&frac12; <span class="Estilo25">&rho;</span> v<strong><em><strong><strong><em><strong><em><sub>A</sub></em></strong></em></strong></strong></em></strong><strong>&sup2;</strong></em></strong> <em><strong>= </strong></em><strong><em><strong><em><strong><strong><em>p<span class="epigrafe">r</span></em></strong></strong></em></strong><strong><em><strong><strong><em><strong><em><sub>S </sub></em></strong></em></strong></strong></em></strong>+ <span class="Estilo25">&rho;</span> g h<strong><em><strong><strong><em><strong><em><sub>S</sub></em></strong></em></strong></strong></em></strong></em></strong> + <strong><em>&frac12; <span class="Estilo25">&rho;</span> v<strong><em><strong><strong><em><strong><em><sub>S</sub></em></strong></em></strong></strong></em></strong><strong>&sup2;</strong></em></strong></p>
+      </blockquote>
+    <p>Al punto en el tubo superior lo llamé <strong>S</strong>. La velocidad en ese punto es la misma que en el estremo <strong>C</strong>. La presión en <strong>A</strong> podemos considerarla <em><strong>0</strong></em> y la velocidad ahí, obviamente, también.</p>
+    <blockquote>
+      <p><em><strong> </strong></em><strong><em><strong><em><strong><strong><em>p<span class="epigrafe">r</span></em></strong></strong></em></strong><strong><em><strong><strong><em><strong><em><sub>S</sub></em></strong></em></strong></strong></em></strong></em></strong> <em><strong>= </strong></em> <strong><em><span class="Estilo25">&rho;</span> g ( h<strong><em><strong><strong><em><strong><em><sub>A</sub></em></strong></em></strong></strong></em> &mdash; </strong>h<strong><em><strong><strong><em><strong><em><sub>S </sub></em></strong></em></strong></strong></em></strong></em>) </strong><strong><em><strong>&mdash;</strong> &frac12; <span class="Estilo25">&rho;</span> v<strong><em><strong><strong><em><strong><em><sub>S</sub></em></strong></em></strong></strong></em></strong><strong>&sup2;</strong></em></strong></p>
+      <p><strong><em><strong><em><strong><strong><em>p<span class="epigrafe">r</span></em></strong></strong></em></strong><strong><em><strong><strong><em><strong><em><sub>S</sub></em></strong></em></strong></strong></em></strong></em></strong> <em><strong>= </strong></em> <strong><em><strong><em><strong>&mdash;</strong> 680</em></strong><em><strong><span class="Estilo17"> kg m<sup>-3</sup></span></strong></em><strong><em>10 <span class="epigrafe">m</span></em></strong><span class="epigrafe">/</span><strong><em><span class="epigrafe">s</span><strong><sup>2</sup></strong></em></strong><strong><em> 0,4 <span class="epigrafe">m</span></em> </strong></em></strong><strong><em><strong>&mdash; </strong>340</em></strong><em><strong><span class="Estilo17"> kg m<sup>-3</sup></span></strong></em><strong><em><strong><em><span class="Estilo25">16 <span class="Estilo17">m</span></span><strong>&sup2;</strong></em></strong></em><span class="Estilo17">/</span><em><strong><span class="Estilo17">s</span></strong></em><em><strong>&sup2;</strong></em></strong>    </p>
+    </blockquote></td>
+  <td class="bodytext">&nbsp;</td>
+  <td valign="top" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="62" align="center" valign="middle" class="bodytext"><table width="102%" border="0">
+    <tr>
+      <td width="9%" height="38" align="center" bgcolor="#FFFFFF"><p class="bodytext">&nbsp;</p></td>
+      <td width="52%" align="center" bgcolor="#CCCCCC" class="bodytext"><strong><em><strong><em><strong><strong><em>p<span class="epigrafe">r</span></em></strong></strong></em></strong><strong><em><strong><strong><em><strong><em><sub>S</sub></em></strong></em></strong></strong></em></strong></em></strong> <em><strong>=<em><strong><em><strong> &mdash;</strong> 8.160</em></strong><em><strong><span class="Estilo17"> Pa</span></strong></em></em></strong></em></td>
+      <td width="39%" align="center" bgcolor="#FFFFFF" class="epigrafe">&nbsp;</td>
+    </tr>
+  </table></td>
+  <td class="bodytext">&nbsp;</td>
+  <td valign="top" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td align="left" valign="middle" class="bodytext"><p>Te voy a justificar que nuestro recurso de despreciar la velocidad en <strong>A</strong> respecto de la velocidad en <strong>C</strong> era v&aacute;lido. Supongamos que el dep&oacute;sito ten&iacute;a <em><strong>0,2</strong></em> <em><strong><span class="Estilo17">m&sup2;</span></strong></em> de secci&oacute;n (lo imagino lo m&aacute;s chico posible para no favorecer mi postura). En ese caso, por aplicaci&oacute;n de la misma propiedad de continuidad, <strong><em>Q<strong><em><strong><strong><em><strong><em><sub>C</sub></em></strong></em></strong></strong></em></strong> = Q<strong><em><strong><strong><em><strong><em><sub>A</sub></em></strong></em></strong></strong></em></strong> = S<strong><em><strong><strong><em><strong><em><sub>A</sub></em></strong></em></strong></strong></em></strong> . v<strong><em><strong><strong><em><strong><em><sub>A</sub></em></strong></em></strong></strong></em></strong></em></strong>, obtenemos </p>
+    <blockquote>
+      <p><strong><em> v<strong><em><strong><strong><em><strong><em><sub>A</sub></em></strong></em></strong></strong></em></strong></em></strong> <em><em><strong>=</strong></em><strong><em><span class="Estilo25"> 6,3 </span><strong> x 10<sup>-3</sup></strong> <span class="Estilo25"><span class="Estilo17">m</span></span></em></strong></em><span class="Estilo17">/</span><em><strong><span class="Estilo17">s</span></strong></em></p>
+    </blockquote>
+    <p>la resoluci&oacute;n por Bernoulli habr&iacute;a quedado as&iacute;:</p>
+    <blockquote>
+      <p><strong><em>v<strong><em><strong><strong><em><strong><em><sub>C</sub></em></strong></em></strong></strong></em></strong></em></strong> <em><strong>= ( </strong></em><strong><em>2  g h<strong><em><strong><strong><em><strong><em><sub>A</sub></em></strong></em></strong></strong></em></strong></em> + <em>v<strong><em><strong><strong><em><strong><em><sub>A</sub></em></strong></em></strong></strong></em>&sup2;</strong></em> <em>)</em></strong><strong><em><strong><sup>&frac12;</sup></strong></em></strong></p>
+    </blockquote>
+    <p>Y eso da... <em>&iexcl;</em>exactamente lo mismo que antes<em>!</em> Reci&eacute;n aparece una diferencia en la 5ta. cifra decimal. La raz&oacute;n es que cuando un n&uacute;mero es mucho mayor que otro, al elevarlos al cuadrado (como nos pide Bernoulli) la diferencia es much&iacute;simo mayor y eso justifica despreciar al m&aacute;s chico.</p>
+    <p>Todav&iacute;a nos queda discutir la tercera dificultad, que consiste en lo siguiente: las preguntas del enunciado dicen <em>velocidad inicial</em> y <em>caudal inicial</em>. &iquest;Por qu&eacute; dicen <em>inicial</em>?  Los inexpertos suelen asociar la palabra <em>inicial</em> a la entrada de la corriente, y la palabra <em>final</em> a la salida. Pero eso no tiene nada que ver con nuestro problema. El asunto es que cuando la nafta empiece a salir la altura del nivel superior se va a modificar, y eso hace que la velocidad de salida se modifique tambi&eacute;n (disminuyendo).</p>
+    <p>Era por eso. </p></td>
+  <td class="bodytext">&nbsp;</td>
+  <td valign="top" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td align="center" valign="middle" class="bodytext"><p>&nbsp;</p></td>
+  <td width="4" class="bodytext">&nbsp;</td>
+  <td width="86" valign="top" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="32" align="left" class="bodytext"><p><strong>Para saber más</strong>:&nbsp;</p></td>
+  <td class="bodytext">&nbsp;</td>
+  <td width="86" rowspan="3" valign="bottom" class="bodytext"><img src="../cinematica/img_cin/ric_teclado.jpg" alt="teclado ricardo cabrera" width="85" height="130"></td>
+</tr>
+
+<tr>
+  <td height="18" bgcolor="#FFFFFF" class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+  </tr>
+
+<tr> <td align="center" valign="middle" bgcolor="#CCCCCC" class="bodytext"><table width="93%" border="0">
+  <tr>
+    <td class="epigrafe">Algunos derechos reservados. 
+      Se permite su reproducci&oacute;n citando la fuente. Se recomienda fervientemente su lectura en bibliotecas, escuelas, clubes y reuniones de consorcios. &Uacute;ltima actualizaci&oacute;n mar-20. Buenos Aires, Argentina. </td>
+  </tr>
+</table>  </td>
+  <td class="bodytext" width="4">&nbsp;</td>
+  </tr> 
+<tr> <td height="18" class="bodytext">&nbsp;</td><td class="bodytext" width="4">&nbsp;</td>
+<td class="bodytext" width="86">&nbsp;</td>
+</tr> 
+</table></td></tr> </table>
+<p><img src="img_hdinam/transparente.gif" width="10" height="20"></td></tr> 
+<tr> <td class="bodytext"><p><img src="img_hdinam/transparente.gif" width="600" height="20"></td></tr> 
+</table>
+</body>
+</html>

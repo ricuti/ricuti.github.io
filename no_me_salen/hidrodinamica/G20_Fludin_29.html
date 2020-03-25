@@ -1,0 +1,217 @@
+<html>
+<head>
+<title>MECANICA DE FLUIDOS, G20-Fd-01, fisica online, ejercicios resueltos</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="keywords" content="problemas resueltos, ejercicios resueltos, cbc, fisica, biofisica, fluidos, liquidos, gases, bernoulli, poiseuille, viscosidad, ideales, viscosos, humedad, difusion, osmosis, nomesalen, no me salen, ricardo cabrera" />
+<meta name="description" content="Ejercicios y problemas resueltos, y apuntes teóricos de Fluidos, mecanismos de transporte de fluidos" />
+<link rel="stylesheet" href="win_ie.css">
+<style type="text/css">
+<!--
+.style1 {
+	color: #3F6386;
+	font-weight: bold;
+}
+.Estilo3 {color: #3F6386}
+.Estilo16 {font-size: 16px}
+.Estilo26 {	font-family: "Times New Roman", Times, serif;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 16px;
+}
+.Estilo25 {font-family: Verdana, Arial, sans-serif}
+.Estilo12 {font-size: 10px}
+.Estilo15 {color: #000000}
+.Estilo22 {color: #0000FF}
+.Estilo17 {font-size: 10px}
+.Estilo36 {font-weight: bold; font-size: 11px; font-style: italic; }
+.Estilo37 {font-size: 10px}
+.Estilo32 {font-weight: bold; font-size: 11px;}
+.Estilo38 {font-size: 11px}
+.Estilo27 {font-weight: bold}
+.Estilo29 {font-size: 11px; font-style: italic; }
+-->
+</style>
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000" alink="#000000" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<table align=center width="600" border="0" cellspacing="0" cellpadding="0"> 
+  <tr bgcolor="#000000" align="right"> 
+<td><img src="img_hdinam/nombre5.gif" width="369" height="71"></td></tr> <tr bgcolor="#BB0000" valign="middle" align="left"> 
+<td class="bodytext" height="20"><TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+  <TR ALIGN="center" CLASS="menuitem">
+    <TD WIDTH="43" height="19" CLASS="menuitem"><A HREF="../../index.html" CLASS="menuitem">&nbsp;<B>home</B>&nbsp;</A></TD>
+    <TD WIDTH="5" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="119" CLASS="menuitem"><strong><a href="index_hdinam.html" class="menuitem">más de hidrodinámica </a> </strong></TD>
+    <TD width="9" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="127" CLASS="menuitem"><strong><a href="../../intro_NMS.html" class="menuitem">otros temas de F&iacute;sica</a></strong></TD>
+    <TD width="10" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="160" CLASS="menuitem"><strong><a href="../../lista_ciruela.html" class="menuitem">lecciones del maestro Ciruela </a></strong></TD>
+    <TD width="8" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="67" CLASS="menuitem"><strong><a href="../../lista_tonterias.html" class="menuitem">tonter&iacute;as</a></strong></TD>
+    <TD WIDTH="7" CLASS="menuitem"><a href="../energia/index_energia.html" class="menuitem"></a><FONT COLOR="#000000">|</FONT></TD>
+    <TD WIDTH="48" CLASS="menuitem">&nbsp;<B><FONT FACE="Arial, Helvetica, sans-serif"><A HREF="mailto: ricuti@gmail.com" CLASS="menuitem">@</A></FONT><A HREF="../../index.html" CLASS="menuitem"></A></B>&nbsp;</TD>
+  </TR>
+</TABLE></td></tr> <tr> <td class="bodytext" height="8"><p><img src="img_hdinam/transparente.gif" width="600" height="8"></td>
+</tr> 
+<tr align="center"> <td height="498"> <table width="600" border="0" cellspacing="0" cellpadding="0"> 
+<tr class="bodytext"> <td valign="top" width="594" height="459"> 
+<table width="600" border="0" cellspacing="0" cellpadding="0"> <tr> 
+  <td height="74" bgcolor="#D7FFFF" class="bodytext"><span class="bodytext"><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>NO ME SALEN<br>
+</strong></span><span class="Estilo3"><em class="bodytext "><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>(<strong>PROBLEMAS RESUELTOS   DE BIOF&Iacute;SICA DEL CBC</strong>)</strong></em></span><br>
+      <span class="titulograndegris Estilo16"><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>FLUIDOS<br>
+      </strong></span><em class="bodytext "><strong><em><strong><em><strong><strong>&#160; &#160; </strong></strong></em></strong></em></strong></em><strong class="titulochicogris">Fluidos ideales</strong><br> </td>
+  <td class="bodytext" rowspan="3" height="74" width="4">&nbsp;</td>
+  <td class="bodytext" height="74" rowspan="3" valign="top" width="86"> 
+<p><img src="img_hdinam/cap44.jpg" alt="desesperado" width="85" height="143"></p></td></tr>
+  <tr>
+    <td height="18" bgcolor="#FFFFFF" class="bodytext">&nbsp;</td>
+  </tr> 
+<tr> <td height="51" valign="middle" class="bodytext"><table width="100%" border="0">
+  <tr class="bodytext">
+    <td width="28%" height="61" valign="top"><img src="img_hdinam/G20_U2_1ra.gif" width="140" height="45"></td>
+    <td width="2%" valign="top">&nbsp;</td>
+    <td width="70%" valign="top"><strong>29- En el recipiente cerrado de la figura hay<br>
+      un líquido ideal en equilibrio con aire en su parte superior. Las presiones en A y B son 2,4 atm y 2,6 atm, respectivamente.</strong></td>
+  </tr>
+</table></td>
+  </tr>
+<tr>
+  <td height="118" valign="middle" class="bodytext"><table width="100%" border="0">
+    <tr class="bodytext">
+      <td width="63%"><strong>&nbsp;&nbsp;&nbsp; a) ¿Cuál es la densidad del líquido?<br>
+&nbsp;&nbsp;&nbsp;
+b) ¿Cuál es la presión del aire en cerrado sobre
+la su perficie del líquido?<br>
+&nbsp;&nbsp;&nbsp;
+c) ¿Cuál es la presión manométrica sobre el
+tapón en C?<br>
+&nbsp;&nbsp;&nbsp;
+d) El tapón tapa un
+orificio de pequeña
+sección, respecto de la
+sección del tanque.
+¿Con qué velocidad
+saldrá el chorro en el
+momento que se destape el orificio? (patm = 1 atm)<br>
+&nbsp;&nbsp;&nbsp;
+e) ¿Con qué velocidad inicial saldría si el tanque
+estuviera destapado? ¿Depende de la densidad
+del líquido? </strong></td>
+      <td width="1%">&nbsp;</td>
+      <td width="36%"><img src="img_hdinam/G20_Fd_29_1.gif" width="177" height="119"></td>
+    </tr>
+  </table></td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext" valign="middle">&nbsp;</td>
+</tr>
+<tr>
+  <td height="76" align="left" valign="middle" bgcolor="#FF0000" class="bodytext"><strong>ERROR PLANTEO MANOMETRICA - ABSOLUTA</strong></td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext" valign="middle">&nbsp;</td>
+</tr>
+<tr>
+  <td height="244" align="left" valign="middle" class="bodytext"><p>Las tres primeras preguntas se responden desde lo que sabemos de la hidrostática, ya que al estar el orificio tapado la velocidad del fluido es nula. El principio general de la hidrostática puede considerarse un caso particular del principio de Bernoulli, aquel en el que la velocidad es nula. La única diferencia es que Bernoulli habla de alturas y el ppio. general habla de profundidades. pero para vos eso no es un obstáculo.</p>
+    <blockquote>
+      <p><strong><em><strong><em><strong>&Delta;<strong><em>P<strong><em><strong><strong><em><strong><em><strong><strong><em><strong><em><sub>AB</sub></em></strong></em></strong></strong></em></strong></em></strong></strong></em></strong> <strong><em><strong><em><strong>= </strong></em></strong></em></strong></em></strong> <strong><em><span class="Estilo25">&rho;</span> . g . (h<strong><em><strong><strong><em><strong><em><strong><strong><em><strong><em><strong><strong><em><strong><em><sub>A</sub></em></strong></em></strong></strong></em></strong></em></strong></strong></em></strong></em></strong></strong></em></strong><strong> </strong></em></strong><em><strong><strong>&ndash;</strong></strong></em><strong><em> h<strong></strong></em></strong></strong></em></strong><strong><em><strong><strong><em><strong><em><strong><strong><em><strong><em><strong><strong><em><strong><em><sub>B</sub></em></strong></em></strong></strong></em></strong></em></strong></strong></em></strong></em></strong></strong></em></strong>)</em></strong></p>
+      </blockquote>
+    <p>Despejemos la densidad, que es lo que nos piden, pero pasemos antes todas las magnitudes a las unidades internacionales.<em><strong> 2,4 <span class="epigrafe">atm</span></strong></em> es lo mismo que <em><strong>243.120 <span class="epigrafe">Pa</span></strong></em> y <em><strong>2,6 <span class="epigrafe">atm</span></strong></em> es lo mismo que <em><strong>263.380 <span class="epigrafe">Pa</span></strong></em>. La diferencia da: <em><strong>20.260 <span class="epigrafe">Pa</span></strong></em>.</p>
+    <blockquote>
+      <p><strong><em><strong><em><strong><strong><em><span class="Estilo25">&rho;</span></em></strong></strong></em></strong></em> = <em><strong><em><strong>&Delta;<strong><em>P<strong><em><strong><strong><em><strong><em><strong><strong><em><strong><em><sub>AB</sub></em></strong></em></strong></strong></em></strong></em></strong></strong></em></strong></em></strong></strong></em></strong></em></strong> <em><strong>/ </strong></em><strong></strong><strong><em><strong><em><strong><strong><em>g . (h<strong><em><strong><strong><em><strong><em><strong><strong><em><strong><em><strong><strong><em><strong><em><sub>A</sub></em></strong></em></strong></strong></em></strong></em></strong></strong></em></strong></em></strong></strong></em></strong><strong> </strong></em></strong><em><strong><strong>&ndash;</strong></strong></em><strong><em> h<strong></strong></em></strong></strong></em></strong><strong><em><strong><strong><em><strong><em><strong><strong><em><strong><em><strong><strong><em><strong><em><sub>B</sub></em></strong></em></strong></strong></em></strong></em></strong></strong></em></strong></em></strong></strong></em></strong>)</em></strong></p>
+      <p><strong><em><strong><em><strong><strong><em><span class="Estilo25">&rho;</span></em></strong></strong></em></strong></em> =<em><strong>  20.260 <span class="epigrafe">Pa</span></strong> </em></strong> <em><strong>/ </strong></em><strong><em><strong><em><strong><strong><em>9,8 <span class="Estilo17">m</span></em></strong><span class="Estilo17">/</span><strong><em><span class="Estilo17">s</span>&sup2; . 0,15 <span class="epigrafe">m</span></em></strong></strong></em></strong></em></strong></p>
+    </blockquote></td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext" valign="middle">&nbsp;</td>
+</tr>
+<tr>
+  <td height="61" align="center" valign="middle" class="bodytext"><table width="102%" border="0">
+    <tr>
+      <td width="9%" height="38" align="center" bgcolor="#FFFFFF"><p class="bodytext">&nbsp;</p></td>
+      <td width="41%" align="center" bgcolor="#CCCCCC" class="bodytext"><strong><em><strong><em><strong><strong><em><span class="Estilo25">&rho;</span></em></strong></strong></em></strong></em> = </strong><em><strong><em><strong>13.800 <em><strong><em><strong><em><strong><em><strong><strong><em><span class="Estilo17">kg</span></em></strong><em><span class="Estilo17">/</span></em><strong><em><span class="Estilo17">m</span>&sup3;</em></strong></strong></em></strong></em></strong></em></strong></em></strong></em> </strong></em></td>
+      <td width="50%" align="center" bgcolor="#FFFFFF" class="epigrafe">eso es mercurio de acá a la China</td>
+    </tr>
+  </table></td>
+  <td class="bodytext">&nbsp;</td>
+  <td valign="top" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td align="left" valign="middle" class="bodytext"><p><strong>&nbsp;&nbsp;&nbsp;
+    b) ¿Cuál es la presión del aire en cerrado sobre
+    la su perficie del líquido? </strong>La presión del aires es la misma que la presión del fluido en su superficie en contacto con el aire.</p>
+    <blockquote>
+      <p><strong><em><strong><em><strong>&Delta;<strong><em>P<strong><em><strong><strong><em><strong><em><strong><strong><em><strong><em><sub>Aaire</sub></em></strong></em></strong></strong></em></strong></em></strong></strong></em></strong> <strong><em><strong><em><strong>= </strong></em></strong></em></strong></em></strong> <strong><em><span class="Estilo25">&rho;</span> . g . (h<strong><em><strong><strong><em><strong><em><strong><strong><em><strong><em><strong><strong><em><strong><em><sub>aire</sub></em></strong></em></strong></strong></em></strong></em></strong></strong></em></strong></em></strong></strong></em></strong><strong> </strong></em></strong><em><strong><strong>&ndash;</strong></strong></em><strong><em> h<strong></strong></em></strong></strong></em></strong><strong><em><strong><strong><em><strong><em><strong><strong><em><strong><em><strong><strong><em><strong><em><sub>A</sub></em></strong></em></strong></strong></em></strong></em></strong></strong></em></strong></em></strong></strong></em></strong>)</em></strong>      </p>
+      <p><strong><em><strong><em><strong><strong><em><strong><em><strong>&Delta;<strong><em>P<strong><em><strong><strong><em><strong><em><strong><strong><em><strong><em><sub>Aaire</sub></em></strong></em></strong></strong></em></strong></em></strong></strong></em></strong></em></strong></strong></em></strong><strong><em><strong><em><strong> = </strong></em></strong></em></strong></em></strong> <strong><em><strong><em><strong>13.800 <em><strong><em><strong><em><strong><em><strong><strong><em><span class="Estilo17">kg</span></em></strong><em><span class="Estilo17">/</span></em><strong><em><span class="Estilo17">m</span>&sup3;</em></strong></strong></em></strong></em></strong></em></strong></em></strong></em></strong> . <strong><em><strong><strong><em>9,8 <span class="Estilo17">m</span></em></strong><span class="Estilo17">/</span><strong><em><span class="Estilo17">s</span>&sup2;</em></strong></strong></em></strong> . (0,55 <span class="epigrafe">m</span> </em></strong><em><strong><strong>&ndash; </strong></strong></em></strong></em></strong><strong><em><strong><strong><em>0,25 <span class="epigrafe">m</span></em></strong></strong></em></strong>)</em></strong></p>
+      <p><strong><em><strong><em><strong><strong><em><strong><em><strong>&Delta;<strong><em>P<strong><em><strong><strong><em><strong><em><strong><strong><em><strong><em><sub>Aaire</sub></em></strong></em></strong></strong></em></strong></em></strong></strong></em></strong></em></strong></strong></em></strong><strong><em><strong><em><strong> = </strong></em></strong></em></strong></em></strong> <strong><em><strong><em><strong>40.572 <em><strong><em><strong><em><strong><em><strong><strong><em><span class="Estilo17">Pa</span></em></strong><strong><em><span class="Estilo17"></span></em></strong></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></strong></em></strong></em></strong></p>
+      </blockquote>
+    <p>De modo que la presión allá arriba debe ses <strong><em><strong><em><strong><strong><em><strong><em><strong>40.572 <em><strong><em><strong><em><strong><em><strong><strong><em><span class="Estilo17">Pa</span></em></strong><strong><em><span class="Estilo17"></span></em></strong></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></strong></em></strong></em></strong> menor que la presión en A.</p></td>
+  <td class="bodytext">&nbsp;</td>
+  <td valign="top" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="62" align="center" valign="middle" class="bodytext"><table width="102%" border="0">
+    <tr>
+      <td width="9%" height="38" align="center" bgcolor="#FFFFFF"><p class="bodytext">&nbsp;</p></td>
+      <td width="41%" align="center" bgcolor="#CCCCCC" class="bodytext"><strong><em><strong><em><strong><strong><em><strong><em><strong><strong><em>P<strong><em><strong><strong><em><strong><em><strong><strong><em><strong><em><sub>Aaire</sub></em></strong></em></strong></strong></em></strong></em></strong></strong></em></strong></em></strong></strong></em></strong><strong><em><strong><em><strong> = </strong></em></strong></em></strong></em></strong> <strong><em><strong><em><strong>202500 <em><strong><em><strong><em><strong><em><strong><strong><em><span class="Estilo17">Pa</span></em></strong><strong><em><span class="Estilo17"></span></em></strong></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></strong></em></strong></em></strong></td>
+      <td width="50%" align="center" bgcolor="#FFFFFF" class="epigrafe">ese aire está comprimido</td>
+    </tr>
+  </table></td>
+  <td class="bodytext">&nbsp;</td>
+  <td valign="top" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td align="left" valign="middle" class="bodytext"><p><strong>&nbsp;&nbsp;&nbsp;
+    c) ¿Cuál es la presión manométrica sobre el
+    tapón en C? </strong>La presión en <strong>C</strong> es igual a la presión en <strong>B</strong> ya que ambos puntos se encuentran en el mismo nivel dentro del mismo líquido. No hay forma de saber si el valor de presión que nos dieron para ese punto, <em><strong>2,6 <span class="epigrafe">atm</span></strong></em>, está dado en escala manométrica (relativa) o en escala barométrica (absoluta) ya que el enunciado no lo indica ni hay pistas para averiguarlo.</p>
+    <p><strong>&nbsp;&nbsp;&nbsp;
+d) El tapón tapa un
+orificio de pequeña
+sección, respecto de la
+sección del tanque.
+¿Con qué velocidad
+saldrá el chorro en el
+momento que se destape el orificio? (patm = 1 atm)</strong></p></td>
+  <td class="bodytext">&nbsp;</td>
+  <td valign="top" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td align="center" valign="middle" class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+  <td valign="top" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="44" align="center" valign="middle" bgcolor="#FF0000" class="bodytext">ERROR PLANTEO MANOMETRICA - ABSOLUTA</td>
+  <td class="bodytext">&nbsp;</td>
+  <td valign="top" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td align="center" valign="middle" class="bodytext">&nbsp;</td>
+  <td width="4" class="bodytext">&nbsp;</td>
+  <td width="86" valign="top" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="32" align="left" class="bodytext"><p><strong>Para saber más</strong>:&nbsp;</p></td>
+  <td class="bodytext">&nbsp;</td>
+  <td width="86" rowspan="3" valign="bottom" class="bodytext"><img src="../cinematica/img_cin/ric_teclado.jpg" alt="teclado ricardo cabrera" width="85" height="130"></td>
+</tr>
+
+<tr>
+  <td height="18" bgcolor="#FFFFFF" class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+  </tr>
+
+<tr> <td align="center" valign="middle" bgcolor="#CCCCCC" class="bodytext"><table width="93%" border="0">
+  <tr>
+    <td class="epigrafe">Algunos derechos reservados. 
+      Se permite su reproducci&oacute;n citando la fuente. Se recomienda fervientemente su lectura en bibliotecas, escuelas, clubes y reuniones de consorcios. &Uacute;ltima actualizaci&oacute;n mar-20. Buenos Aires, Argentina. </td>
+  </tr>
+</table>  </td>
+  <td class="bodytext" width="4">&nbsp;</td>
+  </tr> 
+<tr> <td height="18" class="bodytext">&nbsp;</td><td class="bodytext" width="4">&nbsp;</td>
+<td class="bodytext" width="86">&nbsp;</td>
+</tr> 
+</table></td></tr> </table>
+<p><img src="img_hdinam/transparente.gif" width="10" height="20"></td></tr> 
+<tr> <td class="bodytext"><p><img src="img_hdinam/transparente.gif" width="600" height="20"></td></tr> 
+</table>
+</body>
+</html>

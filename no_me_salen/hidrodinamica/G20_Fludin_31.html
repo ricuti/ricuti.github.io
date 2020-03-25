@@ -1,6 +1,6 @@
 <html>
 <head>
-<title>MECANICA DE FLUIDOS, NMS007, fisica online, ejercicios resueltos</title>
+<title>MECANICA DE FLUIDOS, G20-Fd-01, fisica online, ejercicios resueltos</title>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta name="keywords" content="problemas resueltos, ejercicios resueltos, cbc, fisica, biofisica, fluidos, liquidos, gases, bernoulli, poiseuille, viscosidad, ideales, viscosos, humedad, difusion, osmosis, nomesalen, no me salen, ricardo cabrera" />
 <meta name="description" content="Ejercicios y problemas resueltos, y apuntes teóricos de Fluidos, mecanismos de transporte de fluidos" />
@@ -12,13 +12,23 @@
 	font-weight: bold;
 }
 .Estilo3 {color: #3F6386}
-.Estilo18 {color: #FF0000}
-.Estilo26 {font-family: "Times New Roman", Times, serif;
+.Estilo16 {font-size: 16px}
+.Estilo26 {	font-family: "Times New Roman", Times, serif;
 	font-weight: bold;
 	font-style: italic;
 	font-size: 16px;
 }
 .Estilo25 {font-family: Verdana, Arial, sans-serif}
+.Estilo12 {font-size: 10px}
+.Estilo15 {color: #000000}
+.Estilo22 {color: #0000FF}
+.Estilo17 {font-size: 10px}
+.Estilo36 {font-weight: bold; font-size: 11px; font-style: italic; }
+.Estilo37 {font-size: 10px}
+.Estilo32 {font-weight: bold; font-size: 11px;}
+.Estilo38 {font-size: 11px}
+.Estilo27 {font-weight: bold}
+.Estilo29 {font-size: 11px; font-style: italic; }
 -->
 </style>
 </head>
@@ -26,8 +36,7 @@
 <body bgcolor="#FFFFFF" text="#000000" alink="#000000" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
 <table align=center width="600" border="0" cellspacing="0" cellpadding="0"> 
   <tr bgcolor="#000000" align="right"> 
-<td><img src="img_hdinam/nombre5.gif" width="369" height="71"></td>
-  </tr> <tr bgcolor="#BB0000" valign="middle" align="left"> 
+<td><img src="img_hdinam/nombre5.gif" width="369" height="71"></td></tr> <tr bgcolor="#BB0000" valign="middle" align="left"> 
 <td class="bodytext" height="20"><TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
   <TR ALIGN="center" CLASS="menuitem">
     <TD WIDTH="43" height="19" CLASS="menuitem"><A HREF="../../index.html" CLASS="menuitem">&nbsp;<B>home</B>&nbsp;</A></TD>
@@ -44,144 +53,143 @@
   </TR>
 </TABLE></td></tr> <tr> <td class="bodytext" height="8"><p><img src="img_hdinam/transparente.gif" width="600" height="8"></td>
 </tr> 
-<tr align="center"> <td height="720"> <table width="600" border="0" cellspacing="0" cellpadding="0"> 
-<tr class="bodytext"> <td valign="top" width="594" height="1383"> 
+<tr align="center"> <td height="779"> <table width="600" border="0" cellspacing="0" cellpadding="0"> 
+<tr class="bodytext"> <td valign="top" width="594" height="1449"> 
 <table width="600" border="0" cellspacing="0" cellpadding="0"> <tr> 
-  <td height="74" valign="middle" bgcolor="#D7FFFF" class="bodytext"><span class="bodytext"><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>NO ME SALEN<br>
-</strong></span><span class="Estilo3"><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em></strong></span><span class="titulograndegris"><strong>EJERCICIOS<strong> RESUELTOS   DE F&Iacute;SICA DEL CBC</strong></strong></span><br>
-      <span class="titulochicogris"><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>FLUIDOS - PRINCIPIO DE ARQU&Iacute;MEDES</strong></span></td>
-  <td class="bodytext" rowspan="3" height="74" width="7">&nbsp;</td>
+  <td height="74" bgcolor="#D7FFFF" class="bodytext"><span class="bodytext"><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>NO ME SALEN<br>
+</strong></span><span class="Estilo3"><em class="bodytext "><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>(<strong>PROBLEMAS RESUELTOS   DE BIOF&Iacute;SICA DEL CBC</strong>)</strong></em></span><br>
+      <span class="titulograndegris Estilo16"><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>FLUIDOS<br>
+      </strong></span><em class="bodytext "><strong><em><strong><em><strong><strong>&#160; &#160; </strong></strong></em></strong></em></strong></em><strong class="titulochicogris">Fluidos ideales</strong><br> </td>
+  <td class="bodytext" rowspan="3" height="74" width="4">&nbsp;</td>
   <td class="bodytext" height="74" rowspan="3" valign="top" width="86"> 
-<p><img src="img_hdinam/cap35.jpg" alt="desesperado" width="85" height="107"></p></td></tr>
+<p><img src="img_hdinam/cap44.jpg" alt="desesperado" width="85" height="143"></p></td></tr>
   <tr>
     <td height="18" bgcolor="#FFFFFF" class="bodytext">&nbsp;</td>
   </tr> 
-<tr> <td height="117" class="bodytext"><table width="100%" border="0" cellspacing="0" cellpadding="0">
-      <tr>
-        <td height="117" class="bodytext"><strong>NMS 07 *</strong><strong>Un l&iacute;quido de densidad <em>1,8 <span class="epigrafe">kg/L</span></em> y viscosidad insignificante fluye  a 20 cm/s por un tubo horizontal de <em>2 <span class="epigrafe">cm</span></em> de radio, siendo su presi&oacute;n de<em> 8 <span class="epigrafe">Pa</span></em>.  Luego se ramifica en varios tubos horizontales&nbsp; iguales &nbsp;de 1 cm de radio cada uno, en los que el  l&iacute;quido viaja a <em>10 <span class="epigrafe">cm/s</span></em>.<br>
-         &nbsp;&nbsp;&nbsp; a) &iquest;En cu&aacute;ntos tubos se ramifica? <br>
-         &nbsp;&nbsp;&nbsp; b) &iquest;Cu&aacute;l es la  presi&oacute;n en cada conducto luego de la ramificaci&oacute;n?</strong></td>
-        </tr>
-    </table>    
-    </td>
+<tr> <td height="110" valign="middle" class="bodytext"><table width="100%" border="0">
+  <tr class="bodytext">
+    <td width="28%" height="47" valign="top"><img src="img_hdinam/G20_U2_1ra.gif" width="140" height="45"></td>
+    <td width="2%" rowspan="2" valign="top">&nbsp;</td>
+    <td width="70%" rowspan="2" valign="top"><table width="100%" height="104" border="0">
+      <tr class="bodytext">
+        <td height="100"><strong>31- Un líquido no viscoso viaja a <em>20 cm/s</em> por
+          un tubo horizontal de <em>2 cm</em> de radio, siendo su
+          presión de <em>8 Pa</em>. Luego se ramifica en varios
+          tubos horizontales iguales de <em>1 cm</em> de radio; en
+          cada uno de ellos la velocidad vale <em>10 cm/s</em>. La
+          densidad del líquido es de <em>1,8 kg/L</em>.</strong></td>
+      </tr>
+      </table></td>
+  </tr>
+  <tr class="bodytext">
+    <td height="16" align="center" valign="top">&nbsp;</td>
+  </tr>
+</table></td>
   </tr>
 <tr>
-  <td height="36" class="bodytext"><p><strong><em><strong><em><strong><strong>* </strong></strong></em></strong></em></strong><span class="epigrafe">Este ejercicio form&oacute; parte del primer examen parcial de Biof&iacute;sica tomado el 4/10/2011.</span></p>    </td>
-  <td width="7" class="bodytext">&nbsp;</td>
-  <td width="86" align="center" valign="middle" class="bodytext"><span class="epigrafe Estilo18"><br>
-    </span></td>
+  <td height="41" valign="middle" class="bodytext"><p><strong>&nbsp;&nbsp;&nbsp; a) ¿En cuántos tubos se ramifica?<br>
+   &nbsp;&nbsp;&nbsp; b) ¿Cuál es la presión en cada conducto luego
+    de la ramificación?</strong></p></td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext" valign="middle">&nbsp;</td>
 </tr>
 <tr>
-  <td height="68" class="bodytext">Lo primero que deber&iacute;as haber captado del enunciado es que se trata de un fluido de <strong>viscosidad insignificante</strong>, de modo que, como no hay p&eacute;rdida de energ&iacute;a, pod&eacute;s resolverlo c&oacute;modamente utilizando el principio de Bernoulli... y el de continuidad, por supuesto, que es independiente del tipo de fluido.</td>
+  <td height="79" align="left" valign="middle" class="bodytext">Lo primero que deber&iacute;as haber captado del enunciado es que se trata de un fluido de <strong>viscosidad insignificante</strong>, de modo que, como no hay p&eacute;rdida de energ&iacute;a, pod&eacute;s resolverlo c&oacute;modamente utilizando el principio de Bernoulli... y el de continuidad, por supuesto, que es independiente del tipo de fluido.</td>
   <td class="bodytext">&nbsp;</td>
-  <td align="center" valign="middle" class="bodytext">&nbsp;</td>
-</tr>  
-
-<tr>
-  <td height="59" align="center" class="bodytext"><table width="100%" border="0" cellspacing="0" cellpadding="0">
-    <tr>
-      <td width="100%" align="center" class="bodytext"><p><img src="img_hdinam/flu_NMS15_1.gif" alt="Flu&iacute;dos - Ricardo Cabrera" width="480" height="130">        <p>&nbsp;</p></td>
-      </tr>
-    
-    
-  </table></td>
-  <td class="bodytext">&nbsp;</td>
-  <td class="bodytext">&nbsp;</td>
+  <td align="center" valign="middle" class="bodytext"><p>&nbsp;</p></td>
 </tr>
 <tr>
-  <td height="495" align="left" class="bodytext"><p>Si vos sos de los que no se hacen un esquema para describir el ejercicio... pasan varias cosas: no ten&eacute;s muchas ganas de que el ejercicio te salga, odi&aacute;s a tus docentes, los que te van a corregir el ejercicio en el examen y no te importa que ellos se sientan odiados.</p>
+  <td height="152" align="center" valign="middle" class="bodytext"><img src="img_hdinam/flu_NMS15_1.gif" alt="Flu&iacute;dos - Ricardo Cabrera" width="480" height="130"></td>
+  <td class="bodytext">&nbsp;</td>
+  <td valign="top" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="63" align="left" valign="middle" class="bodytext"><p>Si vos sos de los que no se hacen un esquema para describir el ejercicio... pasan varias cosas: no ten&eacute;s muchas ganas de que el ejercicio te salga, odi&aacute;s a tus docentes, los que te van a corregir el ejercicio en el examen y no te importa que ellos se sientan odiados.</p>
     <p>Ver&aacute;s que aprovech&eacute; el esquema para ponerle nombre a las variables que entran en juego. Llam&eacute; <strong>1</strong> al tubo &uacute;nico por el que fluye el fluido con una velocidad <em><strong>v<sub>1</sub></strong></em> y que tiene un radio <em><strong>r<sub>1</sub></strong></em> y una secci&oacute;n transversal <em><strong>S<sub>1</sub></strong></em>.</p>
     <p>Y llam&eacute; <em><strong>2</strong></em> a la parte ramificada, en la que hay <em><strong>n</strong></em> tubos (no sabemos cu&aacute;ntos) que cada uno tiene un radio <em><strong>r<sub>2</sub></strong></em> y una secci&oacute;n <em><strong>S<sub>2</sub></strong></em> y por el que el fluido circula a una velocidad <em><strong>v<sub>2</sub></strong></em>.</p>
     <p>La m&aacute;s malvada trampa que tiene este ejercicio (en la que cae el 47,62% de los estudiantes es pretender aplicar continuidad (o sea el principio de conservaci&oacute;n de la materia), entre el ca&ntilde;o <strong>1</strong> y uno solo de los ca&ntilde;os <strong>2</strong>. <em>&iexcl;</em>Terrible<em>!</em> <em>&iexcl;</em>El fluido se reparte en <em><strong>n</strong></em> ca&ntilde;itos peque&ntilde;os<em>!</em> O sea pasa por una secci&oacute;n total, <em><strong>S<sub>T2</sub></strong></em>, que es igual a <em><strong>n</strong></em> veces la secci&oacute;n <em><strong>S<sub>2</sub></strong></em>. Con ese concepto ten&eacute;s que aplicar continuidad: </p>
     <blockquote>
       <p><em><strong>S<sub>1</sub></strong></em> . <em><strong>v<sub>1</sub></strong></em> <strong>= </strong><em><strong>S<sub>T2</sub></strong></em> . <em><strong>v<sub>2</sub></strong></em></p>
       <p><em><strong>S<sub>1</sub></strong></em> . <em><strong>v<sub>1</sub></strong></em> <strong>= </strong><em><strong>n S<sub>2</sub></strong></em> . <em><strong>v<sub>2</sub></strong></em></p>
-      </blockquote>
+    </blockquote>
     <p>Despejando <em><strong>n</strong></em> y recordando que una secci&oacute;n circular vale <em>pi</em> por radio al cuadrado...</p>
     <blockquote>
       <p><em><strong>n</strong></em> <strong>= </strong><em><strong>S<sub>1</sub></strong></em> . <em><strong>v<sub>1</sub> /</strong></em> <em><strong>S<sub>2</sub></strong></em> . <em><strong>v<sub>2</sub></strong></em></p>
-      <p><em><strong>n</strong></em> <strong>= </strong><em><strong><span class="Estilo26">&pi; </span>r<sub>1</sub><em><strong><em><strong>&sup2;</strong></em></strong></em></strong></em> . <em><strong>v<sub>1</sub> /</strong></em> <em><strong><span class="Estilo26">&pi;</span> r<sub>2</sub><em><strong><em><strong>&sup2;</strong></em></strong></em> </strong></em> . <em><strong>v<sub>2</sub></strong></em></p>
+      <p><em><strong>n</strong></em> <strong>= </strong><em><strong><span class="Estilo26">&pi; </span>r<sub>1</sub><em><strong><em><strong>&sup2;</strong></em></strong></em></strong></em> . <em><strong>v<sub>1</sub> /</strong></em> <em><strong><span class="Estilo26">&pi;</span> r<sub>2</sub><em><strong><em><strong>&sup2;</strong></em></strong></em></strong></em> . <em><strong>v<sub>2</sub></strong></em></p>
       <p><em><strong>n</strong></em> <strong>=<em> (2 <span class="epigrafe">cm</span>)</em></strong><strong><em><strong><em><strong>&sup2;</strong></em></strong></em></strong><em><strong> </strong></em>. <em><strong>20 <span class="epigrafe">cm</span></strong><span class="epigrafe">/</span><strong><span class="epigrafe">s</span> /</strong></em> <em><strong><em>(1 <span class="epigrafe">cm</span>)</em><em><strong><em><strong>&sup2;</strong></em></strong></em></strong></em> .<em><strong> 10 <span class="epigrafe">cm</span></strong><span class="epigrafe">/</span><strong><span class="epigrafe">s</span></strong></em></p>
       <p><em><strong>n</strong></em> <strong>=</strong><em><strong> 80 </strong><strong>/</strong></em><em><strong> 10</strong></em></p>
     </blockquote></td>
   <td class="bodytext">&nbsp;</td>
-  <td align="center" class="epigrafe"><p class="Estilo18">&nbsp;</p>
-    <p class="Estilo18">&nbsp;</p>
-    <p class="Estilo18">&nbsp;</p>
-    <p class="Estilo18">&nbsp;</p>
-    <p class="Estilo18">&nbsp;</p>
-    <p class="Estilo18">&nbsp;</p>
-    <p class="Estilo18">&nbsp;</p>
-    <p class="Estilo18">&nbsp;</p>
-    <p class="Estilo18">&nbsp;</p>
-    <p class="Estilo18">&nbsp;</p>
-    <p class="Estilo18">&nbsp;</p>
-    <p class="Estilo18">No dejes de leer esta <a href="../miscelanea/advertencias_nms.html" target="_blank">ADVRTENCIA</a> de <br>
-                    <strong><em>No me salen</em></strong></p></td>
-  </tr>
+  <td valign="top" class="bodytext">&nbsp;</td>
+</tr>
 <tr>
-  <td height="51" align="center" class="bodytext"><table width="77%" border="0">
+  <td height="59" align="center" valign="middle" class="bodytext"><table width="77%" border="0">
     <tr>
       <td width="50%" height="36" align="center" bgcolor="#CCCCCC"><p class="bodytext"><em><strong>n</strong></em> <strong>=</strong><em><strong> 8</strong></em></p></td>
       <td width="50%" align="center" bgcolor="#FFFFFF" class="bodytext">respuesta <strong>a)</strong></td>
     </tr>
   </table></td>
   <td class="bodytext">&nbsp;</td>
-  <td class="bodytext">&nbsp;</td>
+  <td valign="top" class="bodytext">&nbsp;</td>
 </tr>
 <tr>
-  <td height="174" align="left" class="bodytext"><p>Como el ejercicio plantea horizontalidad, o sea, no hay cambios de altura, el principio de Bernoulli queda reducido a:</p>
+  <td height="57" align="left" valign="middle" class="bodytext"><p>Como el ejercicio plantea horizontalidad, o sea, no hay cambios de altura, el principio de Bernoulli queda reducido a:</p>
     <blockquote>
       <p><strong><em><strong><em><strong><strong><em>p<span class="epigrafe">r</span></em></strong></strong></em></strong><strong><em><strong><strong><em><strong><em><sub>1</sub></em></strong></em></strong></strong></em></strong> +</em></strong> <strong><em>&frac12; <span class="Estilo25">&rho;</span> v<strong><em><strong><strong><em><strong><em><sub>1</sub></em></strong></em></strong></strong></em></strong><strong>&sup2;</strong></em></strong> <em><strong>= </strong></em><strong><em><strong><em><strong><strong><em>p<span class="epigrafe">r</span></em></strong></strong></em></strong><strong><em><strong><strong><em><strong><em><sub>2</sub></em></strong></em></strong></strong></em></strong> + </em></strong> <strong><em>&frac12; <span class="Estilo25">&rho;</span> v<strong><em><strong><strong><em><strong><em><sub>2</sub></em></strong></em></strong></strong></em></strong><strong>&sup2;</strong></em></strong></p>
-      </blockquote>
-    <p>Si homogeneizamos las unidades y despejamos <strong><em><strong><em><strong><strong><em>p<span class="epigrafe">r</span></em></strong></strong></em></strong><strong><em><strong><strong><em><strong><em><sub>2</sub></em></strong></em></strong></strong></em></strong></em></strong></p>
+    </blockquote>
+    <p>Si homogeneizamos las unidades y despejamos<strong><em><strong><em><strong><strong><em> p<span class="epigrafe">r</span></em></strong></strong></em></strong><strong><em><strong><strong><em><strong><em><sub>2</sub></em></strong></em></strong></strong></em></strong></em></strong></p>
     <blockquote>
       <p><strong><em><strong><em><strong><strong><em>p<span class="epigrafe">r</span></em></strong></strong></em></strong><strong><em><strong><strong><em><strong><em><sub>2</sub></em></strong></em></strong></strong></em></strong></em></strong> <strong>=</strong> <strong><em><strong><em><strong><strong><em>p<span class="epigrafe">r</span></em></strong></strong></em></strong><strong><em><strong><strong><em><strong><em><sub>1</sub></em></strong></em></strong></strong></em></strong> +</em></strong> <strong><em>&frac12; <span class="Estilo25">&rho;</span> v<strong><em><strong><strong><em><strong><em><sub>1</sub></em></strong></em></strong></strong></em>&sup2; </strong><strong>&mdash;</strong></em></strong> <strong><em>&frac12; <span class="Estilo25">&rho;</span> v<strong><em><strong><strong><em><strong><em><sub>2</sub></em></strong></em></strong></strong></em>&sup2;</strong></em></strong></p>
-      </blockquote>
+    </blockquote>
     <p><strong><em><strong><em><strong><strong>&#160; &#160;&#160; &#160;&#160; </strong></strong></em></strong><strong><em><strong><strong>&#160; </strong></strong></em></strong><strong><em><strong><strong><em>p<span class="epigrafe">r</span></em></strong></strong></em></strong><strong><em><strong><strong><em><strong><em><sub>2</sub></em></strong></em></strong></strong></em></strong></em></strong> <strong>=</strong> <strong><em> 8 <span class="epigrafe">Pa</span> +</em></strong> <strong><em>&frac12; 1.800 <span class="epigrafe">kg</span></em></strong><em><span class="epigrafe">/</span></em><strong><em><span class="epigrafe">m</span><strong><em><strong>&sup3;</strong></em></strong><strong>. ( 0,04 <span class="epigrafe">m</span><em><strong>&sup2;</strong></em></strong></em></strong><span class="epigrafe">/</span><strong><em><strong><span class="epigrafe">s</span><em><strong>&sup2; </strong></em><em><strong>&mdash;</strong></em> 0,01 <span class="epigrafe">m</span><em><strong>&sup2;</strong></em></strong></em></strong><span class="epigrafe">/</span><strong><em><strong><span class="epigrafe">s</span><em><strong>&sup2;</strong></em></strong>)</em></strong></p></td>
   <td class="bodytext">&nbsp;</td>
-  <td align="center" class="bodytext"><table width="85" border="0" cellspacing="0" cellpadding="0">
-    <tr>
-      <td align="center" class="epigrafe"><span class="epigrafe Estilo18">espero que te acuerdes de que en un metro c&uacute;bico caben exactamente 1.000 litros</span></td>
-    </tr>
-  </table>
-    </td>
+  <td valign="top" class="bodytext">&nbsp;</td>
 </tr>
 <tr>
-  <td height="54" align="center" class="bodytext"><table width="77%" border="0">
+  <td height="62" align="center" valign="middle" class="bodytext"><table width="77%" border="0">
     <tr>
       <td width="50%" height="36" align="center" bgcolor="#CCCCCC"><p class="bodytext"><strong><em><strong><em><strong><strong><em>p<span class="epigrafe">r</span></em></strong></strong></em></strong><strong><em><strong><strong><em><strong><em><sub>2</sub></em></strong></em></strong></strong></em></strong></em></strong> <strong>=</strong> <strong><em> 35 <span class="epigrafe">Pa</span></em></strong></p></td>
       <td width="50%" align="center" bgcolor="#FFFFFF" class="bodytext">respuesta <strong>b)</strong></td>
     </tr>
   </table></td>
   <td class="bodytext">&nbsp;</td>
-  <td width="86" rowspan="5" valign="bottom" class="bodytext"><strong><em><sub><p><img src="img_hdinam/ricuti.jpg" alt="Flu&iacute;dos - Ricardo Cabrera" width="85" height="116"></sub></em></strong></td>
+  <td valign="top" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="72" align="left" valign="middle" class="bodytext"><strong>COMENTARIO</strong>: Una vez un estudiante me cuestion&oacute; &quot;&iquest;y por qu&eacute; tengo que saber que las velocidades en los ca&ntilde;os ramificados no se suman?&quot;. Mi respuesta fue: suponete que vas con tu novia de la mano caminando por la calle a 2 m/s, y que ella camina junto a vos, o sea, tambi&eacute;n a 2 m/s... la pareja &iquest;a qu&eacute; velocidad camina?</td>
+  <td class="bodytext">&nbsp;</td>
+  <td valign="top" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td align="left" valign="middle" class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+  <td valign="top" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td align="center" valign="middle" class="bodytext"><p>&nbsp;</p></td>
+  <td width="4" class="bodytext">&nbsp;</td>
+  <td width="86" valign="top" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="32" align="left" class="bodytext"><p><strong>Para saber más</strong>:&nbsp;</p></td>
+  <td class="bodytext">&nbsp;</td>
+  <td width="86" rowspan="3" valign="bottom" class="bodytext"><img src="../cinematica/img_cin/ric_teclado.jpg" alt="teclado ricardo cabrera" width="85" height="130"></td>
 </tr>
 
-
 <tr>
-  <td rowspan="2" bgcolor="#FFFFFF" class="bodytext"><p class="bodytext"><strong>COMENTARIO</strong>: Una vez un estudiante me cuestion&oacute; &quot;&iquest;y por qu&eacute; tengo que saber que las velocidades en los ca&ntilde;os ramificados no se suman?&quot;. Mi respuesta fue: suponete que vas con tu novia de la mano caminando por la calle a 2 m/s, y que ella camina junto a vos, o sea, tambi&eacute;n a 2 m/s... la pareja &iquest;a qu&eacute; velocidad camina?</p>    </td>
-  <td height="18" class="bodytext">&nbsp;</td>
-  </tr>
-
-<tr>
-  <td height="54" class="bodytext">&nbsp;</td>
-  </tr>
-<tr>
-  <td bgcolor="#FFFFFF" class="bodytext">&nbsp;</td>
+  <td height="18" bgcolor="#FFFFFF" class="bodytext">&nbsp;</td>
   <td class="bodytext">&nbsp;</td>
   </tr>
 
-<tr> <td height="43" align="center" valign="middle" bgcolor="#CCCCCC" class="bodytext"><table width="92%" border="0">
+<tr> <td align="center" valign="middle" bgcolor="#CCCCCC" class="bodytext"><table width="93%" border="0">
   <tr>
     <td class="epigrafe">Algunos derechos reservados. 
-  Se permite su reproducci&oacute;n citando la fuente leg&iacute;tima, o sea, este sitio. &Uacute;ltima actualizaci&oacute;n 
-  sep-11. Buenos Aires, Argentina. </td>
+      Se permite su reproducci&oacute;n citando la fuente. Se recomienda fervientemente su lectura en bibliotecas, escuelas, clubes y reuniones de consorcios. &Uacute;ltima actualizaci&oacute;n mar-20. Buenos Aires, Argentina. </td>
   </tr>
 </table>  </td>
-  <td class="bodytext" width="7">&nbsp;</td>
+  <td class="bodytext" width="4">&nbsp;</td>
   </tr> 
-<tr> <td height="18" class="bodytext">&nbsp;</td><td class="bodytext" width="7">&nbsp;</td>
+<tr> <td height="18" class="bodytext">&nbsp;</td><td class="bodytext" width="4">&nbsp;</td>
 <td class="bodytext" width="86">&nbsp;</td>
 </tr> 
 </table></td></tr> </table>
