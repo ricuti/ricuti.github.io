@@ -60,7 +60,7 @@
 <tr> 
   <td rowspan="2" class="bodytext"><table width="100%" border="0">
     <tr>
-      <td height="53" valign="top" class="bodytext"><strong>Adicional NMS 2* - Calcular la temperatura del Sol conociendo el radio solar, la distancia entre el Sol y la Tierra y estimando la temperatura media de la Tierra. </strong></td>
+      <td height="53" valign="top" class="bodytext"><strong>Adicional NMS 2* - Calcular la temperatura del Sol conociendo el radio solar, el radio terrestre, la distancia entre el Sol y la Tierra y estimando la temperatura media de la Tierra. </strong></td>
       </tr>
   </table></td>
 </tr>  
@@ -73,8 +73,8 @@
     <p>Primero voy a presentar los datos y algunas definiciones importantes que usar&eacute; luego, as&iacute; no interrumpo el desarrollo del problema. Ac&aacute; van:</p>
     <p><strong>Sol</strong>: el radio del Sol, <em><strong>R<sub>S</sub></strong></em>, vale 700 mil kil&oacute;metros; con ese dato podemos calcular el &aacute;rea de su superficie, <em><strong>S<sub>S</sub></strong></em>. (Acordate que el &aacute;rea de una superficie esf&eacute;rica, <em><strong>S</strong></em>, es igual a: <em><strong>S = </strong></em><strong><em>4</em><span class="Estilo26">&pi;</span></strong> <em><strong>. </strong></em> <em><strong>R<em>&sup2;</em></strong></em>). </p>
     <blockquote>
-      <p><em><strong>R<sub>S</sub></strong></em> <strong>=</strong> <em><strong>6,7 <em><span class="Estilo17">x 10</span></em><sup>8 </sup><span class="Estilo17">m</span></strong></em></p>
-      <p><em><strong>S<sub>S</sub></strong></em> <strong>= </strong><em><strong>5,64 <em><span class="Estilo17">x 10</span></em><sup>18 </sup><span class="Estilo17">m</span><em>&sup2;</em></strong></em></p>
+      <p><em><strong>R<sub>S</sub></strong></em> <strong>=</strong> <em><strong>7 <em><span class="Estilo17">x 10</span></em><sup>8 </sup><span class="Estilo17">m</span></strong></em></p>
+      <p><em><strong>S<sub>S</sub></strong></em> <strong>= </strong><em><strong>6,1 <em><span class="Estilo17">x 10</span></em><sup>18 </sup><span class="Estilo17">m</span><em>&sup2;</em></strong></em></p>
     </blockquote>
     <p><strong>Tierra</strong>: el radio de la Tierra, <em><strong>R<sub>T</sub></strong></em>, vale 6.400 kil&oacute;metros; con ese dato podemos calcular el &aacute;rea de  superficie terrestre, <em><strong>S<sub>T</sub></strong></em>; y el &aacute;rea de el disco de sombra, <em><strong>D<sub>T</sub></strong></em>, que despu&eacute;s te explico para qu&eacute; sirve... pero que se trata de un disco circular que tiene el mismo radio que la Tierra. (Acordate que el &aacute;rea de un c&iacute;rculo es igual a: <em><strong>A = </strong></em><strong><span class="Estilo26">&pi;</span></strong><em><strong> R<em>&sup2;</em></strong></em>). </p>
     <blockquote>
@@ -128,8 +128,8 @@
     <p>De esta &uacute;ltima expresi&oacute;n, el &uacute;nico dato que nos falta es la temperatura de la superficie solar. La despejo y calculo:</p>
     <blockquote>
       <p><em><strong>T<sub>S</sub><sup>4</sup> =</strong></em> <em><strong> T<sub>T</sub><sup>4</sup> . S<sub>T</sub>  / X<sub>T</sub></strong></em> <em><strong> .  S<sub>S</sub></strong></em> </p>
-      <p><em><strong>T<sub>S</sub><sup>4</sup> =</strong></em> <em><strong> (283 <span class="Estilo17">K</span>)<sup>4</sup> . 5,15 <em><span class="Estilo17">x 10</span></em><sup>14 </sup><span class="Estilo17">m</span><em>&sup2;</em> / 4,55 <em><span class="Estilo17">x 10</span></em><sup>-10</sup></strong></em> <em><strong> .  5,64 <em><span class="Estilo17">x 10</span></em><sup>18 </sup><span class="Estilo17">m</span><em>&sup2;</em></strong></em></p>
-      <p><em><strong>T<sub>S</sub><sup>4</sup> =</strong></em> <em><strong>1,28</strong></em> <em><strong><em><span class="Estilo17">x 10</span></em><sup>15</sup><span class="Estilo17"> K</span><sup>4</sup> </strong></em></p>
+      <p><em><strong>T<sub>S</sub><sup>4</sup> =</strong></em> <em><strong> (283 <span class="Estilo17">K</span>)<sup>4</sup> . 5,15 <em><span class="Estilo17">x 10</span></em><sup>14 </sup><span class="Estilo17">m</span><em>&sup2;</em> / 4,55 <em><span class="Estilo17">x 10</span></em><sup>-10</sup></strong></em> <em><strong> .  6,1 <em><span class="Estilo17">x 10</span></em><sup>18 </sup><span class="Estilo17">m</span><em>&sup2;</em></strong></em></p>
+      <p><em><strong>T<sub>S</sub><sup>4</sup> =</strong></em> <em><strong>1,19</strong></em> <em><strong><em><span class="Estilo17">x 10</span></em><sup>15</sup><span class="Estilo17"> K</span><sup>4</sup> </strong></em></p>
       </blockquote></td>
   <td class="bodytext">&nbsp;</td>
   <td colspan="2" valign="bottom" class="bodytext">&nbsp;</td>
@@ -137,7 +137,7 @@
 <tr>
   <td height="58" align="center" valign="middle" bgcolor="#FFFFFF" class="bodytext"><table width="77%" height="39" border="0">
     <tr>
-      <td height="35" bgcolor="#CCCCCC" class="bodytext"><p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<em><strong>T<sub>S</sub> =</strong></em> <em><strong>6.000</strong></em><em><strong><span class="Estilo17"> K</span></strong></em></p></td>
+      <td height="35" bgcolor="#CCCCCC" class="bodytext"><p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<em><strong>T<sub>S</sub> =</strong></em> <em><strong>5.870</strong></em><em><strong><span class="Estilo17"> K</span></strong></em></p></td>
     </tr>
   </table></td>
   <td class="bodytext">&nbsp;</td>
