@@ -14,6 +14,8 @@
 .Estilo3 {color: #3F6386}
 .Estilo7 {color: #FF0000}
 .Estilo16 {font-size: 16px}
+.Estilo18 {font-style: italic; font-weight: bold; font-family: "Times New Roman", Times, serif; }
+.Estilo19 {font-family: "Times New Roman", Times, serif}
 -->
 </style>
 </head>
@@ -40,8 +42,8 @@
   </TABLE></td>
 </tr> <tr> <td class="bodytext" height="8"><img src="img_magnitudes/transparente.gif" width="600" height="8"></td>
 </tr> 
-<tr align="center"> <td height="431"> <table width="600" border="0" cellspacing="0" cellpadding="0"> 
-<tr class="bodytext"> <td valign="top" width="600" height="411"> 
+<tr align="center"> <td height="1737"> <table width="600" border="0" cellspacing="0" cellpadding="0"> 
+<tr class="bodytext"> <td valign="top" width="600" height="1717"> 
 <table width="599" border="0" cellspacing="0" cellpadding="0"> 
   <tr> 
   <td width="510" bgcolor="#FFDB4A" class="bodytext"><strong><em><strong><em><strong><strong><br>
@@ -116,14 +118,75 @@
   <td class="bodytext">&nbsp;</td>
 </tr>
 <tr>
-  <td height="44" class="bodytext"><p>&nbsp;La suma s&iacute; es conmutativa, y es f&aacute;cil ver (miralo en el gr&aacute;fico de suma por el m&eacute;todo del paralelogramo) que <em><strong>A + B = B + A = S</strong></em>.</p>    </td>
+  <td height="44" class="bodytext"><strong>RESTA  DE VECTORES</strong>
+    <P>Si ya domin&aacute;s anal&iacute;tica y geom&eacute;tricamente la suma de vectores, hacer la resta es bien sencillo, ya que restar <em><strong>M</strong></em> y <em><strong>S</strong></em> (eleg&iacute; esos nombres por <em>minuendo</em> y <em>sustraendo</em>) es lo mismo que sumar <em><strong>M</strong></em> y <em><strong><strong>&ndash;</strong>S</strong></em>:</P>
+    <blockquote>
+      <p><em><strong>M <strong>&ndash;</strong> S = M + (<strong>&ndash;</strong>S)</strong></em></p>
+    </blockquote>
+    <P>De modo que basta con multiplicar por <em><strong>-1</strong></em> a un vector (o sea, invertirlo) para fabricar una resta a partir de una suma.</P>
+    <P>Sin embargo, como la resta entre vectores tiene una importancia especial, vamos a desarrollarla completamente y a destacar algunas propiedades importantes.</P>
+    <P>La principal es que la resta (tanto de los vectores como de los escalares) <strong>no es conmutativa</strong>. Para todo el mundo es f&aacute;cil comprender que <em><strong>5 <strong>&ndash;</strong> 3</strong></em> no es lo mismo que <nobr><em><strong>3 <strong>&ndash;</strong> 5</strong></em></nobr>. No es tan obvio con los vectores, pero es as&iacute;:</P></td>
   <td class="bodytext">&nbsp;</td>
-  <td rowspan="5" valign="bottom" class="bodytext"><img src="img_magnitudes/ric_teclado.jpg" width="85" height="130"></td>
+  <td rowspan="11" valign="bottom" class="bodytext"><img src="img_magnitudes/ric_teclado.jpg" width="85" height="130"></td>
+</tr>
+<tr>
+  <td height="44" class="bodytext"><table width="100%" border="0">
+    <tr>
+      <td width="53%" height="148" class="bodytext"><img src="img_magnitudes/gr_AC_VEC3_3.gif" width="254" height="100"></td>
+      <td width="47%" class="bodytext"><p>Una  diagonal del paralelogramo que se forma con dos vectores cualesquiera se corresponde con la resta de los vectores. La resta no es conmutativa, con los vectores tampoco:</p>
+        <blockquote>
+          <p><em><strong>B <strong>&ndash;</strong> A = R<em><strong><strong><em><strong><strong><sub>1</sub></strong></strong></em></strong></strong></em></strong></em></p>
+          <p><em><strong>A <strong>&ndash;</strong> B = R<em><strong><strong><em><strong><strong><sub>2</sub></strong></strong></em></strong></strong></em></strong></em></p>
+        </blockquote></td>
+    </tr>
+  </table></td>
+  <td class="bodytext">&nbsp;</td>
+  </tr>
+<tr>
+  <td height="44" class="bodytext"><p>Probemos anal&iacute;ticamente el segundo caso:</p>
+    <blockquote>
+      <p><em><strong>A = A<em><strong><strong><em><strong><strong><sub>x</sub></strong></strong></em></strong></strong></em></strong></em><span class="Estilo18">&#238; </span><em><strong>+ A<em><strong><strong><em><strong><strong><sub>y</sub></strong></strong></em></strong></strong></em> <span class="Estilo19">&#309;</span></strong></em> <em><strong>=</strong></em> <em><strong> 7 </strong></em><span class="Estilo18">&#238; </span><em><strong>+ 2 <span class="Estilo19">&#309;</span></strong></em></p>
+      <p><em><strong>B = B<em><strong><strong><em><strong><strong><sub>x</sub></strong></strong></em></strong></strong></em></strong></em><span class="Estilo18">&#238; </span><em><strong>+ B<em><strong><strong><em><strong><strong><sub>y</sub></strong></strong></em></strong></strong></em> <span class="Estilo19">&#309;</span></strong></em> <em><strong>=</strong></em> <em><strong><span class="Estilo19">&#238;</span> + 4 <span class="Estilo19">&#309;</span></strong></em></p>
+    </blockquote></td>
+  <td class="bodytext">&nbsp;</td>
+  </tr>
+<tr>
+  <td height="44" class="bodytext"><table width="100%" border="0">
+    <tr>
+      <td width="36%" class="bodytext"><img src="img_magnitudes/gr_AC_VEC5_1.gif" width="174" height="116"></td>
+      <td width="64%" class="bodytext"><p>(Son los mismo que us&eacute; antes).</p></td>
+    </tr>
+  </table></td>
+  <td class="bodytext">&nbsp;</td>
+  </tr>
+<tr>
+  <td height="44" class="bodytext"><p>Ahora restamos:</p>
+    <blockquote>
+      <p><em><strong>A <strong>&ndash;</strong> B = R<em><strong><strong><em><strong><strong><sub>2</sub></strong></strong></em></strong></strong></em></strong></em></p>
+      <p><em><strong>A <strong>&ndash;</strong> B = ( 7 </strong></em><span class="Estilo18">&#238; </span><em><strong>+ 2 <span class="Estilo19">&#309;</span> <strong>) &ndash;</strong></strong></em> <em><strong>( </strong></em><span class="Estilo18">&#238; </span><em><strong>+ 4 <span class="Estilo19">&#309;</span> <strong>)</strong></strong></em></p>
+      <p><em><strong>A <strong>&ndash;</strong> B = 7 </strong></em><span class="Estilo18">&#238; </span><em><strong>+ 2 <span class="Estilo19">&#309;</span> <strong>&ndash;</strong></strong></em><span class="Estilo18"> &#238; </span><em><strong><strong>&ndash;</strong> 4 <span class="Estilo19">&#309;</span></strong></em></p>
+      <p><em><strong>A <strong>&ndash;</strong> B = 6 </strong></em><span class="Estilo18">&#238; </span><em><strong><strong>&ndash;</strong> 2 <span class="Estilo19">&#309;</span></strong></em> <em><strong>= R<em><strong><strong><em><strong><strong><sub>2</sub></strong></strong></em></strong></strong></em></strong></em></p>
+    </blockquote></td>
+  <td class="bodytext">&nbsp;</td>
+  </tr>
+<tr>
+  <td height="44" class="bodytext"><table width="100%" border="0">
+    <tr>
+      <td width="36%" class="bodytext"><img src="img_magnitudes/gr_AC_VEC7_1.gif" width="174" height="140"></td>
+      <td width="64%" class="bodytext"><p>Y, como ves, su representaci&oacute;n centrada en el origen es equivalente al vector que une los extremos de los vectores que se restan, con origen en el sustraendo y extremo en el minuendo.</p>
+        <p>Cuando los vectores que tengas que restar representen situaciones anteriores y posteriores (inicial y final) el sentido de la resta (si es <em><strong>R<em><strong><strong><em><strong><strong><sub>1</sub></strong></strong></em></strong></strong></em></strong></em> o <em><strong>R<em><strong><strong><em><strong><strong><sub>2</sub></strong></strong></em></strong></strong></em></strong></em>) va cobrar sentido autom&aacute;ticamente.</p></td>
+    </tr>
+  </table></td>
+  <td class="bodytext">&nbsp;</td>
+  </tr>
+<tr>
+  <td class="bodytext"><p>&nbsp;La suma s&iacute; es conmutativa, y es f&aacute;cil ver (miralo en el gr&aacute;fico de suma por el m&eacute;todo del paralelogramo) que <em><strong>A + B = B + A = S</strong></em>.</p>    </td>
+  <td class="bodytext">&nbsp;</td>
 </tr>
 <tr>
   <td height="35" class="bodytext"><span class="bodylinkblack"><strong>CHISMES IMPORTANTES</strong>: </span></td>
   <td class="bodytext">&nbsp;</td>
-  </tr>
+</tr>
 <tr>
   <td height="48" class="bodytext"><ul>
     <li>Si te cuesta resolver la resta, podes probar convertirla en una suma, que es m&aacute;s f&aacute;cil. Por ejemplo, no sab&eacute;s cu&aacute;l de los sentidos (<em><strong>R<em><strong><strong><em><strong><strong><sub>1</sub></strong></strong></em></strong></strong></em></strong></em> o <em><strong>R<em><strong><strong><em><strong><strong><sub>2</sub></strong></strong></em></strong></strong></em></strong></em>) es el correcto para resolver la resta <em><strong>A <strong>&ndash;</strong> B</strong></em>. Entonces te puede resultar m&aacute;s sencillo resolver la suma <em><strong>A <strong>+ (&ndash;</strong>B)</strong></em>. &iquest;Te cierra ahora?</li>
