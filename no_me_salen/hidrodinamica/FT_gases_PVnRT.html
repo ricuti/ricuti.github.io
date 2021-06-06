@@ -1,0 +1,276 @@
+<html>
+<head>
+<title>Ricardo Cabrera, MECANICA DE FLUIDOS, GASES</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="keywords" content="problemas resueltos, ejercicios resueltos, cbc, fisica, biofisica, fluidos, liquidos, gases, bernoulli, poiseuille, viscosidad, ideales, viscosos, humedad, difusion, osmosis, nomesalen, no me salen, ricardo cabrera" />
+<meta name="description" content="Ejercicios y problemas resueltos, y apuntes teóricos de Fluidos, mecanismos de transporte de fluidos" />
+<link rel="stylesheet" href="win_ie.css">
+<style type="text/css">
+<!--
+.style1 {
+	color: #3F6386;
+	font-weight: bold;
+}
+.Estilo3 {color: #3F6386}
+.Estilo16 {font-size: 16px}
+.Estilo17 {font-size: 10px}
+.Estilo19 {
+	font-size: 10;
+	font-weight: bold;
+}
+.Estilo20 {font-size: 10; }
+.Estilo22 {font-size: 10px; font-weight: bold; }
+.Estilo23 {color: #FF0000}
+.Estilo24 {
+	font-family: "Times New Roman", Times, serif;
+	font-style: italic;
+	font-size: 14px;
+}
+.Estilo25 {font-family: Verdana, Arial, sans-serif}
+.Estilo26 {	font-family: "Times New Roman", Times, serif;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 16px;
+}
+-->
+</style>
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000" alink="#000000" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<table align=center width="600" border="0" cellspacing="0" cellpadding="0"> 
+  <tr bgcolor="#000000" align="right"> 
+<td><img src="img_hdinam/nombre5.gif" width="369" height="71"></td></tr> <tr bgcolor="#BB0000" valign="middle" align="left"> 
+<td class="bodytext" height="20"><TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+  <TR ALIGN="center" CLASS="menuitem">
+    <TD WIDTH="44" height="19" CLASS="menuitem"><A HREF="../../index.html" CLASS="menuitem">&nbsp;<B>home</B>&nbsp;</A></TD>
+    <TD WIDTH="5" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="121" CLASS="menuitem"><strong><a href="index_hdinam.html" class="menuitem">más de hidrodinámica </a> </strong></TD>
+    <TD width="10" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="117" CLASS="menuitem"><strong><a href="../../intro_NMS.html" class="menuitem">otros temas de F&iacute;sica</a></strong></TD>
+    <TD width="10" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="173" CLASS="menuitem"><strong><a href="../../lista_ciruela.html" class="menuitem">lecciones del maestro Ciruela </a></strong></TD>
+    <TD width="9" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="68" CLASS="menuitem"><strong><a href="../../lista_tonterias.html" class="menuitem">tonter&iacute;as</a></strong></TD>
+    <TD WIDTH="8" CLASS="menuitem"><a href="../energia/index_energia.html" class="menuitem"></a><FONT COLOR="#000000">|</FONT></TD>
+    <TD WIDTH="41" CLASS="menuitem">&nbsp;<B><FONT FACE="Arial, Helvetica, sans-serif"><A HREF="mailto: ricuti@gmail.com" CLASS="menuitem">@</A></FONT><A HREF="../../index.html" CLASS="menuitem"></A></B>&nbsp;</TD>
+  </TR>
+</TABLE></td></tr> <tr> <td class="bodytext" height="19"><p><img src="img_hdinam/transparente.gif" width="600" height="20"></td></tr> 
+<tr align="center"> <td height="1082"> <table width="600" border="0" cellspacing="0" cellpadding="0"> 
+<tr class="bodytext"> <td valign="top" width="594" height="1993"> 
+<table width="601" border="0" cellspacing="0" cellpadding="0"> <tr> 
+  <td width="462" height="74" bgcolor="#D7FFFF" class="bodytext"><span class="bodytext"><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>NO ME SALEN<br>
+</strong></span><span class="Estilo3"><em class="bodytext "><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>(<strong>LECCIONES TEORICAS  DE BIOF&Iacute;SICA DEL CBC</strong>)</strong></em></span><br>
+      <span class="titulograndegris Estilo16"><strong><em><strong><em><strong><strong>&#160; </strong></strong></em></strong></em>FLUIDOS<br>
+      </strong></span><span class="titulochicogris"><strong> <em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>GASES </strong></span><span class="Estilo3"><br>
+      </span><br> </td>
+  <td class="bodytext" rowspan="5" height="74" width="52">&nbsp;</td>
+  <td class="bodytext" colspan="2" height="74" rowspan="5" valign="top" width="86"> 
+<p><img src="img_hdinam/cap9.jpg" alt="desesperado" width="85" height="123"></p></td></tr>
+  <tr>
+    <td height="18" bgcolor="#FFFFFF" class="bodytext">&nbsp;</td>
+  </tr> 
+  <tr>
+    <td height="117" class="bodytext"><strong>LEY DE LOS GASES IDEALES O ECUACION DE ESTADO (<em>P V = n R T</em>)<br>
+    </strong><br>
+En 1662 Robert Boyle midió con suficiente precisión cantidades de diversos gases (N<em><em><em><sub>2</sub></em></em></em>, O<em><em><em><sub>2</sub></em></em></em> y O<em><em><em><sub>2</sub></em></em></em>) a diversas presiones, volúmenes y temperaturas. Y encontró que para cierta masa de gas a cierta temperatura constante, el producto entre la presión y el volumen también se mantenía constante. Acá tenés un gráfico que lo describe.</td>
+  </tr>
+  <tr>
+    <td height="230" class="bodytext"><table width="100%" border="0">
+      <tr class="bodytext">
+        <td width="44%" height="141"><img src="img_hdinam/gr_gases_PV_1.png" width="200" height="189"></td>
+        <td width="56%"><p>La curva se llama <em>isoterma</em> y resulta ser una hipérbola equilátera. La ley que enuncia esta relación se denomina <em><strong>Ley de Boyle-Mariotte</strong></em>:</p>
+          <blockquote>
+            <p><strong><em>P . V = cte<sub>(m, T)</sub></em></strong><em><sub></sub></em></p>
+          </blockquote>
+          <p>Esta ley se cumple con independencia del gas que se trate (gases ideales). Según esta ley, mientras se mantenga fija la cantidad de materia y la temperatura a la que se halla, se cumplirá que:</p>
+          <blockquote>
+            <p><strong><em>P<sub>1</sub> . V<sub>1</sub> = P<sub>2</sub> . V<sub>2</sub></em></strong><em><sub></sub></em></p>
+          </blockquote></td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr> <td height="85" class="bodytext"><p>Trabajando de la misma manera Jacques Charles y Joseph-Louis Gay-Lussac encontraron que el cociente entre el volumen y la temperatura de una cierta masa fija de un gas a presión constante también se mantenía constante. Acá el gráfico que lo describe.</p>
+    </td>
+</tr>  
+  <tr>
+    <td height="210" align="left" class="bodytext"><table width="100%" border="0">
+      <tr class="bodytext">
+        <td width="59%" height="231"><img src="img_hdinam/gr_gases_PV_2.png" width="275" height="193"></td>
+        <td width="41%" valign="middle"><p>Se trata de una recta. Si extrapolamos esa recta hasta un volumen igual a cero, se obtiene el valor de -273,15 &deg;C. Una temperatura inferior a ella resultaría en un volumen negativo, lo cual carece de sentido. De modo que ese valor de temperatura resulta el más bajo al que se puede llegar y se conoce como <em><strong>0 </strong></em><strong><em>absoluto</em></strong>, y es el que da origen a la escala de temperaturas absolutas o <strong>escala Kelvin</strong>.          </p></td>
+      </tr>
+    </table></td>
+    <td class="bodytext">&nbsp;</td>
+    <td class="bodytext" colspan="2">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="54" align="left" class="bodytext">Adoptada la escala de temperaturas absolutas, el gráfico que describe el hallazgo de Charles y Gay-Lussac adquiere esta pinta:</td>
+    <td class="bodytext">&nbsp;</td>
+    <td class="bodytext" colspan="2">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="60" align="left" class="bodytext"><table width="100%" border="0">
+      <tr class="bodytext">
+        <td width="45%" height="231" rowspan="4"><img src="img_hdinam/gr_gases_PV_3.png" width="200" height="201"></td>
+        <td width="55%" valign="middle"><p>La<em><strong> ley de Charles y Gay-Lussac </strong></em>se puede expresar de esta manera:</p></td>
+      </tr>
+      <tr class="bodytext">
+        <td height="54" valign="middle"><table width="99%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td width="14%" rowspan="3" align="center" class="bodytext">&nbsp;</td>
+            <td width="14%" height="19" align="center" valign="middle" class="bodytext" font style="line-height: 60%;" ><strong><em>V</em></strong><em><strong><em><strong><em><strong><strong><em><strong><em><sub></sub></em></strong></em></strong></strong></em></strong></em></strong></em></td>
+            <td width="12%" rowspan="3" align="center" class="bodytext"><em><strong>=</strong></em></td>
+            <td width="60%" rowspan="3" align="left" class="bodytext"><strong><em> cte<sub>(m, P)</sub></em></strong></td>
+          </tr>
+          <tr>
+            <td align="center" class="bodytext"><hr align="center" width="100%" style="color:black" size="1" noshade></td>
+            </tr>
+          <tr>
+            <td height="17" align="center" valign="middle" class="bodytext" font style="line-height: 60%;" ><span class="bodytext" style="line-height: 60%;"><em><strong>T</strong></em><strong><em><strong></strong></em></strong></span></td>
+            </tr>
+        </table></td>
+      </tr>
+      <tr class="bodytext">
+        <td height="56" valign="middle">Y de ello se desprende que para dos estados, 1 y 2, diferentes (de una masa fija de gas a la misma presión):</td>
+      </tr>
+      <tr class="bodytext">
+        <td height="73" valign="middle"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td width="8%" rowspan="3" align="center" class="bodytext">&nbsp;</td>
+            <td width="18%" height="19" align="center" valign="middle" class="bodytext" font style="line-height: 60%;" ><strong><em>V<sub>1</sub></em></strong></td>
+            <td width="7%" rowspan="3" align="center" class="bodytext"><em><strong>=</strong></em></td>
+            <td width="19%" align="center" valign="middle" class="bodytext" style="line-height: 60%;" font><strong><em>V<sub>2</sub></em></strong><em><sub></sub></em></td>
+            <td width="48%" rowspan="3" align="center" class="bodytext">&nbsp;</td>
+          </tr>
+          <tr>
+            <td align="center" class="bodytext"><hr align="center" width="100%" style="color:black" size="1" noshade></td>
+            <td align="center" class="bodytext"><hr align="center" width="100%" style="color:black" size="1" noshade></td>
+          </tr>
+          <tr>
+            <td height="17" align="center" valign="middle" class="bodytext" font style="line-height: 60%;" ><em><strong>T<em><sub>1</sub></em></strong></em></td>
+            <td align="center" valign="middle" class="bodytext" font style="line-height: 60%;"><em><strong>T<em><sub>2</sub></em></strong><em><sub></sub></em></em></td>
+          </tr>
+        </table></td>
+      </tr>
+    </table></td>
+    <td class="bodytext">&nbsp;</td>
+    <td class="bodytext" colspan="2">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="41" align="left" class="bodytext">Exactamente de la misma manera encontraron otra ley: la presión y la temperatura absoluta de un gas resultan directamente proporcionales (a volumen constante y para una masa fija de gas). </td>
+    <td class="bodytext">&nbsp;</td>
+    <td class="bodytext" colspan="2">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="56" align="left" class="bodytext"><table width="99%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="10%" rowspan="3" align="center" class="bodytext">&nbsp;</td>
+        <td width="8%" height="19" align="center" valign="middle" class="bodytext" font style="line-height: 60%;" ><strong><em>P</em></strong><em><strong><em><strong><em><strong><strong><em><strong><em><sub></sub></em></strong></em></strong></strong></em></strong></em></strong></em></td>
+        <td width="5%" rowspan="3" align="center" class="bodytext"><em><strong>=</strong></em></td>
+        <td width="77%" rowspan="3" align="left" class="bodytext"><strong><em> cte<sub>(m, V)</sub></em></strong></td>
+      </tr>
+      <tr>
+        <td align="center" class="bodytext"><hr align="center" width="100%" style="color:black" size="1" noshade></td>
+      </tr>
+      <tr>
+        <td height="17" align="center" valign="middle" class="bodytext" font style="line-height: 60%;" ><span class="bodytext" style="line-height: 60%;"><em><strong>T</strong></em><strong><em><strong></strong></em></strong></span></td>
+      </tr>
+    </table></td>
+    <td class="bodytext">&nbsp;</td>
+    <td class="bodytext" colspan="2">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="56" align="left" class="bodytext">Si juntamos las tres leyes en una sola, se verifica que para una fija masa de gas y dos estados 1 y 2:</td>
+    <td class="bodytext">&nbsp;</td>
+    <td class="bodytext" colspan="2">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="56" align="left" class="bodytext"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="8%" rowspan="3" align="center" class="bodytext">&nbsp;</td>
+        <td width="11%" height="19" align="center" valign="middle" class="bodytext" font style="line-height: 60%;" ><strong><em>P<sub>1</sub> . V<sub>1</sub></em></strong></td>
+        <td width="4%" rowspan="3" align="center" class="bodytext"><em><strong>=</strong></em></td>
+        <td width="11%" align="center" valign="middle" class="bodytext" style="line-height: 60%;" font><strong><em>P<sub>2</sub> . V<sub>2</sub></em></strong><em><sub></sub></em></td>
+        <td width="2%" rowspan="3" align="center" class="bodytext">&nbsp;</td>
+        <td width="64%" rowspan="3" align="left" class="bodytext"><strong><em>= cte<sub>(m)</sub><sub></sub></em></strong></td>
+      </tr>
+      <tr>
+        <td align="center" class="bodytext"><hr align="center" width="100%" style="color:black" size="1" noshade></td>
+        <td align="center" class="bodytext"><hr align="center" width="100%" style="color:black" size="1" noshade></td>
+      </tr>
+      <tr>
+        <td height="17" align="center" valign="middle" class="bodytext" font style="line-height: 60%;" ><em><strong>T<em><sub>1</sub></em></strong></em></td>
+        <td align="center" valign="middle" class="bodytext" font style="line-height: 60%;"><em><strong>T<em><sub>2</sub></em></strong><em><sub></sub></em></em></td>
+      </tr>
+    </table></td>
+    <td class="bodytext">&nbsp;</td>
+    <td class="bodytext" colspan="2">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="290" align="left" class="bodytext"><p>Para pasar de esa relación de proporcionalidades a una igualdad debemso encontrar una constante. La constante <em><strong>R</strong></em>, se define para considerar las masas de gas en moles. Puede ocurrir que todavía no sepas lo que es un mol (acá está). De modo que si desiganamos n al número de moles (la cantidad de moles) nos queda:</p>
+      <blockquote>
+        <p><strong><em>P V = n R T</em></strong></p>
+      </blockquote>
+      <p>Lo que suele denominarse ecuación de estado de los gases ideales.</p>
+      <p>El valor de la constante,<em><strong> R</strong></em><strong></strong> (constante de los gases ideales) depende de las unidades en las que midamos los volúmenes y las presiones (la temperatura absoluta se mide en kelvin), Entonces: </p>
+      <blockquote>
+        <p><span class="bodytext"><em><strong>R = 8,314 J</strong>/<strong>mol K <br>
+          R = 0,08207 l atm</strong>/<strong>mol K</strong></em> <br>
+          <em><strong>R </strong></em><strong></strong><em><strong>=</strong></em> <em><strong>1,987207 cal</strong>/<strong>K mol</strong></em></span></p>
+      </blockquote></td>
+    <td class="bodytext">&nbsp;</td>
+    <td class="bodytext" colspan="2">&nbsp;</td>
+  </tr>
+  <tr> 
+  <td height="49" align="left" class="bodytext"><p><strong>CHISMES IMPORTANTES </strong></p></td>
+  <td class="bodytext" width="52">&nbsp;</td>
+  <td class="bodytext" colspan="2" width="86">&nbsp;</td>
+</tr>
+<tr>
+  <td align="left" class="bodytext"><ul>
+    <li><strong>Mol</strong>: una colecci&oacute;n de un n&uacute;mero de Avogadro (<em><strong>6,02  x 10<sup>23</sup></strong></em>) de elementos. Por ejemplo en un mol de ox&iacute;geno hay <em><strong>6,02  x 10<sup>23</sup></strong></em> mol&eacute;culas de <strong>O<em><em><em><em><sub>2</sub></em></em></em></em></strong>. El n&uacute;mero de Avogadro se designa <strong><em>N<em><em><em><sub>A</sub></em></em></em></em></strong>.</li>
+    <li><strong>N&uacute;mero de moles (<em>n</em>)</strong>:<strong> </strong>cantidad  de mol&eacute;culas, o de &aacute;tomos, o de cualquier cosa expresada en moles.</li>
+    <li><strong>Volumen molar</strong>: volumen que ocupa un 1 mol de un gas ideal en  condiciones normales de presi&oacute;n y temperatura (<em><strong>1 <span class="Estilo17">atm</span></strong></em>; <em><strong>0<span class="Estilo17"> &deg;C</span></strong></em>), cuyo valor es <em><strong>22,414</strong></em> litros.</li>
+    <li><strong>Gas ideal</strong>: es uno cuyas mol&eacute;culas est&aacute;n tan  separadas y el volumen de cada una es tan peque&ntilde;o que muy rara vez se chocan entre s&iacute;.  Cuanto m&aacute;s diluido est&eacute; un gas y menor sea su masa molecular relativa, m&aacute;s se  aproxima su comportamiento al de un gas ideal. En este curso no se abordar&aacute;n  otras situaciones.</li>
+    <li>Si quer&eacute;s conocer la relaci&oacute;n que hay entre la temperatura y la agitaci&oacute;n de las mol&eacute;culas pod&eacute;s ir <a href="FT_gases2.html">ac&aacute;</a>.</li>
+  </ul></td>
+  <td class="bodytext">&nbsp;</td>
+  <td colspan="2" align="center" valign="middle" class="epigrafe Estilo23"><p></td>
+</tr>
+<tr>
+  <td height="25" bgcolor="#FFFFFF" class="bodytext"><strong>PREGUNTAS CAPCIOSAS</strong></td>
+  <td class="bodytext">&nbsp;</td>
+  <td width="86" colspan="2" rowspan="2" valign="bottom" class="bodytext"><strong><em><sub>
+    <p></sub></em></strong></td>
+</tr>
+
+<tr>
+  <td height="18" align="left" bgcolor="#FFFFFF" class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+  </tr>
+<tr>
+  <td bgcolor="#FFFFFF" class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+  <td width="86" colspan="2" rowspan="3" valign="bottom" class="bodytext"><p><strong><em><sub><img src="img_hdinam/ric_fotoric.jpg" alt="Flu&iacute;dos - Ricardo Cabrera" width="85" height="110"></sub></em></strong></td>
+</tr>
+<tr>
+  <td bgcolor="#FFFFFF" class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+  </tr>
+<tr> <td height="45" align="center" valign="middle" bgcolor="#CCCCCC" class="bodytext"><table width="89%" border="0">
+  <tr>
+    <td class="epigrafe">Algunos derechos reservados. 
+      Se permite su reproducci&oacute;n citando la fuente. &Uacute;ltima actualizaci&oacute;n jun-21. Buenos Aires, Argentina. </td>
+  </tr>
+</table>  </td>
+  <td class="bodytext" width="52">&nbsp;</td>
+  </tr> 
+<tr> <td class="bodytext"><p><img src="img_hdinam/transparente.gif" width="509" height="18"></td><td class="bodytext" width="52">&nbsp;</td>
+<td class="bodytext" colspan="2" width="86">&nbsp;</td>
+</tr> 
+</table></td></tr> </table>
+<p><img src="img_hdinam/transparente.gif" width="10" height="20"></td></tr> 
+<tr> <td class="bodytext"><p><img src="img_hdinam/transparente.gif" width="600" height="20"></td></tr> 
+</table>
+c 
+</body>
+</html>
