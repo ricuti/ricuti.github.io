@@ -1,0 +1,233 @@
+<html>
+<head>
+<title>Ricardo Cabrera, MECANICA DE FLUIDOS, GASES</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="keywords" content="problemas resueltos, ejercicios resueltos, cbc, fisica, biofisica, fluidos, liquidos, gases, bernoulli, poiseuille, viscosidad, ideales, viscosos, humedad, difusion, osmosis, nomesalen, no me salen, ricardo cabrera" />
+<meta name="description" content="Ejercicios y problemas resueltos, y apuntes teóricos de Fluidos, mecanismos de transporte de fluidos" />
+<link rel="stylesheet" href="win_ie.css">
+<style type="text/css">
+<!--
+.style1 {
+	color: #3F6386;
+	font-weight: bold;
+}
+.Estilo3 {color: #3F6386}
+.Estilo16 {font-size: 16px}
+.Estilo17 {font-size: 10px}
+.Estilo19 {
+	font-size: 10;
+	font-weight: bold;
+}
+.Estilo20 {font-size: 10; }
+.Estilo22 {font-size: 10px; font-weight: bold; }
+.Estilo23 {color: #FF0000}
+.Estilo24 {
+	font-family: "Times New Roman", Times, serif;
+	font-style: italic;
+	font-size: 14px;
+}
+-->
+</style>
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000" alink="#000000" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<table align=center width="600" border="0" cellspacing="0" cellpadding="0"> 
+  <tr bgcolor="#000000" align="right"> 
+<td><img src="img_hdinam/nombre5.gif" width="369" height="71"></td></tr> <tr bgcolor="#BB0000" valign="middle" align="left"> 
+<td class="bodytext" height="20"><TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+  <TR ALIGN="center" CLASS="menuitem">
+    <TD WIDTH="44" height="19" CLASS="menuitem"><A HREF="../../index.html" CLASS="menuitem">&nbsp;<B>home</B>&nbsp;</A></TD>
+    <TD WIDTH="5" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="121" CLASS="menuitem"><strong><a href="index_hdinam.html" class="menuitem">más de hidrodinámica </a> </strong></TD>
+    <TD width="10" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="117" CLASS="menuitem"><strong><a href="../../intro_NMS.html" class="menuitem">otros temas de F&iacute;sica</a></strong></TD>
+    <TD width="10" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="173" CLASS="menuitem"><strong><a href="../../lista_ciruela.html" class="menuitem">lecciones del maestro Ciruela </a></strong></TD>
+    <TD width="9" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="68" CLASS="menuitem"><strong><a href="../../lista_tonterias.html" class="menuitem">tonter&iacute;as</a></strong></TD>
+    <TD WIDTH="8" CLASS="menuitem"><a href="../energia/index_energia.html" class="menuitem"></a><FONT COLOR="#000000">|</FONT></TD>
+    <TD WIDTH="41" CLASS="menuitem">&nbsp;<B><FONT FACE="Arial, Helvetica, sans-serif"><A HREF="mailto: ricuti@gmail.com" CLASS="menuitem">@</A></FONT><A HREF="../../index.html" CLASS="menuitem"></A></B>&nbsp;</TD>
+  </TR>
+</TABLE></td></tr> <tr> <td class="bodytext" height="19"><p><img src="img_hdinam/transparente.gif" width="600" height="20"></td></tr> 
+<tr align="center"> <td height="2647"> <table width="600" border="0" cellspacing="0" cellpadding="0"> 
+<tr class="bodytext"> <td valign="top" width="594" height="2608"> 
+<table width="601" border="0" cellspacing="0" cellpadding="0"> <tr> 
+  <td width="462" height="74" bgcolor="#D7FFFF" class="bodytext"><span class="bodytext"><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>NO ME SALEN<br>
+</strong></span><span class="Estilo3"><em class="bodytext "><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>(<strong>LECCIONES TEORICAS  DE BIOF&Iacute;SICA DEL CBC</strong>)</strong></em></span><br>
+      <span class="titulograndegris Estilo16"><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>FLUIDOS<br>
+      </strong></span><span class="titulochicogris"><strong> <em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>GASES </strong></span><span class="Estilo3"><br>
+      </span><br> </td>
+  <td class="bodytext" rowspan="3" height="74" width="52">&nbsp;</td>
+  <td class="bodytext" colspan="2" height="74" rowspan="3" valign="top" width="86"> 
+<p><img src="img_hdinam/cap9.jpg" alt="desesperado" width="85" height="123"></p></td></tr>
+  <tr>
+    <td height="18" bgcolor="#FFFFFF" class="bodytext">&nbsp;</td>
+  </tr> 
+<tr> <td height="70" class="bodytext"><p><strong>MOL</strong></p>
+  <p>Acá lo tenés:<br>
+  </p>
+    </td>
+</tr>  
+<tr> 
+  <td height="233" align="left" class="bodytext"><img src="img_hdinam/maul.jpg" width="508" height="294"></td>
+  <td class="bodytext" width="52">&nbsp;</td>
+  <td class="bodytext" colspan="2" width="86">&nbsp;</td>
+</tr>
+<tr>
+  <td height="1018" align="left" valign="middle" class="bodytext"><p>Pero no es el que nos interesa a nosotros. Además el del rugby se escribe <em><strong>maul</strong></em>, y el nuestro <strong><em>mol</em></strong>.</p>
+    <p>La historia del mol es un tanto complicada, de modo que vamos a ir directo a los bifes. El <em><strong>mol</strong></em> es una medida -súmamente práctica- de cantidad de materia. Y es igual a un conjunto de un número de Avogadro  (<em><strong>6,022  x 10<sup>23</sup></strong></em>) de partículas.</p>
+    <p>Un<em><strong> mol </strong></em>de moléculas de agua es un conjunto de <em><strong>6,022  x 10<sup>23</sup></strong></em> moléculas de agua.</p>
+    <p>Un <em><strong>mol</strong></em> de átomos de carbono es un conjunto de <em><strong>6,022  x 10<sup>23 </sup></strong></em>átomos de carbono.</p>
+    <p>Un <em><strong>mol</strong></em> de pelotitas de tenis es un conjunto de <em><strong>6,022  x 10<sup>23 </sup></strong></em>pelotitas de tenis.</p>
+    <p>Obviamentem el último ejemplo está traído de los pelos, el concepto de mol se utiliza para partículas pequeñas. </p>
+    <p>El número de avogadro,<strong><em> N<sub>A</sub></em></strong>, es enorme. Te lo escribo por única vez con todas sus cifras significativas aceptadas hasta ahora y en notación decimal:</p>
+    <blockquote>
+      <p><strong><em>N<sub>A</sub> = 602 214 076 000 000 000 000 000</em></strong></p>
+      </blockquote>
+    <p>O sea, <em><strong>0,6</strong></em> cuatrillones. Es imposible hacerse una idea cabal de semejante cantidad. Te recomiendo <a href="../TERMO/ter_ad_10.html">este ejercicio</a> que ayuda a pensarlo.</p>
+    <p><strong>Número de moles, (<em>n)</em></strong>. Es la <strong></strong>cantidad  de mol&eacute;culas, o de &aacute;tomos, o de cualquier cosa expresada en moles. Por ejemplo si tenés una colección de <em><strong>6,022  x 10<sup>22</sup></strong></em> (ojo, mirá el exponente) de moléculas de glucosa, entones tenés una cantidad<em><strong> n</strong></em>...</p>
+    <blockquote>
+      <p><strong><em>n = 0,1 moles</em></strong></p>
+  </blockquote>
+    <p>de moléculas de glucosa.</p>
+    <p><strong>Moles y masa.</strong> Te nés que recordar el concepto de <em><strong>masa molecular relativa</strong></em>, <strong><em>Mr</em></strong>. O sea, la masa de una molécula comparada con la masa de un átomo de hidrógeno (o, si querés, la doceava parte del átomo de carbono-12). </p>
+    <p>Una de las virtudes prácticas del concepto de mol es el que relaciona las cantidades molares con las masa de las colecciones. La masa de un mol  de una molécula cualquiera es igual a la masa molecular relativa expresada en gramos. Por ejemplo:</p>
+    <blockquote>
+      <p>La masa de un mol de <em><strong>C</strong></em> es 12 gramos.</p>
+      <p>La masa de un mol de <em><strong>H</strong></em><strong><em><sub>2</sub></em></strong> es 2 gramos.</p>
+      <p>La masa de 1 mol de <em><strong>H<sub>2</sub>O</strong></em><strong></strong> es 18 gramos.</p>
+      <p>La masa de 1 mol de<em><strong> C<sub>6</sub>H<sub>12</sub>O<sub>6</sub></strong></em><strong><em><sub></sub></em></strong> (glucosa) es 180 gramos, más o menos.</p>
+      </blockquote>
+    <p>La <em><strong>masa molar, M</strong></em>, es la masa de  por cada mol de una sustancia. Y se expresa en gramos por (sobre) mol. Por ejemplo: la masa molar del agua es <em><strong>18 g/mol</strong></em><strong></strong>, o lo que es lo mismo, <em><strong>18 g mol<em><strong><em><strong><em><strong><em><strong><em><strong><em><sup>-1</sup></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em>.</p>
+    <p>Fijate que para averiguar la masa de 1 mol de cualquier sustancia basta con sumar las masas molares de todos los átomos que la componen. Por ejemplo el caso de la glucosa hacemos:</p>
+    <blockquote>
+      <p> <em><strong>6 . 12 + 12 . 1 + 6 . 16 = 180</strong></em><strong></strong></p>
+    </blockquote>
+    <p>(La masa molar de cada átomo elemental lo encontras en la Tabla Periódica. <em><strong>M<em><sub>C </sub></em></strong></em><strong>=</strong><em><strong> 12 g mol<em><strong><em><strong><em><strong><em><strong><em><strong><em><sup>-1</sup></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em>,  <em><strong>M<em><sub>H </sub></em></strong></em><strong>=</strong><em><strong> 1 g mol<em><strong><em><strong><em><strong><em><strong><em><strong><em><sup>-1</sup></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em>,  <em><strong>M<em><sub>O </sub></em></strong></em><strong>=</strong><em><strong> 16</strong></em> <em><strong>g mol<em><strong><em><strong><em><strong><em><strong><em><strong><em><sup>-1</sup></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em>).</p></td>
+  <td class="bodytext">&nbsp;</td>
+  <td colspan="2" align="center" valign="middle" class="epigrafe Estilo23">&nbsp;</td>
+</tr>
+<tr>
+  <td height="33" align="left" class="bodytext"><img src="img_hdinam/tabla periodica.jpg" width="508" height="286"></td>
+  <td class="bodytext">&nbsp;</td>
+  <td colspan="2" align="center" valign="middle" class="epigrafe Estilo23">&nbsp;</td>
+</tr>
+<tr>
+  <td height="45" align="left" class="bodytext">El número de moles de cualquier cantidad de una sustancia pura se obtiene directamente de dividir la masa que uno tiene en su sistema por la masa molar.</td>
+  <td class="bodytext">&nbsp;</td>
+  <td colspan="2" align="center" valign="middle" class="epigrafe Estilo23">&nbsp;</td>
+</tr>
+<tr>
+  <td height="66" align="left" class="bodytext"><table width="99%" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td width="11%" rowspan="3" align="right" class="bodytext"><strong><em>n</em></strong></td>
+      <td width="5%" rowspan="3" align="center" class="bodytext"><strong>=</strong></td>
+      <td width="7%" height="19" align="center" valign="middle" class="bodytext" font style="line-height: 60%;" ><strong><em>m</em></strong><em><strong><em><strong><em><strong><strong><em><strong><em><sub></sub></em></strong></em></strong></strong></em></strong></em></strong></em></td>
+      <td width="26%" rowspan="3" align="center" class="bodytext">&nbsp;</td>
+      <td width="51%" rowspan="3" align="left" class="bodytext">&nbsp;</td>
+      </tr>
+    <tr>
+      <td align="center" class="bodytext"><hr align="center" width="100%" style="color:black" size="1" noshade></td>
+      </tr>
+    <tr>
+      <td height="17" align="center" valign="middle" class="bodytext" font style="line-height: 60%;" ><span class="bodytext" style="line-height: 60%;"><em><strong>M</strong></em><strong><em><strong></strong></em></strong></span></td>
+      </tr>
+    </table></td>
+  <td class="bodytext">&nbsp;</td>
+  <td colspan="2" align="center" valign="middle" class="epigrafe Estilo23"><p></td>
+</tr>
+<tr>
+  <td height="37" align="left" class="bodytext">Por ejemplo,  un vaso contiene 200 g de agua (200 ml), entonces ahí tenemos:</td>
+  <td class="bodytext">&nbsp;</td>
+  <td colspan="2" align="center" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="61" align="left" class="bodytext"><table width="99%" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td width="11%" rowspan="3" align="right" class="bodytext"><strong><em>n</em></strong></td>
+      <td width="5%" rowspan="3" align="center" class="bodytext"><strong>=</strong></td>
+      <td width="17%" height="19" align="center" valign="middle" class="bodytext" font style="line-height: 60%;" ><strong><em>200 g</em></strong><em><strong><em><strong><em><strong><strong><em><strong><em><sub></sub></em></strong></em></strong></strong></em></strong></em></strong></em></td>
+      <td width="2%" rowspan="3" align="center" class="bodytext">&nbsp;</td>
+      <td width="65%" rowspan="3" align="left" class="bodytext"><strong><em>= 11,11 moles</em></strong></td>
+    </tr>
+    <tr>
+      <td align="center" class="bodytext"><hr align="center" width="100%" style="color:black" size="1" noshade></td>
+    </tr>
+    <tr>
+      <td height="17" align="center" valign="middle" class="bodytext" font style="line-height: 60%;" ><span class="bodytext" style="line-height: 60%;"><em><strong>18 g mol<em><strong><em><strong><em><strong><em><strong><em><strong><em><sup>-1</sup></em></strong></em></strong></em></strong></em></strong></em></strong></em></strong></em><strong><em><strong></strong></em></strong></span></td>
+    </tr>
+  </table></td>
+  <td class="bodytext">&nbsp;</td>
+  <td colspan="2" align="center" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="271" align="left" class="bodytext"><p><strong>Usos prácticos:</strong></p>
+    <p>Las<em><strong> reacciones químicas</strong></em> ocurren entre relaciones numéricas sencillas de moles entre los reactivos. La estequiometría se basa en relaciones entre moléculas y por lo tanto, entre moles.</p>
+    <p>Las<em><strong> soluciones</strong></em> (con las que habitualmente se preparan los reactivos químicos), suelen considearse en moles de sustancia por litro de solución. La unidad de concentración más utilizada es la concentración molar: un mol de cualquier cosa en un litro de solvente es una concentración 1 molar,<em><strong> 1M</strong></em>.</p>
+    <p>Los <em><strong>gases ideales</strong></em> se comportan (varían su volumen, presión y temperatura) en relación no a su masa sino a su cantidad molar,<em><strong> n</strong></em>. De ahí que la ecuación de estado de los gases ideales se refiere a<em><strong> n</strong></em> y no a<em><strong> m</strong></em>.  (<em><strong>P V  = n R T</strong></em>). Lo mismo para los calores específicos de los gases (calor específico molar). Independientemente del gas que se trate, en condiciones normales de presión y temperatura (CNPT:  <em><strong>1 <span class="Estilo17">atm</span></strong></em>, <em><strong>0<span class="Estilo17"> &deg;C</span></strong></em>) un mol de ese gas ocupa un volumen de<em><strong> 22,4 L</strong></em> (<em><strong>volumen molar</strong></em>).</p>
+    <p>Hay más, pero con esto tenés suficiente.</p></td>
+  <td class="bodytext">&nbsp;</td>
+  <td colspan="2" align="center" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="25" align="left" class="bodytext"><p>&nbsp;</p></td>
+  <td class="bodytext">&nbsp;</td>
+  <td colspan="2" align="center" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td align="left" class="bodytext"><p>&nbsp;</p></td>
+  <td class="bodytext">&nbsp;</td>
+  <td colspan="2" class="bodytext">&nbsp;</td>
+</tr>
+
+
+<tr>
+  <td height="18" align="left" class="bodytext"><p><strong>CHISMES IMPORTANTES </strong></p>    </td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext" colspan="2">&nbsp;</td>
+</tr> 
+<tr>
+  <td height="51" align="left" bgcolor="#FFFFFF" class="bodytext"><ul>
+    <li>El verdadero héroe de esta hitoria fue Amadeo Avogadro, que nació el 9 de junio de 1776, en Turín, Italia. </li>
+  </ul></td>
+  <td class="bodytext">&nbsp;</td>
+  <td colspan="2" class="bodytext">&nbsp;</td>
+</tr>
+
+
+<tr>
+  <td height="25" bgcolor="#FFFFFF" class="bodytext"><strong>PREGUNTAS CAPCIOSAS</strong></td>
+  <td class="bodytext">&nbsp;</td>
+  <td width="86" colspan="2" rowspan="2" valign="bottom" class="bodytext"><strong><em><sub><p><img src="img_hdinam/ric_fotoric.jpg" alt="Flu&iacute;dos - Ricardo Cabrera" width="85" height="110"></sub></em></strong></td>
+</tr>
+
+<tr>
+  <td height="18" align="left" bgcolor="#FFFFFF" class="bodytext"><ul>
+    <li>¿Qué es la fracción molar?</li>
+    <li>¿El mol es una unidad de masa?</li>
+  </ul></td>
+  <td class="bodytext">&nbsp;</td>
+  </tr>
+<tr>
+  <td bgcolor="#FFFFFF" class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+  <td width="86" colspan="2" valign="bottom" class="bodytext">&nbsp;</td>
+</tr>
+<tr> <td height="45" align="center" valign="middle" bgcolor="#CCCCCC" class="bodytext"><table width="89%" border="0">
+  <tr>
+    <td class="epigrafe">Algunos derechos reservados. 
+      Se permite su reproducci&oacute;n citando la fuente. &Uacute;ltima actualizaci&oacute;n jun-21. Buenos Aires, Argentina. </td>
+    </tr>
+  </table>  </td>
+  <td class="bodytext" width="52">&nbsp;</td>
+  <td width="86" colspan="2" valign="bottom" class="bodytext"><p></td>
+</tr> 
+<tr> <td class="bodytext"><p><img src="img_hdinam/transparente.gif" width="509" height="18"></td><td class="bodytext" width="52">&nbsp;</td>
+<td class="bodytext" colspan="2" width="86">&nbsp;</td>
+</tr> 
+</table></td></tr> </table>
+<p><img src="img_hdinam/transparente.gif" width="10" height="20"></td></tr> 
+<tr> <td class="bodytext"><p><img src="img_hdinam/transparente.gif" width="600" height="20"></td></tr> 
+</table>
+</body>
+</html>
