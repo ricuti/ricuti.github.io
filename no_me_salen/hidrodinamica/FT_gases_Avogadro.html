@@ -1,0 +1,168 @@
+<html>
+<head>
+<title>Ricardo Cabrera, MECANICA DE FLUIDOS, GASES</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="keywords" content="problemas resueltos, ejercicios resueltos, cbc, fisica, biofisica, fluidos, liquidos, gases, bernoulli, poiseuille, viscosidad, ideales, viscosos, humedad, difusion, osmosis, nomesalen, no me salen, ricardo cabrera" />
+<meta name="description" content="Ejercicios y problemas resueltos, y apuntes teóricos de Fluidos, mecanismos de transporte de fluidos" />
+<link rel="stylesheet" href="win_ie.css">
+<style type="text/css">
+<!--
+.style1 {
+	color: #3F6386;
+	font-weight: bold;
+}
+.Estilo3 {color: #3F6386}
+.Estilo16 {font-size: 16px}
+.Estilo17 {font-size: 10px}
+.Estilo19 {
+	font-size: 10;
+	font-weight: bold;
+}
+.Estilo20 {font-size: 10; }
+.Estilo22 {font-size: 10px; font-weight: bold; }
+.Estilo23 {color: #FF0000}
+.Estilo24 {
+	font-family: "Times New Roman", Times, serif;
+	font-style: italic;
+	font-size: 14px;
+}
+-->
+</style>
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000" alink="#000000" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<table align=center width="600" border="0" cellspacing="0" cellpadding="0"> 
+  <tr bgcolor="#000000" align="right"> 
+<td><img src="img_hdinam/nombre5.gif" width="369" height="71"></td></tr> <tr bgcolor="#BB0000" valign="middle" align="left"> 
+<td class="bodytext" height="20"><TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+  <TR ALIGN="center" CLASS="menuitem">
+    <TD WIDTH="44" height="19" CLASS="menuitem"><A HREF="../../index.html" CLASS="menuitem">&nbsp;<B>home</B>&nbsp;</A></TD>
+    <TD WIDTH="5" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="121" CLASS="menuitem"><strong><a href="index_hdinam.html" class="menuitem">más de hidrodinámica </a> </strong></TD>
+    <TD width="10" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="117" CLASS="menuitem"><strong><a href="../../intro_NMS.html" class="menuitem">otros temas de F&iacute;sica</a></strong></TD>
+    <TD width="10" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="173" CLASS="menuitem"><strong><a href="../../lista_ciruela.html" class="menuitem">lecciones del maestro Ciruela </a></strong></TD>
+    <TD width="9" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="68" CLASS="menuitem"><strong><a href="../../lista_tonterias.html" class="menuitem">tonter&iacute;as</a></strong></TD>
+    <TD WIDTH="8" CLASS="menuitem"><a href="../energia/index_energia.html" class="menuitem"></a><FONT COLOR="#000000">|</FONT></TD>
+    <TD WIDTH="41" CLASS="menuitem">&nbsp;<B><FONT FACE="Arial, Helvetica, sans-serif"><A HREF="mailto: ricuti@gmail.com" CLASS="menuitem">@</A></FONT><A HREF="../../index.html" CLASS="menuitem"></A></B>&nbsp;</TD>
+  </TR>
+</TABLE></td></tr> <tr> <td class="bodytext" height="19"><p><img src="img_hdinam/transparente.gif" width="600" height="20"></td></tr> 
+<tr align="center"> <td height="1712"> <table width="600" border="0" cellspacing="0" cellpadding="0"> 
+<tr class="bodytext"> <td valign="top" width="594" height="1615"> 
+<table width="601" border="0" cellspacing="0" cellpadding="0"> <tr> 
+  <td width="462" height="74" bgcolor="#D7FFFF" class="bodytext"><span class="bodytext"><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>NO ME SALEN<br>
+</strong></span><span class="Estilo3"><em class="bodytext "><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>(<strong>LECCIONES TEORICAS  DE BIOF&Iacute;SICA DEL CBC</strong>)</strong></em></span><br>
+      <span class="titulograndegris Estilo16"><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>FLUIDOS<br>
+      </strong></span><span class="titulochicogris"><strong> <em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>GASES </strong></span><span class="Estilo3"><br>
+      </span><br> </td>
+  <td class="bodytext" rowspan="3" height="74" width="52">&nbsp;</td>
+  <td class="bodytext" colspan="2" height="74" rowspan="3" valign="top" width="86"> 
+<p><img src="img_hdinam/cap9.jpg" alt="desesperado" width="85" height="123"></p></td></tr>
+  <tr>
+    <td height="18" bgcolor="#FFFFFF" class="bodytext">&nbsp;</td>
+  </tr> 
+<tr> <td height="949" class="bodytext"><p><strong>EL NUMERO DE AVOGADRO</strong></p>
+  <p>¿De dónde viene el número de Avogadro? ¿Qué significa? ¿Por qué vale lo que vale?  ¿Es una constante del universo? ¿Quién lo determinó por primera vez?</p>
+  <p>Bueno, algunas cosas ya sabés. Como te conté en la clase anterior, la del <em><strong>mol</strong></em>, el número de Avogadro es la cantidad de elementos individuales, de partículas que componen <em><strong>1 mol</strong></em> de cualquier cosa.</p>
+  <p>El número de Avogadro es enormísimo: <em><strong>6,022  x 10<sup>23</sup></strong></em>. Entonces, por ejemplo, <em><strong>1</strong></em><strong></strong><em><strong> mol </strong></em>de moléculas de agua es un conjunto de <em><strong>6,022  x 10<sup>23</sup></strong></em> moléculas de agua.</p>
+  <p>Para que te des una idea del tamaño del número te lo escribo por única vez con todas sus cifras significativas aceptadas hasta ahora y en notación decimal:</p>
+  <blockquote>
+    <p><strong><em>N<sub>A</sub> = 602 214 076 000 000 000 000 000</em></strong></p>
+  </blockquote>
+  <p>O sea, <em><strong>0,6</strong></em> cuatrillones. Es imposible hacerse una idea cabal de semejante cantidad. Te recomiendo <a href="../TERMO/ter_ad_10.html">este ejercicio</a> que ayuda a pensarlo.</p>
+  <p>Y su definición es ésta: se trata del número de átomos del isótopo carbono-12 que hay en 12 gramos de carbono-12. El isótopo carbono-12 es el que en su núcleo posee 6 protones y 6 neutrones, y es el mayoritario en la naturaleza.</p>
+  <p>Y ya mismo te adelanto que no fue Avogadro el que determinó ese número, y hasta se murió sin tener la menor idea de cuánto podía valer ese número. Pero fue él el que advirtió que había un conjunto de fenómenos, sobre todo aquellos que tenían que ver con el comportamiento de los gases, que obedecían al número de partículas, o de moléculas y no a su masa. </p>
+  <p>En última instancia la idea de Avogadro fue el punto cúlmine de la teoria atomista, de la idea de la estructura corpuscular de la materia: la materia está hecha de corpúsculos.</p>
+  <p>Los corpúsculos tienen masa, fundamentalmente debido a la masa de los núcleos de los átomos de que está compuesta la materia. Y los núcleos se integran con dos tipos de nucleones -protones y neutrones- que tienen casi la misma masa. </p>
+  <p>Cada protón (y cada neutrón) tiene una masa muy pequeña, llamada <em>unidad de masa atómica</em>, <strong><em>uma</em></strong>, también llamada <em><strong>dalton</strong></em>, que se simboliza <em><strong>Da</strong></em>. Y como los átomos y las moléculas tienen un número entero de protones y neutrones, todos los átomos y todas las moléculas tienen una masa cuyo valor es un número entero de <em><strong>daltons</strong></em>.</p>
+  <p>La masa del dalton es tan insignificante que resulta imposible medirla. Para masarla, entonces, hay que juntar un número muy grande de ellos. En un principio fua la cantidad de átomos que había en <em><strong>12 g</strong></em> de <em><strong>C<em>-12</em></strong></em>. Y a esa cantidad de sustancia se la llama <em><strong>mol</strong></em>. Y ese número es el número de Avogadro.</p>
+  <p>Entonces: un átomo de hidrógeno, <em><strong>H<em>&sup1;</em></strong></em>, tiene 1 solo nucleón &gt; su masa es <em><strong>1 Da</strong></em> &gt; al multiplicar eso por <em><strong>6,022  x 10<sup>23</sup></strong></em> obtenemos <em><strong>1 mol </strong></em> de átomos de <em><strong>H<em>&sup1;</em></strong></em>, cuya masa es de <em><strong>1 x</strong></em> <em><strong>6,022  x 10<sup>23</sup></strong></em> <em><strong>Da</strong></em> &gt; un mol de <em><strong>H<em>&sup1;</em></strong></em> tiene una masa de<em><strong> 1 gramo</strong></em>.</p>
+  <p> la molécula de agua, <em><strong>H<em><sub>2</sub></em>O</strong></em>, tiene 18 nucleones &gt; su masa es 18 daltons &gt; al multiplicar eso por <em><strong>6,022  x 10<sup>23</sup></strong></em> obtenemos <em><strong>1 mol </strong></em>de agua, cuya masa es de<em><strong> 18 x</strong></em> <em><strong>6,022  x 10<sup>23</sup></strong></em><em><strong>Da </strong></em>&gt; un mol de <em><strong>H<em><sub>2</sub></em>O</strong></em> tiene una masa de <em><strong>18 gramos</strong></em>.</p>
+  <p>Podríamos preguntarnos cuál es la masa de un nucleón, en gramos. O, lo que es lo mismo, la equivalencia entre el <em><strong>dalton</strong></em> y el <em><strong>gramo</strong></em>. Basta con dividir <em><strong>1 gramo</strong></em> (la masa de un mol de protones) por el número de Avogadro.  </p>
+  <p><br>
+</p>
+    </td>
+</tr>  
+<tr> 
+  <td height="66" align="left" class="bodytext"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td width="16%" rowspan="3" align="right" class="bodytext"><strong><em>1 Da</em></strong></td>
+      <td width="4%" rowspan="3" align="center" class="bodytext"><strong>=</strong></td>
+      <td width="23%" height="19" align="center" valign="middle" class="bodytext" font style="line-height: 60%;" ><strong><em>1 g</em></strong><em><strong><em><strong><em><strong><strong><em><strong><em><sub></sub></em></strong></em></strong></strong></em></strong></em></strong></em></td>
+      <td width="5%" rowspan="3" align="center" class="bodytext"><strong><em>=</em></strong></td>
+      <td width="52%" rowspan="3" align="left" class="bodytext"><em><strong>1,66  x 10<sup>-24 </sup><em>g</em></strong></em></td>
+    </tr>
+    <tr>
+      <td align="center" class="bodytext"><hr align="center" width="100%" style="color:black" size="1" noshade></td>
+    </tr>
+    <tr>
+      <td height="17" align="center" valign="middle" class="bodytext" font style="line-height: 60%;" ><span class="bodytext" style="line-height: 60%;"> <em><strong>6,022  x 10<sup>23</sup></strong></em><strong><em><strong></strong></em></strong></span></td>
+    </tr>
+  </table></td>
+  <td class="bodytext" width="52">&nbsp;</td>
+  <td class="bodytext" colspan="2" width="86">&nbsp;</td>
+</tr>
+<tr>
+  <td height="195" align="left" valign="middle" class="bodytext"><p>Una nada.</p>
+    <p>El número de Avogadro no es una constante del universo, es un factor necesario para acomodar una masa en gramos. Es una convención social. Si Avogadro y sus seguidores hubiesen sido anglosajones y hubiesen acomodado las cosas para que los moles estuviesen en libras, el número de Avogadro sería <em><strong>2,73  x 10<sup>26</sup></strong></em>. Y el mol de agua tendía una masa de 18 libras. Por suerte no ocurrió.</p>
+    <p>Y quién lo midió por primera vez. El primero fue <strong>Jean Baptiste</strong> <strong>Perrin</strong> que por tres métodos diferentes se acercó bastante, <em><strong>6,5  x 10<sup>23</sup></strong></em>. Pero la más precisa la logró <span id="t1h_14"><strong><em>Bowers</em></strong> y <em><strong>Davis</strong></em></span>aprovechando el valor de la constante de Faraday, <em><strong>F</strong></em>, y su compromiso con el número de Avogadro. Resulta que<em><strong> F = e N<em><sub>A</sub></em></strong></em>, donde <em><strong>e</strong></em> es la carga eléctrica del electrón.</p></td>
+  <td class="bodytext">&nbsp;</td>
+  <td colspan="2" align="center" valign="middle" class="epigrafe Estilo23">&nbsp;</td>
+</tr>
+<tr>
+  <td align="left" class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+  <td colspan="2" align="center" valign="middle" class="epigrafe Estilo23"><p></td>
+</tr>
+<tr>
+  <td height="18" align="left" class="bodytext"><p><strong>CHISMES IMPORTANTES </strong></p>    </td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext" colspan="2">&nbsp;</td>
+</tr> 
+<tr>
+  <td height="51" align="left" bgcolor="#FFFFFF" class="bodytext"><ul>
+    <li>El número de Avogadro se utilizará para reemplazar la definición de kilogramo.</li>
+  </ul></td>
+  <td class="bodytext">&nbsp;</td>
+  <td colspan="2" class="bodytext">&nbsp;</td>
+</tr>
+
+
+<tr>
+  <td height="25" bgcolor="#FFFFFF" class="bodytext"><strong>PREGUNTAS CAPCIOSAS</strong></td>
+  <td class="bodytext">&nbsp;</td>
+  <td width="86" colspan="2" rowspan="2" valign="bottom" class="bodytext"><strong><em><sub>
+    <p></sub></em></strong></td>
+</tr>
+
+<tr>
+  <td height="44" align="left" bgcolor="#FFFFFF" class="bodytext"><ul>
+    <li>¿Puede ser que alguien haya construido una esfera de silicio que contenga exactamente un número de Avogadro de moléculas?</li>
+  </ul></td>
+  <td class="bodytext">&nbsp;</td>
+  </tr>
+<tr>
+  <td bgcolor="#FFFFFF" class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+  <td width="86" colspan="2" valign="bottom" class="bodytext">&nbsp;</td>
+</tr>
+<tr> <td height="45" align="center" valign="middle" bgcolor="#CCCCCC" class="bodytext"><table width="89%" border="0">
+  <tr>
+    <td class="epigrafe">Algunos derechos reservados. 
+      Se permite su reproducci&oacute;n citando la fuente. &Uacute;ltima actualizaci&oacute;n jun-21. Buenos Aires, Argentina. </td>
+    </tr>
+  </table>  </td>
+  <td class="bodytext" width="52">&nbsp;</td>
+  <td width="86" colspan="2" valign="bottom" class="bodytext"><p><strong><em><sub><img src="img_hdinam/ric_fotoric.jpg" alt="Flu&iacute;dos - Ricardo Cabrera" width="85" height="110"></sub></em></strong></td>
+</tr> 
+<tr> <td class="bodytext"><p><img src="img_hdinam/transparente.gif" width="509" height="18"></td><td class="bodytext" width="52">&nbsp;</td>
+<td class="bodytext" colspan="2" width="86">&nbsp;</td>
+</tr> 
+</table></td></tr> </table>
+<p><img src="img_hdinam/transparente.gif" width="10" height="20"></td></tr> 
+<tr> <td class="bodytext"><p><img src="img_hdinam/transparente.gif" width="600" height="20"></td></tr> 
+</table>
+</body>
+</html>
