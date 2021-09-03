@@ -1,0 +1,243 @@
+<html>
+<head>
+<title>MECANICA DE FLUIDOS, NMS 40, fisica online, ejercicios resueltos</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="keywords" content="problemas resueltos, ejercicios resueltos, cbc, fisica, biofisica, fluidos, liquidos, gases, bernoulli, poiseuille, viscosidad, ideales, viscosos, humedad, difusion, osmosis, nomesalen, no me salen, ricardo cabrera" />
+<meta name="description" content="Ejercicios y problemas resueltos, y apuntes teóricos de Fluidos, mecanismos de transporte de fluidos" />
+<link rel="stylesheet" href="win_ie.css">
+<style type="text/css">
+<!--
+.style1 {
+	color: #3F6386;
+	font-weight: bold;
+}
+.Estilo3 {color: #3F6386}
+.Estilo18 {color: #FF0000}
+.Estilo26 {font-family: "Times New Roman", Times, serif;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 16px;
+}
+.Estilo25 {font-family: Verdana, Arial, sans-serif}
+.Estilo45 {	font-size: xx-large;
+	font-family: Verdana, Arial, sans-serif;
+}
+-->
+</style>
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000" alink="#000000" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<table align=center width="600" border="0" cellspacing="0" cellpadding="0"> 
+  <tr bgcolor="#000000" align="right"> 
+<td><img src="img_hstat/nombre5.gif" width="369" height="71"></td>
+  </tr> <tr bgcolor="#BB0000" valign="middle" align="left"> 
+<td class="bodytext" height="20"><TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+  <TR ALIGN="center" CLASS="menuitem">
+    <TD WIDTH="44" height="19" CLASS="menuitem"><A HREF="../../index.html" CLASS="menuitem">&nbsp;<B>home</B>&nbsp;</A></TD>
+    <TD WIDTH="5" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="113" CLASS="menuitem"><strong><a href="index_hstat.html" class="menuitem">m&aacute;s de hidrostática</a> </strong></TD>
+    <TD width="10" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="125" CLASS="menuitem"><strong><a href="../../intro_NMS.html" class="menuitem">otros temas de F&iacute;sica</a></strong></TD>
+    <TD width="10" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="173" CLASS="menuitem"><strong><a href="../../lista_ciruela.html" class="menuitem">lecciones del maestro Ciruela </a></strong></TD>
+    <TD width="9" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="68" CLASS="menuitem"><strong><a href="../../lista_tonterias.html" class="menuitem">tonter&iacute;as</a></strong></TD>
+    <TD WIDTH="8" CLASS="menuitem"><a href="../energia/index_energia.html" class="menuitem"></a><FONT COLOR="#000000">|</FONT></TD>
+    <TD WIDTH="40" CLASS="menuitem">&nbsp;<B><FONT FACE="Arial, Helvetica, sans-serif"><A HREF="mailto: ricuti@gmail.com" CLASS="menuitem">@</A></FONT><A HREF="../../index.html" CLASS="menuitem"></A></B>&nbsp;</TD>
+  </TR>
+</TABLE></td></tr> <tr> <td class="bodytext" height="8"><img src="img_hstat/transparente.gif" width="600" height="8"></td>
+</tr> 
+<tr align="center"> <td height="1654"> <table width="600" border="0" cellspacing="0" cellpadding="0"> 
+<tr class="bodytext"> <td valign="top" width="594" height="1600"> 
+<table width="600" border="0" cellspacing="0" cellpadding="0"> <tr> 
+  <td height="74" colspan="2" valign="middle" bgcolor="#D7FFFF" class="bodytext"><span class="bodytext"><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>NO ME SALEN<br>
+</strong></span><span class="Estilo3"><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em></strong></span><span class="titulograndegris"><strong>EJERCICIOS<strong> RESUELTOS   DE F&Iacute;SICA DEL CBC</strong></strong></span><br>
+      <span class="titulochicogris"><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>FLUIDOS - PRINCIPIO DE ARQU&Iacute;MEDES</strong></span></td>
+  <td class="bodytext" rowspan="3" height="74" width="7">&nbsp;</td>
+  <td class="bodytext" height="74" rowspan="3" valign="top" width="88"> 
+<p><img src="img_hstat/cap17.jpg" alt="desesperado" width="85" height="111"></p></td></tr>
+  <tr>
+    <td height="18" colspan="2" bgcolor="#FFFFFF" class="bodytext">&nbsp;</td>
+  </tr> 
+<tr> 
+  <td height="124" colspan="2" class="bodytext"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td height="109" class="bodytext"><p><strong><em>NMS </em>40)* Considere un globo aerostático de masa 711,9 kg cuando no está inflado, y de volumen 2865,3 m<em><strong><em>&sup3;</em></strong></em> cuando está inflado.&nbsp;El aire dentro del globo tiene una temperatura de 191,4 &deg;C y afuera la atmósfera está a 19,1 &deg;C. La presión dentro y fuera del globo es de 101,6 kPa. Asuma que la masa molar del aire es de 29 g/mol. Calcule la aceleración inicial.</strong></p>
+        <p>        Arrancamos con un DCL:</p></td>
+      </tr>
+  </table>    </td>
+</tr>
+<tr>
+  <td width="211" height="423" class="bodytext"><p><img src="img_hstat/flu_NMS31_1.gif" width="189" height="357" alt=""/></p></td>
+  <td width="294" class="bodytext"><p>Sobre el globo inflado actúan dos fuerzas: el empuje,<em><strong> E</strong></em>, y el peso total, <em><strong>P<em><strong><em><strong><em><strong><em><strong><strong><em><strong><sub>T</sub></strong></em></strong></strong></em></strong></em></strong></em></strong></em></strong></em>, integrado por peso estando desinflado, más el peso del  aire del interior del globo, <em><strong>P<em><strong><em><strong><em><strong><em><strong><strong><em><strong><sub>ac</sub></strong></em></strong></strong></em></strong></em></strong></em></strong></em></strong></em>, el caliente.</p>
+    <p>Y se cumplirá la ley de Newton, que dice:</p>
+    <blockquote>
+      <p><strong><em>E &ndash; P<strong><em><strong><em><strong><em><strong><strong><em><strong><sub>T</sub></strong></em></strong></strong></em></strong></em></strong></em></strong> = m<strong><em><strong><em><strong><em><strong><strong><em><strong><sub>T</sub></strong></em></strong></strong></em></strong></em></strong></em></strong> . a</em></strong></p>
+      </blockquote>
+    <p>Ahora vamos por partes para encontrar el valor de cada término.</p>
+    <p>El empuje está dado por Arquímedes, que dice que es igual al peso del fluido desalojado (el aire frío).</p>
+    <blockquote>
+      <p><strong><em>E = <span class="Estilo25">P</span><sub>af</sub> = <span class="Estilo25">m</span><sub>af </sub> . g</em></strong></p>
+    </blockquote>
+    <p>Donde <strong><em><span class="Estilo25">m</span><sub>af </sub></em></strong> es la masa del aire frío.</p>
+    <p>Y el peso total del globo es igual a la suma del peso estando desinflado, <strong><em>P<strong><em><strong><em><strong><em><strong><strong><em><strong><sub>d</sub></strong></em></strong></strong></em></strong></em></strong></em></strong></em></strong>, que es dato del enunciado, más el peso del aire caliente, <strong><em>P<strong><em><strong><em><strong><em><strong><strong><em><strong><sub>ac</sub></strong></em></strong></strong></em></strong></em></strong></em></strong></em></strong>,</p>
+    <blockquote>
+      <p><strong><em>P<strong><em><strong><em><strong><em><strong><strong><em><strong><sub>T</sub></strong></em></strong></strong></em></strong></em></strong></em></strong> =</em></strong> <strong><em>P<strong><em><strong><em><strong><em><strong><strong><em><strong><sub>d</sub></strong></em></strong></strong></em></strong></em></strong></em></strong> + </em></strong><strong><em>P<strong><em><strong><em><strong><em><strong><strong><em><strong><sub>ac</sub></strong></em></strong></strong></em></strong></em></strong></em></strong></em></strong></p>
+    </blockquote></td>
+  <td width="7" rowspan="2" class="bodytext">&nbsp;</td>
+  <td width="88" rowspan="2" align="center" valign="middle" class="bodytext"><p class="epigrafe Estilo18">&nbsp;</p></td>
+</tr>
+<tr>
+  <td height="112" colspan="2" class="bodytext"><p>Los pesos del aire caliente y del aire frío los podemos calcular gracias a la ecuación de estado de los gases ideales, <em><strong>PV=nRT</strong></em> que, para el caso del aire, se trata de una excelente aproximación. No te olvides que la ecuación de estado habla de temperaturas absolutas, entonces <em><strong>T</strong></em><strong><em><sub>af</sub></em></strong> <strong><em>= 292,3 <span class="epigrafe">K</span></em></strong> y <em><strong>T</strong></em><strong><em><sub>ac</sub></em></strong> <strong><em>= 464,6 <span class="epigrafe">K</span></em></strong>, (0 <strong>&deg;</strong>C = 273,2 K).</p>
+    <p>De modo que la masa -en moles- de aire frío será:</p></td>
+</tr>  
+
+<tr>
+  <td height="68" colspan="2" align="center" class="bodytext"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td width="16%" rowspan="3" align="right" class="bodytext"><em><strong>n</strong></em><strong><em><sub>af</sub></em></strong> <strong>=<em>&nbsp;</em></strong></td>
+      <td width="13%" height="19" align="center" valign="bottom" class="bodytext" font style="line-height: 60%;" ><strong><em>P . V</em></strong></td>
+      <td width="4%" rowspan="3" align="center" class="bodytext"><em><strong>=</strong></em></td>
+      <td width="38%" align="center" valign="bottom" class="bodytext" style="line-height: 60%;" font><strong><em>101.600 <span class="epigrafe">Pa </span></em></strong>. <strong><em>2865,3 <span class="epigrafe">m</span><strong>&sup3;</strong></em></strong></td>
+      <td width="29%" rowspan="3" align="left" class="bodytext"><strong> &nbsp;= <em>119.791 <span class="epigrafe">moles</span></em></strong></td>
+    </tr>
+    <tr>
+      <td align="center" class="bodytext"><hr align="center" width="100%" style="color:black" size="1" noshade></td>
+      <td align="center" class="bodytext"><hr align="center" width="100%" style="color:black" size="1" noshade></td>
+    </tr>
+    <tr>
+      <td height="18" align="center" valign="top" class="bodytext" font style="line-height: 60%;" ><span class="bodytext" style="line-height: 60%;"><em><strong>R . T</strong></em><strong><em><strong><em><sub>af</sub></em></strong></em></strong></span></td>
+      <td align="center" valign="top" class="bodytext" font style="line-height: 60%;"><strong><em>8,314</em></strong> <em><strong>J</strong>/<strong>K mol . </strong></em><strong><em>292,3 <span class="epigrafe">K</span></em></strong></td>
+    </tr>
+  </table></td>
+  <td class="bodytext">&nbsp;</td>
+  <td align="center" class="epigrafe Estilo18">&nbsp;</td>
+</tr>
+<tr>
+  <td height="168" colspan="2" align="left" class="bodytext"><p>Y recordando el dato del enunciado de la masa molar, <strong><em>29 <span class="epigrafe">g/mol</span></em></strong>, su masa en kilogramos, valdrá:</p>
+    <blockquote>
+      <p><em><strong>m</strong></em><strong><em><sub>af</sub></em></strong> <strong>=</strong> <strong><em>0,029 k<span class="epigrafe">g/mol</span></em></strong> . <strong><em>119791 <span class="epigrafe">moles</span></em></strong> <strong>= <em>3.474 kg</em></strong></p>
+      </blockquote>
+    <p>Y su peso (o sea, el empuje), </p>
+    <blockquote>
+      <p><em><strong>P</strong></em><strong><em><sub>af</sub></em></strong> <strong>=</strong> <em><strong>m</strong></em><strong><em><sub>af</sub></em></strong> .<em><strong> g = <em>3.474 kg</em> </strong></em>.<em><strong> <em>9,8 <strong><span class="epigrafe">m</span></strong><span class="epigrafe">/</span><strong><span class="epigrafe">s</span></strong></em><strong><em>&sup2;</em></strong> = </strong></em><strong><em>34.045 N</em></strong> <em><strong>= E</strong></em><strong></strong></p>
+      </blockquote>
+    <p>De la misma manera operamos con el aire caliente:</p></td>
+  <td class="bodytext">&nbsp;</td>
+  <td align="center" class="epigrafe Estilo18">&nbsp;</td>
+</tr>
+<tr>
+  <td height="68" colspan="2" align="left" class="bodytext"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td width="16%" rowspan="3" align="right" class="bodytext"><em><strong>n</strong></em><strong><em><sub>ac</sub></em></strong> <strong>=<em>&nbsp;</em></strong></td>
+      <td width="13%" height="19" align="center" valign="bottom" class="bodytext" font style="line-height: 60%;" ><strong><em>P . V</em></strong></td>
+      <td width="4%" rowspan="3" align="center" class="bodytext"><em><strong>=</strong></em></td>
+      <td width="38%" align="center" valign="bottom" class="bodytext" style="line-height: 60%;" font><strong><em>101.600 <span class="epigrafe">Pa </span></em></strong>. <strong><em>2865,3 <span class="epigrafe">m</span><strong>&sup3;</strong></em></strong></td>
+      <td width="29%" rowspan="3" align="left" class="bodytext"><strong> &nbsp;= <em>75.366 <span class="epigrafe">moles</span></em></strong></td>
+    </tr>
+    <tr>
+      <td align="center" class="bodytext"><hr align="center" width="100%" style="color:black" size="1" noshade></td>
+      <td align="center" class="bodytext"><hr align="center" width="100%" style="color:black" size="1" noshade></td>
+    </tr>
+    <tr>
+      <td height="18" align="center" valign="top" class="bodytext" font style="line-height: 60%;" ><span class="bodytext" style="line-height: 60%;"><em><strong>R . T</strong></em><strong><em><strong><em><sub>ac</sub></em></strong></em></strong></span></td>
+      <td align="center" valign="top" class="bodytext" font style="line-height: 60%;"><strong><em>8,314</em></strong> <em><strong>J</strong>/<strong>K mol . </strong></em><strong><em>464,6 <span class="epigrafe">K</span></em></strong></td>
+    </tr>
+  </table></td>
+  <td class="bodytext">&nbsp;</td>
+  <td align="center" class="epigrafe Estilo18">&nbsp;</td>
+</tr>
+<tr>
+  <td height="155" colspan="2" align="left" class="bodytext"><blockquote>
+    <p><em><strong>m</strong></em><strong><em><sub>ac</sub></em></strong> <strong>=</strong> <strong><em>0,029 k<span class="epigrafe">g/mol</span></em></strong> . <strong><em>75.366 <span class="epigrafe">moles</span></em></strong> <strong>= <em>2.186 kg</em></strong></p>
+    <p><em><strong>P</strong></em><strong><em><sub>ac</sub></em></strong> <strong>=</strong> <em><strong>m</strong></em><strong><em><sub>ac</sub></em></strong> .<em><strong> g = </strong></em><strong></strong><strong><em>2.186 kg </em>.<em><strong> <em>9,8 <strong><span class="epigrafe">m</span></strong><span class="epigrafe">/</span><strong><span class="epigrafe">s</span></strong></em><strong><em>&sup2;</em></strong> =</strong> </em><em>21.423 N</em></strong></p>
+    </blockquote>
+    <p>De donde el peso total del globo inflado, valdrá:</p>
+    <blockquote>
+      <p><strong><em>P<strong><em><strong><em><strong><em><strong><strong><em><strong><sub>T</sub></strong></em></strong></strong></em></strong></em></strong></em></strong> =</em></strong><em><strong> </strong></em><strong><em>P<strong><em><strong><em><strong><em><strong><strong><em><strong><sub>d</sub></strong></em></strong></strong></em></strong></em></strong></em></strong> + P<strong><em><strong><em><strong><em><strong><strong><em><strong><sub>ac</sub></strong></em></strong></strong></em></strong></em></strong></em></strong></em></strong> <strong>=</strong> <strong><em>6.977 <span class="epigrafe">N</span></em> <em>+ 21.423 N = 28.979 N</em></strong></p>
+      </blockquote>
+    <p>Y ahora podemos volver a la ecuación de Newton que dejamos esperando: </p></td>
+  <td class="bodytext">&nbsp;</td>
+  <td align="center" class="epigrafe Estilo18">&nbsp;</td>
+</tr>
+<tr>
+  <td height="68" colspan="2" align="center" class="bodytext"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td width="16%" rowspan="3" align="right" class="bodytext"><em><strong>a</strong></em><strong><em><sub></sub></em></strong> <strong>=<em>&nbsp;</em></strong></td>
+      <td width="13%" height="19" align="center" valign="bottom" class="bodytext" font style="line-height: 60%;" ><strong><em>E &ndash; P<strong><em><strong><em><strong><em><strong><strong><em><strong><sub>T</sub></strong></em></strong></strong></em></strong></em></strong></em></strong></em></strong></td>
+      <td width="4%" rowspan="3" align="center" class="bodytext"><em><strong>=</strong></em></td>
+      <td width="38%" align="center" valign="bottom" class="bodytext" style="line-height: 60%;" font><strong><em>34.045 N &ndash; 28.979 N</em></strong></td>
+      <td width="29%" rowspan="3" align="left" class="bodytext"><strong> &nbsp;=</strong></td>
+    </tr>
+    <tr>
+      <td align="center" class="bodytext"><hr align="center" width="100%" style="color:black" size="1" noshade></td>
+      <td align="center" class="bodytext"><hr align="center" width="100%" style="color:black" size="1" noshade></td>
+    </tr>
+    <tr>
+      <td height="18" align="center" valign="top" class="bodytext" font style="line-height: 60%;" ><span class="bodytext" style="line-height: 60%;"><em><strong>m<em><strong><em><strong><em><strong><em><strong><strong><em><strong><sub>T</sub></strong></em></strong></strong></em></strong></em></strong></em></strong></em></strong></em><strong><em><strong><em><sub></sub></em></strong></em></strong></span></td>
+      <td align="center" valign="top" class="bodytext" font style="line-height: 60%;"><strong><em>2.957 <span class="epigrafe">kg</span></em></strong></td>
+    </tr>
+  </table></td>
+  <td class="bodytext">&nbsp;</td>
+  <td align="center" class="epigrafe Estilo18">&nbsp;</td>
+</tr>
+<tr>
+  <td height="71" colspan="2" align="center" class="bodytext"><table width="102%" border="0">
+    <tr>
+      <td width="9%" height="36" align="center" bgcolor="#FFFFFF"><p class="bodytext">&nbsp;</p></td>
+      <td width="41%" align="center" bgcolor="#CCCCCC" class="bodytext"><strong><em>a<strong><em><strong><em><strong><strong><em><strong><sub></sub></strong></em></strong></strong></em></strong></em></strong> = </em></strong><strong><em> 1,71 </em></strong><em><strong><em><strong><span class="epigrafe">m</span></strong><span class="epigrafe">/</span><strong><span class="epigrafe">s</span></strong></em><strong><em>&sup2;</em></strong> </strong></em></td>
+      <td width="50%" align="center" bgcolor="#FFFFFF" class="epigrafe">&nbsp;</td>
+    </tr>
+  </table></td>
+  <td class="bodytext">&nbsp;</td>
+  <td align="center" class="epigrafe Estilo18"><p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p></td>
+</tr>
+<tr>
+  <td colspan="2" align="left" class="bodytext"><p>&nbsp;</p></td>
+  <td class="bodytext">&nbsp;</td>
+  <td align="center" class="epigrafe">&nbsp;</td>
+</tr>
+<tr>
+  <td height="53" colspan="2" align="center" bgcolor="#F3DA73" class="bodytext"><table width="470" border="0">
+    <tbody>
+      <tr>
+        <td height="25" align="center" class="epigrafe">*Este ejercicio pertenecr a la guía de ejercicios de USACH, Chile....</td>
+        </tr>
+      </tbody>
+    </table></td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext"><p class="Estilo18">&nbsp;</p></td>
+</tr>
+
+<tr>
+  <td height="14" colspan="2" align="left" class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+</tr>
+
+<tr>
+  <td height="53" colspan="2" bgcolor="#FFFFFF" class="bodytext"><strong>DESAF&Iacute;O</strong>: ¿Por qué el enunciado habla de aceleración <em>inicial</em>?</td>
+  <td class="bodytext">&nbsp;</td>
+  <td width="88" rowspan="2" valign="bottom" class="bodytext"><strong><em><sub><img src="img_hstat/ricuti.jpg" alt="Flu&iacute;dos - Ricardo Cabrera" width="85" height="116"></sub></em></strong></td>
+</tr>
+
+<tr> <td height="45" colspan="2" align="center" valign="middle" bgcolor="#CCCCCC" class="bodytext"><table width="92%" border="0">
+  <tr>
+    <td class="epigrafe">Algunos derechos reservados. 
+  Se permite su reproducci&oacute;n citando la fuente leg&iacute;tima, o sea, este sitio. &Uacute;ltima actualizaci&oacute;n 
+  sep-21. Buenos Aires, Argentina. </td>
+  </tr>
+</table>  </td>
+  <td class="bodytext" width="7">&nbsp;</td>
+  </tr> 
+<tr> <td height="18" colspan="2" class="bodytext">&nbsp;</td><td class="bodytext" width="7">&nbsp;</td>
+<td class="bodytext" width="88">&nbsp;</td>
+</tr> 
+</table></td></tr> </table>
+<img src="img_hstat/transparente.gif" width="10" height="20"></td></tr> 
+<tr> <td class="bodytext"><img src="img_hstat/transparente.gif" width="600" height="20"></td></tr> 
+</table>
+</body>
+</html>
