@@ -1,0 +1,258 @@
+<html>
+<head>
+<title>MECANICA DE FLUIDOS, G20-Fd-01, fisica online, ejercicios resueltos</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="keywords" content="problemas resueltos, ejercicios resueltos, cbc, fisica, biofisica, fluidos, liquidos, gases, bernoulli, poiseuille, viscosidad, ideales, viscosos, humedad, difusion, osmosis, nomesalen, no me salen, ricardo cabrera" />
+<meta name="description" content="Ejercicios y problemas resueltos, y apuntes teóricos de Fluidos, mecanismos de transporte de fluidos" />
+<link rel="stylesheet" href="win_ie.css">
+<style type="text/css">
+<!--
+.style1 {
+	color: #3F6386;
+	font-weight: bold;
+}
+.Estilo3 {color: #3F6386}
+.Estilo16 {font-size: 16px}
+.Estilo26 {	font-family: "Times New Roman", Times, serif;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 16px;
+}
+.Estilo25 {font-family: Verdana, Arial, sans-serif}
+.Estilo12 {font-size: 10px}
+.Estilo15 {color: #000000}
+.Estilo22 {color: #0000FF}
+.Estilo17 {font-size: 10px}
+.Estilo36 {font-weight: bold; font-size: 11px; font-style: italic; }
+.Estilo37 {font-size: 10px}
+.Estilo32 {font-weight: bold; font-size: 11px;}
+.Estilo38 {font-size: 11px}
+.Estilo27 {font-weight: bold}
+.Estilo29 {font-size: 11px; font-style: italic; }
+-->
+</style>
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000" alink="#000000" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<table align=center width="600" border="0" cellspacing="0" cellpadding="0"> 
+  <tr bgcolor="#000000" align="right"> 
+<td><img src="img_hdinam/nombre5.gif" width="369" height="71"></td></tr> <tr bgcolor="#BB0000" valign="middle" align="left"> 
+<td class="bodytext" height="20"><TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+  <TR ALIGN="center" CLASS="menuitem">
+    <TD WIDTH="43" height="19" CLASS="menuitem"><A HREF="../../index.html" CLASS="menuitem">&nbsp;<B>home</B>&nbsp;</A></TD>
+    <TD WIDTH="5" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="119" CLASS="menuitem"><strong><a href="index_hdinam.html" class="menuitem">más de hidrodinámica </a> </strong></TD>
+    <TD width="9" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="127" CLASS="menuitem"><strong><a href="../../intro_NMS.html" class="menuitem">otros temas de F&iacute;sica</a></strong></TD>
+    <TD width="10" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="160" CLASS="menuitem"><strong><a href="../../lista_ciruela.html" class="menuitem">lecciones del maestro Ciruela </a></strong></TD>
+    <TD width="8" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="67" CLASS="menuitem"><strong><a href="../../lista_tonterias.html" class="menuitem">tonter&iacute;as</a></strong></TD>
+    <TD WIDTH="7" CLASS="menuitem"><a href="../energia/index_energia.html" class="menuitem"></a><FONT COLOR="#000000">|</FONT></TD>
+    <TD WIDTH="48" CLASS="menuitem">&nbsp;<B><FONT FACE="Arial, Helvetica, sans-serif"><A HREF="mailto: ricuti@gmail.com" CLASS="menuitem">@</A></FONT><A HREF="../../index.html" CLASS="menuitem"></A></B>&nbsp;</TD>
+  </TR>
+</TABLE></td></tr> <tr> <td class="bodytext" height="8"><p><img src="img_hdinam/transparente.gif" width="600" height="8"></td>
+</tr> 
+<tr align="center"> <td height="1407"> <table width="600" border="0" cellspacing="0" cellpadding="0"> 
+<tr class="bodytext"> <td valign="top" width="594" height="981"> 
+<table width="600" border="0" cellspacing="0" cellpadding="0"> <tr> 
+  <td height="74" bgcolor="#D7FFFF" class="bodytext"><span class="bodytext"><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>NO ME SALEN<br>
+</strong></span><span class="Estilo3"><em class="bodytext "><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>(<strong>PROBLEMAS RESUELTOS   DE BIOF&Iacute;SICA DEL CBC</strong>)</strong></em></span><br>
+      <span class="titulograndegris Estilo16"><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>FLUIDOS<br>
+      </strong></span><em class="bodytext "><strong><em><strong><em><strong><strong>&#160; &#160; </strong></strong></em></strong></em></strong></em><strong class="titulochicogris">Fluidos ideales</strong><br> </td>
+  <td class="bodytext" rowspan="3" height="74" width="4">&nbsp;</td>
+  <td class="bodytext" height="74" rowspan="3" valign="top" width="86"> 
+<p><img src="img_hdinam/cap46.jpg" alt="desesperado" width="85" height="107"></p></td></tr>
+  <tr>
+    <td height="18" bgcolor="#FFFFFF" class="bodytext">&nbsp;</td>
+  </tr> 
+<tr> <td height="160" valign="middle" class="bodytext"><table width="100%" border="0">
+  <tr class="bodytext">
+    <td width="28%" height="47" valign="top"><img src="img_hdinam/G20_U2_1ra.gif" width="140" height="45"></td>
+    <td width="2%" valign="top">&nbsp;</td>
+    <td width="70%" valign="top"><strong>34- Por un tubo horizontal con una longitud de  25 cm circula un líquido a razón de 0,3 ml/s.  ¿Cuál es la diferencia de presión entre sus extremos en los siguientes casos?</strong></td>
+  </tr>
+  <tr class="bodytext">
+    <td height="108" colspan="3" valign="top"><p><strong>a) El líquido tiene viscosidad despreciable.  <br>
+        b) El líquido es agua a 20 °C, cuya viscosidad  es 1 cp. (1 cp = 10<sup>-3</sup> Pa.s) y el tubo tiene un diámetro interior de 1,2 cm.  <br>
+        c) El líquido es agua a 20 °C y el tubo tiene un  diámetro interior de 1,2 mm.  d) El líquido es sangre a 37 °C, cuya viscosidad es  4 cp (el tubo tiene un diámetro interior de 1,2 mm).</strong></p></td>
+    </tr>
+  </table></td>
+  </tr>
+<tr>
+  <td height="94" valign="middle" class="bodytext"><p>Bien, vamos por partes.</p>
+    <p><strong>a) El líquido tiene viscosidad despreciable. </strong>Si la viscosidad, <em class="Estilo26"><strong>&eta;</strong></em>, vale 0, entonces la resistencia <strong>R</strong> también será nula (Ley de Poiseuille) independientemente de la geometría del tubo por el que se desplaza el fluido.</p></td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext" valign="middle">&nbsp;</td>
+</tr>
+<tr>
+  <td height="35" align="left" valign="middle" class="bodytext"><table width="71%" height="31" border="0" cellpadding="0" cellspacing="0">
+    <tr>
+      <td width="19%" rowspan="3" align="right" class="bodytext"><em><strong><strong><em>R</em></strong></strong></em> <strong>=</strong></td>
+      <td width="3%" rowspan="3" class="bodytext">&nbsp;</td>
+      <td width="19%" height="0" align="center" valign="bottom" class="bodytext"><strong><em>8</em></strong> <em class="Estilo26"><strong>&eta;</strong></em> <em><strong>l</strong></em></td>
+      <td width="59%" rowspan="3" class="bodytext">&nbsp;</td>
+    </tr>
+    <tr>
+      <td height="2" align="center" valign="middle" class="epigrafe"><hr align="center" width="100%" style="color:black" size="1" noshade></td>
+    </tr>
+    <tr>
+      <td height="0" align="center" valign="top" class="bodytext"><em><strong><em><em><strong><strong><span class="Estilo26">&pi;</span></strong></strong></em></em> . r<sup>4</sup><span class="Estilo17"></span></strong></em></td>
+    </tr>
+  </table></td>
+  <td class="bodytext">&nbsp;</td>
+  <td align="center" valign="middle" class="bodytext"><p>&nbsp;</p></td>
+</tr>
+<tr>
+  <td height="108" align="left" valign="middle" class="bodytext"><p>Luego, la Ley de Ohm predice que a resistencia nula, la caída de presión, <strong><em>&Delta;P</em></strong>, también será nula:</p>
+    <blockquote>
+      <p><strong><em>&Delta;P = Q . R</em></strong></p>
+    </blockquote>
+    <p>Cualquiera que sea el caudal. Por lo tanto:</p></td>
+  <td class="bodytext">&nbsp;</td>
+  <td valign="top" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="25" align="left" valign="middle" class="bodytext"><table width="100%" height="35" border="0">
+    <tr>
+      <td width="19%" height="31" valign="middle"><p class="bodytext"><strong><strong>&#160;&#160; &#160;&#160; &#160;&#160;</strong></strong></p></td>
+      <td width="52%" align="center" valign="middle" bgcolor="#CCCCCC" class="bodytext">respuesta <strong>a)</strong>&nbsp; &nbsp; &nbsp; <strong><em>&Delta;P = 0</em></strong></td>
+      <td width="29%" valign="middle">&nbsp;</td>
+    </tr>
+  </table></td>
+  <td class="bodytext">&nbsp;</td>
+  <td valign="top" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="78" align="left" valign="middle" class="bodytext"><strong>b) El líquido es agua a 20 °C, cuya viscosidad  es 1 cp. (1 cp = 10<sup>-3</sup> Pa.s) y el tubo tiene un diámetro interior de 1,2 cm. </strong>La referencia a la temperatura no aporta nada, ya que nos da el dato de la viscosidad que hay que utilizar. El resto es simplemente hacer las cuentas:</td>
+  <td class="bodytext">&nbsp;</td>
+  <td valign="top" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="25" align="left" valign="middle" class="bodytext"><table width="71%" height="31" border="0" cellpadding="0" cellspacing="0">
+    <tr>
+      <td width="25%" rowspan="3" align="right" class="bodytext"><strong><em>&Delta;P = Q </em></strong></td>
+      <td width="3%" rowspan="3" align="center" valign="middle" class="bodytext"><strong>.</strong></td>
+      <td width="29%" height="0" align="center" valign="bottom" class="bodytext"><strong><em>8</em></strong> <em class="Estilo26"><strong>&eta;</strong></em> <em><strong>l</strong></em></td>
+      <td width="43%" rowspan="3" class="bodytext">&nbsp;</td>
+    </tr>
+    <tr>
+      <td height="2" align="center" valign="middle" class="epigrafe"><hr align="center" width="100%" style="color:black" size="1" noshade></td>
+    </tr>
+    <tr>
+      <td height="0" align="center" valign="top" class="bodytext"><em><strong><em><em><strong><strong><span class="Estilo26">&pi;</span></strong></strong></em></em> r<sup>4</sup><span class="Estilo17"></span></strong></em></td>
+    </tr>
+  </table></td>
+  <td class="bodytext">&nbsp;</td>
+  <td valign="top" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="42" align="left" valign="middle" class="bodytext"><p>Hay que homogeneizar las unidades, de modo que:</p>
+    <blockquote>
+      <p><em><strong>l</strong></em> <em><strong>= 0,25 <span class="epigrafe">m</span></strong></em>, </p>
+      <p><strong><em>r = 0,6 x 10<sup>-2</sup> <span class="epigrafe">m</span></em></strong></p>
+      <p><strong><em>r<sup>4</sup> = 1,296 x 10<sup>-9</sup> <span class="epigrafe">m</span><sup>4</sup></em></strong></p>
+    </blockquote>
+    <p>Metemos esos valores en la fórmula anterior...</p></td>
+  <td class="bodytext">&nbsp;</td>
+  <td align="center" valign="middle" class="epigrafe">el radio es justo la mitad del diámetro</td>
+</tr>
+<tr>
+  <td height="54" align="left" valign="middle" class="bodytext"><table width="89%" height="31" border="0" cellpadding="0" cellspacing="0">
+    <tr>
+      <td width="37%" rowspan="3" align="right" class="bodytext"><strong><em>&Delta;P = 0,3 x 10<sup>-6</sup> <span class="epigrafe">m</span><sup>3</sup><span class="epigrafe">/s</span></em></strong></td>
+      <td width="2%" rowspan="3" align="center" valign="middle" class="bodytext"><strong>.</strong></td>
+      <td width="39%" height="0" align="center" valign="bottom" class="bodytext"><strong><em>8<em><strong><strong><span class="Estilo26">. </span></strong></strong></em>10<sup>-3</sup> <span class="epigrafe">Pa.s</span></em></strong><em><strong>. 0,25 <span class="epigrafe">m</span></strong></em></td>
+      <td width="22%" rowspan="3" class="bodytext">&nbsp;</td>
+    </tr>
+    <tr>
+      <td height="2" align="center" valign="middle" class="epigrafe"><hr align="center" width="100%" style="color:black" size="1" noshade></td>
+    </tr>
+    <tr>
+      <td height="0" align="center" valign="top" class="bodytext"><em><strong><em><strong><em><em><strong><strong><span class="Estilo26">&pi;</span></strong></strong></em></em></strong> .  1,296 x 10<sup>-9</sup><span class="epigrafe"> m</span><sup>4</sup></em></strong></em></td>
+    </tr>
+  </table></td>
+  <td class="bodytext">&nbsp;</td>
+  <td valign="top" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="61" align="left" valign="middle" class="bodytext"><table width="100%" height="35" border="0">
+    <tr>
+      <td width="19%" height="31" valign="middle"><p class="bodytext"><strong><strong>&#160;&#160; &#160;&#160; &#160;&#160;</strong></strong></p></td>
+      <td width="52%" align="center" valign="middle" bgcolor="#CCCCCC" class="bodytext">respuesta <strong>b)</strong>&nbsp; &nbsp; &nbsp; <strong><em>&Delta;P = 0,1474 <span class="epigrafe">Pa</span></em></strong></td>
+      <td width="29%" valign="middle">&nbsp;</td>
+    </tr>
+  </table></td>
+  <td class="bodytext">&nbsp;</td>
+  <td valign="top" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="75" align="left" valign="middle" class="bodytext"><strong>c) El líquido es agua a 20 °C y el tubo tiene un  diámetro interior de 1,2 mm. </strong>En este caso el diámetro del tubo es 10 veces inferior al del caso anterior. Hacé vos las cuentas, pero también podés anticiparte y decir que si el radio decrece 10 veces, la resistencia debe aumentar 10.000 veces (10<sup>4</sup>)...</td>
+  <td class="bodytext">&nbsp;</td>
+  <td valign="top" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="53" align="left" valign="middle" class="bodytext"><table width="100%" height="35" border="0">
+    <tr>
+      <td width="19%" height="31" valign="middle"><p class="bodytext"><strong><strong>&#160;&#160; &#160;&#160; &#160;&#160;</strong></strong></p></td>
+      <td width="52%" align="center" valign="middle" bgcolor="#CCCCCC" class="bodytext">respuesta <strong>c)</strong>&nbsp; &nbsp; &nbsp; <strong><em>&Delta;P = 1.474 <span class="epigrafe">Pa</span></em></strong></td>
+      <td width="29%" valign="middle">&nbsp;</td>
+    </tr>
+  </table></td>
+  <td class="bodytext">&nbsp;</td>
+  <td valign="top" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="77" align="left" valign="middle" class="bodytext"><strong>d) El líquido es sangre a 37 °C, cuya viscosidad es  4 cp (el tubo tiene un diámetro interior de 1,2 mm).</strong> Se trata del mismo tubo que el de ítem anterior, pero ahora corre un fluido cuatro veces más viscoso... Luego, la variación de presión entre los extremos&nbsp;también se cuadruplica.</td>
+  <td class="bodytext">&nbsp;</td>
+  <td valign="top" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="53" align="left" valign="middle" class="bodytext"><table width="100%" height="35" border="0">
+    <tr>
+      <td width="19%" height="31" valign="middle"><p class="bodytext"><strong><strong>&#160;&#160; &#160;&#160; &#160;&#160;</strong></strong></p></td>
+      <td width="52%" align="center" valign="middle" bgcolor="#CCCCCC" class="bodytext">respuesta <strong>d)</strong>&nbsp; &nbsp; &nbsp; <strong><em>&Delta;P = 5.895 <span class="epigrafe">Pa</span></em></strong></td>
+      <td width="29%" valign="middle">&nbsp;</td>
+    </tr>
+  </table></td>
+  <td class="bodytext">&nbsp;</td>
+  <td valign="top" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="25" align="left" valign="middle" class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+  <td valign="top" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="65" align="left" valign="middle" class="bodytext"><strong>COMENTARIO</strong>: La lección más importante de este ejercicio es que tomes consciencia de la fortísima dependencia que tiene la luz de un conducto en su resistencia hidrodinámica.</td>
+  <td width="4" class="bodytext">&nbsp;</td>
+  <td width="86" valign="top" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="32" align="left" class="bodytext"><p>&nbsp;</p></td>
+  <td class="bodytext">&nbsp;</td>
+  <td width="86" rowspan="3" valign="bottom" class="bodytext"><img src="../cinematica/img_cin/ric_teclado.jpg" alt="teclado ricardo cabrera" width="85" height="130"></td>
+</tr>
+
+<tr>
+  <td height="18" bgcolor="#FFFFFF" class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+  </tr>
+
+<tr> <td align="center" valign="middle" bgcolor="#CCCCCC" class="bodytext"><table width="93%" border="0">
+  <tr>
+    <td class="epigrafe">Algunos derechos reservados. 
+      Se permite su reproducci&oacute;n citando la fuente. Se recomienda fervientemente su lectura en bibliotecas, escuelas, clubes y reuniones de consorcios. &Uacute;ltima actualizaci&oacute;n jul-22. Buenos Aires, Argentina. </td>
+  </tr>
+</table>  </td>
+  <td class="bodytext" width="4">&nbsp;</td>
+  </tr> 
+<tr> <td height="18" class="bodytext">&nbsp;</td><td class="bodytext" width="4">&nbsp;</td>
+<td class="bodytext" width="86">&nbsp;</td>
+</tr> 
+</table></td></tr> </table>
+<p><img src="img_hdinam/transparente.gif" width="10" height="20"></td></tr> 
+<tr> <td class="bodytext"><p><img src="img_hdinam/transparente.gif" width="600" height="20"></td></tr> 
+</table>
+</body>
+</html>

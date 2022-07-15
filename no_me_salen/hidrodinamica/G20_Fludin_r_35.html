@@ -1,0 +1,228 @@
+<html>
+<head>
+<title>MECANICA DE FLUIDOS, G20-Fd-01, fisica online, ejercicios resueltos</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="keywords" content="problemas resueltos, ejercicios resueltos, cbc, fisica, biofisica, fluidos, liquidos, gases, bernoulli, poiseuille, viscosidad, ideales, viscosos, humedad, difusion, osmosis, nomesalen, no me salen, ricardo cabrera" />
+<meta name="description" content="Ejercicios y problemas resueltos, y apuntes teóricos de Fluidos, mecanismos de transporte de fluidos" />
+<link rel="stylesheet" href="win_ie.css">
+<style type="text/css">
+<!--
+.style1 {
+	color: #3F6386;
+	font-weight: bold;
+}
+.Estilo3 {color: #3F6386}
+.Estilo16 {font-size: 16px}
+.Estilo26 {	font-family: "Times New Roman", Times, serif;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 16px;
+}
+.Estilo25 {font-family: Verdana, Arial, sans-serif}
+.Estilo12 {font-size: 10px}
+.Estilo15 {color: #000000}
+.Estilo22 {color: #0000FF}
+.Estilo17 {font-size: 10px}
+.Estilo36 {font-weight: bold; font-size: 11px; font-style: italic; }
+.Estilo37 {font-size: 10px}
+.Estilo32 {font-weight: bold; font-size: 11px;}
+.Estilo38 {font-size: 11px}
+.Estilo27 {font-weight: bold}
+.Estilo29 {font-size: 11px; font-style: italic; }
+-->
+</style>
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000" alink="#000000" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<table align=center width="599" border="0" cellspacing="0" cellpadding="0"> 
+  <tr bgcolor="#000000" align="right"> 
+<td width="599"><img src="img_hdinam/nombre5.gif" width="369" height="71"></td></tr> <tr bgcolor="#BB0000" valign="middle" align="left"> 
+<td class="bodytext" height="20"><TABLE WIDTH="87%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+  <TR ALIGN="center" CLASS="menuitem">
+    <TD WIDTH="43" height="19" CLASS="menuitem"><A HREF="../../index.html" CLASS="menuitem">&nbsp;<B>home</B>&nbsp;</A></TD>
+    <TD WIDTH="5" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="119" CLASS="menuitem"><strong><a href="index_hdinam.html" class="menuitem">más de hidrodinámica </a> </strong></TD>
+    <TD width="9" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="127" CLASS="menuitem"><strong><a href="../../intro_NMS.html" class="menuitem">otros temas de F&iacute;sica</a></strong></TD>
+    <TD width="10" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="160" CLASS="menuitem"><strong><a href="../../lista_ciruela.html" class="menuitem">lecciones del maestro Ciruela </a></strong></TD>
+    <TD width="8" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="67" CLASS="menuitem"><strong><a href="../../lista_tonterias.html" class="menuitem">tonter&iacute;as</a></strong></TD>
+    <TD WIDTH="7" CLASS="menuitem"><a href="../energia/index_energia.html" class="menuitem"></a><FONT COLOR="#000000">|</FONT></TD>
+    <TD WIDTH="48" CLASS="menuitem">&nbsp;<B><FONT FACE="Arial, Helvetica, sans-serif"><A HREF="mailto: ricuti@gmail.com" CLASS="menuitem">@</A></FONT><A HREF="../../index.html" CLASS="menuitem"></A></B>&nbsp;</TD>
+  </TR>
+</TABLE></td></tr> <tr> <td class="bodytext" height="8"><p><img src="img_hdinam/transparente.gif" width="600" height="8"></td>
+</tr> 
+<tr align="center"> <td height="1503"> <table width="599" border="0" cellspacing="0" cellpadding="0"> 
+<tr class="bodytext"> <td valign="top" width="599" height="1464"> 
+<table width="600" border="0" cellspacing="0" cellpadding="0"> <tr> 
+  <td height="74" bgcolor="#D7FFFF" class="bodytext"><span class="bodytext"><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>NO ME SALEN<br>
+</strong></span><span class="Estilo3"><em class="bodytext "><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>(<strong>PROBLEMAS RESUELTOS   DE BIOF&Iacute;SICA DEL CBC</strong>)</strong></em></span><br>
+      <span class="titulograndegris Estilo16"><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>FLUIDOS<br>
+      </strong></span><em class="bodytext "><strong><em><strong><em><strong><strong>&#160; &#160; </strong></strong></em></strong></em></strong></em><strong class="titulochicogris">Fluidos ideales</strong><br> </td>
+  <td class="bodytext" rowspan="3" height="74" width="4">&nbsp;</td>
+  <td class="bodytext" height="74" rowspan="3" valign="top" width="86"> 
+<p><img src="img_hdinam/cap46.jpg" alt="desesperado" width="85" height="107"></p></td></tr>
+  <tr>
+    <td height="18" bgcolor="#FFFFFF" class="bodytext">&nbsp;</td>
+  </tr> 
+<tr> <td height="160" valign="middle" class="bodytext"><table width="100%" border="0">
+  <tr class="bodytext">
+    <td width="28%" height="232" rowspan="3" valign="top"><img src="img_hdinam/G20_U2_1ra.gif" width="140" height="45"></td>
+    <td width="2%" rowspan="3" valign="top">&nbsp;</td>
+    <td width="70%" valign="top"><strong>35 - Un fluido cuyo coeficiente de viscosidad es  de 4 cp circula por un tubo horizontal cuya sección constante es de 0,45 cm<em><sup>2</sup></em>. Se adjunta el gráfico de la presión manométrica en función de la  posición, en un sistema de referencia en el que el  eje x tiene la dirección del tubo y se ha elegido el  sentido positivo en el sentido del flujo.</strong></td>
+  </tr>
+  <tr class="bodytext">
+    <td height="81" align="center" valign="top"><img src="img_hdinam/G20_Fd_35_1.gif" width="300" height="226"></td>
+  </tr>
+  <tr class="bodytext">
+    <td valign="top"><strong>Determine el valor del caudal y la velocidad de  circulación.</strong></td>
+  </tr>
+  <tr class="bodytext">
+    <td height="17" colspan="3" valign="top"><p>&nbsp;</p></td>
+    </tr>
+  </table></td>
+  </tr>
+<tr>
+  <td height="51" valign="middle" class="bodytext"><p>OK, puede que de un poco de miedo, pero si lo mirás bien están todos los datos necesarios para hacer una aplicación directa de la Ley de Poiseuille y Omh...</p></td>
+  <td class="bodytext">&nbsp;</td>
+  <td valign="middle" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="57" align="left" valign="middle" class="bodytext"><table width="71%" height="31" border="0" cellpadding="0" cellspacing="0">
+    <tr>
+      <td width="25%" rowspan="3" align="right" class="bodytext"><strong><em>&Delta;P = Q </em></strong></td>
+      <td width="3%" rowspan="3" align="center" valign="middle" class="bodytext"><strong>.</strong></td>
+      <td width="21%" height="0" align="center" valign="bottom" class="bodytext"><strong><em>8<strong><em><em><strong><strong><span class="Estilo26">&pi;</span></strong></strong></em></em></strong></em></strong> <em class="Estilo26"><strong>&eta;</strong></em> <em><strong>l</strong></em></td>
+      <td width="51%" rowspan="3" class="bodytext">&nbsp;</td>
+      </tr>
+    <tr>
+      <td height="2" align="center" valign="middle" class="epigrafe"><hr align="center" width="100%" style="color:black" size="1" noshade></td>
+      </tr>
+    <tr>
+      <td height="0" align="center" valign="top" class="bodytext"><em><strong>S<sup>2</sup><span class="Estilo17"></span></strong></em></td>
+      </tr>
+    </table></td>
+  <td class="bodytext">&nbsp;</td>
+  <td valign="top" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="42" align="left" valign="middle" class="bodytext"><p>Sólo tenés que despejar el caudal y calcularlo. Por último, ya teniendo el valor del caudal podemos calcular la velocidad. </p>
+    <p>Pero arranquemos con el despeje de Q:</p></td>
+  <td class="bodytext">&nbsp;</td>
+  <td align="center" valign="middle" class="epigrafe">el radio es justo la mitad del diámetro</td>
+</tr>
+<tr>
+  <td height="54" align="left" valign="middle" class="bodytext"><table width="71%" height="31" border="0" cellpadding="0" cellspacing="0">
+    <tr>
+      <td width="19%" rowspan="3" align="right" class="bodytext"><strong><em>Q</em></strong></td>
+      <td width="6%" rowspan="3" align="center" valign="middle" class="bodytext"><strong>= </strong></td>
+      <td width="25%" height="0" align="center" valign="bottom" class="bodytext"><em><strong><em><strong><em>&Delta;P</em> S<sup>2</sup></strong></em></strong></em></td>
+      <td width="50%" rowspan="3" class="bodytext">&nbsp;</td>
+    </tr>
+    <tr>
+      <td height="2" align="center" valign="middle" class="epigrafe"><hr align="center" width="100%" style="color:black" size="1" noshade></td>
+    </tr>
+    <tr>
+      <td height="0" align="center" valign="top" class="bodytext"><em><strong><strong><em>8<strong><em><em><strong><strong><span class="Estilo26">&pi;</span></strong></strong></em></em></strong></em></strong> <em class="Estilo26"><strong>&eta; </strong></em><span class="Estilo17"><em><strong>l</strong></em></span></strong></em></td>
+    </tr>
+  </table></td>
+  <td class="bodytext">&nbsp;</td>
+  <td valign="top" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="232" align="left" valign="middle" class="bodytext"><p>Tenés todos los datos necesarios. Lógicamente hay que expresarlos en unidades homogéneas. La diferencia de presión y la longitud del tubo salen de la interpretación del gráfico adjunto.</p>
+    <blockquote>
+      <p><strong><em>&Delta;P = 8 <span class="epigrafe">mmHg</span> = 1.066 </em></strong><em class="epigrafe"><strong>Pa</strong></em></p>
+      <p><em><strong>l</strong></em> <em><strong>= 30 <span class="epigrafe">cm</span> = 0,3 <span class="epigrafe">m</span></strong></em></p>
+      <p><strong><em>S = 0,45 <span class="epigrafe">cm</span><sup>2</sup> = </em></strong><strong><em>0,45 x 10<sup>-4</sup> <span class="epigrafe">m</span><sup>2</sup></em></strong></p>
+      <p><strong><em>S<sup>2</sup> = 2,025 x 10<sup>-9</sup> <span class="epigrafe">m</span><sup>4</sup></em></strong></p>
+      <p><em><strong><em class="Estilo26"><strong>&eta;</strong></em></strong></em> = <strong><em>4 x 10<sup>-3</sup></em></strong> <span class="epigrafe"><em><strong>Pa</strong></em></span><strong class="epigrafe"><em>.s</em></strong></p>
+      </blockquote>
+    <p>Metemos esos valores en la fórmula anterior...</p></td>
+  <td class="bodytext">&nbsp;</td>
+  <td valign="top" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="69" align="left" valign="middle" class="bodytext"><table width="71%" height="31" border="0" cellpadding="0" cellspacing="0">
+    <tr>
+      <td width="19%" rowspan="3" align="right" class="bodytext"><strong><em>Q</em></strong></td>
+      <td width="6%" rowspan="3" align="center" valign="middle" class="bodytext"><strong>= </strong></td>
+      <td width="54%" height="0" align="center" valign="bottom" class="bodytext"><em><strong><em><strong><em>1.066 </em></strong><em class="epigrafe"><strong>Pa</strong> . </em> 2,025 x 10<sup>-9</sup> <span class="epigrafe">m</span><sup>4</sup></em></strong></em></td>
+      <td width="21%" rowspan="3" class="bodytext">&nbsp;</td>
+    </tr>
+    <tr>
+      <td height="2" align="center" valign="middle" class="epigrafe"><hr align="center" width="100%" style="color:black" size="1" noshade></td>
+    </tr>
+    <tr>
+      <td height="0" align="center" valign="top" class="bodytext"><em><strong><strong><em>8<strong><em><em><strong><strong><span class="Estilo26">&pi;</span></strong></strong></em></em></strong></em></strong> . <strong><em>4 x 10<sup>-3</sup></em></strong> <span class="epigrafe"><em><strong>Pa .s . </strong></em></span>0,3 <span class="epigrafe">m</span></strong></em></td>
+    </tr>
+  </table></td>
+  <td class="bodytext">&nbsp;</td>
+  <td valign="top" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="53" align="left" valign="middle" class="bodytext"><table width="100%" height="35" border="0">
+    <tr>
+      <td width="19%" height="31" valign="middle"><p class="bodytext"><strong><strong>&#160;&#160; &#160;&#160; &#160;&#160;</strong></strong></p></td>
+      <td width="52%" align="center" valign="middle" bgcolor="#CCCCCC" class="bodytext"><strong><em>Q = 7,16 <strong><em> x 10<sup>-5</sup></em></strong><span class="epigrafe"> m<strong><em><sup>3</sup></em></strong>/s</span> = 4,3<span class="epigrafe"> L/min</span></em></strong></td>
+      <td width="29%" valign="middle">&nbsp;</td>
+    </tr>
+  </table></td>
+  <td class="bodytext">&nbsp;</td>
+  <td valign="top" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="116" align="left" valign="middle" class="bodytext"><p>Ahora, aplicando la relación entre caudal, sección y velocidad:</p>
+    <blockquote>
+      <p><strong><em>v = Q / S </em></strong></p>
+      <p><strong><em>v =</em></strong> <strong><em>7,16 <strong><em> x 10<sup>-5</sup></em></strong><span class="epigrafe"> m<strong><em><sup>3</sup></em></strong></span></em><span class="epigrafe">/</span><em><span class="epigrafe">s</span></em></strong> <em><strong>/</strong></em> <strong><em>0,45 x 10<sup>-4</sup> <span class="epigrafe">m</span><sup>2</sup></em></strong><br>
+      </p>
+    </blockquote></td>
+  <td class="bodytext">&nbsp;</td>
+  <td valign="top" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="53" align="left" valign="middle" class="bodytext"><table width="100%" height="35" border="0">
+    <tr>
+      <td width="19%" height="31" valign="middle"><p class="bodytext"><strong><strong>&#160;&#160; &#160;&#160; &#160;&#160;</strong></strong></p></td>
+      <td width="52%" align="center" valign="middle" bgcolor="#CCCCCC" class="bodytext"><strong><em>v = 1,59 <span class="epigrafe">m/s</span></em></strong></td>
+      <td width="29%" valign="middle">&nbsp;</td>
+    </tr>
+  </table></td>
+  <td class="bodytext">&nbsp;</td>
+  <td valign="top" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td align="left" valign="middle" class="bodytext">&nbsp;</td>
+  <td width="4" class="bodytext">&nbsp;</td>
+  <td width="86" valign="top" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="32" align="left" class="bodytext"><p>&nbsp;</p></td>
+  <td class="bodytext">&nbsp;</td>
+  <td width="86" rowspan="3" valign="bottom" class="bodytext"><img src="../cinematica/img_cin/ric_teclado.jpg" alt="teclado ricardo cabrera" width="85" height="130"></td>
+</tr>
+
+<tr>
+  <td height="18" bgcolor="#FFFFFF" class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+  </tr>
+
+<tr> <td align="center" valign="middle" bgcolor="#CCCCCC" class="bodytext"><table width="93%" border="0">
+  <tr>
+    <td class="epigrafe">Algunos derechos reservados. 
+      Se permite su reproducci&oacute;n citando la fuente. Se recomienda fervientemente su lectura en bibliotecas, escuelas, clubes y reuniones de consorcios. &Uacute;ltima actualizaci&oacute;n jul-22. Buenos Aires, Argentina. </td>
+  </tr>
+</table>  </td>
+  <td class="bodytext" width="4">&nbsp;</td>
+  </tr> 
+<tr> <td height="18" class="bodytext">&nbsp;</td><td class="bodytext" width="4">&nbsp;</td>
+<td class="bodytext" width="86">&nbsp;</td>
+</tr> 
+</table></td></tr> </table>
+<p><img src="img_hdinam/transparente.gif" width="10" height="20"></td></tr> 
+<tr> <td class="bodytext"><p><img src="img_hdinam/transparente.gif" width="600" height="20"></td></tr> 
+</table>
+</body>
+</html>

@@ -1,0 +1,153 @@
+<html>
+<head>
+<title>MECANICA DE FLUIDOS, G20-Fd-01, fisica online, ejercicios resueltos</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="keywords" content="problemas resueltos, ejercicios resueltos, cbc, fisica, biofisica, fluidos, liquidos, gases, bernoulli, poiseuille, viscosidad, ideales, viscosos, humedad, difusion, osmosis, nomesalen, no me salen, ricardo cabrera" />
+<meta name="description" content="Ejercicios y problemas resueltos, y apuntes teóricos de Fluidos, mecanismos de transporte de fluidos" />
+<link rel="stylesheet" href="win_ie.css">
+<style type="text/css">
+<!--
+.style1 {
+	color: #3F6386;
+	font-weight: bold;
+}
+.Estilo3 {color: #3F6386}
+.Estilo16 {font-size: 16px}
+.Estilo26 {	font-family: "Times New Roman", Times, serif;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 16px;
+}
+.Estilo25 {font-family: Verdana, Arial, sans-serif}
+.Estilo12 {font-size: 10px}
+.Estilo15 {color: #000000}
+.Estilo22 {color: #0000FF}
+.Estilo17 {font-size: 10px}
+.Estilo36 {font-weight: bold; font-size: 11px; font-style: italic; }
+.Estilo37 {font-size: 10px}
+.Estilo32 {font-weight: bold; font-size: 11px;}
+.Estilo38 {font-size: 11px}
+.Estilo27 {font-weight: bold}
+.Estilo29 {font-size: 11px; font-style: italic; }
+-->
+</style>
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000" alink="#000000" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<table align=center width="600" border="0" cellspacing="0" cellpadding="0"> 
+  <tr bgcolor="#000000" align="right"> 
+<td><img src="img_hdinam/nombre5.gif" width="369" height="71"></td></tr> <tr bgcolor="#BB0000" valign="middle" align="left"> 
+<td class="bodytext" height="20"><TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+  <TR ALIGN="center" CLASS="menuitem">
+    <TD WIDTH="43" height="19" CLASS="menuitem"><A HREF="../../index.html" CLASS="menuitem">&nbsp;<B>home</B>&nbsp;</A></TD>
+    <TD WIDTH="5" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="119" CLASS="menuitem"><strong><a href="index_hdinam.html" class="menuitem">más de hidrodinámica </a> </strong></TD>
+    <TD width="9" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="127" CLASS="menuitem"><strong><a href="../../intro_NMS.html" class="menuitem">otros temas de F&iacute;sica</a></strong></TD>
+    <TD width="10" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="160" CLASS="menuitem"><strong><a href="../../lista_ciruela.html" class="menuitem">lecciones del maestro Ciruela </a></strong></TD>
+    <TD width="8" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="67" CLASS="menuitem"><strong><a href="../../lista_tonterias.html" class="menuitem">tonter&iacute;as</a></strong></TD>
+    <TD WIDTH="7" CLASS="menuitem"><a href="../energia/index_energia.html" class="menuitem"></a><FONT COLOR="#000000">|</FONT></TD>
+    <TD WIDTH="48" CLASS="menuitem">&nbsp;<B><FONT FACE="Arial, Helvetica, sans-serif"><A HREF="mailto: ricuti@gmail.com" CLASS="menuitem">@</A></FONT><A HREF="../../index.html" CLASS="menuitem"></A></B>&nbsp;</TD>
+  </TR>
+</TABLE></td></tr> <tr> <td class="bodytext" height="8"><p><img src="img_hdinam/transparente.gif" width="600" height="8"></td>
+</tr> 
+<tr align="center"> <td height="779"> <table width="600" border="0" cellspacing="0" cellpadding="0"> 
+<tr class="bodytext"> <td valign="top" width="594" height="981"> 
+<table width="600" border="0" cellspacing="0" cellpadding="0"> <tr> 
+  <td height="74" bgcolor="#D7FFFF" class="bodytext"><span class="bodytext"><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>NO ME SALEN<br>
+</strong></span><span class="Estilo3"><em class="bodytext "><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>(<strong>PROBLEMAS RESUELTOS   DE BIOF&Iacute;SICA DEL CBC</strong>)</strong></em></span><br>
+      <span class="titulograndegris Estilo16"><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>FLUIDOS<br>
+      </strong></span><em class="bodytext "><strong><em><strong><em><strong><strong>&#160; &#160; </strong></strong></em></strong></em></strong></em><strong class="titulochicogris">Fluidos ideales</strong><br> </td>
+  <td class="bodytext" rowspan="3" height="74" width="4">&nbsp;</td>
+  <td class="bodytext" height="74" rowspan="3" valign="top" width="86"> 
+<p><img src="img_hdinam/cap45.jpg" alt="desesperado" width="85" height="138"></p></td></tr>
+  <tr>
+    <td height="18" bgcolor="#FFFFFF" class="bodytext">&nbsp;</td>
+  </tr> 
+<tr> <td height="147" valign="middle" class="bodytext"><table width="100%" border="0">
+  <tr class="bodytext">
+    <td width="28%" height="143" valign="top"><img src="img_hdinam/G20_U2_1ra.gif" width="140" height="45"></td>
+    <td width="2%" valign="top">&nbsp;</td>
+    <td width="70%" valign="top"><table width="100%" height="141" border="0">
+      <tr class="bodytext">
+        <td height="137"> <strong>33 - La velocidad de la sangre en la arteria  grande que irriga el lecho vascular de un órgano,  es mucho mayor que la velocidad en el capilar,  ¿por qué? De acuerdo al teorema de Bernoulli,  cabría esperar que la presión en el capilar fuera  mayor que la presión en la arteria (puede despreciarse la variación de presión con la altura).  Sin embargo la presión en la arteria es mucho  mayor que la presión capilar; ¿cómo explica esta  aparente paradoja?</strong></td>
+        </tr>
+      </table></td>
+  </tr>
+  </table></td>
+  </tr>
+<tr>
+  <td height="337" valign="middle" class="bodytext"><p>Es cierto... hay una aparente contradicción. El principio de Bernoulli anticipaba que a menor velocidad, mayor presión&nbsp;(dejemos de lado el efecto de cambio de altura, que a los efectos de esta discusión es despreciable):</p>
+    <blockquote>
+      <p><strong><em>p<span class="epigrafe">r </span></em></strong><em>+</em><strong><em> &frac12; <strong><em><span class="Estilo25">&rho;</span></em></strong> v<strong>&sup2;</strong></em></strong> <em><strong>= cte.</strong></em></p>
+    </blockquote>
+    <p>Y tal como vimos en el <a href="G20_Fludin_18.html" target="_blank">ejercicio 18</a> de esta misma guía, la velocidad de la sangre en los capilares era unas 2000 veces menor que en la aorta&nbsp;y en cualquier otro vaso de conducción (arterias mayores y menores, venas menores y mayores).</p>
+    <p>Recordemos que la velocidad en los capilares se reduce tan drásticamente porque la sección total capilar en mucho mayor que la sección total en los vasos de conducción. Lo cual es absolutamente lógico, porque  en los vasos de conducción la sangre sólo se desplaza de un lado a otro, en cambio en los capilares realiza sus funciones fisiológicas de intercambios moleculares.</p>
+    <p>El conflicto de pretender aplicar el principio de Bernoulli aparece porque sólo es aplicable a los fluidos ideales, sin viscosidad alguna, que se mueven sin tener que superar la más mínima resistencia. Y la resistecia hidrodinámica (la que describe la ley de Poiseuille),</p></td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext" valign="middle">&nbsp;</td>
+</tr>
+<tr>
+  <td height="35" align="left" valign="middle" class="bodytext"><table width="71%" height="31" border="0" cellpadding="0" cellspacing="0">
+    <tr>
+      <td width="19%" rowspan="3" align="right" class="bodytext"><em><strong><strong><em>R</em></strong></strong></em> <strong>=</strong></td>
+      <td width="3%" rowspan="3" class="bodytext">&nbsp;</td>
+      <td width="19%" height="0" align="center" valign="bottom" class="bodytext"><strong><em>8<em><strong><strong><span class="Estilo26">&pi;</span></strong></strong></em></em></strong> <em class="Estilo26"><strong>&eta;</strong></em> <em><strong>l</strong></em></td>
+      <td width="59%" rowspan="3" class="bodytext">&nbsp;</td>
+    </tr>
+    <tr>
+      <td height="2" align="center" valign="middle" class="epigrafe"><hr align="center" width="100%" style="color:black" size="1" noshade></td>
+    </tr>
+    <tr>
+      <td height="0" align="center" valign="top" class="bodytext"><em><strong>S<sup>2</sup><span class="Estilo17"></span></strong></em></td>
+    </tr>
+  </table></td>
+  <td class="bodytext">&nbsp;</td>
+  <td align="center" valign="middle" class="bodytext"><p>&nbsp;</p></td>
+</tr>
+<tr>
+  <td height="138" align="left" valign="middle" class="bodytext"><p>crece enormemente cuando la sección del vaso se hace muy pequeña. Para secciones tan pequeñas como la de los capilares hasta los fluidos menos viscosos -incluidos los gases- se comportan como reales, como no ideales.</p>
+    <p>La mayor caída de presión en el avance de la sangre hacia los órganos y tejidos ocurre a nivel de las arteriolas (podés verlo <a href="FT_sistema.html" target="_blank">acá</a>), justo antes de que el árbol vascular se híper-ramifique en el lecho capilar. Así, la sangre llega a los capilares a baja velocidad y a baja presión, con lo que puede realizar sus funciones de intercambios sin molestias mecánicas.</p></td>
+  <td class="bodytext">&nbsp;</td>
+  <td valign="top" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="25" align="left" valign="middle" class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+  <td valign="top" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td align="left" valign="middle" class="bodytext"><strong>COMENTARIO</strong>: Te invito a probar que soples por un tubo capilar (se consiguen en los laboratorios de química). Te va a resultar casi imposible y vas a pensar que está tapado. Pero no, simplemente la resistencia es enorme.</td>
+  <td width="4" class="bodytext">&nbsp;</td>
+  <td width="86" valign="top" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="32" align="left" class="bodytext"><p><strong>Pregunta capciosa</strong>:&nbsp;¿Por qué le árbol arterial es de paredes rígidas y el árbol venoso&nbsp;de paredes flácidas?</p></td>
+  <td class="bodytext">&nbsp;</td>
+  <td width="86" rowspan="3" valign="bottom" class="bodytext"><img src="../cinematica/img_cin/ric_teclado.jpg" alt="teclado ricardo cabrera" width="85" height="130"></td>
+</tr>
+
+<tr>
+  <td height="18" bgcolor="#FFFFFF" class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+  </tr>
+
+<tr> <td align="center" valign="middle" bgcolor="#CCCCCC" class="bodytext"><table width="93%" border="0">
+  <tr>
+    <td class="epigrafe">Algunos derechos reservados. 
+      Se permite su reproducci&oacute;n citando la fuente. Se recomienda fervientemente su lectura en bibliotecas, escuelas, clubes y reuniones de consorcios. &Uacute;ltima actualizaci&oacute;n jul-22. Buenos Aires, Argentina. </td>
+  </tr>
+</table>  </td>
+  <td class="bodytext" width="4">&nbsp;</td>
+  </tr> 
+<tr> <td height="18" class="bodytext">&nbsp;</td><td class="bodytext" width="4">&nbsp;</td>
+<td class="bodytext" width="86">&nbsp;</td>
+</tr> 
+</table></td></tr> </table>
+<p><img src="img_hdinam/transparente.gif" width="10" height="20"></td></tr> 
+<tr> <td class="bodytext"><p><img src="img_hdinam/transparente.gif" width="600" height="20"></td></tr> 
+</table>
+</body>
+</html>
