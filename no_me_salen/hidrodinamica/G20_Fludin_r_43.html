@@ -1,0 +1,303 @@
+<html>
+<head>
+<title>MECANICA DE FLUIDOS, G20-Fd-01, fisica online, ejercicios resueltos</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="keywords" content="problemas resueltos, ejercicios resueltos, cbc, fisica, biofisica, fluidos, liquidos, gases, bernoulli, poiseuille, viscosidad, ideales, viscosos, humedad, difusion, osmosis, nomesalen, no me salen, ricardo cabrera" />
+<meta name="description" content="Ejercicios y problemas resueltos, y apuntes teóricos de Fluidos, mecanismos de transporte de fluidos" />
+<link rel="stylesheet" href="win_ie.css">
+<style type="text/css">
+<!--
+.style1 {
+	color: #3F6386;
+	font-weight: bold;
+}
+.Estilo3 {color: #3F6386}
+.Estilo16 {font-size: 16px}
+.Estilo26 {	font-family: "Times New Roman", Times, serif;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 16px;
+}
+.Estilo25 {font-family: Verdana, Arial, sans-serif}
+.Estilo12 {font-size: 10px}
+.Estilo15 {color: #000000}
+.Estilo22 {color: #0000FF}
+.Estilo17 {font-size: 10px}
+.Estilo36 {font-weight: bold; font-size: 11px; font-style: italic; }
+.Estilo37 {font-size: 10px}
+.Estilo32 {font-weight: bold; font-size: 11px;}
+.Estilo38 {font-size: 11px}
+.Estilo27 {font-weight: bold}
+.Estilo29 {font-size: 11px; font-style: italic; }
+-->
+</style>
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000" alink="#000000" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<table align=center width="600" border="0" cellspacing="0" cellpadding="0"> 
+  <tr bgcolor="#000000" align="right"> 
+<td><img src="img_hdinam/nombre5.gif" width="369" height="71"></td></tr> <tr bgcolor="#BB0000" valign="middle" align="left"> 
+<td class="bodytext" height="20"><TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+  <TR ALIGN="center" CLASS="menuitem">
+    <TD WIDTH="43" height="19" CLASS="menuitem"><A HREF="../../index.html" CLASS="menuitem">&nbsp;<B>home</B>&nbsp;</A></TD>
+    <TD WIDTH="5" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="119" CLASS="menuitem"><strong><a href="index_hdinam.html" class="menuitem">más de hidrodinámica </a> </strong></TD>
+    <TD width="9" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="127" CLASS="menuitem"><strong><a href="../../intro_NMS.html" class="menuitem">otros temas de F&iacute;sica</a></strong></TD>
+    <TD width="10" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="160" CLASS="menuitem"><strong><a href="../../lista_ciruela.html" class="menuitem">lecciones del maestro Ciruela </a></strong></TD>
+    <TD width="8" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="67" CLASS="menuitem"><strong><a href="../../lista_tonterias.html" class="menuitem">tonter&iacute;as</a></strong></TD>
+    <TD WIDTH="7" CLASS="menuitem"><a href="../energia/index_energia.html" class="menuitem"></a><FONT COLOR="#000000">|</FONT></TD>
+    <TD WIDTH="48" CLASS="menuitem">&nbsp;<B><FONT FACE="Arial, Helvetica, sans-serif"><A HREF="mailto: ricuti@gmail.com" CLASS="menuitem">@</A></FONT><A HREF="../../index.html" CLASS="menuitem"></A></B>&nbsp;</TD>
+  </TR>
+</TABLE></td></tr> <tr> <td class="bodytext" height="8"><p><img src="img_hdinam/transparente.gif" width="600" height="8"></td>
+</tr> 
+<tr align="center"> <td height="2029"> <table width="600" border="0" cellspacing="0" cellpadding="0"> 
+<tr class="bodytext"> <td valign="top" width="594" height="981"> 
+<table width="600" border="0" cellspacing="0" cellpadding="0"> <tr> 
+  <td height="74" bgcolor="#D7FFFF" class="bodytext"><span class="bodytext"><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>NO ME SALEN<br>
+</strong></span><span class="Estilo3"><em class="bodytext "><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>(<strong>PROBLEMAS RESUELTOS   DE BIOF&Iacute;SICA DEL CBC</strong>)</strong></em></span><br>
+      <span class="titulograndegris Estilo16"><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>FLUIDOS<br>
+      </strong></span><em class="bodytext "><strong><em><strong><em><strong><strong>&#160; &#160; </strong></strong></em></strong></em></strong></em><strong class="titulochicogris">Fluidos reales</strong><br> </td>
+  <td class="bodytext" rowspan="3" height="74" width="4">&nbsp;</td>
+  <td class="bodytext" height="74" rowspan="3" valign="top" width="86"> 
+<p><img src="img_hdinam/cap45.jpg" alt="desesperado" width="85" height="138"></p></td></tr>
+  <tr>
+    <td height="18" bgcolor="#FFFFFF" class="bodytext">&nbsp;</td>
+  </tr> 
+<tr> <td height="147" valign="middle" class="bodytext"><table width="100%" border="0">
+  <tr class="bodytext">
+    <td width="28%" height="143" valign="top"><img src="img_hdinam/G20_U2_1ra.gif" width="140" height="45"></td>
+    <td width="2%" valign="top">&nbsp;</td>
+    <td width="70%" valign="top"><table width="100%" height="280" border="0">
+      <tr class="bodytext">
+        <td height="67"> <strong>43 -  La cirugía de derivación vascular (by-pass)  se realiza para restablecer el flujo normal de sangre de las arterias bloqueadas o angostadas por  un proceso de acumulación de grasas. En este  procedimiento se conecta un nuevo vaso sanguíneo en paralelo con el vaso enfermo para que el  conjunto tenga la misma resistencia que el vaso  cuando estaba sano.  Si la resistencia del vaso enfermo (<em>R<strong><em><strong><strong><em><strong><em><sub>E</sub></em></strong></em></strong></strong></em></strong></em>) es el  doble de la del vaso normal (<em>R<strong><em><strong><strong><em><strong><em><sub>N</sub></em></strong></em></strong></strong></em></strong></em>); ¿cuál tiene que  ser la resistencia (<em>R<strong><em><strong><strong><em><strong><em><sub>i</sub></em></strong></em></strong></strong></em></strong></em>) del vaso injertado en paralelo para que el sistema restablezca la circulación  normal? Exprésla en función de <em>R<strong><em><strong><strong><em><strong><em><sub>N</sub></em></strong></em></strong></strong></em></strong></em>.</strong></td>
+        </tr>
+      <tr class="bodytext">
+        <td height="68" align="center" valign="middle"><img src="img_hdinam/G20_Fd_43_1.gif" width="300" height="162"></td>
+      </tr>
+      </table></td>
+  </tr>
+  </table></td>
+  </tr>
+<tr>
+  <td height="88" valign="middle" class="bodytext"><p>Lo fundamental es que adviertas que el <em>bypass</em> consiste en una derivación en paralelo con el vaso enfermo. La resistencia equivalente de una derivación en paralelo en función de las resistencias de los vasos que integran el paralelo la obtenemos así:</p></td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext" valign="middle">&nbsp;</td>
+</tr>
+<tr>
+  <td height="78" align="left" valign="middle" class="bodytext"><table width="89%" height="31" border="0" cellpadding="0" cellspacing="0">
+    <tr>
+      <td width="10%" rowspan="3" align="right" class="bodytext">&nbsp;</td>
+      <td width="12%" height="0" align="center" valign="bottom" class="bodytext"><strong><em>1</em></strong><em><strong></strong></em></td>
+      <td width="5%" rowspan="3" align="center" class="bodytext"><strong>=</strong></td>
+      <td width="7%" align="center" valign="bottom" class="bodytext"><strong><em>1</em></strong><em><strong></strong></em></td>
+      <td width="4%" rowspan="3" align="center" class="bodytext"><strong>+</strong></td>
+      <td width="8%" align="center" valign="bottom" class="bodytext"><strong><em>1</em></strong><em><strong></strong></em></td>
+      <td width="37%" rowspan="3" class="bodytext">&nbsp;</td>
+      <td width="17%" rowspan="3" class="bodytext">&nbsp;</td>
+    </tr>
+    <tr>
+      <td height="2" align="center" valign="middle" class="epigrafe"><hr align="center" width="100%" style="color:black" size="1" noshade></td>
+      <td align="center" valign="middle" class="epigrafe"><hr align="center" width="100%" style="color:black" size="1" noshade></td>
+      <td align="center" valign="middle" class="epigrafe"><hr align="center" width="100%" style="color:black" size="1" noshade></td>
+    </tr>
+    <tr>
+      <td height="0" align="center" valign="top" class="bodytext"><em><strong><em>R<strong><em><strong><strong><em><strong><em><sub>paralelo</sub></em></strong></em></strong></strong></em></strong></em><span class="Estilo17"></span></strong></em></td>
+      <td align="center" valign="top" class="bodytext"><em><strong><em>R<strong><em><strong><strong><em><strong><em><sub>1</sub></em></strong></em></strong></strong></em></strong></em><span class="Estilo17"></span></strong></em></td>
+      <td align="center" valign="top" class="bodytext"><em><strong><em>R<strong><em><strong><strong><em><strong><em><sub>2</sub></em></strong></em></strong></strong></em></strong></em><span class="Estilo17"></span></strong></em></td>
+    </tr>
+  </table></td>
+  <td class="bodytext">&nbsp;</td>
+  <td align="center" valign="middle" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="132" align="left" valign="middle" class="bodytext"><p>En nuestro caso queremos que la resistencia del conjunto, o sea, la resistencia del paralelo sea igual a la resistencia del vaso sano, normal: <em><strong><em>R<strong><em><strong><strong><em><strong><em><sub>paralelo</sub></em></strong></em></strong></strong></em></strong></em></strong></em> = <strong><em>R<strong><em><strong><strong><em><strong><em><sub>N</sub></em></strong></em></strong></strong></em></strong></em></strong>.</p>
+    <p>Las dos resistencias que integran el paralelo son la resistencia de vaso enfermo, <strong><em>R<strong><em><strong><strong><em><strong><em><sub>E</sub></em></strong></em></strong></strong></em></strong></em></strong>, y la resistencia del vaso injertado, <strong><em>R<strong><em><strong><strong><em><strong><em><sub>i</sub></em></strong></em></strong></strong></em></strong></em></strong>. </p>
+    <p>La expresión de la asociación de resistencias quedaría así:</p></td>
+  <td class="bodytext">&nbsp;</td>
+  <td align="center" valign="middle" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="83" align="left" valign="middle" class="bodytext"><table width="89%" height="31" border="0" cellpadding="0" cellspacing="0">
+    <tr>
+      <td width="10%" rowspan="3" align="right" class="bodytext">&nbsp;</td>
+      <td width="7%" height="0" align="center" valign="bottom" class="bodytext"><strong><em>1</em></strong><em><strong></strong></em></td>
+      <td width="4%" rowspan="3" align="center" class="bodytext"><strong>=</strong></td>
+      <td width="8%" align="center" valign="bottom" class="bodytext"><strong><em>1</em></strong><em><strong></strong></em></td>
+      <td width="5%" rowspan="3" align="center" class="bodytext"><strong>+</strong></td>
+      <td width="7%" align="center" valign="bottom" class="bodytext"><strong><em>1</em></strong><em><strong></strong></em></td>
+      <td width="42%" rowspan="3" class="bodytext">&nbsp;</td>
+      <td width="17%" rowspan="3" class="bodytext">&nbsp;</td>
+    </tr>
+    <tr>
+      <td height="2" align="center" valign="middle" class="epigrafe"><hr align="center" width="100%" style="color:black" size="1" noshade></td>
+      <td align="center" valign="middle" class="epigrafe"><hr align="center" width="100%" style="color:black" size="1" noshade></td>
+      <td align="center" valign="middle" class="epigrafe"><hr align="center" width="100%" style="color:black" size="1" noshade></td>
+    </tr>
+    <tr>
+      <td height="0" align="center" valign="top" class="bodytext"><em><strong><em>R<strong><em><strong><strong><em><strong><em><sub>N</sub></em></strong></em></strong></strong></em></strong></em><span class="Estilo17"></span></strong></em></td>
+      <td align="center" valign="top" class="bodytext"><em><strong><em>R<strong><em><strong><strong><em><strong><em><sub>E</sub></em></strong></em></strong></strong></em></strong></em><span class="Estilo17"></span></strong></em></td>
+      <td align="center" valign="top" class="bodytext"><em><strong><em>R<strong><em><strong><strong><em><strong><em><sub>i</sub></em></strong></em></strong></strong></em></strong></em><span class="Estilo17"></span></strong></em></td>
+    </tr>
+  </table></td>
+  <td class="bodytext">&nbsp;</td>
+  <td align="center" valign="middle" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="64" align="left" valign="middle" class="bodytext">Ahora simplemente recordemos que la resistencia del vaso enfermo es el doble que el del vaso normal, <strong><em>R<strong><em><strong><strong><em><strong><em><sub>E</sub></em></strong></em></strong></strong></em></strong></em></strong> = <strong><em>2R<strong><em><strong><strong><em><strong><em><sub>N</sub></em></strong></em></strong></strong></em></strong></em></strong>. Reemplacemos eso en nuestra ecuación y despejemos la resistencia del vaso injerto: </td>
+  <td class="bodytext">&nbsp;</td>
+  <td align="center" valign="middle" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="78" align="left" valign="middle" class="bodytext"><table width="89%" height="31" border="0" cellpadding="0" cellspacing="0">
+    <tr>
+      <td width="10%" rowspan="3" align="right" class="bodytext">&nbsp;</td>
+      <td width="7%" height="0" align="center" valign="bottom" class="bodytext"><strong><em>1</em></strong><em><strong></strong></em></td>
+      <td width="4%" rowspan="3" align="center" class="bodytext"><strong>=</strong></td>
+      <td width="8%" align="center" valign="bottom" class="bodytext"><strong><em>1</em></strong><em><strong></strong></em></td>
+      <td width="5%" rowspan="3" align="center" class="bodytext"><strong>+</strong></td>
+      <td width="7%" align="center" valign="bottom" class="bodytext"><strong><em>1</em></strong><em><strong></strong></em></td>
+      <td width="42%" rowspan="3" class="bodytext">&nbsp;</td>
+      <td width="17%" rowspan="3" class="bodytext">&nbsp;</td>
+    </tr>
+    <tr>
+      <td height="2" align="center" valign="middle" class="epigrafe"><hr align="center" width="100%" style="color:black" size="1" noshade></td>
+      <td align="center" valign="middle" class="epigrafe"><hr align="center" width="100%" style="color:black" size="1" noshade></td>
+      <td align="center" valign="middle" class="epigrafe"><hr align="center" width="100%" style="color:black" size="1" noshade></td>
+    </tr>
+    <tr>
+      <td height="0" align="center" valign="top" class="bodytext"><em><strong><em>R<strong><em><strong><strong><em><strong><em><sub>N</sub></em></strong></em></strong></strong></em></strong></em><span class="Estilo17"></span></strong></em></td>
+      <td align="center" valign="top" class="bodytext"><em><strong><em>2R<strong><em><strong><strong><em><strong><em><sub>N</sub></em></strong></em></strong></strong></em></strong></em><span class="Estilo17"></span></strong></em></td>
+      <td align="center" valign="top" class="bodytext"><em><strong><em>R<strong><em><strong><strong><em><strong><em><sub>i</sub></em></strong></em></strong></strong></em></strong></em><span class="Estilo17"></span></strong></em></td>
+    </tr>
+  </table></td>
+  <td class="bodytext">&nbsp;</td>
+  <td align="center" valign="middle" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="80" align="left" valign="middle" class="bodytext"><table width="89%" height="31" border="0" cellpadding="0" cellspacing="0">
+    <tr>
+      <td width="10%" rowspan="3" align="right" class="bodytext">&nbsp;</td>
+      <td width="7%" height="0" align="center" valign="bottom" class="bodytext"><strong><em>1</em></strong><em><strong></strong></em></td>
+      <td width="4%" rowspan="3" align="center" class="bodytext"><strong>=</strong></td>
+      <td width="8%" align="center" valign="bottom" class="bodytext"><strong><em>1</em></strong><em><strong></strong></em></td>
+      <td width="6%" rowspan="3" align="center" class="bodytext"><strong><em><strong>&mdash;</strong></em></strong></td>
+      <td width="7%" align="center" valign="bottom" class="bodytext"><strong><em>1</em></strong><em><strong></strong></em></td>
+      <td width="41%" rowspan="3" class="bodytext">&nbsp;</td>
+      <td width="17%" rowspan="3" class="bodytext">&nbsp;</td>
+    </tr>
+    <tr>
+      <td height="2" align="center" valign="middle" class="epigrafe"><hr align="center" width="100%" style="color:black" size="1" noshade></td>
+      <td align="center" valign="middle" class="epigrafe"><hr align="center" width="100%" style="color:black" size="1" noshade></td>
+      <td align="center" valign="middle" class="epigrafe"><hr align="center" width="100%" style="color:black" size="1" noshade></td>
+    </tr>
+    <tr>
+      <td height="0" align="center" valign="top" class="bodytext"><em><strong><em>R<strong><em><strong><strong><em><strong><em><sub>i</sub></em></strong></em></strong></strong></em></strong></em><span class="Estilo17"></span></strong></em></td>
+      <td align="center" valign="top" class="bodytext"><em><strong><em>R<strong><em><strong><strong><em><strong><em><sub>N</sub></em></strong></em></strong></strong></em></strong></em><span class="Estilo17"></span></strong></em></td>
+      <td align="center" valign="top" class="bodytext"><em><strong><em>2R<strong><em><strong><strong><em><strong><em><sub>N</sub></em></strong></em></strong></strong></em></strong></em><span class="Estilo17"></span></strong></em></td>
+    </tr>
+  </table></td>
+  <td class="bodytext">&nbsp;</td>
+  <td align="center" valign="middle" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="41" align="left" valign="middle" class="bodytext">Para hacer el despeje debés hacer memoria de las operaciones con fracciones:</td>
+  <td class="bodytext">&nbsp;</td>
+  <td align="center" valign="middle" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="77" align="left" valign="middle" class="bodytext"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td width="14%" rowspan="3" align="right" class="bodytext"><em><strong><em>R<strong><em><strong><strong><em><strong><em><sub>i</sub></em></strong></em></strong></strong></em></strong></em><span class="Estilo17"></span></strong></em><strong><em> = </em></strong></td>
+      <td width="2%" rowspan="3" align="right" class="bodytext">&nbsp;</td>
+      <td width="16%" height="20" align="center" valign="bottom" class="bodytext" style="line-height: 60%;" font><em><strong><em>2R<strong><em><strong><strong><em><strong><em><sub>N</sub></em></strong></em></strong></strong></em></strong></em> </strong></em><strong><em><strong>.</strong></em></strong> <em><strong><em>R<strong><em><strong><em><strong><strong><em><strong><em><sub>N</sub></em></strong></em></strong></strong></em></strong></em></strong></em></strong></em></td>
+      <td width="68%" rowspan="3" align="center" class="bodytext">&nbsp;</td>
+    </tr>
+    <tr>
+      <td align="center" class="bodytext"><hr align="center" width="100%" style="color:black" size="1" noshade></td>
+    </tr>
+    <tr>
+      <td height="21" align="center" valign="top" class="bodytext" style="line-height: 60%;" font><span class="bodytext" style="line-height: 60%;"><em><strong><em>2R<strong><em><strong><strong><em><strong><em><sub>N</sub></em></strong></em></strong></strong></em></strong></em></strong></em><strong><em><strong> &mdash;</strong></em></strong><em><strong> <em>R<strong><em><strong><strong><em><strong><em><sub>N</sub></em></strong></em></strong></strong></em></strong></em></strong></em></span></td>
+    </tr>
+  </table></td>
+  <td class="bodytext">&nbsp;</td>
+  <td align="center" valign="middle" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="80" align="left" valign="middle" class="bodytext"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td width="14%" rowspan="3" align="right" class="bodytext"><em><strong><em>R<strong><em><strong><strong><em><strong><em><sub>i</sub></em></strong></em></strong></strong></em></strong></em><span class="Estilo17"></span></strong></em><strong><em> = </em></strong></td>
+      <td width="2%" rowspan="3" align="right" class="bodytext">&nbsp;</td>
+      <td width="10%" height="20" align="center" valign="bottom" class="bodytext" style="line-height: 60%;" font><em><strong><em>2R<strong><em><strong><em><strong><strong><em><strong><em><sub>N</sub></em></strong></em></strong></strong></em></strong></em><sup>2</sup></strong></em></strong></em></td>
+      <td width="74%" rowspan="3" align="center" class="bodytext">&nbsp;</td>
+    </tr>
+    <tr>
+      <td align="center" class="bodytext"><hr align="center" width="100%" style="color:black" size="1" noshade></td>
+    </tr>
+    <tr>
+      <td height="21" align="center" valign="top" class="bodytext" style="line-height: 60%;" font><span class="bodytext" style="line-height: 60%;"><em><strong> <em>R<strong><em><strong><strong><em><strong><em><sub>N</sub></em></strong></em></strong></strong></em></strong></em></strong></em></span></td>
+    </tr>
+  </table></td>
+  <td class="bodytext">&nbsp;</td>
+  <td align="center" valign="middle" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="56" align="center" valign="middle" class="bodytext"><table width="80%" height="45" border="0">
+    <tr>
+      <td height="31" align="center" valign="middle" bgcolor="#CCCCCC"><p class="bodytext"><strong><strong><em><strong><em>R<strong><em><strong><strong><em><strong><em><sub>i</sub></em></strong></em></strong></strong></em></strong></em><span class="Estilo17"></span></strong></em><strong><em> =</em></strong></strong> </strong><em><strong><em>2R<strong><em><strong><em><strong><strong><em><strong><em><sub>N</sub></em></strong></em></strong></strong></em></strong></em></strong></em></strong></em></p></td>
+    </tr>
+  </table></td>
+  <td class="bodytext">&nbsp;</td>
+  <td align="center" valign="middle" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="25" align="left" valign="middle" class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+  <td align="center" valign="middle" class="bodytext"><p>&nbsp;</p></td>
+</tr>
+<tr>
+  <td height="138" align="left" valign="middle" class="bodytext"><p>&ldquo;Los progresos de la medicina y de la bioingeniería podrán considerarse verdaderos logros para la humanidad cuando todas las personas tengan acceso a sus beneficios y dejen de ser un privilegio para las minorías&rdquo;.</p>
+    <p>La frase pertenece al médico argentino René Gerónimo Favaloro y ejemplifica a la perfección lo que fue su máximo legado científico: <strong>el desarrollo de la cirugía conocida como </strong><strong><em>bypass </em></strong><strong>coronario</strong> y su primera aplicación práctica, el 9 de mayo de 1967.</p></td>
+  <td class="bodytext">&nbsp;</td>
+  <td valign="top" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="55" align="center" valign="middle" class="bodytext"><img src="img_hdinam/Rene_Favaloro.JPG" width="350" height="383"></td>
+  <td class="bodytext">&nbsp;</td>
+  <td valign="top" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td align="center" valign="middle" class="epigrafe">René Gerónimo Favaloro (1923 - 2000)</td>
+  <td width="4" class="bodytext">&nbsp;</td>
+  <td width="86" valign="top" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="32" align="left" class="bodytext"><p>&nbsp;</p></td>
+  <td class="bodytext">&nbsp;</td>
+  <td width="86" rowspan="3" valign="bottom" class="bodytext"><img src="../cinematica/img_cin/ric_teclado.jpg" alt="teclado ricardo cabrera" width="85" height="130"></td>
+</tr>
+
+<tr>
+  <td height="18" bgcolor="#FFFFFF" class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+  </tr>
+
+<tr> <td align="center" valign="middle" bgcolor="#CCCCCC" class="bodytext"><table width="93%" border="0">
+  <tr>
+    <td class="epigrafe">Algunos derechos reservados. 
+      Se permite su reproducci&oacute;n citando la fuente. Se recomienda fervientemente su lectura en bibliotecas, escuelas, clubes y reuniones de consorcios. &Uacute;ltima actualizaci&oacute;n jul-22. Buenos Aires, Argentina. </td>
+  </tr>
+</table>  </td>
+  <td class="bodytext" width="4">&nbsp;</td>
+  </tr> 
+<tr> <td height="18" class="bodytext">&nbsp;</td><td class="bodytext" width="4">&nbsp;</td>
+<td class="bodytext" width="86">&nbsp;</td>
+</tr> 
+</table></td></tr> </table>
+<p><img src="img_hdinam/transparente.gif" width="10" height="20"></td></tr> 
+<tr> <td class="bodytext"><p><img src="img_hdinam/transparente.gif" width="600" height="20"></td></tr> 
+</table>
+</body>
+</html>

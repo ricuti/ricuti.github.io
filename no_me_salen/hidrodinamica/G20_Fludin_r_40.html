@@ -1,0 +1,255 @@
+<html>
+<head>
+<title>MECANICA DE FLUIDOS, F021, fisica online, ejercicios resueltos</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="keywords" content="problemas resueltos, ejercicios resueltos, cbc, fisica, biofisica, fluidos, liquidos, gases, bernoulli, poiseuille, viscosidad, ideales, viscosos, humedad, difusion, osmosis, nomesalen, no me salen, ricardo cabrera" />
+<meta name="description" content="Ejercicios y problemas resueltos, y apuntes teóricos de Fluidos, mecanismos de transporte de fluidos" />
+<link rel="stylesheet" href="win_ie.css">
+<style type="text/css">
+<!--
+.style1 {
+	color: #3F6386;
+	font-weight: bold;
+}
+.Estilo3 {color: #3F6386}
+.Estilo16 {font-size: 16px}
+.Estilo17 {font-size: 10px}
+.Estilo25 {font-family: Verdana, Arial, sans-serif}
+.Estilo26 {font-family: "Times New Roman", Times, serif;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 16px;
+}
+-->
+</style>
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000" alink="#000000" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<table align=center width="600" border="0" cellspacing="0" cellpadding="0"> 
+  <tr bgcolor="#000000" align="right"> 
+<td><img src="img_hdinam/nombre5.gif" width="369" height="71" /></td></tr> <tr bgcolor="#BB0000" valign="middle" align="left"> 
+<td class="bodytext" height="20"><TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+  <TR ALIGN="center" CLASS="menuitem">
+    <TD WIDTH="43" height="19" CLASS="menuitem"><A HREF="../../index.html" CLASS="menuitem">&nbsp;<B>home</B>&nbsp;</A></TD>
+    <TD WIDTH="5" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="119" CLASS="menuitem"><strong><a href="index_hdinam.html" class="menuitem">más de hidrodinámica </a> </strong></TD>
+    <TD width="9" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="127" CLASS="menuitem"><strong><a href="../../intro_NMS.html" class="menuitem">otros temas de F&iacute;sica</a></strong></TD>
+    <TD width="10" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="160" CLASS="menuitem"><strong><a href="../../lista_ciruela.html" class="menuitem">lecciones del maestro Ciruela </a></strong></TD>
+    <TD width="8" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="67" CLASS="menuitem"><strong><a href="../../lista_tonterias.html" class="menuitem">tonter&iacute;as</a></strong></TD>
+    <TD WIDTH="7" CLASS="menuitem"><a href="../energia/index_energia.html" class="menuitem"></a><FONT COLOR="#000000">|</FONT></TD>
+    <TD WIDTH="48" CLASS="menuitem">&nbsp;<B><FONT FACE="Arial, Helvetica, sans-serif"><A HREF="mailto: ricuti@gmail.com" CLASS="menuitem">@</A></FONT><A HREF="../../index.html" CLASS="menuitem"></A></B>&nbsp;</TD>
+  </TR>
+</TABLE></td></tr> <tr> <td class="bodytext" height="9"><p><img src="img_hdinam/transparente.gif" width="600" height="9" /></td>
+</tr> 
+<tr align="center"> <td height="1367" valign="top"> <table width="600" border="0" cellspacing="0" cellpadding="0"> 
+<tr class="bodytext"> <td colspan="2" valign="top" height="1328"> <p><img src="img_hdinam/transparente.gif" width="1" height="1" /></td>
+<td valign="top" width="596" height="1328"> 
+<table width="602" border="0" cellspacing="0" cellpadding="0"> <tr> 
+  <td height="49" colspan="2" bgcolor="#D7FFFF" class="bodytext"><span class="bodytext"><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>NO ME SALEN<br />
+</strong></span><span class="Estilo3"><em class="bodytext "><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>(<strong>PROBLEMAS RESUELTOS   DE BIOF&Iacute;SICA DEL CBC</strong>)</strong></em></span><br />
+      <span class="titulograndegris Estilo16"><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>FLUIDOS<br />
+      </strong></span><br /> </td>
+  <td class="bodytext" rowspan="5" height="74" width="7">&nbsp;</td>
+  <td class="bodytext" height="74" rowspan="5" valign="top" width="86"> 
+<p><img src="img_hdinam/cap15.jpg" alt="desesperado" width="85" height="131" /></p></td></tr>
+  <tr>
+    <td height="18" colspan="2" bgcolor="#FFFFFF" class="bodytext">&nbsp;</td>
+  </tr> 
+<tr> <td width="148" height="26" valign="top" class="bodytext"><p><img src="img_hdinam/G20_U2_1ra.gif" alt="" width="140" height="45"></P>
+    </td>
+  <td width="361" valign="top" class="bodytext"><p><strong>40 - En la aterosclerosis se depositan lípidos en  las paredes arteriales y consecuentemente el diámetro efectivo es menor al normal.</strong></p>    </td>
+</tr>
+<tr>
+  <td height="99" colspan="2" align="center" valign="middle" class="bodytext"><img src="img_hdinam/G20_40.jpg" width="420" height="292"></td>
+  </tr>
+<tr>
+  <td height="91" colspan="2" valign="top" class="bodytext"><strong>a) ¿En qué proporción cambia la resistencia de  una arteria que por el depósito de placa de grasa  ha reducido el diámetro efectivo al 84 % de su  valor normal?  <br>
+    b) ¿En qué factor debe cambiar la diferencia de  presión en los extremos de la zona afectada de la  arteria para que el caudal sea el mismo?</strong></td>
+  </tr>
+<tr>
+  <td colspan="2" align="left" valign="middle" class="bodytext"><p>Si vos insistís podemos trabajar este primer ítem hablando de diámetros... Pero debés admitir que si el diámetro disminuye al 84% del original...<em> ¡</em>el radio también disminuye al 84% del original<em>!</em> Trabajemos con los radios porque es así como viene planteada la ley de Poiseuille.    </p>
+    </td>
+  <td class="bodytext">&nbsp;</td>
+  <td align="center" valign="middle" class="bodytext"><p></td>
+</tr>
+<tr>
+  <td height="52" colspan="2" align="left" class="bodytext"><table width="71%" height="31" border="0" cellpadding="0" cellspacing="0">
+    <tr>
+      <td width="19%" rowspan="3" align="right" class="bodytext"><em><strong><strong><em>R</em></strong></strong></em> <strong>=</strong></td>
+      <td width="3%" rowspan="3" class="bodytext">&nbsp;</td>
+      <td width="19%" height="0" align="center" valign="bottom" class="bodytext"><strong><em>8</em></strong> <em class="Estilo26"><strong>&eta;</strong></em> <em><strong>l</strong></em></td>
+      <td width="59%" rowspan="3" class="bodytext">&nbsp;</td>
+    </tr>
+    <tr>
+      <td height="2" align="center" valign="middle" class="epigrafe"><hr align="center" width="100%" style="color:black" size="1" noshade></td>
+    </tr>
+    <tr>
+      <td height="0" align="center" valign="top" class="bodytext"><em><strong><em><em><strong><strong><span class="Estilo26">&pi;</span></strong></strong></em></em> . r<sup>4</sup><span class="Estilo17"></span></strong></em></td>
+    </tr>
+  </table></td>
+  <td class="bodytext">&nbsp;</td>
+  <td valign="top" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="45" colspan="2" align="left" class="bodytext">Esa expresión bien describe la resistencia (en un tramo<em><strong> l</strong></em>) en el vaso sano, original. Llamemos <em><strong>R'</strong></em> a la resistencia del mismo tramo revestido de la placa esclerótica:</td>
+  <td class="bodytext">&nbsp;</td>
+  <td valign="top" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="52" colspan="2" align="left" class="bodytext"><table width="71%" height="31" border="0" cellpadding="0" cellspacing="0">
+    <tr>
+      <td width="19%" rowspan="3" align="right" class="bodytext"><em><strong><strong><em>R'</em></strong></strong></em> <strong>=</strong></td>
+      <td width="3%" rowspan="3" class="bodytext">&nbsp;</td>
+      <td width="30%" height="0" align="center" valign="bottom" class="bodytext"><strong><em>8</em></strong> <em class="Estilo26"><strong>&eta;</strong></em> <em><strong>l</strong></em></td>
+      <td width="48%" rowspan="3" class="bodytext">&nbsp;</td>
+    </tr>
+    <tr>
+      <td height="2" align="center" valign="middle" class="epigrafe"><hr align="center" width="100%" style="color:black" size="1" noshade></td>
+    </tr>
+    <tr>
+      <td height="0" align="center" valign="top" class="bodytext"><em><strong><em><em><strong><strong><span class="Estilo26">&pi;</span></strong></strong></em></em> . (0,84 r)<sup>4</sup><span class="Estilo17"></span></strong></em></td>
+    </tr>
+  </table></td>
+  <td class="bodytext">&nbsp;</td>
+  <td valign="top" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="30" colspan="2" align="left" class="bodytext">No olvides que la potenciación es distributiva para el producto. De modo que:</td>
+  <td class="bodytext">&nbsp;</td>
+  <td valign="top" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="57" colspan="2" align="left" class="bodytext"><table width="71%" height="31" border="0" cellpadding="0" cellspacing="0">
+    <tr>
+      <td width="19%" rowspan="3" align="right" class="bodytext"><em><strong><strong><em>R'</em></strong></strong></em> <strong>=</strong></td>
+      <td width="3%" rowspan="3" class="bodytext">&nbsp;</td>
+      <td width="30%" height="0" align="center" valign="bottom" class="bodytext"><strong><em>8</em></strong> <em class="Estilo26"><strong>&eta;</strong></em> <em><strong>l</strong></em></td>
+      <td width="48%" rowspan="3" class="bodytext">&nbsp;</td>
+    </tr>
+    <tr>
+      <td height="2" align="center" valign="middle" class="epigrafe"><hr align="center" width="100%" style="color:black" size="1" noshade></td>
+    </tr>
+    <tr>
+      <td height="0" align="center" valign="top" class="bodytext"><em><strong><em><em><strong><strong><span class="Estilo26">&pi;</span></strong></strong></em></em> . (0,84)<sup>4</sup> r<sup>4</sup><span class="Estilo17"></span></strong></em></td>
+    </tr>
+  </table></td>
+  <td class="bodytext">&nbsp;</td>
+  <td valign="top" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="31" colspan="2" align="left" class="bodytext">O sea:</td>
+  <td class="bodytext">&nbsp;</td>
+  <td valign="top" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="57" colspan="2" align="left" class="bodytext"><table width="71%" height="31" border="0" cellpadding="0" cellspacing="0">
+    <tr>
+      <td width="19%" rowspan="3" align="right" class="bodytext"><em><strong><strong><em>R'</em></strong></strong></em> <strong>=</strong></td>
+      <td width="3%" rowspan="3" class="bodytext">&nbsp;</td>
+      <td width="30%" height="0" align="center" valign="bottom" class="bodytext"><strong><em>8</em></strong> <em class="Estilo26"><strong>&eta;</strong></em> <em><strong>l</strong></em></td>
+      <td width="48%" rowspan="3" class="bodytext">&nbsp;</td>
+    </tr>
+    <tr>
+      <td height="2" align="center" valign="middle" class="epigrafe"><hr align="center" width="100%" style="color:black" size="1" noshade></td>
+    </tr>
+    <tr>
+      <td height="0" align="center" valign="top" class="bodytext"><em><strong><em><em><strong><strong><span class="Estilo26">&pi;</span></strong></strong></em></em> . 0,498 r<sup>4</sup><span class="Estilo17"></span></strong></em></td>
+    </tr>
+  </table></td>
+  <td class="bodytext">&nbsp;</td>
+  <td valign="top" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="31" colspan="2" align="left" class="bodytext">O lo que es lo mismo:</td>
+  <td class="bodytext">&nbsp;</td>
+  <td valign="top" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="57" colspan="2" align="left" class="bodytext"><table width="71%" height="31" border="0" cellpadding="0" cellspacing="0">
+    <tr>
+      <td width="19%" rowspan="3" align="right" class="bodytext"><em><strong><strong><em>R'</em></strong></strong></em> <strong>=</strong></td>
+      <td width="3%" rowspan="3" class="bodytext">&nbsp;</td>
+      <td width="17%" height="0" align="center" valign="bottom" class="bodytext"><strong><em>R</em></strong><em><strong></strong></em></td>
+      <td width="61%" rowspan="3" class="bodytext">&nbsp;</td>
+    </tr>
+    <tr>
+      <td height="2" align="center" valign="middle" class="epigrafe"><hr align="center" width="100%" style="color:black" size="1" noshade></td>
+    </tr>
+    <tr>
+      <td height="0" align="center" valign="top" class="bodytext"><em><strong>0,498</strong></em></td>
+    </tr>
+  </table></td>
+  <td class="bodytext">&nbsp;</td>
+  <td valign="top" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="31" colspan="2" align="left" class="bodytext">De modo que:</td>
+  <td class="bodytext">&nbsp;</td>
+  <td valign="top" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="57" colspan="2" align="left" class="bodytext"><table width="507" height="36" border="0">
+    <tr>
+      <td width="35" height="28" valign="middle" class="bodytext">&nbsp;</td>
+      <td width="192" align="center" bordercolor="#FFFFFF" bgcolor="#CCCCCC" class="bodytext"><strong><em>R'<strong><em><strong><strong><em><strong><em><sub></sub></em></strong></em></strong></strong></em></strong> = 2 R</em></strong><strong><em><span class="Estilo17"></span></em></strong></td>
+      <td width="266" align="center" class="bodytext">&nbsp;</td>
+    </tr>
+  </table></td>
+  <td class="bodytext">&nbsp;</td>
+  <td valign="top" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="104" colspan="2" align="left" class="bodytext"><p>En el mismo factor aumenta la diferencia de presión (la caída de presión). </p>
+    <blockquote>
+      <p><strong><em>&Delta;P = Q . R</em></strong></p>
+      <p><strong><em>&Delta;P' = Q . R' </em></strong><strong><em>= Q . 2R</em></strong> <strong><em>= 2 . Q . R</em></strong></p>
+    </blockquote></td>
+  <td class="bodytext">&nbsp;</td>
+  <td valign="top" class="bodytext"><br /></td>
+</tr>
+
+<tr>
+  <td height="53" colspan="2" class="bodytext"><table width="507" height="36" border="0">
+    <tr>
+      <td width="35" height="28" valign="middle" class="bodytext">&nbsp;</td>
+      <td width="192" align="center" bordercolor="#FFFFFF" bgcolor="#CCCCCC" class="bodytext"><strong><em>&Delta;P' <strong><em><strong><strong><em><strong><em><sub></sub></em></strong></em></strong></strong></em></strong>= 2 &Delta;P</em></strong><strong><em><span class="Estilo17"></span></em></strong></td>
+      <td width="266" align="center" class="bodytext">&nbsp;</td>
+    </tr>
+  </table></td>
+  <td width="7" class="bodytext">&nbsp;</td>
+  <td width="86" valign="top" class="bodytext"><p></td>
+</tr>  
+
+<tr>
+  <td height="32" colspan="2" align="left" class="bodytext"><p><strong>DESAF&Iacute;O</strong>: </p>    </td>
+  <td class="bodytext">&nbsp;</td>
+  <td width="86" rowspan="3" valign="bottom" class="bodytext"><strong><em><sub><p><img src="img_hdinam/ric_fotoric.jpg" alt="Flu&iacute;dos - Ricardo Cabrera" width="85" height="110" /></sub></em></strong></td>
+</tr>
+
+<tr>
+  <td height="18" colspan="2" bgcolor="#FFFFFF" class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+  </tr>
+
+<tr> <td height="44" colspan="2" align="center" valign="middle" bgcolor="#CCCCCC" class="bodytext"><table width="93%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="epigrafe">Algunos derechos reservados (en criollo: no pod&eacute;s publicarlo a tu nombre, y menos que menos comercializarlo, &iquest;entendiste?). Se permite su reproducci&oacute;n citando la fuente.  
+   &Uacute;ltima actualizaci&oacute;n jul-22. Buenos Aires, Argentina. </td>
+  </tr>
+</table>  </td>
+  <td class="bodytext" width="7">&nbsp;</td>
+  </tr> 
+<tr> <td height="14" colspan="2" valign="top" class="bodytext">&nbsp;</td>
+<td class="bodytext" width="7">&nbsp;</td>
+<td class="bodytext" width="86">&nbsp;</td>
+</tr> 
+</table></td></tr> </table><p><img src="img_hdinam/transparente.gif" width="10" height="20" /></td>
+</tr> 
+<tr> <td height="20" valign="top" class="bodytext"><p><img src="img_hdinam/transparente.gif" width="600" height="20" /></td>
+</tr> 
+</table>
+</body>
+</html>
