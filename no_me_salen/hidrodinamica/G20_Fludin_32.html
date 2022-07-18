@@ -1,0 +1,157 @@
+<html>
+<head>
+<title>MECANICA DE FLUIDOS, G20-Fd-01, fisica online, ejercicios resueltos</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="keywords" content="problemas resueltos, ejercicios resueltos, cbc, fisica, biofisica, fluidos, liquidos, gases, bernoulli, poiseuille, viscosidad, ideales, viscosos, humedad, difusion, osmosis, nomesalen, no me salen, ricardo cabrera" />
+<meta name="description" content="Ejercicios y problemas resueltos, y apuntes teóricos de Fluidos, mecanismos de transporte de fluidos" />
+<link rel="stylesheet" href="win_ie.css">
+<style type="text/css">
+<!--
+.style1 {
+	color: #3F6386;
+	font-weight: bold;
+}
+.Estilo3 {color: #3F6386}
+.Estilo16 {font-size: 16px}
+.Estilo26 {	font-family: "Times New Roman", Times, serif;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 16px;
+}
+.Estilo25 {font-family: Verdana, Arial, sans-serif}
+.Estilo12 {font-size: 10px}
+.Estilo15 {color: #000000}
+.Estilo22 {color: #0000FF}
+.Estilo17 {font-size: 10px}
+.Estilo36 {font-weight: bold; font-size: 11px; font-style: italic; }
+.Estilo37 {font-size: 10px}
+.Estilo32 {font-weight: bold; font-size: 11px;}
+.Estilo38 {font-size: 11px}
+.Estilo27 {font-weight: bold}
+.Estilo29 {font-size: 11px; font-style: italic; }
+-->
+</style>
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000" alink="#000000" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<table align=center width="600" border="0" cellspacing="0" cellpadding="0"> 
+  <tr bgcolor="#000000" align="right"> 
+<td><img src="img_hdinam/nombre5.gif" width="369" height="71"></td></tr> <tr bgcolor="#BB0000" valign="middle" align="left"> 
+<td class="bodytext" height="20"><TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+  <TR ALIGN="center" CLASS="menuitem">
+    <TD WIDTH="43" height="19" CLASS="menuitem"><A HREF="../../index.html" CLASS="menuitem">&nbsp;<B>home</B>&nbsp;</A></TD>
+    <TD WIDTH="5" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="119" CLASS="menuitem"><strong><a href="index_hdinam.html" class="menuitem">más de hidrodinámica </a> </strong></TD>
+    <TD width="9" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="127" CLASS="menuitem"><strong><a href="../../intro_NMS.html" class="menuitem">otros temas de F&iacute;sica</a></strong></TD>
+    <TD width="10" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="160" CLASS="menuitem"><strong><a href="../../lista_ciruela.html" class="menuitem">lecciones del maestro Ciruela </a></strong></TD>
+    <TD width="8" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="67" CLASS="menuitem"><strong><a href="../../lista_tonterias.html" class="menuitem">tonter&iacute;as</a></strong></TD>
+    <TD WIDTH="7" CLASS="menuitem"><a href="../energia/index_energia.html" class="menuitem"></a><FONT COLOR="#000000">|</FONT></TD>
+    <TD WIDTH="48" CLASS="menuitem">&nbsp;<B><FONT FACE="Arial, Helvetica, sans-serif"><A HREF="mailto: ricuti@gmail.com" CLASS="menuitem">@</A></FONT><A HREF="../../index.html" CLASS="menuitem"></A></B>&nbsp;</TD>
+  </TR>
+</TABLE></td></tr> <tr> <td class="bodytext" height="8"><p><img src="img_hdinam/transparente.gif" width="600" height="8"></td>
+</tr> 
+<tr align="center"> <td height="779"> <table width="600" border="0" cellspacing="0" cellpadding="0"> 
+<tr class="bodytext"> <td valign="top" width="594" height="1127"> 
+<table width="600" border="0" cellspacing="0" cellpadding="0"> <tr> 
+  <td height="74" bgcolor="#D7FFFF" class="bodytext"><span class="bodytext"><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>NO ME SALEN<br>
+</strong></span><span class="Estilo3"><em class="bodytext "><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>(<strong>PROBLEMAS RESUELTOS   DE BIOF&Iacute;SICA DEL CBC</strong>)</strong></em></span><br>
+      <span class="titulograndegris Estilo16"><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>FLUIDOS<br>
+      </strong></span><em class="bodytext "><strong><em><strong><em><strong><strong>&#160; &#160; </strong></strong></em></strong></em></strong></em><strong class="titulochicogris">Fluidos ideales</strong><br> </td>
+  <td class="bodytext" rowspan="3" height="74" width="4">&nbsp;</td>
+  <td class="bodytext" height="74" rowspan="3" valign="top" width="86"> 
+<p><img src="img_hdinam/cap44.jpg" alt="desesperado" width="85" height="143"></p></td></tr>
+  <tr>
+    <td height="18" bgcolor="#FFFFFF" class="bodytext">&nbsp;</td>
+  </tr> 
+<tr> <td height="249" valign="middle" class="bodytext"><table width="100%" border="0">
+  <tr class="bodytext">
+    <td width="28%" height="47" valign="top"><img src="img_hdinam/G20_U2_1ra.gif" width="140" height="45"></td>
+    <td width="2%" rowspan="2" valign="top">&nbsp;</td>
+    <td width="70%" valign="top"><table width="100%" height="126" border="0">
+      <tr class="bodytext">
+        <td height="122"><strong>32-  Dos caños de igual longitud, apoyados en  una misma superficie horizontal, están conectados como indica la figura. La sección del tubo [1]  es de 6 mm<strong>&sup2;</strong>, la del [2] es 2 mm<strong>&sup2;</strong> y la del tubo [3]  es 3 mm<strong>&sup2;</strong>. Por el conjunto circula un líquido no  viscoso y la presión en A es la misma que en B.  Si por el tubo [2] circula un caudal Q<em><strong><sub>2</sub></strong></em> de 10 ml/s,  ¿cuánto vale el caudal Q<em><strong><sub>1</sub></strong></em> por [1]?</strong></td>
+      </tr>
+      </table></td>
+  </tr>
+  <tr class="bodytext">
+    <td height="99" align="center" valign="top">&nbsp;</td>
+    <td width="70%" align="center" valign="middle"><img src="img_hdinam/G20_Fd_32_1.gif.png" width="300" height="105"></td>
+  </tr>
+</table></td>
+  </tr>
+<tr>
+  <td height="475" align="left" valign="middle" class="bodytext"><p>Este ejercicio es mucho más sencillo de lo que parece. Disponés de más datos de los que necesitás... pero lo podés resolver simplemente aplicando eso que algunos llaman <em>continuidad</em>, y que es la relación entre el caudal, la sección y la velocidad...</p>
+    <blockquote>
+      <p><em><strong>Q</strong></em><em><strong><sub></sub></strong></em> <strong>= </strong><em><strong>S</strong></em> . <em><strong>v</strong></em></p>
+    </blockquote>
+    <p>Y apenas una información más, que ya voy a destacar cuando la use:</p>
+    <p>En el tubo [2] podés aplicar la relación y obtenés:</p>
+    <blockquote>
+      <p><em><strong>v<sub>2</sub></strong></em><em><strong><sub></sub></strong></em> <strong>= </strong><em><strong>Q<sub>2</sub></strong></em> <em><strong>/</strong></em> <em><strong>S<sub>2</sub> =  10 <span class="epigrafe">ml</span></strong><span class="epigrafe">/</span><strong><span class="epigrafe">s</span> / 2<span class="epigrafe"> mm<em><strong>&sup2;</strong></em></span></strong></em> <strong>= <em>5 </em></strong><em><strong><span class="epigrafe">ml</span></strong><span class="epigrafe">/</span><strong><span class="epigrafe">mm</span></strong><strong><em><strong>&sup2;</strong></em></strong><strong><span class="epigrafe">.s</span></strong></em></p>
+      </blockquote>
+    <p>No hace falta expresar esa velocidad en unidades homogéneas ya que va a haber cancelaciones oportunas que van a hacer que no sea necesario. Pero lo que verdaderamente importa es que sepas que si el fluido es ideal -como es este caso- las velocidades en los conductos en paralelo y de igual largo son iguales:</p>
+    <blockquote>
+      <p><em><strong>v<sub>2</sub></strong></em><em><strong><sub></sub></strong></em> <strong>= </strong><em><strong>v<sub>3</sub></strong></em></p>
+      </blockquote>
+    <p>Por lo tanto, podemos averiguar el caudal en el tubo [3].</p>
+    <blockquote>
+      <p><em><strong>Q<sub>3</sub></strong></em><em><strong><sub></sub></strong></em> <strong>= </strong><em><strong>S<sub>3</sub></strong></em> . <em><strong>v</strong></em><em><strong><sub>3</sub></strong></em> <strong>=</strong> <em><strong>3<span class="epigrafe"> mm<em><strong>&sup2;</strong></em></span></strong></em> . <strong><em>5 </em></strong><em><strong><span class="epigrafe">ml</span></strong><span class="epigrafe">/</span><strong><span class="epigrafe">mm</span><em><strong>&sup2;</strong></em><span class="epigrafe">.s</span></strong></em> <em><strong>= </strong></em><strong></strong><em><strong>15 <span class="epigrafe">ml</span></strong><span class="epigrafe">/</span><strong><span class="epigrafe">s</span></strong></em></p>
+      </blockquote>
+    <p>Finalmente, hay que razonar que el caudal en el tubo [1] no puede ser otra cosa que la suma de los caudales [2] y [3]...</p>
+    <blockquote>
+      <p><em><strong>Q<sub>1</sub></strong></em> <strong>= </strong><em><strong>Q<sub>2</sub></strong></em> + <em><strong>Q<sub>3</sub></strong></em> <strong>= </strong><em><strong>10 <span class="epigrafe">ml</span></strong><span class="epigrafe">/</span><strong><span class="epigrafe">s</span> </strong></em>+ <em><strong>15 <span class="epigrafe">ml</span></strong><span class="epigrafe">/</span><strong><span class="epigrafe">s</span></strong></em></p>
+    </blockquote></td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext" valign="middle">&nbsp;</td>
+</tr>
+<tr>
+  <td height="79" align="center" valign="middle" class="bodytext"><table width="77%" border="0">
+    <tr>
+      <td width="50%" height="36" align="center" bgcolor="#CCCCCC"><p class="bodytext"><em><strong>Q<sub>1</sub></strong></em> <strong>= </strong><em><strong>25 <span class="epigrafe">ml</span></strong><span class="epigrafe">/</span><strong><span class="epigrafe">s</span></strong></em></p></td>
+      <td width="50%" align="center" bgcolor="#FFFFFF" class="bodytext">respuesta <strong>a)</strong></td>
+    </tr>
+  </table></td>
+  <td class="bodytext">&nbsp;</td>
+  <td align="center" valign="middle" class="bodytext"><p>&nbsp;</p></td>
+</tr>
+<tr>
+  <td align="left" valign="middle" class="bodytext"><p><strong>COMENTARIO</strong>: Lo que te asegura (o te permite asegurar) que la velocidad en [2] y en [3] son iguales es la aplicación del Principio de Bernoulli y el dato de que la presión en los puntos A y B son iguales. </p></td>
+  <td class="bodytext">&nbsp;</td>
+  <td valign="top" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td align="left" valign="middle" class="bodytext"><p>&nbsp;</p></td>
+  <td width="4" class="bodytext">&nbsp;</td>
+  <td width="86" valign="top" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="32" align="left" class="bodytext"><p><strong>Para saber más</strong>:&nbsp;</p></td>
+  <td class="bodytext">&nbsp;</td>
+  <td width="86" rowspan="3" valign="bottom" class="bodytext"><img src="../cinematica/img_cin/ric_teclado.jpg" alt="teclado ricardo cabrera" width="85" height="130"></td>
+</tr>
+
+<tr>
+  <td height="18" bgcolor="#FFFFFF" class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+  </tr>
+
+<tr> <td align="center" valign="middle" bgcolor="#CCCCCC" class="bodytext"><table width="93%" border="0">
+  <tr>
+    <td class="epigrafe">Algunos derechos reservados. 
+      Se permite su reproducci&oacute;n citando la fuente. Se recomienda fervientemente su lectura en bibliotecas, escuelas, clubes y reuniones de consorcios. &Uacute;ltima actualizaci&oacute;n jul-22. Buenos Aires, Argentina. </td>
+  </tr>
+</table>  </td>
+  <td class="bodytext" width="4">&nbsp;</td>
+  </tr> 
+<tr> <td height="18" class="bodytext">&nbsp;</td><td class="bodytext" width="4">&nbsp;</td>
+<td class="bodytext" width="86">&nbsp;</td>
+</tr> 
+</table></td></tr> </table>
+<p><img src="img_hdinam/transparente.gif" width="10" height="20"></td></tr> 
+<tr> <td class="bodytext"><p><img src="img_hdinam/transparente.gif" width="600" height="20"></td></tr> 
+</table>
+</body>
+</html>
