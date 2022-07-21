@@ -1,0 +1,175 @@
+<html>
+<head>
+<title>MECANICA DE FLUIDOS, EM25, fisica online, ejercicios resueltos</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="keywords" content="problemas resueltos, ejercicios resueltos, cbc, fisica, biofisica, fluidos, liquidos, gases, bernoulli, poiseuille, viscosidad, ideales, viscosos, humedad, difusion, osmosis, nomesalen, no me salen, ricardo cabrera" />
+<meta name="description" content="Ejercicios y problemas resueltos, y apuntes teóricos de Fluidos, mecanismos de transporte de fluidos" />
+<link rel="stylesheet" href="win_ie.css">
+<style type="text/css">
+<!--
+.style1 {
+	color: #3F6386;
+	font-weight: bold;
+}
+.Estilo3 {color: #3F6386}
+.Estilo16 {font-size: 16px}
+.Estilo32 {font-weight: bold; font-size: 11px;}
+.Estilo33 {font-size: 10px}
+.Estilo19 {font-size: 10px; font-weight: bold; font-style: italic; }
+.Estilo26 {font-family: "Times New Roman", Times, serif;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 16px;
+}
+.Estilo34 {font-style: italic; font-size: 10px;}
+-->
+</style>
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000" alink="#000000" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<table align=center width="600" border="0" cellspacing="0" cellpadding="0"> 
+  <tr bgcolor="#000000" align="right"> 
+<td><img src="img_hdinam/nombre5.gif" width="369" height="71"></td></tr> <tr bgcolor="#BB0000" valign="middle" align="left"> 
+<td class="bodytext" height="20"><TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+  <TR ALIGN="center" CLASS="menuitem">
+    <TD WIDTH="44" height="19" CLASS="menuitem"><A HREF="../../index.html" CLASS="menuitem">&nbsp;<B>home</B>&nbsp;</A></TD>
+    <TD WIDTH="5" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="126" CLASS="menuitem"><strong><a href="index_hdinam.html" class="menuitem">más de hidrodinámica </a> </strong></TD>
+    <TD width="10" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="112" CLASS="menuitem"><strong><a href="../../intro_NMS.html" class="menuitem">otros temas de F&iacute;sica</a></strong></TD>
+    <TD width="10" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="173" CLASS="menuitem"><strong><a href="../../lista_ciruela.html" class="menuitem">lecciones del maestro Ciruela </a></strong></TD>
+    <TD width="9" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="68" CLASS="menuitem"><strong><a href="../../lista_tonterias.html" class="menuitem">tonter&iacute;as</a></strong></TD>
+    <TD WIDTH="8" CLASS="menuitem"><a href="../energia/index_energia.html" class="menuitem"></a><FONT COLOR="#000000">|</FONT></TD>
+    <TD WIDTH="43" CLASS="menuitem">&nbsp;<B><FONT FACE="Arial, Helvetica, sans-serif"><A HREF="mailto: ricuti@gmail.com" CLASS="menuitem">@</A></FONT><A HREF="../../index.html" CLASS="menuitem"></A></B>&nbsp;</TD>
+  </TR>
+</TABLE></td></tr> <tr> <td class="bodytext" height="19"><p><img src="img_hdinam/transparente.gif" width="600" height="20"></td></tr> 
+<tr align="center"> <td height="1486"> <table width="600" border="0" cellspacing="0" cellpadding="0"> 
+<tr class="bodytext"> <td colspan="2" valign="top" height="558"> <p><img src="img_hdinam/transparente.gif" width="1" height="1"></td>
+<td valign="top" width="594" height="558"> 
+<table width="601" border="0" cellspacing="0" cellpadding="0"> 
+  <tr> 
+  <td height="74" colspan="2" bgcolor="#D7FFFF" class="bodytext"><span class="bodytext"><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>NO ME SALEN<br>
+</strong></span><span class="Estilo3"><em class="bodytext "><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>(<strong>PROBLEMAS RESUELTOS   DE BIOF&Iacute;SICA DEL CBC</strong>)</strong></em></span><br>
+      <span class="titulograndegris Estilo16"><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>FLUIDOS<br>
+      </strong></span><br> </td>
+  <td class="bodytext" rowspan="3" height="74" width="7">&nbsp;</td>
+  <td class="bodytext" height="74" rowspan="3" valign="top" width="86"> 
+<p><img src="img_hdinam/cap13.jpg" alt="desesperado" width="85" height="85"></p></td></tr>
+  <tr>
+    <td height="18" colspan="2" bgcolor="#FFFFFF" class="bodytext">&nbsp;</td>
+  </tr> 
+<tr> <td width="150" height="98" valign="top" class="bodytext"><p><img src="img_hdinam/G20_U2_1ra.gif" alt="" width="140" height="45"></P>
+    </td>
+  <td width="358" class="bodytext"><table width="100%" border="0">
+    <tr>
+      <td height="86" valign="top" class="bodytext"><p class="Estilo32">59 - a) A presi&oacute;n atmosf&eacute;rica el contenido de O<strong><sub>2</sub></strong> en el aire es de 21% aproximadamente. Si se
+        respira ese aire, la presi&oacute;n parcial de ox&iacute;geno en el aire que ingresa por las fosas<br>
+        nasales es alrededor de:<br>
+        <em><em>&#160; &#160;&#160; &#160;</em></em><em><em>&#160; </em></em>a) 1 atm <em><em>&#160; &#160;&#160; &#160;<em>&#160; &#160;</em></em></em><em><em>&#160; </em></em>b) 2,1 atm <em><em>&#160; &#160;&#160; &#160;</em></em><em><em>&#160; </em></em>c) 0,1 atm <br>
+        <em><em>&#160; &#160;&#160; &#160;</em></em><em><em>&#160; </em></em>        d) 0,2 atm <em><em>&#160; &#160;&#160; &#160;</em></em><em><em>&#160; </em></em>e) 0,5 atm <em><em>&#160; &#160;&#160; &#160;</em></em><em><em>&#160; </em></em>f) 1,5 atm
+      </p>
+        <p class="Estilo32">b) Si se respira aire atmosférico con la misma  composición pero sumergido en agua a 30 m de  profundidad, la presión parcial del oxígeno será,  comparada con la que existe a nivel de la superficie:<br>
+          <em><em>&#160; &#160;&#160; &#160;</em></em>a) el cuádruple <em><em>&#160; &#160;&#160; &#160;<em>&#160;</em></em></em>b) el triple <em><em>&#160; &#160;&#160; </em></em>c) un tercio <br>
+          <em><em>&#160; &#160;&#160; &#160;</em></em>d) la cuarta parte <em><em>&#160; &#160;&#160;</em></em>e) la misma <em><em>&#160; &#160;</em></em>f) el doble        </p></td>
+      </tr>
+    
+  </table>  </td>
+</tr>
+<tr>
+  <td height="183" colspan="2" class="bodytext"><p>Claro, el 21% ese del enunciado... no te aclaran si se trata de un porcentual en masa, en moles, en presi&oacute;n parcial... Por suerte tambi&eacute;n dice <em>aproximadamente</em>, lo cual nos habilita a interpretarlo como querramos, ya que de cualquiera de las formas posibles el valor correcto se acerca mucho a ese 21. </p>
+    <p>Si admitimos que el ox&iacute;geno ejerce el 21% de la presi&oacute;n total, su presi&oacute;n parcial ser&aacute;:</p>
+    <blockquote>
+      <p><em><strong>PP<sub>O2  </sub> = 0,21. P<sub>TOT</sub> </strong></em></p>
+      <p><em><strong>PP<sub>O2 </sub> = 0,21. 1 <span class="Estilo33">atm</span> </strong></em></p>
+    </blockquote></td>
+  <td class="bodytext" height="183">&nbsp;</td>
+  <td class="bodytext" height="183" valign="middle"><p><img src="img_hdinam/pulmon.jpg" alt="Flu&iacute;dos - Ricardo Cabrera" width="85" height="140"></td>
+</tr>
+<tr>
+  <td height="66" colspan="2" align="center" class="bodytext"><table width="104%" height="45" border="0">
+    <tr>
+      <td height="31" valign="middle" bgcolor="#CCCCCC"><p class="bodytext"><span class="Estilo32"><em><strong><strong>&#160;&#160; &#160;&#160; &#160;&#160; &#160;</strong>PP<sub>O2 </sub> = 0,21 <span class="Estilo33">atm</span> </strong></em>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span>respuesta <strong>d)</strong></p></td>
+    </tr>
+  </table></td>
+  <td class="bodytext" height="66">&nbsp;</td>
+  <td class="bodytext" height="66" valign="top">&nbsp;</td>
+</tr>  
+<tr>
+  <td colspan="2" align="left" class="bodytext"><p>Vamos al item b) No creo que exista un ejercicio m&aacute;s f&aacute;cil que &eacute;ste. Tampoco uno m&aacute;s tramposo... <em>&iexcl;</em>lapidaci&oacute;n autom&aacute;tica a todos los profesores de F&iacute;sica del universo inmediatamente despu&eacute;s de recibirse y antes de que puedan agarrar una tiza<em>! </em></p>
+    <p>A veces pienso  que exagero un poco. Vamos al ejercicio. Mir&aacute;, no hay mucho que decir... la &uacute;nica trampa (si es que a eso se le puede llamar trampa) es que los estudiantes (y el com&uacute;n de los mortales) olvidan que vivimos sumergidos en un mar de aire; y que la presi&oacute;n en este fondo de aire vale <em><strong>1 <span class="Estilo33">atm</span></strong></em>. En otras palabras: la <em>superficie</em> del mar de agua se contacta con el <em>fondo</em> del mar de aire.</p></td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="291" colspan="2" align="left" class="bodytext"><table width="100%" border="0">
+    <tr>
+      <td width="53%" height="260" class="bodytext"><p><img src="img_hdinam/buzos.jpg" alt="Flu&iacute;dos - Ricardo Cabrera" width="250" height="257" /></td>
+      <td width="47%" class="bodytext"><p>El principio general de la hidrost&aacute;tica afirma que: </p>
+        <blockquote>
+          <p><em><strong>&Delta;<em><strong><em><strong><strong><em>p<span class="epigrafe">r</span></em></strong></strong></em></strong></em> = <span class="Estilo26">&gamma;</span><sub>agua</sub> . &Delta;h</strong></em></p>
+        </blockquote>
+        <p>donde<em><strong> &Delta;P </strong></em>es el aumento de profundidad; <em><strong><span class="Estilo26">&gamma;</span><sub>agua</sub></strong></em> es el peso espec&iacute;fico del agua, que vale <em><strong> 10.000</strong></em> <span class="Estilo19">N</span><span class="Estilo34">/</span><span class="Estilo19">m<strong><strong><em><strong>&sup3;</strong></em></strong></strong></span>; y <em><strong>&Delta;h</strong></em> es la profundidad, que en este caso vale 30 metros. </p>
+        <p><em><strong> <em><em>&#160; &#160;&#160; &#160;</em></em>&Delta;<em><strong><em><strong><strong><em>p<span class="epigrafe">r</span></em></strong></strong></em></strong></em> = 300.000 </strong></em><span class="Estilo19">Pa = </span> <em><strong>3 </strong></em><span class="Estilo19">atm</span></p>
+        <p>Hasta ac&aacute; llegan m&aacute;s o menos todos bien... pero el &uacute;ltimo razonamiento, por alg&uacute;n motivo, cuesta: </p></td>
+    </tr>
+  </table></td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td colspan="2" align="left" class="bodytext"><p>Si a  30 metros  la presi&oacute;n aumenta en <em><strong> <em><strong>3 </strong></em><span class="Estilo19">atm</span></strong></em>, y en la superficie vale <em><strong>1 <span class="Estilo33">atm</span></strong></em>... entonces su valor a esa profundidad debe ser... <em><strong><em><strong>4 </strong></em><span class="Estilo19">atm</span></strong></em> y eso es... <em> &iexcl;</em><strong>4 veces mayor que en la superficie</strong><em>! </em></p>
+    <p>Ahora bien, si el aire que tienen embotellado los buzos es el mismo que el nuestro (atmosf&eacute;rico), la proporci&oacute;n de los componentes gaseosos no cambia. Tiene un <em><strong>21 %</strong></em> ac&aacute; arriba y tambi&eacute;n un <em><strong>21 %</strong></em> all&aacute; abajo. Su presi&oacute;n parcial ac&aacute; arriba es el <em><strong>21 %</strong></em> de la presi&oacute;n total ac&aacute; arriba, o sea, <em><strong><em><strong>1 </strong></em><span class="Estilo19">atm</span></strong></em>; y all&aacute; abajo el <em><strong>21 %</strong></em> de la total abajo, que vale <em><strong><em><strong>4 </strong></em><span class="Estilo19">atm</span></strong></em>. </p>
+    <p>Me resisto a hacer la cuenta... en venganza a lo de la lapidaci&oacute;n... ok, ya s&eacute; que lo escrib&iacute; yo... pero vos estabas de acuerdo, ahora no te la des de inocente... </p></td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="67" colspan="2" align="center" class="bodytext"><table width="91%" height="44" border="0">
+    <tr>
+      <td height="40" valign="middle" bgcolor="#CCCCCC"><p class="bodytext"><span class="Estilo32"><strong><strong>&#160;&#160; &#160;&#160; &#160;&#160; &#160;</strong><em>el cu&aacute;druple </em></strong>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span>respuesta <strong>a)</strong></p></td>
+    </tr>
+  </table></td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="50" colspan="2" align="left" class="epigrafe"><strong>Nota</strong>: Si alguien te pidiera que  justifiques el &uacute;ltimo razonamiento, tendr&aacute;s que apelar a la <a href="FT_gases.html">Ley de Dalton</a>, que resumidamente dice que  el cociente entre la presi&oacute;n parcial de un gas y la presi&oacute;n total de la mezcla es igual a la fracci&oacute;n molar de ese gas. </td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+</tr>
+<tr> 
+  <td colspan="2" align="left" class="bodytext"><p>&nbsp;</p></td>
+  <td width="7" class="bodytext">&nbsp;</td>
+  <td width="86" class="bodytext">&nbsp;</td>
+</tr>
+
+<tr>
+  <td height="32" colspan="2" align="left" class="bodytext"><p><strong>DESAF&Iacute;O</strong>: El ox&iacute;geno es t&oacute;xico a partir de <em><strong><em><strong>1,6 </strong></em><span class="Estilo19">atm</span></strong></em> de presi&oacute;n parcial* (la presi&oacute;n con la que lo &quot;leen&quot; las c&eacute;lulas de los alv&eacute;olos pulmonares). &iquest;Hasta qu&eacute; profundidad se puede descender sin que aparezca la toxicidad? </p>
+    <p>*<span class="epigrafe">La recomendaci&oacute;n para buceo recreativo es de</span> <em><strong><em><strong>1,4 </strong></em><span class="Estilo19">atm</span></strong></em>.</p></td>
+  <td class="bodytext">&nbsp;</td>
+  <td width="86" rowspan="3" valign="bottom" class="bodytext"><p><img src="img_hdinam/ric_perf.jpg" alt="Flu&iacute;dos - Ricardo Cabrera" width="85" height="104"></td>
+</tr>
+
+<tr>
+  <td height="18" colspan="2" bgcolor="#FFFFFF" class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+  </tr>
+
+<tr> <td colspan="2" align="center" valign="middle" bgcolor="#CCCCCC" class="bodytext"><table width="91%" border="0">
+  <tr>
+    <td height="33" class="epigrafe">Algunos derechos reservados. 
+      Se permite su reproducci&oacute;n citando la fuente. Quien violase esta condici&oacute;n, ser&aacute; acusado de violaci&oacute;n y tentativa de homicidio en concurso real o virtual, con costas y accesorias. &Uacute;ltima actualizaci&oacute;n sep-08. Buenos Aires, Argentina.</td>
+  </tr>
+</table>  </td>
+  <td class="bodytext" width="7">&nbsp;</td>
+  </tr> 
+<tr> <td height="18" colspan="2" class="bodytext">&nbsp;</td><td class="bodytext" width="7">&nbsp;</td>
+<td class="bodytext" width="86">&nbsp;</td>
+</tr> 
+</table></td></tr> </table><p><img src="img_hdinam/transparente.gif" width="10" height="20"></td></tr> 
+<tr> <td class="bodytext"><p><img src="img_hdinam/transparente.gif" width="600" height="20"></td></tr> 
+</table>
+</body>
+</html>
