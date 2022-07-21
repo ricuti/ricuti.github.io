@@ -1,0 +1,137 @@
+<html>
+<head>
+<title>MECANICA DE FLUIDOS, F025, fisica online, ejercicios resueltos</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="keywords" content="problemas resueltos, ejercicios resueltos, cbc, fisica, biofisica, fluidos, liquidos, gases, bernoulli, poiseuille, viscosidad, ideales, viscosos, humedad, difusion, osmosis, nomesalen, no me salen, ricardo cabrera" />
+<meta name="description" content="Ejercicios y problemas resueltos, y apuntes teóricos de Fluidos, mecanismos de transporte de fluidos" />
+<link rel="stylesheet" href="win_ie.css">
+<style type="text/css">
+<!--
+.style1 {
+	color: #3F6386;
+	font-weight: bold;
+}
+.Estilo3 {color: #3F6386}
+.Estilo16 {font-size: 16px}
+.Estilo17 {font-size: 10px}
+.Estilo18 {color: #FF0000}
+-->
+</style>
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000" alink="#000000" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<table align=center width="600" border="0" cellspacing="0" cellpadding="0"> 
+  <tr bgcolor="#000000" align="right"> 
+<td><img src="img_hdinam/nombre5.gif" width="369" height="71" /></td></tr> <tr bgcolor="#BB0000" valign="middle" align="left"> 
+<td class="bodytext" height="20"><TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+  <TR ALIGN="center" CLASS="menuitem">
+    <TD WIDTH="43" height="19" CLASS="menuitem"><A HREF="../../index.html" CLASS="menuitem">&nbsp;<B>home</B>&nbsp;</A></TD>
+    <TD WIDTH="5" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="119" CLASS="menuitem"><strong><a href="index_hdinam.html" class="menuitem">más de hidrodinámica </a> </strong></TD>
+    <TD width="9" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="127" CLASS="menuitem"><strong><a href="../../intro_NMS.html" class="menuitem">otros temas de F&iacute;sica</a></strong></TD>
+    <TD width="10" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="160" CLASS="menuitem"><strong><a href="../../lista_ciruela.html" class="menuitem">lecciones del maestro Ciruela </a></strong></TD>
+    <TD width="8" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="67" CLASS="menuitem"><strong><a href="../../lista_tonterias.html" class="menuitem">tonter&iacute;as</a></strong></TD>
+    <TD WIDTH="7" CLASS="menuitem"><a href="../energia/index_energia.html" class="menuitem"></a><FONT COLOR="#000000">|</FONT></TD>
+    <TD WIDTH="48" CLASS="menuitem">&nbsp;<B><FONT FACE="Arial, Helvetica, sans-serif"><A HREF="mailto: ricuti@gmail.com" CLASS="menuitem">@</A></FONT><A HREF="../../index.html" CLASS="menuitem"></A></B>&nbsp;</TD>
+  </TR>
+</TABLE></td></tr> <tr> <td class="bodytext" height="19"><p><img src="img_hdinam/transparente.gif" width="600" height="20" /></td></tr> 
+<tr align="center"> <td height="1487"> <table width="600" border="0" cellspacing="0" cellpadding="0"> 
+<tr class="bodytext"> <td colspan="2" valign="top" height="1448"> <p><img src="img_hdinam/transparente.gif" width="1" height="1" /></td>
+<td valign="top" width="594" height="1448"> 
+<table width="589" border="0" cellspacing="0" cellpadding="0"> <tr> 
+  <td height="74" colspan="2" bgcolor="#D7FFFF" class="bodytext"><span class="bodytext"><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>NO ME SALEN<br />
+</strong></span><span class="Estilo3"><em class="bodytext "><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>(<strong>PROBLEMAS RESUELTOS   DE BIOF&Iacute;SICA DEL CBC</strong>)</strong></em></span><br />
+      <span class="titulograndegris Estilo16"><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>FLUIDOS<br />
+      </strong></span><br /> </td>
+  <td class="bodytext" rowspan="4" height="74" width="7">&nbsp;</td>
+  <td class="bodytext" height="74" rowspan="4" valign="top" width="86"> 
+<p><img src="img_hdinam/cap18.jpg" alt="desesperado" width="85" height="121" /></p></td></tr>
+  <tr>
+    <td height="18" colspan="2" bgcolor="#FFFFFF" class="bodytext">&nbsp;</td>
+  </tr> 
+<tr> <td width="147" height="49" valign="top" class="bodytext"><p><img src="img_hdinam/G20_U2_1ra.gif" alt="" width="140" height="45"></P>
+    </td>
+  <td width="349" valign="top" class="bodytext"><p><strong>57- Un gas ideal, a una presión de 1 atm ocupa  un volumen de 1 litro a una dada temperatura.  <br>
+   &nbsp;&nbsp;&nbsp; a) Calcule qué volumen ocupará, a la misma  temperatura, si la presión es de: 2 atm y 4 atm.  <br>
+   &nbsp;&nbsp;&nbsp; b) Calcule cuál será la presión, a la misma temperatura, si el volumen que ocupa es de 2 L y 4 L.<br>
+    &nbsp;&nbsp;&nbsp;
+c) Grafique la presión del gas en función de su  volumen para esa temperatura.<br />
+  </strong></p>    </td>
+</tr>
+<tr>
+  <td height="25" colspan="2" valign="top" class="bodytext">&nbsp;</td>
+  </tr>
+<tr>
+  <td height="553" colspan="2" class="bodytext"><p>Se trata, casi, de un repaso liviano de las leyes de los gases ideales (o sea, esos que no tienen olor). Para conocer la cantidad de moles, <em><strong>n</strong></em>, que integra un gas aplicamos la famosa ecuaci&oacute;n de estado.</p>
+    <p><strong>a) Calcule qué volumen ocupará, a la misma  temperatura, si la presión es de: 2 atm y 4 atm. </strong>Para calcular el nuevo volumen podemos usar la <em><strong>Ley de Boyle-Mariotte</strong></em>:</p>
+    <blockquote>
+      <p><strong><em>P . V = cte<sub>(m, T)</sub></em></strong><em><sub></sub></em></p>
+  </blockquote>
+    <p>Esta ley se cumple con independencia del gas que se trate (gases ideales). Según esta ley, mientras se mantenga fija la cantidad de materia y la temperatura a la que se halla, se cumplirá que:</p>
+    <blockquote>
+      <p><strong><em>P<sub>1</sub> . V<sub>1</sub> = P<sub>2</sub> . V<sub>2</sub></em></strong> <strong><em>= P<sub>3</sub> . V<sub>3</sub></em></strong>... etcétera</p>
+      </blockquote>
+    <p>En el enunciado se plantean tres estados. Llamémoslos <strong>1</strong>, <strong>2</strong> y <strong>3</strong>. Entonces:</p>
+    <blockquote>
+      <p><strong><em>V<sub>2</sub></em></strong> = <strong><em>P<sub>1</sub> . V<sub>1</sub></em></strong> <em><strong>/</strong></em> <strong><em>P<sub>2</sub></em></strong></p>
+      <p><strong><em>V<sub>2</sub></em></strong> = <strong><em>1 <span class="epigrafe">atm</span> . 1 <span class="epigrafe">L</span></em></strong> <em><strong>/</strong></em><strong><em> 2 <span class="epigrafe">atm</span></em></strong></p>
+      <p><strong><em>V<sub>2</sub></em></strong> = <strong><em>0,5 <span class="epigrafe">L</span></em></strong></p>
+      <p><strong><em>V<sub>3</sub></em></strong> = <strong><em>P<sub>1</sub> . V<sub>1</sub></em></strong> <em><strong>/</strong></em> <strong><em>P<sub>3</sub></em></strong></p>
+      <p><strong><em>V<sub>3</sub></em></strong> = <strong><em>1 <span class="epigrafe">atm</span> . 1 <span class="epigrafe">L</span></em></strong> <em><strong>/</strong></em><strong><em> 4 <span class="epigrafe">atm</span></em></strong></p>
+      <p><strong><em>V<sub>3</sub></em></strong> = <strong><em>0,25 <span class="epigrafe">L</span></em></strong></p>
+      </blockquote>
+    <p><strong>b) Calcule cuál será la presión, a la misma temperatura, si el volumen que ocupa es de 2 L y 4 L.</strong> Ahora aparecen dos estados más, <strong>4</strong> y <strong>5</strong>.</p>
+    <blockquote>
+      <p><strong><em>P<sub>4</sub>  = P<sub>1</sub> . V<sub>1</sub></em></strong> <em><strong>/</strong></em> <strong><em>V<sub>4</sub></em></strong></p>
+      <p><strong><em>P<sub>4</sub> = 1 <span class="epigrafe">atm</span> . 1 <span class="epigrafe">L</span></em></strong> <em><strong>/</strong></em><strong><em> 2 <span class="epigrafe">L</span></em></strong></p>
+      <p><strong><em>P<sub>4</sub> = 0,5 <span class="epigrafe">atm</span></em></strong></p>
+      <p><strong><em>P<sub>5</sub> = P<sub>1</sub> . V<sub>1</sub></em></strong> <em><strong>/</strong></em> <strong><em>V<sub>5</sub></em></strong></p>
+      <p><strong><em>P<sub>5</sub> = 1 <span class="epigrafe">atm</span> . 1 <span class="epigrafe">L</span></em></strong> <em><strong>/</strong></em><strong><em> 4 <span class="epigrafe">L</span></em></strong></p>
+      <p><strong><em>P<sub>5</sub> = 0,25 <span class="epigrafe">atm</span></em></strong></p>
+      </blockquote>
+    <p><strong>c) Grafique la presión del gas en función de su  volumen para esa temperatura.</strong> Se trata de la famosísima <em><strong>hipérbola</strong></em>. Aplicada a los estados posibles de un gas adquiere el nombre de <em><strong>isoterma</strong></em>.</p></td>
+  <td width="7" class="bodytext">&nbsp;</td>
+  <td width="86" align="center" valign="middle" class="epigrafe Estilo18">acordate<br>
+    que las operaciones de la <strong>ecuaci&oacute;n de estado</strong> deben plantearse con la escla de temperaturas absolutas</td>
+</tr>  
+
+<tr>
+  <td height="209" colspan="2" align="center" valign="middle" class="bodytext"><img src="img_hdinam/gr_gases_PV_1.png" alt="" width="200" height="189"></td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td colspan="2" align="left" valign="middle" class="bodytext">No estaría nada mal que tomes una hoja cuadriculada, representes varios puntos, tomados por ejemplo de este ejercicio, y te fijes si encajan en una curva como ésta. Creeme, vale la pena.</td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext"><p></td>
+</tr>
+<tr>
+  <td height="25" colspan="2" align="left" class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+  <td width="86" rowspan="3" valign="bottom" class="bodytext"><strong><em><sub><p><img src="img_hdinam/ric_fotoric.jpg" alt="Flu&iacute;dos - Ricardo Cabrera" width="85" height="110" /></sub></em></strong></td>
+</tr>
+
+<tr>
+  <td height="18" colspan="2" bgcolor="#FFFFFF" class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+  </tr>
+
+<tr> <td height="64" colspan="2" align="center" valign="middle" bgcolor="#CCCCCC" class="bodytext"><table width="400" height="31" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td class="epigrafe">Algunos derechos reservados. 
+  Se permite su reproducci&oacute;n citando la fuente.  &Uacute;ltima actualizaci&oacute;n jul-22. Buenos Aires, Argentina. </td>
+  </tr>
+</table>  </td>
+  <td class="bodytext" width="7">&nbsp;</td>
+  </tr> 
+<tr> <td height="25" colspan="2" class="bodytext">&nbsp;</td><td class="bodytext" width="7">&nbsp;</td>
+<td class="bodytext" width="86">&nbsp;</td>
+</tr> 
+</table></td></tr> </table><p><img src="img_hdinam/transparente.gif" width="10" height="20" /></td></tr> 
+<tr> <td class="bodytext"><p><img src="img_hdinam/transparente.gif" width="600" height="20" /></td></tr> 
+</table>
+</body>
+</html>
