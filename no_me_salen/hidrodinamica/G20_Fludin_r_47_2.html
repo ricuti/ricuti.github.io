@@ -1,0 +1,138 @@
+<html>
+<head>
+<title>MECANICA DE FLUIDOS, F025, fisica online, ejercicios resueltos</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="keywords" content="problemas resueltos, ejercicios resueltos, cbc, fisica, biofisica, fluidos, liquidos, gases, bernoulli, poiseuille, viscosidad, ideales, viscosos, humedad, difusion, osmosis, nomesalen, no me salen, ricardo cabrera" />
+<meta name="description" content="Ejercicios y problemas resueltos, y apuntes teóricos de Fluidos, mecanismos de transporte de fluidos" />
+<link rel="stylesheet" href="win_ie.css">
+<style type="text/css">
+<!--
+.style1 {
+	color: #3F6386;
+	font-weight: bold;
+}
+.Estilo3 {color: #3F6386}
+.Estilo16 {font-size: 16px}
+.Estilo17 {font-size: 10px}
+.Estilo18 {color: #FF0000}
+-->
+</style>
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000" alink="#000000" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<table align=center width="600" border="0" cellspacing="0" cellpadding="0"> 
+  <tr bgcolor="#000000" align="right"> 
+<td><img src="img_hdinam/nombre5.gif" width="369" height="71" /></td></tr> <tr bgcolor="#BB0000" valign="middle" align="left"> 
+<td class="bodytext" height="20"><TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+  <TR ALIGN="center" CLASS="menuitem">
+    <TD WIDTH="43" height="19" CLASS="menuitem"><A HREF="../../index.html" CLASS="menuitem">&nbsp;<B>home</B>&nbsp;</A></TD>
+    <TD WIDTH="5" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="119" CLASS="menuitem"><strong><a href="index_hdinam.html" class="menuitem">más de hidrodinámica </a> </strong></TD>
+    <TD width="9" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="127" CLASS="menuitem"><strong><a href="../../intro_NMS.html" class="menuitem">otros temas de F&iacute;sica</a></strong></TD>
+    <TD width="10" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="160" CLASS="menuitem"><strong><a href="../../lista_ciruela.html" class="menuitem">lecciones del maestro Ciruela </a></strong></TD>
+    <TD width="8" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="67" CLASS="menuitem"><strong><a href="../../lista_tonterias.html" class="menuitem">tonter&iacute;as</a></strong></TD>
+    <TD WIDTH="7" CLASS="menuitem"><a href="../energia/index_energia.html" class="menuitem"></a><FONT COLOR="#000000">|</FONT></TD>
+    <TD WIDTH="48" CLASS="menuitem">&nbsp;<B><FONT FACE="Arial, Helvetica, sans-serif"><A HREF="mailto: ricuti@gmail.com" CLASS="menuitem">@</A></FONT><A HREF="../../index.html" CLASS="menuitem"></A></B>&nbsp;</TD>
+  </TR>
+</TABLE></td></tr> <tr> <td class="bodytext" height="19"><p><img src="img_hdinam/transparente.gif" width="600" height="20" /></td></tr> 
+<tr align="center"> <td height="2333"> <table width="600" border="0" cellspacing="0" cellpadding="0"> 
+<tr class="bodytext"> <td colspan="2" valign="top" height="2294"> <p><img src="img_hdinam/transparente.gif" width="1" height="1" /></td>
+<td valign="top" width="594" height="2294"> 
+<table width="589" border="0" cellspacing="0" cellpadding="0"> <tr> 
+  <td height="74" colspan="2" bgcolor="#D7FFFF" class="bodytext"><span class="bodytext"><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>NO ME SALEN<br />
+</strong></span><span class="Estilo3"><em class="bodytext "><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>(<strong>PROBLEMAS RESUELTOS   DE BIOF&Iacute;SICA DEL CBC</strong>)</strong></em></span><br />
+      <span class="titulograndegris Estilo16"><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>FLUIDOS<br />
+      </strong></span><br /> </td>
+  <td class="bodytext" rowspan="4" height="74" width="7">&nbsp;</td>
+  <td class="bodytext" height="74" rowspan="4" valign="top" width="85"> 
+<p><img src="img_hdinam/cap18.jpg" alt="desesperado" width="85" height="121" /></p></td></tr>
+  <tr>
+    <td height="18" colspan="2" bgcolor="#FFFFFF" class="bodytext">&nbsp;</td>
+  </tr> 
+<tr> <td width="150" height="434" valign="top" class="bodytext"><p><img src="img_hdinam/G20_U2_1ra.gif" alt="" width="140" height="45"></P>
+    </td>
+  <td width="357" valign="top" class="bodytext"><p><strong>47 - Sistema circulatorio sanguíneo<br>
+    El sistema cardiovascular humano consta de dos bombas fusionadas en un solo corazón que  impulsan la sangre por un circuito cerrado compuesto de dos sistemas:  <br>
+    SISTEMA GRANDE O PERIFÉRICO. El ventrículo del corazón izquierdo (VI) expulsa la sangre oxigenada por la arteria aorta y se reparte a todos los órganos y tejidos del cuerpo a través del sistema de  arterias mayores. En los lechos capilares de cada órgano la sangre intercambia nutrientes y desechos y  regresa por el sistema de retorno de venas mayores drenando en la aurícula del corazón derecho (AD).  <br>
+    SISTEMA CHICO O PULMONAR. La sangre luego pasa de la aurícula derecha al ventrículo derecho  (VD) que la impulsa hasta los pulmones por la arteria pulmonar. En los lechos vasculares pulmonares se oxigena y retorna al corazón izquierdo por las venas pulmonares que drenan en la aurícula  izquierda (AI). De ahí pasa al ventrículo izquierdo completando el ciclo.  Se adjunta un esquema simplificado del circuito donde la parte resistiva corresponde a los lechos  vasculares: arteriolas, capilares y vénulas en los diferentes órganos. Las presiones manométricas son:<br>
+    &nbsp;&nbsp;&nbsp;
+    <em>p aorta = 94 mmHg <br>
+&nbsp;&nbsp;&nbsp;
+p vena cava = 3 mmHg  <br>
+&nbsp;&nbsp;&nbsp;
+p arteria pulmonar = 15 mmHg  <br>
+&nbsp;&nbsp;&nbsp;
+p venas pulmonares = 5 mmHg<br>
+    <br />
+    </em></strong></p>    </td>
+</tr>
+<tr>
+  <td height="94" colspan="2" align="center" valign="middle" class="bodytext"><img src="img_hdinam/G20_Fd_47_1.png" width="500" height="692"></td>
+  </tr>
+<tr>
+  <td height="581" colspan="2" class="bodytext"><p> <strong>a) Compare las potencias del corazón  izquierdo y el derecho, ¿cuánto mayor es la  potencia de uno respecto del otro? Justifique.  Calcúlelas y expréselas en watts.  </strong>Recontra sencillo. La subida de presión en el corazón derecho se puede calcular conociendo las presiones en la entrada y en la salida, o sea, en las venas cava y en la arteria pulmonar:</p>
+    <blockquote>
+      <p><strong><em><strong><em>&#916;P</em></strong></em></strong><em><strong><sub>CD  </sub></strong></em><strong>=</strong> <strong><em>p arteria pulmonar</em></strong>&nbsp; <strong><em><strong>&mdash;</strong> p vena cava</em></strong></p>
+      <p><strong><em><strong><em>&#916;P</em></strong></em></strong><em><strong><sub>CD </sub></strong></em><strong>=<em> 15 <span class="epigrafe">mmHg</span></em></strong>&nbsp; <strong><em><strong>&mdash;</strong> 3 <span class="epigrafe">mmHg</span></em></strong> <strong>=<em> 12 <span class="epigrafe">mmHg</span></em></strong></p>
+      </blockquote>
+    <p>Y la potencia la hallás multiplicando la diferencia de presión por el caudal:</p>
+    <blockquote>
+      <p><strong><em><strong><em>Pot</em></strong></em></strong><em><strong><sub>CD </sub></strong></em><strong>=</strong> <strong><em>12 <span class="epigrafe">mmHg</span></em></strong> . <em><strong>5,2<span class="epigrafe"> L/min</span></strong></em> <strong>=</strong> <em><strong>62,4</strong></em> <strong><em><span class="epigrafe">mmHg</span></em></strong>.<em><strong><span class="epigrafe">L/min</span></strong></em></p>
+      </blockquote>
+    <p>Si hacemos el pasaje de unidades recordando que <strong><em>760 <span class="epigrafe">mmHg</span></em></strong> = <em><strong>101.300 <span class="epigrafe">Pa</span></strong></em>, <em><strong>1 <span class="epigrafe">min</span> = 60 <span class="epigrafe">s</span></strong></em> y que <em><strong>1 L = 10<sup>-3</sup> m<sup>3</sup></strong></em><strong><em><em><sup></sup></em></em></strong>...</p>
+    <blockquote>
+      <p><strong><em><strong><em>Pot</em></strong></em></strong><em><strong><sub>CD</sub></strong></em> <strong>= <em>0,138 <span class="epigrafe">W</span></em></strong></p>
+      </blockquote>
+    <p>Lo mismo para el corazón izquierdo:</p>
+    <blockquote>
+      <p><strong><em><strong><em>&#916;P</em></strong></em></strong><em><strong><sub>CI </sub></strong></em><strong>=</strong> <strong><em>p aorta</em></strong>&nbsp; <strong><em><strong>&mdash;</strong> p vena pulmonar</em></strong></p>
+      <p><strong><em><strong><em>&#916;P</em></strong></em></strong><em><strong><sub>CI </sub></strong></em><strong>=<em> 94 <span class="epigrafe">mmHg</span></em></strong>&nbsp; <strong><em><strong>&mdash;</strong> 5 <span class="epigrafe">mmHg</span></em></strong> <strong>=<em> 89 <span class="epigrafe">mmHg</span></em></strong></p>
+      <p><strong><em><strong><em>Pot</em></strong></em></strong><em><strong><sub>CI </sub></strong></em><strong>=</strong> <strong><em>89 <span class="epigrafe">mmHg</span></em></strong> . <em><strong>5,2<span class="epigrafe"> L/min</span></strong></em> <strong>=</strong> <em><strong>462,8</strong></em> <strong><em><span class="epigrafe">mmHg</span></em></strong>.<em><strong><span class="epigrafe">L/min</span></strong></em></p>
+      <p><strong><em><strong><em>Pot</em></strong></em></strong><em><strong><sub>CI</sub></strong></em> <strong>= <em>1,028 <span class="epigrafe">W</span></em></strong></p>
+    </blockquote>
+    <p><strong>b) ¿Cómo piensa que será el grosor de las  paredes del ventrículo derecho comparadas con  de las del ventrículo izquierdo? ¿por qué?</strong> La presión que imprime el corazón en cada uno de sus ventrículos no es otra cosa que la fuerza con la que se contrae el músculo dividido el área enterna del ventrículo. Y la fuerza muscular es proporcional a su grosor. Luego, es dable esperar que las parede es ventrículo izquierdo sean más gruesas que las del derecho. Miralo con tus ojos:</p></td>
+  <td width="7" class="bodytext">&nbsp;</td>
+  <td width="85" align="center" valign="middle" class="epigrafe Estilo18">&nbsp;</td>
+</tr>  
+
+<tr>
+  <td height="260" colspan="2" align="center" valign="middle" class="bodytext"><p><img src="img_hdinam/corazon.jpg" width="460" height="300"></p></td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td colspan="2" align="left" valign="middle" class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext"><p></td>
+</tr>
+<tr>
+  <td height="49" colspan="2" align="left" class="bodytext"><p>&nbsp;</p>
+    <blockquote>&nbsp;    </blockquote>    </td>
+  <td class="bodytext">&nbsp;</td>
+  <td width="85" rowspan="3" valign="bottom" class="bodytext"><strong><em><sub><p><img src="img_hdinam/ric_fotoric.jpg" alt="Flu&iacute;dos - Ricardo Cabrera" width="85" height="110" /></sub></em></strong></td>
+</tr>
+
+<tr>
+  <td height="18" colspan="2" bgcolor="#FFFFFF" class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+  </tr>
+
+<tr> <td height="64" colspan="2" align="center" valign="middle" bgcolor="#CCCCCC" class="bodytext"><table width="400" height="31" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td class="epigrafe">Algunos derechos reservados. 
+  Se permite su reproducci&oacute;n citando la fuente.  &Uacute;ltima actualizaci&oacute;n jul-22. Buenos Aires, Argentina. </td>
+  </tr>
+</table>  </td>
+  <td class="bodytext" width="7">&nbsp;</td>
+  </tr> 
+<tr> <td height="18" colspan="2" class="bodytext">&nbsp;</td><td class="bodytext" width="7">&nbsp;</td>
+<td class="bodytext" width="85">&nbsp;</td>
+</tr> 
+</table></td></tr> </table><p><img src="img_hdinam/transparente.gif" width="10" height="20" /></td></tr> 
+<tr> <td class="bodytext"><p><img src="img_hdinam/transparente.gif" width="600" height="20" /></td></tr> 
+</table>
+</body>
+</html>

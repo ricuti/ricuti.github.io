@@ -1,0 +1,357 @@
+<html>
+<head>
+<title>MECANICA DE FLUIDOS, EM14, fisica online, ejercicios resueltos</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="keywords" content="problemas resueltos, ejercicios resueltos, cbc, fisica, biofisica, fluidos, liquidos, gases, bernoulli, poiseuille, viscosidad, ideales, viscosos, humedad, difusion, osmosis, nomesalen, no me salen, ricardo cabrera" />
+<meta name="description" content="Ejercicios y problemas resueltos, y apuntes teóricos de Fluidos, mecanismos de transporte de fluidos" />
+<link rel="stylesheet" href="win_ie.css">
+<style type="text/css">
+<!--
+.style1 {
+	color: #3F6386;
+	font-weight: bold;
+}
+.Estilo3 {color: #3F6386}
+.Estilo16 {font-size: 16px}
+.Estilo17 {font-size: 10px}
+.Estilo18 {font-weight: bold}
+.Estilo19 {font-weight: bold}
+.Estilo26 {font-family: "Times New Roman", Times, serif;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 16px;
+}
+.Estilo25 {font-family: Verdana, Arial, sans-serif}
+-->
+</style>
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000" alink="#000000" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<table align=center width="600" border="0" cellspacing="0" cellpadding="0"> 
+  <tr bgcolor="#000000" align="right"> 
+<td><img src="img_hdinam/nombre5.gif" width="369" height="71" /></td></tr> <tr bgcolor="#BB0000" valign="middle" align="left"> 
+<td class="bodytext" height="20"><TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+  <TR ALIGN="center" CLASS="menuitem">
+    <TD WIDTH="43" height="19" CLASS="menuitem"><A HREF="../../index.html" CLASS="menuitem">&nbsp;<B>home</B>&nbsp;</A></TD>
+    <TD WIDTH="5" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="119" CLASS="menuitem"><strong><a href="index_hdinam.html" class="menuitem">más de hidrodinámica </a> </strong></TD>
+    <TD width="9" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="127" CLASS="menuitem"><strong><a href="../../intro_NMS.html" class="menuitem">otros temas de F&iacute;sica</a></strong></TD>
+    <TD width="10" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="160" CLASS="menuitem"><strong><a href="../../lista_ciruela.html" class="menuitem">lecciones del maestro Ciruela </a></strong></TD>
+    <TD width="8" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="67" CLASS="menuitem"><strong><a href="../../lista_tonterias.html" class="menuitem">tonter&iacute;as</a></strong></TD>
+    <TD WIDTH="7" CLASS="menuitem"><a href="../energia/index_energia.html" class="menuitem"></a><FONT COLOR="#000000">|</FONT></TD>
+    <TD WIDTH="48" CLASS="menuitem">&nbsp;<B><FONT FACE="Arial, Helvetica, sans-serif"><A HREF="mailto: ricuti@gmail.com" CLASS="menuitem">@</A></FONT><A HREF="../../index.html" CLASS="menuitem"></A></B>&nbsp;</TD>
+  </TR>
+</TABLE></td></tr> <tr> <td class="bodytext" height="19"><p><img src="img_hdinam/transparente.gif" width="600" height="20" /></td></tr> 
+<tr align="center"> <td height="2363"> <table width="600" border="0" cellspacing="0" cellpadding="0"> 
+<tr class="bodytext"> <td valign="top" width="594" height="1411"> 
+<table width="600" border="0" cellspacing="0" cellpadding="0"> <tr> 
+  <td height="74" colspan="2" bgcolor="#D7FFFF" class="bodytext"><span class="bodytext"><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>NO ME SALEN<br />
+</strong></span><span class="Estilo3"><em class="bodytext "><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>(<strong>PROBLEMAS RESUELTOS   DE BIOF&Iacute;SICA DEL CBC</strong>)</strong></em></span><br />
+      <span class="titulograndegris Estilo16"><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>FLUIDOS<br />
+      </strong></span><br /> </td>
+  <td class="bodytext" rowspan="3" height="74" width="7">&nbsp;</td>
+  <td class="bodytext" height="74" rowspan="3" valign="top" width="86"> 
+<p><img src="img_hdinam/cap3.jpg" alt="desesperado" width="85" height="120" /></p></td></tr>
+  <tr>
+    <td height="18" colspan="2" bgcolor="#FFFFFF" class="bodytext">&nbsp;</td>
+  </tr> 
+<tr> <td width="154" height="116" valign="top" class="bodytext"><p><img src="img_hdinam/G20_U2_1ra.gif" alt="" width="140" height="45"></P>
+    </td>
+  <td width="353" class="bodytext"><p><strong>44 - Se presenta un esquema muy simplificado  de la circulación sistémica. La sangre sale, a gran  presión, impulsada por el corazón a través de la  aorta. Tras sucesivas ramificaciones de arterias,  arteriolas y capilares irriga a los órganos, músculos y piel. Ese flujo de entrada es colectado por  las vénulas y venas que devuelven la sangre al  corazón. A lo largo del árbol sanguíneo la sangre  va perdiendo presión por efectos viscosos.<br />
+    <br />
+  </strong></p>    </td>
+</tr>
+<tr>
+  <td height="51" colspan="2" class="bodytext"><p><strong>a) Observe el gráfico cualitativo de la presión  manómetrica a lo largo del circuito sanguíneo y  analice en qué tramo es mayor la resistencia.</strong></p></td>
+  <td class="bodytext" height="51">&nbsp;</td>
+  <td height="51" align="center" valign="middle" class="bodytext"><p></td>
+</tr>  
+<tr> 
+  <td height="54" colspan="2" align="center" valign="middle" class="bodytext"><img src="img_hdinam/G20_Fd_44_1.png" width="450" height="496"></td>
+  <td class="bodytext" width="7">&nbsp;</td>
+  <td class="bodytext" width="86">&nbsp;</td>
+</tr>
+<tr>
+  <td height="48" colspan="2" align="left" valign="middle" class="bodytext"><p>Mirando el gráfico de presión a lo largo del árbol vascular se observa claramente que la caída de presión más abrupta se produce a la altura de las arteriolas.</p>
+    <p><strong>b) El flujo en la aorta (Q = 80 cm3/s) entra en su  totalidad en las arterias grandes, luego ese caudal se reparte por entero en las arterias pequeñas y arteriolas; después ese flujo íntegramente  entra en los capilares. En cada nivel de flujo  podemos modelar el sistema como el de <em>n</em> vasos  dispuestos en paralelo de igual grosor y longitud, donde el valor de <em>n</em> es mayor en los sucesivos niveles de flujo.</strong></p>
+    </td>
+  <td height="48" align="left" valign="middle" class="bodytext">&nbsp;</td>
+  <td height="48" align="left" valign="middle" class="bodytext"><p></td>
+  </tr>
+<tr>
+  <td height="275" colspan="2" align="center" valign="middle" class="bodytext"><img src="img_hdinam/G20_Fd_44_2.png" alt="" width="400" height="262"></td>
+  <td height="275" align="left" valign="middle" class="bodytext">&nbsp;</td>
+  <td height="275" align="left" valign="middle" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="34" colspan="2" align="left" valign="middle" class="bodytext"><strong>Demuestre que la caída de presión en cada  nivel se puede calcular con la expresión:</strong></td>
+  <td height="34" align="left" valign="middle" class="bodytext">&nbsp;</td>
+  <td height="34" align="left" valign="middle" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="43" colspan="2" align="left" valign="middle" class="bodytext"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td width="15%" rowspan="3" align="right" class="bodytext"><strong><em>&Delta;p</em></strong><em><strong> </strong></em><strong>=</strong></td>
+      <td width="2%" rowspan="3" class="bodytext">&nbsp;</td>
+      <td width="13%" height="0" align="center" valign="bottom" class="bodytext"><strong><em>8</em></strong> <em class="Estilo26"><strong>&eta;</strong></em> <em><strong>L</strong></em></td>
+      <td width="70%" rowspan="3" class="bodytext"><strong><em>&nbsp;. Q</em></strong></td>
+    </tr>
+    <tr>
+      <td height="2" align="center" valign="middle" class="epigrafe"><hr align="center" width="100%" style="color:black" size="1" noshade></td>
+    </tr>
+    <tr>
+      <td height="0" align="center" valign="top" class="bodytext"><em><strong>n . <span class="Estilo26">&pi;</span> . r<sup>4</sup><span class="Estilo17"></span></strong></em></td>
+    </tr>
+  </table></td>
+  <td height="43" align="left" valign="middle" class="bodytext">&nbsp;</td>
+  <td height="43" align="left" valign="middle" class="bodytext">&nbsp;</td>
+</tr>
+
+<tr>
+  <td height="46" colspan="2" align="left" valign="middle" class="bodytext"><p class="bodytext"><strong>Donde <em>L</em> y <em>r</em> son la longitud y el radio de cada  rama, <em>n</em> es el número de vasos idénticos en paralelo en el nivel considerado y Q es el caudal total</strong>. OK, es sencillo. La pregunta es cuánto val la resistencia total de un conjunto de vasos asociados en paralelo. Y vos lo sabés. Llamemos <em><strong>RT</strong></em> a la resistencia del conjunto y <em><strong>R</strong></em> a la resistencia de un solo vaso que integra el conjunto y que es igual a la de los otros vasos. Entonces:</p></td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="54" colspan="2" align="left" valign="middle" class="bodytext"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td width="9%" rowspan="3" align="right" class="bodytext">&nbsp;</td>
+      <td width="6%" align="center" valign="bottom" class="bodytext"><em><strong>1<sub></sub></strong></em></td>
+      <td width="3%" rowspan="3" align="center" valign="middle" class="bodytext"><strong>=</strong></td>
+      <td width="5%" height="28" align="center" valign="bottom" class="bodytext"><em><strong>1<sub></sub></strong></em></td>
+      <td width="3%" rowspan="3" align="center" valign="middle" class="bodytext"><strong>+</strong></td>
+      <td width="5%" height="28" align="center" valign="bottom" class="bodytext"><strong><em>1<strong><strong><em><strong><strong><em><span class="epigrafe"></span></em></strong></strong></em></strong></strong></em></strong></td>
+      <td width="3%" rowspan="3" align="center" valign="middle" class="bodytext"><strong><em><strong>+</strong></em></strong></td>
+      <td width="5%" align="center" valign="bottom" class="bodytext"><strong><em>1<strong><strong><em><span class="epigrafe"></span></em></strong></strong></em></strong></td>
+      <td width="10%" rowspan="3" align="center" valign="middle" class="bodytext"><strong><em><strong>+ ... +</strong></em></strong></td>
+      <td width="5%" align="center" valign="bottom" class="bodytext"><strong><em>1<strong><strong><em><span class="epigrafe"></span></em></strong></strong></em></strong></td>
+      <td width="9%" rowspan="3" align="center" valign="middle" class="bodytext">&nbsp;</td>
+      <td width="37%" rowspan="3" align="left" valign="middle" class="bodytext"><strong><em>n</em></strong> sumandos</td>
+    </tr>
+    <tr>
+      <td align="center" valign="middle" class="bodytext"><hr align="center" width="100%" style="color:black" size="1" noshade></td>
+      <td height="2" align="center" valign="middle" class="bodytext"><hr align="center" width="100%" style="color:black" size="1" noshade></td>
+      <td align="center" valign="middle" class="bodytext"><hr align="center" width="100%" style="color:black" size="1" noshade></td>
+      <td align="center" valign="middle" class="bodytext"><hr align="center" width="100%" style="color:black" size="1" noshade></td>
+      <td align="center" valign="middle" class="bodytext"><hr align="center" width="100%" style="color:black" size="1" noshade></td>
+      </tr>
+    <tr>
+      <td align="center" valign="top" class="bodytext"><em><strong>RT</strong></em></td>
+      <td height="25" align="center" valign="top" class="bodytext"><em><strong>R<sub></sub></strong></em></td>
+      <td height="25" align="center" valign="top" class="bodytext"><strong><em>R<span class="epigrafe"></span></em></strong></td>
+      <td align="center" valign="top" class="bodytext"><strong><em>R<span class="epigrafe"></span></em></strong></td>
+      <td align="center" valign="top" class="bodytext"><strong><em>R<span class="epigrafe"></span></em></strong></td>
+      </tr>
+  </table></td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="44" colspan="2" align="left" valign="middle" class="bodytext"><p>En esa suma de fracciones todos los sumandos son identicos, de modo que:</p></td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="18" colspan="2" align="left" class="bodytext"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td width="9%" rowspan="3" align="right" class="bodytext">&nbsp;</td>
+      <td width="6%" align="center" valign="bottom" class="bodytext"><em><strong>1<sub></sub></strong></em></td>
+      <td width="4%" rowspan="3" align="center" valign="middle" class="bodytext"><strong>=</strong></td>
+      <td width="5%" height="28" align="center" valign="bottom" class="bodytext"><em><strong>n<sub></sub></strong></em></td>
+      <td width="76%" rowspan="3" align="center" valign="middle" class="bodytext">&nbsp;</td>
+      </tr>
+    <tr>
+      <td align="center" valign="middle" class="bodytext"><hr align="center" width="100%" style="color:black" size="1" noshade></td>
+      <td height="2" align="center" valign="middle" class="bodytext"><hr align="center" width="100%" style="color:black" size="1" noshade></td>
+      </tr>
+    <tr>
+      <td align="center" valign="top" class="bodytext"><em><strong>RT</strong></em></td>
+      <td height="25" align="center" valign="top" class="bodytext"><em><strong>R<sub></sub></strong></em></td>
+      </tr>
+  </table></td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="18" colspan="2" align="left" class="bodytext">De donde:</td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="18" colspan="2" align="left" class="bodytext"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td width="13%" rowspan="3" align="right" class="bodytext"><em><strong>RT</strong></em></td>
+      <td width="5%" rowspan="3" align="center" valign="middle" class="bodytext"><strong>=</strong></td>
+      <td width="7%" height="28" align="center" valign="bottom" class="bodytext"><em><strong>R<sub></sub></strong></em></td>
+      <td width="75%" rowspan="3" align="center" valign="middle" class="bodytext">&nbsp;</td>
+    </tr>
+    <tr>
+      <td height="2" align="center" valign="middle" class="bodytext"><hr align="center" width="100%" style="color:black" size="1" noshade></td>
+    </tr>
+    <tr>
+      <td height="25" align="center" valign="top" class="bodytext"><em><strong>n<sub></sub></strong></em></td>
+    </tr>
+  </table></td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="18" colspan="2" align="left" class="bodytext">Y aplicando la  <strong>ley de Poiseuille</strong> que describe el valor de la resistencia de cada tubo, <em><strong>R</strong></em>, tenemos:</td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="52" colspan="2" align="left" class="bodytext"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td width="15%" rowspan="3" align="right" class="bodytext"><em><strong>RT</strong></em><em><strong> </strong></em><strong>=</strong></td>
+      <td width="2%" rowspan="3" class="bodytext">&nbsp;</td>
+      <td width="13%" height="0" align="center" valign="bottom" class="bodytext"><strong><em>8</em></strong> <em class="Estilo26"><strong>&eta;</strong></em> <em><strong>L</strong></em></td>
+      <td width="70%" rowspan="3" class="bodytext"><strong><em>&nbsp;</em></strong></td>
+    </tr>
+    <tr>
+      <td height="2" align="center" valign="middle" class="epigrafe"><hr align="center" width="100%" style="color:black" size="1" noshade></td>
+    </tr>
+    <tr>
+      <td height="0" align="center" valign="top" class="bodytext"><em><strong>n . <span class="Estilo26">&pi;</span> . r<sup>4</sup><span class="Estilo17"></span></strong></em></td>
+    </tr>
+  </table></td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="18" colspan="2" align="left" class="bodytext">Por útimo, apliquemos la ley de Ohm, <strong><em>&Delta;p</em></strong> = <em><strong>RT</strong></em> . <em><strong>Q</strong></em>, con lo que llegamos:</td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="51" colspan="2" align="left" class="bodytext"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td width="15%" rowspan="3" align="right" class="bodytext"><strong><em>&Delta;p</em></strong><em><strong> </strong></em><strong>=</strong></td>
+      <td width="2%" rowspan="3" class="bodytext">&nbsp;</td>
+      <td width="13%" height="0" align="center" valign="bottom" class="bodytext"><strong><em>8</em></strong> <em class="Estilo26"><strong>&eta;</strong></em> <em><strong>L</strong></em></td>
+      <td width="70%" rowspan="3" class="bodytext"><strong><em>&nbsp;. Q</em></strong></td>
+    </tr>
+    <tr>
+      <td height="2" align="center" valign="middle" class="epigrafe"><hr align="center" width="100%" style="color:black" size="1" noshade></td>
+    </tr>
+    <tr>
+      <td height="0" align="center" valign="top" class="bodytext"><em><strong>n . <span class="Estilo26">&pi;</span> . r<sup>4</sup><span class="Estilo17"></span></strong></em></td>
+    </tr>
+  </table></td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="51" colspan="2" align="left" class="bodytext"> <strong>c) Calcule la caída de presión en cada nivel de  flujo en este modelo simple confirmando los  valores indicados en el cuadro. Considere una  viscosidad de la sangre de <em><strong>4 x 10<sup>-3</sup></strong></em> <span class="epigrafe"><em>Pa.s</em></span>. </strong>OK, el cuadro que aporta el enunciado incluye los resultados. Pero vamos a hacer al menos uno de los cálculos porque es muy importante que sepas hacerlo. </td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="122" colspan="2" align="center" valign="middle" class="bodytext"><table width="450" border="1" cellspacing="0" cellpadding="0">
+    <tr>
+      <th width="99" scope="col">&nbsp;</th>
+      <th width="87" class="bodytext" scope="col"><em>radio (cm)</em></th>
+      <th width="78" class="bodytext" scope="col"><em>long. (cm)</em></th>
+      <th width="73" scope="col"><strong class="bodytext"><em>n</em></strong></th>
+      <th width="101" scope="col"><strong class="bodytext"><em>&Delta;p (mmHg)</em></strong></th>
+    </tr>
+    <tr>
+      <td align="center" class="bodytext">aorta</td>
+      <td class="bodytext"><em><strong>&nbsp;&nbsp; 1,25</strong></em></td>
+      <td align="center" class="bodytext"><em><strong>10</strong></em></td>
+      <td align="center" class="bodytext"><em><strong> 1</strong></em></td>
+      <td align="center" class="bodytext"><em><strong>0,025</strong></em></td>
+    </tr>
+    <tr>
+      <td align="center" class="bodytext">grandes arterias</td>
+      <td class="bodytext"><em><strong>&nbsp;&nbsp; 0,2</strong></em></td>
+      <td align="center" class="bodytext"><em><strong>75</strong></em></td>
+      <td align="center" class="bodytext"><em><strong> 200</strong></em></td>
+      <td align="center" class="bodytext"><em><strong>1,4</strong></em></td>
+    </tr>
+    <tr>
+      <td align="center" bgcolor="#FFFFCC" class="bodytext">arteriolas</td>
+      <td bgcolor="#FFFFCC" class="bodytext"><em><strong>&nbsp;&nbsp; 0,0031</strong></em></td>
+      <td align="center" bgcolor="#FFFFCC" class="bodytext"><em><strong>0,6</strong></em></td>
+      <td align="center" bgcolor="#FFFFCC" class="bodytext"><em><strong>5 x 10<sup>5</sup></strong></em></td>
+      <td align="center" bgcolor="#FFFFCC" class="bodytext"><em><strong>79</strong></em></td>
+    </tr>
+    <tr>
+      <td align="center" class="bodytext">capilares</td>
+      <td class="bodytext"><em><strong>&nbsp;&nbsp; 0,00035</strong></em></td>
+      <td align="center" class="bodytext"><em><strong>0,2</strong></em></td>
+      <td align="center" class="bodytext"><em><strong>10<sup>10</sup></strong></em></td>
+      <td align="center" class="bodytext"><em><strong>8,2</strong></em></td>
+    </tr>
+  </table></td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="63" colspan="2" align="left" class="bodytext"><p>Vamos con el de las arteriolas. Hay que homogeneizar las unidades.</p>
+    <blockquote>
+      <p><strong><em class="Estilo26"><strong>&eta;</strong></em> = <em><strong>4 x 10<sup>-3</sup></strong></em> <span class="epigrafe"><em>Pa.s</em></span></strong> <em><strong>= </strong></em><strong></strong><strong><em><strong>3 x 10<sup>-5</sup></strong></em> <span class="epigrafe"><em>mmHg.s</em></span></strong></p>
+    </blockquote></td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="53" colspan="2" align="left" class="bodytext"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td width="14%" rowspan="3" align="right" class="bodytext"><strong><em>&Delta;p</em></strong><em><strong> </strong></em><strong>=</strong></td>
+      <td width="2%" rowspan="3" class="bodytext">&nbsp;</td>
+      <td width="40%" height="0" align="center" valign="bottom" class="bodytext"><strong><em>8 . <strong>3 x 10<sup>-5</sup></strong></em> <span class="epigrafe"><em>mmHg.s</em></span></strong><em><strong> . 0,6 <span class="epigrafe">cm</span></strong></em></td>
+      <td width="44%" rowspan="3" class="bodytext"><strong><em>&nbsp;. 80 <span class="epigrafe">cm<strong><sup>3</sup></strong>/s</span></em></strong> <em><strong>= 79,46</strong></em><strong class="epigrafe"> <em>mmHg</em></strong></td>
+    </tr>
+    <tr>
+      <td height="2" align="center" valign="middle" class="epigrafe"><hr align="center" width="100%" style="color:black" size="1" noshade></td>
+    </tr>
+    <tr>
+      <td height="0" align="center" valign="top" class="bodytext"><em><strong>5 x 10<sup>5</sup> . <span class="Estilo26">&pi;</span> . (0,0031 <span class="epigrafe">cm</span>)<sup>4</sup></strong></em></td>
+    </tr>
+  </table></td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="215" colspan="2" align="left" class="bodytext"><p>Confirmado.</p>
+    <p class="bodytext"> <strong>d) El radio de los capilares es casi diez veces  menor que el de las arteriolas lo que implicaría  que la resistencia en cada fino capilar sea casi  10.000 veces mayor que la de cada arteriola  (¿por qué?), ¿cómo se explica que la mayor caída  de presión se dé a nivel de las arteriolas?</strong> La respuesta de la guía lo explica claramente:  <em>La incidencia de la potencia cuarta en el  radio, en el denominador de la ley de Poiseuille,  hace que un conducto con un radio 10 veces  menor tenga una resistencia hidrodinámica  ¡¡¡10.000 veces mayor!!! (10<em><sup>4</sup></em> = 10.000). Sin  embargo, lo que debemos considerar es la resistencia equivalente de todo el conjunto, que se  obtiene dividiendo la de cada elemento por el  número de los mismos.  El número de capilares es muchísimo mayor  que el de las arteriolas por lo que la resistencia  equivalente de estas resulta mayor que la resistencia equivalente de los capilares.</em></p></td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="18" colspan="2" align="left" class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="32" colspan="2" align="left" class="bodytext"><p><strong>COMENTARIO</strong>: El radio de las arteriolas es variable y está comandado por el sistema nervioso central autónomo. Es la llave maestra del sistema vascular.</p>    </td>
+  <td class="bodytext">&nbsp;</td>
+  <td width="86" rowspan="3" valign="bottom" class="bodytext"><strong><em><sub><p><img src="img_hdinam/ric_fotoric.jpg" alt="Flu&iacute;dos - Ricardo Cabrera" width="85" height="110" /></sub></em></strong></td>
+</tr>
+
+<tr>
+  <td height="18" colspan="2" bgcolor="#FFFFFF" class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+  </tr>
+
+<tr> <td height="56" colspan="2" align="center" valign="middle" bgcolor="#CCCCCC" class="bodytext"><table width="92%" border="0">
+  <tr>
+    <td class="epigrafe">Algunos derechos reservados. 
+  Se permite su reproducci&oacute;n citando la fuente. &Uacute;ltima actualizaci&oacute;n jul-22. Buenos Aires, Argentina. </td>
+  </tr>
+</table>  </td>
+  <td class="bodytext" width="7">&nbsp;</td>
+  </tr> 
+<tr> <td height="18" colspan="2" class="bodytext">&nbsp;</td><td class="bodytext" width="7">&nbsp;</td>
+<td class="bodytext" width="86">&nbsp;</td>
+</tr> 
+</table></td></tr> </table>
+<p><img src="img_hdinam/transparente.gif" width="10" height="20" /></td></tr> 
+<tr> <td class="bodytext"><p><img src="img_hdinam/transparente.gif" width="600" height="20" /></td></tr> 
+</table>
+</body>
+</html>
