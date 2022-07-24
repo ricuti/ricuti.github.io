@@ -1,0 +1,126 @@
+<html>
+<head>
+<title>MECANICA DE FLUIDOS, G20_54, fisica online, ejercicios resueltos</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="keywords" content="problemas resueltos, ejercicios resueltos, cbc, fisica, biofisica, fluidos, liquidos, gases, bernoulli, poiseuille, viscosidad, ideales, viscosos, humedad, difusion, osmosis, nomesalen, no me salen, ricardo cabrera" />
+<meta name="description" content="Ejercicios y problemas resueltos, y apuntes teóricos de Fluidos, mecanismos de transporte de fluidos" />
+<link rel="stylesheet" href="win_ie.css">
+<style type="text/css">
+<!--
+.style1 {
+	color: #3F6386;
+	font-weight: bold;
+}
+.Estilo3 {color: #3F6386}
+.Estilo16 {font-size: 16px}
+.Estilo19 {font-size: 10px; font-weight: bold; font-style: italic; }
+.Estilo26 {font-family: "Times New Roman", Times, serif;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 16px;
+}
+.Estilo25 {font-family: Verdana, Arial, sans-serif}
+-->
+</style>
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000" alink="#000000" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<table align=center width="609" border="0" cellspacing="0" cellpadding="0"> 
+  <tr bgcolor="#000000" align="right"> 
+<td width="609"><img src="img_hdinam/nombre5.gif" width="369" height="71" /></td></tr> <tr bgcolor="#BB0000" valign="middle" align="left"> 
+<td class="bodytext" height="20"><TABLE WIDTH="98%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+  <TR ALIGN="center" CLASS="menuitem">
+    <TD WIDTH="43" height="19" CLASS="menuitem"><A HREF="../../index.html" CLASS="menuitem">&nbsp;<B>home</B>&nbsp;</A></TD>
+    <TD WIDTH="5" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="119" CLASS="menuitem"><strong><a href="index_hdinam.html" class="menuitem">más de hidrodinámica </a> </strong></TD>
+    <TD width="9" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="127" CLASS="menuitem"><strong><a href="../../intro_NMS.html" class="menuitem">otros temas de F&iacute;sica</a></strong></TD>
+    <TD width="10" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="160" CLASS="menuitem"><strong><a href="../../lista_ciruela.html" class="menuitem">lecciones del maestro Ciruela </a></strong></TD>
+    <TD width="8" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="67" CLASS="menuitem"><strong><a href="../../lista_tonterias.html" class="menuitem">tonter&iacute;as</a></strong></TD>
+    <TD WIDTH="7" CLASS="menuitem"><a href="../energia/index_energia.html" class="menuitem"></a><FONT COLOR="#000000">|</FONT></TD>
+    <TD WIDTH="48" CLASS="menuitem">&nbsp;<B><FONT FACE="Arial, Helvetica, sans-serif"><A HREF="mailto: ricuti@gmail.com" CLASS="menuitem">@</A></FONT><A HREF="../../index.html" CLASS="menuitem"></A></B>&nbsp;</TD>
+  </TR>
+</TABLE></td></tr> <tr> <td class="bodytext" height="8"><p><img src="img_hdinam/transparente.gif" width="600" height="8" /></td>
+</tr> 
+<tr align="center"> <td height="1029"> <table width="596" border="0" cellspacing="0" cellpadding="0"> 
+<tr class="bodytext"> <td valign="top" width="596" height="987"> 
+<table width="597" border="0" cellspacing="0" cellpadding="0"> <tr> 
+  <td height="74" colspan="2" bgcolor="#D7FFFF" class="bodytext"><span class="bodytext"><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>NO ME SALEN<br />
+</strong></span><span class="Estilo3"><em class="bodytext "><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>(<strong>PROBLEMAS RESUELTOS   DE BIOF&Iacute;SICA DEL CBC</strong>)</strong></em></span><br />
+      <span class="titulograndegris Estilo16"><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>FLUIDOS<br />
+      </strong></span><br /> </td>
+  <td class="bodytext" rowspan="3" height="74" width="7">&nbsp;</td>
+  <td class="bodytext" height="74" rowspan="3" valign="top" width="84"> 
+<p><img src="img_hdinam/cap17.jpg" alt="desesperado" width="85" height="111" /></p></td></tr>
+  <tr>
+    <td height="14" colspan="2" bgcolor="#FFFFFF" class="bodytext">&nbsp;</td>
+  </tr> 
+<tr> <td width="149" height="45" valign="top" class="bodytext"><p><img src="img_hdinam/G20_U2_1ra.gif" alt="" width="140" height="45"></P>
+    </td>
+  <td width="357" class="bodytext"><p><strong>54 -  En la cistometrografía se representa la presión manométrica en la vejiga en función de su  volumen. En línea punteada se ven las ondas de  presión del reflejo de micción, producidas por los  sensores de la tensión en la pared de la vejiga.</strong></p></td>
+</tr>
+<tr>
+  <td height="208" colspan="2" align="center" valign="middle" class="bodytext"><p><img src="img_hdinam/G20_Fd_54_1.png" width="480" height="192"></p></td>
+  <td class="bodytext" height="208">&nbsp;</td>
+  <td class="bodytext" height="208" valign="top">&nbsp;</td>
+</tr>
+<tr>
+  <td height="50" colspan="2" align="left" valign="middle" class="bodytext"><p><strong>a) En el área biológica a veces se expresa la  presión manométrica en cmH2O; razone si ese  uso es para presiones mayores o menores que la  presión arterial. Deduzca el valor de la presión  atmosférica normal expresada en cmH2O. Halle  la equivalencia entre mmHg y cmH2O.  δHg: 13.600 kg/m3  </strong>.  <em>La presión bajo una columna de 1 cm de  mercurio es igual a la presión bajo otra columna  de 13,6 cm de agua porque la densidad del mercurio es 13,6 veces mayor que la del agua. Por lo  tanto, el cmH2O se utiliza para medir presiones  menores a las arteriales, por ejemplo para medir  presiones venosas.  1 mmHg = 1,36 cmH2O.  La presión atmosférica normal es de  760 mmHg = 1033,6 cmH2O.</em> (Acordate del <a href="G20_Fludin_r_58.html" target="_blank">ejercicio del buceo</a>: 10 m , 1 atm).</p>
+    <p><strong>b) Describa cómo cambia la presión dentro de  la vejiga en la medida que cambia el volumen,  distinguiendo claramente las tres etapas representadas en el gráfico. </strong><em>Mirando el gráfico se observa que la presión aumenta (la pendiente de la recta tangente  es siempre positiva) con el aumento del volumen  de la vejiga. Pero no lo hace de la misma manera durante el llenado de la vejiga, ya que la pendiente de la recta tangente del gráfico va variando a lo largo del proceso.  Teniendo en cuenta que la pendiente de la  recta tangente de este gráfico representa la velocidad con la que aumenta la presión con el  aumento de volumen, y que la concavidad está  relacionada con la aceleración de este proceso,  podemos distinguir tres etapas en el llenado de  la vejiga.</em></p>
+    <p><em>En una primera etapa la vejiga, inicialmente  vacía, comienza a llenarse hasta un volumen de  unos 80 ml. En esta etapa, la presión aumenta  pero cada vez más despacio (pendiente de la  recta tangente positiva y concavidad negativa)  hasta un valor de casi 10 cmH2O.  </em></p>
+    <p><em>En una segunda etapa, que va desde los 80 ml  hasta los 300 ml, aproximadamente, la orina adicional solo causa un pequeño aumento de la presión. En esta etapa la presión aumenta muy lentamente con rapidez aproximadamente constante (el gráfico es aproximadamente una recta).  </em></p>
+    <p><em>En la última etapa a partir de los 300 ml, la presión aumenta cada vez más rápido (la pendiente  de la recta tangente es positiva, y la curva es  cóncava hacia arriba).  Se observa también que en la segunda etapa  comienzan las ondas de presión del reflejo de  micción, que aumentan en la tercera etapa en la  que se siente urgencia por orinar.</em></p></td>
+  <td height="50" valign="middle" class="bodytext">&nbsp;</td>
+  <td class="bodytext" height="50" valign="top">&nbsp;</td>
+</tr>
+<tr>
+  <td height="260" colspan="2" align="center" valign="middle" class="bodytext"><img src="img_hdinam/me orino.jpg" width="350" height="229"></td>
+  <td class="bodytext" height="260">&nbsp;</td>
+  <td class="bodytext" height="260" valign="top">&nbsp;</td>
+</tr>
+<tr>
+  <td height="67" colspan="2" align="left" valign="top" class="bodytext"><p><strong>c) Los sensores de la tensión en la pared de la  vejiga marcan una urgencia por orinar cuando la  presión es de unos 30 cmH2O, exprese ese valor  en pascales</strong>. Una regla de tres simple: <em>Si <strong>101.300 <span class="epigrafe">Pa</span> = 1.033,6 <span class="epigrafe">cmH2O</span></strong></em>, entoces <em><strong>30 <span class="epigrafe">cmH2O</span></strong></em> valdrán... <em><strong>2940 <span class="epigrafe">Pa</span></strong></em>.</p></td>
+  <td class="bodytext" height="67">&nbsp;</td>
+  <td class="bodytext" height="67" valign="top">&nbsp;</td>
+</tr>
+<tr>
+  <td height="30" colspan="2" align="left" valign="top" class="bodytext">&nbsp;</td>
+  <td class="bodytext" height="30">&nbsp;</td>
+  <td class="bodytext" height="30" valign="top">&nbsp;</td>
+</tr>
+<tr>
+  <td colspan="2" align="left" valign="top" class="bodytext"><p>&nbsp;</p>    <p><br>
+    </p></td>
+  <td width="7" class="bodytext">&nbsp;</td>
+  <td width="84" valign="top" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="25" colspan="2" align="left" class="bodytext"><p class="epigrafe">Respuestas en itálica tomadas de la guía de ejercicios de la Cátedra de Biofísica, CBC, UBA.</p>    </td>
+  <td class="bodytext">&nbsp;</td>
+  <td width="84" rowspan="3" valign="bottom" class="bodytext"><img src="../cinematica/img_cin/ric_hora.jpg" alt="reloj de ricardo cabrera" width="85" height="119" /></td>
+</tr>
+
+<tr>
+  <td height="18" colspan="2" bgcolor="#FFFFFF" class="bodytext">&nbsp;</td>
+  <td class="bodytext">&nbsp;</td>
+  </tr>
+
+<tr> <td colspan="2" align="center" valign="middle" bgcolor="#CCCCCC" class="bodytext"><table width="85%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="epigrafe">Algunos derechos reservados. 
+  Se permite su reproducci&oacute;n citando la fuente. &Uacute;ltima actualizaci&oacute;n jul-22. Buenos Aires, Argentina. </td>
+  </tr>
+</table>  </td>
+  <td class="bodytext" width="7">&nbsp;</td>
+  </tr> 
+<tr> <td height="18" colspan="2" class="bodytext">&nbsp;</td><td class="bodytext" width="7">&nbsp;</td>
+<td class="bodytext" width="84">&nbsp;</td>
+</tr> 
+</table></td></tr> </table>
+<p><img src="img_hdinam/transparente.gif" width="10" height="20" /><img src="img_hdinam/transparente.gif" width="600" height="20" /></td></tr> 
+<tr> <td class="bodytext"><p></td></tr> 
+</table>
+</body>
+</html>
