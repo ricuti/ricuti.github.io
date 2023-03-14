@@ -1,0 +1,223 @@
+<html>
+<head>
+<title>DINAMICA, estatica cuerpo extenso, apunte teorico, ejercicios resueltos</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="keywords" content="problemas resueltos, ejercicios resueltos, cbc, fisica, biofisica, dinamica, estatica, nomesalen, no me salen, ricardo cabrera" />
+<meta name="description" content="Ejercicios y problemas resueltos, y apuntes teóricos de Dinámica y Estática" />
+<link rel="stylesheet" href="../dinamica/win_ie.css" />
+<style type="text/css">
+<!--
+.style1 {
+	color: #3F6386;
+	font-weight: bold;
+}
+.Estilo3 {color: #3F6386}
+.Estilo25 {font-family: Verdana, Arial, sans-serif}
+.Estilo27 {color: #FF0000}
+.Estilo28 {
+	font-family: "Times New Roman", Times, serif;
+	font-weight: bold;
+}
+.Estilo30 {
+	font-family: "Times New Roman", Times, serif;
+	line-height: 15px;
+	font-size: 14px;
+	font-style: italic;
+}
+.Estilo16 {font-size: 16px}
+.Estilo26 {	font-family: "Times New Roman", Times, serif;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 16px;
+}
+-->
+</style>
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000" alink="#000000" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<table align=center width="600" border="0" cellspacing="0" cellpadding="0"> 
+  <tr bgcolor="#000000" align="right"> 
+<td width="136" align="left" valign="top">&nbsp;</td>
+  <td width="502"><img src="img_est/nombre5.gif" width="369" height="71" /></td>
+  </tr> <tr bgcolor="#BB0000" valign="middle" align="left"> 
+<td height="20" colspan="2" class="bodytext"><TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+  <TR ALIGN="center" CLASS="menuitem">
+    <TD WIDTH="50" height="19" CLASS="menuitem"><A HREF="../../index.html" CLASS="menuitem">&nbsp;<B>home</B>&nbsp;</A></TD>
+    <TD WIDTH="5" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="155" CLASS="menuitem"><strong><a href="index_est.html" class="menuitem">más de estática </a> </strong></TD>
+    <TD width="17" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="115" CLASS="menuitem"><strong><a href="../../intro_NMS.html" class="menuitem">otros temas de F&iacute;sica</a></strong></TD>
+    <TD width="10" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="151" CLASS="menuitem"><strong><a href="../../lista_ciruela.html" class="menuitem">lecciones del maestro Ciruela </a></strong></TD>
+    <TD width="10" CLASS="menuitem"><FONT COLOR="#000000">|</FONT></TD>
+    <TD width="55" CLASS="menuitem"><strong><a href="../../lista_tonterias.html" class="menuitem">tonter&iacute;as </a></strong><a href="../cinematica/index_cin.html"></a><a href="../energia/index_energia.html" class="menuitem"></a></TD>
+    <TD WIDTH="10" CLASS="menuitem"><a href="../energia/index_energia.html" class="menuitem"></a><FONT COLOR="#000000">|</FONT></TD>
+    <TD WIDTH="22" CLASS="menuitem">&nbsp;<B><FONT FACE="Arial, Helvetica, sans-serif"><A HREF="mailto: ricuti@gmail.com" CLASS="menuitem">@</A></FONT><A HREF="../../index.html" CLASS="menuitem"></A></B>&nbsp;</TD>
+  </TR>
+</TABLE></td></tr> <tr> <td height="10" colspan="2" class="bodytext"><img src="../cinematica/img_cin/transparente.gif" width="600" height="10" /></td>
+</tr> 
+<tr align="center"> <td height="1526" colspan="2"> <table width="561" border="0" cellspacing="0" cellpadding="0"> 
+<tr class="bodytext"> <td colspan="2" valign="top" height="1497"> <img src="../cinematica/img_cin/transparente.gif" width="1" height="1" /></td>
+<td valign="top" width="550" height="1497"> 
+<table width="597" border="0" cellspacing="0" cellpadding="0"> 
+  <tr> 
+  <td height="73" colspan="2" bgcolor="#FFDB4A" class="bodytext"><p><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>NO ME SALEN<br>
+  </strong><span class="Estilo3"><em class="bodytext "><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>(EJERCICIOS RESUELTOS Y <strong>APUNTES TE&Oacute;RICOS  DE F&Iacute;SICA</strong>)</strong></em></span><br>
+  <span class="titulograndegris Estilo16"><strong><em><strong><em><strong><strong>&#160; &#160;</strong></strong></em></strong></em>Estática</strong></span><span class="Estilo3"><br />
+      </span><br /> 
+      </p>    </td>
+  <td class="bodytext" rowspan="2" height="73" width="10">&nbsp;</td>
+  <td class="bodytext" colspan="2" height="73" rowspan="2" valign="top" width="85"> 
+<p><img src="img_est/cap2.jpg" alt="¡no me salen!" width="85" height="130" /></p></td></tr> 
+<tr> <td height="231" colspan="2" valign="top" class="bodytext"><P><strong><br>
+  TORQUIMETROS O LLAVES DE TORSIÓN</strong><strong></strong></P>
+  <P>En mecánica (incluso en odontología para la colocación de implantes) es importante apretar los tornillos y tuercas (y los implantes) en la medida justa. Menos que eso puede producir aflojamientos espontáneos y más que eso puede producir roturas o deformaciones (el tornillo, la tuerca, el hueso de las mandíbulas en el caso de los implantes dentales).</P>
+  <P>Esas medidas justas no hablan de la fuerza del apriete. Como viste en la clase anterior (<a href="AT_estatica2.html" target="_blank">Momento de una fuerza o Torque</a>) una misma fuerza tiene efectos diferentes si se aplica cerca o lejos del eje de rotación. La medida justa a la que me refiero, entonces, es la de torque: <em><strong>M</strong></em><strong><em><strong><sub>F</sub></strong></em></strong> <strong>=</strong> <strong><em> d . </em></strong><strong><em>F</em></strong>.</P></td>
+</tr>  
+<tr>
+  <td height="38" colspan="2" align="center" bgcolor="#FFFFFF" class="bodytext"><table width="502" height="18" border="0" cellpadding="0" cellspacing="0">
+    <tr>
+      <td width="222" class="bodytext"><img src="img_est/gr_DAT_estat2_1.gif" width="200" height="143"></td>
+      <td width="280" class="bodytext"><p>Si una misma fuerza se aplica en <strong>A</strong> o en <strong>B</strong> o en <strong>C</strong>&nbsp;el efecto de apriete (o afloje) será diferente.</p>
+        <p> La magnitud indicada para medir este efecto (en adelante lo llamaré sencillamente <em>apriete</em>) es el <em>momento de la fuerza</em> o <em>torque</em>, <em><strong>M</strong></em>.</p></td>
+    </tr>
+  </table></td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext" colspan="2"><table width="85" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td height="116" align="center" class="epigrafe"><p class="Estilo27">Nosotros usaremos el s&iacute;mbolo <br>
+        <em><strong>M</strong></em><br>
+        tambi&eacute;n se utiliza el s&iacute;mbolo<br>
+        <span class="bodytext Estilo28"><span class="Estilo30">&tau;</span></span><br>
+        (letra griega min&uacute;scula <em>tau</em>)</p></td>
+    </tr>
+  </table></td>
+</tr>
+<tr>
+  <td height="130" colspan="2" align="left" class="bodytext"><p>Tanto los mecánicos como los odontólogos tienen a su disposición un tipo de herramientas que logran medir en forma automática la fuerza de apriete que indican los fabricantes de las piezas atornillables o la clínica en el caso odontológico. Esa herramienta se llama <em>torquímetro</em> o<em> llave de torsión</em>.</p>
+    <p>Hay de diversos tipos, incluso electrónicos con diisplay digital.  Los hay también automáticos (la llave deja de hacer fuerza cuando se alcanza o supera el torque prefijado) o manuales (el operador deja de hacer fuerza cuando la llave le indica que alcanzó el valor esperado). </p>
+    <p>Acá tenés dos. El de la izquierda uno automático electrónico de uso en el taller mecánico, y el de la derecha uno de uso odontológico.</p></td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext" colspan="2">&nbsp;</td>
+</tr>
+<tr>
+  <td height="193" colspan="2" align="left" class="bodytext"><table width="500" border="1" cellspacing="1" cellpadding="0">
+    <tr>
+      <th height="77" scope="col"><img src="img_est/Torquimetro1.jpg" width="240" height="150"></th>
+      <th scope="col">&nbsp;</th>
+      <th scope="col"><img src="img_est/Torquimetro2.jpg" width="240" height="206"></th>
+    </tr>
+    <tr class="epigrafe">
+      <th width="240" height="27" scope="col">Para el taller mecánico</th>
+      <th width="10" scope="col">&nbsp;</th>
+      <th width="238" scope="col">Para el consultorio</th>
+    </tr>
+  </table></td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext" colspan="2">&nbsp;</td>
+</tr>
+<tr>
+  <td height="92" colspan="2" align="left" class="bodytext"><p>Los electrónicos suelen disponer de todas las escalas en las unidades que se necesiten. Pero los de tipo mecánico vienen en una sola  escala según las unidades que se utilicen en el país de procedencia. Es preciso, entonces, de disponer de una tabla de convesion o de un conversor<em> on line</em>. Acá tenés una breve tabla de conversión con las unidades más utilizadas.</p></td>
+  <td class="bodytext">&nbsp;</td>
+  <td class="bodytext" colspan="2">&nbsp;</td>
+</tr>
+<tr>
+  <td height="133" colspan="2" align="center" class="bodytext"><table width="450" border="1" cellspacing="1" cellpadding="0">
+    <tr>
+      <th width="66" height="31" bgcolor="#FFFF99" class="bodytext" scope="col">unidades</th>
+      <th width="89" bgcolor="#FFFF99" class="bodytext" scope="col">Nm</th>
+      <th width="94" bgcolor="#FFFF99" class="bodytext" scope="col">N.cm</th>
+      <th width="102" bgcolor="#FFFF99" class="bodytext" scope="col">kgf.m</th>
+      <th width="81" bgcolor="#FFFF99" class="bodytext" scope="col">lbf.in</th>
+    </tr>
+    <tr>
+      <th bgcolor="#FFFF99" class="bodytext" scope="row">1 Nm <strong>=</strong></th>
+      <td align="center" valign="middle" class="bodytext"><strong>1</strong></td>
+      <td align="center" valign="middle" class="bodytext"><strong>100</strong></td>
+      <td align="center" valign="middle" class="bodytext"><strong>0,1019</strong></td>
+      <td align="center" valign="middle" class="bodytext"><strong>8,8476</strong></td>
+    </tr>
+    <tr>
+      <th bgcolor="#FFFF99" class="bodytext" scope="row">1  N.cm <strong>=</strong></th>
+      <td align="center" valign="middle" class="bodytext"><strong>0,01</strong></td>
+      <td align="center" valign="middle" class="bodytext"><strong>1</strong></td>
+      <td align="center" valign="middle" class="bodytext"><strong>0,0010</strong></td>
+      <td align="center" valign="middle" class="bodytext"><strong>0,0885</strong></td>
+    </tr>
+    <tr>
+      <th bgcolor="#FFFF99" class="bodytext" scope="row">1 kgf.m =</th>
+      <td align="center" valign="middle" class="bodytext"><strong>9,8070</strong></td>
+      <td align="center" valign="middle" class="bodytext"><strong>980,70</strong></td>
+      <td align="center" valign="middle" class="bodytext"><strong>1</strong></td>
+      <td align="center" valign="middle" class="bodytext"><strong>86,7947</strong></td>
+    </tr>
+    <tr>
+      <th bgcolor="#FFFF99" class="bodytext" scope="row">1 lbf.in =</th>
+      <td align="center" valign="middle" class="bodytext"><strong>0,1130</strong></td>
+      <td align="center" valign="middle" class="bodytext"><strong>11,3025</strong></td>
+      <td align="center" valign="middle" class="bodytext"><strong>0,0115</strong></td>
+      <td align="center" valign="middle" class="bodytext"><strong>1</strong></td>
+    </tr>
+  </table></td>
+  <td class="bodytext">&nbsp;</td>
+  <td width="85" colspan="2" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="70" colspan="2" align="left" valign="middle" class="bodytext"><p>La segunda columna (N.cm) es la más utilizada en odontología para la colocación de implantes. Las otras son utilizadas en mecánica automotriz. Si necesitás un conversor con más unidades y cálculo preciso <a href="http://www.unitconversion.org/unit_converter/torque.html" target="_blank">acá</a> tenés uno.</p></td>
+  <td class="bodytext">&nbsp;</td>
+  <td colspan="2" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td colspan="2" align="left" class="bodytext"><p>&nbsp;</p></td>
+  <td class="bodytext">&nbsp;</td>
+  <td colspan="2" class="bodytext"><p>&nbsp;</p></td>
+</tr>
+<tr>
+  <td height="24" colspan="2" align="left" valign="middle" class="bodytext"><span class="bodylinkblack"><strong>CHISMES IMPORTANTES</strong>: </span></td>
+  <td class="bodytext">&nbsp;</td>
+  <td width="85" colspan="2" valign="bottom" class="bodytext">&nbsp;</td>
+</tr>
+<tr>
+  <td height="183" colspan="2" align="left" valign="middle" class="bodytext"><ul>
+    <li>El torque (o par de torsión) indicado paara implantes depende de varios factores&nbsp;el tipo de material (aleación de titanio) y la geometría de la rosca. pero también hay un factor clínico que depende -principalmente- de la salud del hueso maxilar.</li>
+    <li>El torque con que se ajustan las piezas principales de un motor (tapa de cilindros, tapa de válvulas) es crucial para el armado. Un mal ajuste termina en la inutilización del motor. Incluso en orden en que se ajusta es relevante ya que durante el ajuste los bloques de estiran y deforman. Habitualmente cada motor lleva con sigo una cinética de ajuste en dos etapas y de adentro hacia afuera. </li>
+  </ul></td>
+  <td class="bodytext">&nbsp;</td>
+  <td colspan="2" align="center" valign="bottom" class="bodytext">&nbsp;</td>
+</tr>
+
+<tr>
+  <td height="41" colspan="2" align="left" valign="middle" class="bodytext"><strong>PREGUNTAS CAPCIOSAS</strong>: </td>
+  <td class="bodytext">&nbsp;</td>
+  <td width="85" colspan="2" rowspan="3" valign="bottom" class="bodytext"><img src="img_est/ric_hora.jpg" width="85" height="119" /></td>
+</tr>
+<tr>
+  <td height="25" colspan="2" align="left" valign="middle" class="bodytext"><ul>
+    <li>¿Cuáles son las causas principales de los desajustes de implantes dentales?</li>
+  </ul></td>
+  <td class="bodytext">&nbsp;</td>
+  </tr>
+<tr>
+  <td height="14" colspan="2" align="center" class="bodytext">&nbsp;</td>
+  <td width="10" class="bodytext">&nbsp;</td>
+  </tr>
+
+
+
+
+<tr> <td height="33" colspan="2" align="center" valign="middle" bgcolor="#CCCCCC" class="bodytext"><table width="90%" border="0">
+  <tr>
+    <td class="epigrafe">Algunos derechos reservados. 
+  Se permite su reproducci&oacute;n citando la fuente. &Uacute;ltima actualizaci&oacute;n may-23. Buenos Aires, Argentina. </td>
+  </tr>
+</table>  </td>
+  <td class="bodytext" width="10">&nbsp;</td>
+  <td width="85" colspan="2" valign="middle" class="bodytext"><a href="AT_cupla.html"><img src="img_est/boton.gif" width="85" height="27" border="0"></a></td>
+</tr> 
+</table></td></tr> </table><img src="img_est/transparente.gif" width="20" height="20" /></td>
+</tr> 
+<tr> <td colspan="2" class="bodytext"><img src="../cinematica/img_cin/transparente.gif" width="600" height="8" /></td>
+</tr> 
+</table>
+</body>
+</html>
